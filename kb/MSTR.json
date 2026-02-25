@@ -1,0 +1,1516 @@
+{
+  "ticker": "MSTR",
+  "updated_at": "2026-02-25T02:33:54+09:00",
+  "thesis": "",
+  "business_summary": "",
+  "moat": "",
+  "key_drivers": [],
+  "key_risks": [],
+  "valuation_method": "simple",
+  "valuation_assumptions": {},
+  "target_price": null,
+  "fair_value_range": null,
+  "evidence": [
+    {
+      "ts_kst": "2026-02-24T22:43:10+09:00",
+      "source": "news",
+      "title": "What Is Jane Street Really Doing? Terraform Allegations, Bitcoin Sale, MSTR Buys",
+      "summary": "Legal allegations and aggressive asset sales may impact investor confidence.",
+      "link": "https://www.ccn.com/news/crypto/what-is-jane-street-doing-terraform-bitcoin-mstr/?.tsrc=rss",
+      "sentiment": "bearish",
+      "impact": -1,
+      "tags": [
+        "litigation_investigation"
+      ],
+      "raw": {
+        "tickers": [
+          "MSTR"
+        ],
+        "event_type": "litigation_investigation",
+        "sentiment": "bearish",
+        "impact": -1,
+        "confidence": 0.6,
+        "key_points": [
+          "Jane Street faces a lawsuit alleging insider trading related to the Terra Luna collapse.",
+          "The firm has been selling Bitcoin aggressively in the U.S."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Legal allegations and aggressive asset sales may impact investor confidence."
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "ts_kst": "2026-02-25T02:33:54+09:00",
+      "action": "SELL",
+      "confidence": 0.6,
+      "rationale": "近期有法律诉讼和比特币抛售的负面新闻，可能影响投资者信心。当前市场情绪偏向谨慎。",
+      "key_drivers": [
+        "法律诉讼",
+        "比特币抛售"
+      ],
+      "key_risks": [
+        "投资者信心下降"
+      ],
+      "valuation_view": "尚未确定公允价值区间",
+      "counterfactuals": [
+        "如果有正面的公司公告或市场情绪改善，可能会改变当前持有立场"
+      ],
+      "next_checks": [
+        "等待更多企业公告以评估长期方向性"
+      ],
+      "raw": {
+        "action": "SELL",
+        "confidence": 0.6,
+        "rationale": "近期有法律诉讼和比特币抛售的负面新闻，可能影响投资者信心。当前市场情绪偏向谨慎。",
+        "key_drivers": [
+          "法律诉讼",
+          "比特币抛售"
+        ],
+        "key_risks": [
+          "投资者信心下降"
+        ],
+        "valuation_view": "尚未确定公允价值区间",
+        "counterfactuals": [
+          "如果有正面的公司公告或市场情绪改善，可能会改变当前持有立场"
+        ],
+        "next_checks": [
+          "等待更多企业公告以评估长期方向性"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T02:32:16+09:00",
+      "action": "SELL",
+      "confidence": 0.6,
+      "rationale": "近期有法律诉讼和比特币抛售的负面新闻，可能影响投资者信心。当前市场情绪偏向谨慎。",
+      "key_drivers": [
+        "法律诉讼",
+        "比特币抛售"
+      ],
+      "key_risks": [
+        "投资者信心下降"
+      ],
+      "valuation_view": "尚未确定公允价值区间",
+      "counterfactuals": [
+        "如果有正面的公司公告或市场情绪改善，可能会改变当前持有立场"
+      ],
+      "next_checks": [
+        "等待更多企业公告以评估长期方向性"
+      ],
+      "raw": {
+        "action": "SELL",
+        "confidence": 0.6,
+        "rationale": "近期有法律诉讼和比特币抛售的负面新闻，可能影响投资者信心。当前市场情绪偏向谨慎。",
+        "key_drivers": [
+          "法律诉讼",
+          "比特币抛售"
+        ],
+        "key_risks": [
+          "投资者信心下降"
+        ],
+        "valuation_view": "尚未确定公允价值区间",
+        "counterfactuals": [
+          "如果有正面的公司公告或市场情绪改善，可能会改变当前持有立场"
+        ],
+        "next_checks": [
+          "等待更多企业公告以评估长期方向性"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T02:30:17+09:00",
+      "action": "SELL",
+      "confidence": 0.6,
+      "rationale": "近期有法律诉讼和比特币抛售的负面新闻，可能影响投资者信心。当前市场情绪偏向谨慎。",
+      "key_drivers": [
+        "法律诉讼",
+        "比特币抛售"
+      ],
+      "key_risks": [
+        "投资者信心下降"
+      ],
+      "valuation_view": "尚未确定公允价值区间",
+      "counterfactuals": [
+        "如果有正面的公司公告或市场情绪改善，可能会改变当前持有立场"
+      ],
+      "next_checks": [
+        "等待更多企业公告以评估长期方向性"
+      ],
+      "raw": {
+        "action": "SELL",
+        "confidence": 0.6,
+        "rationale": "近期有法律诉讼和比特币抛售的负面新闻，可能影响投资者信心。当前市场情绪偏向谨慎。",
+        "key_drivers": [
+          "法律诉讼",
+          "比特币抛售"
+        ],
+        "key_risks": [
+          "投资者信心下降"
+        ],
+        "valuation_view": "尚未确定公允价值区间",
+        "counterfactuals": [
+          "如果有正面的公司公告或市场情绪改善，可能会改变当前持有立场"
+        ],
+        "next_checks": [
+          "等待更多企业公告以评估长期方向性"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T01:45:10+09:00",
+      "action": "SELL",
+      "confidence": 0.6,
+      "rationale": "近期有法律诉讼和比特币抛售的负面新闻，可能影响投资者信心。当前市场情绪偏向谨慎。",
+      "key_drivers": [
+        "法律诉讼",
+        "比特币抛售"
+      ],
+      "key_risks": [
+        "投资者信心下降"
+      ],
+      "valuation_view": "尚未确定公允价值区间",
+      "counterfactuals": [
+        "如果有正面的公司公告或市场情绪改善，可能会改变当前持有立场"
+      ],
+      "next_checks": [
+        "等待更多企业公告以评估长期方向性"
+      ],
+      "raw": {
+        "action": "SELL",
+        "confidence": 0.6,
+        "rationale": "近期有法律诉讼和比特币抛售的负面新闻，可能影响投资者信心。当前市场情绪偏向谨慎。",
+        "key_drivers": [
+          "法律诉讼",
+          "比特币抛售"
+        ],
+        "key_risks": [
+          "投资者信心下降"
+        ],
+        "valuation_view": "尚未确定公允价值区间",
+        "counterfactuals": [
+          "如果有正面的公司公告或市场情绪改善，可能会改变当前持有立场"
+        ],
+        "next_checks": [
+          "等待更多企业公告以评估长期方向性"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T01:29:33+09:00",
+      "action": "SELL",
+      "confidence": 0.6,
+      "rationale": "近期有法律诉讼和比特币抛售的负面新闻，可能影响投资者信心。当前市场情绪偏向谨慎。",
+      "key_drivers": [
+        "法律诉讼",
+        "比特币抛售"
+      ],
+      "key_risks": [
+        "投资者信心下降"
+      ],
+      "valuation_view": "尚未确定公允价值区间",
+      "counterfactuals": [
+        "如果有正面的公司公告或市场情绪改善，可能会改变当前持有立场"
+      ],
+      "next_checks": [
+        "等待更多企业公告以评估长期方向性"
+      ],
+      "raw": {
+        "action": "SELL",
+        "confidence": 0.6,
+        "rationale": "近期有法律诉讼和比特币抛售的负面新闻，可能影响投资者信心。当前市场情绪偏向谨慎。",
+        "key_drivers": [
+          "法律诉讼",
+          "比特币抛售"
+        ],
+        "key_risks": [
+          "投资者信心下降"
+        ],
+        "valuation_view": "尚未确定公允价值区间",
+        "counterfactuals": [
+          "如果有正面的公司公告或市场情绪改善，可能会改变当前持有立场"
+        ],
+        "next_checks": [
+          "等待更多企业公告以评估长期方向性"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T01:27:46+09:00",
+      "action": "SELL",
+      "confidence": 0.6,
+      "rationale": "近期有法律诉讼和比特币抛售的负面新闻，可能影响投资者信心。当前市场情绪偏向谨慎。",
+      "key_drivers": [
+        "法律诉讼",
+        "比特币抛售"
+      ],
+      "key_risks": [
+        "投资者信心下降"
+      ],
+      "valuation_view": "尚未确定公允价值区间",
+      "counterfactuals": [
+        "如果有正面的公司公告或市场情绪改善，可能会改变当前持有立场"
+      ],
+      "next_checks": [
+        "等待更多企业公告以评估长期方向性"
+      ],
+      "raw": {
+        "action": "SELL",
+        "confidence": 0.6,
+        "rationale": "近期有法律诉讼和比特币抛售的负面新闻，可能影响投资者信心。当前市场情绪偏向谨慎。",
+        "key_drivers": [
+          "法律诉讼",
+          "比特币抛售"
+        ],
+        "key_risks": [
+          "投资者信心下降"
+        ],
+        "valuation_view": "尚未确定公允价值区间",
+        "counterfactuals": [
+          "如果有正面的公司公告或市场情绪改善，可能会改变当前持有立场"
+        ],
+        "next_checks": [
+          "等待更多企业公告以评估长期方向性"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T01:25:52+09:00",
+      "action": "SELL",
+      "confidence": 0.6,
+      "rationale": "近期有法律诉讼和比特币抛售的负面新闻，可能影响投资者信心。当前市场情绪偏向谨慎。",
+      "key_drivers": [
+        "法律诉讼",
+        "比特币抛售"
+      ],
+      "key_risks": [
+        "投资者信心下降"
+      ],
+      "valuation_view": "尚未确定公允价值区间",
+      "counterfactuals": [
+        "如果有正面的公司公告或市场情绪改善，可能会改变当前持有立场"
+      ],
+      "next_checks": [
+        "等待更多企业公告以评估长期方向性"
+      ],
+      "raw": {
+        "action": "SELL",
+        "confidence": 0.6,
+        "rationale": "近期有法律诉讼和比特币抛售的负面新闻，可能影响投资者信心。当前市场情绪偏向谨慎。",
+        "key_drivers": [
+          "法律诉讼",
+          "比特币抛售"
+        ],
+        "key_risks": [
+          "投资者信心下降"
+        ],
+        "valuation_view": "尚未确定公允价值区间",
+        "counterfactuals": [
+          "如果有正面的公司公告或市场情绪改善，可能会改变当前持有立场"
+        ],
+        "next_checks": [
+          "等待更多企业公告以评估长期方向性"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:34:10+09:00",
+      "action": "SELL",
+      "confidence": 0.6,
+      "rationale": "近期有法律诉讼和比特币抛售的负面新闻，可能影响投资者信心。当前市场情绪偏向谨慎。",
+      "key_drivers": [
+        "法律诉讼",
+        "比特币抛售"
+      ],
+      "key_risks": [
+        "投资者信心下降"
+      ],
+      "valuation_view": "尚未确定公允价值区间",
+      "counterfactuals": [
+        "如果有正面的公司公告或市场情绪改善，可能会改变当前持有立场"
+      ],
+      "next_checks": [
+        "等待更多企业公告以评估长期方向性"
+      ],
+      "raw": {
+        "action": "SELL",
+        "confidence": 0.6,
+        "rationale": "近期有法律诉讼和比特币抛售的负面新闻，可能影响投资者信心。当前市场情绪偏向谨慎。",
+        "key_drivers": [
+          "法律诉讼",
+          "比特币抛售"
+        ],
+        "key_risks": [
+          "投资者信心下降"
+        ],
+        "valuation_view": "尚未确定公允价值区间",
+        "counterfactuals": [
+          "如果有正面的公司公告或市场情绪改善，可能会改变当前持有立场"
+        ],
+        "next_checks": [
+          "等待更多企业公告以评估长期方向性"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:32:13+09:00",
+      "action": "SELL",
+      "confidence": 0.6,
+      "rationale": "近期有法律诉讼和比特币抛售的负面新闻，可能影响投资者信心。当前市场情绪偏向谨慎。",
+      "key_drivers": [
+        "法律诉讼",
+        "比特币抛售"
+      ],
+      "key_risks": [
+        "投资者信心下降"
+      ],
+      "valuation_view": "尚未确定公允价值区间",
+      "counterfactuals": [
+        "如果有正面的公司公告或市场情绪改善，可能会改变当前持有立场"
+      ],
+      "next_checks": [
+        "等待更多企业公告以评估长期方向性"
+      ],
+      "raw": {
+        "action": "SELL",
+        "confidence": 0.6,
+        "rationale": "近期有法律诉讼和比特币抛售的负面新闻，可能影响投资者信心。当前市场情绪偏向谨慎。",
+        "key_drivers": [
+          "法律诉讼",
+          "比特币抛售"
+        ],
+        "key_risks": [
+          "投资者信心下降"
+        ],
+        "valuation_view": "尚未确定公允价值区间",
+        "counterfactuals": [
+          "如果有正面的公司公告或市场情绪改善，可能会改变当前持有立场"
+        ],
+        "next_checks": [
+          "等待更多企业公告以评估长期方向性"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:21:19+09:00",
+      "action": "SELL",
+      "confidence": 0.6,
+      "rationale": "近期有法律诉讼和比特币抛售的负面新闻，可能影响投资者信心。当前市场情绪偏向谨慎。",
+      "key_drivers": [
+        "法律诉讼",
+        "比特币抛售"
+      ],
+      "key_risks": [
+        "投资者信心下降"
+      ],
+      "valuation_view": "尚未确定公允价值区间",
+      "counterfactuals": [
+        "如果有正面的公司公告或市场情绪改善，可能会改变当前持有立场"
+      ],
+      "next_checks": [
+        "等待更多企业公告以评估长期方向性"
+      ],
+      "raw": {
+        "action": "SELL",
+        "confidence": 0.6,
+        "rationale": "近期有法律诉讼和比特币抛售的负面新闻，可能影响投资者信心。当前市场情绪偏向谨慎。",
+        "key_drivers": [
+          "法律诉讼",
+          "比特币抛售"
+        ],
+        "key_risks": [
+          "投资者信心下降"
+        ],
+        "valuation_view": "尚未确定公允价值区间",
+        "counterfactuals": [
+          "如果有正面的公司公告或市场情绪改善，可能会改变当前持有立场"
+        ],
+        "next_checks": [
+          "等待更多企业公告以评估长期方向性"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:19:35+09:00",
+      "action": "SELL",
+      "confidence": 0.6,
+      "rationale": "近期有法律诉讼和比特币抛售的负面新闻，可能影响投资者信心。当前市场情绪偏向谨慎。",
+      "key_drivers": [
+        "法律诉讼",
+        "比特币抛售"
+      ],
+      "key_risks": [
+        "投资者信心下降"
+      ],
+      "valuation_view": "尚未确定公允价值区间",
+      "counterfactuals": [
+        "如果有正面的公司公告或市场情绪改善，可能会改变当前持有立场"
+      ],
+      "next_checks": [
+        "等待更多企业公告以评估长期方向性"
+      ],
+      "raw": {
+        "action": "SELL",
+        "confidence": 0.6,
+        "rationale": "近期有法律诉讼和比特币抛售的负面新闻，可能影响投资者信心。当前市场情绪偏向谨慎。",
+        "key_drivers": [
+          "法律诉讼",
+          "比特币抛售"
+        ],
+        "key_risks": [
+          "投资者信心下降"
+        ],
+        "valuation_view": "尚未确定公允价值区间",
+        "counterfactuals": [
+          "如果有正面的公司公告或市场情绪改善，可能会改变当前持有立场"
+        ],
+        "next_checks": [
+          "等待更多企业公告以评估长期方向性"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:17:45+09:00",
+      "action": "SELL",
+      "confidence": 0.6,
+      "rationale": "近期有法律诉讼和比特币抛售的负面新闻，可能影响投资者信心。当前市场情绪偏向谨慎。",
+      "key_drivers": [
+        "法律诉讼",
+        "比特币抛售"
+      ],
+      "key_risks": [
+        "投资者信心下降"
+      ],
+      "valuation_view": "尚未确定公允价值区间",
+      "counterfactuals": [
+        "如果有正面的公司公告或市场情绪改善，可能会改变当前持有立场"
+      ],
+      "next_checks": [
+        "等待更多企业公告以评估长期方向性"
+      ],
+      "raw": {
+        "action": "SELL",
+        "confidence": 0.6,
+        "rationale": "近期有法律诉讼和比特币抛售的负面新闻，可能影响投资者信心。当前市场情绪偏向谨慎。",
+        "key_drivers": [
+          "法律诉讼",
+          "比特币抛售"
+        ],
+        "key_risks": [
+          "投资者信心下降"
+        ],
+        "valuation_view": "尚未确定公允价值区间",
+        "counterfactuals": [
+          "如果有正面的公司公告或市场情绪改善，可能会改变当前持有立场"
+        ],
+        "next_checks": [
+          "等待更多企业公告以评估长期方向性"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:16:01+09:00",
+      "action": "SELL",
+      "confidence": 0.6,
+      "rationale": "近期有法律诉讼和比特币抛售的负面新闻，可能影响投资者信心。当前市场情绪偏向谨慎。",
+      "key_drivers": [
+        "法律诉讼",
+        "比特币抛售"
+      ],
+      "key_risks": [
+        "投资者信心下降"
+      ],
+      "valuation_view": "尚未确定公允价值区间",
+      "counterfactuals": [
+        "如果有正面的公司公告或市场情绪改善，可能会改变当前持有立场"
+      ],
+      "next_checks": [
+        "等待更多企业公告以评估长期方向性"
+      ],
+      "raw": {
+        "action": "SELL",
+        "confidence": 0.6,
+        "rationale": "近期有法律诉讼和比特币抛售的负面新闻，可能影响投资者信心。当前市场情绪偏向谨慎。",
+        "key_drivers": [
+          "法律诉讼",
+          "比特币抛售"
+        ],
+        "key_risks": [
+          "投资者信心下降"
+        ],
+        "valuation_view": "尚未确定公允价值区间",
+        "counterfactuals": [
+          "如果有正面的公司公告或市场情绪改善，可能会改变当前持有立场"
+        ],
+        "next_checks": [
+          "等待更多企业公告以评估长期方向性"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:14:05+09:00",
+      "action": "SELL",
+      "confidence": 0.6,
+      "rationale": "近期有法律诉讼和比特币抛售的负面新闻，可能影响投资者信心。当前市场情绪偏向谨慎。",
+      "key_drivers": [
+        "法律诉讼",
+        "比特币抛售"
+      ],
+      "key_risks": [
+        "投资者信心下降"
+      ],
+      "valuation_view": "尚未确定公允价值区间",
+      "counterfactuals": [
+        "如果有正面的公司公告或市场情绪改善，可能会改变当前持有立场"
+      ],
+      "next_checks": [
+        "等待更多企业公告以评估长期方向性"
+      ],
+      "raw": {
+        "action": "SELL",
+        "confidence": 0.6,
+        "rationale": "近期有法律诉讼和比特币抛售的负面新闻，可能影响投资者信心。当前市场情绪偏向谨慎。",
+        "key_drivers": [
+          "法律诉讼",
+          "比特币抛售"
+        ],
+        "key_risks": [
+          "投资者信心下降"
+        ],
+        "valuation_view": "尚未确定公允价值区间",
+        "counterfactuals": [
+          "如果有正面的公司公告或市场情绪改善，可能会改变当前持有立场"
+        ],
+        "next_checks": [
+          "等待更多企业公告以评估长期方向性"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:49:47+09:00",
+      "action": "SELL",
+      "confidence": 0.6,
+      "rationale": "近期有法律诉讼和比特币抛售的负面新闻，可能影响投资者信心。当前市场情绪偏向谨慎。",
+      "key_drivers": [
+        "法律诉讼",
+        "比特币抛售"
+      ],
+      "key_risks": [
+        "投资者信心下降"
+      ],
+      "valuation_view": "尚未确定公允价值区间",
+      "counterfactuals": [
+        "如果有正面的公司公告或市场情绪改善，可能会改变当前持有立场"
+      ],
+      "next_checks": [
+        "等待更多企业公告以评估长期方向性"
+      ],
+      "raw": {
+        "action": "SELL",
+        "confidence": 0.6,
+        "rationale": "近期有法律诉讼和比特币抛售的负面新闻，可能影响投资者信心。当前市场情绪偏向谨慎。",
+        "key_drivers": [
+          "法律诉讼",
+          "比特币抛售"
+        ],
+        "key_risks": [
+          "投资者信心下降"
+        ],
+        "valuation_view": "尚未确定公允价值区间",
+        "counterfactuals": [
+          "如果有正面的公司公告或市场情绪改善，可能会改变当前持有立场"
+        ],
+        "next_checks": [
+          "等待更多企业公告以评估长期方向性"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:47:51+09:00",
+      "action": "SELL",
+      "confidence": 0.6,
+      "rationale": "近期有法律诉讼和比特币抛售的负面新闻，可能影响投资者信心。当前市场情绪偏向谨慎。",
+      "key_drivers": [
+        "法律诉讼",
+        "比特币抛售"
+      ],
+      "key_risks": [
+        "投资者信心下降"
+      ],
+      "valuation_view": "尚未确定公允价值区间",
+      "counterfactuals": [
+        "如果有正面的公司公告或市场情绪改善，可能会改变当前持有立场"
+      ],
+      "next_checks": [
+        "等待更多企业公告以评估长期方向性"
+      ],
+      "raw": {
+        "action": "SELL",
+        "confidence": 0.6,
+        "rationale": "近期有法律诉讼和比特币抛售的负面新闻，可能影响投资者信心。当前市场情绪偏向谨慎。",
+        "key_drivers": [
+          "法律诉讼",
+          "比特币抛售"
+        ],
+        "key_risks": [
+          "投资者信心下降"
+        ],
+        "valuation_view": "尚未确定公允价值区间",
+        "counterfactuals": [
+          "如果有正面的公司公告或市场情绪改善，可能会改变当前持有立场"
+        ],
+        "next_checks": [
+          "等待更多企业公告以评估长期方向性"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:46:02+09:00",
+      "action": "SELL",
+      "confidence": 0.6,
+      "rationale": "近期有法律诉讼和比特币抛售的负面新闻，可能影响投资者信心。当前市场情绪偏向谨慎。",
+      "key_drivers": [
+        "法律诉讼",
+        "比特币抛售"
+      ],
+      "key_risks": [
+        "投资者信心下降"
+      ],
+      "valuation_view": "尚未确定公允价值区间",
+      "counterfactuals": [
+        "如果有正面的公司公告或市场情绪改善，可能会改变当前持有立场"
+      ],
+      "next_checks": [
+        "等待更多企业公告以评估长期方向性"
+      ],
+      "raw": {
+        "action": "SELL",
+        "confidence": 0.6,
+        "rationale": "近期有法律诉讼和比特币抛售的负面新闻，可能影响投资者信心。当前市场情绪偏向谨慎。",
+        "key_drivers": [
+          "法律诉讼",
+          "比特币抛售"
+        ],
+        "key_risks": [
+          "投资者信心下降"
+        ],
+        "valuation_view": "尚未确定公允价值区间",
+        "counterfactuals": [
+          "如果有正面的公司公告或市场情绪改善，可能会改变当前持有立场"
+        ],
+        "next_checks": [
+          "等待更多企业公告以评估长期方向性"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:37:42+09:00",
+      "action": "SELL",
+      "confidence": 0.6,
+      "rationale": "近期有法律诉讼和比特币抛售的负面新闻，可能影响投资者信心。当前市场情绪偏向谨慎。",
+      "key_drivers": [
+        "法律诉讼",
+        "比特币抛售"
+      ],
+      "key_risks": [
+        "投资者信心下降"
+      ],
+      "valuation_view": "尚未确定公允价值区间",
+      "counterfactuals": [
+        "如果有正面的公司公告或市场情绪改善，可能会改变当前持有立场"
+      ],
+      "next_checks": [
+        "等待更多企业公告以评估长期方向性"
+      ],
+      "raw": {
+        "action": "SELL",
+        "confidence": 0.6,
+        "rationale": "近期有法律诉讼和比特币抛售的负面新闻，可能影响投资者信心。当前市场情绪偏向谨慎。",
+        "key_drivers": [
+          "法律诉讼",
+          "比特币抛售"
+        ],
+        "key_risks": [
+          "投资者信心下降"
+        ],
+        "valuation_view": "尚未确定公允价值区间",
+        "counterfactuals": [
+          "如果有正面的公司公告或市场情绪改善，可能会改变当前持有立场"
+        ],
+        "next_checks": [
+          "等待更多企业公告以评估长期方向性"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:36:01+09:00",
+      "action": "SELL",
+      "confidence": 0.6,
+      "rationale": "近期有法律诉讼和比特币抛售的负面新闻，可能影响投资者信心。当前市场情绪偏向谨慎。",
+      "key_drivers": [
+        "法律诉讼",
+        "比特币抛售"
+      ],
+      "key_risks": [
+        "投资者信心下降"
+      ],
+      "valuation_view": "尚未确定公允价值区间",
+      "counterfactuals": [
+        "如果有正面的公司公告或市场情绪改善，可能会改变当前持有立场"
+      ],
+      "next_checks": [
+        "等待更多企业公告以评估长期方向性"
+      ],
+      "raw": {
+        "action": "SELL",
+        "confidence": 0.6,
+        "rationale": "近期有法律诉讼和比特币抛售的负面新闻，可能影响投资者信心。当前市场情绪偏向谨慎。",
+        "key_drivers": [
+          "法律诉讼",
+          "比特币抛售"
+        ],
+        "key_risks": [
+          "投资者信心下降"
+        ],
+        "valuation_view": "尚未确定公允价值区间",
+        "counterfactuals": [
+          "如果有正面的公司公告或市场情绪改善，可能会改变当前持有立场"
+        ],
+        "next_checks": [
+          "等待更多企业公告以评估长期方向性"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:34:16+09:00",
+      "action": "SELL",
+      "confidence": 0.6,
+      "rationale": "近期有法律诉讼和比特币抛售的负面新闻，可能影响投资者信心。当前市场情绪偏向谨慎。",
+      "key_drivers": [
+        "法律诉讼",
+        "比特币抛售"
+      ],
+      "key_risks": [
+        "投资者信心下降"
+      ],
+      "valuation_view": "尚未确定公允价值区间",
+      "counterfactuals": [
+        "如果有正面的公司公告或市场情绪改善，可能会改变当前持有立场"
+      ],
+      "next_checks": [
+        "等待更多企业公告以评估长期方向性"
+      ],
+      "raw": {
+        "action": "SELL",
+        "confidence": 0.6,
+        "rationale": "近期有法律诉讼和比特币抛售的负面新闻，可能影响投资者信心。当前市场情绪偏向谨慎。",
+        "key_drivers": [
+          "法律诉讼",
+          "比特币抛售"
+        ],
+        "key_risks": [
+          "投资者信心下降"
+        ],
+        "valuation_view": "尚未确定公允价值区间",
+        "counterfactuals": [
+          "如果有正面的公司公告或市场情绪改善，可能会改变当前持有立场"
+        ],
+        "next_checks": [
+          "等待更多企业公告以评估长期方向性"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:32:23+09:00",
+      "action": "SELL",
+      "confidence": 0.6,
+      "rationale": "近期有法律诉讼和比特币抛售的负面新闻，可能影响投资者信心。当前市场情绪偏向谨慎。",
+      "key_drivers": [
+        "法律诉讼",
+        "比特币抛售"
+      ],
+      "key_risks": [
+        "投资者信心下降"
+      ],
+      "valuation_view": "尚未确定公允价值区间",
+      "counterfactuals": [
+        "如果有正面的公司公告或市场情绪改善，可能会改变当前持有立场"
+      ],
+      "next_checks": [
+        "等待更多企业公告以评估长期方向性"
+      ],
+      "raw": {
+        "action": "SELL",
+        "confidence": 0.6,
+        "rationale": "近期有法律诉讼和比特币抛售的负面新闻，可能影响投资者信心。当前市场情绪偏向谨慎。",
+        "key_drivers": [
+          "法律诉讼",
+          "比特币抛售"
+        ],
+        "key_risks": [
+          "投资者信心下降"
+        ],
+        "valuation_view": "尚未确定公允价值区间",
+        "counterfactuals": [
+          "如果有正面的公司公告或市场情绪改善，可能会改变当前持有立场"
+        ],
+        "next_checks": [
+          "等待更多企业公告以评估长期方向性"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:28:23+09:00",
+      "action": "SELL",
+      "confidence": 0.6,
+      "rationale": "近期有法律诉讼和比特币抛售的负面新闻，可能影响投资者信心。当前市场情绪偏向谨慎。",
+      "key_drivers": [
+        "法律诉讼",
+        "比特币抛售"
+      ],
+      "key_risks": [
+        "投资者信心下降"
+      ],
+      "valuation_view": "尚未确定公允价值区间",
+      "counterfactuals": [
+        "如果有正面的公司公告或市场情绪改善，可能会改变当前持有立场"
+      ],
+      "next_checks": [
+        "等待更多企业公告以评估长期方向性"
+      ],
+      "raw": {
+        "action": "SELL",
+        "confidence": 0.6,
+        "rationale": "近期有法律诉讼和比特币抛售的负面新闻，可能影响投资者信心。当前市场情绪偏向谨慎。",
+        "key_drivers": [
+          "法律诉讼",
+          "比特币抛售"
+        ],
+        "key_risks": [
+          "投资者信心下降"
+        ],
+        "valuation_view": "尚未确定公允价值区间",
+        "counterfactuals": [
+          "如果有正面的公司公告或市场情绪改善，可能会改变当前持有立场"
+        ],
+        "next_checks": [
+          "等待更多企业公告以评估长期方向性"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:26:29+09:00",
+      "action": "SELL",
+      "confidence": 0.6,
+      "rationale": "近期有法律诉讼和比特币抛售的负面新闻，可能影响投资者信心。当前市场情绪偏向谨慎。",
+      "key_drivers": [
+        "法律诉讼",
+        "比特币抛售"
+      ],
+      "key_risks": [
+        "投资者信心下降"
+      ],
+      "valuation_view": "尚未确定公允价值区间",
+      "counterfactuals": [
+        "如果有正面的公司公告或市场情绪改善，可能会改变当前持有立场"
+      ],
+      "next_checks": [
+        "等待更多企业公告以评估长期方向性"
+      ],
+      "raw": {
+        "action": "SELL",
+        "confidence": 0.6,
+        "rationale": "近期有法律诉讼和比特币抛售的负面新闻，可能影响投资者信心。当前市场情绪偏向谨慎。",
+        "key_drivers": [
+          "法律诉讼",
+          "比特币抛售"
+        ],
+        "key_risks": [
+          "投资者信心下降"
+        ],
+        "valuation_view": "尚未确定公允价值区间",
+        "counterfactuals": [
+          "如果有正面的公司公告或市场情绪改善，可能会改变当前持有立场"
+        ],
+        "next_checks": [
+          "等待更多企业公告以评估长期方向性"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T22:51:46+09:00",
+      "action": "SELL",
+      "confidence": 0.6,
+      "rationale": "近期有法律诉讼和比特币抛售的负面新闻，可能影响投资者信心。当前市场情绪偏向谨慎。",
+      "key_drivers": [
+        "法律诉讼",
+        "比特币抛售"
+      ],
+      "key_risks": [
+        "投资者信心下降"
+      ],
+      "valuation_view": "尚未确定公允价值区间",
+      "counterfactuals": [
+        "如果有正面的公司公告或市场情绪改善，可能会改变当前持有立场"
+      ],
+      "next_checks": [
+        "等待更多企业公告以评估长期方向性"
+      ],
+      "raw": {
+        "action": "SELL",
+        "confidence": 0.6,
+        "rationale": "近期有法律诉讼和比特币抛售的负面新闻，可能影响投资者信心。当前市场情绪偏向谨慎。",
+        "key_drivers": [
+          "法律诉讼",
+          "比特币抛售"
+        ],
+        "key_risks": [
+          "投资者信心下降"
+        ],
+        "valuation_view": "尚未确定公允价值区间",
+        "counterfactuals": [
+          "如果有正面的公司公告或市场情绪改善，可能会改变当前持有立场"
+        ],
+        "next_checks": [
+          "等待更多企业公告以评估长期方向性"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T22:49:58+09:00",
+      "action": "SELL",
+      "confidence": 0.6,
+      "rationale": "近期有法律诉讼和比特币抛售的负面新闻，可能影响投资者信心。当前市场情绪偏向谨慎，且评估方法未确定公允价值区间。",
+      "key_drivers": [
+        "法律诉讼",
+        "比特币抛售"
+      ],
+      "key_risks": [
+        "投资者信心下降"
+      ],
+      "valuation_view": "尚未确定公允价值区间",
+      "counterfactuals": [
+        "如果有正面的公司公告或市场情绪改善，可能会改变当前持有立场"
+      ],
+      "next_checks": [
+        "等待更多企业公告以评估长期方向性"
+      ],
+      "raw": {
+        "action": "SELL",
+        "confidence": 0.6,
+        "rationale": "近期有法律诉讼和比特币抛售的负面新闻，可能影响投资者信心。当前市场情绪偏向谨慎，且评估方法未确定公允价值区间。",
+        "key_drivers": [
+          "法律诉讼",
+          "比特币抛售"
+        ],
+        "key_risks": [
+          "投资者信心下降"
+        ],
+        "valuation_view": "尚未确定公允价值区间",
+        "counterfactuals": [
+          "如果有正面的公司公告或市场情绪改善，可能会改变当前持有立场"
+        ],
+        "next_checks": [
+          "等待更多企业公告以评估长期方向性"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:54:20+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "当前市场状况和技术分析保持中立，缺乏影响股价的近期新闻或事件。评估方法仍为简单模型，未确定公允价值区间。",
+      "key_drivers": [],
+      "key_risks": [],
+      "valuation_view": "当前评价方法是简单的，并且股票的公允价值范围尚未确定。",
+      "counterfactuals": [
+        "如果有任何近期的新闻或事件影响股价，可能会改变当前持有立场"
+      ],
+      "next_checks": [
+        "等待更多企业公告或市场动态以评估长期方向性"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "当前市场状况和技术分析保持中立，缺乏影响股价的近期新闻或事件。评估方法仍为简单模型，未确定公允价值区间。",
+        "key_drivers": [],
+        "key_risks": [],
+        "valuation_view": "当前评价方法是简单的，并且股票的公允价值范围尚未确定。",
+        "counterfactuals": [
+          "如果有任何近期的新闻或事件影响股价，可能会改变当前持有立场"
+        ],
+        "next_checks": [
+          "等待更多企业公告或市场动态以评估长期方向性"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:52:56+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "当前市场状况和技术分析保持中立，缺乏影响股价的近期新闻或事件。评估方法仍为简单模型，未确定公允价值区间。",
+      "key_drivers": [],
+      "key_risks": [],
+      "valuation_view": "当前评价方法是简单的，并且股票的公允价值范围尚未确定。",
+      "counterfactuals": [
+        "如果有任何近期的新闻或事件影响股价，可能会改变当前持有立场"
+      ],
+      "next_checks": [
+        "等待更多企业公告或市场动态以评估长期方向性"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "当前市场状况和技术分析保持中立，缺乏影响股价的近期新闻或事件。评估方法仍为简单模型，未确定公允价值区间。",
+        "key_drivers": [],
+        "key_risks": [],
+        "valuation_view": "当前评价方法是简单的，并且股票的公允价值范围尚未确定。",
+        "counterfactuals": [
+          "如果有任何近期的新闻或事件影响股价，可能会改变当前持有立场"
+        ],
+        "next_checks": [
+          "等待更多企业公告或市场动态以评估长期方向性"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:51:33+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "当前市场状况和技术分析保持中立，缺乏影响股价的近期新闻或事件。评估方法仍为简单模型，未确定公允价值区间。",
+      "key_drivers": [],
+      "key_risks": [],
+      "valuation_view": "当前评价方法是简单的，并且股票的公允价值范围尚未确定。",
+      "counterfactuals": [
+        "如果有任何近期的新闻或事件影响股价，可能会改变当前持有立场"
+      ],
+      "next_checks": [
+        "等待更多企业公告或市场动态以评估长期方向性"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "当前市场状况和技术分析保持中立，缺乏影响股价的近期新闻或事件。评估方法仍为简单模型，未确定公允价值区间。",
+        "key_drivers": [],
+        "key_risks": [],
+        "valuation_view": "当前评价方法是简单的，并且股票的公允价值范围尚未确定。",
+        "counterfactuals": [
+          "如果有任何近期的新闻或事件影响股价，可能会改变当前持有立场"
+        ],
+        "next_checks": [
+          "等待更多企业公告或市场动态以评估长期方向性"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:49:58+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "当前市场状况和技术分析保持中立，缺乏影响股价的近期新闻或事件。评估方法仍为简单模型，未确定公允价值区间。",
+      "key_drivers": [],
+      "key_risks": [],
+      "valuation_view": "当前评价方法是简单的，并且股票的公允价值范围尚未确定。",
+      "counterfactuals": [
+        "如果有任何近期的新闻或事件影响股价，可能会改变当前持有立场"
+      ],
+      "next_checks": [
+        "等待更多企业公告或市场动态以评估长期方向性"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "当前市场状况和技术分析保持中立，缺乏影响股价的近期新闻或事件。评估方法仍为简单模型，未确定公允价值区间。",
+        "key_drivers": [],
+        "key_risks": [],
+        "valuation_view": "当前评价方法是简单的，并且股票的公允价值范围尚未确定。",
+        "counterfactuals": [
+          "如果有任何近期的新闻或事件影响股价，可能会改变当前持有立场"
+        ],
+        "next_checks": [
+          "等待更多企业公告或市场动态以评估长期方向性"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:33:35+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "当前市场状况和技术分析保持中立，缺乏影响股价的近期新闻或事件。评估方法仍为简单模型，未确定公允价值区间。",
+      "key_drivers": [],
+      "key_risks": [],
+      "valuation_view": "当前评价方法是简单的，并且股票的公允价值范围尚未确定。",
+      "counterfactuals": [
+        "如果有任何近期的新闻或事件影响股价，可能会改变当前持有立场"
+      ],
+      "next_checks": [
+        "等待更多企业公告或市场动态以评估长期方向性"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "当前市场状况和技术分析保持中立，缺乏影响股价的近期新闻或事件。评估方法仍为简单模型，未确定公允价值区间。",
+        "key_drivers": [],
+        "key_risks": [],
+        "valuation_view": "当前评价方法是简单的，并且股票的公允价值范围尚未确定。",
+        "counterfactuals": [
+          "如果有任何近期的新闻或事件影响股价，可能会改变当前持有立场"
+        ],
+        "next_checks": [
+          "等待更多企业公告或市场动态以评估长期方向性"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:32:10+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "当前市场状况和技术分析保持中立，缺乏影响股价的近期新闻或事件。评估方法仍为简单模型，未确定公允价值区间。",
+      "key_drivers": [],
+      "key_risks": [],
+      "valuation_view": "当前评价方法是简单的，并且股票的公允价值范围尚未确定。",
+      "counterfactuals": [
+        "如果有任何近期的新闻或事件影响股价，可能会改变当前持有立场"
+      ],
+      "next_checks": [
+        "等待更多企业公告或市场动态以评估长期方向性"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "当前市场状况和技术分析保持中立，缺乏影响股价的近期新闻或事件。评估方法仍为简单模型，未确定公允价值区间。",
+        "key_drivers": [],
+        "key_risks": [],
+        "valuation_view": "当前评价方法是简单的，并且股票的公允价值范围尚未确定。",
+        "counterfactuals": [
+          "如果有任何近期的新闻或事件影响股价，可能会改变当前持有立场"
+        ],
+        "next_checks": [
+          "等待更多企业公告或市场动态以评估长期方向性"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:30:04+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "当前市场状况和技术分析保持中立，缺乏影响股价的近期新闻或事件。评估方法仍为简单模型，未确定公允价值区间。",
+      "key_drivers": [],
+      "key_risks": [],
+      "valuation_view": "当前评价方法是简单的，并且股票的公允价值范围尚未确定。",
+      "counterfactuals": [
+        "如果有任何近期的新闻或事件影响股价，可能会改变当前持有立场"
+      ],
+      "next_checks": [
+        "等待更多企业公告或市场动态以评估长期方向性"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "当前市场状况和技术分析保持中立，缺乏影响股价的近期新闻或事件。评估方法仍为简单模型，未确定公允价值区间。",
+        "key_drivers": [],
+        "key_risks": [],
+        "valuation_view": "当前评价方法是简单的，并且股票的公允价值范围尚未确定。",
+        "counterfactuals": [
+          "如果有任何近期的新闻或事件影响股价，可能会改变当前持有立场"
+        ],
+        "next_checks": [
+          "等待更多企业公告或市场动态以评估长期方向性"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:24:27+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "当前市场状况和技术分析保持中立，缺乏影响股价的近期新闻或事件。评估方法仍为简单模型，未确定公允价值区间。",
+      "key_drivers": [],
+      "key_risks": [],
+      "valuation_view": "当前评价方法是简单的，并且股票的公允价值范围尚未确定。",
+      "counterfactuals": [
+        "如果有任何近期的新闻或事件影响股价，可能会改变当前持有立场"
+      ],
+      "next_checks": [
+        "等待更多企业公告或市场动态以评估长期方向性"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "当前市场状况和技术分析保持中立，缺乏影响股价的近期新闻或事件。评估方法仍为简单模型，未确定公允价值区间。",
+        "key_drivers": [],
+        "key_risks": [],
+        "valuation_view": "当前评价方法是简单的，并且股票的公允价值范围尚未确定。",
+        "counterfactuals": [
+          "如果有任何近期的新闻或事件影响股价，可能会改变当前持有立场"
+        ],
+        "next_checks": [
+          "等待更多企业公告或市场动态以评估长期方向性"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:23:06+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "当前市场状况和技术分析保持中立，缺乏影响股价的近期新闻或事件。评估方法仍为简单模型，未确定公允价值区间。",
+      "key_drivers": [],
+      "key_risks": [],
+      "valuation_view": "当前评价方法是简单的，并且股票的公允价值范围尚未确定。",
+      "counterfactuals": [
+        "如果有任何近期的新闻或事件影响股价，可能会改变当前持有立场"
+      ],
+      "next_checks": [
+        "等待更多企业公告或市场动态以评估长期方向性"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "当前市场状况和技术分析保持中立，缺乏影响股价的近期新闻或事件。评估方法仍为简单模型，未确定公允价值区间。",
+        "key_drivers": [],
+        "key_risks": [],
+        "valuation_view": "当前评价方法是简单的，并且股票的公允价值范围尚未确定。",
+        "counterfactuals": [
+          "如果有任何近期的新闻或事件影响股价，可能会改变当前持有立场"
+        ],
+        "next_checks": [
+          "等待更多企业公告或市场动态以评估长期方向性"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:21:49+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "当前市场状况和技术分析保持中立，缺乏影响股价的近期新闻或事件。评估方法仍为简单模型，未确定公允价值区间。",
+      "key_drivers": [],
+      "key_risks": [],
+      "valuation_view": "当前评价方法是简单的，并且股票的公允价值范围尚未确定。",
+      "counterfactuals": [
+        "如果有任何近期的新闻或事件影响股价，可能会改变当前持有立场"
+      ],
+      "next_checks": [
+        "等待更多企业公告或市场动态以评估长期方向性"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "当前市场状况和技术分析保持中立，缺乏影响股价的近期新闻或事件。评估方法仍为简单模型，未确定公允价值区间。",
+        "key_drivers": [],
+        "key_risks": [],
+        "valuation_view": "当前评价方法是简单的，并且股票的公允价值范围尚未确定。",
+        "counterfactuals": [
+          "如果有任何近期的新闻或事件影响股价，可能会改变当前持有立场"
+        ],
+        "next_checks": [
+          "等待更多企业公告或市场动态以评估长期方向性"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:20:31+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "当前市场状况和技术分析保持中立，缺乏影响股价的近期新闻或事件。评估方法仍为简单模型，未确定公允价值区间。",
+      "key_drivers": [],
+      "key_risks": [],
+      "valuation_view": "当前评价方法是简单的，并且股票的公允价值范围尚未确定。",
+      "counterfactuals": [
+        "如果有任何近期的新闻或事件影响股价，可能会改变当前持有立场"
+      ],
+      "next_checks": [
+        "等待更多企业公告或市场动态以评估长期方向性"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "当前市场状况和技术分析保持中立，缺乏影响股价的近期新闻或事件。评估方法仍为简单模型，未确定公允价值区间。",
+        "key_drivers": [],
+        "key_risks": [],
+        "valuation_view": "当前评价方法是简单的，并且股票的公允价值范围尚未确定。",
+        "counterfactuals": [
+          "如果有任何近期的新闻或事件影响股价，可能会改变当前持有立场"
+        ],
+        "next_checks": [
+          "等待更多企业公告或市场动态以评估长期方向性"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:19:02+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장 상황과 기술적 분석은 중립을 유지하고 있으며, 최근 이벤트나 뉴스가 없어 결정에 영향을 미치지 않았습니다.",
+      "key_drivers": [],
+      "key_risks": [],
+      "valuation_view": "현재 평가 방법은 간단한 모델이며, 주식의 공정 가치 구간이 아직 정해지지 않았습니다.",
+      "counterfactuals": [
+        "如果有任何近期的新闻或事件影响股价，可能会改变当前持有立场"
+      ],
+      "next_checks": [
+        "等待更多企业公告或市场动态以评估长期方向性"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장 상황과 기술적 분석은 중립을 유지하고 있으며, 최근 이벤트나 뉴스가 없어 결정에 영향을 미치지 않았습니다.",
+        "key_drivers": [],
+        "key_risks": [],
+        "valuation_view": "현재 평가 방법은 간단한 모델이며, 주식의 공정 가치 구간이 아직 정해지지 않았습니다.",
+        "counterfactuals": [
+          "如果有任何近期的新闻或事件影响股价，可能会改变当前持有立场"
+        ],
+        "next_checks": [
+          "等待更多企业公告或市场动态以评估长期方向性"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    }
+  ],
+  "tags": []
+}

@@ -1,0 +1,5 @@
+{"ts": "2026-02-24T16:24:18.896403", "ccnl": {"rt_cd": "2", "msg_cd": "OPSQ2001", "msg1": "ERROR : INPUT_FIELD_NAME ORD_DT"}}
+{"ts": "2026-02-24T16:27:01.472703", "ccnl": {"rt_cd": "2", "msg_cd": "OPSQ2001", "msg1": "ERROR : INPUT_FIELD_NAME ORD_DT"}}
+{"ts": "2026-02-24T16:28:47.161487", "ccnl": {"rt_cd": "2", "msg_cd": "OPSQ2001", "msg1": "ERROR : INPUT_FIELD_NAME ORD_DT"}}
+{"ts": "2026-02-24T16:30:34.686645", "ccnl": {"rt_cd": "2", "msg_cd": "OPSQ2001", "msg1": "ERROR : INPUT_FIELD_NAME ORD_DT"}}
+{"ts": "2026-02-24T16:44:21.131169", "ccnl": {"rt_cd": "2", "msg_cd": "OPSQ2001", "msg1": "ERROR : INPUT_FIELD_NAME ORD_STRT_DT", "output1": []}}

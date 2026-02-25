@@ -1,0 +1,10 @@
+{
+  "NVDA": {
+    "qty": 1.0,
+    "avg_price": 184.97,
+    "last_trade_ts": "2026-02-18T10:30:43+09:00",
+    "cooldown_until_ts": "2026-02-18T11:30:43+09:00",
+    "trades_today": 1,
+    "trades_date": "2026-02-18"
+  }
+}

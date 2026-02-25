@@ -1,0 +1,2047 @@
+{
+  "ticker": "MU",
+  "updated_at": "2026-02-25T02:34:02+09:00",
+  "thesis": "",
+  "business_summary": "",
+  "moat": "",
+  "key_drivers": [],
+  "key_risks": [],
+  "valuation_method": "simple",
+  "valuation_assumptions": {},
+  "target_price": null,
+  "fair_value_range": null,
+  "evidence": [
+    {
+      "ts_kst": "2026-02-25T01:24:49+09:00",
+      "source": "news",
+      "title": "These Stocks Are Today’s Movers: AMD, Hims & Hers, Home Depot, Kratos, Novo Nordisk, IBM, Keysight, Vir Biotechnology, and More",
+      "summary": "Guidance from Hims & Hers negatively impacted investor sentiment, while AMD's deal with Meta Platforms boosted its stock price.",
+      "link": "https://finance.yahoo.com/m/8e6d78bb-224b-3d40-a6b4-604cdec1c1f5/these-stocks-are-today%E2%80%99s.html?.tsrc=rss",
+      "sentiment": "bearish",
+      "impact": -1,
+      "tags": [
+        "guidance"
+      ],
+      "raw": {
+        "tickers": [
+          "AMD"
+        ],
+        "event_type": "guidance",
+        "sentiment": "bearish",
+        "impact": -1,
+        "confidence": 0.8,
+        "key_points": [
+          "AMD rallies on multi-year deal with Meta Platforms.",
+          "Hims & Hers shares decline due to underwhelming guidance."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Guidance from Hims & Hers negatively impacted investor sentiment, while AMD's deal with Meta Platforms boosted its stock price."
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T01:24:47+09:00",
+      "source": "news",
+      "title": "Meta strikes up to $100B AMD chip deal as it chases ‘personal superintelligence’",
+      "summary": "Impact on AMD's market position as a key supplier to Meta.",
+      "link": "https://finance.yahoo.com/news/meta-strikes-100b-amd-chip-151516400.html?.tsrc=rss",
+      "sentiment": "neutral",
+      "impact": 0,
+      "tags": [
+        "contract_partnership"
+      ],
+      "raw": {
+        "tickers": [
+          "AMD"
+        ],
+        "event_type": "contract_partnership",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [
+          "Meta and AMD sign a multiyear deal for billions of dollars in AI chips.",
+          "The partnership aims to diversify Meta's chip supply beyond Nvidia."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Impact on AMD's market position as a key supplier to Meta."
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:31:44+09:00",
+      "source": "news",
+      "title": "AMD secures Meta as next big AI chip customer",
+      "summary": "Large contract with Meta expected to boost AMD's revenue and stock price in the short term.",
+      "link": "https://finance.yahoo.com/news/amd-secures-meta-next-big-142516790.html?.tsrc=rss",
+      "sentiment": "bullish",
+      "impact": 1,
+      "tags": [
+        "contract_partnership"
+      ],
+      "raw": {
+        "tickers": [
+          "AMD"
+        ],
+        "event_type": "contract_partnership",
+        "sentiment": "bullish",
+        "impact": 1,
+        "confidence": 0.8,
+        "key_points": [
+          "AMD secures $60 billion AI chip deal with Meta Platforms.",
+          "Contract builds on previous agreement with OpenAI, seen as a vote of confidence."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Large contract with Meta expected to boost AMD's revenue and stock price in the short term."
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T22:49:08+09:00",
+      "source": "news",
+      "title": "AMD shares jump 10% pre-market as Meta agrees to deploy up to 6 gigawatts of its AI chips",
+      "summary": "Large-scale contract with Meta is expected to boost AMD's revenue and market position significantly.",
+      "link": "https://www.proactiveinvestors.com/companies/news/1087834/amd-shares-jump-10-pre-market-as-meta-agrees-to-deploy-up-to-6-gigawatts-of-its-ai-chips-1087834.html?.tsrc=rss",
+      "sentiment": "bullish",
+      "impact": 2,
+      "tags": [
+        "contract_partnership"
+      ],
+      "raw": {
+        "tickers": [
+          "AMD"
+        ],
+        "event_type": "contract_partnership",
+        "sentiment": "bullish",
+        "impact": 2,
+        "confidence": 0.8,
+        "key_points": [
+          "Meta agrees to deploy up to 6 gigawatts of AMD's AI chips.",
+          "Significant deal in the race against Nvidia for AI infrastructure market."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Large-scale contract with Meta is expected to boost AMD's revenue and market position significantly."
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T22:43:18+09:00",
+      "source": "news",
+      "title": "What TD Cowen’s $60 EPS Call Means for Micron Technology (MU)",
+      "summary": "Earnings upgrade from a major analyst firm boosts investor confidence and stock price.",
+      "link": "https://finance.yahoo.com/news/td-cowen-60-eps-call-062235605.html?.tsrc=rss",
+      "sentiment": "bullish",
+      "impact": 1,
+      "tags": [
+        "earnings"
+      ],
+      "raw": {
+        "tickers": [
+          "MU"
+        ],
+        "event_type": "earnings",
+        "sentiment": "bullish",
+        "impact": 1,
+        "confidence": 0.8,
+        "key_points": [
+          "TD Cowen raised its long-term earnings outlook for Micron Technology Inc.",
+          "New EPS target of $60 in 2026 exceeds previous estimate of $50."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Earnings upgrade from a major analyst firm boosts investor confidence and stock price."
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T22:43:13+09:00",
+      "source": "news",
+      "title": "Cloudflare, Inc. (NET) Enters into Strategic Partnership with Mastercard Incorporated",
+      "summary": "The strategic partnership could potentially enhance Cloudflare's offerings and expand its customer base, but the details are not yet clear.",
+      "link": "https://finance.yahoo.com/news/cloudflare-inc-net-enters-strategic-211042578.html?.tsrc=rss",
+      "sentiment": "neutral",
+      "impact": 0,
+      "tags": [
+        "contract_partnership"
+      ],
+      "raw": {
+        "tickers": [
+          "NET",
+          "MU"
+        ],
+        "event_type": "contract_partnership",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [
+          "Cloudflare Inc (NET) enters into a strategic partnership with Mastercard Incorporated.",
+          "Focus is on developing tools to help small businesses."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "The strategic partnership could potentially enhance Cloudflare's offerings and expand its customer base, but the details are not yet clear."
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T22:43:02+09:00",
+      "source": "news",
+      "title": "Meta and AMD announce 6-gigawatt GPU deal as part of AI buildout",
+      "summary": "Meta and AMD are entering into a multiyear deal as part of the social media giant's massive AI buildout.",
+      "link": "https://finance.yahoo.com/news/meta-and-amd-announce-6-gigawatt-gpu-deal-as-part-of-ai-buildout-120013754.html?.tsrc=rss",
+      "sentiment": "neutral",
+      "impact": 0,
+      "tags": [
+        "contract_partnership"
+      ],
+      "raw": {
+        "tickers": [
+          "AMD"
+        ],
+        "event_type": "contract_partnership",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [],
+        "trade_horizon": "swing_days",
+        "why_it_moves": ""
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T22:42:55+09:00",
+      "source": "news",
+      "title": "AMD Stock Surges on Meta Chip Deal",
+      "summary": "The significant contract with Meta is expected to boost AMD's revenue and market share, driving positive sentiment.",
+      "link": "https://finance.yahoo.com/m/3877f263-7b6a-3386-9ad1-2b7a08f76acb/amd-stock-surges-on-meta-chip.html?.tsrc=rss",
+      "sentiment": "bullish",
+      "impact": 2,
+      "tags": [
+        "contract_partnership"
+      ],
+      "raw": {
+        "tickers": [
+          "AMD"
+        ],
+        "event_type": "contract_partnership",
+        "sentiment": "bullish",
+        "impact": 2,
+        "confidence": 0.8,
+        "key_points": [
+          "Advanced Micro Devices (AMD) and Meta Platforms announced a $100 billion deal for AI computing power.",
+          "The partnership could result in Meta owning up to 10% of AMD’s stock."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "The significant contract with Meta is expected to boost AMD's revenue and market share, driving positive sentiment."
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:29:32+09:00",
+      "source": "news",
+      "title": "Lilly to launch multi-dose weight-loss drug device in US",
+      "summary": "New product launch could have short-term market impact but long-term effects are uncertain.",
+      "link": "https://finance.yahoo.com/news/lilly-launch-multi-dose-weight-140358508.html?.tsrc=rss",
+      "sentiment": "neutral",
+      "impact": 0,
+      "tags": [
+        "product_launch"
+      ],
+      "raw": {
+        "tickers": [],
+        "event_type": "product_launch",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [
+          "Eli Lilly received FDA approval for its four-dose KwikPen device for the weight-loss drug Zepbound.",
+          "The new delivery method aims to provide a full month of treatment in a single device."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "New product launch could have short-term market impact but long-term effects are uncertain."
+      }
+    },
+    {
+      "ts_kst": "2026-02-23T22:59:11+09:00",
+      "source": "news",
+      "title": "Why Micron Looks Cheaper After a 300% Run",
+      "summary": "Rising AI demand and constrained HBM supply are driving up Micron's stock price, indicating an earnings inflection.",
+      "link": "https://finance.yahoo.com/news/memory-cycle-changed-micron-proving-111418032.html?.tsrc=rss",
+      "sentiment": "bullish",
+      "impact": 1,
+      "tags": [
+        "earnings"
+      ],
+      "raw": {
+        "tickers": [
+          "MU"
+        ],
+        "event_type": "earnings",
+        "sentiment": "bullish",
+        "impact": 1,
+        "confidence": 0.7,
+        "key_points": [
+          "AI demand surge drives memory chip prices higher.",
+          "HBM capacity constraints support price resilience."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Rising AI demand and constrained HBM supply are driving up Micron's stock price, indicating an earnings inflection."
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "ts_kst": "2026-02-25T02:34:02+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "The recent news events highlight significant positive developments for AMD, including a multi-billion dollar contract with Meta Platforms and an earnings upgrade from TD Cowen. These factors are expected to boost AMD's revenue and market position significantly.",
+      "key_drivers": [
+        "Multi-year $60 billion deal with Meta Platforms",
+        "Earnings upgrade to $60 EPS by 2026 for Micron Technology (MU)",
+        "Strategic partnership between Cloudflare, Inc. and Mastercard"
+      ],
+      "key_risks": [
+        "Negative guidance from Hims & Hers could impact investor sentiment",
+        "Potential challenges in executing the large-scale deal with Meta Platforms"
+      ],
+      "valuation_view": "The recent earnings upgrade suggests that AMD's valuation may be undervalued, given the expected growth. However, a more detailed analysis of fair value is needed.",
+      "counterfactuals": [
+        "If Meta cancels or significantly reduces its order from AMD, it could negatively impact stock price",
+        "A downgrade in analyst ratings for AMD could lead to short-term volatility"
+      ],
+      "next_checks": [
+        "Monitor Meta's progress on AI infrastructure and data center expansion plans",
+        "Review quarterly earnings reports for both AMD and Micron Technology (MU)"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "The recent news events highlight significant positive developments for AMD, including a multi-billion dollar contract with Meta Platforms and an earnings upgrade from TD Cowen. These factors are expected to boost AMD's revenue and market position significantly.",
+        "key_drivers": [
+          "Multi-year $60 billion deal with Meta Platforms",
+          "Earnings upgrade to $60 EPS by 2026 for Micron Technology (MU)",
+          "Strategic partnership between Cloudflare, Inc. and Mastercard"
+        ],
+        "key_risks": [
+          "Negative guidance from Hims & Hers could impact investor sentiment",
+          "Potential challenges in executing the large-scale deal with Meta Platforms"
+        ],
+        "valuation_view": "The recent earnings upgrade suggests that AMD's valuation may be undervalued, given the expected growth. However, a more detailed analysis of fair value is needed.",
+        "counterfactuals": [
+          "If Meta cancels or significantly reduces its order from AMD, it could negatively impact stock price",
+          "A downgrade in analyst ratings for AMD could lead to short-term volatility"
+        ],
+        "next_checks": [
+          "Monitor Meta's progress on AI infrastructure and data center expansion plans",
+          "Review quarterly earnings reports for both AMD and Micron Technology (MU)"
+        ],
+        "position_plan": {
+          "prefer_qty": 100,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T02:32:24+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "The recent news events highlight significant positive developments for AMD, including a multi-billion dollar contract with Meta Platforms and an earnings upgrade from TD Cowen for Micron Technology (MU). These events are expected to boost revenue and market share for AMD in the short term.",
+      "key_drivers": [
+        "Multi-year deal between AMD and Meta Platforms worth up to $60 billion",
+        "Earnings upgrade from TD Cowen for Micron Technology Inc. (MU)",
+        "Strategic partnership between Cloudflare, Inc. (NET) and Mastercard"
+      ],
+      "key_risks": [
+        "Negative guidance from Hims & Hers could impact investor sentiment",
+        "Potential challenges in executing the large-scale deal with Meta Platforms"
+      ],
+      "valuation_view": "The current market is valuing AMD based on its strong position in the AI chip market and potential for growth, but a more detailed valuation analysis would be beneficial.",
+      "counterfactuals": [
+        "If AMD fails to deliver on the promised revenue from the Meta deal",
+        "If Micron Technology's earnings do not meet the revised expectations"
+      ],
+      "next_checks": [
+        "Monitor AMD's quarterly financial reports for any signs of strain in executing the large-scale deal",
+        "Keep an eye on Hims & Hers' guidance and performance to gauge broader market sentiment"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "The recent news events highlight significant positive developments for AMD, including a multi-billion dollar contract with Meta Platforms and an earnings upgrade from TD Cowen for Micron Technology (MU). These events are expected to boost revenue and market share for AMD in the short term.",
+        "key_drivers": [
+          "Multi-year deal between AMD and Meta Platforms worth up to $60 billion",
+          "Earnings upgrade from TD Cowen for Micron Technology Inc. (MU)",
+          "Strategic partnership between Cloudflare, Inc. (NET) and Mastercard"
+        ],
+        "key_risks": [
+          "Negative guidance from Hims & Hers could impact investor sentiment",
+          "Potential challenges in executing the large-scale deal with Meta Platforms"
+        ],
+        "valuation_view": "The current market is valuing AMD based on its strong position in the AI chip market and potential for growth, but a more detailed valuation analysis would be beneficial.",
+        "counterfactuals": [
+          "If AMD fails to deliver on the promised revenue from the Meta deal",
+          "If Micron Technology's earnings do not meet the revised expectations"
+        ],
+        "next_checks": [
+          "Monitor AMD's quarterly financial reports for any signs of strain in executing the large-scale deal",
+          "Keep an eye on Hims & Hers' guidance and performance to gauge broader market sentiment"
+        ],
+        "position_plan": {
+          "prefer_qty": 100,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T02:30:25+09:00",
+      "action": "BUY",
+      "confidence": 0.85,
+      "rationale": "The recent news events indicate strong positive momentum for AMD due to a significant contract with Meta Platforms, which is expected to boost its revenue and market position significantly. Additionally, Micron Technology received an earnings upgrade from TD Cowen, further supporting the semiconductor sector.",
+      "key_drivers": [
+        "Large-scale contract between AMD and Meta Platforms worth up to $60 billion over five years",
+        "Earnings upgrade for Micron Technology by TD Cowen with potential EPS reaching $60 in 2026"
+      ],
+      "key_risks": [
+        "Potential underperformance of Hims & Hers, which could negatively impact investor sentiment",
+        "Uncertainty around the strategic partnership between Cloudflare and Mastercard"
+      ],
+      "valuation_view": "The current market valuation for AMD appears justified given the significant contract with Meta Platforms. However, a detailed fair value analysis would be beneficial to confirm this.",
+      "counterfactuals": [
+        "If AMD fails to deliver on its AI chip performance or if Meta decides not to purchase as much as expected, it could negatively impact AMD's stock price.",
+        "A downgrade in Micron Technology’s earnings outlook by TD Cowen could lead to a correction in the semiconductor sector."
+      ],
+      "next_checks": [
+        "Monitor AMD and Micron Technology’s quarterly reports for any signs of underperformance",
+        "Keep an eye on Meta Platforms’ progress with AI infrastructure to assess the sustainability of the contract"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.85,
+        "rationale": "The recent news events indicate strong positive momentum for AMD due to a significant contract with Meta Platforms, which is expected to boost its revenue and market position significantly. Additionally, Micron Technology received an earnings upgrade from TD Cowen, further supporting the semiconductor sector.",
+        "key_drivers": [
+          "Large-scale contract between AMD and Meta Platforms worth up to $60 billion over five years",
+          "Earnings upgrade for Micron Technology by TD Cowen with potential EPS reaching $60 in 2026"
+        ],
+        "key_risks": [
+          "Potential underperformance of Hims & Hers, which could negatively impact investor sentiment",
+          "Uncertainty around the strategic partnership between Cloudflare and Mastercard"
+        ],
+        "valuation_view": "The current market valuation for AMD appears justified given the significant contract with Meta Platforms. However, a detailed fair value analysis would be beneficial to confirm this.",
+        "counterfactuals": [
+          "If AMD fails to deliver on its AI chip performance or if Meta decides not to purchase as much as expected, it could negatively impact AMD's stock price.",
+          "A downgrade in Micron Technology’s earnings outlook by TD Cowen could lead to a correction in the semiconductor sector."
+        ],
+        "next_checks": [
+          "Monitor AMD and Micron Technology’s quarterly reports for any signs of underperformance",
+          "Keep an eye on Meta Platforms’ progress with AI infrastructure to assess the sustainability of the contract"
+        ],
+        "position_plan": {
+          "prefer_qty": 100,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T01:45:18+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "The recent news events highlight significant positive developments for AMD, including a multi-billion dollar contract with Meta Platforms and an earnings upgrade from TD Cowen for Micron Technology (MU). These factors contribute to a strong bullish sentiment in the tech sector.",
+      "key_drivers": [
+        "Multi-year, multi-billion dollar deal between AMD and Meta Platforms",
+        "Earnings upgrade for Micron Technology by TD Cowen"
+      ],
+      "key_risks": [
+        "Potential negative guidance from Hims & Hers after underwhelming earnings",
+        "Market-wide volatility could impact stock prices"
+      ],
+      "valuation_view": "The recent positive news events suggest that AMD and MU are undervalued based on their potential future earnings and market opportunities. However, the current fair value cannot be accurately determined without a detailed valuation analysis.",
+      "counterfactuals": [
+        "If Meta Platforms issues negative guidance or experiences operational setbacks, it could negatively impact AMD's stock price.",
+        "A broader market downturn could affect investor sentiment towards tech stocks."
+      ],
+      "next_checks": [
+        "Monitor Meta Platforms' upcoming earnings report for any signs of operational challenges",
+        "Review TD Cowen’s updated forecasts and other analyst reports on Micron Technology"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "The recent news events highlight significant positive developments for AMD, including a multi-billion dollar contract with Meta Platforms and an earnings upgrade from TD Cowen for Micron Technology (MU). These factors contribute to a strong bullish sentiment in the tech sector.",
+        "key_drivers": [
+          "Multi-year, multi-billion dollar deal between AMD and Meta Platforms",
+          "Earnings upgrade for Micron Technology by TD Cowen"
+        ],
+        "key_risks": [
+          "Potential negative guidance from Hims & Hers after underwhelming earnings",
+          "Market-wide volatility could impact stock prices"
+        ],
+        "valuation_view": "The recent positive news events suggest that AMD and MU are undervalued based on their potential future earnings and market opportunities. However, the current fair value cannot be accurately determined without a detailed valuation analysis.",
+        "counterfactuals": [
+          "If Meta Platforms issues negative guidance or experiences operational setbacks, it could negatively impact AMD's stock price.",
+          "A broader market downturn could affect investor sentiment towards tech stocks."
+        ],
+        "next_checks": [
+          "Monitor Meta Platforms' upcoming earnings report for any signs of operational challenges",
+          "Review TD Cowen’s updated forecasts and other analyst reports on Micron Technology"
+        ],
+        "position_plan": {
+          "prefer_qty": 100,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T01:31:08+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "The recent news events indicate strong positive momentum for AMD due to a significant contract with Meta Platforms, which is expected to boost its revenue and market position significantly. Additionally, the earnings upgrade from TD Cowen for Micron Technology Inc. (MU) also supports a bullish stance.",
+      "key_drivers": [
+        "Large-scale contract between AMD and Meta Platforms worth up to $60 billion over five years",
+        "Earnings upgrade from TD Cowen predicting MU's EPS may reach as much as $60 in 2026"
+      ],
+      "key_risks": [
+        "Potential negative impact on Hims & Hers shares due to underwhelming guidance, which could drag down the overall market sentiment",
+        "Uncertainty around the details and execution of the strategic partnership between Cloudflare and Mastercard"
+      ],
+      "valuation_view": "The recent positive news events suggest that both AMD and Micron Technology Inc. (MU) are undervalued based on their earnings potential and market opportunities.",
+      "counterfactuals": [
+        "A significant downgrade in guidance or financial performance from AMD could reverse the bullish sentiment",
+        "Negative developments in the strategic partnership between Cloudflare and Mastercard could impact Cloudflare's stock negatively"
+      ],
+      "next_checks": [
+        "Monitor AMD's quarterly earnings report for any signs of operational challenges or changes in market dynamics",
+        "Keep an eye on Micron Technology Inc. (MU)'s stock performance to validate the analyst upgrade"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "The recent news events indicate strong positive momentum for AMD due to a significant contract with Meta Platforms, which is expected to boost its revenue and market position significantly. Additionally, the earnings upgrade from TD Cowen for Micron Technology Inc. (MU) also supports a bullish stance.",
+        "key_drivers": [
+          "Large-scale contract between AMD and Meta Platforms worth up to $60 billion over five years",
+          "Earnings upgrade from TD Cowen predicting MU's EPS may reach as much as $60 in 2026"
+        ],
+        "key_risks": [
+          "Potential negative impact on Hims & Hers shares due to underwhelming guidance, which could drag down the overall market sentiment",
+          "Uncertainty around the details and execution of the strategic partnership between Cloudflare and Mastercard"
+        ],
+        "valuation_view": "The recent positive news events suggest that both AMD and Micron Technology Inc. (MU) are undervalued based on their earnings potential and market opportunities.",
+        "counterfactuals": [
+          "A significant downgrade in guidance or financial performance from AMD could reverse the bullish sentiment",
+          "Negative developments in the strategic partnership between Cloudflare and Mastercard could impact Cloudflare's stock negatively"
+        ],
+        "next_checks": [
+          "Monitor AMD's quarterly earnings report for any signs of operational challenges or changes in market dynamics",
+          "Keep an eye on Micron Technology Inc. (MU)'s stock performance to validate the analyst upgrade"
+        ],
+        "position_plan": {
+          "prefer_qty": 100,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T01:29:16+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "The recent news events indicate strong positive momentum for AMD with a significant contract from Meta Platforms, which is expected to significantly boost its revenue and market position. Additionally, TD Cowen's earnings upgrade for Micron Technology (MU) also adds to the overall positive sentiment in the tech sector.",
+      "key_drivers": [
+        "Large-scale contract between AMD and Meta Platforms worth up to $60 billion over five years",
+        "Earnings upgrade from TD Cowen for Micron Technology, projecting EPS of $60 by 2026"
+      ],
+      "key_risks": [
+        "Potential underperformance in guidance or earnings reports from other tech companies could negatively impact investor sentiment",
+        "Market-wide concerns about AI chip competition and pricing pressures could affect AMD's stock price"
+      ],
+      "valuation_view": "The current positive outlook suggests that the market may be undervaluing both AMD and Micron Technology based on their strong fundamentals and analyst projections.",
+      "counterfactuals": [
+        "If Meta Platforms were to issue underwhelming guidance or if there are significant delays in the delivery of AI chips, it could negatively impact AMD's stock price.",
+        "A broader market downturn or negative news about AI chip competition could also pose risks."
+      ],
+      "next_checks": [
+        "Monitor Meta Platforms' upcoming earnings report for any signs of weakness",
+        "Keep an eye on AMD's production and delivery timelines for the new contract"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "The recent news events indicate strong positive momentum for AMD with a significant contract from Meta Platforms, which is expected to significantly boost its revenue and market position. Additionally, TD Cowen's earnings upgrade for Micron Technology (MU) also adds to the overall positive sentiment in the tech sector.",
+        "key_drivers": [
+          "Large-scale contract between AMD and Meta Platforms worth up to $60 billion over five years",
+          "Earnings upgrade from TD Cowen for Micron Technology, projecting EPS of $60 by 2026"
+        ],
+        "key_risks": [
+          "Potential underperformance in guidance or earnings reports from other tech companies could negatively impact investor sentiment",
+          "Market-wide concerns about AI chip competition and pricing pressures could affect AMD's stock price"
+        ],
+        "valuation_view": "The current positive outlook suggests that the market may be undervaluing both AMD and Micron Technology based on their strong fundamentals and analyst projections.",
+        "counterfactuals": [
+          "If Meta Platforms were to issue underwhelming guidance or if there are significant delays in the delivery of AI chips, it could negatively impact AMD's stock price.",
+          "A broader market downturn or negative news about AI chip competition could also pose risks."
+        ],
+        "next_checks": [
+          "Monitor Meta Platforms' upcoming earnings report for any signs of weakness",
+          "Keep an eye on AMD's production and delivery timelines for the new contract"
+        ],
+        "position_plan": {
+          "prefer_qty": 100,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T01:27:31+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "The recent news events indicate strong positive momentum for AMD with a significant contract from Meta Platforms, which is expected to boost its revenue and market position. Additionally, TD Cowen's earnings upgrade for Micron Technology Inc. (MU) also supports the bullish outlook.",
+      "key_drivers": [
+        "Large multi-year deal between AMD and Meta Platforms worth up to $60 billion",
+        "Earnings upgrade from TD Cowen for Micron Technology Inc. (MU)",
+        "Strategic partnership between Cloudflare, Inc. (NET) and Mastercard"
+      ],
+      "key_risks": [
+        "Potential negative guidance from Hims & Hers could impact investor sentiment",
+        "Market volatility due to broader economic conditions"
+      ],
+      "valuation_view": "The current market valuation for AMD is supported by the significant contract with Meta, but further analysis of Micron Technology Inc. (MU) and Cloudflare, Inc. (NET) would be beneficial.",
+      "counterfactuals": [
+        "If Meta Platforms were to issue negative guidance or reduce its investment in AI infrastructure, it could negatively impact AMD's stock price.",
+        "A downturn in the semiconductor industry could affect both AMD and Micron Technology Inc. (MU)"
+      ],
+      "next_checks": [
+        "Monitor Meta Platforms' quarterly earnings report for any changes in their investment plans",
+        "Review Micron Technology Inc.'s revenue growth and margin trends"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "The recent news events indicate strong positive momentum for AMD with a significant contract from Meta Platforms, which is expected to boost its revenue and market position. Additionally, TD Cowen's earnings upgrade for Micron Technology Inc. (MU) also supports the bullish outlook.",
+        "key_drivers": [
+          "Large multi-year deal between AMD and Meta Platforms worth up to $60 billion",
+          "Earnings upgrade from TD Cowen for Micron Technology Inc. (MU)",
+          "Strategic partnership between Cloudflare, Inc. (NET) and Mastercard"
+        ],
+        "key_risks": [
+          "Potential negative guidance from Hims & Hers could impact investor sentiment",
+          "Market volatility due to broader economic conditions"
+        ],
+        "valuation_view": "The current market valuation for AMD is supported by the significant contract with Meta, but further analysis of Micron Technology Inc. (MU) and Cloudflare, Inc. (NET) would be beneficial.",
+        "counterfactuals": [
+          "If Meta Platforms were to issue negative guidance or reduce its investment in AI infrastructure, it could negatively impact AMD's stock price.",
+          "A downturn in the semiconductor industry could affect both AMD and Micron Technology Inc. (MU)"
+        ],
+        "next_checks": [
+          "Monitor Meta Platforms' quarterly earnings report for any changes in their investment plans",
+          "Review Micron Technology Inc.'s revenue growth and margin trends"
+        ],
+        "position_plan": {
+          "prefer_qty": 100,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T01:25:36+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "The recent news events and technical analysis indicate a strong bullish sentiment towards AMD. The company has secured a significant contract with Meta Platforms, valued at up to $60 billion over five years, which is expected to boost its revenue and market position significantly.",
+      "key_drivers": [
+        "Large multi-year deal with Meta Platforms",
+        "Potential for Meta to purchase as much as 10% of AMD's stock"
+      ],
+      "key_risks": [
+        "Negative guidance from Hims & Hers, which could impact investor sentiment",
+        "Competition in the AI chip market remains intense"
+      ],
+      "valuation_view": "The current valuation appears justified given the significant contract and potential for future earnings growth.",
+      "counterfactuals": [
+        "If Meta were to reduce its order volume or delay the deal, it could negatively impact AMD's stock price.",
+        "A downturn in the broader tech sector could also affect investor sentiment."
+      ],
+      "next_checks": [
+        "Monitor Meta's financial performance and guidance for any changes",
+        "Keep an eye on AMD's quarterly earnings reports"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "The recent news events and technical analysis indicate a strong bullish sentiment towards AMD. The company has secured a significant contract with Meta Platforms, valued at up to $60 billion over five years, which is expected to boost its revenue and market position significantly.",
+        "key_drivers": [
+          "Large multi-year deal with Meta Platforms",
+          "Potential for Meta to purchase as much as 10% of AMD's stock"
+        ],
+        "key_risks": [
+          "Negative guidance from Hims & Hers, which could impact investor sentiment",
+          "Competition in the AI chip market remains intense"
+        ],
+        "valuation_view": "The current valuation appears justified given the significant contract and potential for future earnings growth.",
+        "counterfactuals": [
+          "If Meta were to reduce its order volume or delay the deal, it could negatively impact AMD's stock price.",
+          "A downturn in the broader tech sector could also affect investor sentiment."
+        ],
+        "next_checks": [
+          "Monitor Meta's financial performance and guidance for any changes",
+          "Keep an eye on AMD's quarterly earnings reports"
+        ],
+        "position_plan": {
+          "prefer_qty": 100,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:33:52+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "The recent contract partnership between AMD and Meta Platforms is expected to significantly boost AMD's revenue and market position in the AI chip market, supported by an earnings upgrade for Micron Technology Inc. (MU). These factors contribute to a strong bullish sentiment.",
+      "key_drivers": [
+        "Large $60 billion+ deal with Meta Platforms",
+        "Earnings upgrade from TD Cowen for MU",
+        "Strategic partnership between Cloudflare and Mastercard"
+      ],
+      "key_risks": [
+        "Market downturn affecting tech stocks",
+        "Supply chain disruptions impacting chip production"
+      ],
+      "valuation_view": "The recent contract with Meta Platforms is a positive catalyst, but the fair value remains uncertain due to lack of specific financial details.",
+      "counterfactuals": [
+        "A decline in AI demand could negatively impact AMD's revenue growth",
+        "Meta deciding not to purchase as much as 10% of AMD’s stock"
+      ],
+      "next_checks": [
+        "Monitor Meta's actual chip purchases and their impact on AMD's financials",
+        "Track overall market trends affecting tech stocks"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "The recent contract partnership between AMD and Meta Platforms is expected to significantly boost AMD's revenue and market position in the AI chip market, supported by an earnings upgrade for Micron Technology Inc. (MU). These factors contribute to a strong bullish sentiment.",
+        "key_drivers": [
+          "Large $60 billion+ deal with Meta Platforms",
+          "Earnings upgrade from TD Cowen for MU",
+          "Strategic partnership between Cloudflare and Mastercard"
+        ],
+        "key_risks": [
+          "Market downturn affecting tech stocks",
+          "Supply chain disruptions impacting chip production"
+        ],
+        "valuation_view": "The recent contract with Meta Platforms is a positive catalyst, but the fair value remains uncertain due to lack of specific financial details.",
+        "counterfactuals": [
+          "A decline in AI demand could negatively impact AMD's revenue growth",
+          "Meta deciding not to purchase as much as 10% of AMD’s stock"
+        ],
+        "next_checks": [
+          "Monitor Meta's actual chip purchases and their impact on AMD's financials",
+          "Track overall market trends affecting tech stocks"
+        ],
+        "position_plan": {
+          "prefer_qty": 5,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:31:54+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "The recent contract partnership with Meta for AI chips is expected to significantly boost AMD's revenue and market position, aligning with bullish technical analysis.",
+      "key_drivers": [
+        "Large $60 billion deal with Meta for AI chips over five years",
+        "Earnings upgrade from TD Cowen for Micron Technology (MU)",
+        "Bullish sentiment in the tech sector"
+      ],
+      "key_risks": [
+        "Market downturn or broader economic issues affecting tech stocks",
+        "Technical indicators showing potential sell signals",
+        "Counterparty risk with Meta's future financial health"
+      ],
+      "valuation_view": "None",
+      "counterfactuals": [
+        "A significant drop in Meta's stock price or cancellation of the AI chip deal would negatively impact AMD.",
+        "Weaker-than-expected earnings reports from AMD could lead to a re-evaluation of its valuation."
+      ],
+      "next_checks": [
+        "Monitor Meta's financial health and any potential changes to the AI chip deal",
+        "Review AMD's upcoming earnings report for any signs of weakness"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "The recent contract partnership with Meta for AI chips is expected to significantly boost AMD's revenue and market position, aligning with bullish technical analysis.",
+        "key_drivers": [
+          "Large $60 billion deal with Meta for AI chips over five years",
+          "Earnings upgrade from TD Cowen for Micron Technology (MU)",
+          "Bullish sentiment in the tech sector"
+        ],
+        "key_risks": [
+          "Market downturn or broader economic issues affecting tech stocks",
+          "Technical indicators showing potential sell signals",
+          "Counterparty risk with Meta's future financial health"
+        ],
+        "valuation_view": null,
+        "counterfactuals": [
+          "A significant drop in Meta's stock price or cancellation of the AI chip deal would negatively impact AMD.",
+          "Weaker-than-expected earnings reports from AMD could lead to a re-evaluation of its valuation."
+        ],
+        "next_checks": [
+          "Monitor Meta's financial health and any potential changes to the AI chip deal",
+          "Review AMD's upcoming earnings report for any signs of weakness"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:21:08+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "The recent contract partnership with Meta and earnings upgrade for Micron Technology indicate strong bullish sentiment in the tech sector, particularly in AI chip manufacturing.",
+      "key_drivers": [
+        "AMD secured a $60 billion deal with Meta Platforms to supply AI chips over five years, significantly boosting its stock price and market position.",
+        "TD Cowen upgraded Micron Technology's earnings outlook to $60 EPS by 2026 from the previous $50, indicating strong analyst support for the company."
+      ],
+      "key_risks": [
+        "Market downturns or a decrease in AI chip demand could negatively impact AMD and Micron Technology.",
+        "Technical resistance levels near current price levels may pose short-term selling pressure."
+      ],
+      "valuation_view": "The recent contract with Meta suggests that AMD's fair value is likely higher than the current market price, given the significant revenue stream expected over the next five years. However, a precise valuation cannot be determined without further analysis.",
+      "counterfactuals": [
+        "A decline in AI chip demand or a failure to meet production targets could undermine the positive outlook for AMD and Micron Technology.",
+        "If Meta were to reduce its order volume significantly, it would negatively impact both companies' stock prices."
+      ],
+      "next_checks": [
+        "Monitor Meta's financial reports for any signs of reduced investment in AI infrastructure.",
+        "Track AMD's production capabilities and delivery timelines to ensure they meet the demands of the contract with Meta."
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "The recent contract partnership with Meta and earnings upgrade for Micron Technology indicate strong bullish sentiment in the tech sector, particularly in AI chip manufacturing.",
+        "key_drivers": [
+          "AMD secured a $60 billion deal with Meta Platforms to supply AI chips over five years, significantly boosting its stock price and market position.",
+          "TD Cowen upgraded Micron Technology's earnings outlook to $60 EPS by 2026 from the previous $50, indicating strong analyst support for the company."
+        ],
+        "key_risks": [
+          "Market downturns or a decrease in AI chip demand could negatively impact AMD and Micron Technology.",
+          "Technical resistance levels near current price levels may pose short-term selling pressure."
+        ],
+        "valuation_view": "The recent contract with Meta suggests that AMD's fair value is likely higher than the current market price, given the significant revenue stream expected over the next five years. However, a precise valuation cannot be determined without further analysis.",
+        "counterfactuals": [
+          "A decline in AI chip demand or a failure to meet production targets could undermine the positive outlook for AMD and Micron Technology.",
+          "If Meta were to reduce its order volume significantly, it would negatively impact both companies' stock prices."
+        ],
+        "next_checks": [
+          "Monitor Meta's financial reports for any signs of reduced investment in AI infrastructure.",
+          "Track AMD's production capabilities and delivery timelines to ensure they meet the demands of the contract with Meta."
+        ],
+        "position_plan": {
+          "prefer_qty": 100,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:19:24+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "The recent contract partnership between AMD and Meta Platforms is expected to significantly boost AMD's revenue and market position, as indicated by the bullish sentiment in the news events. Additionally, an earnings upgrade for Micron Technology (MU) from TD Cowen further supports a positive outlook.",
+      "key_drivers": [
+        "Large $60B+ contract with Meta Platforms",
+        "Earnings upgrade to $60 EPS for MU"
+      ],
+      "key_risks": [
+        "Market downturn or unexpected delays in the partnership",
+        "Competition intensifying in the AI chip market"
+      ],
+      "valuation_view": "Fair value not explicitly calculated, but recent contract and earnings news suggest potential upside.",
+      "counterfactuals": [
+        "A significant decline in Meta's stock price could negatively impact AMD's performance.",
+        "If the partnership with Meta does not materialize as expected, it may affect AMD's revenue growth."
+      ],
+      "next_checks": [
+        "Monitor Meta's and AMD's quarterly reports for any updates on the partnership",
+        "Keep an eye on broader market trends affecting semiconductor stocks"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "The recent contract partnership between AMD and Meta Platforms is expected to significantly boost AMD's revenue and market position, as indicated by the bullish sentiment in the news events. Additionally, an earnings upgrade for Micron Technology (MU) from TD Cowen further supports a positive outlook.",
+        "key_drivers": [
+          "Large $60B+ contract with Meta Platforms",
+          "Earnings upgrade to $60 EPS for MU"
+        ],
+        "key_risks": [
+          "Market downturn or unexpected delays in the partnership",
+          "Competition intensifying in the AI chip market"
+        ],
+        "valuation_view": "Fair value not explicitly calculated, but recent contract and earnings news suggest potential upside.",
+        "counterfactuals": [
+          "A significant decline in Meta's stock price could negatively impact AMD's performance.",
+          "If the partnership with Meta does not materialize as expected, it may affect AMD's revenue growth."
+        ],
+        "next_checks": [
+          "Monitor Meta's and AMD's quarterly reports for any updates on the partnership",
+          "Keep an eye on broader market trends affecting semiconductor stocks"
+        ],
+        "position_plan": {
+          "prefer_qty": 10,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:17:34+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "The recent news of AMD securing a $60 billion deal with Meta and an earnings upgrade from TD Cowen for Micron Technology are driving positive sentiment in the tech sector, particularly in AI chip and memory stocks.",
+      "key_drivers": [
+        "AMD secures a significant contract with Meta worth up to $60 billion over five years",
+        "TD Cowen's earnings upgrade for Micron Technology to $60 EPS by 2026"
+      ],
+      "key_risks": [
+        "Market-wide sell-off or negative sentiment shift in the tech sector",
+        "Economic downturn affecting technology demand and stock prices"
+      ],
+      "valuation_view": "The recent news suggests that both AMD and Micron Technology are undervalued, with strong earnings potential. However, fair value estimates are not yet available due to ongoing market dynamics.",
+      "counterfactuals": [
+        "A significant decline in AI chip demand or a major competitor outperforming AMD",
+        "Negative earnings report from Meta Platforms that could impact the deal's viability"
+      ],
+      "next_checks": [
+        "Monitor AMD and Micron Technology's quarterly earnings reports for any signs of weakening financial performance",
+        "Keep an eye on broader market trends and economic indicators that may affect tech stocks"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "The recent news of AMD securing a $60 billion deal with Meta and an earnings upgrade from TD Cowen for Micron Technology are driving positive sentiment in the tech sector, particularly in AI chip and memory stocks.",
+        "key_drivers": [
+          "AMD secures a significant contract with Meta worth up to $60 billion over five years",
+          "TD Cowen's earnings upgrade for Micron Technology to $60 EPS by 2026"
+        ],
+        "key_risks": [
+          "Market-wide sell-off or negative sentiment shift in the tech sector",
+          "Economic downturn affecting technology demand and stock prices"
+        ],
+        "valuation_view": "The recent news suggests that both AMD and Micron Technology are undervalued, with strong earnings potential. However, fair value estimates are not yet available due to ongoing market dynamics.",
+        "counterfactuals": [
+          "A significant decline in AI chip demand or a major competitor outperforming AMD",
+          "Negative earnings report from Meta Platforms that could impact the deal's viability"
+        ],
+        "next_checks": [
+          "Monitor AMD and Micron Technology's quarterly earnings reports for any signs of weakening financial performance",
+          "Keep an eye on broader market trends and economic indicators that may affect tech stocks"
+        ],
+        "position_plan": {
+          "prefer_qty": 20,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:15:50+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "The recent contract partnership between AMD and Meta Platforms is expected to significantly boost AMD's revenue and market position in the AI chip market, supported by an earnings upgrade for Micron Technology Inc. (MU). These factors are driving positive sentiment.",
+      "key_drivers": [
+        "Large-scale contract with Meta Platforms worth up to $60 billion over five years",
+        "Earnings upgrade from TD Cowen predicting MU's EPS may reach as much as $60 in 2026"
+      ],
+      "key_risks": [
+        "Market volatility and potential delays or cancellations of the contract",
+        "Competition from Nvidia and other tech giants in the AI chip market"
+      ],
+      "valuation_view": "The recent contract with Meta Platforms is likely to improve AMD's valuation, but a fair value range has not been determined yet.",
+      "counterfactuals": [
+        "A delay or cancellation of the contract with Meta Platforms",
+        "Negative earnings reports from Micron Technology Inc. (MU)"
+      ],
+      "next_checks": [
+        "Monitor the progress and execution of the AMD-Meta deal",
+        "Keep an eye on any potential changes in market dynamics affecting AI chip manufacturers"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "The recent contract partnership between AMD and Meta Platforms is expected to significantly boost AMD's revenue and market position in the AI chip market, supported by an earnings upgrade for Micron Technology Inc. (MU). These factors are driving positive sentiment.",
+        "key_drivers": [
+          "Large-scale contract with Meta Platforms worth up to $60 billion over five years",
+          "Earnings upgrade from TD Cowen predicting MU's EPS may reach as much as $60 in 2026"
+        ],
+        "key_risks": [
+          "Market volatility and potential delays or cancellations of the contract",
+          "Competition from Nvidia and other tech giants in the AI chip market"
+        ],
+        "valuation_view": "The recent contract with Meta Platforms is likely to improve AMD's valuation, but a fair value range has not been determined yet.",
+        "counterfactuals": [
+          "A delay or cancellation of the contract with Meta Platforms",
+          "Negative earnings reports from Micron Technology Inc. (MU)"
+        ],
+        "next_checks": [
+          "Monitor the progress and execution of the AMD-Meta deal",
+          "Keep an eye on any potential changes in market dynamics affecting AI chip manufacturers"
+        ],
+        "position_plan": {
+          "prefer_qty": 10,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:13:52+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "The recent contract partnership between AMD and Meta Platforms is expected to significantly boost AMD's revenue and market position in the AI chip market, as evidenced by a strong bullish sentiment from major financial news sources.",
+      "key_drivers": [
+        "Large $60 billion+ deal with Meta",
+        "Potential for Meta to own up to 10% of AMD’s stock",
+        "Earnings upgrade for Micron Technology Inc. (MU) by TD Cowen"
+      ],
+      "key_risks": [
+        "Market volatility and potential regulatory challenges",
+        "Competition from Nvidia in the AI chip market"
+      ],
+      "valuation_view": "The current valuation of AMD is supported by strong earnings expectations, but further analysis on fair value is needed.",
+      "counterfactuals": [
+        "A significant downturn in Meta's financial performance could impact AMD’s revenue",
+        "Negative regulatory developments affecting semiconductor companies"
+      ],
+      "next_checks": [
+        "Monitor Meta's quarterly reports for any signs of weakening financial health",
+        "Keep an eye on regulatory changes impacting the semiconductor industry"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "The recent contract partnership between AMD and Meta Platforms is expected to significantly boost AMD's revenue and market position in the AI chip market, as evidenced by a strong bullish sentiment from major financial news sources.",
+        "key_drivers": [
+          "Large $60 billion+ deal with Meta",
+          "Potential for Meta to own up to 10% of AMD’s stock",
+          "Earnings upgrade for Micron Technology Inc. (MU) by TD Cowen"
+        ],
+        "key_risks": [
+          "Market volatility and potential regulatory challenges",
+          "Competition from Nvidia in the AI chip market"
+        ],
+        "valuation_view": "The current valuation of AMD is supported by strong earnings expectations, but further analysis on fair value is needed.",
+        "counterfactuals": [
+          "A significant downturn in Meta's financial performance could impact AMD’s revenue",
+          "Negative regulatory developments affecting semiconductor companies"
+        ],
+        "next_checks": [
+          "Monitor Meta's quarterly reports for any signs of weakening financial health",
+          "Keep an eye on regulatory changes impacting the semiconductor industry"
+        ],
+        "position_plan": {
+          "prefer_qty": 20,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:50:01+09:00",
+      "action": "BUY",
+      "confidence": 0.85,
+      "rationale": "The recent news events indicate strong bullish sentiment with multiple significant contract partnerships and earnings upgrades, driving the stock price higher.",
+      "key_drivers": [
+        "AMD secures a $60 billion AI chip deal with Meta Platforms over five years",
+        "TD Cowen's earnings upgrade for Micron Technology Inc. (MU) to $60 EPS in 2026"
+      ],
+      "key_risks": [
+        "Market downturn or unexpected regulatory issues could impact the stock price negatively.",
+        "Technical resistance levels may cause a short-term pullback."
+      ],
+      "valuation_view": "The earnings upgrade for Micron Technology Inc. (MU) suggests potential undervaluation, but fair value remains unclear without further analysis.",
+      "counterfactuals": [
+        "A significant decline in AI chip demand could invalidate the contract with Meta Platforms.",
+        "Negative earnings reports from AMD or Micron Technology Inc. (MU) could reverse positive sentiment."
+      ],
+      "next_checks": [
+        "Monitor technical indicators for potential resistance levels and support areas.",
+        "Follow up on any regulatory developments that may impact the AI chip market."
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.85,
+        "rationale": "The recent news events indicate strong bullish sentiment with multiple significant contract partnerships and earnings upgrades, driving the stock price higher.",
+        "key_drivers": [
+          "AMD secures a $60 billion AI chip deal with Meta Platforms over five years",
+          "TD Cowen's earnings upgrade for Micron Technology Inc. (MU) to $60 EPS in 2026"
+        ],
+        "key_risks": [
+          "Market downturn or unexpected regulatory issues could impact the stock price negatively.",
+          "Technical resistance levels may cause a short-term pullback."
+        ],
+        "valuation_view": "The earnings upgrade for Micron Technology Inc. (MU) suggests potential undervaluation, but fair value remains unclear without further analysis.",
+        "counterfactuals": [
+          "A significant decline in AI chip demand could invalidate the contract with Meta Platforms.",
+          "Negative earnings reports from AMD or Micron Technology Inc. (MU) could reverse positive sentiment."
+        ],
+        "next_checks": [
+          "Monitor technical indicators for potential resistance levels and support areas.",
+          "Follow up on any regulatory developments that may impact the AI chip market."
+        ],
+        "position_plan": {
+          "prefer_qty": 20,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:48:04+09:00",
+      "action": "BUY",
+      "confidence": 0.85,
+      "rationale": "The recent news events, particularly the significant contract between AMD and Meta Platforms, indicate strong bullish sentiment. The deal is expected to boost AMD's revenue and market position significantly in the AI chip market.",
+      "key_drivers": [
+        "Large-scale contract with Meta worth up to $60 billion over five years",
+        "Earnings upgrade for Micron Technology by TD Cowen"
+      ],
+      "key_risks": [
+        "Market downturn or unexpected regulatory issues",
+        "Competition from Nvidia and other AI chip manufacturers"
+      ],
+      "valuation_view": "The fair value of AMD is likely to be positively impacted given the strong earnings outlook and significant contract. However, further analysis on valuation multiples would provide a clearer picture.",
+      "counterfactuals": [
+        "A decline in Meta's stock price or cancellation of the deal",
+        "Negative earnings reports from Micron Technology"
+      ],
+      "next_checks": [
+        "Monitor Meta's financial performance and any updates on the contract",
+        "Review AMD's quarterly earnings for signs of strength or weakness"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.85,
+        "rationale": "The recent news events, particularly the significant contract between AMD and Meta Platforms, indicate strong bullish sentiment. The deal is expected to boost AMD's revenue and market position significantly in the AI chip market.",
+        "key_drivers": [
+          "Large-scale contract with Meta worth up to $60 billion over five years",
+          "Earnings upgrade for Micron Technology by TD Cowen"
+        ],
+        "key_risks": [
+          "Market downturn or unexpected regulatory issues",
+          "Competition from Nvidia and other AI chip manufacturers"
+        ],
+        "valuation_view": "The fair value of AMD is likely to be positively impacted given the strong earnings outlook and significant contract. However, further analysis on valuation multiples would provide a clearer picture.",
+        "counterfactuals": [
+          "A decline in Meta's stock price or cancellation of the deal",
+          "Negative earnings reports from Micron Technology"
+        ],
+        "next_checks": [
+          "Monitor Meta's financial performance and any updates on the contract",
+          "Review AMD's quarterly earnings for signs of strength or weakness"
+        ],
+        "position_plan": {
+          "prefer_qty": 20,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:46:18+09:00",
+      "action": "BUY",
+      "confidence": 0.85,
+      "rationale": "The recent news events indicate strong bullish sentiment with significant contract partnerships and earnings upgrades. The AMD-Meta deal is expected to boost revenue and market share, while Micron's EPS forecast suggests continued growth.",
+      "key_drivers": [
+        "Large-scale contract between AMD and Meta worth up to $60 billion over five years",
+        "Earnings upgrade for Micron Technology by TD Cowen",
+        "Strategic partnership between Cloudflare and Mastercard"
+      ],
+      "key_risks": [
+        "Market downturn or broader economic issues could impact tech stocks",
+        "Technical indicators showing signs of potential correction in the near term"
+      ],
+      "valuation_view": "Fair value is likely higher than current price, driven by strong earnings expectations and contract wins.",
+      "counterfactuals": [
+        "A significant market downturn or negative news from AMD or Meta could reverse sentiment",
+        "Missed earnings targets or weaker-than-expected revenue growth could impact stock performance"
+      ],
+      "next_checks": [
+        "Monitor technical indicators for signs of a potential correction",
+        "Follow up on the progress and execution of the AMD-Meta deal",
+        "Review Micron's quarterly earnings report for any surprises"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.85,
+        "rationale": "The recent news events indicate strong bullish sentiment with significant contract partnerships and earnings upgrades. The AMD-Meta deal is expected to boost revenue and market share, while Micron's EPS forecast suggests continued growth.",
+        "key_drivers": [
+          "Large-scale contract between AMD and Meta worth up to $60 billion over five years",
+          "Earnings upgrade for Micron Technology by TD Cowen",
+          "Strategic partnership between Cloudflare and Mastercard"
+        ],
+        "key_risks": [
+          "Market downturn or broader economic issues could impact tech stocks",
+          "Technical indicators showing signs of potential correction in the near term"
+        ],
+        "valuation_view": "Fair value is likely higher than current price, driven by strong earnings expectations and contract wins.",
+        "counterfactuals": [
+          "A significant market downturn or negative news from AMD or Meta could reverse sentiment",
+          "Missed earnings targets or weaker-than-expected revenue growth could impact stock performance"
+        ],
+        "next_checks": [
+          "Monitor technical indicators for signs of a potential correction",
+          "Follow up on the progress and execution of the AMD-Meta deal",
+          "Review Micron's quarterly earnings report for any surprises"
+        ],
+        "position_plan": {
+          "prefer_qty": 20,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:36:33+09:00",
+      "action": "BUY",
+      "confidence": 0.9,
+      "rationale": "The recent contract partnership between AMD and Meta Platforms is expected to significantly boost AMD's revenue and market position in the AI chip market, supported by an earnings upgrade for Micron Technology from TD Cowen.",
+      "key_drivers": [
+        "Large-scale contract with Meta worth up to $60 billion over five years",
+        "Earnings upgrade for Micron Technology Inc. (MU) to $60 EPS in 2026"
+      ],
+      "key_risks": [
+        "Market downturn or unexpected delays in the delivery of AI chips",
+        "Competition from Nvidia and other tech giants in the AI chip market"
+      ],
+      "valuation_view": "The current valuation does not fully reflect the potential earnings growth, suggesting a buying opportunity.",
+      "counterfactuals": [
+        "A significant decline in Meta's stock price or cancellation of the contract",
+        "Negative earnings reports from AMD or Micron Technology"
+      ],
+      "next_checks": [
+        "Monitor Meta's financial performance and any updates on the AI chip deal",
+        "Review AMD's quarterly earnings report for signs of growth"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.9,
+        "rationale": "The recent contract partnership between AMD and Meta Platforms is expected to significantly boost AMD's revenue and market position in the AI chip market, supported by an earnings upgrade for Micron Technology from TD Cowen.",
+        "key_drivers": [
+          "Large-scale contract with Meta worth up to $60 billion over five years",
+          "Earnings upgrade for Micron Technology Inc. (MU) to $60 EPS in 2026"
+        ],
+        "key_risks": [
+          "Market downturn or unexpected delays in the delivery of AI chips",
+          "Competition from Nvidia and other tech giants in the AI chip market"
+        ],
+        "valuation_view": "The current valuation does not fully reflect the potential earnings growth, suggesting a buying opportunity.",
+        "counterfactuals": [
+          "A significant decline in Meta's stock price or cancellation of the contract",
+          "Negative earnings reports from AMD or Micron Technology"
+        ],
+        "next_checks": [
+          "Monitor Meta's financial performance and any updates on the AI chip deal",
+          "Review AMD's quarterly earnings report for signs of growth"
+        ],
+        "position_plan": {
+          "prefer_qty": 20,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:34:52+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "The recent contract partnership between AMD and Meta Platforms is expected to significantly boost AMD's revenue and market position in the AI chip market, driving positive sentiment among investors.",
+      "key_drivers": [
+        "Large-scale contract with Meta worth up to $60 billion over five years",
+        "Earnings upgrade for Micron Technology by TD Cowen"
+      ],
+      "key_risks": [
+        "Market downturn or unexpected delays in the delivery of AI chips",
+        "Competition from Nvidia and other tech giants"
+      ],
+      "valuation_view": "The recent contract with Meta is likely to increase AMD's valuation, but a detailed analysis of its financials is needed for a more accurate assessment.",
+      "counterfactuals": [
+        "A decline in demand for AI chips or a failure by Meta to purchase the expected volume could negatively impact AMD’s stock price.",
+        "Negative earnings reports from Micron Technology could affect investor sentiment."
+      ],
+      "next_checks": [
+        "Monitor AMD's production and delivery of AI chips",
+        "Review Micron Technology's upcoming financial results"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "The recent contract partnership between AMD and Meta Platforms is expected to significantly boost AMD's revenue and market position in the AI chip market, driving positive sentiment among investors.",
+        "key_drivers": [
+          "Large-scale contract with Meta worth up to $60 billion over five years",
+          "Earnings upgrade for Micron Technology by TD Cowen"
+        ],
+        "key_risks": [
+          "Market downturn or unexpected delays in the delivery of AI chips",
+          "Competition from Nvidia and other tech giants"
+        ],
+        "valuation_view": "The recent contract with Meta is likely to increase AMD's valuation, but a detailed analysis of its financials is needed for a more accurate assessment.",
+        "counterfactuals": [
+          "A decline in demand for AI chips or a failure by Meta to purchase the expected volume could negatively impact AMD’s stock price.",
+          "Negative earnings reports from Micron Technology could affect investor sentiment."
+        ],
+        "next_checks": [
+          "Monitor AMD's production and delivery of AI chips",
+          "Review Micron Technology's upcoming financial results"
+        ],
+        "position_plan": {
+          "prefer_qty": 20,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:32:51+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "The recent news events indicate strong bullish sentiment with significant contract partnerships and earnings upgrades. The AMD-Meta deal is expected to boost revenue and market position, while the TD Cowen EPS call for Micron Technology adds further positive momentum.",
+      "key_drivers": [
+        "Large-scale contract between AMD and Meta worth up to $60 billion over five years",
+        "Earnings upgrade from TD Cowen for Micron Technology with potential EPS reaching $60 in 2026"
+      ],
+      "key_risks": [
+        "Market volatility could impact short-term performance despite long-term positive outlook",
+        "Competition from Nvidia and other tech giants may intensify, affecting market share"
+      ],
+      "valuation_view": "The current price of AMD at $432.11 seems undervalued given the significant contract with Meta and earnings upgrade for Micron Technology.",
+      "counterfactuals": [
+        "A downturn in the semiconductor industry or a decline in Meta's financial health could negatively impact the deal",
+        "Negative earnings reports from other tech companies might shift investor focus away from AMD"
+      ],
+      "next_checks": [
+        "Monitor AMD and Micron Technology’s quarterly earnings for any signs of weakening performance",
+        "Keep an eye on market trends and competition dynamics in the semiconductor industry"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "The recent news events indicate strong bullish sentiment with significant contract partnerships and earnings upgrades. The AMD-Meta deal is expected to boost revenue and market position, while the TD Cowen EPS call for Micron Technology adds further positive momentum.",
+        "key_drivers": [
+          "Large-scale contract between AMD and Meta worth up to $60 billion over five years",
+          "Earnings upgrade from TD Cowen for Micron Technology with potential EPS reaching $60 in 2026"
+        ],
+        "key_risks": [
+          "Market volatility could impact short-term performance despite long-term positive outlook",
+          "Competition from Nvidia and other tech giants may intensify, affecting market share"
+        ],
+        "valuation_view": "The current price of AMD at $432.11 seems undervalued given the significant contract with Meta and earnings upgrade for Micron Technology.",
+        "counterfactuals": [
+          "A downturn in the semiconductor industry or a decline in Meta's financial health could negatively impact the deal",
+          "Negative earnings reports from other tech companies might shift investor focus away from AMD"
+        ],
+        "next_checks": [
+          "Monitor AMD and Micron Technology’s quarterly earnings for any signs of weakening performance",
+          "Keep an eye on market trends and competition dynamics in the semiconductor industry"
+        ],
+        "position_plan": {
+          "prefer_qty": 20.0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:28:19+09:00",
+      "action": "BUY",
+      "confidence": 0.532,
+      "rationale": "The market is showing a bullish trend with significant positive news from AMD and Micron Technology. The recent contract between Meta and AMD, as well as the earnings upgrade for Micron by TD Cowen, are driving investor confidence.",
+      "key_drivers": [
+        "Large-scale contract between Meta and AMD",
+        "Earnings upgrade for Micron Technology by TD Cowen"
+      ],
+      "key_risks": [
+        "Market-wide risk-off sentiment could impact tech stocks negatively",
+        "Potential regulatory or supply chain disruptions"
+      ],
+      "valuation_view": "The current price reflects strong demand in the AI chip market, but a fair value has not been calculated.",
+      "counterfactuals": [
+        "A decline in AI demand or weakening of Meta's commitment to AMD could reverse positive sentiment",
+        "Negative earnings reports from other tech companies could affect overall market sentiment"
+      ],
+      "next_checks": [
+        "Monitor Meta and AMD for any updates on the contract details",
+        "Follow Micron Technology’s upcoming earnings report for further confirmation"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.532,
+        "rationale": "The market is showing a bullish trend with significant positive news from AMD and Micron Technology. The recent contract between Meta and AMD, as well as the earnings upgrade for Micron by TD Cowen, are driving investor confidence.",
+        "key_drivers": [
+          "Large-scale contract between Meta and AMD",
+          "Earnings upgrade for Micron Technology by TD Cowen"
+        ],
+        "key_risks": [
+          "Market-wide risk-off sentiment could impact tech stocks negatively",
+          "Potential regulatory or supply chain disruptions"
+        ],
+        "valuation_view": "The current price reflects strong demand in the AI chip market, but a fair value has not been calculated.",
+        "counterfactuals": [
+          "A decline in AI demand or weakening of Meta's commitment to AMD could reverse positive sentiment",
+          "Negative earnings reports from other tech companies could affect overall market sentiment"
+        ],
+        "next_checks": [
+          "Monitor Meta and AMD for any updates on the contract details",
+          "Follow Micron Technology’s upcoming earnings report for further confirmation"
+        ],
+        "position_plan": {
+          "prefer_qty": 10,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:26:25+09:00",
+      "action": "BUY",
+      "confidence": 0.532,
+      "rationale": "The market is currently in a risk-off mode due to the US regular market being closed, but recent positive news from AMD and Micron Technology indicate strong bullish sentiment. The earnings upgrade for Micron by TD Cowen and the significant contract with Meta for AMD are driving investor confidence.",
+      "key_drivers": [
+        "Earnings upgrade for Micron Technology by TD Cowen",
+        "Large-scale contract between AMD and Meta in AI infrastructure"
+      ],
+      "key_risks": [
+        "Market volatility due to US market closure",
+        "Potential slowdown in AI demand growth"
+      ],
+      "valuation_view": "The current price reflects strong earnings potential, but no specific fair value range is provided.",
+      "counterfactuals": [
+        "A decline in AI chip prices could negatively impact Micron's earnings."
+      ],
+      "next_checks": [
+        "Monitor AI demand trends and Meta's progress with AMD",
+        "Review upcoming earnings reports for both companies"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.532,
+        "rationale": "The market is currently in a risk-off mode due to the US regular market being closed, but recent positive news from AMD and Micron Technology indicate strong bullish sentiment. The earnings upgrade for Micron by TD Cowen and the significant contract with Meta for AMD are driving investor confidence.",
+        "key_drivers": [
+          "Earnings upgrade for Micron Technology by TD Cowen",
+          "Large-scale contract between AMD and Meta in AI infrastructure"
+        ],
+        "key_risks": [
+          "Market volatility due to US market closure",
+          "Potential slowdown in AI demand growth"
+        ],
+        "valuation_view": "The current price reflects strong earnings potential, but no specific fair value range is provided.",
+        "counterfactuals": [
+          "A decline in AI chip prices could negatively impact Micron's earnings."
+        ],
+        "next_checks": [
+          "Monitor AI demand trends and Meta's progress with AMD",
+          "Review upcoming earnings reports for both companies"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T22:51:42+09:00",
+      "action": "BUY",
+      "confidence": 0.532,
+      "rationale": "The recent news events indicate strong bullish sentiment for both AMD and Micron Technology (MU). The multi-year contract between Meta and AMD, as well as the earnings upgrade by TD Cowen for MU, suggest significant growth potential in the near term.",
+      "key_drivers": [
+        "Multi-billion dollar contract with Meta",
+        "Earnings upgrade to $60 EPS by TD Cowen"
+      ],
+      "key_risks": [
+        "Market downturn or unexpected supply chain issues",
+        "Competition from Nvidia and other tech giants"
+      ],
+      "valuation_view": "Current price reflects strong demand for memory chips due to AI growth, but fair value is not explicitly stated.",
+      "counterfactuals": [
+        "A significant market downturn could negatively impact stock prices."
+      ],
+      "next_checks": [
+        "Monitor AMD and MU's quarterly earnings reports",
+        "Track Meta's progress in AI infrastructure development"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.532,
+        "rationale": "The recent news events indicate strong bullish sentiment for both AMD and Micron Technology (MU). The multi-year contract between Meta and AMD, as well as the earnings upgrade by TD Cowen for MU, suggest significant growth potential in the near term.",
+        "key_drivers": [
+          "Multi-billion dollar contract with Meta",
+          "Earnings upgrade to $60 EPS by TD Cowen"
+        ],
+        "key_risks": [
+          "Market downturn or unexpected supply chain issues",
+          "Competition from Nvidia and other tech giants"
+        ],
+        "valuation_view": "Current price reflects strong demand for memory chips due to AI growth, but fair value is not explicitly stated.",
+        "counterfactuals": [
+          "A significant market downturn could negatively impact stock prices."
+        ],
+        "next_checks": [
+          "Monitor AMD and MU's quarterly earnings reports",
+          "Track Meta's progress in AI infrastructure development"
+        ],
+        "position_plan": {
+          "prefer_qty": 100,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T22:49:53+09:00",
+      "action": "BUY",
+      "confidence": 0.532,
+      "rationale": "The market is showing a bullish trend with strong earnings upgrades and significant contract partnerships, particularly for AMD and Micron Technology (MU). The recent news of Meta's multi-billion dollar deal with AMD and the earnings upgrade from TD Cowen for MU are driving positive sentiment.",
+      "key_drivers": [
+        "Strong earnings upgrade from TD Cowen for MU",
+        "Multi-billion dollar contract partnership between Meta and AMD"
+      ],
+      "key_risks": [
+        "Market volatility could impact stock prices",
+        "Economic downturn or slowdown in AI infrastructure demand"
+      ],
+      "valuation_view": "Current market conditions are supporting higher valuations due to strong earnings outlook and increased demand for memory chips.",
+      "counterfactuals": [
+        "A significant decline in AI infrastructure demand could negatively affect AMD's stock price",
+        "Negative earnings reports from MU could lead to a sell-off"
+      ],
+      "next_checks": [
+        "Monitor earnings reports and guidance from AMD and MU",
+        "Track the progress of AI infrastructure projects by Meta and other tech giants"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.532,
+        "rationale": "The market is showing a bullish trend with strong earnings upgrades and significant contract partnerships, particularly for AMD and Micron Technology (MU). The recent news of Meta's multi-billion dollar deal with AMD and the earnings upgrade from TD Cowen for MU are driving positive sentiment.",
+        "key_drivers": [
+          "Strong earnings upgrade from TD Cowen for MU",
+          "Multi-billion dollar contract partnership between Meta and AMD"
+        ],
+        "key_risks": [
+          "Market volatility could impact stock prices",
+          "Economic downturn or slowdown in AI infrastructure demand"
+        ],
+        "valuation_view": "Current market conditions are supporting higher valuations due to strong earnings outlook and increased demand for memory chips.",
+        "counterfactuals": [
+          "A significant decline in AI infrastructure demand could negatively affect AMD's stock price",
+          "Negative earnings reports from MU could lead to a sell-off"
+        ],
+        "next_checks": [
+          "Monitor earnings reports and guidance from AMD and MU",
+          "Track the progress of AI infrastructure projects by Meta and other tech giants"
+        ],
+        "position_plan": {
+          "prefer_qty": 100,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:54:36+09:00",
+      "action": "BUY",
+      "confidence": 0.532,
+      "rationale": "Micron Technology (MU) continues to benefit from rising AI demand and constrained HBM supply, driving up the stock price and indicating an earnings inflection.",
+      "key_drivers": [
+        "Rising AI demand",
+        "Constrained HBM supply"
+      ],
+      "key_risks": [
+        "A significant decrease in AI demand would negatively affect MU's stock performance."
+      ],
+      "valuation_view": "Current valuation assumptions are based on simple methods without specific fair value range or target price.",
+      "counterfactuals": [
+        "A significant decrease in AI demand would negatively affect MU's stock performance."
+      ],
+      "next_checks": [
+        "Monitor AI industry trends and HBM supply chain for any changes",
+        "Review upcoming earnings reports"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.532,
+        "rationale": "Micron Technology (MU) continues to benefit from rising AI demand and constrained HBM supply, driving up the stock price and indicating an earnings inflection.",
+        "key_drivers": [
+          "Rising AI demand",
+          "Constrained HBM supply"
+        ],
+        "key_risks": [
+          "A significant decrease in AI demand would negatively affect MU's stock performance."
+        ],
+        "valuation_view": "Current valuation assumptions are based on simple methods without specific fair value range or target price.",
+        "counterfactuals": [
+          "A significant decrease in AI demand would negatively affect MU's stock performance."
+        ],
+        "next_checks": [
+          "Monitor AI industry trends and HBM supply chain for any changes",
+          "Review upcoming earnings reports"
+        ],
+        "position_plan": {
+          "prefer_qty": 1,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:53:11+09:00",
+      "action": "BUY",
+      "confidence": 0.532,
+      "rationale": "Micron Technology (MU) continues to benefit from rising AI demand and constrained HBM supply, driving up the stock price and indicating an earnings inflection.",
+      "key_drivers": [
+        "Rising AI demand",
+        "Constrained HBM supply"
+      ],
+      "key_risks": [
+        "If AI demand decreases significantly, it could negatively impact MU's stock performance."
+      ],
+      "valuation_view": "Current valuation assumptions are based on simple methods without specific fair value range or target price.",
+      "counterfactuals": [
+        "A significant decrease in AI demand would negatively affect MU's stock performance."
+      ],
+      "next_checks": [
+        "Monitor AI industry trends and HBM supply chain for any changes",
+        "Review upcoming earnings reports"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.532,
+        "rationale": "Micron Technology (MU) continues to benefit from rising AI demand and constrained HBM supply, driving up the stock price and indicating an earnings inflection.",
+        "key_drivers": [
+          "Rising AI demand",
+          "Constrained HBM supply"
+        ],
+        "key_risks": [
+          "If AI demand decreases significantly, it could negatively impact MU's stock performance."
+        ],
+        "valuation_view": "Current valuation assumptions are based on simple methods without specific fair value range or target price.",
+        "counterfactuals": [
+          "A significant decrease in AI demand would negatively affect MU's stock performance."
+        ],
+        "next_checks": [
+          "Monitor AI industry trends and HBM supply chain for any changes",
+          "Review upcoming earnings reports"
+        ],
+        "position_plan": {
+          "prefer_qty": 1,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:51:49+09:00",
+      "action": "BUY",
+      "confidence": 0.532,
+      "rationale": "Micron Technology (MU) continues to benefit from rising AI demand and constrained HBM supply, driving up the stock price and indicating an earnings inflection.",
+      "key_drivers": [
+        "Rising AI demand",
+        "Constrained HBM supply"
+      ],
+      "key_risks": [
+        "If AI demand decreases significantly, it could negatively impact MU's stock performance."
+      ],
+      "valuation_view": "Current valuation assumptions are based on simple methods without specific fair value range or target price.",
+      "counterfactuals": [
+        "A significant decrease in AI demand would negatively affect MU's stock performance."
+      ],
+      "next_checks": [
+        "Monitor AI industry trends and HBM supply chain for any changes",
+        "Review upcoming earnings reports"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.532,
+        "rationale": "Micron Technology (MU) continues to benefit from rising AI demand and constrained HBM supply, driving up the stock price and indicating an earnings inflection.",
+        "key_drivers": [
+          "Rising AI demand",
+          "Constrained HBM supply"
+        ],
+        "key_risks": [
+          "If AI demand decreases significantly, it could negatively impact MU's stock performance."
+        ],
+        "valuation_view": "Current valuation assumptions are based on simple methods without specific fair value range or target price.",
+        "counterfactuals": [
+          "A significant decrease in AI demand would negatively affect MU's stock performance."
+        ],
+        "next_checks": [
+          "Monitor AI industry trends and HBM supply chain for any changes",
+          "Review upcoming earnings reports"
+        ],
+        "position_plan": {
+          "prefer_qty": 1,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:50:15+09:00",
+      "action": "BUY",
+      "confidence": 0.532,
+      "rationale": "Micron Technology (MU) continues to benefit from rising AI demand and constrained HBM supply, driving up the stock price and indicating an earnings inflection.",
+      "key_drivers": [
+        "Rising AI demand",
+        "Constrained HBM supply"
+      ],
+      "key_risks": [
+        "If AI demand decreases significantly, it could negatively impact MU's stock performance."
+      ],
+      "valuation_view": "Current valuation assumptions are based on simple methods without specific fair value range or target price.",
+      "counterfactuals": [
+        "A significant decrease in AI demand would negatively affect MU's stock performance."
+      ],
+      "next_checks": [
+        "Monitor AI industry trends and HBM supply chain for any changes",
+        "Review upcoming earnings reports"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.532,
+        "rationale": "Micron Technology (MU) continues to benefit from rising AI demand and constrained HBM supply, driving up the stock price and indicating an earnings inflection.",
+        "key_drivers": [
+          "Rising AI demand",
+          "Constrained HBM supply"
+        ],
+        "key_risks": [
+          "If AI demand decreases significantly, it could negatively impact MU's stock performance."
+        ],
+        "valuation_view": "Current valuation assumptions are based on simple methods without specific fair value range or target price.",
+        "counterfactuals": [
+          "A significant decrease in AI demand would negatively affect MU's stock performance."
+        ],
+        "next_checks": [
+          "Monitor AI industry trends and HBM supply chain for any changes",
+          "Review upcoming earnings reports"
+        ],
+        "position_plan": {
+          "prefer_qty": 1,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:33:51+09:00",
+      "action": "BUY",
+      "confidence": 0.532,
+      "rationale": "Micron Technology (MU) continues to benefit from rising AI demand and constrained HBM supply, driving up the stock price and indicating an earnings inflection.",
+      "key_drivers": [
+        "Rising AI demand",
+        "Constrained HBM supply"
+      ],
+      "key_risks": [
+        "If AI demand decreases significantly, it could negatively impact MU's stock performance."
+      ],
+      "valuation_view": "Current valuation assumptions are based on simple methods without specific fair value range or target price.",
+      "counterfactuals": [
+        "A significant decrease in AI demand would negatively affect MU's stock performance."
+      ],
+      "next_checks": [
+        "Monitor AI industry trends and HBM supply chain for any changes",
+        "Review upcoming earnings reports"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.532,
+        "rationale": "Micron Technology (MU) continues to benefit from rising AI demand and constrained HBM supply, driving up the stock price and indicating an earnings inflection.",
+        "key_drivers": [
+          "Rising AI demand",
+          "Constrained HBM supply"
+        ],
+        "key_risks": [
+          "If AI demand decreases significantly, it could negatively impact MU's stock performance."
+        ],
+        "valuation_view": "Current valuation assumptions are based on simple methods without specific fair value range or target price.",
+        "counterfactuals": [
+          "A significant decrease in AI demand would negatively affect MU's stock performance."
+        ],
+        "next_checks": [
+          "Monitor AI industry trends and HBM supply chain for any changes",
+          "Review upcoming earnings reports"
+        ],
+        "position_plan": {
+          "prefer_qty": 1,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:32:26+09:00",
+      "action": "BUY",
+      "confidence": 0.532,
+      "rationale": "Micron Technology (MU) continues to benefit from rising AI demand and constrained HBM supply, driving up the stock price and indicating an earnings inflection.",
+      "key_drivers": [
+        "Rising AI demand",
+        "Constrained HBM supply"
+      ],
+      "key_risks": [
+        "If AI demand decreases significantly, it could negatively impact MU's stock performance."
+      ],
+      "valuation_view": "Current valuation assumptions are based on simple methods without specific fair value range or target price.",
+      "counterfactuals": [
+        "A significant decrease in AI demand would negatively affect MU's stock performance."
+      ],
+      "next_checks": [
+        "Monitor AI industry trends and HBM supply chain for any changes",
+        "Review upcoming earnings reports"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.532,
+        "rationale": "Micron Technology (MU) continues to benefit from rising AI demand and constrained HBM supply, driving up the stock price and indicating an earnings inflection.",
+        "key_drivers": [
+          "Rising AI demand",
+          "Constrained HBM supply"
+        ],
+        "key_risks": [
+          "If AI demand decreases significantly, it could negatively impact MU's stock performance."
+        ],
+        "valuation_view": "Current valuation assumptions are based on simple methods without specific fair value range or target price.",
+        "counterfactuals": [
+          "A significant decrease in AI demand would negatively affect MU's stock performance."
+        ],
+        "next_checks": [
+          "Monitor AI industry trends and HBM supply chain for any changes",
+          "Review upcoming earnings reports"
+        ],
+        "position_plan": {
+          "prefer_qty": 1,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:30:21+09:00",
+      "action": "BUY",
+      "confidence": 0.532,
+      "rationale": "Micron Technology (MU) continues to benefit from rising AI demand and constrained HBM supply, driving up the stock price and indicating an earnings inflection.",
+      "key_drivers": [
+        "Rising AI demand",
+        "Constrained HBM supply"
+      ],
+      "key_risks": [
+        "If AI demand decreases significantly, it could negatively impact MU's stock performance."
+      ],
+      "valuation_view": "Current valuation assumptions are based on simple methods without specific fair value range or target price.",
+      "counterfactuals": [
+        "A significant decrease in AI demand would negatively affect MU's stock performance."
+      ],
+      "next_checks": [
+        "Monitor AI industry trends and HBM supply chain for any changes",
+        "Review upcoming earnings reports"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.532,
+        "rationale": "Micron Technology (MU) continues to benefit from rising AI demand and constrained HBM supply, driving up the stock price and indicating an earnings inflection.",
+        "key_drivers": [
+          "Rising AI demand",
+          "Constrained HBM supply"
+        ],
+        "key_risks": [
+          "If AI demand decreases significantly, it could negatively impact MU's stock performance."
+        ],
+        "valuation_view": "Current valuation assumptions are based on simple methods without specific fair value range or target price.",
+        "counterfactuals": [
+          "A significant decrease in AI demand would negatively affect MU's stock performance."
+        ],
+        "next_checks": [
+          "Monitor AI industry trends and HBM supply chain for any changes",
+          "Review upcoming earnings reports"
+        ],
+        "position_plan": {
+          "prefer_qty": 1,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:24:32+09:00",
+      "action": "BUY",
+      "confidence": 0.532,
+      "rationale": "Micron Technology (MU) continues to benefit from rising AI demand and constrained HBM supply, driving up the stock price and indicating an earnings inflection.",
+      "key_drivers": [
+        "Rising AI demand",
+        "Constrained HBM supply"
+      ],
+      "key_risks": [
+        "If AI demand decreases significantly, it could negatively impact MU's stock performance."
+      ],
+      "valuation_view": "Current valuation assumptions are based on simple methods without specific fair value range or target price.",
+      "counterfactuals": [
+        "A significant decrease in AI demand would negatively affect MU's stock performance."
+      ],
+      "next_checks": [
+        "Monitor AI industry trends and HBM supply chain for any changes",
+        "Review upcoming earnings reports"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.532,
+        "rationale": "Micron Technology (MU) continues to benefit from rising AI demand and constrained HBM supply, driving up the stock price and indicating an earnings inflection.",
+        "key_drivers": [
+          "Rising AI demand",
+          "Constrained HBM supply"
+        ],
+        "key_risks": [
+          "If AI demand decreases significantly, it could negatively impact MU's stock performance."
+        ],
+        "valuation_view": "Current valuation assumptions are based on simple methods without specific fair value range or target price.",
+        "counterfactuals": [
+          "A significant decrease in AI demand would negatively affect MU's stock performance."
+        ],
+        "next_checks": [
+          "Monitor AI industry trends and HBM supply chain for any changes",
+          "Review upcoming earnings reports"
+        ],
+        "position_plan": {
+          "prefer_qty": 1,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:23:09+09:00",
+      "action": "BUY",
+      "confidence": 0.532,
+      "rationale": "Micron Technology (MU) is experiencing a bullish trend due to rising AI demand and constrained HBM supply, which are driving up the stock price and indicating an earnings inflection.",
+      "key_drivers": [
+        "Rising AI demand",
+        "Constrained HBM supply"
+      ],
+      "key_risks": [],
+      "valuation_view": "Current valuation assumptions are based on simple methods without specific fair value range or target price.",
+      "counterfactuals": [
+        "If AI demand decreases significantly, it could negatively impact MU's stock performance."
+      ],
+      "next_checks": [
+        "Monitor AI industry trends and HBM supply chain for any changes",
+        "Review upcoming earnings reports"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.532,
+        "rationale": "Micron Technology (MU) is experiencing a bullish trend due to rising AI demand and constrained HBM supply, which are driving up the stock price and indicating an earnings inflection.",
+        "key_drivers": [
+          "Rising AI demand",
+          "Constrained HBM supply"
+        ],
+        "key_risks": [],
+        "valuation_view": "Current valuation assumptions are based on simple methods without specific fair value range or target price.",
+        "counterfactuals": [
+          "If AI demand decreases significantly, it could negatively impact MU's stock performance."
+        ],
+        "next_checks": [
+          "Monitor AI industry trends and HBM supply chain for any changes",
+          "Review upcoming earnings reports"
+        ],
+        "position_plan": {
+          "prefer_qty": 1,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:21:54+09:00",
+      "action": "BUY",
+      "confidence": 0.532,
+      "rationale": "Micron Technology (MU) is experiencing a bullish trend due to rising AI demand and constrained HBM supply, which are driving up the stock price and indicating an earnings inflection.",
+      "key_drivers": [
+        "Rising AI demand",
+        "Constrained HBM supply"
+      ],
+      "key_risks": [],
+      "valuation_view": "Current valuation assumptions are based on simple methods without specific fair value range or target price.",
+      "counterfactuals": [
+        "If AI demand decreases significantly, it could negatively impact MU's stock performance."
+      ],
+      "next_checks": [
+        "Monitor AI industry trends and HBM supply chain for any changes",
+        "Review upcoming earnings reports"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.532,
+        "rationale": "Micron Technology (MU) is experiencing a bullish trend due to rising AI demand and constrained HBM supply, which are driving up the stock price and indicating an earnings inflection.",
+        "key_drivers": [
+          "Rising AI demand",
+          "Constrained HBM supply"
+        ],
+        "key_risks": [],
+        "valuation_view": "Current valuation assumptions are based on simple methods without specific fair value range or target price.",
+        "counterfactuals": [
+          "If AI demand decreases significantly, it could negatively impact MU's stock performance."
+        ],
+        "next_checks": [
+          "Monitor AI industry trends and HBM supply chain for any changes",
+          "Review upcoming earnings reports"
+        ],
+        "position_plan": {
+          "prefer_qty": 1,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:20:35+09:00",
+      "action": "BUY",
+      "confidence": 0.532,
+      "rationale": "Micron Technology (MU) is experiencing a bullish trend due to rising AI demand and constrained HBM supply, which are driving up the stock price and indicating an earnings inflection.",
+      "key_drivers": [
+        "Rising AI demand",
+        "Constrained HBM supply"
+      ],
+      "key_risks": [],
+      "valuation_view": "Current valuation assumptions are based on simple methods without specific fair value range or target price.",
+      "counterfactuals": [
+        "If AI demand decreases significantly, it could negatively impact MU's stock performance."
+      ],
+      "next_checks": [
+        "Monitor AI industry trends and HBM supply chain for any changes",
+        "Review upcoming earnings reports"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.532,
+        "rationale": "Micron Technology (MU) is experiencing a bullish trend due to rising AI demand and constrained HBM supply, which are driving up the stock price and indicating an earnings inflection.",
+        "key_drivers": [
+          "Rising AI demand",
+          "Constrained HBM supply"
+        ],
+        "key_risks": [],
+        "valuation_view": "Current valuation assumptions are based on simple methods without specific fair value range or target price.",
+        "counterfactuals": [
+          "If AI demand decreases significantly, it could negatively impact MU's stock performance."
+        ],
+        "next_checks": [
+          "Monitor AI industry trends and HBM supply chain for any changes",
+          "Review upcoming earnings reports"
+        ],
+        "position_plan": {
+          "prefer_qty": 1,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:19:07+09:00",
+      "action": "BUY",
+      "confidence": 0.532,
+      "rationale": "Micron Technology (MU) is experiencing a bullish trend due to rising AI demand and constrained HBM supply, which are driving up the stock price and indicating an earnings inflection.",
+      "key_drivers": [
+        "Rising AI demand",
+        "Constrained HBM supply"
+      ],
+      "key_risks": [],
+      "valuation_view": "Current valuation assumptions are based on simple methods without specific fair value range or target price.",
+      "counterfactuals": [
+        "If AI demand decreases significantly, it could negatively impact MU's stock performance."
+      ],
+      "next_checks": [
+        "Monitor AI industry trends and HBM supply chain for any changes",
+        "Review upcoming earnings reports"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.532,
+        "rationale": "Micron Technology (MU) is experiencing a bullish trend due to rising AI demand and constrained HBM supply, which are driving up the stock price and indicating an earnings inflection.",
+        "key_drivers": [
+          "Rising AI demand",
+          "Constrained HBM supply"
+        ],
+        "key_risks": [],
+        "valuation_view": "Current valuation assumptions are based on simple methods without specific fair value range or target price.",
+        "counterfactuals": [
+          "If AI demand decreases significantly, it could negatively impact MU's stock performance."
+        ],
+        "next_checks": [
+          "Monitor AI industry trends and HBM supply chain for any changes",
+          "Review upcoming earnings reports"
+        ],
+        "position_plan": {
+          "prefer_qty": 1,
+          "time_horizon": "swing_days"
+        }
+      }
+    }
+  ],
+  "tags": []
+}

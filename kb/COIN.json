@@ -1,0 +1,903 @@
+{
+  "ticker": "COIN",
+  "updated_at": "2026-02-25T02:34:24+09:00",
+  "thesis": "",
+  "business_summary": "",
+  "moat": "",
+  "key_drivers": [],
+  "key_risks": [],
+  "valuation_method": "simple",
+  "valuation_assumptions": {},
+  "target_price": null,
+  "fair_value_range": null,
+  "evidence": [
+    {
+      "ts_kst": "2026-02-25T00:31:31+09:00",
+      "source": "news",
+      "title": "Yahoo Finance partnering with Coinbase to expand crypto coverage",
+      "summary": "Partnership may enhance Yahoo Finance's offerings but is not expected to significantly impact market sentiment.",
+      "link": "https://finance.yahoo.com/video/yahoo-finance-partnering-coinbase-expand-144630953.html?.tsrc=rss",
+      "sentiment": "neutral",
+      "impact": 0,
+      "tags": [
+        "contract_partnership"
+      ],
+      "raw": {
+        "tickers": [
+          "COIN"
+        ],
+        "event_type": "contract_partnership",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [
+          "Yahoo Finance partners with Coinbase to expand crypto coverage.",
+          "New features and tools for Yahoo Finance users."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Partnership may enhance Yahoo Finance's offerings but is not expected to significantly impact market sentiment."
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:18:00+09:00",
+      "source": "news",
+      "title": "Coinbase Global Posts a Soft Q4 Earnings: Here's How to Play the Stock",
+      "summary": "Earnings shortfall prompts short-term selling pressure.",
+      "link": "https://finance.yahoo.com/news/coinbase-global-posts-soft-q4-144600605.html?.tsrc=rss",
+      "sentiment": "bearish",
+      "impact": -1,
+      "tags": [
+        "earnings"
+      ],
+      "raw": {
+        "tickers": [
+          "COIN"
+        ],
+        "event_type": "earnings",
+        "sentiment": "bearish",
+        "impact": -1,
+        "confidence": 0.7,
+        "key_points": [
+          "Q4 revenue and EPS miss expectations",
+          "Transaction fees decline"
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Earnings shortfall prompts short-term selling pressure."
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:17:58+09:00",
+      "source": "news",
+      "title": "Coinbase Volume Records And Deribit Deal Contrast With Valuation Concerns",
+      "summary": "Mixed recent performance, including a 1.1% gain over the past week, suggests mixed market reaction to news.",
+      "link": "https://finance.yahoo.com/news/coinbase-volume-records-deribit-deal-080855943.html?.tsrc=rss",
+      "sentiment": "neutral",
+      "impact": 0,
+      "tags": [
+        "other"
+      ],
+      "raw": {
+        "tickers": [
+          "COIN"
+        ],
+        "event_type": "other",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [
+          "Coinbase reports record trading volume and finalizes acquisition of Deribit.",
+          "Company broadens threat intelligence work with Crypto ISAC."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Mixed recent performance, including a 1.1% gain over the past week, suggests mixed market reaction to news."
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:17:55+09:00",
+      "source": "news",
+      "title": "Coinbase Global Inc (COIN): Revenue Diversification Efforts Applauded",
+      "summary": "Earnings miss and revenue decline indicate financial struggles, likely to impact stock negatively.",
+      "link": "https://finance.yahoo.com/news/coinbase-global-inc-coin-revenue-110453813.html?.tsrc=rss",
+      "sentiment": "bearish",
+      "impact": -1,
+      "tags": [
+        "earnings"
+      ],
+      "raw": {
+        "tickers": [
+          "COIN"
+        ],
+        "event_type": "earnings",
+        "sentiment": "bearish",
+        "impact": -1,
+        "confidence": 0.7,
+        "key_points": [
+          "Reported a loss of $2.49 per share in Q4 2025.",
+          "Revenue down 22% YoY."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Earnings miss and revenue decline indicate financial struggles, likely to impact stock negatively."
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:17:52+09:00",
+      "source": "news",
+      "title": "Coinbase Global, Inc. (COIN) Reports Q4 Adjusted EPS of 66 cents Compared to the 86 cents Estimate",
+      "summary": "Earnings miss and revenue shortfall indicate operational challenges, likely to pressure stock price in the short term.",
+      "link": "https://finance.yahoo.com/news/coinbase-global-inc-coin-reports-144742866.html?.tsrc=rss",
+      "sentiment": "bearish",
+      "impact": -1,
+      "tags": [
+        "earnings"
+      ],
+      "raw": {
+        "tickers": [
+          "COIN"
+        ],
+        "event_type": "earnings",
+        "sentiment": "bearish",
+        "impact": -1,
+        "confidence": 0.8,
+        "key_points": [
+          "Q4 adjusted EPS of $0.66 below consensus estimate of $0.86",
+          "Sales of $1.78 billion below expected $1.83 billion"
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Earnings miss and revenue shortfall indicate operational challenges, likely to pressure stock price in the short term."
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:17:50+09:00",
+      "source": "news",
+      "title": "Coinbase Stock Stretches Post-Earnings Rally; Is Coinbase A Buy Now?",
+      "summary": "Earnings miss was not severe enough to cause a significant drop, but lack of upward momentum suggests caution.",
+      "link": "https://finance.yahoo.com/m/7327957e-ff2a-3c3a-978c-179771e8af38/coinbase-stock-stretches.html?.tsrc=rss",
+      "sentiment": "neutral",
+      "impact": 0,
+      "tags": [
+        "earnings"
+      ],
+      "raw": {
+        "tickers": [
+          "COIN"
+        ],
+        "event_type": "earnings",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [
+          "Coinbase stock jumped despite earnings miss.",
+          "Shares remain below 50-day and 200-day moving averages."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Earnings miss was not severe enough to cause a significant drop, but lack of upward momentum suggests caution."
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:17:47+09:00",
+      "source": "news",
+      "title": "5 Must-Read Analyst Questions From Coinbase’s Q4 Earnings Call",
+      "summary": "Market response was positive despite earnings misses, attributing resilience to new products and global trading volume.",
+      "link": "https://finance.yahoo.com/news/5-must-read-analyst-questions-053650650.html?.tsrc=rss",
+      "sentiment": "neutral",
+      "impact": 0,
+      "tags": [
+        "earnings"
+      ],
+      "raw": {
+        "tickers": [
+          "COIN"
+        ],
+        "event_type": "earnings",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [
+          "Revenue and profitability declined compared to prior year.",
+          "Management attributed resilience to diversified revenue streams and new product launches."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Market response was positive despite earnings misses, attributing resilience to new products and global trading volume."
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:17:45+09:00",
+      "source": "news",
+      "title": "Coinbase (COIN) Valuation Check After Earnings Miss And Softer Crypto Trading Activity",
+      "summary": "Earnings miss and declining trading activity have negatively impacted COIN's stock price, leading to a bearish sentiment.",
+      "link": "https://finance.yahoo.com/news/coinbase-coin-valuation-check-earnings-061311101.html?.tsrc=rss",
+      "sentiment": "bearish",
+      "impact": -1,
+      "tags": [
+        "earnings"
+      ],
+      "raw": {
+        "tickers": [
+          "COIN"
+        ],
+        "event_type": "earnings",
+        "sentiment": "bearish",
+        "impact": -1,
+        "confidence": 0.8,
+        "key_points": [
+          "Q4 earnings miss with loss per share and softer revenue/trading volumes.",
+          "Management continues buybacks and new business initiatives."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Earnings miss and declining trading activity have negatively impacted COIN's stock price, leading to a bearish sentiment."
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:17:26+09:00",
+      "source": "news",
+      "title": "Cantor Fitzgerald Loads Up 3.33 Million IREN Shares",
+      "summary": "IREN runs data centers and mines Bitcoin, generating revenue from digital asset mining and infrastructure services in Australia and Canada.",
+      "link": "https://www.fool.com/coverage/filings/2026/02/18/cantor-fitzgerald-loads-up-333m-iren-shares/?.tsrc=rss",
+      "sentiment": "neutral",
+      "impact": 0,
+      "tags": [
+        "other"
+      ],
+      "raw": {
+        "tickers": [],
+        "event_type": "other",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [],
+        "trade_horizon": "swing_days",
+        "why_it_moves": ""
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "ts_kst": "2026-02-25T02:34:24+09:00",
+      "action": "HOLD",
+      "confidence": 0.1658,
+      "rationale": "The current market regime is risk-off, and recent news events do not provide strong momentum for a directional trade. The partnership between Yahoo Finance and Coinbase may enhance coverage but is unlikely to significantly impact the stock price in the short term.",
+      "key_drivers": [
+        "Strong bearish technical indicators",
+        "Risk-off market sentiment"
+      ],
+      "key_risks": [
+        "Continued decline in trading volumes and revenue",
+        "Operational challenges as highlighted by earnings reports"
+      ],
+      "valuation_view": "The stock price has declined due to earnings misses and softer crypto trading activity, but the valuation does not currently support a strong bearish stance.",
+      "counterfactuals": [
+        "A significant uptick in trading volumes or revenue could reverse sentiment",
+        "Positive regulatory developments for cryptocurrency exchanges"
+      ],
+      "next_checks": [
+        "Earnings reports from other major crypto exchanges to gauge industry trends",
+        "Technical indicators for potential trend reversal"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.1658,
+        "rationale": "The current market regime is risk-off, and recent news events do not provide strong momentum for a directional trade. The partnership between Yahoo Finance and Coinbase may enhance coverage but is unlikely to significantly impact the stock price in the short term.",
+        "key_drivers": [
+          "Strong bearish technical indicators",
+          "Risk-off market sentiment"
+        ],
+        "key_risks": [
+          "Continued decline in trading volumes and revenue",
+          "Operational challenges as highlighted by earnings reports"
+        ],
+        "valuation_view": "The stock price has declined due to earnings misses and softer crypto trading activity, but the valuation does not currently support a strong bearish stance.",
+        "counterfactuals": [
+          "A significant uptick in trading volumes or revenue could reverse sentiment",
+          "Positive regulatory developments for cryptocurrency exchanges"
+        ],
+        "next_checks": [
+          "Earnings reports from other major crypto exchanges to gauge industry trends",
+          "Technical indicators for potential trend reversal"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T02:32:46+09:00",
+      "action": "HOLD",
+      "confidence": 0.1658,
+      "rationale": "The current market regime is risk-off, and the technical analysis indicates a strong bearish trend. Recent news of Yahoo Finance partnering with Coinbase to expand crypto coverage has a neutral impact on the stock price. Given these factors, maintaining the current position without additional buying or selling is prudent.",
+      "key_drivers": [
+        "Risk-off market regime",
+        "Strong bearish technical analysis"
+      ],
+      "key_risks": [
+        "Continued negative sentiment in the crypto market",
+        "No significant positive news to support a buy decision"
+      ],
+      "valuation_view": "The valuation remains bearish, with no clear indication of a fair value. The recent earnings miss and declining trading volumes have negatively impacted COIN's stock price.",
+      "counterfactuals": [
+        "A significant positive earnings report or news that boosts investor confidence in the crypto market",
+        "Improvement in global economic conditions leading to increased investment in cryptocurrencies"
+      ],
+      "next_checks": [
+        "Earnings reports from other major cryptocurrency exchanges",
+        "Global economic indicators and their impact on the crypto market",
+        "Any regulatory changes affecting the cryptocurrency industry"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.1658,
+        "rationale": "The current market regime is risk-off, and the technical analysis indicates a strong bearish trend. Recent news of Yahoo Finance partnering with Coinbase to expand crypto coverage has a neutral impact on the stock price. Given these factors, maintaining the current position without additional buying or selling is prudent.",
+        "key_drivers": [
+          "Risk-off market regime",
+          "Strong bearish technical analysis"
+        ],
+        "key_risks": [
+          "Continued negative sentiment in the crypto market",
+          "No significant positive news to support a buy decision"
+        ],
+        "valuation_view": "The valuation remains bearish, with no clear indication of a fair value. The recent earnings miss and declining trading volumes have negatively impacted COIN's stock price.",
+        "counterfactuals": [
+          "A significant positive earnings report or news that boosts investor confidence in the crypto market",
+          "Improvement in global economic conditions leading to increased investment in cryptocurrencies"
+        ],
+        "next_checks": [
+          "Earnings reports from other major cryptocurrency exchanges",
+          "Global economic indicators and their impact on the crypto market",
+          "Any regulatory changes affecting the cryptocurrency industry"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T02:30:49+09:00",
+      "action": "HOLD",
+      "confidence": 0.16575812556324643,
+      "rationale": "The current market regime is risk-off, and the recent news of a partnership between Yahoo Finance and Coinbase does not significantly alter the bearish sentiment. The stock price has shown resilience despite earnings misses, but the lack of upward momentum suggests caution.",
+      "key_drivers": [
+        "Recent earnings miss with softer revenue/trading volumes",
+        "Risk-off market regime",
+        "Positive market response to new products and global trading volume"
+      ],
+      "key_risks": [
+        "Continued decline in cryptocurrency trading activity",
+        "Operational challenges indicated by management",
+        "Lack of strong upward momentum despite positive earnings"
+      ],
+      "valuation_view": "The valuation remains bearish, with no clear fair value estimate due to ongoing operational challenges and declining trading volumes.",
+      "counterfactuals": [
+        "A significant uptick in cryptocurrency trading activity could reverse the bearish sentiment.",
+        "Stronger-than-expected earnings or guidance from management might shift the market outlook positively."
+      ],
+      "next_checks": [
+        "Quarterly trading volume trends",
+        "Management's update on new product launches and initiatives",
+        "Global macroeconomic indicators affecting crypto markets"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.16575812556324643,
+        "rationale": "The current market regime is risk-off, and the recent news of a partnership between Yahoo Finance and Coinbase does not significantly alter the bearish sentiment. The stock price has shown resilience despite earnings misses, but the lack of upward momentum suggests caution.",
+        "key_drivers": [
+          "Recent earnings miss with softer revenue/trading volumes",
+          "Risk-off market regime",
+          "Positive market response to new products and global trading volume"
+        ],
+        "key_risks": [
+          "Continued decline in cryptocurrency trading activity",
+          "Operational challenges indicated by management",
+          "Lack of strong upward momentum despite positive earnings"
+        ],
+        "valuation_view": "The valuation remains bearish, with no clear fair value estimate due to ongoing operational challenges and declining trading volumes.",
+        "counterfactuals": [
+          "A significant uptick in cryptocurrency trading activity could reverse the bearish sentiment.",
+          "Stronger-than-expected earnings or guidance from management might shift the market outlook positively."
+        ],
+        "next_checks": [
+          "Quarterly trading volume trends",
+          "Management's update on new product launches and initiatives",
+          "Global macroeconomic indicators affecting crypto markets"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T01:29:57+09:00",
+      "action": "HOLD",
+      "confidence": 0.16432115011176165,
+      "rationale": "The current market regime is risk-off, and the recent news of a partnership between Yahoo Finance and Coinbase does not significantly alter the bearish sentiment. The stock price has shown resilience despite earnings misses, but the lack of upward momentum suggests caution.",
+      "key_drivers": [
+        "Recent earnings miss with loss per share and softer revenue/trading volumes",
+        "Market regime is risk-off",
+        "Yahoo Finance partnership with Coinbase does not significantly impact market sentiment"
+      ],
+      "key_risks": [
+        "Continued decline in trading activity could pressure the stock price further",
+        "Operational challenges may persist despite new product launches"
+      ],
+      "valuation_view": "The valuation remains bearish, and there is no clear fair value estimate due to ongoing operational challenges.",
+      "counterfactuals": [
+        "A significant uptick in trading volumes or revenue growth could change the outlook positively",
+        "Stronger-than-expected earnings from new product launches might reverse the current trend"
+      ],
+      "next_checks": [
+        "Quarterly trading volume and revenue trends to assess market acceptance of new products",
+        "Management's progress on buyback initiatives and cost-cutting measures"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.16432115011176165,
+        "rationale": "The current market regime is risk-off, and the recent news of a partnership between Yahoo Finance and Coinbase does not significantly alter the bearish sentiment. The stock price has shown resilience despite earnings misses, but the lack of upward momentum suggests caution.",
+        "key_drivers": [
+          "Recent earnings miss with loss per share and softer revenue/trading volumes",
+          "Market regime is risk-off",
+          "Yahoo Finance partnership with Coinbase does not significantly impact market sentiment"
+        ],
+        "key_risks": [
+          "Continued decline in trading activity could pressure the stock price further",
+          "Operational challenges may persist despite new product launches"
+        ],
+        "valuation_view": "The valuation remains bearish, and there is no clear fair value estimate due to ongoing operational challenges.",
+        "counterfactuals": [
+          "A significant uptick in trading volumes or revenue growth could change the outlook positively",
+          "Stronger-than-expected earnings from new product launches might reverse the current trend"
+        ],
+        "next_checks": [
+          "Quarterly trading volume and revenue trends to assess market acceptance of new products",
+          "Management's progress on buyback initiatives and cost-cutting measures"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T01:28:10+09:00",
+      "action": "HOLD",
+      "confidence": 0.1643,
+      "rationale": "The current market sentiment is risk-off with a strong bearish technical analysis, and the latest news on Yahoo Finance partnering with Coinbase does not significantly alter this outlook. The partnership may enhance Yahoo Finance's offerings but is unlikely to have a substantial impact on Coinbase's stock price in the short term.",
+      "key_drivers": [
+        "Strong bearish technical analysis",
+        "Risk-off market regime"
+      ],
+      "key_risks": [
+        "Continued decline in trading volumes and revenue",
+        "Operational challenges as indicated by earnings misses"
+      ],
+      "valuation_view": "The valuation remains bearish, with no clear fair value range provided. The recent earnings miss and declining trading activity have negatively impacted the stock price.",
+      "counterfactuals": [
+        "A significant increase in trading volumes or revenue could change the outlook positively",
+        "Stronger-than-expected earnings reports could shift market sentiment"
+      ],
+      "next_checks": [
+        "Quarterly trading volume trends",
+        "Earnings report for upcoming quarters"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.1643,
+        "rationale": "The current market sentiment is risk-off with a strong bearish technical analysis, and the latest news on Yahoo Finance partnering with Coinbase does not significantly alter this outlook. The partnership may enhance Yahoo Finance's offerings but is unlikely to have a substantial impact on Coinbase's stock price in the short term.",
+        "key_drivers": [
+          "Strong bearish technical analysis",
+          "Risk-off market regime"
+        ],
+        "key_risks": [
+          "Continued decline in trading volumes and revenue",
+          "Operational challenges as indicated by earnings misses"
+        ],
+        "valuation_view": "The valuation remains bearish, with no clear fair value range provided. The recent earnings miss and declining trading activity have negatively impacted the stock price.",
+        "counterfactuals": [
+          "A significant increase in trading volumes or revenue could change the outlook positively",
+          "Stronger-than-expected earnings reports could shift market sentiment"
+        ],
+        "next_checks": [
+          "Quarterly trading volume trends",
+          "Earnings report for upcoming quarters"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T01:26:13+09:00",
+      "action": "HOLD",
+      "confidence": 0.8,
+      "rationale": "The current market sentiment is risk-off with a weak technical analysis signal. Recent news of Yahoo Finance partnering with Coinbase for crypto coverage does not significantly impact the stock price, as it is neutral and unlikely to change the overall bearish trend.",
+      "key_drivers": [
+        "Weak technical indicators (strong_bearish)",
+        "Risk-off market regime",
+        "Neutral news event from Yahoo Finance partnership"
+      ],
+      "key_risks": [
+        "Continued decline in trading volumes and revenue",
+        "Potential for further earnings misses",
+        "Market sentiment remains bearish despite short-term rallies"
+      ],
+      "valuation_view": "The stock price is currently below its moving averages, indicating a potential undervaluation. However, the recent earnings miss suggests that any valuation improvements are likely to be gradual.",
+      "counterfactuals": [
+        "A significant positive earnings report or revenue growth could change the outlook positively",
+        "Sustained improvement in trading volumes and new product launches could shift market sentiment"
+      ],
+      "next_checks": [
+        "Quarterly earnings reports for any signs of recovery",
+        "Trading volume trends to assess if the bearish trend is reversing",
+        "Management commentary on new initiatives and their impact on revenue"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.8,
+        "rationale": "The current market sentiment is risk-off with a weak technical analysis signal. Recent news of Yahoo Finance partnering with Coinbase for crypto coverage does not significantly impact the stock price, as it is neutral and unlikely to change the overall bearish trend.",
+        "key_drivers": [
+          "Weak technical indicators (strong_bearish)",
+          "Risk-off market regime",
+          "Neutral news event from Yahoo Finance partnership"
+        ],
+        "key_risks": [
+          "Continued decline in trading volumes and revenue",
+          "Potential for further earnings misses",
+          "Market sentiment remains bearish despite short-term rallies"
+        ],
+        "valuation_view": "The stock price is currently below its moving averages, indicating a potential undervaluation. However, the recent earnings miss suggests that any valuation improvements are likely to be gradual.",
+        "counterfactuals": [
+          "A significant positive earnings report or revenue growth could change the outlook positively",
+          "Sustained improvement in trading volumes and new product launches could shift market sentiment"
+        ],
+        "next_checks": [
+          "Quarterly earnings reports for any signs of recovery",
+          "Trading volume trends to assess if the bearish trend is reversing",
+          "Management commentary on new initiatives and their impact on revenue"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:34:41+09:00",
+      "action": "HOLD",
+      "confidence": 0.1628562617004237,
+      "rationale": "The current market sentiment and technical analysis suggest a cautious approach, with the recent earnings miss by Coinbase (COIN) indicating operational challenges. While there is potential for new partnerships to enhance Yahoo Finance's crypto coverage, the overall risk-off environment and lack of strong upward momentum in COIN's stock price support a hold strategy.",
+      "key_drivers": [
+        "Recent earnings miss and revenue shortfall",
+        "Operational challenges indicated by management",
+        "Positive market response despite earnings misses attributed to new products"
+      ],
+      "key_risks": [
+        "Continued decline in trading volumes",
+        "Risk-off market sentiment",
+        "Potential for further negative news impacting COIN's stock price"
+      ],
+      "valuation_view": "The valuation remains bearish, with the recent earnings miss and declining trading activity negatively impacting the stock price. The fair value is not clearly defined due to ongoing operational challenges.",
+      "counterfactuals": [
+        "A significant positive earnings report or revenue growth could change the outlook",
+        "Strong upward momentum in COIN's stock price breaking above key moving averages"
+      ],
+      "next_checks": [
+        "Future earnings reports and guidance from management",
+        "Market sentiment on broader crypto market trends"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.1628562617004237,
+        "rationale": "The current market sentiment and technical analysis suggest a cautious approach, with the recent earnings miss by Coinbase (COIN) indicating operational challenges. While there is potential for new partnerships to enhance Yahoo Finance's crypto coverage, the overall risk-off environment and lack of strong upward momentum in COIN's stock price support a hold strategy.",
+        "key_drivers": [
+          "Recent earnings miss and revenue shortfall",
+          "Operational challenges indicated by management",
+          "Positive market response despite earnings misses attributed to new products"
+        ],
+        "key_risks": [
+          "Continued decline in trading volumes",
+          "Risk-off market sentiment",
+          "Potential for further negative news impacting COIN's stock price"
+        ],
+        "valuation_view": "The valuation remains bearish, with the recent earnings miss and declining trading activity negatively impacting the stock price. The fair value is not clearly defined due to ongoing operational challenges.",
+        "counterfactuals": [
+          "A significant positive earnings report or revenue growth could change the outlook",
+          "Strong upward momentum in COIN's stock price breaking above key moving averages"
+        ],
+        "next_checks": [
+          "Future earnings reports and guidance from management",
+          "Market sentiment on broader crypto market trends"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:32:45+09:00",
+      "action": "HOLD",
+      "confidence": 0.1627944652456446,
+      "rationale": "The current market sentiment is cautiously bearish, with a slight hold recommendation due to the recent earnings miss and ongoing operational challenges. The partnership between Yahoo Finance and Coinbase may provide some positive momentum but does not outweigh the existing risks.",
+      "key_drivers": [
+        "Recent Q4 earnings miss and revenue shortfall",
+        "Declining trading activity impacting stock price negatively"
+      ],
+      "key_risks": [
+        "Operational challenges indicated by management",
+        "Lack of upward momentum despite positive market response to new products"
+      ],
+      "valuation_view": "The valuation remains bearish, with the fair value not yet clear due to ongoing uncertainties.",
+      "counterfactuals": [
+        "A significant improvement in Q1 earnings or trading volumes could change the outlook positively.",
+        "Further operational challenges or negative regulatory developments could exacerbate the current bearish sentiment."
+      ],
+      "next_checks": [
+        "Q1 earnings report and trading activity",
+        "Regulatory updates affecting the cryptocurrency market"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.1627944652456446,
+        "rationale": "The current market sentiment is cautiously bearish, with a slight hold recommendation due to the recent earnings miss and ongoing operational challenges. The partnership between Yahoo Finance and Coinbase may provide some positive momentum but does not outweigh the existing risks.",
+        "key_drivers": [
+          "Recent Q4 earnings miss and revenue shortfall",
+          "Declining trading activity impacting stock price negatively"
+        ],
+        "key_risks": [
+          "Operational challenges indicated by management",
+          "Lack of upward momentum despite positive market response to new products"
+        ],
+        "valuation_view": "The valuation remains bearish, with the fair value not yet clear due to ongoing uncertainties.",
+        "counterfactuals": [
+          "A significant improvement in Q1 earnings or trading volumes could change the outlook positively.",
+          "Further operational challenges or negative regulatory developments could exacerbate the current bearish sentiment."
+        ],
+        "next_checks": [
+          "Q1 earnings report and trading activity",
+          "Regulatory updates affecting the cryptocurrency market"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:24:43+09:00",
+      "action": "HOLD",
+      "confidence": 0.8,
+      "rationale": "Current market conditions and technical indicators suggest a cautious approach. The recent earnings miss and revenue shortfall indicate operational challenges, but the stock price has not significantly dropped, indicating some resilience.",
+      "key_drivers": [
+        "Earnings miss and revenue decline",
+        "Market response positive despite misses"
+      ],
+      "key_risks": [
+        "Operational challenges may continue to impact stock negatively",
+        "Lack of upward momentum suggests caution"
+      ],
+      "valuation_view": "Valuation is currently bearish, but the recent performance has not fully reflected this.",
+      "counterfactuals": [
+        "Significant operational improvements or positive earnings surprises could change the outlook."
+      ],
+      "next_checks": [
+        "Quarterly earnings reports and management guidance",
+        "Market sentiment and trading volumes"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.8,
+        "rationale": "Current market conditions and technical indicators suggest a cautious approach. The recent earnings miss and revenue shortfall indicate operational challenges, but the stock price has not significantly dropped, indicating some resilience.",
+        "key_drivers": [
+          "Earnings miss and revenue decline",
+          "Market response positive despite misses"
+        ],
+        "key_risks": [
+          "Operational challenges may continue to impact stock negatively",
+          "Lack of upward momentum suggests caution"
+        ],
+        "valuation_view": "Valuation is currently bearish, but the recent performance has not fully reflected this.",
+        "counterfactuals": [
+          "Significant operational improvements or positive earnings surprises could change the outlook."
+        ],
+        "next_checks": [
+          "Quarterly earnings reports and management guidance",
+          "Market sentiment and trading volumes"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:23:22+09:00",
+      "action": "SELL",
+      "confidence": 0.8,
+      "rationale": "近期财报显示收入和利润低于预期，市场反应负面。尽管股价未出现大幅下跌，但缺乏向上动力，表明短期内存在下行压力。",
+      "key_drivers": [
+        "Q4收入和EPS低于预期",
+        "交易费用下降"
+      ],
+      "key_risks": [
+        "持续的收入下滑可能影响公司长期发展",
+        "市场对加密货币行业的整体情绪可能进一步恶化"
+      ],
+      "valuation_view": "当前估值基于保守假设，未提供具体目标价格",
+      "counterfactuals": [
+        "如果未来几个季度收入和利润显著改善，则可能会改变立场"
+      ],
+      "next_checks": [
+        "下一季财报发布情况",
+        "行业整体趋势变化"
+      ],
+      "raw": {
+        "action": "SELL",
+        "confidence": 0.8,
+        "rationale": "近期财报显示收入和利润低于预期，市场反应负面。尽管股价未出现大幅下跌，但缺乏向上动力，表明短期内存在下行压力。",
+        "key_drivers": [
+          "Q4收入和EPS低于预期",
+          "交易费用下降"
+        ],
+        "key_risks": [
+          "持续的收入下滑可能影响公司长期发展",
+          "市场对加密货币行业的整体情绪可能进一步恶化"
+        ],
+        "valuation_view": "当前估值基于保守假设，未提供具体目标价格",
+        "counterfactuals": [
+          "如果未来几个季度收入和利润显著改善，则可能会改变立场"
+        ],
+        "next_checks": [
+          "下一季财报发布情况",
+          "行业整体趋势变化"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:22:04+09:00",
+      "action": "SELL",
+      "confidence": 0.8,
+      "rationale": "近期财报显示收入和利润低于预期，市场反应负面。尽管股价未出现大幅下跌，但缺乏向上动力，表明短期内存在下行压力。",
+      "key_drivers": [
+        "Q4收入和EPS低于预期",
+        "交易费用下降"
+      ],
+      "key_risks": [
+        "持续的收入下滑可能影响公司长期发展",
+        "市场对加密货币行业的整体情绪可能进一步恶化"
+      ],
+      "valuation_view": "当前估值基于保守假设，未提供具体目标价格",
+      "counterfactuals": [
+        "如果未来几个季度收入和利润显著改善，则可能会改变立场"
+      ],
+      "next_checks": [
+        "下一季财报发布情况",
+        "行业整体趋势变化"
+      ],
+      "raw": {
+        "action": "SELL",
+        "confidence": 0.8,
+        "rationale": "近期财报显示收入和利润低于预期，市场反应负面。尽管股价未出现大幅下跌，但缺乏向上动力，表明短期内存在下行压力。",
+        "key_drivers": [
+          "Q4收入和EPS低于预期",
+          "交易费用下降"
+        ],
+        "key_risks": [
+          "持续的收入下滑可能影响公司长期发展",
+          "市场对加密货币行业的整体情绪可能进一步恶化"
+        ],
+        "valuation_view": "当前估值基于保守假设，未提供具体目标价格",
+        "counterfactuals": [
+          "如果未来几个季度收入和利润显著改善，则可能会改变立场"
+        ],
+        "next_checks": [
+          "下一季财报发布情况",
+          "行业整体趋势变化"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:20:47+09:00",
+      "action": "SELL",
+      "confidence": 0.8,
+      "rationale": "近期财报显示收入和利润低于预期，市场反应负面。尽管股价未出现大幅下跌，但缺乏向上动力，表明短期内存在下行压力。",
+      "key_drivers": [
+        "Q4收入和EPS低于预期",
+        "交易费用下降"
+      ],
+      "key_risks": [
+        "持续的收入下滑可能影响公司长期发展",
+        "市场对加密货币行业的整体情绪可能进一步恶化"
+      ],
+      "valuation_view": "当前估值基于保守假设，未提供具体目标价格",
+      "counterfactuals": [
+        "如果未来几个季度收入和利润显著改善，则可能会改变立场"
+      ],
+      "next_checks": [
+        "下一季财报发布情况",
+        "行业整体趋势变化"
+      ],
+      "raw": {
+        "action": "SELL",
+        "confidence": 0.8,
+        "rationale": "近期财报显示收入和利润低于预期，市场反应负面。尽管股价未出现大幅下跌，但缺乏向上动力，表明短期内存在下行压力。",
+        "key_drivers": [
+          "Q4收入和EPS低于预期",
+          "交易费用下降"
+        ],
+        "key_risks": [
+          "持续的收入下滑可能影响公司长期发展",
+          "市场对加密货币行业的整体情绪可能进一步恶化"
+        ],
+        "valuation_view": "当前估值基于保守假设，未提供具体目标价格",
+        "counterfactuals": [
+          "如果未来几个季度收入和利润显著改善，则可能会改变立场"
+        ],
+        "next_checks": [
+          "下一季财报发布情况",
+          "行业整体趋势变化"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:19:18+09:00",
+      "action": "SELL",
+      "confidence": 0.8,
+      "rationale": "近期财报显示收入和利润低于预期，市场反应负面。尽管股价未出现大幅下跌，但缺乏向上动力，表明短期内存在下行压力。",
+      "key_drivers": [
+        "Q4收入和EPS低于预期",
+        "交易费用下降"
+      ],
+      "key_risks": [
+        "持续的收入下滑可能影响公司长期发展",
+        "市场对加密货币行业的整体情绪可能进一步恶化"
+      ],
+      "valuation_view": "当前估值基于保守假设，未提供具体目标价格",
+      "counterfactuals": [
+        "如果未来几个季度收入和利润显著改善，则可能会改变立场"
+      ],
+      "next_checks": [
+        "下一季财报发布情况",
+        "行业整体趋势变化"
+      ],
+      "raw": {
+        "action": "SELL",
+        "confidence": 0.8,
+        "rationale": "近期财报显示收入和利润低于预期，市场反应负面。尽管股价未出现大幅下跌，但缺乏向上动力，表明短期内存在下行压力。",
+        "key_drivers": [
+          "Q4收入和EPS低于预期",
+          "交易费用下降"
+        ],
+        "key_risks": [
+          "持续的收入下滑可能影响公司长期发展",
+          "市场对加密货币行业的整体情绪可能进一步恶化"
+        ],
+        "valuation_view": "当前估值基于保守假设，未提供具体目标价格",
+        "counterfactuals": [
+          "如果未来几个季度收入和利润显著改善，则可能会改变立场"
+        ],
+        "next_checks": [
+          "下一季财报发布情况",
+          "行业整体趋势变化"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    }
+  ],
+  "tags": []
+}

@@ -1,0 +1,1245 @@
+{
+  "ticker": "SNOW",
+  "updated_at": "2026-02-25T00:34:55+09:00",
+  "thesis": "",
+  "business_summary": "",
+  "moat": "",
+  "key_drivers": [],
+  "key_risks": [],
+  "valuation_method": "simple",
+  "valuation_assumptions": {},
+  "target_price": null,
+  "fair_value_range": null,
+  "evidence": [
+    {
+      "ts_kst": "2026-02-25T00:15:20+09:00",
+      "source": "news",
+      "title": "The Smart Way to Bet Against SNOW Over Earnings",
+      "summary": "High IV and bearish outlook indicate potential for significant price movement post-earnings.",
+      "link": "https://www.barchart.com/story/news/383608/the-smart-way-to-bet-against-snow-over-earnings?.tsrc=rss",
+      "sentiment": "bearish",
+      "impact": -1,
+      "tags": [
+        "earnings"
+      ],
+      "raw": {
+        "tickers": [
+          "SNOW"
+        ],
+        "event_type": "earnings",
+        "sentiment": "bearish",
+        "impact": -1,
+        "confidence": 0.8,
+        "key_points": [
+          "Snowflake's earnings announcement is approaching with high implied volatility.",
+          "Bullish sentiment suggests potential for negative surprises."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "High IV and bearish outlook indicate potential for significant price movement post-earnings."
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T22:43:38+09:00",
+      "source": "news",
+      "title": "Should You Buy, Sell, or Hold SNOW Stock Before Q4 Earnings Release?",
+      "summary": "Earnings expectations and expanding business footprint likely to positively impact stock performance.",
+      "link": "https://finance.yahoo.com/news/buy-sell-hold-snow-stock-161800354.html?.tsrc=rss",
+      "sentiment": "bullish",
+      "impact": 1,
+      "tags": [
+        "earnings"
+      ],
+      "raw": {
+        "tickers": [
+          "SNOW"
+        ],
+        "event_type": "earnings",
+        "sentiment": "bullish",
+        "impact": 1,
+        "confidence": 0.7,
+        "key_points": [
+          "Expected growth driven by increased customer base.",
+          "Expanding partner network supports revenue expansion."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Earnings expectations and expanding business footprint likely to positively impact stock performance."
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T22:43:35+09:00",
+      "source": "news",
+      "title": "Snowflake (SNOW) Reports Q4: Everything You Need To Know Ahead Of Earnings",
+      "summary": "Earnings reports often drive short-term market reactions based on revenue, profit margins, and guidance provided.",
+      "link": "https://finance.yahoo.com/news/snowflake-snow-reports-q4-everything-031602988.html?.tsrc=rss",
+      "sentiment": "neutral",
+      "impact": 0,
+      "tags": [
+        "earnings"
+      ],
+      "raw": {
+        "tickers": [
+          "SNOW"
+        ],
+        "event_type": "earnings",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [
+          "Snowflake (SNOW) will report Q4 earnings this Wednesday.",
+          "Investors should monitor financial performance indicators."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Earnings reports often drive short-term market reactions based on revenue, profit margins, and guidance provided."
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T22:43:33+09:00",
+      "source": "news",
+      "title": "Snowflake Leans On OpenAI Alliance As AI Workloads Shape Growth Story",
+      "summary": "Strategic partnership with OpenAI is expected to boost Snowflake's capabilities in the AI space, potentially driving growth.",
+      "link": "https://finance.yahoo.com/news/snowflake-leans-openai-alliance-ai-043004559.html?.tsrc=rss",
+      "sentiment": "bullish",
+      "impact": 1,
+      "tags": [
+        "contract_partnership"
+      ],
+      "raw": {
+        "tickers": [
+          "SNOW"
+        ],
+        "event_type": "contract_partnership",
+        "sentiment": "bullish",
+        "impact": 1,
+        "confidence": 0.7,
+        "key_points": [
+          "Snowflake enters a $200 million partnership with OpenAI to integrate AI models into its platform.",
+          "The deal aims to enhance Snowflake's offerings for enterprise and sports organizations."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Strategic partnership with OpenAI is expected to boost Snowflake's capabilities in the AI space, potentially driving growth."
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T22:43:30+09:00",
+      "source": "news",
+      "title": "Investors Are Dumping Software Stocks and Earnings Won’t Stop It",
+      "summary": "AI's impact on growth is causing widespread investor pessimism, overshadowing positive earnings reports.",
+      "link": "https://finance.yahoo.com/news/investors-dumping-software-stocks-earnings-104057192.html?.tsrc=rss",
+      "sentiment": "bearish",
+      "impact": -2,
+      "tags": [
+        "earnings"
+      ],
+      "raw": {
+        "tickers": [
+          "TEAM",
+          "SHOP",
+          "SNOW"
+        ],
+        "event_type": "earnings",
+        "sentiment": "bearish",
+        "impact": -2,
+        "confidence": 0.7,
+        "key_points": [
+          "Software companies report earnings amid AI growth concerns.",
+          "Investors are selling software stocks despite earnings reports."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "AI's impact on growth is causing widespread investor pessimism, overshadowing positive earnings reports."
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:49:20+09:00",
+      "source": "news",
+      "title": "Dear Snowflake Stock Fans, Mark Your Calendars for February 25",
+      "summary": "Investor anticipation and tech sector volatility may drive short-term market reaction.",
+      "link": "https://www.barchart.com/story/news/305751/dear-snowflake-stock-fans-mark-your-calendars-for-february-25?.tsrc=rss",
+      "sentiment": "neutral",
+      "impact": 0,
+      "tags": [
+        "earnings"
+      ],
+      "raw": {
+        "tickers": [
+          "SNOW"
+        ],
+        "event_type": "earnings",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [
+          "Snowflake's upcoming earnings report is anticipated by investors.",
+          "Tech sector volatility adds to the significance of the event."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Investor anticipation and tech sector volatility may drive short-term market reaction."
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:49:18+09:00",
+      "source": "news",
+      "title": "What Analyst Projections for Key Metrics Reveal About Snowflake (SNOW) Q4 Earnings",
+      "summary": "Projections could influence investor sentiment but lack specific details to predict a clear market reaction.",
+      "link": "https://finance.yahoo.com/news/analyst-projections-key-metrics-reveal-141507795.html?.tsrc=rss",
+      "sentiment": "neutral",
+      "impact": 0,
+      "tags": [
+        "earnings"
+      ],
+      "raw": {
+        "tickers": [
+          "SNOW"
+        ],
+        "event_type": "earnings",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [
+          "Analysts project key metrics for Snowflake (SNOW) Q4 earnings.",
+          "Insight into potential business performance in the quarter ended January 2026."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Projections could influence investor sentiment but lack specific details to predict a clear market reaction."
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:49:11+09:00",
+      "source": "news",
+      "title": "Should You \"Buy\" or \"Sell\" Snowflke Stock Before  25 February",
+      "summary": "Snowflake earnings announcement is imminent, but AI concerns cast a shadow over the software sector.",
+      "link": "https://finance.yahoo.com/news/buy-sell-snowflke-stock-25-142236490.html?.tsrc=rss",
+      "sentiment": "neutral",
+      "impact": 0,
+      "tags": [
+        "earnings"
+      ],
+      "raw": {
+        "tickers": [
+          "SNOW"
+        ],
+        "event_type": "earnings",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Snowflake earnings announcement is imminent, but AI concerns cast a shadow over the software sector."
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:49:09+09:00",
+      "source": "news",
+      "title": "Artisan Mid Cap Fund Sold Snowflake (SNOW) Due to Elevated Valuation",
+      "summary": "Artisan Partners, an investment management company, released its fourth-quarter 2025 investor letter for “Artisan Mid Cap Fund”. A copy of the letter can be downloaded here. The Fund seeks to invest in companies that possess franchise characteristics, with strong earnings trajectories, and are trading at a discount to the estimated private market value. US equities […]",
+      "link": "https://finance.yahoo.com/news/artisan-mid-cap-fund-sold-144902647.html?.tsrc=rss",
+      "sentiment": "neutral",
+      "impact": 0,
+      "tags": [
+        "other"
+      ],
+      "raw": {
+        "tickers": [
+          "SNOW"
+        ],
+        "event_type": "other",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [],
+        "trade_horizon": "swing_days",
+        "why_it_moves": ""
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "ts_kst": "2026-02-25T00:34:55+09:00",
+      "action": "HOLD",
+      "confidence": 0.7,
+      "rationale": "The current market regime is risk-off, and the earnings announcement for Snowflake (SNOW) on February 25th presents significant volatility risks due to high implied volatility (IV). The recent news events suggest mixed sentiments but overall bearish expectations. Given the strong bearish technical analysis and the upcoming earnings report, it's prudent to hold current positions until clearer signals emerge.",
+      "key_drivers": [
+        "High IV Percentile of 100% indicating potential for significant price movement post-earnings",
+        "Bearish market regime (risk-off)",
+        "Mixed but generally bearish news sentiment"
+      ],
+      "key_risks": [
+        "Potential sharp decline in stock price due to negative earnings surprises or macroeconomic headwinds related to AI growth concerns",
+        "Market-wide risk-off sentiment affecting all tech stocks, including SNOW"
+      ],
+      "valuation_view": "The current market conditions and high IV suggest that the fair value of SNOW is uncertain. The recent news events do not provide a clear valuation path forward.",
+      "counterfactuals": [
+        "A positive earnings report or strong revenue guidance could shift sentiment to bullish, leading to an upward price movement",
+        "Further negative macroeconomic data on AI growth could intensify bearish sentiment and cause SNOW's stock price to decline"
+      ],
+      "next_checks": [
+        "Earnings report results and management commentary for any positive surprises or mitigating factors regarding AI growth concerns",
+        "Overall market trends and broader economic indicators related to tech stocks and AI investments"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.7,
+        "rationale": "The current market regime is risk-off, and the earnings announcement for Snowflake (SNOW) on February 25th presents significant volatility risks due to high implied volatility (IV). The recent news events suggest mixed sentiments but overall bearish expectations. Given the strong bearish technical analysis and the upcoming earnings report, it's prudent to hold current positions until clearer signals emerge.",
+        "key_drivers": [
+          "High IV Percentile of 100% indicating potential for significant price movement post-earnings",
+          "Bearish market regime (risk-off)",
+          "Mixed but generally bearish news sentiment"
+        ],
+        "key_risks": [
+          "Potential sharp decline in stock price due to negative earnings surprises or macroeconomic headwinds related to AI growth concerns",
+          "Market-wide risk-off sentiment affecting all tech stocks, including SNOW"
+        ],
+        "valuation_view": "The current market conditions and high IV suggest that the fair value of SNOW is uncertain. The recent news events do not provide a clear valuation path forward.",
+        "counterfactuals": [
+          "A positive earnings report or strong revenue guidance could shift sentiment to bullish, leading to an upward price movement",
+          "Further negative macroeconomic data on AI growth could intensify bearish sentiment and cause SNOW's stock price to decline"
+        ],
+        "next_checks": [
+          "Earnings report results and management commentary for any positive surprises or mitigating factors regarding AI growth concerns",
+          "Overall market trends and broader economic indicators related to tech stocks and AI investments"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:32:58+09:00",
+      "action": "HOLD",
+      "confidence": 0.7,
+      "rationale": "The current market sentiment and technical analysis suggest a strong bearish trend for SNOW stock, with earnings expectations being mixed but not enough to outweigh the overall risk-off environment. Given the high implied volatility and potential for significant price movement post-earnings, it is prudent to hold until clearer signals emerge.",
+      "key_drivers": [
+        "Strong bearish technical analysis (score: -0.75)",
+        "Mixed earnings expectations with some positive factors but overshadowed by overall risk-off sentiment",
+        "High implied volatility and potential for significant price movement post-earnings"
+      ],
+      "key_risks": [
+        "Potential for large price swings due to high implied volatility",
+        "Widespread investor pessimism about AI's impact on growth in the software sector"
+      ],
+      "valuation_view": "None",
+      "counterfactuals": [
+        "If SNOW reports significantly better-than-expected earnings, it could shift the sentiment and action to BUY.",
+        "A significant decline in implied volatility or a change in overall market sentiment towards risk-on could also prompt an action change."
+      ],
+      "next_checks": [
+        "Earnings report results on February 25th",
+        "Overall market sentiment and direction"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.7,
+        "rationale": "The current market sentiment and technical analysis suggest a strong bearish trend for SNOW stock, with earnings expectations being mixed but not enough to outweigh the overall risk-off environment. Given the high implied volatility and potential for significant price movement post-earnings, it is prudent to hold until clearer signals emerge.",
+        "key_drivers": [
+          "Strong bearish technical analysis (score: -0.75)",
+          "Mixed earnings expectations with some positive factors but overshadowed by overall risk-off sentiment",
+          "High implied volatility and potential for significant price movement post-earnings"
+        ],
+        "key_risks": [
+          "Potential for large price swings due to high implied volatility",
+          "Widespread investor pessimism about AI's impact on growth in the software sector"
+        ],
+        "valuation_view": null,
+        "counterfactuals": [
+          "If SNOW reports significantly better-than-expected earnings, it could shift the sentiment and action to BUY.",
+          "A significant decline in implied volatility or a change in overall market sentiment towards risk-on could also prompt an action change."
+        ],
+        "next_checks": [
+          "Earnings report results on February 25th",
+          "Overall market sentiment and direction"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:21:51+09:00",
+      "action": "HOLD",
+      "confidence": 0.7,
+      "rationale": "The current market regime is risk-off with a slight bearish bias, and the recent news events are mixed but overall slightly bearish. The high implied volatility (IV) of Snowflake (SNOW) suggests potential for significant price movement post-earnings, which aligns with the bearish outlook. However, the strategic partnership with OpenAI could provide a positive catalyst. Given these factors, holding is recommended to avoid excessive risk while waiting for clearer signals.",
+      "key_drivers": [
+        "Market regime: Risk-off",
+        "Recent news events: Mixed but slightly bearish",
+        "High IV: Potential significant price movement post-earnings"
+      ],
+      "key_risks": [
+        "Bullish earnings expectations vs. bearish market sentiment",
+        "Strategic partnership with OpenAI may not fully offset market pessimism"
+      ],
+      "valuation_view": "The valuation remains highly stretched, and the fair value is uncertain given the current market conditions.",
+      "counterfactuals": [
+        "If Snowflake reports significantly better-than-expected earnings, it could trigger a buy signal.",
+        "If the partnership with OpenAI fails to generate tangible benefits for customers, it may lead to disappointment."
+      ],
+      "next_checks": [
+        "Earnings report and its impact on stock price",
+        "Further developments in AI partnerships and their market reception"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.7,
+        "rationale": "The current market regime is risk-off with a slight bearish bias, and the recent news events are mixed but overall slightly bearish. The high implied volatility (IV) of Snowflake (SNOW) suggests potential for significant price movement post-earnings, which aligns with the bearish outlook. However, the strategic partnership with OpenAI could provide a positive catalyst. Given these factors, holding is recommended to avoid excessive risk while waiting for clearer signals.",
+        "key_drivers": [
+          "Market regime: Risk-off",
+          "Recent news events: Mixed but slightly bearish",
+          "High IV: Potential significant price movement post-earnings"
+        ],
+        "key_risks": [
+          "Bullish earnings expectations vs. bearish market sentiment",
+          "Strategic partnership with OpenAI may not fully offset market pessimism"
+        ],
+        "valuation_view": "The valuation remains highly stretched, and the fair value is uncertain given the current market conditions.",
+        "counterfactuals": [
+          "If Snowflake reports significantly better-than-expected earnings, it could trigger a buy signal.",
+          "If the partnership with OpenAI fails to generate tangible benefits for customers, it may lead to disappointment."
+        ],
+        "next_checks": [
+          "Earnings report and its impact on stock price",
+          "Further developments in AI partnerships and their market reception"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:20:07+09:00",
+      "action": "HOLD",
+      "confidence": 0.68,
+      "rationale": "The current market sentiment is risk-off due to the high implied volatility (IV) and bearish outlook on SNOW stock in anticipation of earnings. While there are positive drivers such as an expanding partner base and strategic partnerships, the overall market environment remains pessimistic regarding AI's impact on growth. Given these factors, a cautious hold position is recommended.",
+      "key_drivers": [
+        "High IV Percentile (100%) indicating potential significant price movement post-earnings",
+        "Positive drivers from expanding partner base and strategic partnerships with OpenAI"
+      ],
+      "key_risks": [
+        "Bearish market sentiment due to AI's impact on growth",
+        "Potential for earnings disappointment despite positive expectations"
+      ],
+      "valuation_view": "The valuation score is -0.8, suggesting the stock may be overvalued given current conditions.",
+      "counterfactuals": [
+        "If SNOW reports significantly better-than-expected earnings or if market sentiment towards AI improves, this could lead to a re-evaluation of the position.",
+        "A decline in partner activity or strategic partnership outcomes could negatively impact share price."
+      ],
+      "next_checks": [
+        "Earnings report details and management commentary for any positive surprises",
+        "Market reaction post-earnings release to gauge investor sentiment"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.68,
+        "rationale": "The current market sentiment is risk-off due to the high implied volatility (IV) and bearish outlook on SNOW stock in anticipation of earnings. While there are positive drivers such as an expanding partner base and strategic partnerships, the overall market environment remains pessimistic regarding AI's impact on growth. Given these factors, a cautious hold position is recommended.",
+        "key_drivers": [
+          "High IV Percentile (100%) indicating potential significant price movement post-earnings",
+          "Positive drivers from expanding partner base and strategic partnerships with OpenAI"
+        ],
+        "key_risks": [
+          "Bearish market sentiment due to AI's impact on growth",
+          "Potential for earnings disappointment despite positive expectations"
+        ],
+        "valuation_view": "The valuation score is -0.8, suggesting the stock may be overvalued given current conditions.",
+        "counterfactuals": [
+          "If SNOW reports significantly better-than-expected earnings or if market sentiment towards AI improves, this could lead to a re-evaluation of the position.",
+          "A decline in partner activity or strategic partnership outcomes could negatively impact share price."
+        ],
+        "next_checks": [
+          "Earnings report details and management commentary for any positive surprises",
+          "Market reaction post-earnings release to gauge investor sentiment"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:18:19+09:00",
+      "action": "HOLD",
+      "confidence": 0.7,
+      "rationale": "The current market sentiment is mixed with both bullish and bearish factors at play. The earnings report for Snowflake (SNOW) on February 25th presents a significant event, but the overall market regime is risk-off due to concerns about AI's impact on growth. Additionally, the valuation of SNOW remains challenging, as indicated by the low fair value estimate and high IV percentile. Given these factors, it is prudent to hold current positions rather than make aggressive moves.",
+      "key_drivers": [
+        "Earnings expectations are positive but overshadowed by broader market concerns about AI's impact on growth.",
+        "Strategic partnership with OpenAI could provide a growth catalyst, but the overall market sentiment remains bearish."
+      ],
+      "key_risks": [
+        "Market-wide pessimism towards software stocks due to AI concerns may persist and negatively affect SNOW’s stock price.",
+        "Earnings results that fall short of expectations could lead to a significant sell-off in the stock."
+      ],
+      "valuation_view": "The current valuation remains challenging, with no clear fair value estimate available. The market's risk-off stance further complicates any optimistic outlook on SNOW's intrinsic value.",
+      "counterfactuals": [
+        "If SNOW reports significantly better-than-expected earnings and the market shifts its focus to positive growth prospects, it could be a strong buy signal.",
+        "A weaker-than-expected earnings report or continued negative sentiment towards AI in the broader market could lead to a sell-off."
+      ],
+      "next_checks": [
+        "Review SNOW's Q4 earnings report for any unexpected results that could shift market perception.",
+        "Monitor overall market trends and specific AI-related news that might impact investor sentiment."
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.7,
+        "rationale": "The current market sentiment is mixed with both bullish and bearish factors at play. The earnings report for Snowflake (SNOW) on February 25th presents a significant event, but the overall market regime is risk-off due to concerns about AI's impact on growth. Additionally, the valuation of SNOW remains challenging, as indicated by the low fair value estimate and high IV percentile. Given these factors, it is prudent to hold current positions rather than make aggressive moves.",
+        "key_drivers": [
+          "Earnings expectations are positive but overshadowed by broader market concerns about AI's impact on growth.",
+          "Strategic partnership with OpenAI could provide a growth catalyst, but the overall market sentiment remains bearish."
+        ],
+        "key_risks": [
+          "Market-wide pessimism towards software stocks due to AI concerns may persist and negatively affect SNOW’s stock price.",
+          "Earnings results that fall short of expectations could lead to a significant sell-off in the stock."
+        ],
+        "valuation_view": "The current valuation remains challenging, with no clear fair value estimate available. The market's risk-off stance further complicates any optimistic outlook on SNOW's intrinsic value.",
+        "counterfactuals": [
+          "If SNOW reports significantly better-than-expected earnings and the market shifts its focus to positive growth prospects, it could be a strong buy signal.",
+          "A weaker-than-expected earnings report or continued negative sentiment towards AI in the broader market could lead to a sell-off."
+        ],
+        "next_checks": [
+          "Review SNOW's Q4 earnings report for any unexpected results that could shift market perception.",
+          "Monitor overall market trends and specific AI-related news that might impact investor sentiment."
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:16:32+09:00",
+      "action": "HOLD",
+      "confidence": 0.8,
+      "rationale": "The current market sentiment is mixed with both bullish and bearish factors at play. The high implied volatility (IV) of Snowflake (SNOW) suggests significant price movement post-earnings, which aligns with a bearish outlook. However, the strategic partnership with OpenAI could provide long-term growth opportunities. Given the risk-off market regime and the upcoming earnings announcement, it is prudent to hold for now.",
+      "key_drivers": [
+        "Strategic Partnership with OpenAI: Potential for future growth",
+        "High Implied Volatility (IV): Suggests significant price movement post-earnings"
+      ],
+      "key_risks": [
+        "Market Risk-Off Sentiment: General pessimism in the software sector due to AI concerns",
+        "Earnings Uncertainty: Upcoming earnings could either validate or challenge current valuations"
+      ],
+      "valuation_view": "The market regime is risk-off, and there is no clear fair value estimate available. The high IV suggests that any earnings report may lead to substantial price fluctuations.",
+      "counterfactuals": [
+        "If the earnings report significantly underperforms expectations, it could trigger a sell-off in SNOW.",
+        "If AI integration with OpenAI fails to deliver expected benefits, it might dampen investor sentiment."
+      ],
+      "next_checks": [
+        "Earnings Report: Key metrics and guidance provided by Snowflake",
+        "Market Sentiment: How the broader market reacts to AI-related news"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.8,
+        "rationale": "The current market sentiment is mixed with both bullish and bearish factors at play. The high implied volatility (IV) of Snowflake (SNOW) suggests significant price movement post-earnings, which aligns with a bearish outlook. However, the strategic partnership with OpenAI could provide long-term growth opportunities. Given the risk-off market regime and the upcoming earnings announcement, it is prudent to hold for now.",
+        "key_drivers": [
+          "Strategic Partnership with OpenAI: Potential for future growth",
+          "High Implied Volatility (IV): Suggests significant price movement post-earnings"
+        ],
+        "key_risks": [
+          "Market Risk-Off Sentiment: General pessimism in the software sector due to AI concerns",
+          "Earnings Uncertainty: Upcoming earnings could either validate or challenge current valuations"
+        ],
+        "valuation_view": "The market regime is risk-off, and there is no clear fair value estimate available. The high IV suggests that any earnings report may lead to substantial price fluctuations.",
+        "counterfactuals": [
+          "If the earnings report significantly underperforms expectations, it could trigger a sell-off in SNOW.",
+          "If AI integration with OpenAI fails to deliver expected benefits, it might dampen investor sentiment."
+        ],
+        "next_checks": [
+          "Earnings Report: Key metrics and guidance provided by Snowflake",
+          "Market Sentiment: How the broader market reacts to AI-related news"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:14:37+09:00",
+      "action": "HOLD",
+      "confidence": 0.1255,
+      "rationale": "The current market regime is risk-off, and the recent news events are mixed but overall bearish due to AI concerns overshadowing positive earnings expectations. The strong bearish technical analysis also supports a hold position.",
+      "key_drivers": [
+        "Market regime: Risk-off",
+        "Recent news: Positive on partnership with OpenAI but negative on broader software sector sentiment",
+        "Technical analysis: Strong bearish trend"
+      ],
+      "key_risks": [
+        "Continued AI concerns could lead to further selling pressure in the software sector.",
+        "Negative earnings surprise from Snowflake or other tech companies could exacerbate market sentiment."
+      ],
+      "valuation_view": "The fair value is not clearly defined, and the valuation remains challenging given the mixed news flow. The recent price action suggests a cautious approach.",
+      "counterfactuals": [
+        "If AI concerns subside and positive earnings from Snowflake or other tech companies drive optimism, consider buying.",
+        "If market sentiment turns more negative due to broader economic factors, consider selling."
+      ],
+      "next_checks": [
+        "Snowflake's Q4 earnings report for any significant surprises or trends.",
+        "Overall market sentiment on AI and its impact on the technology sector."
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.1255,
+        "rationale": "The current market regime is risk-off, and the recent news events are mixed but overall bearish due to AI concerns overshadowing positive earnings expectations. The strong bearish technical analysis also supports a hold position.",
+        "key_drivers": [
+          "Market regime: Risk-off",
+          "Recent news: Positive on partnership with OpenAI but negative on broader software sector sentiment",
+          "Technical analysis: Strong bearish trend"
+        ],
+        "key_risks": [
+          "Continued AI concerns could lead to further selling pressure in the software sector.",
+          "Negative earnings surprise from Snowflake or other tech companies could exacerbate market sentiment."
+        ],
+        "valuation_view": "The fair value is not clearly defined, and the valuation remains challenging given the mixed news flow. The recent price action suggests a cautious approach.",
+        "counterfactuals": [
+          "If AI concerns subside and positive earnings from Snowflake or other tech companies drive optimism, consider buying.",
+          "If market sentiment turns more negative due to broader economic factors, consider selling."
+        ],
+        "next_checks": [
+          "Snowflake's Q4 earnings report for any significant surprises or trends.",
+          "Overall market sentiment on AI and its impact on the technology sector."
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:50:27+09:00",
+      "action": "HOLD",
+      "confidence": 0.12035997942937829,
+      "rationale": "The current market regime is risk-off, and the recent news events are mixed but overall neutral to slightly bullish on Snowflake (SNOW). However, AI concerns continue to cast a shadow over the software sector. The earnings announcement is imminent, which could provide clarity, but the overall sentiment remains cautious.",
+      "key_drivers": [
+        "Earnings expectations and expanding business footprint",
+        "Strategic partnership with OpenAI"
+      ],
+      "key_risks": [
+        "Widespread investor pessimism due to AI concerns",
+        "Uncertainty around earnings announcement"
+      ],
+      "valuation_view": "The stock is currently trading at a high valuation, as indicated by the -0.8 score in the valuation metric.",
+      "counterfactuals": [
+        "A strong positive earnings report could shift sentiment and action to BUY.",
+        "Negative earnings or continued AI concerns could push the action to SELL."
+      ],
+      "next_checks": [
+        "Earnings report for Q4",
+        "Further developments in AI partnerships and their impact on business"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.12035997942937829,
+        "rationale": "The current market regime is risk-off, and the recent news events are mixed but overall neutral to slightly bullish on Snowflake (SNOW). However, AI concerns continue to cast a shadow over the software sector. The earnings announcement is imminent, which could provide clarity, but the overall sentiment remains cautious.",
+        "key_drivers": [
+          "Earnings expectations and expanding business footprint",
+          "Strategic partnership with OpenAI"
+        ],
+        "key_risks": [
+          "Widespread investor pessimism due to AI concerns",
+          "Uncertainty around earnings announcement"
+        ],
+        "valuation_view": "The stock is currently trading at a high valuation, as indicated by the -0.8 score in the valuation metric.",
+        "counterfactuals": [
+          "A strong positive earnings report could shift sentiment and action to BUY.",
+          "Negative earnings or continued AI concerns could push the action to SELL."
+        ],
+        "next_checks": [
+          "Earnings report for Q4",
+          "Further developments in AI partnerships and their impact on business"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:48:53+09:00",
+      "action": "HOLD",
+      "confidence": 0.12,
+      "rationale": "The current market sentiment is risk-off due to AI concerns in the software sector, and while there are positive earnings expectations for Snowflake, the overall market environment makes a clear buy or sell decision challenging.",
+      "key_drivers": [
+        "Positive earnings expectations from an increasing clientele and expanding partner base.",
+        "Strategic partnership with OpenAI potentially driving growth."
+      ],
+      "key_risks": [
+        "Widespread investor pessimism due to AI concerns impacting the software sector.",
+        "Market sentiment remains risk-off, casting a shadow over positive fundamental indicators."
+      ],
+      "valuation_view": "The valuation score is -0.8, indicating that Snowflake may be undervalued, but the market environment and specific sector concerns make this less compelling at present.",
+      "counterfactuals": [
+        "A significant positive earnings report could shift investor sentiment and justify a buy decision.",
+        "Further deterioration in AI-related concerns could lead to a sell-off despite positive fundamentals."
+      ],
+      "next_checks": [
+        "Snowflake's Q4 earnings report for specific financial metrics and guidance.",
+        "Market-wide sentiment on AI and its impact on the software sector."
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.12,
+        "rationale": "The current market sentiment is risk-off due to AI concerns in the software sector, and while there are positive earnings expectations for Snowflake, the overall market environment makes a clear buy or sell decision challenging.",
+        "key_drivers": [
+          "Positive earnings expectations from an increasing clientele and expanding partner base.",
+          "Strategic partnership with OpenAI potentially driving growth."
+        ],
+        "key_risks": [
+          "Widespread investor pessimism due to AI concerns impacting the software sector.",
+          "Market sentiment remains risk-off, casting a shadow over positive fundamental indicators."
+        ],
+        "valuation_view": "The valuation score is -0.8, indicating that Snowflake may be undervalued, but the market environment and specific sector concerns make this less compelling at present.",
+        "counterfactuals": [
+          "A significant positive earnings report could shift investor sentiment and justify a buy decision.",
+          "Further deterioration in AI-related concerns could lead to a sell-off despite positive fundamentals."
+        ],
+        "next_checks": [
+          "Snowflake's Q4 earnings report for specific financial metrics and guidance.",
+          "Market-wide sentiment on AI and its impact on the software sector."
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:46:46+09:00",
+      "action": "HOLD",
+      "confidence": 0.12,
+      "rationale": "The current market regime is risk-off, and the recent news events are mixed but overall bearish. The upcoming earnings report for Snowflake (SNOW) could be positive due to an expanding business footprint, but the broader concerns about AI's impact on growth in the software sector cast a shadow.",
+      "key_drivers": [
+        "Earnings expectations from an increasing clientele and expanding partner base",
+        "Strategic partnership with OpenAI potentially driving growth"
+      ],
+      "key_risks": [
+        "Widespread investor pessimism due to AI concerns overshadowing positive earnings reports",
+        "Market sentiment remains bearish despite potential positives for SNOW"
+      ],
+      "valuation_view": "The valuation score is -0.8, indicating a high risk of overvaluation given the current market conditions and lack of clear fair value range.",
+      "counterfactuals": [
+        "If AI concerns subside significantly or if SNOW reports strong earnings that exceed expectations, this could shift sentiment positively.",
+        "A broader market rally could also improve overall sentiment towards tech stocks."
+      ],
+      "next_checks": [
+        "SNOW's Q4 earnings report and any updates on the partnership with OpenAI",
+        "Overall market trends and how AI concerns evolve"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.12,
+        "rationale": "The current market regime is risk-off, and the recent news events are mixed but overall bearish. The upcoming earnings report for Snowflake (SNOW) could be positive due to an expanding business footprint, but the broader concerns about AI's impact on growth in the software sector cast a shadow.",
+        "key_drivers": [
+          "Earnings expectations from an increasing clientele and expanding partner base",
+          "Strategic partnership with OpenAI potentially driving growth"
+        ],
+        "key_risks": [
+          "Widespread investor pessimism due to AI concerns overshadowing positive earnings reports",
+          "Market sentiment remains bearish despite potential positives for SNOW"
+        ],
+        "valuation_view": "The valuation score is -0.8, indicating a high risk of overvaluation given the current market conditions and lack of clear fair value range.",
+        "counterfactuals": [
+          "If AI concerns subside significantly or if SNOW reports strong earnings that exceed expectations, this could shift sentiment positively.",
+          "A broader market rally could also improve overall sentiment towards tech stocks."
+        ],
+        "next_checks": [
+          "SNOW's Q4 earnings report and any updates on the partnership with OpenAI",
+          "Overall market trends and how AI concerns evolve"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:36:40+09:00",
+      "action": "HOLD",
+      "confidence": 0.8,
+      "rationale": "Current market conditions and recent news suggest a cautious approach. The upcoming earnings report for Snowflake (SNOW) is expected to be positive, but broader concerns about AI's impact on growth are causing widespread selling in the software sector.",
+      "key_drivers": [
+        "Positive earnings expectations from an expanding business footprint",
+        "Strategic partnership with OpenAI potentially boosting future growth"
+      ],
+      "key_risks": [
+        "Widespread investor pessimism due to concerns about AI's impact on growth",
+        "Market sentiment could turn negative if the earnings report does not meet expectations"
+      ],
+      "valuation_view": "The current valuation remains challenging, and there is no clear consensus on a fair value. The market regime is risk-off, which may limit upside potential.",
+      "counterfactuals": [
+        "If Snowflake's earnings significantly miss expectations, the stock could face downward pressure.",
+        "A positive regulatory or technological development in AI could shift investor sentiment positively."
+      ],
+      "next_checks": [
+        "Earnings report for SNOW",
+        "Overall market sentiment towards AI and software stocks"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.8,
+        "rationale": "Current market conditions and recent news suggest a cautious approach. The upcoming earnings report for Snowflake (SNOW) is expected to be positive, but broader concerns about AI's impact on growth are causing widespread selling in the software sector.",
+        "key_drivers": [
+          "Positive earnings expectations from an expanding business footprint",
+          "Strategic partnership with OpenAI potentially boosting future growth"
+        ],
+        "key_risks": [
+          "Widespread investor pessimism due to concerns about AI's impact on growth",
+          "Market sentiment could turn negative if the earnings report does not meet expectations"
+        ],
+        "valuation_view": "The current valuation remains challenging, and there is no clear consensus on a fair value. The market regime is risk-off, which may limit upside potential.",
+        "counterfactuals": [
+          "If Snowflake's earnings significantly miss expectations, the stock could face downward pressure.",
+          "A positive regulatory or technological development in AI could shift investor sentiment positively."
+        ],
+        "next_checks": [
+          "Earnings report for SNOW",
+          "Overall market sentiment towards AI and software stocks"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:34:59+09:00",
+      "action": "HOLD",
+      "confidence": 0.8,
+      "rationale": "The current market regime is risk-off, and the recent news events are mixed but overall bearish due to AI concerns overshadowing positive earnings expectations. The stock price has shown a strong bearish trend, making it prudent to hold for now.",
+      "key_drivers": [
+        "Strong bearish technical indicators",
+        "Risk-off market regime",
+        "Mixed sentiment on upcoming earnings with potential negative impact from AI concerns"
+      ],
+      "key_risks": [
+        "Potential negative reaction to Q4 earnings if they do not meet expectations due to AI headwinds",
+        "Continued market pessimism towards software stocks in the face of AI challenges"
+      ],
+      "valuation_view": "The fair value is uncertain given the lack of a clear valuation range, and the current price does not provide strong buy or sell signals.",
+      "counterfactuals": [
+        "If Q4 earnings significantly exceed expectations despite AI concerns, it could lead to a re-evaluation of the stock's value.",
+        "A broader market rally that lifts sentiment towards technology stocks could also change the holding stance."
+      ],
+      "next_checks": [
+        "Q4 earnings report and its impact on investor sentiment",
+        "Market reaction to AI developments in the tech sector"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.8,
+        "rationale": "The current market regime is risk-off, and the recent news events are mixed but overall bearish due to AI concerns overshadowing positive earnings expectations. The stock price has shown a strong bearish trend, making it prudent to hold for now.",
+        "key_drivers": [
+          "Strong bearish technical indicators",
+          "Risk-off market regime",
+          "Mixed sentiment on upcoming earnings with potential negative impact from AI concerns"
+        ],
+        "key_risks": [
+          "Potential negative reaction to Q4 earnings if they do not meet expectations due to AI headwinds",
+          "Continued market pessimism towards software stocks in the face of AI challenges"
+        ],
+        "valuation_view": "The fair value is uncertain given the lack of a clear valuation range, and the current price does not provide strong buy or sell signals.",
+        "counterfactuals": [
+          "If Q4 earnings significantly exceed expectations despite AI concerns, it could lead to a re-evaluation of the stock's value.",
+          "A broader market rally that lifts sentiment towards technology stocks could also change the holding stance."
+        ],
+        "next_checks": [
+          "Q4 earnings report and its impact on investor sentiment",
+          "Market reaction to AI developments in the tech sector"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:33:02+09:00",
+      "action": "HOLD",
+      "confidence": 0.1163751475114225,
+      "rationale": "The current market regime is risk-off, and the recent news events are mixed but not strong enough to push the stock decisively in one direction. The upcoming earnings report for Snowflake (SNOW) could be positive due to an expanding business footprint, but concerns about AI's impact on growth remain prevalent among investors.",
+      "key_drivers": [
+        "Earnings expectations and expanding business footprint",
+        "Strategic partnership with OpenAI"
+      ],
+      "key_risks": [
+        "Widespread investor pessimism regarding AI’s impact on growth"
+      ],
+      "valuation_view": "The valuation score is -0.8, indicating the stock may be overvalued based on current metrics.",
+      "counterfactuals": [
+        "If Snowflake's earnings report significantly misses expectations or if there are major setbacks in its partnership with OpenAI, this could lead to a sell-off.",
+        "A positive regulatory environment for AI could shift investor sentiment positively."
+      ],
+      "next_checks": [
+        "Snowflake’s Q4 earnings report",
+        "Further developments in the strategic partnership with OpenAI"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.1163751475114225,
+        "rationale": "The current market regime is risk-off, and the recent news events are mixed but not strong enough to push the stock decisively in one direction. The upcoming earnings report for Snowflake (SNOW) could be positive due to an expanding business footprint, but concerns about AI's impact on growth remain prevalent among investors.",
+        "key_drivers": [
+          "Earnings expectations and expanding business footprint",
+          "Strategic partnership with OpenAI"
+        ],
+        "key_risks": [
+          "Widespread investor pessimism regarding AI’s impact on growth"
+        ],
+        "valuation_view": "The valuation score is -0.8, indicating the stock may be overvalued based on current metrics.",
+        "counterfactuals": [
+          "If Snowflake's earnings report significantly misses expectations or if there are major setbacks in its partnership with OpenAI, this could lead to a sell-off.",
+          "A positive regulatory environment for AI could shift investor sentiment positively."
+        ],
+        "next_checks": [
+          "Snowflake’s Q4 earnings report",
+          "Further developments in the strategic partnership with OpenAI"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:28:43+09:00",
+      "action": "HOLD",
+      "confidence": 0.1154,
+      "rationale": "The current market sentiment is slightly bearish due to ongoing concerns about AI's impact on growth in the software sector. However, recent positive developments such as the strategic partnership with OpenAI and expected earnings benefits from an expanding business footprint provide a balanced outlook. Given the near-term volatility and the upcoming earnings announcement, it is prudent to hold for now.",
+      "key_drivers": [
+        "Strategic Partnership with OpenAI",
+        "Expected Earnings Benefits from Expanding Business Footprint"
+      ],
+      "key_risks": [
+        "Ongoing AI Concerns in the Software Sector",
+        "Market Volatility Leading Up to Earnings Announcement"
+      ],
+      "valuation_view": "The valuation remains challenging, and there is no clear fair value range provided. The market sentiment reflects a risk-off posture, which may persist until clearer earnings results are available.",
+      "counterfactuals": [
+        "If AI concerns significantly worsen before the earnings announcement, it could lead to further selling pressure.",
+        "A weaker-than-expected earnings report from Snowflake could also trigger a sell-off."
+      ],
+      "next_checks": [
+        "Earnings Report and Management Guidance",
+        "Market Reaction to AI Developments"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.1154,
+        "rationale": "The current market sentiment is slightly bearish due to ongoing concerns about AI's impact on growth in the software sector. However, recent positive developments such as the strategic partnership with OpenAI and expected earnings benefits from an expanding business footprint provide a balanced outlook. Given the near-term volatility and the upcoming earnings announcement, it is prudent to hold for now.",
+        "key_drivers": [
+          "Strategic Partnership with OpenAI",
+          "Expected Earnings Benefits from Expanding Business Footprint"
+        ],
+        "key_risks": [
+          "Ongoing AI Concerns in the Software Sector",
+          "Market Volatility Leading Up to Earnings Announcement"
+        ],
+        "valuation_view": "The valuation remains challenging, and there is no clear fair value range provided. The market sentiment reflects a risk-off posture, which may persist until clearer earnings results are available.",
+        "counterfactuals": [
+          "If AI concerns significantly worsen before the earnings announcement, it could lead to further selling pressure.",
+          "A weaker-than-expected earnings report from Snowflake could also trigger a sell-off."
+        ],
+        "next_checks": [
+          "Earnings Report and Management Guidance",
+          "Market Reaction to AI Developments"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:26:52+09:00",
+      "action": "HOLD",
+      "confidence": 0.8,
+      "rationale": "The current market sentiment is cautious due to the risk-off regime and AI concerns casting a shadow over the software sector. While there are positive earnings expectations, the overall market sentiment remains bearish.",
+      "key_drivers": [
+        "Positive earnings expectations from an expanding business footprint",
+        "Strategic partnership with OpenAI potentially driving growth"
+      ],
+      "key_risks": [
+        "Widespread investor pessimism due to AI concerns",
+        "Earnings announcement may not meet market expectations given the current bearish sentiment"
+      ],
+      "valuation_view": "The stock is currently trading at $157.6, which aligns with a risk-off regime and cautious valuation assumptions.",
+      "counterfactuals": [
+        "If earnings significantly exceed expectations, it could shift to a bullish stance",
+        "A positive regulatory or industry development related to AI could alter the bearish sentiment"
+      ],
+      "next_checks": [
+        "Earnings report results and market reaction",
+        "Further developments in AI technology and its impact on the sector"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.8,
+        "rationale": "The current market sentiment is cautious due to the risk-off regime and AI concerns casting a shadow over the software sector. While there are positive earnings expectations, the overall market sentiment remains bearish.",
+        "key_drivers": [
+          "Positive earnings expectations from an expanding business footprint",
+          "Strategic partnership with OpenAI potentially driving growth"
+        ],
+        "key_risks": [
+          "Widespread investor pessimism due to AI concerns",
+          "Earnings announcement may not meet market expectations given the current bearish sentiment"
+        ],
+        "valuation_view": "The stock is currently trading at $157.6, which aligns with a risk-off regime and cautious valuation assumptions.",
+        "counterfactuals": [
+          "If earnings significantly exceed expectations, it could shift to a bullish stance",
+          "A positive regulatory or industry development related to AI could alter the bearish sentiment"
+        ],
+        "next_checks": [
+          "Earnings report results and market reaction",
+          "Further developments in AI technology and its impact on the sector"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T22:52:06+09:00",
+      "action": "HOLD",
+      "confidence": 0.8,
+      "rationale": "The current market sentiment is bearish due to concerns about AI's impact on growth, but Snowflake's upcoming earnings could provide positive surprises. The recent partnership with OpenAI also adds a bullish element. However, the overall risk-off environment and lack of clear positive signals from other major tech players make it prudent to hold for now.",
+      "key_drivers": [
+        "Positive earnings expectations due to an expanding business footprint",
+        "Strategic partnership with OpenAI potentially boosting AI capabilities"
+      ],
+      "key_risks": [
+        "Widespread investor pessimism about AI's impact on growth",
+        "Uncertainty in the broader tech sector"
+      ],
+      "valuation_view": "The valuation remains challenging, and there is no clear fair value range provided. The market sentiment suggests a risk-off approach.",
+      "counterfactuals": [
+        "If Snowflake's earnings miss expectations significantly, it could trigger a sell-off",
+        "A broader tech rally driven by positive AI news from other companies could prompt a re-evaluation"
+      ],
+      "next_checks": [
+        "Snowflake's Q4 earnings report and any updates on the OpenAI partnership",
+        "Overall market sentiment towards AI and its impact on growth"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.8,
+        "rationale": "The current market sentiment is bearish due to concerns about AI's impact on growth, but Snowflake's upcoming earnings could provide positive surprises. The recent partnership with OpenAI also adds a bullish element. However, the overall risk-off environment and lack of clear positive signals from other major tech players make it prudent to hold for now.",
+        "key_drivers": [
+          "Positive earnings expectations due to an expanding business footprint",
+          "Strategic partnership with OpenAI potentially boosting AI capabilities"
+        ],
+        "key_risks": [
+          "Widespread investor pessimism about AI's impact on growth",
+          "Uncertainty in the broader tech sector"
+        ],
+        "valuation_view": "The valuation remains challenging, and there is no clear fair value range provided. The market sentiment suggests a risk-off approach.",
+        "counterfactuals": [
+          "If Snowflake's earnings miss expectations significantly, it could trigger a sell-off",
+          "A broader tech rally driven by positive AI news from other companies could prompt a re-evaluation"
+        ],
+        "next_checks": [
+          "Snowflake's Q4 earnings report and any updates on the OpenAI partnership",
+          "Overall market sentiment towards AI and its impact on growth"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T22:50:18+09:00",
+      "action": "HOLD",
+      "confidence": 0.8,
+      "rationale": "The current market sentiment is cautious due to AI concerns casting a shadow over the software sector, despite positive earnings expectations and strategic partnerships. The recent news events suggest potential for growth but are offset by broader market pessimism.",
+      "key_drivers": [
+        "Positive earnings expectations from an expanding business footprint",
+        "Strategic partnership with OpenAI potentially driving future growth"
+      ],
+      "key_risks": [
+        "Widespread investor pessimism due to AI concerns",
+        "Market sentiment remains cautious despite positive fundamental indicators"
+      ],
+      "valuation_view": "The stock is currently trading at a price of $157.6, which aligns with the risk-off market regime and does not provide clear signals for overvaluation or undervaluation.",
+      "counterfactuals": [
+        "A strong earnings report from Snowflake could shift investor sentiment positively",
+        "Further negative news on AI's impact on growth could exacerbate market pessimism"
+      ],
+      "next_checks": [
+        "Snowflake's Q4 earnings report and its impact on the stock price",
+        "Market reaction to broader AI developments and their implications for software stocks"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.8,
+        "rationale": "The current market sentiment is cautious due to AI concerns casting a shadow over the software sector, despite positive earnings expectations and strategic partnerships. The recent news events suggest potential for growth but are offset by broader market pessimism.",
+        "key_drivers": [
+          "Positive earnings expectations from an expanding business footprint",
+          "Strategic partnership with OpenAI potentially driving future growth"
+        ],
+        "key_risks": [
+          "Widespread investor pessimism due to AI concerns",
+          "Market sentiment remains cautious despite positive fundamental indicators"
+        ],
+        "valuation_view": "The stock is currently trading at a price of $157.6, which aligns with the risk-off market regime and does not provide clear signals for overvaluation or undervaluation.",
+        "counterfactuals": [
+          "A strong earnings report from Snowflake could shift investor sentiment positively",
+          "Further negative news on AI's impact on growth could exacerbate market pessimism"
+        ],
+        "next_checks": [
+          "Snowflake's Q4 earnings report and its impact on the stock price",
+          "Market reaction to broader AI developments and their implications for software stocks"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:53:33+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "임박한 실적 발표와 기술 섹터의 변동성이 여전히 불확실성을 높이고 있으며, AI 관련 우려가 시장에 영향을 미치고 있습니다.",
+      "key_drivers": [
+        "임박한 실적 발표",
+        "기술 섹터 변동성"
+      ],
+      "key_risks": [
+        "AI 관련 우려",
+        "투자 관리 회사의 판매 결정"
+      ],
+      "valuation_view": "현재 평가는 부정적이지만, 명확한 기업 가치 범위 없음",
+      "counterfactuals": [
+        "실적 발표 결과가 예상과 크게 다를 경우",
+        "AI 관련 우려가 완화되거나 악화되는 경우"
+      ],
+      "next_checks": [
+        "실적 발표 결과 확인",
+        "AI 관련 이슈의 진전 상황 확인"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "임박한 실적 발표와 기술 섹터의 변동성이 여전히 불확실성을 높이고 있으며, AI 관련 우려가 시장에 영향을 미치고 있습니다.",
+        "key_drivers": [
+          "임박한 실적 발표",
+          "기술 섹터 변동성"
+        ],
+        "key_risks": [
+          "AI 관련 우려",
+          "투자 관리 회사의 판매 결정"
+        ],
+        "valuation_view": "현재 평가는 부정적이지만, 명확한 기업 가치 범위 없음",
+        "counterfactuals": [
+          "실적 발표 결과가 예상과 크게 다를 경우",
+          "AI 관련 우려가 완화되거나 악화되는 경우"
+        ],
+        "next_checks": [
+          "실적 발표 결과 확인",
+          "AI 관련 이슈의 진전 상황 확인"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:52:10+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "임박한 실적 발표와 기술 섹터의 변동성이 여전히 불확실성을 높이고 있으며, AI 관련 우려가 시장에 영향을 미치고 있습니다.",
+      "key_drivers": [
+        "임박한 실적 발표",
+        "기술 섹터 변동성"
+      ],
+      "key_risks": [
+        "AI 관련 우려",
+        "투자 관리 회사의 판매 결정"
+      ],
+      "valuation_view": "현재 평가는 부정적이지만, 명확한 기업 가치 범위 없음",
+      "counterfactuals": [
+        "실적 발표 결과가 예상과 크게 다를 경우",
+        "AI 관련 우려가 완화되거나 악화되는 경우"
+      ],
+      "next_checks": [
+        "실적 발표 결과 확인",
+        "AI 관련 이슈의 진전 상황 확인"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "임박한 실적 발표와 기술 섹터의 변동성이 여전히 불확실성을 높이고 있으며, AI 관련 우려가 시장에 영향을 미치고 있습니다.",
+        "key_drivers": [
+          "임박한 실적 발표",
+          "기술 섹터 변동성"
+        ],
+        "key_risks": [
+          "AI 관련 우려",
+          "투자 관리 회사의 판매 결정"
+        ],
+        "valuation_view": "현재 평가는 부정적이지만, 명확한 기업 가치 범위 없음",
+        "counterfactuals": [
+          "실적 발표 결과가 예상과 크게 다를 경우",
+          "AI 관련 우려가 완화되거나 악화되는 경우"
+        ],
+        "next_checks": [
+          "실적 발표 결과 확인",
+          "AI 관련 이슈의 진전 상황 확인"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:50:35+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장 상황과 기업의 최근 이벤트는 명확한 투자 방향성을 제공하지 않아, 보유를 권고합니다.",
+      "key_drivers": [
+        "임박한 실적 발표",
+        "기술 섹터 변동성"
+      ],
+      "key_risks": [
+        "AI 관련 우려",
+        "투자 관리 회사의 판매 결정"
+      ],
+      "valuation_view": "현재 평가는 부정적이지만, 명확한 기업 가치 범위 없음",
+      "counterfactuals": [
+        "실적 발표 결과가 예상과 크게 다를 경우",
+        "AI 관련 우려가 완화되거나 악화되는 경우"
+      ],
+      "next_checks": [
+        "실적 발표 결과 확인",
+        "AI 관련 이슈의 진전 상황 확인"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장 상황과 기업의 최근 이벤트는 명확한 투자 방향성을 제공하지 않아, 보유를 권고합니다.",
+        "key_drivers": [
+          "임박한 실적 발표",
+          "기술 섹터 변동성"
+        ],
+        "key_risks": [
+          "AI 관련 우려",
+          "투자 관리 회사의 판매 결정"
+        ],
+        "valuation_view": "현재 평가는 부정적이지만, 명확한 기업 가치 범위 없음",
+        "counterfactuals": [
+          "실적 발표 결과가 예상과 크게 다를 경우",
+          "AI 관련 우려가 완화되거나 악화되는 경우"
+        ],
+        "next_checks": [
+          "실적 발표 결과 확인",
+          "AI 관련 이슈의 진전 상황 확인"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    }
+  ],
+  "tags": []
+}

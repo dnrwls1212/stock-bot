@@ -1,0 +1,1351 @@
+{
+  "ticker": "MDB",
+  "updated_at": "2026-02-25T02:34:07+09:00",
+  "thesis": "",
+  "business_summary": "",
+  "moat": "",
+  "key_drivers": [],
+  "key_risks": [],
+  "valuation_method": "simple",
+  "valuation_assumptions": {},
+  "target_price": null,
+  "fair_value_range": null,
+  "evidence": [
+    {
+      "ts_kst": "2026-02-24T22:43:27+09:00",
+      "source": "news",
+      "title": "MongoDB (MDB) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
+      "summary": "Market expectations and positive key points suggest potential upward movement in MDB shares ahead of the earnings release.",
+      "link": "https://finance.yahoo.com/news/mongodb-mdb-earnings-expected-grow-150003087.html?.tsrc=rss",
+      "sentiment": "bullish",
+      "impact": 1,
+      "tags": [
+        "earnings"
+      ],
+      "raw": {
+        "tickers": [
+          "MDB"
+        ],
+        "event_type": "earnings",
+        "sentiment": "bullish",
+        "impact": 1,
+        "confidence": 0.8,
+        "key_points": [
+          "MongoDB (MDB) expected to deliver earnings beat.",
+          "Key ingredients for positive performance identified."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Market expectations and positive key points suggest potential upward movement in MDB shares ahead of the earnings release."
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T22:43:24+09:00",
+      "source": "news",
+      "title": "Artisan Mid Cap Fund Bets on MongoDB’s (MDB) Atlas cloud platform",
+      "summary": "Artisan Mid Cap Fund's investment in MongoDB’s Atlas cloud platform is highlighted but does not provide clear directional impact.",
+      "link": "https://finance.yahoo.com/news/artisan-mid-cap-fund-bets-121747220.html?.tsrc=rss",
+      "sentiment": "neutral",
+      "impact": 0,
+      "tags": [
+        "other"
+      ],
+      "raw": {
+        "tickers": [
+          "MDB"
+        ],
+        "event_type": "other",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Artisan Mid Cap Fund's investment in MongoDB’s Atlas cloud platform is highlighted but does not provide clear directional impact."
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "ts_kst": "2026-02-25T02:34:07+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
+      "key_drivers": [
+        "이익 예상 증가"
+      ],
+      "key_risks": [],
+      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+      "counterfactuals": [
+        "시장 상황이 급격히 변동할 경우"
+      ],
+      "next_checks": [
+        "기업의 재무상태 변경사항",
+        "주요 이벤트나 뉴스"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
+        "key_drivers": [
+          "이익 예상 증가"
+        ],
+        "key_risks": [],
+        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+        "counterfactuals": [
+          "시장 상황이 급격히 변동할 경우"
+        ],
+        "next_checks": [
+          "기업의 재무상태 변경사항",
+          "주요 이벤트나 뉴스"
+        ],
+        "position_plan": {
+          "prefer_qty": 10,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T02:32:29+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
+      "key_drivers": [
+        "이익 예상 증가"
+      ],
+      "key_risks": [],
+      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+      "counterfactuals": [
+        "시장 상황이 급격히 변동할 경우"
+      ],
+      "next_checks": [
+        "기업의 재무상태 변경사항",
+        "주요 이벤트나 뉴스"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
+        "key_drivers": [
+          "이익 예상 증가"
+        ],
+        "key_risks": [],
+        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+        "counterfactuals": [
+          "시장 상황이 급격히 변동할 경우"
+        ],
+        "next_checks": [
+          "기업의 재무상태 변경사항",
+          "주요 이벤트나 뉴스"
+        ],
+        "position_plan": {
+          "prefer_qty": 10,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T02:30:32+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
+      "key_drivers": [
+        "이익 예상 증가"
+      ],
+      "key_risks": [],
+      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+      "counterfactuals": [
+        "시장 상황이 급격히 변동할 경우"
+      ],
+      "next_checks": [
+        "기업의 재무상태 변경사항",
+        "주요 이벤트나 뉴스"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
+        "key_drivers": [
+          "이익 예상 증가"
+        ],
+        "key_risks": [],
+        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+        "counterfactuals": [
+          "시장 상황이 급격히 변동할 경우"
+        ],
+        "next_checks": [
+          "기업의 재무상태 변경사항",
+          "주요 이벤트나 뉴스"
+        ],
+        "position_plan": {
+          "prefer_qty": 10,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T01:29:38+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
+      "key_drivers": [
+        "이익 예상 증가"
+      ],
+      "key_risks": [],
+      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+      "counterfactuals": [
+        "시장 상황이 급격히 변동할 경우"
+      ],
+      "next_checks": [
+        "기업의 재무상태 변경사항",
+        "주요 이벤트나 뉴스"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
+        "key_drivers": [
+          "이익 예상 증가"
+        ],
+        "key_risks": [],
+        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+        "counterfactuals": [
+          "시장 상황이 급격히 변동할 경우"
+        ],
+        "next_checks": [
+          "기업의 재무상태 변경사항",
+          "주요 이벤트나 뉴스"
+        ],
+        "position_plan": {
+          "prefer_qty": 10,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T01:27:51+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
+      "key_drivers": [
+        "이익 예상 증가"
+      ],
+      "key_risks": [],
+      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+      "counterfactuals": [
+        "시장 상황이 급격히 변동할 경우"
+      ],
+      "next_checks": [
+        "기업의 재무상태 변경사항",
+        "주요 이벤트나 뉴스"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
+        "key_drivers": [
+          "이익 예상 증가"
+        ],
+        "key_risks": [],
+        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+        "counterfactuals": [
+          "시장 상황이 급격히 변동할 경우"
+        ],
+        "next_checks": [
+          "기업의 재무상태 변경사항",
+          "주요 이벤트나 뉴스"
+        ],
+        "position_plan": {
+          "prefer_qty": 10,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T01:25:58+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
+      "key_drivers": [
+        "이익 예상 증가"
+      ],
+      "key_risks": [],
+      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+      "counterfactuals": [
+        "시장 상황이 급격히 변동할 경우"
+      ],
+      "next_checks": [
+        "기업의 재무상태 변경사항",
+        "주요 이벤트나 뉴스"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
+        "key_drivers": [
+          "이익 예상 증가"
+        ],
+        "key_risks": [],
+        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+        "counterfactuals": [
+          "시장 상황이 급격히 변동할 경우"
+        ],
+        "next_checks": [
+          "기업의 재무상태 변경사항",
+          "주요 이벤트나 뉴스"
+        ],
+        "position_plan": {
+          "prefer_qty": 10,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:34:26+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
+      "key_drivers": [
+        "이익 예상 증가"
+      ],
+      "key_risks": [],
+      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+      "counterfactuals": [
+        "시장 상황이 급격히 변동할 경우"
+      ],
+      "next_checks": [
+        "기업의 재무상태 변경사항",
+        "주요 이벤트나 뉴스"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
+        "key_drivers": [
+          "이익 예상 증가"
+        ],
+        "key_risks": [],
+        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+        "counterfactuals": [
+          "시장 상황이 급격히 변동할 경우"
+        ],
+        "next_checks": [
+          "기업의 재무상태 변경사항",
+          "주요 이벤트나 뉴스"
+        ],
+        "position_plan": {
+          "prefer_qty": 10,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:32:30+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
+      "key_drivers": [
+        "이익 예상 증가"
+      ],
+      "key_risks": [],
+      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+      "counterfactuals": [
+        "시장 상황이 급격히 변동할 경우"
+      ],
+      "next_checks": [
+        "기업의 재무상태 변경사항",
+        "주요 이벤트나 뉴스"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
+        "key_drivers": [
+          "이익 예상 증가"
+        ],
+        "key_risks": [],
+        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+        "counterfactuals": [
+          "시장 상황이 급격히 변동할 경우"
+        ],
+        "next_checks": [
+          "기업의 재무상태 변경사항",
+          "주요 이벤트나 뉴스"
+        ],
+        "position_plan": {
+          "prefer_qty": 10,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:21:43+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
+      "key_drivers": [
+        "이익 예상 증가"
+      ],
+      "key_risks": [],
+      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+      "counterfactuals": [
+        "시장 상황이 급격히 변동할 경우"
+      ],
+      "next_checks": [
+        "기업의 재무상태 변경사항",
+        "주요 이벤트나 뉴스"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
+        "key_drivers": [
+          "이익 예상 증가"
+        ],
+        "key_risks": [],
+        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+        "counterfactuals": [
+          "시장 상황이 급격히 변동할 경우"
+        ],
+        "next_checks": [
+          "기업의 재무상태 변경사항",
+          "주요 이벤트나 뉴스"
+        ],
+        "position_plan": {
+          "prefer_qty": 10,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:19:59+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
+      "key_drivers": [
+        "이익 예상 증가"
+      ],
+      "key_risks": [],
+      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+      "counterfactuals": [
+        "시장 상황이 급격히 변동할 경우"
+      ],
+      "next_checks": [
+        "기업의 재무상태 변경사항",
+        "주요 이벤트나 뉴스"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
+        "key_drivers": [
+          "이익 예상 증가"
+        ],
+        "key_risks": [],
+        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+        "counterfactuals": [
+          "시장 상황이 급격히 변동할 경우"
+        ],
+        "next_checks": [
+          "기업의 재무상태 변경사항",
+          "주요 이벤트나 뉴스"
+        ],
+        "position_plan": {
+          "prefer_qty": 10,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:18:10+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
+      "key_drivers": [
+        "이익 예상 증가"
+      ],
+      "key_risks": [],
+      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+      "counterfactuals": [
+        "시장 상황이 급격히 변동할 경우"
+      ],
+      "next_checks": [
+        "기업의 재무상태 변경사항",
+        "주요 이벤트나 뉴스"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
+        "key_drivers": [
+          "이익 예상 증가"
+        ],
+        "key_risks": [],
+        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+        "counterfactuals": [
+          "시장 상황이 급격히 변동할 경우"
+        ],
+        "next_checks": [
+          "기업의 재무상태 변경사항",
+          "주요 이벤트나 뉴스"
+        ],
+        "position_plan": {
+          "prefer_qty": 10,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:16:24+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
+      "key_drivers": [
+        "이익 예상 증가"
+      ],
+      "key_risks": [],
+      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+      "counterfactuals": [
+        "시장 상황이 급격히 변동할 경우"
+      ],
+      "next_checks": [
+        "기업의 재무상태 변경사항",
+        "주요 이벤트나 뉴스"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
+        "key_drivers": [
+          "이익 예상 증가"
+        ],
+        "key_risks": [],
+        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+        "counterfactuals": [
+          "시장 상황이 급격히 변동할 경우"
+        ],
+        "next_checks": [
+          "기업의 재무상태 변경사항",
+          "주요 이벤트나 뉴스"
+        ],
+        "position_plan": {
+          "prefer_qty": 10,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:14:30+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
+      "key_drivers": [
+        "이익 예상 증가"
+      ],
+      "key_risks": [],
+      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+      "counterfactuals": [
+        "시장 상황이 급격히 변동할 경우"
+      ],
+      "next_checks": [
+        "기업의 재무상태 변경사항",
+        "주요 이벤트나 뉴스"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
+        "key_drivers": [
+          "이익 예상 증가"
+        ],
+        "key_risks": [],
+        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+        "counterfactuals": [
+          "시장 상황이 급격히 변동할 경우"
+        ],
+        "next_checks": [
+          "기업의 재무상태 변경사항",
+          "주요 이벤트나 뉴스"
+        ],
+        "position_plan": {
+          "prefer_qty": 10,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:50:20+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
+      "key_drivers": [
+        "이익 예상 증가"
+      ],
+      "key_risks": [],
+      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+      "counterfactuals": [
+        "시장 상황이 급격히 변동할 경우"
+      ],
+      "next_checks": [
+        "기업의 재무상태 변경사항",
+        "주요 이벤트나 뉴스"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
+        "key_drivers": [
+          "이익 예상 증가"
+        ],
+        "key_risks": [],
+        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+        "counterfactuals": [
+          "시장 상황이 급격히 변동할 경우"
+        ],
+        "next_checks": [
+          "기업의 재무상태 변경사항",
+          "주요 이벤트나 뉴스"
+        ],
+        "position_plan": {
+          "prefer_qty": 10,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:48:45+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
+      "key_drivers": [
+        "이익 예상 증가"
+      ],
+      "key_risks": [],
+      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+      "counterfactuals": [
+        "시장 상황이 급격히 변동할 경우"
+      ],
+      "next_checks": [
+        "기업의 재무상태 변경사항",
+        "주요 이벤트나 뉴스"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
+        "key_drivers": [
+          "이익 예상 증가"
+        ],
+        "key_risks": [],
+        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+        "counterfactuals": [
+          "시장 상황이 급격히 변동할 경우"
+        ],
+        "next_checks": [
+          "기업의 재무상태 변경사항",
+          "주요 이벤트나 뉴스"
+        ],
+        "position_plan": {
+          "prefer_qty": 10,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:46:38+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
+      "key_drivers": [
+        "이익 예상 증가"
+      ],
+      "key_risks": [],
+      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+      "counterfactuals": [
+        "시장 상황이 급격히 변동할 경우"
+      ],
+      "next_checks": [
+        "기업의 재무상태 변경사항",
+        "주요 이벤트나 뉴스"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
+        "key_drivers": [
+          "이익 예상 증가"
+        ],
+        "key_risks": [],
+        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+        "counterfactuals": [
+          "시장 상황이 급격히 변동할 경우"
+        ],
+        "next_checks": [
+          "기업의 재무상태 변경사항",
+          "주요 이벤트나 뉴스"
+        ],
+        "position_plan": {
+          "prefer_qty": 10,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:36:22+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
+      "key_drivers": [
+        "이익 예상 증가"
+      ],
+      "key_risks": [],
+      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+      "counterfactuals": [
+        "시장 상황이 급격히 변동할 경우"
+      ],
+      "next_checks": [
+        "기업의 재무상태 변경사항",
+        "주요 이벤트나 뉴스"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
+        "key_drivers": [
+          "이익 예상 증가"
+        ],
+        "key_risks": [],
+        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+        "counterfactuals": [
+          "시장 상황이 급격히 변동할 경우"
+        ],
+        "next_checks": [
+          "기업의 재무상태 변경사항",
+          "주요 이벤트나 뉴스"
+        ],
+        "position_plan": {
+          "prefer_qty": 10,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:34:40+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
+      "key_drivers": [
+        "이익 예상 증가"
+      ],
+      "key_risks": [],
+      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+      "counterfactuals": [
+        "시장 상황이 급격히 변동할 경우"
+      ],
+      "next_checks": [
+        "기업의 재무상태 변경사항",
+        "주요 이벤트나 뉴스"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
+        "key_drivers": [
+          "이익 예상 증가"
+        ],
+        "key_risks": [],
+        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+        "counterfactuals": [
+          "시장 상황이 급격히 변동할 경우"
+        ],
+        "next_checks": [
+          "기업의 재무상태 변경사항",
+          "주요 이벤트나 뉴스"
+        ],
+        "position_plan": {
+          "prefer_qty": 10,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:32:43+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
+      "key_drivers": [
+        "이익 예상 증가"
+      ],
+      "key_risks": [],
+      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+      "counterfactuals": [
+        "시장 상황이 급격히 변동할 경우"
+      ],
+      "next_checks": [
+        "기업의 재무상태 변경사항",
+        "주요 이벤트나 뉴스"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
+        "key_drivers": [
+          "이익 예상 증가"
+        ],
+        "key_risks": [],
+        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+        "counterfactuals": [
+          "시장 상황이 급격히 변동할 경우"
+        ],
+        "next_checks": [
+          "기업의 재무상태 변경사항",
+          "주요 이벤트나 뉴스"
+        ],
+        "position_plan": {
+          "prefer_qty": 10,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:28:35+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
+      "key_drivers": [
+        "이익 예상 증가"
+      ],
+      "key_risks": [],
+      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+      "counterfactuals": [
+        "시장 상황이 급격히 변동할 경우"
+      ],
+      "next_checks": [
+        "기업의 재무상태 변경사항",
+        "주요 이벤트나 뉴스"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
+        "key_drivers": [
+          "이익 예상 증가"
+        ],
+        "key_risks": [],
+        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+        "counterfactuals": [
+          "시장 상황이 급격히 변동할 경우"
+        ],
+        "next_checks": [
+          "기업의 재무상태 변경사항",
+          "주요 이벤트나 뉴스"
+        ],
+        "position_plan": {
+          "prefer_qty": 10,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:26:41+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
+      "key_drivers": [
+        "이익 예상 증가"
+      ],
+      "key_risks": [],
+      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+      "counterfactuals": [
+        "시장 상황이 급격히 변동할 경우"
+      ],
+      "next_checks": [
+        "기업의 재무상태 변경사항",
+        "주요 이벤트나 뉴스"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
+        "key_drivers": [
+          "이익 예상 증가"
+        ],
+        "key_risks": [],
+        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+        "counterfactuals": [
+          "시장 상황이 급격히 변동할 경우"
+        ],
+        "next_checks": [
+          "기업의 재무상태 변경사항",
+          "주요 이벤트나 뉴스"
+        ],
+        "position_plan": {
+          "prefer_qty": 10,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T22:51:58+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
+      "key_drivers": [
+        "이익 예상 증가"
+      ],
+      "key_risks": [],
+      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+      "counterfactuals": [
+        "시장 상황이 급격히 변동할 경우"
+      ],
+      "next_checks": [
+        "기업의 재무상태 변경사항",
+        "주요 이벤트나 뉴스"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
+        "key_drivers": [
+          "이익 예상 증가"
+        ],
+        "key_risks": [],
+        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+        "counterfactuals": [
+          "시장 상황이 급격히 변동할 경우"
+        ],
+        "next_checks": [
+          "기업의 재무상태 변경사항",
+          "주요 이벤트나 뉴스"
+        ],
+        "position_plan": {
+          "prefer_qty": 10,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T22:50:10+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
+      "key_drivers": [
+        "이익 예상 증가"
+      ],
+      "key_risks": [],
+      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+      "counterfactuals": [
+        "시장 상황이 급격히 변동할 경우"
+      ],
+      "next_checks": [
+        "기업의 재무상태 변경사항",
+        "주요 이벤트나 뉴스"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
+        "key_drivers": [
+          "이익 예상 증가"
+        ],
+        "key_risks": [],
+        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+        "counterfactuals": [
+          "시장 상황이 급격히 변동할 경우"
+        ],
+        "next_checks": [
+          "기업의 재무상태 변경사항",
+          "주요 이벤트나 뉴스"
+        ],
+        "position_plan": {
+          "prefer_qty": 10,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:54:51+09:00",
+      "action": "HOLD",
+      "confidence": 0.2355882352941176,
+      "rationale": "현재 시장 상황과 기술적 분석은 중립을 유지하는 데 유리하며, 최근 이벤트나 뉴스가 없어 결정에 큰 영향을 미치지 않았습니다.",
+      "key_drivers": [],
+      "key_risks": [],
+      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+      "counterfactuals": [
+        "시장 상황이 급격히 변동할 경우"
+      ],
+      "next_checks": [
+        "기업의 재무상태 변경사항",
+        "주요 이벤트나 뉴스"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.2355882352941176,
+        "rationale": "현재 시장 상황과 기술적 분석은 중립을 유지하는 데 유리하며, 최근 이벤트나 뉴스가 없어 결정에 큰 영향을 미치지 않았습니다.",
+        "key_drivers": [],
+        "key_risks": [],
+        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+        "counterfactuals": [
+          "시장 상황이 급격히 변동할 경우"
+        ],
+        "next_checks": [
+          "기업의 재무상태 변경사항",
+          "주요 이벤트나 뉴스"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:53:27+09:00",
+      "action": "HOLD",
+      "confidence": 0.2355882352941176,
+      "rationale": "현재 시장 상황과 기술적 분석은 중립을 유지하는 데 유리하며, 최근 이벤트나 뉴스가 없어 결정에 큰 영향을 미치지 않았습니다.",
+      "key_drivers": [],
+      "key_risks": [],
+      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+      "counterfactuals": [
+        "시장 상황이 급격히 변동할 경우"
+      ],
+      "next_checks": [
+        "기업의 재무상태 변경사항",
+        "주요 이벤트나 뉴스"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.2355882352941176,
+        "rationale": "현재 시장 상황과 기술적 분석은 중립을 유지하는 데 유리하며, 최근 이벤트나 뉴스가 없어 결정에 큰 영향을 미치지 않았습니다.",
+        "key_drivers": [],
+        "key_risks": [],
+        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+        "counterfactuals": [
+          "시장 상황이 급격히 변동할 경우"
+        ],
+        "next_checks": [
+          "기업의 재무상태 변경사항",
+          "주요 이벤트나 뉴스"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:52:04+09:00",
+      "action": "HOLD",
+      "confidence": 0.2355882352941176,
+      "rationale": "현재 시장 상황과 기술적 분석은 중립을 유지하는 데 유리하며, 최근 이벤트나 뉴스가 없어 결정에 큰 영향을 미치지 않았습니다.",
+      "key_drivers": [],
+      "key_risks": [],
+      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+      "counterfactuals": [
+        "시장 상황이 급격히 변동할 경우"
+      ],
+      "next_checks": [
+        "기업의 재무상태 변경사항",
+        "주요 이벤트나 뉴스"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.2355882352941176,
+        "rationale": "현재 시장 상황과 기술적 분석은 중립을 유지하는 데 유리하며, 최근 이벤트나 뉴스가 없어 결정에 큰 영향을 미치지 않았습니다.",
+        "key_drivers": [],
+        "key_risks": [],
+        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+        "counterfactuals": [
+          "시장 상황이 급격히 변동할 경우"
+        ],
+        "next_checks": [
+          "기업의 재무상태 변경사항",
+          "주요 이벤트나 뉴스"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:50:30+09:00",
+      "action": "HOLD",
+      "confidence": 0.2355882352941176,
+      "rationale": "현재 시장 상황과 기술적 분석은 중립을 유지하는 데 유리하며, 최근 이벤트나 뉴스가 없어 결정에 큰 영향을 미치지 않았습니다.",
+      "key_drivers": [],
+      "key_risks": [],
+      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+      "counterfactuals": [
+        "시장 상황이 급격히 변동할 경우"
+      ],
+      "next_checks": [
+        "기업의 재무상태 변경사항",
+        "주요 이벤트나 뉴스"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.2355882352941176,
+        "rationale": "현재 시장 상황과 기술적 분석은 중립을 유지하는 데 유리하며, 최근 이벤트나 뉴스가 없어 결정에 큰 영향을 미치지 않았습니다.",
+        "key_drivers": [],
+        "key_risks": [],
+        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+        "counterfactuals": [
+          "시장 상황이 급격히 변동할 경우"
+        ],
+        "next_checks": [
+          "기업의 재무상태 변경사항",
+          "주요 이벤트나 뉴스"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:32:41+09:00",
+      "action": "HOLD",
+      "confidence": 0.2355882352941176,
+      "rationale": "현재 시장 상황과 기술적 분석은 중립을 유지하는 데 유리하며, 최근 이벤트나 뉴스가 없어 결정에 큰 영향을 미치지 않았습니다.",
+      "key_drivers": [],
+      "key_risks": [],
+      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+      "counterfactuals": [
+        "시장 상황이 급격히 변동할 경우"
+      ],
+      "next_checks": [
+        "기업의 재무상태 변경사항",
+        "주요 이벤트나 뉴스"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.2355882352941176,
+        "rationale": "현재 시장 상황과 기술적 분석은 중립을 유지하는 데 유리하며, 최근 이벤트나 뉴스가 없어 결정에 큰 영향을 미치지 않았습니다.",
+        "key_drivers": [],
+        "key_risks": [],
+        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+        "counterfactuals": [
+          "시장 상황이 급격히 변동할 경우"
+        ],
+        "next_checks": [
+          "기업의 재무상태 변경사항",
+          "주요 이벤트나 뉴스"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:30:36+09:00",
+      "action": "HOLD",
+      "confidence": 0.2355882352941176,
+      "rationale": "현재 시장 상황과 기술적 분석은 중립을 유지하는 데 유리하며, 최근 이벤트나 뉴스가 없어 결정에 큰 영향을 미치지 않았습니다.",
+      "key_drivers": [],
+      "key_risks": [],
+      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+      "counterfactuals": [
+        "시장 상황이 급격히 변동할 경우"
+      ],
+      "next_checks": [
+        "기업의 재무상태 변경사항",
+        "주요 이벤트나 뉴스"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.2355882352941176,
+        "rationale": "현재 시장 상황과 기술적 분석은 중립을 유지하는 데 유리하며, 최근 이벤트나 뉴스가 없어 결정에 큰 영향을 미치지 않았습니다.",
+        "key_drivers": [],
+        "key_risks": [],
+        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+        "counterfactuals": [
+          "시장 상황이 급격히 변동할 경우"
+        ],
+        "next_checks": [
+          "기업의 재무상태 변경사항",
+          "주요 이벤트나 뉴스"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:25:05+09:00",
+      "action": "HOLD",
+      "confidence": 0.2355882352941176,
+      "rationale": "현재 시장 상황과 기술적 분석은 중립을 유지하는 데 유리하며, 최근 이벤트나 뉴스가 없어 결정에 큰 영향을 미치지 않았습니다.",
+      "key_drivers": [],
+      "key_risks": [],
+      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+      "counterfactuals": [
+        "시장 상황이 급격히 변동할 경우"
+      ],
+      "next_checks": [
+        "기업의 재무상태 변경사항",
+        "주요 이벤트나 뉴스"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.2355882352941176,
+        "rationale": "현재 시장 상황과 기술적 분석은 중립을 유지하는 데 유리하며, 최근 이벤트나 뉴스가 없어 결정에 큰 영향을 미치지 않았습니다.",
+        "key_drivers": [],
+        "key_risks": [],
+        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+        "counterfactuals": [
+          "시장 상황이 급격히 변동할 경우"
+        ],
+        "next_checks": [
+          "기업의 재무상태 변경사항",
+          "주요 이벤트나 뉴스"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:23:41+09:00",
+      "action": "HOLD",
+      "confidence": 0.2355882352941176,
+      "rationale": "현재 시장 상황과 기술적 분석은 중립을 유지하는 데 유리하며, 최근 이벤트나 뉴스가 없어 결정에 큰 영향을 미치지 않았습니다.",
+      "key_drivers": [],
+      "key_risks": [],
+      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+      "counterfactuals": [
+        "시장 상황이 급격히 변동할 경우"
+      ],
+      "next_checks": [
+        "기업의 재무상태 변경사항",
+        "주요 이벤트나 뉴스"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.2355882352941176,
+        "rationale": "현재 시장 상황과 기술적 분석은 중립을 유지하는 데 유리하며, 최근 이벤트나 뉴스가 없어 결정에 큰 영향을 미치지 않았습니다.",
+        "key_drivers": [],
+        "key_risks": [],
+        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+        "counterfactuals": [
+          "시장 상황이 급격히 변동할 경우"
+        ],
+        "next_checks": [
+          "기업의 재무상태 변경사항",
+          "주요 이벤트나 뉴스"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:22:25+09:00",
+      "action": "HOLD",
+      "confidence": 0.2355882352941176,
+      "rationale": "현재 시장 상황과 기술적 분석은 중립을 유지하는 데 유리하며, 최근 이벤트나 뉴스가 없어 결정에 큰 영향을 미치지 않았습니다.",
+      "key_drivers": [],
+      "key_risks": [],
+      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+      "counterfactuals": [
+        "시장 상황이 급격히 변동할 경우"
+      ],
+      "next_checks": [
+        "기업의 재무상태 변경사항",
+        "주요 이벤트나 뉴스"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.2355882352941176,
+        "rationale": "현재 시장 상황과 기술적 분석은 중립을 유지하는 데 유리하며, 최근 이벤트나 뉴스가 없어 결정에 큰 영향을 미치지 않았습니다.",
+        "key_drivers": [],
+        "key_risks": [],
+        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+        "counterfactuals": [
+          "시장 상황이 급격히 변동할 경우"
+        ],
+        "next_checks": [
+          "기업의 재무상태 변경사항",
+          "주요 이벤트나 뉴스"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:21:05+09:00",
+      "action": "HOLD",
+      "confidence": 0.2355882352941176,
+      "rationale": "현재 시장 상황과 기술적 분석은 중립을 유지하는 데 유리하며, 최근 이벤트나 뉴스가 없어 결정에 큰 영향을 미치지 않았습니다.",
+      "key_drivers": [],
+      "key_risks": [],
+      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+      "counterfactuals": [
+        "시장 상황이 급격히 변동할 경우"
+      ],
+      "next_checks": [
+        "기업의 재무상태 변경사항",
+        "주요 이벤트나 뉴스"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.2355882352941176,
+        "rationale": "현재 시장 상황과 기술적 분석은 중립을 유지하는 데 유리하며, 최근 이벤트나 뉴스가 없어 결정에 큰 영향을 미치지 않았습니다.",
+        "key_drivers": [],
+        "key_risks": [],
+        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+        "counterfactuals": [
+          "시장 상황이 급격히 변동할 경우"
+        ],
+        "next_checks": [
+          "기업의 재무상태 변경사항",
+          "주요 이벤트나 뉴스"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:19:37+09:00",
+      "action": "HOLD",
+      "confidence": 0.2355882352941176,
+      "rationale": "현재 시장 상황과 기술적 분석은 중립을 유지하는 데 유리하며, 최근 이벤트나 뉴스가 없어 결정에 큰 영향을 미치지 않았습니다.",
+      "key_drivers": [],
+      "key_risks": [],
+      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+      "counterfactuals": [
+        "시장 상황이 급격히 변동할 경우"
+      ],
+      "next_checks": [
+        "기업의 재무상태 변경사항",
+        "주요 이벤트나 뉴스"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.2355882352941176,
+        "rationale": "현재 시장 상황과 기술적 분석은 중립을 유지하는 데 유리하며, 최근 이벤트나 뉴스가 없어 결정에 큰 영향을 미치지 않았습니다.",
+        "key_drivers": [],
+        "key_risks": [],
+        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
+        "counterfactuals": [
+          "시장 상황이 급격히 변동할 경우"
+        ],
+        "next_checks": [
+          "기업의 재무상태 변경사항",
+          "주요 이벤트나 뉴스"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    }
+  ],
+  "tags": []
+}

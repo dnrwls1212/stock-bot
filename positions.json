@@ -1,0 +1,308 @@
+{
+  "NVDA": {
+    "ticker": "NVDA",
+    "qty": 0.0,
+    "avg_price": 0.0,
+    "trades_today": 0,
+    "last_trade_ts": null,
+    "cooldown_until_ts": null,
+    "buy_streak": 13,
+    "sell_streak": 0,
+    "last_action_raw": "BUY",
+    "last_reset_date": "2026-02-25",
+    "meta": {
+      "_tp1_done": false,
+      "_tp2_done": false,
+      "_sl1_done": false,
+      "_peak_price": 0.0
+    }
+  },
+  "ORCL": {
+    "ticker": "ORCL",
+    "qty": 0.0,
+    "avg_price": 0.0,
+    "trades_today": 0,
+    "last_trade_ts": null,
+    "cooldown_until_ts": null,
+    "buy_streak": 0,
+    "sell_streak": 0,
+    "last_action_raw": "HOLD",
+    "last_reset_date": "2026-02-22",
+    "meta": {
+      "_tp1_done": false,
+      "_tp2_done": false,
+      "_sl1_done": false,
+      "_peak_price": 0.0
+    }
+  },
+  "AVGO": {
+    "ticker": "AVGO",
+    "qty": 0.0,
+    "avg_price": 0.0,
+    "trades_today": 0,
+    "last_trade_ts": null,
+    "cooldown_until_ts": null,
+    "buy_streak": 0,
+    "sell_streak": 0,
+    "last_action_raw": "HOLD",
+    "last_reset_date": "2026-02-22",
+    "meta": {
+      "_tp1_done": false,
+      "_tp2_done": false,
+      "_sl1_done": false,
+      "_peak_price": 0.0
+    }
+  },
+  "AMD": {
+    "ticker": "AMD",
+    "qty": 0.0,
+    "avg_price": 0.0,
+    "trades_today": 0,
+    "last_trade_ts": null,
+    "cooldown_until_ts": null,
+    "buy_streak": 0,
+    "sell_streak": 0,
+    "last_action_raw": "HOLD",
+    "last_reset_date": "2026-02-22",
+    "meta": {
+      "_tp1_done": false,
+      "_tp2_done": false,
+      "_sl1_done": false,
+      "_peak_price": 0.0
+    }
+  },
+  "TEAM": {
+    "ticker": "TEAM",
+    "qty": 0.0,
+    "avg_price": 0.0,
+    "trades_today": 0,
+    "last_trade_ts": null,
+    "cooldown_until_ts": null,
+    "buy_streak": 0,
+    "sell_streak": 0,
+    "last_action_raw": "HOLD",
+    "last_reset_date": "2026-02-25",
+    "meta": {
+      "_tp1_done": false,
+      "_tp2_done": false,
+      "_sl1_done": false,
+      "_peak_price": 0.0
+    }
+  },
+  "MSTR": {
+    "ticker": "MSTR",
+    "qty": 0.0,
+    "avg_price": 0.0,
+    "trades_today": 0,
+    "last_trade_ts": null,
+    "cooldown_until_ts": null,
+    "buy_streak": 0,
+    "sell_streak": 0,
+    "last_action_raw": "HOLD",
+    "last_reset_date": "2026-02-25",
+    "meta": {
+      "_tp1_done": false,
+      "_tp2_done": false,
+      "_sl1_done": false,
+      "_peak_price": 0.0
+    }
+  },
+  "MU": {
+    "ticker": "MU",
+    "qty": 0.0,
+    "avg_price": 0.0,
+    "trades_today": 0,
+    "last_trade_ts": null,
+    "cooldown_until_ts": null,
+    "buy_streak": 13,
+    "sell_streak": 0,
+    "last_action_raw": "BUY",
+    "last_reset_date": "2026-02-25",
+    "meta": {
+      "_tp1_done": false,
+      "_tp2_done": false,
+      "_sl1_done": false,
+      "_peak_price": 0.0
+    }
+  },
+  "SHOP": {
+    "ticker": "SHOP",
+    "qty": 0.0,
+    "avg_price": 0.0,
+    "trades_today": 0,
+    "last_trade_ts": null,
+    "cooldown_until_ts": null,
+    "buy_streak": 0,
+    "sell_streak": 0,
+    "last_action_raw": "HOLD",
+    "last_reset_date": "2026-02-25",
+    "meta": {
+      "_tp1_done": false,
+      "_tp2_done": false,
+      "_sl1_done": false,
+      "_peak_price": 0.0
+    }
+  },
+  "COIN": {
+    "ticker": "COIN",
+    "qty": 0.0,
+    "avg_price": 0.0,
+    "trades_today": 0,
+    "last_trade_ts": null,
+    "cooldown_until_ts": null,
+    "buy_streak": 0,
+    "sell_streak": 0,
+    "last_action_raw": "HOLD",
+    "last_reset_date": "2026-02-25",
+    "meta": {
+      "_tp1_done": false,
+      "_tp2_done": false,
+      "_sl1_done": false,
+      "_peak_price": 0.0
+    }
+  },
+  "SPY": {
+    "ticker": "SPY",
+    "qty": 0.0,
+    "avg_price": 0.0,
+    "trades_today": 0,
+    "last_trade_ts": null,
+    "cooldown_until_ts": null,
+    "buy_streak": 0,
+    "sell_streak": 0,
+    "last_action_raw": "HOLD",
+    "last_reset_date": "2026-02-25",
+    "meta": {
+      "_tp1_done": false,
+      "_tp2_done": false,
+      "_sl1_done": false,
+      "_peak_price": 0.0
+    }
+  },
+  "PLTR": {
+    "ticker": "PLTR",
+    "qty": 0.0,
+    "avg_price": 0.0,
+    "trades_today": 0,
+    "last_trade_ts": null,
+    "cooldown_until_ts": null,
+    "buy_streak": 0,
+    "sell_streak": 0,
+    "last_action_raw": "HOLD",
+    "last_reset_date": "2026-02-25",
+    "meta": {
+      "_tp1_done": false,
+      "_tp2_done": false,
+      "_sl1_done": false,
+      "_peak_price": 0.0
+    }
+  },
+  "DDOG": {
+    "ticker": "DDOG",
+    "qty": 0.0,
+    "avg_price": 0.0,
+    "trades_today": 0,
+    "last_trade_ts": null,
+    "cooldown_until_ts": null,
+    "buy_streak": 0,
+    "sell_streak": 0,
+    "last_action_raw": "HOLD",
+    "last_reset_date": "2026-02-25",
+    "meta": {
+      "_tp1_done": false,
+      "_tp2_done": false,
+      "_sl1_done": false,
+      "_peak_price": 0.0
+    }
+  },
+  "MDB": {
+    "ticker": "MDB",
+    "qty": 0.0,
+    "avg_price": 0.0,
+    "trades_today": 0,
+    "last_trade_ts": null,
+    "cooldown_until_ts": null,
+    "buy_streak": 0,
+    "sell_streak": 0,
+    "last_action_raw": "HOLD",
+    "last_reset_date": "2026-02-25",
+    "meta": {
+      "_tp1_done": false,
+      "_tp2_done": false,
+      "_sl1_done": false,
+      "_peak_price": 0.0
+    }
+  },
+  "NET": {
+    "ticker": "NET",
+    "qty": 0.0,
+    "avg_price": 0.0,
+    "trades_today": 0,
+    "last_trade_ts": null,
+    "cooldown_until_ts": null,
+    "buy_streak": 0,
+    "sell_streak": 0,
+    "last_action_raw": "HOLD",
+    "last_reset_date": "2026-02-25",
+    "meta": {
+      "_tp1_done": false,
+      "_tp2_done": false,
+      "_sl1_done": false,
+      "_peak_price": 0.0
+    }
+  },
+  "DOCN": {
+    "ticker": "DOCN",
+    "qty": 0.0,
+    "avg_price": 0.0,
+    "trades_today": 0,
+    "last_trade_ts": null,
+    "cooldown_until_ts": null,
+    "buy_streak": 0,
+    "sell_streak": 0,
+    "last_action_raw": "HOLD",
+    "last_reset_date": "2026-02-25",
+    "meta": {
+      "_tp1_done": false,
+      "_tp2_done": false,
+      "_sl1_done": false,
+      "_peak_price": 0.0
+    }
+  },
+  "NVO": {
+    "ticker": "NVO",
+    "qty": 0.0,
+    "avg_price": 0.0,
+    "trades_today": 0,
+    "last_trade_ts": null,
+    "cooldown_until_ts": null,
+    "buy_streak": 0,
+    "sell_streak": 0,
+    "last_action_raw": "HOLD",
+    "last_reset_date": "2026-02-24",
+    "meta": {
+      "_tp1_done": false,
+      "_tp2_done": false,
+      "_sl1_done": false,
+      "_peak_price": 0.0
+    }
+  },
+  "SNOW": {
+    "ticker": "SNOW",
+    "qty": 0.0,
+    "avg_price": 0.0,
+    "trades_today": 0,
+    "last_trade_ts": null,
+    "cooldown_until_ts": null,
+    "buy_streak": 0,
+    "sell_streak": 0,
+    "last_action_raw": "HOLD",
+    "last_reset_date": "2026-02-25",
+    "meta": {
+      "_tp1_done": false,
+      "_tp2_done": false,
+      "_sl1_done": false,
+      "_peak_price": 0.0
+    }
+  }
+}

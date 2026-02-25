@@ -1,0 +1,44 @@
+{
+  "ticker": "CRM",
+  "updated_at": "2026-02-23T00:04:20+09:00",
+  "thesis": "",
+  "business_summary": "",
+  "moat": "",
+  "key_drivers": [],
+  "key_risks": [],
+  "valuation_method": "simple",
+  "valuation_assumptions": {},
+  "target_price": null,
+  "fair_value_range": null,
+  "evidence": [
+    {
+      "ts_kst": "2026-02-23T00:04:20+09:00",
+      "source": "news",
+      "title": "Is Salesforce Stock Worth Owning Ahead of Q4 Earnings Release?",
+      "summary": "Earnings expectations tied to AI and digital trends.",
+      "link": "https://finance.yahoo.com/news/salesforce-stock-worth-owning-ahead-121200977.html?.tsrc=rss",
+      "sentiment": "neutral",
+      "impact": 0,
+      "tags": [
+        "earnings"
+      ],
+      "raw": {
+        "tickers": [
+          "CRM"
+        ],
+        "event_type": "earnings",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [
+          "Q4 performance expected to benefit from generative AI adoption.",
+          "Continued focus on digital transformation."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Earnings expectations tied to AI and digital trends."
+      }
+    }
+  ],
+  "decisions": [],
+  "tags": []
+}

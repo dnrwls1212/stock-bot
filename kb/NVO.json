@@ -1,0 +1,83 @@
+{
+  "ticker": "NVO",
+  "updated_at": "2026-02-24T00:32:45+09:00",
+  "thesis": "",
+  "business_summary": "",
+  "moat": "",
+  "key_drivers": [],
+  "key_risks": [],
+  "valuation_method": "simple",
+  "valuation_assumptions": {},
+  "target_price": null,
+  "fair_value_range": null,
+  "evidence": [],
+  "decisions": [
+    {
+      "ts_kst": "2026-02-24T00:32:45+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "当前市场和技术分析保持中立，缺乏重大新闻或事件影响决策。",
+      "key_drivers": [],
+      "key_risks": [],
+      "valuation_view": "当前估值方法简单，未提供正式的价值区间。",
+      "counterfactuals": [
+        "如果有任何重大新闻或市场变化，可能会改变当前的中立立场。"
+      ],
+      "next_checks": [
+        "需关注未来一周内的市场动态和公司公告。"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "当前市场和技术分析保持中立，缺乏重大新闻或事件影响决策。",
+        "key_drivers": [],
+        "key_risks": [],
+        "valuation_view": "当前估值方法简单，未提供正式的价值区间。",
+        "counterfactuals": [
+          "如果有任何重大新闻或市场变化，可能会改变当前的中立立场。"
+        ],
+        "next_checks": [
+          "需关注未来一周内的市场动态和公司公告。"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:30:41+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장 상황과 기술적 분석은 중립을 유지하고 있으며, 최근 이벤트나 뉴스가 없어 결정에 영향을 미치지 못했습니다.",
+      "key_drivers": [],
+      "key_risks": [],
+      "valuation_view": "현재 평가는 단순하며, 공식적인 가치 범위를 제공하지 않습니다.",
+      "counterfactuals": [
+        "如果有任何重大新闻或市场变化，可能会改变当前的中立立场。"
+      ],
+      "next_checks": [
+        "需关注未来一周内的市场动态和公司公告。"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장 상황과 기술적 분석은 중립을 유지하고 있으며, 최근 이벤트나 뉴스가 없어 결정에 영향을 미치지 못했습니다.",
+        "key_drivers": [],
+        "key_risks": [],
+        "valuation_view": "현재 평가는 단순하며, 공식적인 가치 범위를 제공하지 않습니다.",
+        "counterfactuals": [
+          "如果有任何重大新闻或市场变化，可能会改变当前的中立立场。"
+        ],
+        "next_checks": [
+          "需关注未来一周内的市场动态和公司公告。"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    }
+  ],
+  "tags": []
+}

@@ -1,0 +1,769 @@
+{
+  "generated_at_kst": "2026-02-25T02:31:24+09:00",
+  "labeled_path": "data/decisions_labeled.jsonl",
+  "horizons": [
+    "1h",
+    "1d"
+  ],
+  "min_abs_ret_success": 0.002,
+  "only_conf_ge": 0.0,
+  "n_rows": 597,
+  "by_horizon": {
+    "1h": {
+      "raw_signal": {
+        "n": 12,
+        "n_eval": 12,
+        "win_rate": 0.5,
+        "avg_ret": 0.0021045854450118993
+      },
+      "plan": {
+        "n": 3,
+        "n_eval": 3,
+        "win_rate": 0.6666666666666666,
+        "avg_ret": 0.001366305406953076
+      },
+      "decision": {
+        "n": 23,
+        "n_eval": 23,
+        "win_rate": 0.391304347826087,
+        "avg_ret": -0.0022420126322486578
+      }
+    },
+    "1d": {
+      "raw_signal": {
+        "n": 0,
+        "n_eval": 0,
+        "win_rate": 0.0,
+        "avg_ret": 0.0
+      },
+      "plan": {
+        "n": 0,
+        "n_eval": 0,
+        "win_rate": 0.0,
+        "avg_ret": 0.0
+      },
+      "decision": {
+        "n": 0,
+        "n_eval": 0,
+        "win_rate": 0.0,
+        "avg_ret": 0.0
+      }
+    }
+  },
+  "by_ticker_horizon": {
+    "AMD": {
+      "1h": {
+        "raw_signal": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "plan": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "decision": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        }
+      },
+      "1d": {
+        "raw_signal": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "plan": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "decision": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        }
+      }
+    },
+    "AVGO": {
+      "1h": {
+        "raw_signal": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "plan": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "decision": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        }
+      },
+      "1d": {
+        "raw_signal": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "plan": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "decision": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        }
+      }
+    },
+    "COIN": {
+      "1h": {
+        "raw_signal": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "plan": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "decision": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        }
+      },
+      "1d": {
+        "raw_signal": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "plan": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "decision": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        }
+      }
+    },
+    "DDOG": {
+      "1h": {
+        "raw_signal": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "plan": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "decision": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        }
+      },
+      "1d": {
+        "raw_signal": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "plan": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "decision": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        }
+      }
+    },
+    "DOCN": {
+      "1h": {
+        "raw_signal": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "plan": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "decision": {
+          "n": 2,
+          "n_eval": 2,
+          "win_rate": 0.0,
+          "avg_ret": -0.013879057895064106
+        }
+      },
+      "1d": {
+        "raw_signal": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "plan": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "decision": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        }
+      }
+    },
+    "MDB": {
+      "1h": {
+        "raw_signal": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "plan": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "decision": {
+          "n": 2,
+          "n_eval": 2,
+          "win_rate": 0.0,
+          "avg_ret": -0.007866222701132353
+        }
+      },
+      "1d": {
+        "raw_signal": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "plan": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "decision": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        }
+      }
+    },
+    "MSTR": {
+      "1h": {
+        "raw_signal": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "plan": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "decision": {
+          "n": 2,
+          "n_eval": 2,
+          "win_rate": 0.5,
+          "avg_ret": 0.00229443938475693
+        }
+      },
+      "1d": {
+        "raw_signal": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "plan": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "decision": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        }
+      }
+    },
+    "MU": {
+      "1h": {
+        "raw_signal": {
+          "n": 6,
+          "n_eval": 6,
+          "win_rate": 0.5,
+          "avg_ret": 0.0014927317639197857
+        },
+        "plan": {
+          "n": 3,
+          "n_eval": 3,
+          "win_rate": 0.6666666666666666,
+          "avg_ret": 0.001366305406953076
+        },
+        "decision": {
+          "n": 6,
+          "n_eval": 6,
+          "win_rate": 0.5,
+          "avg_ret": 0.0014927317639197857
+        }
+      },
+      "1d": {
+        "raw_signal": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "plan": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "decision": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        }
+      }
+    },
+    "NET": {
+      "1h": {
+        "raw_signal": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "plan": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "decision": {
+          "n": 3,
+          "n_eval": 3,
+          "win_rate": 0.0,
+          "avg_ret": -0.019615843455175974
+        }
+      },
+      "1d": {
+        "raw_signal": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "plan": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "decision": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        }
+      }
+    },
+    "NVDA": {
+      "1h": {
+        "raw_signal": {
+          "n": 6,
+          "n_eval": 6,
+          "win_rate": 0.5,
+          "avg_ret": 0.0027164391261040124
+        },
+        "plan": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "decision": {
+          "n": 2,
+          "n_eval": 2,
+          "win_rate": 1.0,
+          "avg_ret": 0.005140324420409903
+        }
+      },
+      "1d": {
+        "raw_signal": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "plan": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "decision": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        }
+      }
+    },
+    "NVO": {
+      "1h": {
+        "raw_signal": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "plan": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "decision": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        }
+      },
+      "1d": {
+        "raw_signal": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "plan": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "decision": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        }
+      }
+    },
+    "ORCL": {
+      "1h": {
+        "raw_signal": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "plan": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "decision": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        }
+      },
+      "1d": {
+        "raw_signal": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "plan": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "decision": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        }
+      }
+    },
+    "PLTR": {
+      "1h": {
+        "raw_signal": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "plan": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "decision": {
+          "n": 3,
+          "n_eval": 3,
+          "win_rate": 1.0,
+          "avg_ret": 0.011277755440138352
+        }
+      },
+      "1d": {
+        "raw_signal": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "plan": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "decision": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        }
+      }
+    },
+    "SHOP": {
+      "1h": {
+        "raw_signal": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "plan": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "decision": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        }
+      },
+      "1d": {
+        "raw_signal": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "plan": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "decision": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        }
+      }
+    },
+    "SNOW": {
+      "1h": {
+        "raw_signal": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "plan": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "decision": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        }
+      },
+      "1d": {
+        "raw_signal": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "plan": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "decision": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        }
+      }
+    },
+    "SPY": {
+      "1h": {
+        "raw_signal": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "plan": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "decision": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        }
+      },
+      "1d": {
+        "raw_signal": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "plan": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "decision": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        }
+      }
+    },
+    "TEAM": {
+      "1h": {
+        "raw_signal": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "plan": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "decision": {
+          "n": 3,
+          "n_eval": 3,
+          "win_rate": 0.0,
+          "avg_ret": -0.0022957944993552415
+        }
+      },
+      "1d": {
+        "raw_signal": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "plan": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "decision": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        }
+      }
+    }
+  }
+}

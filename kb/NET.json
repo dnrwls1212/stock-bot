@@ -1,0 +1,2181 @@
+{
+  "ticker": "NET",
+  "updated_at": "2026-02-25T02:33:50+09:00",
+  "thesis": "",
+  "business_summary": "",
+  "moat": "",
+  "key_drivers": [],
+  "key_risks": [],
+  "valuation_method": "simple",
+  "valuation_assumptions": {},
+  "target_price": null,
+  "fair_value_range": null,
+  "evidence": [
+    {
+      "ts_kst": "2026-02-24T22:43:22+09:00",
+      "source": "news",
+      "title": "Zacks.com featured highlights include Micron Technology, Ralph Lauren and Modine Manufacturing",
+      "summary": "Micron Technology leads a trio of high-margin stocks as strong net income ratios and triple-digit earnings growth fuel upside potential.",
+      "link": "https://finance.yahoo.com/news/zacks-com-featured-highlights-micron-151200324.html?.tsrc=rss",
+      "sentiment": "neutral",
+      "impact": 0,
+      "tags": [
+        "other"
+      ],
+      "raw": {
+        "tickers": [],
+        "event_type": "other",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [],
+        "trade_horizon": "swing_days",
+        "why_it_moves": ""
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T22:43:13+09:00",
+      "source": "news",
+      "title": "Cloudflare, Inc. (NET) Enters into Strategic Partnership with Mastercard Incorporated",
+      "summary": "The strategic partnership could potentially enhance Cloudflare's offerings and expand its customer base, but the details are not yet clear.",
+      "link": "https://finance.yahoo.com/news/cloudflare-inc-net-enters-strategic-211042578.html?.tsrc=rss",
+      "sentiment": "neutral",
+      "impact": 0,
+      "tags": [
+        "contract_partnership"
+      ],
+      "raw": {
+        "tickers": [
+          "NET",
+          "MU"
+        ],
+        "event_type": "contract_partnership",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [
+          "Cloudflare Inc (NET) enters into a strategic partnership with Mastercard Incorporated.",
+          "Focus is on developing tools to help small businesses."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "The strategic partnership could potentially enhance Cloudflare's offerings and expand its customer base, but the details are not yet clear."
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T22:43:07+09:00",
+      "source": "news",
+      "title": "Bloom Energy Corporation (BE) Gained From a $5B Partnership with Brookfield and Solid Results",
+      "summary": "The significant partnership is likely to drive short-term investor optimism and positive stock performance for Bloom Energy.",
+      "link": "https://finance.yahoo.com/news/bloom-energy-corporation-gained-5b-130132222.html?.tsrc=rss",
+      "sentiment": "bullish",
+      "impact": 1,
+      "tags": [
+        "contract_partnership"
+      ],
+      "raw": {
+        "tickers": [],
+        "event_type": "contract_partnership",
+        "sentiment": "bullish",
+        "impact": 1,
+        "confidence": 0.8,
+        "key_points": [
+          "Bloom Energy Corporation secured a $5B partnership with Brookfield.",
+          "The partnership is expected to boost Bloom Energy's revenue and market presence."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "The significant partnership is likely to drive short-term investor optimism and positive stock performance for Bloom Energy."
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T22:43:05+09:00",
+      "source": "news",
+      "title": "GeneDx Holdings Corp. (WGS) Surged Following Strong Earnings and Improved Guidance",
+      "summary": "Strong earnings and improved guidance provided positive sentiment, driving the stock higher.",
+      "link": "https://finance.yahoo.com/news/genedx-holdings-corp-wgs-surged-131255282.html?.tsrc=rss",
+      "sentiment": "bullish",
+      "impact": 1,
+      "tags": [
+        "earnings"
+      ],
+      "raw": {
+        "tickers": [],
+        "event_type": "earnings",
+        "sentiment": "bullish",
+        "impact": 1,
+        "confidence": 0.8,
+        "key_points": [
+          "GeneDx Holdings Corp. reported strong earnings.",
+          "Improved guidance led to a surge in the stock price."
+        ],
+        "trade_horizon": "intraday",
+        "why_it_moves": "Strong earnings and improved guidance provided positive sentiment, driving the stock higher."
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:18:23+09:00",
+      "source": "news",
+      "title": "Cloudflare (NET) Is Up 12.7% After Strong Q4, Upbeat 2026 Outlook and Rising AI Demand – What's Changed",
+      "summary": "Strong earnings and positive outlook, coupled with rising AI demand, boosted Cloudflare's stock.",
+      "link": "https://finance.yahoo.com/news/cloudflare-net-12-7-strong-141308502.html?.tsrc=rss",
+      "sentiment": "bullish",
+      "impact": 1,
+      "tags": [
+        "earnings"
+      ],
+      "raw": {
+        "tickers": [
+          "NET"
+        ],
+        "event_type": "earnings",
+        "sentiment": "bullish",
+        "impact": 1,
+        "confidence": 0.8,
+        "key_points": [
+          "Cloudflare reported strong Q4 2025 results with revenue growth and narrowed net loss.",
+          "The company issued higher-than-expected 2026 revenue guidance.",
+          "Growing AI-related usage of its network is driving demand."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Strong earnings and positive outlook, coupled with rising AI demand, boosted Cloudflare's stock."
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:18:21+09:00",
+      "source": "news",
+      "title": "Cloudflare and Mastercard Partner to Extend Comprehensive Cyber Defense Across Critical Infrastructure and Small Businesses",
+      "summary": "Partnership aimed at strengthening cybersecurity without hindering innovation, potentially beneficial but not expected to significantly impact stock prices.",
+      "link": "https://finance.yahoo.com/news/cloudflare-mastercard-partner-extend-comprehensive-130000607.html?.tsrc=rss",
+      "sentiment": "neutral",
+      "impact": 0,
+      "tags": [
+        "contract_partnership"
+      ],
+      "raw": {
+        "tickers": [
+          "NET",
+          "MA"
+        ],
+        "event_type": "contract_partnership",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [
+          "Cloudflare and Mastercard form strategic partnership.",
+          "Focus on enhancing cyber defense for small businesses and critical infrastructure."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Partnership aimed at strengthening cybersecurity without hindering innovation, potentially beneficial but not expected to significantly impact stock prices."
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:18:18+09:00",
+      "source": "news",
+      "title": "Cloudflare Mastercard Cybersecurity Alliance And What It May Mean For NET",
+      "summary": "Potential increase in security offerings could bolster Cloudflare's market position, but the impact is uncertain given the nascent stage of the partnership.",
+      "link": "https://finance.yahoo.com/news/cloudflare-mastercard-cybersecurity-alliance-may-070933806.html?.tsrc=rss",
+      "sentiment": "neutral",
+      "impact": 0,
+      "tags": [
+        "contract_partnership"
+      ],
+      "raw": {
+        "tickers": [
+          "NET"
+        ],
+        "event_type": "contract_partnership",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [
+          "Cloudflare and Mastercard announced a partnership to build cybersecurity tools.",
+          "The collaboration aims to provide unified threat detection and response for small businesses and critical infrastructure providers."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Potential increase in security offerings could bolster Cloudflare's market position, but the impact is uncertain given the nascent stage of the partnership."
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "ts_kst": "2026-02-25T02:33:50+09:00",
+      "action": "HOLD",
+      "confidence": 0.021591526044731222,
+      "rationale": "The current market regime is risk-off, and recent news events do not provide strong directional signals to deviate from the existing HOLD position. The strategic partnership between Cloudflare (NET) and Mastercard (MA) is neutral in its impact on stock prices given the nascent stage of the collaboration.",
+      "key_drivers": [
+        "Market regime: risk-off",
+        "Recent news events: neutral impact"
+      ],
+      "key_risks": [
+        "Nascent stage of the partnership limits immediate benefits",
+        "Lack of concrete details on the partnership's outcomes"
+      ],
+      "valuation_view": "The stock is currently trading at a fair value, with no significant changes in valuation assumptions.",
+      "counterfactuals": [
+        "If Cloudflare announces substantial revenue growth or new product launches related to the Mastercard partnership within the next month, it could prompt a re-evaluation of the position.",
+        "A broader market shift towards risk-on sentiment might lead to increased buying pressure on technology stocks."
+      ],
+      "next_checks": [
+        "Monitor for any concrete developments from the Cloudflare-Mastercard partnership that could impact stock performance",
+        "Keep an eye on overall market trends and their potential influence on tech stocks"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.021591526044731222,
+        "rationale": "The current market regime is risk-off, and recent news events do not provide strong directional signals to deviate from the existing HOLD position. The strategic partnership between Cloudflare (NET) and Mastercard (MA) is neutral in its impact on stock prices given the nascent stage of the collaboration.",
+        "key_drivers": [
+          "Market regime: risk-off",
+          "Recent news events: neutral impact"
+        ],
+        "key_risks": [
+          "Nascent stage of the partnership limits immediate benefits",
+          "Lack of concrete details on the partnership's outcomes"
+        ],
+        "valuation_view": "The stock is currently trading at a fair value, with no significant changes in valuation assumptions.",
+        "counterfactuals": [
+          "If Cloudflare announces substantial revenue growth or new product launches related to the Mastercard partnership within the next month, it could prompt a re-evaluation of the position.",
+          "A broader market shift towards risk-on sentiment might lead to increased buying pressure on technology stocks."
+        ],
+        "next_checks": [
+          "Monitor for any concrete developments from the Cloudflare-Mastercard partnership that could impact stock performance",
+          "Keep an eye on overall market trends and their potential influence on tech stocks"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T02:32:11+09:00",
+      "action": "HOLD",
+      "confidence": 0.022386949407375577,
+      "rationale": "The current market regime is risk-off, and recent news events do not provide strong bullish or bearish signals. The strategic partnership with Mastercard may benefit Cloudflare in the long term but does not significantly impact stock prices at this stage.",
+      "key_drivers": [
+        "Market regime: Risk-off",
+        "Recent news: Neutral to slightly positive (strategic partnership)",
+        "Technical analysis: Bearish trend"
+      ],
+      "key_risks": [
+        "Uncertainty around the strategic partnership's immediate impact on stock prices",
+        "Overall market sentiment remains risk-off"
+      ],
+      "valuation_view": "The valuation score is -0.8, indicating overvalued compared to fair value, but this does not override the current market conditions.",
+      "counterfactuals": [
+        "A significant positive news event or improvement in market sentiment could change the holding stance to a buy.",
+        "Further deterioration of market conditions could lead to a sell recommendation."
+      ],
+      "next_checks": [
+        "Monitor market regime for any shifts",
+        "Track progress and details of the strategic partnership with Mastercard"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.022386949407375577,
+        "rationale": "The current market regime is risk-off, and recent news events do not provide strong bullish or bearish signals. The strategic partnership with Mastercard may benefit Cloudflare in the long term but does not significantly impact stock prices at this stage.",
+        "key_drivers": [
+          "Market regime: Risk-off",
+          "Recent news: Neutral to slightly positive (strategic partnership)",
+          "Technical analysis: Bearish trend"
+        ],
+        "key_risks": [
+          "Uncertainty around the strategic partnership's immediate impact on stock prices",
+          "Overall market sentiment remains risk-off"
+        ],
+        "valuation_view": "The valuation score is -0.8, indicating overvalued compared to fair value, but this does not override the current market conditions.",
+        "counterfactuals": [
+          "A significant positive news event or improvement in market sentiment could change the holding stance to a buy.",
+          "Further deterioration of market conditions could lead to a sell recommendation."
+        ],
+        "next_checks": [
+          "Monitor market regime for any shifts",
+          "Track progress and details of the strategic partnership with Mastercard"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T02:30:13+09:00",
+      "action": "HOLD",
+      "confidence": 0.02335854834395105,
+      "rationale": "The current market regime is risk-off, and the recent news events do not provide strong bullish or bearish signals. The strategic partnership between Cloudflare and Mastercard is neutral in its impact on stock prices given its nascent stage.",
+      "key_drivers": [
+        "Market regime: Risk-off",
+        "Recent news: Neutral impact from strategic partnership"
+      ],
+      "key_risks": [
+        "Nascent stage of the partnership limits immediate impact",
+        "Bullish signals from other companies (e.g., Bloom Energy) but not for Cloudflare"
+      ],
+      "valuation_view": "The valuation score is -0.8, indicating overvalued stock compared to fair value, which supports a hold strategy.",
+      "counterfactuals": [
+        "A significant announcement or development in the partnership could change the outlook",
+        "Stronger-than-expected earnings from Cloudflare could shift sentiment"
+      ],
+      "next_checks": [
+        "Monitor the progress and details of the strategic partnership between Cloudflare and Mastercard",
+        "Watch for any upcoming earnings reports or guidance from Cloudflare"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.02335854834395105,
+        "rationale": "The current market regime is risk-off, and the recent news events do not provide strong bullish or bearish signals. The strategic partnership between Cloudflare and Mastercard is neutral in its impact on stock prices given its nascent stage.",
+        "key_drivers": [
+          "Market regime: Risk-off",
+          "Recent news: Neutral impact from strategic partnership"
+        ],
+        "key_risks": [
+          "Nascent stage of the partnership limits immediate impact",
+          "Bullish signals from other companies (e.g., Bloom Energy) but not for Cloudflare"
+        ],
+        "valuation_view": "The valuation score is -0.8, indicating overvalued stock compared to fair value, which supports a hold strategy.",
+        "counterfactuals": [
+          "A significant announcement or development in the partnership could change the outlook",
+          "Stronger-than-expected earnings from Cloudflare could shift sentiment"
+        ],
+        "next_checks": [
+          "Monitor the progress and details of the strategic partnership between Cloudflare and Mastercard",
+          "Watch for any upcoming earnings reports or guidance from Cloudflare"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T01:45:06+09:00",
+      "action": "HOLD",
+      "confidence": 0.02087299765764623,
+      "rationale": "The current market regime is risk-off, and the signal strength suggests a hold position due to strong bearish technical analysis and lack of recent news impacting Cloudflare's stock price significantly.",
+      "key_drivers": [
+        "Market Regime: Risk-Off",
+        "Technical Analysis: Strong Bearish Trend"
+      ],
+      "key_risks": [
+        "Lack of Recent News Impacting the Stock Price",
+        "Uncertain Impact of Strategic Partnership with Mastercard"
+      ],
+      "valuation_view": "The valuation score is -0.8, indicating an overvalued stock based on current metrics.",
+      "counterfactuals": [
+        "A significant positive news event or improvement in technical analysis could change the hold recommendation to a buy.",
+        "Negative developments in cybersecurity or partnership outcomes could shift the recommendation to sell."
+      ],
+      "next_checks": [
+        "Monitor for any upcoming announcements from Cloudflare or Mastercard that could impact the strategic partnership.",
+        "Review quarterly earnings reports and guidance for any changes in revenue or cost structures."
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.02087299765764623,
+        "rationale": "The current market regime is risk-off, and the signal strength suggests a hold position due to strong bearish technical analysis and lack of recent news impacting Cloudflare's stock price significantly.",
+        "key_drivers": [
+          "Market Regime: Risk-Off",
+          "Technical Analysis: Strong Bearish Trend"
+        ],
+        "key_risks": [
+          "Lack of Recent News Impacting the Stock Price",
+          "Uncertain Impact of Strategic Partnership with Mastercard"
+        ],
+        "valuation_view": "The valuation score is -0.8, indicating an overvalued stock based on current metrics.",
+        "counterfactuals": [
+          "A significant positive news event or improvement in technical analysis could change the hold recommendation to a buy.",
+          "Negative developments in cybersecurity or partnership outcomes could shift the recommendation to sell."
+        ],
+        "next_checks": [
+          "Monitor for any upcoming announcements from Cloudflare or Mastercard that could impact the strategic partnership.",
+          "Review quarterly earnings reports and guidance for any changes in revenue or cost structures."
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T01:30:56+09:00",
+      "action": "HOLD",
+      "confidence": 0.02776407847326829,
+      "rationale": "The current market regime is risk-off, and recent news events do not provide strong signals to change the position. The strategic partnership with Mastercard may offer long-term benefits but remains in its early stages, making it uncertain for immediate stock price impact.",
+      "key_drivers": [
+        "Strong bearish technical analysis (TA) score",
+        "Risk-off market regime"
+      ],
+      "key_risks": [
+        "Uncertainty around the nascent stage of the partnership with Mastercard",
+        "Overall strong bearish sentiment in the market"
+      ],
+      "valuation_view": "The valuation remains weak, with a score of -0.8 indicating overvalued stock relative to fair value.",
+      "counterfactuals": [
+        "If the partnership with Mastercard leads to significant revenue or customer base growth within the next quarter, it could shift the position to BUY.",
+        "A further decline in market sentiment could push the action towards SELL."
+      ],
+      "next_checks": [
+        "Monitor the progress and outcomes of the partnership with Mastercard for any meaningful changes in revenue or customer acquisition.",
+        "Keep an eye on broader market trends and overall risk-off conditions."
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.02776407847326829,
+        "rationale": "The current market regime is risk-off, and recent news events do not provide strong signals to change the position. The strategic partnership with Mastercard may offer long-term benefits but remains in its early stages, making it uncertain for immediate stock price impact.",
+        "key_drivers": [
+          "Strong bearish technical analysis (TA) score",
+          "Risk-off market regime"
+        ],
+        "key_risks": [
+          "Uncertainty around the nascent stage of the partnership with Mastercard",
+          "Overall strong bearish sentiment in the market"
+        ],
+        "valuation_view": "The valuation remains weak, with a score of -0.8 indicating overvalued stock relative to fair value.",
+        "counterfactuals": [
+          "If the partnership with Mastercard leads to significant revenue or customer base growth within the next quarter, it could shift the position to BUY.",
+          "A further decline in market sentiment could push the action towards SELL."
+        ],
+        "next_checks": [
+          "Monitor the progress and outcomes of the partnership with Mastercard for any meaningful changes in revenue or customer acquisition.",
+          "Keep an eye on broader market trends and overall risk-off conditions."
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T01:29:08+09:00",
+      "action": "HOLD",
+      "confidence": 0.028674451215271637,
+      "rationale": "The current market regime is risk-off, and the recent news events do not provide strong directional signals to alter the existing position. The strategic partnership with Mastercard may offer long-term benefits but does not significantly impact short-term stock prices.",
+      "key_drivers": [
+        "Market regime: Risk-off",
+        "Recent news: Neutral to slightly positive (Cloudflare-Mastercard partnership)",
+        "Technical analysis: Strong bearish trend"
+      ],
+      "key_risks": [
+        "Uncertain impact of the Cloudflare-Mastercard partnership on short-term stock prices",
+        "Overall market sentiment remains negative"
+      ],
+      "valuation_view": "The valuation score is -0.8, indicating an overvalued position relative to fair value expectations.",
+      "counterfactuals": [
+        "A significant positive earnings report or news event from Cloudflare could change the outlook.",
+        "A worsening of market conditions could lead to further downward pressure on stock prices."
+      ],
+      "next_checks": [
+        "Monitor for any updates on the Cloudflare-Mastercard partnership and its impact on small businesses and critical infrastructure.",
+        "Keep an eye on broader market trends and potential economic indicators that may affect overall sentiment."
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.028674451215271637,
+        "rationale": "The current market regime is risk-off, and the recent news events do not provide strong directional signals to alter the existing position. The strategic partnership with Mastercard may offer long-term benefits but does not significantly impact short-term stock prices.",
+        "key_drivers": [
+          "Market regime: Risk-off",
+          "Recent news: Neutral to slightly positive (Cloudflare-Mastercard partnership)",
+          "Technical analysis: Strong bearish trend"
+        ],
+        "key_risks": [
+          "Uncertain impact of the Cloudflare-Mastercard partnership on short-term stock prices",
+          "Overall market sentiment remains negative"
+        ],
+        "valuation_view": "The valuation score is -0.8, indicating an overvalued position relative to fair value expectations.",
+        "counterfactuals": [
+          "A significant positive earnings report or news event from Cloudflare could change the outlook.",
+          "A worsening of market conditions could lead to further downward pressure on stock prices."
+        ],
+        "next_checks": [
+          "Monitor for any updates on the Cloudflare-Mastercard partnership and its impact on small businesses and critical infrastructure.",
+          "Keep an eye on broader market trends and potential economic indicators that may affect overall sentiment."
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T01:27:23+09:00",
+      "action": "HOLD",
+      "confidence": 0.296,
+      "rationale": "The current market regime is risk-off, and the recent news events do not provide strong enough positive or negative signals to deviate from a hold strategy.",
+      "key_drivers": [
+        "Market regime score of -0.399 indicates a risk-off environment.",
+        "Technical analysis shows a strong bearish trend with a score of -0.75."
+      ],
+      "key_risks": [
+        "The strategic partnership between Cloudflare and Mastercard is in its early stages, making it difficult to assess immediate impact on stock prices.",
+        "Overall market sentiment remains cautious without significant positive catalysts."
+      ],
+      "valuation_view": "Valuation score of -0.8 suggests the stock may be undervalued, but this alone does not justify a buy action given current market conditions.",
+      "counterfactuals": [
+        "A sudden improvement in overall market sentiment could change the hold strategy to a buy.",
+        "Significant positive news from the Cloudflare-Mastercard partnership could prompt a re-evaluation of the stock's potential."
+      ],
+      "next_checks": [
+        "Monitor the progress and details of the Cloudflare-Mastercard partnership for any meaningful updates.",
+        "Keep an eye on broader market trends to assess if risk-off conditions improve."
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.296,
+        "rationale": "The current market regime is risk-off, and the recent news events do not provide strong enough positive or negative signals to deviate from a hold strategy.",
+        "key_drivers": [
+          "Market regime score of -0.399 indicates a risk-off environment.",
+          "Technical analysis shows a strong bearish trend with a score of -0.75."
+        ],
+        "key_risks": [
+          "The strategic partnership between Cloudflare and Mastercard is in its early stages, making it difficult to assess immediate impact on stock prices.",
+          "Overall market sentiment remains cautious without significant positive catalysts."
+        ],
+        "valuation_view": "Valuation score of -0.8 suggests the stock may be undervalued, but this alone does not justify a buy action given current market conditions.",
+        "counterfactuals": [
+          "A sudden improvement in overall market sentiment could change the hold strategy to a buy.",
+          "Significant positive news from the Cloudflare-Mastercard partnership could prompt a re-evaluation of the stock's potential."
+        ],
+        "next_checks": [
+          "Monitor the progress and details of the Cloudflare-Mastercard partnership for any meaningful updates.",
+          "Keep an eye on broader market trends to assess if risk-off conditions improve."
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T01:25:29+09:00",
+      "action": "HOLD",
+      "confidence": 0.031,
+      "rationale": "The current market regime is risk-off with a slight bearish technical analysis score, and recent news does not provide strong catalysts for action.",
+      "key_drivers": [
+        "Market Regime: Risk-Off (Score: -0.4)",
+        "Technical Analysis: Strong Bearish Trend (Score: -0.75)"
+      ],
+      "key_risks": [
+        "Lack of significant recent news or events to drive a change in strategy."
+      ],
+      "valuation_view": "The valuation score is negative, but the fair value and range are not provided, indicating potential undervaluation.",
+      "counterfactuals": [
+        "A positive earnings report or strategic partnership announcement could change the hold stance to buy within the next 1-4 weeks."
+      ],
+      "next_checks": [
+        "Monitor for any significant news events that could impact Cloudflare's stock price positively or negatively."
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.031,
+        "rationale": "The current market regime is risk-off with a slight bearish technical analysis score, and recent news does not provide strong catalysts for action.",
+        "key_drivers": [
+          "Market Regime: Risk-Off (Score: -0.4)",
+          "Technical Analysis: Strong Bearish Trend (Score: -0.75)"
+        ],
+        "key_risks": [
+          "Lack of significant recent news or events to drive a change in strategy."
+        ],
+        "valuation_view": "The valuation score is negative, but the fair value and range are not provided, indicating potential undervaluation.",
+        "counterfactuals": [
+          "A positive earnings report or strategic partnership announcement could change the hold stance to buy within the next 1-4 weeks."
+        ],
+        "next_checks": [
+          "Monitor for any significant news events that could impact Cloudflare's stock price positively or negatively."
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:33:59+09:00",
+      "action": "HOLD",
+      "confidence": 0.0794,
+      "rationale": "The current market regime is risk-off with a bearish technical analysis, and the recent news events are neutral to bullish. However, given the nascent stage of the Cloudflare-Mastercard partnership, its impact on stock prices remains uncertain.",
+      "key_drivers": [
+        "Market Regime: Risk-Off",
+        "Technical Analysis: Bearish",
+        "News Impact: Neutral to Bullish"
+      ],
+      "key_risks": [
+        "Uncertain impact of the Cloudflare-Mastercard partnership on short-term stock performance",
+        "Overall bearish market sentiment"
+      ],
+      "valuation_view": "The valuation score is -0.8, indicating an overvalued stock relative to its fundamentals.",
+      "counterfactuals": [
+        "A significant positive update on the Cloudflare-Mastercard partnership could change the outlook and potentially lead to a buy recommendation within the next 1-4 weeks."
+      ],
+      "next_checks": [
+        "Monitor updates on the Cloudflare-Mastercard partnership for any new developments.",
+        "Assess overall market sentiment for potential shifts in regime."
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.0794,
+        "rationale": "The current market regime is risk-off with a bearish technical analysis, and the recent news events are neutral to bullish. However, given the nascent stage of the Cloudflare-Mastercard partnership, its impact on stock prices remains uncertain.",
+        "key_drivers": [
+          "Market Regime: Risk-Off",
+          "Technical Analysis: Bearish",
+          "News Impact: Neutral to Bullish"
+        ],
+        "key_risks": [
+          "Uncertain impact of the Cloudflare-Mastercard partnership on short-term stock performance",
+          "Overall bearish market sentiment"
+        ],
+        "valuation_view": "The valuation score is -0.8, indicating an overvalued stock relative to its fundamentals.",
+        "counterfactuals": [
+          "A significant positive update on the Cloudflare-Mastercard partnership could change the outlook and potentially lead to a buy recommendation within the next 1-4 weeks."
+        ],
+        "next_checks": [
+          "Monitor updates on the Cloudflare-Mastercard partnership for any new developments.",
+          "Assess overall market sentiment for potential shifts in regime."
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:32:02+09:00",
+      "action": "HOLD",
+      "confidence": 0.0794,
+      "rationale": "The current market regime is risk-off with a bearish sentiment. The recent news events, including the strategic partnership between Cloudflare and Mastercard, have had limited impact on the stock price. While there are positive developments, they are not expected to significantly alter the overall bearish trend.",
+      "key_drivers": [
+        "Market regime: risk-off (score -0.3999)",
+        "News events: neutral to slightly bullish (total score 2.1)"
+      ],
+      "key_risks": [
+        "Bearing in mind the current market sentiment, any negative economic indicators or geopolitical tensions could exacerbate the bearish trend.",
+        "The strategic partnership with Mastercard is still in its early stages and may not yield immediate benefits."
+      ],
+      "valuation_view": "The valuation score remains at -0.8, indicating that the stock is overvalued relative to fair value estimates. This suggests caution given the current market conditions.",
+      "counterfactuals": [
+        "A significant downturn in the overall market or a negative development in cybersecurity regulations could lead to further declines in Cloudflare's stock price.",
+        "If the partnership with Mastercard does not materialize as expected, it may negatively impact investor sentiment."
+      ],
+      "next_checks": [
+        "Monitor broader market trends and economic indicators for any signs of improvement or deterioration.",
+        "Keep an eye on updates from both Cloudflare and Mastercard regarding the progress of their strategic partnership."
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.0794,
+        "rationale": "The current market regime is risk-off with a bearish sentiment. The recent news events, including the strategic partnership between Cloudflare and Mastercard, have had limited impact on the stock price. While there are positive developments, they are not expected to significantly alter the overall bearish trend.",
+        "key_drivers": [
+          "Market regime: risk-off (score -0.3999)",
+          "News events: neutral to slightly bullish (total score 2.1)"
+        ],
+        "key_risks": [
+          "Bearing in mind the current market sentiment, any negative economic indicators or geopolitical tensions could exacerbate the bearish trend.",
+          "The strategic partnership with Mastercard is still in its early stages and may not yield immediate benefits."
+        ],
+        "valuation_view": "The valuation score remains at -0.8, indicating that the stock is overvalued relative to fair value estimates. This suggests caution given the current market conditions.",
+        "counterfactuals": [
+          "A significant downturn in the overall market or a negative development in cybersecurity regulations could lead to further declines in Cloudflare's stock price.",
+          "If the partnership with Mastercard does not materialize as expected, it may negatively impact investor sentiment."
+        ],
+        "next_checks": [
+          "Monitor broader market trends and economic indicators for any signs of improvement or deterioration.",
+          "Keep an eye on updates from both Cloudflare and Mastercard regarding the progress of their strategic partnership."
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:22:34+09:00",
+      "action": "HOLD",
+      "confidence": 0.0556,
+      "rationale": "The current market regime is risk-off with a strong bearish sentiment, and the recent news events are mixed but not significantly bullish or bearish. The strategic partnership between Cloudflare and Mastercard is expected to be beneficial in the long term but does not have an immediate impact on stock prices.",
+      "key_drivers": [
+        "Market regime: risk-off with a strong bearish sentiment",
+        "Recent news events: mixed, no significant bullish or bearish impact"
+      ],
+      "key_risks": [
+        "Uncertain impact of the strategic partnership in the short term",
+        "Overall market conditions remain challenging"
+      ],
+      "valuation_view": "The valuation score is -0.8, indicating an overvalued stock based on current metrics.",
+      "counterfactuals": [
+        "A significant positive earnings report or news event could change the sentiment and prompt a buy recommendation.",
+        "Further deterioration of market conditions could lead to a sell recommendation."
+      ],
+      "next_checks": [
+        "Monitor the progress of the strategic partnership between Cloudflare and Mastercard for any updates.",
+        "Keep an eye on overall market trends and economic indicators."
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.0556,
+        "rationale": "The current market regime is risk-off with a strong bearish sentiment, and the recent news events are mixed but not significantly bullish or bearish. The strategic partnership between Cloudflare and Mastercard is expected to be beneficial in the long term but does not have an immediate impact on stock prices.",
+        "key_drivers": [
+          "Market regime: risk-off with a strong bearish sentiment",
+          "Recent news events: mixed, no significant bullish or bearish impact"
+        ],
+        "key_risks": [
+          "Uncertain impact of the strategic partnership in the short term",
+          "Overall market conditions remain challenging"
+        ],
+        "valuation_view": "The valuation score is -0.8, indicating an overvalued stock based on current metrics.",
+        "counterfactuals": [
+          "A significant positive earnings report or news event could change the sentiment and prompt a buy recommendation.",
+          "Further deterioration of market conditions could lead to a sell recommendation."
+        ],
+        "next_checks": [
+          "Monitor the progress of the strategic partnership between Cloudflare and Mastercard for any updates.",
+          "Keep an eye on overall market trends and economic indicators."
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:20:50+09:00",
+      "action": "HOLD",
+      "confidence": 0.0556,
+      "rationale": "The current market regime is risk-off, and the signal suggests a hold position due to strong bearish technical analysis and recent news events that are neutral or positive but not significant enough to override the overall bearish trend.",
+      "key_drivers": [
+        "Market Regime: Risk-Off (-0.40)",
+        "Technical Analysis: Strong Bearish (-0.75)",
+        "Recent News Events: Neutral (Cloudflare-Mastercard Partnership) and Positive (Bloom Energy Partnership)"
+      ],
+      "key_risks": [
+        "Overall Market Sentiment Remains Negative",
+        "Uncertainty Around the Cloudflare-Mastercard Partnership's Impact"
+      ],
+      "valuation_view": "The valuation score is -0.8, indicating overvalued stock relative to fair value, but no specific range provided.",
+      "counterfactuals": [
+        "A significant positive earnings report or news event from Cloudflare could change the sentiment and warrant a buy action.",
+        "A shift in market regime towards risk-on could also prompt a re-evaluation of the hold position."
+      ],
+      "next_checks": [
+        "Monitor Cloudflare's progress on the Mastercard partnership for any meaningful updates.",
+        "Keep an eye on broader market trends to assess if the risk-off sentiment persists or reverses."
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.0556,
+        "rationale": "The current market regime is risk-off, and the signal suggests a hold position due to strong bearish technical analysis and recent news events that are neutral or positive but not significant enough to override the overall bearish trend.",
+        "key_drivers": [
+          "Market Regime: Risk-Off (-0.40)",
+          "Technical Analysis: Strong Bearish (-0.75)",
+          "Recent News Events: Neutral (Cloudflare-Mastercard Partnership) and Positive (Bloom Energy Partnership)"
+        ],
+        "key_risks": [
+          "Overall Market Sentiment Remains Negative",
+          "Uncertainty Around the Cloudflare-Mastercard Partnership's Impact"
+        ],
+        "valuation_view": "The valuation score is -0.8, indicating overvalued stock relative to fair value, but no specific range provided.",
+        "counterfactuals": [
+          "A significant positive earnings report or news event from Cloudflare could change the sentiment and warrant a buy action.",
+          "A shift in market regime towards risk-on could also prompt a re-evaluation of the hold position."
+        ],
+        "next_checks": [
+          "Monitor Cloudflare's progress on the Mastercard partnership for any meaningful updates.",
+          "Keep an eye on broader market trends to assess if the risk-off sentiment persists or reverses."
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:19:01+09:00",
+      "action": "HOLD",
+      "confidence": 0.0556,
+      "rationale": "The current market regime is risk-off, and the technical analysis indicates a strong bearish trend. The recent news on Cloudflare's partnership with Mastercard has neutral sentiment and does not significantly alter the overall market dynamics or valuation outlook.",
+      "key_drivers": [
+        "Market regime: Risk-Off (score -0.4)",
+        "Technical Analysis: Strong Bearish (score -0.75)"
+      ],
+      "key_risks": [
+        "Lack of significant positive news to drive the stock upwards",
+        "Continued bearish market sentiment"
+      ],
+      "valuation_view": "The valuation score remains negative (-0.8), indicating overvalued stock, but without a clear fair value estimate.",
+      "counterfactuals": [
+        "A strong earnings report or positive partnership details could change the outlook positively",
+        "Improvement in overall market sentiment could also shift the decision towards buying"
+      ],
+      "next_checks": [
+        "Monitor for any significant news or updates on the Cloudflare-Mastercard partnership",
+        "Keep an eye on broader market trends and potential shifts in regime"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.0556,
+        "rationale": "The current market regime is risk-off, and the technical analysis indicates a strong bearish trend. The recent news on Cloudflare's partnership with Mastercard has neutral sentiment and does not significantly alter the overall market dynamics or valuation outlook.",
+        "key_drivers": [
+          "Market regime: Risk-Off (score -0.4)",
+          "Technical Analysis: Strong Bearish (score -0.75)"
+        ],
+        "key_risks": [
+          "Lack of significant positive news to drive the stock upwards",
+          "Continued bearish market sentiment"
+        ],
+        "valuation_view": "The valuation score remains negative (-0.8), indicating overvalued stock, but without a clear fair value estimate.",
+        "counterfactuals": [
+          "A strong earnings report or positive partnership details could change the outlook positively",
+          "Improvement in overall market sentiment could also shift the decision towards buying"
+        ],
+        "next_checks": [
+          "Monitor for any significant news or updates on the Cloudflare-Mastercard partnership",
+          "Keep an eye on broader market trends and potential shifts in regime"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:17:14+09:00",
+      "action": "HOLD",
+      "confidence": 0.0556,
+      "rationale": "The current market regime is strongly bearish, and recent news events include a strategic partnership with Mastercard that is not expected to significantly impact stock prices given its nascent stage.",
+      "key_drivers": [
+        "Strongly bearish market regime (score: -0.3999)",
+        "Strategic partnership with Mastercard (neutral impact)"
+      ],
+      "key_risks": [
+        "Current market conditions are unfavorable for investment",
+        "Uncertainty around the timeline and benefits of the Mastercard partnership"
+      ],
+      "valuation_view": "The valuation score is -0.8, indicating an overvalued stock relative to its fundamentals.",
+      "counterfactuals": [
+        "A significant positive announcement from the Mastercard partnership could change the outlook",
+        "Improvement in broader market conditions could lead to a more favorable investment environment"
+      ],
+      "next_checks": [
+        "Monitor the progress and outcomes of the strategic partnership with Mastercard",
+        "Assess any changes in market sentiment or broader economic indicators"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.0556,
+        "rationale": "The current market regime is strongly bearish, and recent news events include a strategic partnership with Mastercard that is not expected to significantly impact stock prices given its nascent stage.",
+        "key_drivers": [
+          "Strongly bearish market regime (score: -0.3999)",
+          "Strategic partnership with Mastercard (neutral impact)"
+        ],
+        "key_risks": [
+          "Current market conditions are unfavorable for investment",
+          "Uncertainty around the timeline and benefits of the Mastercard partnership"
+        ],
+        "valuation_view": "The valuation score is -0.8, indicating an overvalued stock relative to its fundamentals.",
+        "counterfactuals": [
+          "A significant positive announcement from the Mastercard partnership could change the outlook",
+          "Improvement in broader market conditions could lead to a more favorable investment environment"
+        ],
+        "next_checks": [
+          "Monitor the progress and outcomes of the strategic partnership with Mastercard",
+          "Assess any changes in market sentiment or broader economic indicators"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:15:35+09:00",
+      "action": "HOLD",
+      "confidence": 0.0556,
+      "rationale": "The current market regime is risk-off with a strong bearish trend, and the recent news events are mixed but not significantly bullish or bearish for Cloudflare (NET). The strategic partnership with Mastercard may offer long-term benefits, but its immediate impact on stock prices is uncertain.",
+      "key_drivers": [
+        "Market regime: Strongly Bearish",
+        "Recent news: Neutral to Slightly Positive"
+      ],
+      "key_risks": [
+        "Overall market sentiment remains bearish",
+        "Uncertainty around the strategic partnership's short-term impact"
+      ],
+      "valuation_view": "The valuation score is -0.8, indicating an overvalued stock relative to its fundamentals.",
+      "counterfactuals": [
+        "A significant positive earnings report or news about immediate benefits from the Mastercard partnership could change the sentiment and prompt a buy recommendation.",
+        "Further deterioration of market conditions could lead to a stronger bearish stance."
+      ],
+      "next_checks": [
+        "Monitor the progress and outcomes of the strategic partnership with Mastercard",
+        "Keep an eye on overall market trends for any shifts in sentiment"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.0556,
+        "rationale": "The current market regime is risk-off with a strong bearish trend, and the recent news events are mixed but not significantly bullish or bearish for Cloudflare (NET). The strategic partnership with Mastercard may offer long-term benefits, but its immediate impact on stock prices is uncertain.",
+        "key_drivers": [
+          "Market regime: Strongly Bearish",
+          "Recent news: Neutral to Slightly Positive"
+        ],
+        "key_risks": [
+          "Overall market sentiment remains bearish",
+          "Uncertainty around the strategic partnership's short-term impact"
+        ],
+        "valuation_view": "The valuation score is -0.8, indicating an overvalued stock relative to its fundamentals.",
+        "counterfactuals": [
+          "A significant positive earnings report or news about immediate benefits from the Mastercard partnership could change the sentiment and prompt a buy recommendation.",
+          "Further deterioration of market conditions could lead to a stronger bearish stance."
+        ],
+        "next_checks": [
+          "Monitor the progress and outcomes of the strategic partnership with Mastercard",
+          "Keep an eye on overall market trends for any shifts in sentiment"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:13:35+09:00",
+      "action": "HOLD",
+      "confidence": 0.0556,
+      "rationale": "The current market regime is risk-off with a slight bearish trend, and the recent news events are mixed but not strong enough to change the holding stance.",
+      "key_drivers": [
+        "Market regime: Risk-off (score -0.3999)",
+        "Recent earnings event: Bullish (impact 1.6) for GeneDx Holdings Corp.",
+        "Strategic partnership with Mastercard: Neutral impact"
+      ],
+      "key_risks": [
+        "Overall market sentiment remains bearish",
+        "Uncertainty around the strategic partnership's immediate impact on Cloudflare's stock price"
+      ],
+      "valuation_view": "The valuation score is -0.8, indicating an overvalued position, but no specific fair value range was provided.",
+      "counterfactuals": [
+        "A significant positive earnings report or news event could change the stance to BUY.",
+        "A negative development in the strategic partnership with Mastercard could lead to a SELL recommendation."
+      ],
+      "next_checks": [
+        "Monitor the progress of the strategic partnership and its impact on Cloudflare's business.",
+        "Keep an eye on overall market trends for any shifts in sentiment."
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.0556,
+        "rationale": "The current market regime is risk-off with a slight bearish trend, and the recent news events are mixed but not strong enough to change the holding stance.",
+        "key_drivers": [
+          "Market regime: Risk-off (score -0.3999)",
+          "Recent earnings event: Bullish (impact 1.6) for GeneDx Holdings Corp.",
+          "Strategic partnership with Mastercard: Neutral impact"
+        ],
+        "key_risks": [
+          "Overall market sentiment remains bearish",
+          "Uncertainty around the strategic partnership's immediate impact on Cloudflare's stock price"
+        ],
+        "valuation_view": "The valuation score is -0.8, indicating an overvalued position, but no specific fair value range was provided.",
+        "counterfactuals": [
+          "A significant positive earnings report or news event could change the stance to BUY.",
+          "A negative development in the strategic partnership with Mastercard could lead to a SELL recommendation."
+        ],
+        "next_checks": [
+          "Monitor the progress of the strategic partnership and its impact on Cloudflare's business.",
+          "Keep an eye on overall market trends for any shifts in sentiment."
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:49:35+09:00",
+      "action": "HOLD",
+      "confidence": 0.056,
+      "rationale": "The current market regime is risk-off with a strong bearish technical analysis score, and the recent news events do not significantly alter this outlook.",
+      "key_drivers": [
+        "Market regime: Risk-off (-0.399)",
+        "Technical analysis: Strong bearish (-0.75)"
+      ],
+      "key_risks": [
+        "Lack of significant positive catalysts from the recent news events",
+        "Overall market sentiment remains negative"
+      ],
+      "valuation_view": "The valuation score is -0.8, indicating an overvalued stock relative to its fair value, which is not clearly defined.",
+      "counterfactuals": [
+        "A strong earnings report or positive partnership announcement could change the outlook within the next 1-4 weeks."
+      ],
+      "next_checks": [
+        "Monitor upcoming earnings reports and any further developments in the strategic partnership with Mastercard"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.056,
+        "rationale": "The current market regime is risk-off with a strong bearish technical analysis score, and the recent news events do not significantly alter this outlook.",
+        "key_drivers": [
+          "Market regime: Risk-off (-0.399)",
+          "Technical analysis: Strong bearish (-0.75)"
+        ],
+        "key_risks": [
+          "Lack of significant positive catalysts from the recent news events",
+          "Overall market sentiment remains negative"
+        ],
+        "valuation_view": "The valuation score is -0.8, indicating an overvalued stock relative to its fair value, which is not clearly defined.",
+        "counterfactuals": [
+          "A strong earnings report or positive partnership announcement could change the outlook within the next 1-4 weeks."
+        ],
+        "next_checks": [
+          "Monitor upcoming earnings reports and any further developments in the strategic partnership with Mastercard"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:47:39+09:00",
+      "action": "HOLD",
+      "confidence": 0.0556,
+      "rationale": "The current market regime is risk-off with a strong bearish technical analysis score, and the recent news events are mixed but not significantly bullish or bearish. The strategic partnership between Cloudflare and Mastercard is neutral in impact, while other positive earnings reports do not directly affect Cloudflare's stock.",
+      "key_drivers": [
+        "Strong bearish market regime",
+        "Neutral impact from the strategic partnership with Mastercard"
+      ],
+      "key_risks": [
+        "Uncertain long-term benefits of the partnership",
+        "Overall risk-off market sentiment"
+      ],
+      "valuation_view": "The stock is currently trading at a price that does not align well with its valuation, given the lack of clear fair value estimate.",
+      "counterfactuals": [
+        "A significant positive earnings report or announcement from Cloudflare could change the outlook.",
+        "A shift in market regime to risk-on could also impact the decision."
+      ],
+      "next_checks": [
+        "Monitor upcoming earnings reports and partnership developments for Cloudflare",
+        "Track broader market sentiment and its impact on tech stocks"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.0556,
+        "rationale": "The current market regime is risk-off with a strong bearish technical analysis score, and the recent news events are mixed but not significantly bullish or bearish. The strategic partnership between Cloudflare and Mastercard is neutral in impact, while other positive earnings reports do not directly affect Cloudflare's stock.",
+        "key_drivers": [
+          "Strong bearish market regime",
+          "Neutral impact from the strategic partnership with Mastercard"
+        ],
+        "key_risks": [
+          "Uncertain long-term benefits of the partnership",
+          "Overall risk-off market sentiment"
+        ],
+        "valuation_view": "The stock is currently trading at a price that does not align well with its valuation, given the lack of clear fair value estimate.",
+        "counterfactuals": [
+          "A significant positive earnings report or announcement from Cloudflare could change the outlook.",
+          "A shift in market regime to risk-on could also impact the decision."
+        ],
+        "next_checks": [
+          "Monitor upcoming earnings reports and partnership developments for Cloudflare",
+          "Track broader market sentiment and its impact on tech stocks"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:45:49+09:00",
+      "action": "HOLD",
+      "confidence": 0.0556,
+      "rationale": "The current market regime is risk-off with a slight bearish trend, and the recent news events are mixed but not strong enough to warrant a buy or sell action.",
+      "key_drivers": [
+        "Market regime score of -0.399 indicates a strong bearish trend.",
+        "Recent earnings event for Cloudflare (NET) is positive with a bullish impact score of 1.6, but the partnership news has a neutral impact."
+      ],
+      "key_risks": [
+        "The market remains in a risk-off state, which could continue to pressure stock prices.",
+        "The strategic partnership between Cloudflare and Mastercard is still in its early stages and may not have immediate positive effects on stock performance."
+      ],
+      "valuation_view": "The valuation score of -0.8 suggests the stock is undervalued, but without a specific fair value range, it's challenging to make a definitive buy decision.",
+      "counterfactuals": [
+        "If Cloudflare announces significant revenue growth or new product launches in the next few weeks, this could change the market sentiment and warrant a buy action.",
+        "A downturn in the overall market could exacerbate the bearish trend, potentially leading to further price declines."
+      ],
+      "next_checks": [
+        "Monitor earnings reports for Cloudflare and other tech companies to gauge the impact of AI on their business models.",
+        "Keep an eye on any updates from the strategic partnership between Cloudflare and Mastercard, including potential product launches or customer acquisitions."
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.0556,
+        "rationale": "The current market regime is risk-off with a slight bearish trend, and the recent news events are mixed but not strong enough to warrant a buy or sell action.",
+        "key_drivers": [
+          "Market regime score of -0.399 indicates a strong bearish trend.",
+          "Recent earnings event for Cloudflare (NET) is positive with a bullish impact score of 1.6, but the partnership news has a neutral impact."
+        ],
+        "key_risks": [
+          "The market remains in a risk-off state, which could continue to pressure stock prices.",
+          "The strategic partnership between Cloudflare and Mastercard is still in its early stages and may not have immediate positive effects on stock performance."
+        ],
+        "valuation_view": "The valuation score of -0.8 suggests the stock is undervalued, but without a specific fair value range, it's challenging to make a definitive buy decision.",
+        "counterfactuals": [
+          "If Cloudflare announces significant revenue growth or new product launches in the next few weeks, this could change the market sentiment and warrant a buy action.",
+          "A downturn in the overall market could exacerbate the bearish trend, potentially leading to further price declines."
+        ],
+        "next_checks": [
+          "Monitor earnings reports for Cloudflare and other tech companies to gauge the impact of AI on their business models.",
+          "Keep an eye on any updates from the strategic partnership between Cloudflare and Mastercard, including potential product launches or customer acquisitions."
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:37:22+09:00",
+      "action": "HOLD",
+      "confidence": 0.556,
+      "rationale": "The current market regime is risk-off with a strong bearish trend, and the recent news events are mixed but not significantly impactful. Cloudflare's strategic partnership with Mastercard may offer long-term benefits, but its uncertain impact on stock prices keeps it in a neutral position.",
+      "key_drivers": [
+        "Market regime: Risk-off",
+        "Recent news: Neutral to slightly bullish"
+      ],
+      "key_risks": [
+        "Uncertain impact of the Cloudflare-Mastercard partnership",
+        "Overall market sentiment remains bearish"
+      ],
+      "valuation_view": "The valuation score is -0.8, indicating a bearish bias but no specific fair value range provided.",
+      "counterfactuals": [
+        "A significant positive announcement from Cloudflare could change the outlook.",
+        "Further deterioration in market conditions might push towards a sell recommendation."
+      ],
+      "next_checks": [
+        "Monitor the progress of the Cloudflare-Mastercard partnership and its impact on business operations.",
+        "Keep an eye on broader market trends for any shifts in sentiment."
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.556,
+        "rationale": "The current market regime is risk-off with a strong bearish trend, and the recent news events are mixed but not significantly impactful. Cloudflare's strategic partnership with Mastercard may offer long-term benefits, but its uncertain impact on stock prices keeps it in a neutral position.",
+        "key_drivers": [
+          "Market regime: Risk-off",
+          "Recent news: Neutral to slightly bullish"
+        ],
+        "key_risks": [
+          "Uncertain impact of the Cloudflare-Mastercard partnership",
+          "Overall market sentiment remains bearish"
+        ],
+        "valuation_view": "The valuation score is -0.8, indicating a bearish bias but no specific fair value range provided.",
+        "counterfactuals": [
+          "A significant positive announcement from Cloudflare could change the outlook.",
+          "Further deterioration in market conditions might push towards a sell recommendation."
+        ],
+        "next_checks": [
+          "Monitor the progress of the Cloudflare-Mastercard partnership and its impact on business operations.",
+          "Keep an eye on broader market trends for any shifts in sentiment."
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:35:42+09:00",
+      "action": "HOLD",
+      "confidence": 0.056,
+      "rationale": "The current market regime is risk-off with a strong bearish trend. Recent news events, including the strategic partnership between Cloudflare and Mastercard, have not significantly altered the overall negative sentiment. The stock price remains under pressure due to broader market conditions.",
+      "key_drivers": [
+        "Strong bearish market trend",
+        "Uncertain impact of the Cloudflare-Mastercard partnership"
+      ],
+      "key_risks": [
+        "Continued market downturn could exacerbate stock performance",
+        "Lack of immediate positive catalysts from the partnership"
+      ],
+      "valuation_view": "The valuation score remains negative, indicating that the stock is not undervalued relative to its peers and broader market conditions.",
+      "counterfactuals": [
+        "A significant positive earnings report or news event could change the sentiment",
+        "Improvement in overall market conditions might lead to a rebound"
+      ],
+      "next_checks": [
+        "Monitor upcoming earnings reports for any positive surprises",
+        "Watch for changes in broader market trends that may impact Cloudflare's stock performance"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.056,
+        "rationale": "The current market regime is risk-off with a strong bearish trend. Recent news events, including the strategic partnership between Cloudflare and Mastercard, have not significantly altered the overall negative sentiment. The stock price remains under pressure due to broader market conditions.",
+        "key_drivers": [
+          "Strong bearish market trend",
+          "Uncertain impact of the Cloudflare-Mastercard partnership"
+        ],
+        "key_risks": [
+          "Continued market downturn could exacerbate stock performance",
+          "Lack of immediate positive catalysts from the partnership"
+        ],
+        "valuation_view": "The valuation score remains negative, indicating that the stock is not undervalued relative to its peers and broader market conditions.",
+        "counterfactuals": [
+          "A significant positive earnings report or news event could change the sentiment",
+          "Improvement in overall market conditions might lead to a rebound"
+        ],
+        "next_checks": [
+          "Monitor upcoming earnings reports for any positive surprises",
+          "Watch for changes in broader market trends that may impact Cloudflare's stock performance"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:33:56+09:00",
+      "action": "HOLD",
+      "confidence": 0.056,
+      "rationale": "The current market regime is risk-off, and the recent news events are mixed but not strong enough to warrant a buy or sell decision. Cloudflare's strategic partnership with Mastercard may benefit its offerings, but given the nascent stage of the partnership, its impact on stock prices remains uncertain.",
+      "key_drivers": [
+        "Strong bearish technical indicators",
+        "Uncertain impact from recent strategic partnership"
+      ],
+      "key_risks": [
+        "Continued market risk-off sentiment",
+        "Lack of clear positive catalysts for the stock"
+      ],
+      "valuation_view": "The valuation score is -0.8, indicating an overvalued stock relative to its fair value, but no specific range or fair value was provided.",
+      "counterfactuals": [
+        "A significant positive earnings report could change the outlook",
+        "Further details on the Mastercard partnership and its impact would be crucial"
+      ],
+      "next_checks": [
+        "Monitor for any updates on the Mastercard partnership",
+        "Watch for upcoming earnings reports or other catalysts that may affect stock performance"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.056,
+        "rationale": "The current market regime is risk-off, and the recent news events are mixed but not strong enough to warrant a buy or sell decision. Cloudflare's strategic partnership with Mastercard may benefit its offerings, but given the nascent stage of the partnership, its impact on stock prices remains uncertain.",
+        "key_drivers": [
+          "Strong bearish technical indicators",
+          "Uncertain impact from recent strategic partnership"
+        ],
+        "key_risks": [
+          "Continued market risk-off sentiment",
+          "Lack of clear positive catalysts for the stock"
+        ],
+        "valuation_view": "The valuation score is -0.8, indicating an overvalued stock relative to its fair value, but no specific range or fair value was provided.",
+        "counterfactuals": [
+          "A significant positive earnings report could change the outlook",
+          "Further details on the Mastercard partnership and its impact would be crucial"
+        ],
+        "next_checks": [
+          "Monitor for any updates on the Mastercard partnership",
+          "Watch for upcoming earnings reports or other catalysts that may affect stock performance"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:31:59+09:00",
+      "action": "HOLD",
+      "confidence": 0.556,
+      "rationale": "The current market regime is risk-off with a strong bearish trend. Recent news events, including the strategic partnership between Cloudflare and Mastercard, have had limited impact on stock prices. The valuation score remains negative, indicating potential undervaluation but not compelling enough for an immediate buy signal.",
+      "key_drivers": [
+        "Strong bearish market regime",
+        "Limited impact from recent positive news events"
+      ],
+      "key_risks": [
+        "Continued strong bearish trend",
+        "Uncertainty around the strategic partnership's impact on Cloudflare's stock price"
+      ],
+      "valuation_view": "The valuation score remains negative, suggesting potential undervaluation but not enough to justify a buy signal given current market conditions.",
+      "counterfactuals": [
+        "A significant positive earnings report or news event could change the market sentiment and warrant a re-evaluation of the stock's value."
+      ],
+      "next_checks": [
+        "Monitor market regime for any shifts",
+        "Track the progress and details of the strategic partnership between Cloudflare and Mastercard"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.556,
+        "rationale": "The current market regime is risk-off with a strong bearish trend. Recent news events, including the strategic partnership between Cloudflare and Mastercard, have had limited impact on stock prices. The valuation score remains negative, indicating potential undervaluation but not compelling enough for an immediate buy signal.",
+        "key_drivers": [
+          "Strong bearish market regime",
+          "Limited impact from recent positive news events"
+        ],
+        "key_risks": [
+          "Continued strong bearish trend",
+          "Uncertainty around the strategic partnership's impact on Cloudflare's stock price"
+        ],
+        "valuation_view": "The valuation score remains negative, suggesting potential undervaluation but not enough to justify a buy signal given current market conditions.",
+        "counterfactuals": [
+          "A significant positive earnings report or news event could change the market sentiment and warrant a re-evaluation of the stock's value."
+        ],
+        "next_checks": [
+          "Monitor market regime for any shifts",
+          "Track the progress and details of the strategic partnership between Cloudflare and Mastercard"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:27:46+09:00",
+      "action": "HOLD",
+      "confidence": 0.556,
+      "rationale": "The current market regime is risk-off with a bearish sentiment, and the recent news events do not provide strong bullish or bearish signals. The strategic partnership between Cloudflare and Mastercard is neutral in impact, while other positive news for Bloom Energy and GeneDx are offset by the overall bearish market conditions.",
+      "key_drivers": [
+        "Market regime: risk-off with a score of -0.8",
+        "Recent news events: mixed but mostly neutral (Cloudflare partnership, positive for Bloom Energy and GeneDx)"
+      ],
+      "key_risks": [
+        "Uncertain impact of the Cloudflare-Mastercard partnership due to its nascent stage",
+        "Overall bearish market sentiment"
+      ],
+      "valuation_view": "The valuation score is -0.8, indicating a bearish bias but no specific fair value range provided.",
+      "counterfactuals": [
+        "A significant positive earnings report or news event for Cloudflare could change the stance to BUY",
+        "Further deterioration of market conditions could push the action to SELL"
+      ],
+      "next_checks": [
+        "Monitor upcoming earnings reports and any updates on the Cloudflare-Mastercard partnership",
+        "Watch for broader market sentiment shifts"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.556,
+        "rationale": "The current market regime is risk-off with a bearish sentiment, and the recent news events do not provide strong bullish or bearish signals. The strategic partnership between Cloudflare and Mastercard is neutral in impact, while other positive news for Bloom Energy and GeneDx are offset by the overall bearish market conditions.",
+        "key_drivers": [
+          "Market regime: risk-off with a score of -0.8",
+          "Recent news events: mixed but mostly neutral (Cloudflare partnership, positive for Bloom Energy and GeneDx)"
+        ],
+        "key_risks": [
+          "Uncertain impact of the Cloudflare-Mastercard partnership due to its nascent stage",
+          "Overall bearish market sentiment"
+        ],
+        "valuation_view": "The valuation score is -0.8, indicating a bearish bias but no specific fair value range provided.",
+        "counterfactuals": [
+          "A significant positive earnings report or news event for Cloudflare could change the stance to BUY",
+          "Further deterioration of market conditions could push the action to SELL"
+        ],
+        "next_checks": [
+          "Monitor upcoming earnings reports and any updates on the Cloudflare-Mastercard partnership",
+          "Watch for broader market sentiment shifts"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:25:56+09:00",
+      "action": "HOLD",
+      "confidence": 0.556,
+      "rationale": "The current market regime is risk-off, and the technical analysis suggests a strong bearish trend. The recent news events include a neutral strategic partnership with Mastercard, which does not significantly impact the stock price at this stage.",
+      "key_drivers": [
+        "Market regime: Risk-off",
+        "Technical analysis: Strong bearish trend"
+      ],
+      "key_risks": [
+        "Uncertainty around the strategic partnership's immediate impact on Cloudflare's stock price",
+        "Overall market conditions remain negative, influencing investor sentiment"
+      ],
+      "valuation_view": "None",
+      "counterfactuals": [
+        "A significant positive earnings report or news about a major product launch could change the current hold stance.",
+        "Further deterioration in market conditions could lead to a stronger bearish trend."
+      ],
+      "next_checks": [
+        "Monitor upcoming earnings reports and any updates on the strategic partnership with Mastercard",
+        "Keep an eye on broader market trends and their impact on Cloudflare's stock price"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.556,
+        "rationale": "The current market regime is risk-off, and the technical analysis suggests a strong bearish trend. The recent news events include a neutral strategic partnership with Mastercard, which does not significantly impact the stock price at this stage.",
+        "key_drivers": [
+          "Market regime: Risk-off",
+          "Technical analysis: Strong bearish trend"
+        ],
+        "key_risks": [
+          "Uncertainty around the strategic partnership's immediate impact on Cloudflare's stock price",
+          "Overall market conditions remain negative, influencing investor sentiment"
+        ],
+        "valuation_view": null,
+        "counterfactuals": [
+          "A significant positive earnings report or news about a major product launch could change the current hold stance.",
+          "Further deterioration in market conditions could lead to a stronger bearish trend."
+        ],
+        "next_checks": [
+          "Monitor upcoming earnings reports and any updates on the strategic partnership with Mastercard",
+          "Keep an eye on broader market trends and their impact on Cloudflare's stock price"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T22:52:47+09:00",
+      "action": "HOLD",
+      "confidence": 0.556,
+      "rationale": "The current market regime is risk-off, and the technical analysis suggests a strong bearish trend. While Cloudflare has positive fundamental drivers such as its strategic partnership with Mastercard, the overall sentiment is cautious due to the nascent stage of the partnership and the recent price action.",
+      "key_drivers": [
+        "Strategic Partnership with Mastercard: Potential for enhanced cybersecurity offerings",
+        "Positive Earnings and Guidance from Other Companies: Indicates strong market performance"
+      ],
+      "key_risks": [
+        "Nascent Stage of Partnership: Uncertainty in immediate impact on stock prices",
+        "Market Regime: Current risk-off sentiment may continue to pressure tech stocks"
+      ],
+      "valuation_view": "The valuation score is negative, but the fair value and price range are not clearly defined due to recent events.",
+      "counterfactuals": [
+        "A significant decline in earnings or guidance from other companies could shift market sentiment negatively.",
+        "If the partnership with Mastercard does not deliver as expected, it may dampen investor confidence."
+      ],
+      "next_checks": [
+        "Earnings reports and updates on the partnership progress",
+        "Market regime shifts and overall tech sector performance"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.556,
+        "rationale": "The current market regime is risk-off, and the technical analysis suggests a strong bearish trend. While Cloudflare has positive fundamental drivers such as its strategic partnership with Mastercard, the overall sentiment is cautious due to the nascent stage of the partnership and the recent price action.",
+        "key_drivers": [
+          "Strategic Partnership with Mastercard: Potential for enhanced cybersecurity offerings",
+          "Positive Earnings and Guidance from Other Companies: Indicates strong market performance"
+        ],
+        "key_risks": [
+          "Nascent Stage of Partnership: Uncertainty in immediate impact on stock prices",
+          "Market Regime: Current risk-off sentiment may continue to pressure tech stocks"
+        ],
+        "valuation_view": "The valuation score is negative, but the fair value and price range are not clearly defined due to recent events.",
+        "counterfactuals": [
+          "A significant decline in earnings or guidance from other companies could shift market sentiment negatively.",
+          "If the partnership with Mastercard does not deliver as expected, it may dampen investor confidence."
+        ],
+        "next_checks": [
+          "Earnings reports and updates on the partnership progress",
+          "Market regime shifts and overall tech sector performance"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T22:51:11+09:00",
+      "action": "HOLD",
+      "confidence": 0.556,
+      "rationale": "The current market regime is risk-off, and the technical analysis suggests a strong bearish trend. While recent news about Cloudflare's partnership with Mastercard offers potential benefits, the impact on stock prices remains uncertain due to the nascent stage of the collaboration.",
+      "key_drivers": [
+        "Strong bearish technical indicators",
+        "Risk-off market regime"
+      ],
+      "key_risks": [
+        "Uncertain impact of the Cloudflare-Mastercard partnership",
+        "Potential for further negative market sentiment"
+      ],
+      "valuation_view": "The valuation score is -0.8, indicating an overvalued stock relative to its historical performance.",
+      "counterfactuals": [
+        "A significant positive announcement from Cloudflare could change the outlook.",
+        "Further deterioration in market conditions could lead to a stronger bearish trend."
+      ],
+      "next_checks": [
+        "Monitor technical indicators for any signs of reversal",
+        "Follow updates on the Cloudflare-Mastercard partnership and its impact"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.556,
+        "rationale": "The current market regime is risk-off, and the technical analysis suggests a strong bearish trend. While recent news about Cloudflare's partnership with Mastercard offers potential benefits, the impact on stock prices remains uncertain due to the nascent stage of the collaboration.",
+        "key_drivers": [
+          "Strong bearish technical indicators",
+          "Risk-off market regime"
+        ],
+        "key_risks": [
+          "Uncertain impact of the Cloudflare-Mastercard partnership",
+          "Potential for further negative market sentiment"
+        ],
+        "valuation_view": "The valuation score is -0.8, indicating an overvalued stock relative to its historical performance.",
+        "counterfactuals": [
+          "A significant positive announcement from Cloudflare could change the outlook.",
+          "Further deterioration in market conditions could lead to a stronger bearish trend."
+        ],
+        "next_checks": [
+          "Monitor technical indicators for any signs of reversal",
+          "Follow updates on the Cloudflare-Mastercard partnership and its impact"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T22:49:22+09:00",
+      "action": "HOLD",
+      "confidence": 0.556,
+      "rationale": "The current market regime is risk-off, and the recent news events have a mixed impact with no strong bullish or bearish signals. The strategic partnership with Mastercard is neutral in its immediate impact on Cloudflare's stock price.",
+      "key_drivers": [
+        "Market regime: Risk-off",
+        "Recent news: Neutral impact from Mastercard partnership"
+      ],
+      "key_risks": [
+        "Uncertain impact of the nascent stage of the Mastercard partnership",
+        "Potential for market-wide risk-off sentiment to persist"
+      ],
+      "valuation_view": "The valuation score is -0.8, indicating a bearish bias but no specific fair value range provided.",
+      "counterfactuals": [
+        "A significant positive earnings report or news from the Mastercard partnership could change the outlook.",
+        "Further market-wide risk-off sentiment could lead to downward pressure on Cloudflare's stock."
+      ],
+      "next_checks": [
+        "Earnings reports and updates on the Mastercard partnership",
+        "Market regime shifts"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.556,
+        "rationale": "The current market regime is risk-off, and the recent news events have a mixed impact with no strong bullish or bearish signals. The strategic partnership with Mastercard is neutral in its immediate impact on Cloudflare's stock price.",
+        "key_drivers": [
+          "Market regime: Risk-off",
+          "Recent news: Neutral impact from Mastercard partnership"
+        ],
+        "key_risks": [
+          "Uncertain impact of the nascent stage of the Mastercard partnership",
+          "Potential for market-wide risk-off sentiment to persist"
+        ],
+        "valuation_view": "The valuation score is -0.8, indicating a bearish bias but no specific fair value range provided.",
+        "counterfactuals": [
+          "A significant positive earnings report or news from the Mastercard partnership could change the outlook.",
+          "Further market-wide risk-off sentiment could lead to downward pressure on Cloudflare's stock."
+        ],
+        "next_checks": [
+          "Earnings reports and updates on the Mastercard partnership",
+          "Market regime shifts"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:54:25+09:00",
+      "action": "BUY",
+      "confidence": 0.7,
+      "rationale": "Q4 earnings and positive outlook coupled with growing AI-related usage continue to support Cloudflare's stock.",
+      "key_drivers": [
+        "Strong Q4 results",
+        "Positive 2026 revenue guidance",
+        "Growing AI-related usage"
+      ],
+      "key_risks": [
+        "Uncertain impact of nascent partnership with Mastercard",
+        "Market competition"
+      ],
+      "valuation_view": "Recent positive earnings could justify a re-evaluation.",
+      "counterfactuals": [
+        "If Q1 results do not meet expectations, it could reverse sentiment.",
+        "A decrease in AI-related usage could negatively impact stock performance."
+      ],
+      "next_checks": [
+        "Q1 earnings report",
+        "AI industry trends and Cloudflare's market share"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.7,
+        "rationale": "Q4 earnings and positive outlook coupled with growing AI-related usage continue to support Cloudflare's stock.",
+        "key_drivers": [
+          "Strong Q4 results",
+          "Positive 2026 revenue guidance",
+          "Growing AI-related usage"
+        ],
+        "key_risks": [
+          "Uncertain impact of nascent partnership with Mastercard",
+          "Market competition"
+        ],
+        "valuation_view": "Recent positive earnings could justify a re-evaluation.",
+        "counterfactuals": [
+          "If Q1 results do not meet expectations, it could reverse sentiment.",
+          "A decrease in AI-related usage could negatively impact stock performance."
+        ],
+        "next_checks": [
+          "Q1 earnings report",
+          "AI industry trends and Cloudflare's market share"
+        ],
+        "position_plan": {
+          "prefer_qty": 0.5,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:53:02+09:00",
+      "action": "BUY",
+      "confidence": 0.7,
+      "rationale": "Q4 earnings and positive outlook coupled with growing AI-related usage continue to support Cloudflare's stock.",
+      "key_drivers": [
+        "Strong Q4 results",
+        "Positive 2026 revenue guidance",
+        "Growing AI-related usage"
+      ],
+      "key_risks": [
+        "Uncertain impact of nascent partnership with Mastercard",
+        "Market competition"
+      ],
+      "valuation_view": "Recent positive earnings could justify a re-evaluation.",
+      "counterfactuals": [
+        "If Q1 results do not meet expectations, it could reverse sentiment.",
+        "A decrease in AI-related usage could negatively impact stock performance."
+      ],
+      "next_checks": [
+        "Q1 earnings report",
+        "AI industry trends and Cloudflare's market share"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.7,
+        "rationale": "Q4 earnings and positive outlook coupled with growing AI-related usage continue to support Cloudflare's stock.",
+        "key_drivers": [
+          "Strong Q4 results",
+          "Positive 2026 revenue guidance",
+          "Growing AI-related usage"
+        ],
+        "key_risks": [
+          "Uncertain impact of nascent partnership with Mastercard",
+          "Market competition"
+        ],
+        "valuation_view": "Recent positive earnings could justify a re-evaluation.",
+        "counterfactuals": [
+          "If Q1 results do not meet expectations, it could reverse sentiment.",
+          "A decrease in AI-related usage could negatively impact stock performance."
+        ],
+        "next_checks": [
+          "Q1 earnings report",
+          "AI industry trends and Cloudflare's market share"
+        ],
+        "position_plan": {
+          "prefer_qty": 0.5,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:51:38+09:00",
+      "action": "BUY",
+      "confidence": 0.7,
+      "rationale": "Q4 earnings and positive outlook coupled with growing AI-related usage continue to support Cloudflare's stock.",
+      "key_drivers": [
+        "Strong Q4 results",
+        "Positive 2026 revenue guidance",
+        "Growing AI-related usage"
+      ],
+      "key_risks": [
+        "Uncertain impact of nascent partnership with Mastercard",
+        "Market competition"
+      ],
+      "valuation_view": "Recent positive earnings could justify a re-evaluation.",
+      "counterfactuals": [
+        "If Q1 results do not meet expectations, it could reverse sentiment.",
+        "A decrease in AI-related usage could negatively impact stock performance."
+      ],
+      "next_checks": [
+        "Q1 earnings report",
+        "AI industry trends and Cloudflare's market share"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.7,
+        "rationale": "Q4 earnings and positive outlook coupled with growing AI-related usage continue to support Cloudflare's stock.",
+        "key_drivers": [
+          "Strong Q4 results",
+          "Positive 2026 revenue guidance",
+          "Growing AI-related usage"
+        ],
+        "key_risks": [
+          "Uncertain impact of nascent partnership with Mastercard",
+          "Market competition"
+        ],
+        "valuation_view": "Recent positive earnings could justify a re-evaluation.",
+        "counterfactuals": [
+          "If Q1 results do not meet expectations, it could reverse sentiment.",
+          "A decrease in AI-related usage could negatively impact stock performance."
+        ],
+        "next_checks": [
+          "Q1 earnings report",
+          "AI industry trends and Cloudflare's market share"
+        ],
+        "position_plan": {
+          "prefer_qty": 0.5,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:50:03+09:00",
+      "action": "BUY",
+      "confidence": 0.7,
+      "rationale": "Q4 earnings and positive outlook coupled with growing AI-related usage continue to support Cloudflare's stock.",
+      "key_drivers": [
+        "Strong Q4 results",
+        "Positive 2026 revenue guidance",
+        "Growing AI-related usage"
+      ],
+      "key_risks": [
+        "Uncertain impact of nascent partnership with Mastercard",
+        "Market competition"
+      ],
+      "valuation_view": "Recent positive earnings could justify a re-evaluation.",
+      "counterfactuals": [
+        "If Q1 results do not meet expectations, it could reverse sentiment.",
+        "A decrease in AI-related usage could negatively impact stock performance."
+      ],
+      "next_checks": [
+        "Q1 earnings report",
+        "AI industry trends and Cloudflare's market share"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.7,
+        "rationale": "Q4 earnings and positive outlook coupled with growing AI-related usage continue to support Cloudflare's stock.",
+        "key_drivers": [
+          "Strong Q4 results",
+          "Positive 2026 revenue guidance",
+          "Growing AI-related usage"
+        ],
+        "key_risks": [
+          "Uncertain impact of nascent partnership with Mastercard",
+          "Market competition"
+        ],
+        "valuation_view": "Recent positive earnings could justify a re-evaluation.",
+        "counterfactuals": [
+          "If Q1 results do not meet expectations, it could reverse sentiment.",
+          "A decrease in AI-related usage could negatively impact stock performance."
+        ],
+        "next_checks": [
+          "Q1 earnings report",
+          "AI industry trends and Cloudflare's market share"
+        ],
+        "position_plan": {
+          "prefer_qty": 0.5,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:33:40+09:00",
+      "action": "BUY",
+      "confidence": 0.7,
+      "rationale": "Q4 earnings and positive outlook coupled with growing AI-related usage continue to support Cloudflare's stock.",
+      "key_drivers": [
+        "Strong Q4 results",
+        "Positive 2026 revenue guidance",
+        "Growing AI-related usage"
+      ],
+      "key_risks": [
+        "Uncertain impact of nascent partnership with Mastercard",
+        "Market competition"
+      ],
+      "valuation_view": "Recent positive earnings could justify a re-evaluation.",
+      "counterfactuals": [
+        "If Q1 results do not meet expectations, it could reverse sentiment.",
+        "A decrease in AI-related usage could negatively impact stock performance."
+      ],
+      "next_checks": [
+        "Q1 earnings report",
+        "AI industry trends and Cloudflare's market share"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.7,
+        "rationale": "Q4 earnings and positive outlook coupled with growing AI-related usage continue to support Cloudflare's stock.",
+        "key_drivers": [
+          "Strong Q4 results",
+          "Positive 2026 revenue guidance",
+          "Growing AI-related usage"
+        ],
+        "key_risks": [
+          "Uncertain impact of nascent partnership with Mastercard",
+          "Market competition"
+        ],
+        "valuation_view": "Recent positive earnings could justify a re-evaluation.",
+        "counterfactuals": [
+          "If Q1 results do not meet expectations, it could reverse sentiment.",
+          "A decrease in AI-related usage could negatively impact stock performance."
+        ],
+        "next_checks": [
+          "Q1 earnings report",
+          "AI industry trends and Cloudflare's market share"
+        ],
+        "position_plan": {
+          "prefer_qty": 0.5,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:32:16+09:00",
+      "action": "BUY",
+      "confidence": 0.7,
+      "rationale": "Q4 earnings and positive outlook coupled with growing AI-related usage continue to support Cloudflare's stock.",
+      "key_drivers": [
+        "Strong Q4 results",
+        "Positive 2026 revenue guidance",
+        "Growing AI-related usage"
+      ],
+      "key_risks": [
+        "Uncertain impact of nascent partnership with Mastercard",
+        "Market competition"
+      ],
+      "valuation_view": "Recent positive earnings could justify a re-evaluation.",
+      "counterfactuals": [
+        "If Q1 results do not meet expectations, it could reverse sentiment.",
+        "A decrease in AI-related usage could negatively impact stock performance."
+      ],
+      "next_checks": [
+        "Q1 earnings report",
+        "AI industry trends and Cloudflare's market share"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.7,
+        "rationale": "Q4 earnings and positive outlook coupled with growing AI-related usage continue to support Cloudflare's stock.",
+        "key_drivers": [
+          "Strong Q4 results",
+          "Positive 2026 revenue guidance",
+          "Growing AI-related usage"
+        ],
+        "key_risks": [
+          "Uncertain impact of nascent partnership with Mastercard",
+          "Market competition"
+        ],
+        "valuation_view": "Recent positive earnings could justify a re-evaluation.",
+        "counterfactuals": [
+          "If Q1 results do not meet expectations, it could reverse sentiment.",
+          "A decrease in AI-related usage could negatively impact stock performance."
+        ],
+        "next_checks": [
+          "Q1 earnings report",
+          "AI industry trends and Cloudflare's market share"
+        ],
+        "position_plan": {
+          "prefer_qty": 0.5,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:30:10+09:00",
+      "action": "BUY",
+      "confidence": 0.7,
+      "rationale": "Q4 earnings and positive outlook coupled with growing AI-related usage continue to support Cloudflare's stock.",
+      "key_drivers": [
+        "Strong Q4 results",
+        "Positive 2026 revenue guidance",
+        "Growing AI-related usage"
+      ],
+      "key_risks": [
+        "Uncertain impact of nascent partnership with Mastercard",
+        "Market competition"
+      ],
+      "valuation_view": "Recent positive earnings could justify a re-evaluation.",
+      "counterfactuals": [
+        "If Q1 results do not meet expectations, it could reverse sentiment.",
+        "A decrease in AI-related usage could negatively impact stock performance."
+      ],
+      "next_checks": [
+        "Q1 earnings report",
+        "AI industry trends and Cloudflare's market share"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.7,
+        "rationale": "Q4 earnings and positive outlook coupled with growing AI-related usage continue to support Cloudflare's stock.",
+        "key_drivers": [
+          "Strong Q4 results",
+          "Positive 2026 revenue guidance",
+          "Growing AI-related usage"
+        ],
+        "key_risks": [
+          "Uncertain impact of nascent partnership with Mastercard",
+          "Market competition"
+        ],
+        "valuation_view": "Recent positive earnings could justify a re-evaluation.",
+        "counterfactuals": [
+          "If Q1 results do not meet expectations, it could reverse sentiment.",
+          "A decrease in AI-related usage could negatively impact stock performance."
+        ],
+        "next_checks": [
+          "Q1 earnings report",
+          "AI industry trends and Cloudflare's market share"
+        ],
+        "position_plan": {
+          "prefer_qty": 0.5,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:25:11+09:00",
+      "action": "BUY",
+      "confidence": 0.7,
+      "rationale": "Q4 earnings and positive outlook coupled with growing AI-related usage continue to support Cloudflare's stock.",
+      "key_drivers": [
+        "Strong Q4 results",
+        "Positive 2026 revenue guidance",
+        "Growing AI-related usage"
+      ],
+      "key_risks": [
+        "Uncertain impact of nascent partnership with Mastercard",
+        "Market competition"
+      ],
+      "valuation_view": "Recent positive earnings could justify a re-evaluation.",
+      "counterfactuals": [
+        "If Q1 results do not meet expectations, it could reverse sentiment.",
+        "A decrease in AI-related usage could negatively impact stock performance."
+      ],
+      "next_checks": [
+        "Q1 earnings report",
+        "AI industry trends and Cloudflare's market share"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.7,
+        "rationale": "Q4 earnings and positive outlook coupled with growing AI-related usage continue to support Cloudflare's stock.",
+        "key_drivers": [
+          "Strong Q4 results",
+          "Positive 2026 revenue guidance",
+          "Growing AI-related usage"
+        ],
+        "key_risks": [
+          "Uncertain impact of nascent partnership with Mastercard",
+          "Market competition"
+        ],
+        "valuation_view": "Recent positive earnings could justify a re-evaluation.",
+        "counterfactuals": [
+          "If Q1 results do not meet expectations, it could reverse sentiment.",
+          "A decrease in AI-related usage could negatively impact stock performance."
+        ],
+        "next_checks": [
+          "Q1 earnings report",
+          "AI industry trends and Cloudflare's market share"
+        ],
+        "position_plan": {
+          "prefer_qty": 0.5,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:23:47+09:00",
+      "action": "BUY",
+      "confidence": 0.7,
+      "rationale": "Q4 earnings and positive outlook coupled with growing AI-related usage continue to support Cloudflare's stock.",
+      "key_drivers": [
+        "Strong Q4 results",
+        "Positive 2026 revenue guidance",
+        "Growing AI-related usage"
+      ],
+      "key_risks": [
+        "Uncertain impact of nascent partnership with Mastercard",
+        "Market competition"
+      ],
+      "valuation_view": "Recent positive earnings could justify a re-evaluation.",
+      "counterfactuals": [
+        "If Q1 results do not meet expectations, it could reverse sentiment.",
+        "A decrease in AI-related usage could negatively impact stock performance."
+      ],
+      "next_checks": [
+        "Q1 earnings report",
+        "AI industry trends and Cloudflare's market share"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.7,
+        "rationale": "Q4 earnings and positive outlook coupled with growing AI-related usage continue to support Cloudflare's stock.",
+        "key_drivers": [
+          "Strong Q4 results",
+          "Positive 2026 revenue guidance",
+          "Growing AI-related usage"
+        ],
+        "key_risks": [
+          "Uncertain impact of nascent partnership with Mastercard",
+          "Market competition"
+        ],
+        "valuation_view": "Recent positive earnings could justify a re-evaluation.",
+        "counterfactuals": [
+          "If Q1 results do not meet expectations, it could reverse sentiment.",
+          "A decrease in AI-related usage could negatively impact stock performance."
+        ],
+        "next_checks": [
+          "Q1 earnings report",
+          "AI industry trends and Cloudflare's market share"
+        ],
+        "position_plan": {
+          "prefer_qty": 0.5,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:22:30+09:00",
+      "action": "BUY",
+      "confidence": 0.7,
+      "rationale": "Q4 earnings and positive outlook coupled with growing AI-related usage continue to support Cloudflare's stock.",
+      "key_drivers": [
+        "Strong Q4 results",
+        "Positive 2026 revenue guidance",
+        "Growing AI-related usage"
+      ],
+      "key_risks": [
+        "Uncertain impact of nascent partnership with Mastercard",
+        "Market competition"
+      ],
+      "valuation_view": "Recent positive earnings could justify a re-evaluation.",
+      "counterfactuals": [
+        "If Q1 results do not meet expectations, it could reverse sentiment.",
+        "A decrease in AI-related usage could negatively impact stock performance."
+      ],
+      "next_checks": [
+        "Q1 earnings report",
+        "AI industry trends and Cloudflare's market share"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.7,
+        "rationale": "Q4 earnings and positive outlook coupled with growing AI-related usage continue to support Cloudflare's stock.",
+        "key_drivers": [
+          "Strong Q4 results",
+          "Positive 2026 revenue guidance",
+          "Growing AI-related usage"
+        ],
+        "key_risks": [
+          "Uncertain impact of nascent partnership with Mastercard",
+          "Market competition"
+        ],
+        "valuation_view": "Recent positive earnings could justify a re-evaluation.",
+        "counterfactuals": [
+          "If Q1 results do not meet expectations, it could reverse sentiment.",
+          "A decrease in AI-related usage could negatively impact stock performance."
+        ],
+        "next_checks": [
+          "Q1 earnings report",
+          "AI industry trends and Cloudflare's market share"
+        ],
+        "position_plan": {
+          "prefer_qty": 0.5,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:21:10+09:00",
+      "action": "BUY",
+      "confidence": 0.7,
+      "rationale": "Q4 earnings and positive outlook coupled with growing AI-related usage continue to support Cloudflare's stock.",
+      "key_drivers": [
+        "Strong Q4 results",
+        "Positive 2026 revenue guidance",
+        "Growing AI-related usage"
+      ],
+      "key_risks": [
+        "Uncertain impact of nascent partnership with Mastercard",
+        "Market competition"
+      ],
+      "valuation_view": "Recent positive earnings could justify a re-evaluation.",
+      "counterfactuals": [
+        "If Q1 results do not meet expectations, it could reverse sentiment.",
+        "A decrease in AI-related usage could negatively impact stock performance."
+      ],
+      "next_checks": [
+        "Q1 earnings report",
+        "AI industry trends and Cloudflare's market share"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.7,
+        "rationale": "Q4 earnings and positive outlook coupled with growing AI-related usage continue to support Cloudflare's stock.",
+        "key_drivers": [
+          "Strong Q4 results",
+          "Positive 2026 revenue guidance",
+          "Growing AI-related usage"
+        ],
+        "key_risks": [
+          "Uncertain impact of nascent partnership with Mastercard",
+          "Market competition"
+        ],
+        "valuation_view": "Recent positive earnings could justify a re-evaluation.",
+        "counterfactuals": [
+          "If Q1 results do not meet expectations, it could reverse sentiment.",
+          "A decrease in AI-related usage could negatively impact stock performance."
+        ],
+        "next_checks": [
+          "Q1 earnings report",
+          "AI industry trends and Cloudflare's market share"
+        ],
+        "position_plan": {
+          "prefer_qty": 0.5,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:19:43+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "Strong Q4 earnings and positive outlook coupled with rising AI demand have boosted Cloudflare's stock. The recent partnership with Mastercard, while neutral in impact, could potentially bolster the company's market position.",
+      "key_drivers": [
+        "Strong Q4 results",
+        "Positive 2026 revenue guidance",
+        "Growing AI-related usage"
+      ],
+      "key_risks": [
+        "Uncertain impact of nascent partnership with Mastercard",
+        "Market competition"
+      ],
+      "valuation_view": "Current valuation assumptions are based on simple methods, and the target price is not available. The recent positive earnings could justify a re-evaluation.",
+      "counterfactuals": [
+        "If Q1 results do not meet expectations, it could reverse sentiment.",
+        "A decrease in AI-related usage could negatively impact stock performance."
+      ],
+      "next_checks": [
+        "Q1 earnings report",
+        "AI industry trends and Cloudflare's market share"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "Strong Q4 earnings and positive outlook coupled with rising AI demand have boosted Cloudflare's stock. The recent partnership with Mastercard, while neutral in impact, could potentially bolster the company's market position.",
+        "key_drivers": [
+          "Strong Q4 results",
+          "Positive 2026 revenue guidance",
+          "Growing AI-related usage"
+        ],
+        "key_risks": [
+          "Uncertain impact of nascent partnership with Mastercard",
+          "Market competition"
+        ],
+        "valuation_view": "Current valuation assumptions are based on simple methods, and the target price is not available. The recent positive earnings could justify a re-evaluation.",
+        "counterfactuals": [
+          "If Q1 results do not meet expectations, it could reverse sentiment.",
+          "A decrease in AI-related usage could negatively impact stock performance."
+        ],
+        "next_checks": [
+          "Q1 earnings report",
+          "AI industry trends and Cloudflare's market share"
+        ],
+        "position_plan": {
+          "prefer_qty": 0.5,
+          "time_horizon": "swing_days"
+        }
+      }
+    }
+  ],
+  "tags": []
+}

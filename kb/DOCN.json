@@ -1,0 +1,1975 @@
+{
+  "ticker": "DOCN",
+  "updated_at": "2026-02-25T02:33:35+09:00",
+  "thesis": "",
+  "business_summary": "",
+  "moat": "",
+  "key_drivers": [],
+  "key_risks": [],
+  "valuation_method": "simple",
+  "valuation_assumptions": {},
+  "target_price": null,
+  "fair_value_range": null,
+  "evidence": [
+    {
+      "ts_kst": "2026-02-25T02:29:47+09:00",
+      "source": "news",
+      "title": "WBD Gears Up to Report Q4 Earnings: How to Play the Stock",
+      "summary": "Warner Bros. Discovery readies Q4 results amid revenue dip, streaming push and Netflix deal uncertainty - can earnings beat expectations?",
+      "link": "https://finance.yahoo.com/news/wbd-gears-report-q4-earnings-160500426.html?.tsrc=rss",
+      "sentiment": "neutral",
+      "impact": 0,
+      "tags": [
+        "earnings"
+      ],
+      "raw": {
+        "tickers": [
+          "DOCN"
+        ],
+        "event_type": "earnings",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [],
+        "trade_horizon": "swing_days",
+        "why_it_moves": ""
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T01:24:58+09:00",
+      "source": "news",
+      "title": "AI Momentum Propels DigitalOcean Past Estimates With 150% ARR Surge",
+      "summary": "Strong earnings and ARR growth exceeded expectations, boosting investor confidence.",
+      "link": "https://247wallst.com/investing/2026/02/24/ai-momentum-propels-digitalocean-past-estimates-with-150-arr-surge/?.tsrc=rss",
+      "sentiment": "bullish",
+      "impact": 2,
+      "tags": [
+        "earnings"
+      ],
+      "raw": {
+        "tickers": [
+          "DOCN"
+        ],
+        "event_type": "earnings",
+        "sentiment": "bullish",
+        "impact": 2,
+        "confidence": 0.7,
+        "key_points": [
+          "DigitalOcean beat Q4 2025 EPS estimates.",
+          "ARR surged by 150%."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Strong earnings and ARR growth exceeded expectations, boosting investor confidence."
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T01:24:55+09:00",
+      "source": "news",
+      "title": "DigitalOcean Holdings, Inc. (DOCN) Q4 Earnings and Revenues Top Estimates",
+      "summary": "Strong earnings beat expectations, likely boosting investor confidence in the company's future growth prospects.",
+      "link": "https://finance.yahoo.com/news/digitalocean-holdings-inc-docn-q4-144003771.html?.tsrc=rss",
+      "sentiment": "bullish",
+      "impact": 1,
+      "tags": [
+        "earnings"
+      ],
+      "raw": {
+        "tickers": [
+          "DOCN"
+        ],
+        "event_type": "earnings",
+        "sentiment": "bullish",
+        "impact": 1,
+        "confidence": 0.8,
+        "key_points": [
+          "DigitalOcean (DOCN) exceeded Q4 earnings and revenue estimates.",
+          "Surprises were +16.80% for earnings and +1.99% for revenues."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Strong earnings beat expectations, likely boosting investor confidence in the company's future growth prospects."
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T01:24:52+09:00",
+      "source": "news",
+      "title": "DigitalOcean (DOCN) Q4 2025 Earnings Transcript",
+      "summary": "Earnings call provides insight into company's financial performance but no clear positive or negative signals were given.",
+      "link": "https://www.fool.com/earnings/call-transcripts/2026/02/24/digitalocean-docn-q4-2025-earnings-transcript/?.tsrc=rss",
+      "sentiment": "neutral",
+      "impact": 0,
+      "tags": [
+        "earnings"
+      ],
+      "raw": {
+        "tickers": [
+          "DOCN"
+        ],
+        "event_type": "earnings",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [
+          "DigitalOcean Holdings, Inc. reported Q4 and full year 2025 financial results.",
+          "CEO Padmanabhan T. Srinivasan and CFO W. Matthew Steinfort provided an investor update."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Earnings call provides insight into company's financial performance but no clear positive or negative signals were given."
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T22:43:47+09:00",
+      "source": "news",
+      "title": "Is DigitalOcean (DOCN) Using AMD-Powered AI Droplets To Redefine Its Edge With Smaller Developers?",
+      "summary": "The launch of new GPU-powered Droplets could attract more AI-native customers, potentially boosting DigitalOcean's offerings in the competitive cloud market.",
+      "link": "https://finance.yahoo.com/news/digitalocean-docn-using-amd-powered-200923971.html?.tsrc=rss",
+      "sentiment": "neutral",
+      "impact": 0,
+      "tags": [
+        "product_launch"
+      ],
+      "raw": {
+        "tickers": [
+          "DOCN",
+          "AMD"
+        ],
+        "event_type": "product_launch",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [
+          "DigitalOcean launches new high-performance GPU Droplets powered by AMD Instinct MI350X GPUs.",
+          "AMD and DigitalOcean deepen their collaboration, focusing on AI inference for smaller enterprises."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "The launch of new GPU-powered Droplets could attract more AI-native customers, potentially boosting DigitalOcean's offerings in the competitive cloud market."
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T22:43:43+09:00",
+      "source": "news",
+      "title": "DigitalOcean (NYSE:DOCN) Beats Q4 CY2025 Sales Expectations, Growth To Accelerate Next Year",
+      "summary": "Strong earnings and positive guidance boosted investor confidence in DigitalOcean's future growth prospects.",
+      "link": "https://finance.yahoo.com/news/digitalocean-nyse-docn-beats-q4-122712270.html?.tsrc=rss",
+      "sentiment": "bullish",
+      "impact": 2,
+      "tags": [
+        "earnings"
+      ],
+      "raw": {
+        "tickers": [
+          "DOCN"
+        ],
+        "event_type": "earnings",
+        "sentiment": "bullish",
+        "impact": 2,
+        "confidence": 0.8,
+        "key_points": [
+          "DigitalOcean (DOCN) exceeded Q4 CY2025 revenue expectations by 18.3% year on year.",
+          "Guidance for next quarter’s revenue was better than expected, at $249.5 million."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Strong earnings and positive guidance boosted investor confidence in DigitalOcean's future growth prospects."
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T22:43:40+09:00",
+      "source": "news",
+      "title": "DigitalOcean surges on earnings beat and raised outlook",
+      "summary": "Strong earnings beat and positive guidance drove premarket gains.",
+      "link": "https://finance.yahoo.com/news/digitalocean-surges-earnings-beat-raised-123929487.html?.tsrc=rss",
+      "sentiment": "bullish",
+      "impact": 2,
+      "tags": [
+        "earnings"
+      ],
+      "raw": {
+        "tickers": [
+          "DOCN"
+        ],
+        "event_type": "earnings",
+        "sentiment": "bullish",
+        "impact": 2,
+        "confidence": 0.8,
+        "key_points": [
+          "DigitalOcean reported fourth quarter results that exceeded analyst expectations.",
+          "The company raised its revenue outlook for 2026 and 2027."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Strong earnings beat and positive guidance drove premarket gains."
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:18:29+09:00",
+      "source": "news",
+      "title": "DigitalOcean Announces Date of Fourth Quarter 2025 Earnings Conference Call",
+      "summary": "Earnings announcements typically drive short-term market reaction based on performance metrics disclosed.",
+      "link": "https://finance.yahoo.com/news/digitalocean-announces-date-fourth-quarter-210500306.html?.tsrc=rss",
+      "sentiment": "neutral",
+      "impact": 1,
+      "tags": [
+        "earnings"
+      ],
+      "raw": {
+        "tickers": [
+          "DOCN"
+        ],
+        "event_type": "earnings",
+        "sentiment": "neutral",
+        "impact": 1,
+        "confidence": 0.75,
+        "key_points": [
+          "DigitalOcean will report Q4 and FY25 financial results.",
+          "Investor update scheduled for February 24, 2026."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Earnings announcements typically drive short-term market reaction based on performance metrics disclosed."
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:18:26+09:00",
+      "source": "news",
+      "title": "Earnings To Watch: DigitalOcean (DOCN) Reports Q4 Results Tomorrow",
+      "summary": "Earnings reports can significantly impact stock prices as they reflect the company's financial health and future prospects.",
+      "link": "https://finance.yahoo.com/news/earnings-watch-digitalocean-docn-reports-030612064.html?.tsrc=rss",
+      "sentiment": "neutral",
+      "impact": 0,
+      "tags": [
+        "earnings"
+      ],
+      "raw": {
+        "tickers": [
+          "DOCN"
+        ],
+        "event_type": "earnings",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [
+          "DigitalOcean (DOCN) will announce Q4 earnings results.",
+          "Results to be released before market open on Tuesday."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Earnings reports can significantly impact stock prices as they reflect the company's financial health and future prospects."
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "ts_kst": "2026-02-25T02:33:35+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "DigitalOcean's recent earnings report showed strong performance with revenue and ARR growth exceeding expectations. The company has also expanded its offerings to attract more AI-native customers, potentially boosting future growth. While the market is currently cautious (as seen in the slight dip post-earnings), the positive outlook on DigitalOcean's future prospects supports a buy recommendation.",
+      "key_drivers": [
+        "Strong Q4 earnings and revenue growth",
+        "Positive guidance for next quarter",
+        "Expansion into AI-native markets with AMD collaboration"
+      ],
+      "key_risks": [
+        "Market uncertainty around cloud computing sector",
+        "Competition from larger tech players",
+        "Risks associated with new product launches"
+      ],
+      "valuation_view": "DigitalOcean's earnings and guidance suggest the stock may be undervalued, given its strong growth trajectory. However, a fair value assessment is not available due to limited data.",
+      "counterfactuals": [
+        "If DigitalOcean fails to meet next quarter’s revenue guidance",
+        "If there are significant operational issues with new AI offerings"
+      ],
+      "next_checks": [
+        "Monitor upcoming earnings reports for consistency in growth",
+        "Assess market reaction and competition impact on stock price"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "DigitalOcean's recent earnings report showed strong performance with revenue and ARR growth exceeding expectations. The company has also expanded its offerings to attract more AI-native customers, potentially boosting future growth. While the market is currently cautious (as seen in the slight dip post-earnings), the positive outlook on DigitalOcean's future prospects supports a buy recommendation.",
+        "key_drivers": [
+          "Strong Q4 earnings and revenue growth",
+          "Positive guidance for next quarter",
+          "Expansion into AI-native markets with AMD collaboration"
+        ],
+        "key_risks": [
+          "Market uncertainty around cloud computing sector",
+          "Competition from larger tech players",
+          "Risks associated with new product launches"
+        ],
+        "valuation_view": "DigitalOcean's earnings and guidance suggest the stock may be undervalued, given its strong growth trajectory. However, a fair value assessment is not available due to limited data.",
+        "counterfactuals": [
+          "If DigitalOcean fails to meet next quarter’s revenue guidance",
+          "If there are significant operational issues with new AI offerings"
+        ],
+        "next_checks": [
+          "Monitor upcoming earnings reports for consistency in growth",
+          "Assess market reaction and competition impact on stock price"
+        ],
+        "position_plan": {
+          "prefer_qty": 10,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T02:31:56+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "DigitalOcean's recent earnings report and strong performance metrics have driven a bullish sentiment among investors, with significant ARR growth and positive revenue surprises. The company's strategic move to integrate AMD-powered AI Droplets is expected to enhance its competitive edge in the cloud market.",
+      "key_drivers": [
+        "Strong Q4 2025 earnings with 16.8% EPS beat and 1.99% revenue growth",
+        "150% ARR surge, indicating strong customer traction and business health",
+        "Positive guidance for future quarters, boosting investor confidence"
+      ],
+      "key_risks": [
+        "Market competition intensifying as more players enter the AI cloud space",
+        "Economic downturns affecting enterprise spending on cloud services",
+        "Technical issues or delays in new product launches could impact growth plans"
+      ],
+      "valuation_view": "DigitalOcean's valuation appears reasonable given its strong revenue growth and ARR momentum, but further analysis of long-term profitability is needed.",
+      "counterfactuals": [
+        "A significant decline in customer acquisition or retention rates",
+        "Missed earnings targets for the next quarter",
+        "Negative feedback on new product launches affecting market reception"
+      ],
+      "next_checks": [
+        "Monitor Q1 2026 earnings report and guidance for any signs of slowing growth",
+        "Assess competitor reactions to DigitalOcean's AMD collaboration and its impact on market share",
+        "Evaluate customer satisfaction and adoption rates for the new AI Droplets"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "DigitalOcean's recent earnings report and strong performance metrics have driven a bullish sentiment among investors, with significant ARR growth and positive revenue surprises. The company's strategic move to integrate AMD-powered AI Droplets is expected to enhance its competitive edge in the cloud market.",
+        "key_drivers": [
+          "Strong Q4 2025 earnings with 16.8% EPS beat and 1.99% revenue growth",
+          "150% ARR surge, indicating strong customer traction and business health",
+          "Positive guidance for future quarters, boosting investor confidence"
+        ],
+        "key_risks": [
+          "Market competition intensifying as more players enter the AI cloud space",
+          "Economic downturns affecting enterprise spending on cloud services",
+          "Technical issues or delays in new product launches could impact growth plans"
+        ],
+        "valuation_view": "DigitalOcean's valuation appears reasonable given its strong revenue growth and ARR momentum, but further analysis of long-term profitability is needed.",
+        "counterfactuals": [
+          "A significant decline in customer acquisition or retention rates",
+          "Missed earnings targets for the next quarter",
+          "Negative feedback on new product launches affecting market reception"
+        ],
+        "next_checks": [
+          "Monitor Q1 2026 earnings report and guidance for any signs of slowing growth",
+          "Assess competitor reactions to DigitalOcean's AMD collaboration and its impact on market share",
+          "Evaluate customer satisfaction and adoption rates for the new AI Droplets"
+        ],
+        "position_plan": {
+          "prefer_qty": 10,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T02:29:56+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "DigitalOcean's recent earnings report and positive outlook have driven a significant increase in stock performance, with strong revenue growth and ARR surges. The company’s strategic move to enhance its AI offerings through AMD-powered GPU Droplets is expected to attract more customers, potentially boosting future growth.",
+      "key_drivers": [
+        "Strong Q4 2025 earnings with +16.80% EPS beat and +1.99% revenue growth",
+        "Positive guidance for next quarter’s revenue at $249.5 million, above analysts’ estimates",
+        "Strategic collaboration with AMD to enhance AI inference capabilities"
+      ],
+      "key_risks": [
+        "Market competition in the cloud computing space remains intense",
+        "Uncertainty around broader economic conditions and their impact on tech spending"
+      ],
+      "valuation_view": "DigitalOcean’s stock appears undervalued given its strong growth trajectory, but a fair value assessment is challenging without a specific valuation model.",
+      "counterfactuals": [
+        "A significant downturn in the technology sector could negatively impact DigitalOcean's performance",
+        "Missed revenue or earnings guidance could lead to a correction in the stock price"
+      ],
+      "next_checks": [
+        "Monitor Q1 2026 earnings for continued growth and any new strategic initiatives",
+        "Assess market reactions to broader economic indicators that may affect tech spending"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "DigitalOcean's recent earnings report and positive outlook have driven a significant increase in stock performance, with strong revenue growth and ARR surges. The company’s strategic move to enhance its AI offerings through AMD-powered GPU Droplets is expected to attract more customers, potentially boosting future growth.",
+        "key_drivers": [
+          "Strong Q4 2025 earnings with +16.80% EPS beat and +1.99% revenue growth",
+          "Positive guidance for next quarter’s revenue at $249.5 million, above analysts’ estimates",
+          "Strategic collaboration with AMD to enhance AI inference capabilities"
+        ],
+        "key_risks": [
+          "Market competition in the cloud computing space remains intense",
+          "Uncertainty around broader economic conditions and their impact on tech spending"
+        ],
+        "valuation_view": "DigitalOcean’s stock appears undervalued given its strong growth trajectory, but a fair value assessment is challenging without a specific valuation model.",
+        "counterfactuals": [
+          "A significant downturn in the technology sector could negatively impact DigitalOcean's performance",
+          "Missed revenue or earnings guidance could lead to a correction in the stock price"
+        ],
+        "next_checks": [
+          "Monitor Q1 2026 earnings for continued growth and any new strategic initiatives",
+          "Assess market reactions to broader economic indicators that may affect tech spending"
+        ],
+        "position_plan": {
+          "prefer_qty": 50,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T01:44:50+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "DigitalOcean's Q4 2025 earnings exceeded expectations with a significant ARR surge of 150%, and the company raised its growth outlook. The strong performance, coupled with positive guidance for future quarters, indicates robust business momentum. The stock is currently trading around $59, off roughly 5% from its prior close, as investors process the detailed guidance.",
+      "key_drivers": [
+        "150% ARR surge in Q4",
+        "Strong earnings beat expectations",
+        "Positive revenue and profit growth",
+        "Raised multi-year growth outlook"
+      ],
+      "key_risks": [
+        "Market downturn or broader tech sector weakness could impact investor sentiment",
+        "Competition from larger cloud providers may intensify",
+        "Technical issues with new product launches could delay adoption"
+      ],
+      "valuation_view": "The stock's valuation appears reasonable given the strong earnings and growth outlook, but a fair value assessment is needed to confirm this.",
+      "counterfactuals": [
+        "If Q1 2026 earnings do not meet or exceed expectations, it could lead to a reevaluation of the stock’s valuation",
+        "A significant market downturn affecting tech stocks broadly could negatively impact DigitalOcean's share price"
+      ],
+      "next_checks": [
+        "Review Q1 2026 earnings report for any signs of weakening momentum",
+        "Monitor competitor actions and their impact on DigitalOcean's market position"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "DigitalOcean's Q4 2025 earnings exceeded expectations with a significant ARR surge of 150%, and the company raised its growth outlook. The strong performance, coupled with positive guidance for future quarters, indicates robust business momentum. The stock is currently trading around $59, off roughly 5% from its prior close, as investors process the detailed guidance.",
+        "key_drivers": [
+          "150% ARR surge in Q4",
+          "Strong earnings beat expectations",
+          "Positive revenue and profit growth",
+          "Raised multi-year growth outlook"
+        ],
+        "key_risks": [
+          "Market downturn or broader tech sector weakness could impact investor sentiment",
+          "Competition from larger cloud providers may intensify",
+          "Technical issues with new product launches could delay adoption"
+        ],
+        "valuation_view": "The stock's valuation appears reasonable given the strong earnings and growth outlook, but a fair value assessment is needed to confirm this.",
+        "counterfactuals": [
+          "If Q1 2026 earnings do not meet or exceed expectations, it could lead to a reevaluation of the stock’s valuation",
+          "A significant market downturn affecting tech stocks broadly could negatively impact DigitalOcean's share price"
+        ],
+        "next_checks": [
+          "Review Q1 2026 earnings report for any signs of weakening momentum",
+          "Monitor competitor actions and their impact on DigitalOcean's market position"
+        ],
+        "position_plan": {
+          "prefer_qty": 50,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T01:29:28+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "DigitalOcean's Q4 2025 earnings and product launches have shown strong momentum, with significant ARR growth and positive revenue surprises. The stock is trading near its pre-earnings levels but has potential for further upside given the bullish sentiment from recent reports.",
+      "key_drivers": [
+        "150% ARR surge in Q4",
+        "Strong earnings beating estimates",
+        "Positive outlook for future growth"
+      ],
+      "key_risks": [
+        "Market downturn affecting cloud computing stocks",
+        "Competitive pressures from larger tech players",
+        "Technical issues or delays with new product launches"
+      ],
+      "valuation_view": "The stock appears undervalued given the strong earnings and positive guidance, but a more detailed valuation analysis would be beneficial.",
+      "counterfactuals": [
+        "If Q1 2026 earnings fall short of expectations, it could lead to a correction in the stock price.",
+        "A significant market downturn or negative news from competitors could also impact DigitalOcean's performance."
+      ],
+      "next_checks": [
+        "Monitor Q1 2026 earnings report for any signs of weakening momentum",
+        "Keep an eye on competitor actions and their impact on the cloud computing landscape"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "DigitalOcean's Q4 2025 earnings and product launches have shown strong momentum, with significant ARR growth and positive revenue surprises. The stock is trading near its pre-earnings levels but has potential for further upside given the bullish sentiment from recent reports.",
+        "key_drivers": [
+          "150% ARR surge in Q4",
+          "Strong earnings beating estimates",
+          "Positive outlook for future growth"
+        ],
+        "key_risks": [
+          "Market downturn affecting cloud computing stocks",
+          "Competitive pressures from larger tech players",
+          "Technical issues or delays with new product launches"
+        ],
+        "valuation_view": "The stock appears undervalued given the strong earnings and positive guidance, but a more detailed valuation analysis would be beneficial.",
+        "counterfactuals": [
+          "If Q1 2026 earnings fall short of expectations, it could lead to a correction in the stock price.",
+          "A significant market downturn or negative news from competitors could also impact DigitalOcean's performance."
+        ],
+        "next_checks": [
+          "Monitor Q1 2026 earnings report for any signs of weakening momentum",
+          "Keep an eye on competitor actions and their impact on the cloud computing landscape"
+        ],
+        "position_plan": {
+          "prefer_qty": 5,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T01:27:41+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "The recent earnings report from DigitalOcean (DOCN) has shown strong performance with a significant ARR surge and positive revenue growth, exceeding analyst expectations. The company's guidance for future quarters is also optimistic, which could drive further stock appreciation.",
+      "key_drivers": [
+        "150% ARR surge in Q4 2025",
+        "Revenue up 18.3% year on year to $242.4 million",
+        "Positive revenue guidance for next quarter at $249.5 million, above analysts' estimates"
+      ],
+      "key_risks": [
+        "Market conditions could change, affecting overall cloud computing demand.",
+        "Competition in the cloud market may intensify, impacting DigitalOcean's growth trajectory."
+      ],
+      "valuation_view": "The stock appears undervalued given the strong earnings and positive outlook. The current valuation does not fully reflect the potential for future growth driven by AI adoption and expanding product offerings.",
+      "counterfactuals": [
+        "If market conditions worsen, leading to decreased cloud computing demand, this could negatively impact DigitalOcean's performance.",
+        "A failure in integrating new AMD-powered AI Droplets could stall growth initiatives."
+      ],
+      "next_checks": [
+        "Monitor upcoming earnings reports for consistency with current trends.",
+        "Keep an eye on competitor actions and market conditions affecting the cloud computing sector."
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "The recent earnings report from DigitalOcean (DOCN) has shown strong performance with a significant ARR surge and positive revenue growth, exceeding analyst expectations. The company's guidance for future quarters is also optimistic, which could drive further stock appreciation.",
+        "key_drivers": [
+          "150% ARR surge in Q4 2025",
+          "Revenue up 18.3% year on year to $242.4 million",
+          "Positive revenue guidance for next quarter at $249.5 million, above analysts' estimates"
+        ],
+        "key_risks": [
+          "Market conditions could change, affecting overall cloud computing demand.",
+          "Competition in the cloud market may intensify, impacting DigitalOcean's growth trajectory."
+        ],
+        "valuation_view": "The stock appears undervalued given the strong earnings and positive outlook. The current valuation does not fully reflect the potential for future growth driven by AI adoption and expanding product offerings.",
+        "counterfactuals": [
+          "If market conditions worsen, leading to decreased cloud computing demand, this could negatively impact DigitalOcean's performance.",
+          "A failure in integrating new AMD-powered AI Droplets could stall growth initiatives."
+        ],
+        "next_checks": [
+          "Monitor upcoming earnings reports for consistency with current trends.",
+          "Keep an eye on competitor actions and market conditions affecting the cloud computing sector."
+        ],
+        "position_plan": {
+          "prefer_qty": 100,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T01:25:48+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "The recent earnings report from DigitalOcean (DOCN) has shown strong performance with a significant ARR surge and positive revenue growth, beating expectations. The company's guidance for future quarters is also optimistic, which could drive further stock appreciation.",
+      "key_drivers": [
+        "150% ARR surge in Q4 2025",
+        "Revenue up 18.3% year on year to $242.4 million",
+        "Positive revenue guidance for next quarter at $249.5 million, above analysts' estimates"
+      ],
+      "key_risks": [
+        "Market conditions could change, affecting overall cloud computing sector performance.",
+        "Competition in the cloud computing space may intensify, impacting DigitalOcean's market share."
+      ],
+      "valuation_view": "The stock appears undervalued given the strong earnings and positive outlook. However, a fair value assessment is not provided due to limited data.",
+      "counterfactuals": [
+        "If ARR growth slows down or revenue guidance misses expectations in upcoming quarters, it could negatively impact the stock price."
+      ],
+      "next_checks": [
+        "Monitor DigitalOcean's next earnings report for continued strong performance.",
+        "Keep an eye on competitor actions and market trends affecting cloud computing companies."
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "The recent earnings report from DigitalOcean (DOCN) has shown strong performance with a significant ARR surge and positive revenue growth, beating expectations. The company's guidance for future quarters is also optimistic, which could drive further stock appreciation.",
+        "key_drivers": [
+          "150% ARR surge in Q4 2025",
+          "Revenue up 18.3% year on year to $242.4 million",
+          "Positive revenue guidance for next quarter at $249.5 million, above analysts' estimates"
+        ],
+        "key_risks": [
+          "Market conditions could change, affecting overall cloud computing sector performance.",
+          "Competition in the cloud computing space may intensify, impacting DigitalOcean's market share."
+        ],
+        "valuation_view": "The stock appears undervalued given the strong earnings and positive outlook. However, a fair value assessment is not provided due to limited data.",
+        "counterfactuals": [
+          "If ARR growth slows down or revenue guidance misses expectations in upcoming quarters, it could negatively impact the stock price."
+        ],
+        "next_checks": [
+          "Monitor DigitalOcean's next earnings report for continued strong performance.",
+          "Keep an eye on competitor actions and market trends affecting cloud computing companies."
+        ],
+        "position_plan": {
+          "prefer_qty": 10,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:34:05+09:00",
+      "action": "HOLD",
+      "confidence": 0.328,
+      "rationale": "The current market regime is risk-off, and the recent earnings beat and positive guidance have driven premarket gains. However, given the upcoming earnings call and the need for further performance validation, a cautious hold position is advised.",
+      "key_drivers": [
+        "Strong Q4 earnings beat and raised outlook",
+        "Positive guidance for future growth",
+        "Deepening collaboration with AMD"
+      ],
+      "key_risks": [
+        "Potential disappointment in upcoming earnings call",
+        "Market-wide risk-off sentiment could impact all tech stocks"
+      ],
+      "valuation_view": "None",
+      "counterfactuals": [
+        "Earnings miss expectations or guidance is revised downwards",
+        "Market-wide risk-on sentiment shifts significantly"
+      ],
+      "next_checks": [
+        "Q4 and FY25 earnings call results on February 24, 2026",
+        "Further collaboration updates with AMD"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.328,
+        "rationale": "The current market regime is risk-off, and the recent earnings beat and positive guidance have driven premarket gains. However, given the upcoming earnings call and the need for further performance validation, a cautious hold position is advised.",
+        "key_drivers": [
+          "Strong Q4 earnings beat and raised outlook",
+          "Positive guidance for future growth",
+          "Deepening collaboration with AMD"
+        ],
+        "key_risks": [
+          "Potential disappointment in upcoming earnings call",
+          "Market-wide risk-off sentiment could impact all tech stocks"
+        ],
+        "valuation_view": null,
+        "counterfactuals": [
+          "Earnings miss expectations or guidance is revised downwards",
+          "Market-wide risk-on sentiment shifts significantly"
+        ],
+        "next_checks": [
+          "Q4 and FY25 earnings call results on February 24, 2026",
+          "Further collaboration updates with AMD"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:32:08+09:00",
+      "action": "HOLD",
+      "confidence": 0.328,
+      "rationale": "The current market regime is risk-off, and the recent earnings beat and positive outlook have driven short-term gains. However, with upcoming earnings announcements and the need for sustained performance, a cautious approach is advisable.",
+      "key_drivers": [
+        "Strong Q4 results and raised revenue outlook",
+        "Collaboration with AMD to enhance AI inference capabilities"
+      ],
+      "key_risks": [
+        "Upcoming earnings may not meet expectations",
+        "Market remains risk-off, limiting upside potential"
+      ],
+      "valuation_view": "None",
+      "counterfactuals": [
+        "Earnings miss analyst estimates significantly",
+        "Negative market sentiment persists beyond the earnings call"
+      ],
+      "next_checks": [
+        "Q4 and FY25 earnings results on February 24, 2026",
+        "Market reaction to earnings and guidance"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.328,
+        "rationale": "The current market regime is risk-off, and the recent earnings beat and positive outlook have driven short-term gains. However, with upcoming earnings announcements and the need for sustained performance, a cautious approach is advisable.",
+        "key_drivers": [
+          "Strong Q4 results and raised revenue outlook",
+          "Collaboration with AMD to enhance AI inference capabilities"
+        ],
+        "key_risks": [
+          "Upcoming earnings may not meet expectations",
+          "Market remains risk-off, limiting upside potential"
+        ],
+        "valuation_view": null,
+        "counterfactuals": [
+          "Earnings miss analyst estimates significantly",
+          "Negative market sentiment persists beyond the earnings call"
+        ],
+        "next_checks": [
+          "Q4 and FY25 earnings results on February 24, 2026",
+          "Market reaction to earnings and guidance"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:21:15+09:00",
+      "action": "HOLD",
+      "confidence": 0.328,
+      "rationale": "The current market regime is risk-off, and the recent earnings beat and positive outlook have been factored into the stock price. However, with upcoming earnings results and ongoing collaboration with AMD, there are both bullish and bearish factors at play.",
+      "key_drivers": [
+        "Recent strong earnings beat and raised outlook",
+        "Collaboration with AMD for AI inference cloud"
+      ],
+      "key_risks": [
+        "Upcoming earnings could disappoint if not as strong as expected",
+        "Market-wide risk-off sentiment continues to pressure tech stocks"
+      ],
+      "valuation_view": "None",
+      "counterfactuals": [
+        "Earnings results significantly below expectations",
+        "Negative developments in the collaboration with AMD"
+      ],
+      "next_checks": [
+        "Q4 and FY25 earnings report on February 24, 2026",
+        "Further updates on AI inference cloud development"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.328,
+        "rationale": "The current market regime is risk-off, and the recent earnings beat and positive outlook have been factored into the stock price. However, with upcoming earnings results and ongoing collaboration with AMD, there are both bullish and bearish factors at play.",
+        "key_drivers": [
+          "Recent strong earnings beat and raised outlook",
+          "Collaboration with AMD for AI inference cloud"
+        ],
+        "key_risks": [
+          "Upcoming earnings could disappoint if not as strong as expected",
+          "Market-wide risk-off sentiment continues to pressure tech stocks"
+        ],
+        "valuation_view": null,
+        "counterfactuals": [
+          "Earnings results significantly below expectations",
+          "Negative developments in the collaboration with AMD"
+        ],
+        "next_checks": [
+          "Q4 and FY25 earnings report on February 24, 2026",
+          "Further updates on AI inference cloud development"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:19:30+09:00",
+      "action": "HOLD",
+      "confidence": 0.328,
+      "rationale": "The current market regime is risk-off, and the recent earnings beat and positive outlook have driven short-term gains. However, with upcoming earnings announcements and the need for further performance validation, a cautious hold position is advisable.",
+      "key_drivers": [
+        "Strong Q4 results and raised revenue outlook",
+        "Collaboration with AMD to enhance AI inference capabilities"
+      ],
+      "key_risks": [
+        "Upcoming earnings could disappoint if performance does not meet expectations",
+        "Market-wide risk-off sentiment may continue to pressure tech stocks"
+      ],
+      "valuation_view": "None",
+      "counterfactuals": [
+        "Earnings miss analyst estimates or guidance is downgraded",
+        "Negative market reaction due to broader economic concerns"
+      ],
+      "next_checks": [
+        "Q4 and FY25 earnings results on February 24, 2026",
+        "Market sentiment towards tech stocks in the coming weeks"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.328,
+        "rationale": "The current market regime is risk-off, and the recent earnings beat and positive outlook have driven short-term gains. However, with upcoming earnings announcements and the need for further performance validation, a cautious hold position is advisable.",
+        "key_drivers": [
+          "Strong Q4 results and raised revenue outlook",
+          "Collaboration with AMD to enhance AI inference capabilities"
+        ],
+        "key_risks": [
+          "Upcoming earnings could disappoint if performance does not meet expectations",
+          "Market-wide risk-off sentiment may continue to pressure tech stocks"
+        ],
+        "valuation_view": null,
+        "counterfactuals": [
+          "Earnings miss analyst estimates or guidance is downgraded",
+          "Negative market reaction due to broader economic concerns"
+        ],
+        "next_checks": [
+          "Q4 and FY25 earnings results on February 24, 2026",
+          "Market sentiment towards tech stocks in the coming weeks"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:17:40+09:00",
+      "action": "HOLD",
+      "confidence": 0.328,
+      "rationale": "The current market regime is risk-off, and the recent earnings beat and positive outlook have driven short-term gains. However, given the ongoing risk-off environment and upcoming earnings call, a cautious approach is warranted.",
+      "key_drivers": [
+        "Recent strong earnings beat and raised outlook",
+        "Market in a risk-off state"
+      ],
+      "key_risks": [
+        "Ongoing market risk-off sentiment",
+        "Upcoming earnings call results may be less favorable"
+      ],
+      "valuation_view": "None",
+      "counterfactuals": [
+        "Earnings report significantly underperforms expectations",
+        "Market shifts to a more aggressive risk-on stance"
+      ],
+      "next_checks": [
+        "Q4 and FY25 earnings call results",
+        "Market sentiment towards cloud computing stocks"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.328,
+        "rationale": "The current market regime is risk-off, and the recent earnings beat and positive outlook have driven short-term gains. However, given the ongoing risk-off environment and upcoming earnings call, a cautious approach is warranted.",
+        "key_drivers": [
+          "Recent strong earnings beat and raised outlook",
+          "Market in a risk-off state"
+        ],
+        "key_risks": [
+          "Ongoing market risk-off sentiment",
+          "Upcoming earnings call results may be less favorable"
+        ],
+        "valuation_view": null,
+        "counterfactuals": [
+          "Earnings report significantly underperforms expectations",
+          "Market shifts to a more aggressive risk-on stance"
+        ],
+        "next_checks": [
+          "Q4 and FY25 earnings call results",
+          "Market sentiment towards cloud computing stocks"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:15:56+09:00",
+      "action": "HOLD",
+      "confidence": 0.328,
+      "rationale": "The market regime is currently risk-off, and the recent earnings beat and positive guidance have driven short-term gains. However, given the current price and the expected earnings call, a cautious approach is warranted.",
+      "key_drivers": [
+        "Recent strong earnings beat and raised outlook",
+        "Collaboration with AMD for AI inference cloud",
+        "Market regime remains risk-off"
+      ],
+      "key_risks": [
+        "Potential disappointment in upcoming earnings call",
+        "Competitive pressures in the cloud computing market"
+      ],
+      "valuation_view": "None",
+      "counterfactuals": [
+        "A weak performance in the upcoming earnings call could lead to a sell signal.",
+        "Significant negative news regarding AMD's collaboration could impact DigitalOcean's stock."
+      ],
+      "next_checks": [
+        "Earnings call results and guidance",
+        "Competitor actions and market trends"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.328,
+        "rationale": "The market regime is currently risk-off, and the recent earnings beat and positive guidance have driven short-term gains. However, given the current price and the expected earnings call, a cautious approach is warranted.",
+        "key_drivers": [
+          "Recent strong earnings beat and raised outlook",
+          "Collaboration with AMD for AI inference cloud",
+          "Market regime remains risk-off"
+        ],
+        "key_risks": [
+          "Potential disappointment in upcoming earnings call",
+          "Competitive pressures in the cloud computing market"
+        ],
+        "valuation_view": null,
+        "counterfactuals": [
+          "A weak performance in the upcoming earnings call could lead to a sell signal.",
+          "Significant negative news regarding AMD's collaboration could impact DigitalOcean's stock."
+        ],
+        "next_checks": [
+          "Earnings call results and guidance",
+          "Competitor actions and market trends"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:14:00+09:00",
+      "action": "HOLD",
+      "confidence": 0.328,
+      "rationale": "The current market regime is risk-off, and the recent earnings beat and positive outlook from DigitalOcean have driven short-term gains. However, given the upcoming earnings call and the need for further performance metrics, a cautious hold position is advisable.",
+      "key_drivers": [
+        "Recent strong earnings beat and raised outlook",
+        "Positive product launch with AMD collaboration"
+      ],
+      "key_risks": [
+        "Upcoming earnings call could reveal mixed or worse-than-expected results",
+        "Market-wide risk-off sentiment may persist"
+      ],
+      "valuation_view": "Fair value not yet established due to recent positive news and upcoming earnings report.",
+      "counterfactuals": [
+        "Earnings miss expectations in the upcoming Q4 and FY25 call",
+        "Significant market-wide risk-off shift affecting tech stocks negatively"
+      ],
+      "next_checks": [
+        "Review of Q4 and FY25 financial results from DigitalOcean's earnings call",
+        "Market reaction to broader economic indicators and tech sector performance"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.328,
+        "rationale": "The current market regime is risk-off, and the recent earnings beat and positive outlook from DigitalOcean have driven short-term gains. However, given the upcoming earnings call and the need for further performance metrics, a cautious hold position is advisable.",
+        "key_drivers": [
+          "Recent strong earnings beat and raised outlook",
+          "Positive product launch with AMD collaboration"
+        ],
+        "key_risks": [
+          "Upcoming earnings call could reveal mixed or worse-than-expected results",
+          "Market-wide risk-off sentiment may persist"
+        ],
+        "valuation_view": "Fair value not yet established due to recent positive news and upcoming earnings report.",
+        "counterfactuals": [
+          "Earnings miss expectations in the upcoming Q4 and FY25 call",
+          "Significant market-wide risk-off shift affecting tech stocks negatively"
+        ],
+        "next_checks": [
+          "Review of Q4 and FY25 financial results from DigitalOcean's earnings call",
+          "Market reaction to broader economic indicators and tech sector performance"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:49:53+09:00",
+      "action": "HOLD",
+      "confidence": 0.328,
+      "rationale": "The current market regime is risk-off, and the recent earnings beat has driven short-term gains. However, with a dynamic score favoring bullish trends and an upcoming earnings call, caution is advised.",
+      "key_drivers": [
+        "Recent strong earnings beat and positive outlook",
+        "Collaboration with AMD for AI inference capabilities",
+        "Bullish market sentiment from recent news"
+      ],
+      "key_risks": [
+        "Potential disappointment in the upcoming Q4 and FY25 earnings call",
+        "Risk-off market regime may impact overall stock performance"
+      ],
+      "valuation_view": "None",
+      "counterfactuals": [
+        "A weaker-than-expected earnings report could trigger a sell-off.",
+        "Significant negative news regarding AMD or cloud computing industry could shift the market regime to risk-on."
+      ],
+      "next_checks": [
+        "Q4 and FY25 earnings call results",
+        "Market regime shifts in response to broader economic indicators"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.328,
+        "rationale": "The current market regime is risk-off, and the recent earnings beat has driven short-term gains. However, with a dynamic score favoring bullish trends and an upcoming earnings call, caution is advised.",
+        "key_drivers": [
+          "Recent strong earnings beat and positive outlook",
+          "Collaboration with AMD for AI inference capabilities",
+          "Bullish market sentiment from recent news"
+        ],
+        "key_risks": [
+          "Potential disappointment in the upcoming Q4 and FY25 earnings call",
+          "Risk-off market regime may impact overall stock performance"
+        ],
+        "valuation_view": null,
+        "counterfactuals": [
+          "A weaker-than-expected earnings report could trigger a sell-off.",
+          "Significant negative news regarding AMD or cloud computing industry could shift the market regime to risk-on."
+        ],
+        "next_checks": [
+          "Q4 and FY25 earnings call results",
+          "Market regime shifts in response to broader economic indicators"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:47:57+09:00",
+      "action": "HOLD",
+      "confidence": 0.328,
+      "rationale": "Current market conditions and recent earnings suggest a cautious approach given the risk-off regime.",
+      "key_drivers": [
+        "Recent strong earnings beat and positive outlook",
+        "Collaboration with AMD for AI Droplets",
+        "Risk-off market sentiment"
+      ],
+      "key_risks": [
+        "Upcoming earnings call could disappoint if performance metrics are weaker than expected",
+        "Competition in the cloud computing space remains intense"
+      ],
+      "valuation_view": "None",
+      "counterfactuals": [
+        "If Q4 earnings fall short of expectations, consider selling.",
+        "A significant decline in market sentiment towards risk-off regimes could prompt a reevaluation."
+      ],
+      "next_checks": [
+        "Q4 earnings call and results",
+        "Market reaction to AMD collaboration"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.328,
+        "rationale": "Current market conditions and recent earnings suggest a cautious approach given the risk-off regime.",
+        "key_drivers": [
+          "Recent strong earnings beat and positive outlook",
+          "Collaboration with AMD for AI Droplets",
+          "Risk-off market sentiment"
+        ],
+        "key_risks": [
+          "Upcoming earnings call could disappoint if performance metrics are weaker than expected",
+          "Competition in the cloud computing space remains intense"
+        ],
+        "valuation_view": null,
+        "counterfactuals": [
+          "If Q4 earnings fall short of expectations, consider selling.",
+          "A significant decline in market sentiment towards risk-off regimes could prompt a reevaluation."
+        ],
+        "next_checks": [
+          "Q4 earnings call and results",
+          "Market reaction to AMD collaboration"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:46:08+09:00",
+      "action": "HOLD",
+      "confidence": 0.23,
+      "rationale": "Current market conditions and recent earnings indicate a neutral stance with no strong buying or selling signals.",
+      "key_drivers": [
+        "Recent positive earnings beat and raised outlook",
+        "Collaboration with AMD for AI Droplets"
+      ],
+      "key_risks": [
+        "Market remains risk-off, limiting potential gains",
+        "Competitive pressures in the cloud computing market"
+      ],
+      "valuation_view": "None",
+      "counterfactuals": [
+        "A significant decline in earnings or outlook could trigger a sell signal.",
+        "Negative news regarding AMD's collaboration with DigitalOcean could impact stock price."
+      ],
+      "next_checks": [
+        "Q4 and FY25 financial results",
+        "Competitor performance and market trends"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.23,
+        "rationale": "Current market conditions and recent earnings indicate a neutral stance with no strong buying or selling signals.",
+        "key_drivers": [
+          "Recent positive earnings beat and raised outlook",
+          "Collaboration with AMD for AI Droplets"
+        ],
+        "key_risks": [
+          "Market remains risk-off, limiting potential gains",
+          "Competitive pressures in the cloud computing market"
+        ],
+        "valuation_view": null,
+        "counterfactuals": [
+          "A significant decline in earnings or outlook could trigger a sell signal.",
+          "Negative news regarding AMD's collaboration with DigitalOcean could impact stock price."
+        ],
+        "next_checks": [
+          "Q4 and FY25 financial results",
+          "Competitor performance and market trends"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:37:37+09:00",
+      "action": "HOLD",
+      "confidence": 0.23294117647058823,
+      "rationale": "The current market regime is risk-off, and the recent earnings beat and positive guidance have driven short-term gains. However, with a neutral technical analysis score and upcoming earnings, it's prudent to hold for now.",
+      "key_drivers": [
+        "Recent strong earnings beat and raised outlook",
+        "Positive guidance on future growth prospects",
+        "Market regime is risk-off"
+      ],
+      "key_risks": [
+        "Upcoming earnings could disappoint if performance metrics are weaker than expected",
+        "Overall market sentiment remains cautious"
+      ],
+      "valuation_view": "None",
+      "counterfactuals": [
+        "If the upcoming Q4 and FY25 financial results show weaker-than-expected performance, it may trigger a sell signal.",
+        "A significant decline in market regime to ultra-risk-off could also prompt a re-evaluation."
+      ],
+      "next_checks": [
+        "Q4 and FY25 earnings report",
+        "Market sentiment and overall economic indicators"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.23294117647058823,
+        "rationale": "The current market regime is risk-off, and the recent earnings beat and positive guidance have driven short-term gains. However, with a neutral technical analysis score and upcoming earnings, it's prudent to hold for now.",
+        "key_drivers": [
+          "Recent strong earnings beat and raised outlook",
+          "Positive guidance on future growth prospects",
+          "Market regime is risk-off"
+        ],
+        "key_risks": [
+          "Upcoming earnings could disappoint if performance metrics are weaker than expected",
+          "Overall market sentiment remains cautious"
+        ],
+        "valuation_view": null,
+        "counterfactuals": [
+          "If the upcoming Q4 and FY25 financial results show weaker-than-expected performance, it may trigger a sell signal.",
+          "A significant decline in market regime to ultra-risk-off could also prompt a re-evaluation."
+        ],
+        "next_checks": [
+          "Q4 and FY25 earnings report",
+          "Market sentiment and overall economic indicators"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:35:57+09:00",
+      "action": "HOLD",
+      "confidence": 0.23294117647058823,
+      "rationale": "The current market regime is risk-off, and the recent earnings beat and positive outlook have been fully priced in. The upcoming earnings call does not significantly alter this stance given the neutral sentiment from recent news.",
+      "key_drivers": [
+        "Strong Q4 CY2025 earnings with revenue growth of 18.3% year-on-year",
+        "Positive guidance for 2026 and 2027, raising market confidence in future growth"
+      ],
+      "key_risks": [
+        "Potential disappointment if the upcoming earnings call does not meet expectations",
+        "Market-wide risk-off sentiment could impact all tech stocks negatively"
+      ],
+      "valuation_view": "None",
+      "counterfactuals": [
+        "If Q4 CY2025 earnings fall short of current guidance, it could lead to a reevaluation and potential sell-off.",
+        "A broader market rally or shift in risk appetite could prompt a reassessment."
+      ],
+      "next_checks": [
+        "Q4 CY2025 earnings call results",
+        "Market-wide sentiment shifts"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.23294117647058823,
+        "rationale": "The current market regime is risk-off, and the recent earnings beat and positive outlook have been fully priced in. The upcoming earnings call does not significantly alter this stance given the neutral sentiment from recent news.",
+        "key_drivers": [
+          "Strong Q4 CY2025 earnings with revenue growth of 18.3% year-on-year",
+          "Positive guidance for 2026 and 2027, raising market confidence in future growth"
+        ],
+        "key_risks": [
+          "Potential disappointment if the upcoming earnings call does not meet expectations",
+          "Market-wide risk-off sentiment could impact all tech stocks negatively"
+        ],
+        "valuation_view": null,
+        "counterfactuals": [
+          "If Q4 CY2025 earnings fall short of current guidance, it could lead to a reevaluation and potential sell-off.",
+          "A broader market rally or shift in risk appetite could prompt a reassessment."
+        ],
+        "next_checks": [
+          "Q4 CY2025 earnings call results",
+          "Market-wide sentiment shifts"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:34:10+09:00",
+      "action": "HOLD",
+      "confidence": 0.23,
+      "rationale": "The current market regime is risk-off, and the recent earnings beat and positive outlook have been partially digested by the market. The upcoming earnings call may provide further clarity but does not warrant a significant change in position.",
+      "key_drivers": [
+        "Strong Q4 CY2025 earnings beat and raised revenue outlook",
+        "Collaboration with AMD to enhance AI inference capabilities"
+      ],
+      "key_risks": [
+        "Potential disappointment in the upcoming earnings call",
+        "Market-wide risk-off sentiment could persist"
+      ],
+      "valuation_view": "None",
+      "counterfactuals": [
+        "A significant miss on revenue or guidance during the Q4 CY2025 earnings call would change my position to SELL.",
+        "A market-wide shift towards a more aggressive risk-on regime could prompt a re-evaluation of the holding."
+      ],
+      "next_checks": [
+        "Q4 CY2025 earnings call and results",
+        "Market sentiment and broader economic indicators"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.23,
+        "rationale": "The current market regime is risk-off, and the recent earnings beat and positive outlook have been partially digested by the market. The upcoming earnings call may provide further clarity but does not warrant a significant change in position.",
+        "key_drivers": [
+          "Strong Q4 CY2025 earnings beat and raised revenue outlook",
+          "Collaboration with AMD to enhance AI inference capabilities"
+        ],
+        "key_risks": [
+          "Potential disappointment in the upcoming earnings call",
+          "Market-wide risk-off sentiment could persist"
+        ],
+        "valuation_view": null,
+        "counterfactuals": [
+          "A significant miss on revenue or guidance during the Q4 CY2025 earnings call would change my position to SELL.",
+          "A market-wide shift towards a more aggressive risk-on regime could prompt a re-evaluation of the holding."
+        ],
+        "next_checks": [
+          "Q4 CY2025 earnings call and results",
+          "Market sentiment and broader economic indicators"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:32:18+09:00",
+      "action": "HOLD",
+      "confidence": 0.23294117647058823,
+      "rationale": "Current market conditions and recent earnings indicate a neutral stance, with the stock price showing stability despite positive earnings. The risk-off sentiment suggests caution in making aggressive moves.",
+      "key_drivers": [
+        "Positive Q4 CY2025 earnings beat expectations",
+        "Raised revenue outlook for 2026 and 2027",
+        "New AI Droplets with AMD collaboration"
+      ],
+      "key_risks": [
+        "Risk-off market sentiment",
+        "Potential disappointment in upcoming earnings or guidance"
+      ],
+      "valuation_view": "None",
+      "counterfactuals": [
+        "Significant decline in Q1 CY2026 earnings or outlook",
+        "Market-wide shift to risk-on sentiment leading to broader sell-offs"
+      ],
+      "next_checks": [
+        "Q1 CY2026 earnings report and guidance",
+        "Market reaction to new AI Droplets launch"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.23294117647058823,
+        "rationale": "Current market conditions and recent earnings indicate a neutral stance, with the stock price showing stability despite positive earnings. The risk-off sentiment suggests caution in making aggressive moves.",
+        "key_drivers": [
+          "Positive Q4 CY2025 earnings beat expectations",
+          "Raised revenue outlook for 2026 and 2027",
+          "New AI Droplets with AMD collaboration"
+        ],
+        "key_risks": [
+          "Risk-off market sentiment",
+          "Potential disappointment in upcoming earnings or guidance"
+        ],
+        "valuation_view": null,
+        "counterfactuals": [
+          "Significant decline in Q1 CY2026 earnings or outlook",
+          "Market-wide shift to risk-on sentiment leading to broader sell-offs"
+        ],
+        "next_checks": [
+          "Q1 CY2026 earnings report and guidance",
+          "Market reaction to new AI Droplets launch"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:28:30+09:00",
+      "action": "HOLD",
+      "confidence": 0.23294117647058823,
+      "rationale": "The current market regime is risk-off, and the recent earnings beat and positive outlook have been priced in. The upcoming earnings call does not provide a strong enough signal to change the holding stance.",
+      "key_drivers": [
+        "Recent earnings beat and raised outlook",
+        "Positive product launch with AMD",
+        "Market regime is risk-off"
+      ],
+      "key_risks": [
+        "Potential disappointment in upcoming earnings call",
+        "Volatility in cloud computing sector"
+      ],
+      "valuation_view": "None",
+      "counterfactuals": [
+        "If the earnings call results are below expectations, consider selling.",
+        "If there is a significant negative shift in market sentiment towards cloud computing companies, re-evaluate position."
+      ],
+      "next_checks": [
+        "Review upcoming earnings report and guidance for Q4 2025",
+        "Monitor broader market conditions and sector performance"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.23294117647058823,
+        "rationale": "The current market regime is risk-off, and the recent earnings beat and positive outlook have been priced in. The upcoming earnings call does not provide a strong enough signal to change the holding stance.",
+        "key_drivers": [
+          "Recent earnings beat and raised outlook",
+          "Positive product launch with AMD",
+          "Market regime is risk-off"
+        ],
+        "key_risks": [
+          "Potential disappointment in upcoming earnings call",
+          "Volatility in cloud computing sector"
+        ],
+        "valuation_view": null,
+        "counterfactuals": [
+          "If the earnings call results are below expectations, consider selling.",
+          "If there is a significant negative shift in market sentiment towards cloud computing companies, re-evaluate position."
+        ],
+        "next_checks": [
+          "Review upcoming earnings report and guidance for Q4 2025",
+          "Monitor broader market conditions and sector performance"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:26:36+09:00",
+      "action": "HOLD",
+      "confidence": 0.23,
+      "rationale": "Current market conditions and recent earnings indicate a neutral stance with potential for future growth, but the risk-off environment suggests caution.",
+      "key_drivers": [
+        "Strong Q4 CY2025 earnings beat expectations and raised outlook for 2026 and 2027",
+        "New product launch with AMD to enhance AI offerings"
+      ],
+      "key_risks": [
+        "Current risk-off market sentiment may limit upward movement",
+        "Earnings report could reveal unexpected challenges or lower-than-expected guidance in future quarters"
+      ],
+      "valuation_view": "None",
+      "counterfactuals": [
+        "If earnings report shows weaker than expected results, consider selling",
+        "If the market shifts to a risk-on sentiment, reassess and potentially buy"
+      ],
+      "next_checks": [
+        "Review Q4 CY2025 earnings report for detailed performance metrics",
+        "Monitor market conditions for any shift in risk appetite"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.23,
+        "rationale": "Current market conditions and recent earnings indicate a neutral stance with potential for future growth, but the risk-off environment suggests caution.",
+        "key_drivers": [
+          "Strong Q4 CY2025 earnings beat expectations and raised outlook for 2026 and 2027",
+          "New product launch with AMD to enhance AI offerings"
+        ],
+        "key_risks": [
+          "Current risk-off market sentiment may limit upward movement",
+          "Earnings report could reveal unexpected challenges or lower-than-expected guidance in future quarters"
+        ],
+        "valuation_view": null,
+        "counterfactuals": [
+          "If earnings report shows weaker than expected results, consider selling",
+          "If the market shifts to a risk-on sentiment, reassess and potentially buy"
+        ],
+        "next_checks": [
+          "Review Q4 CY2025 earnings report for detailed performance metrics",
+          "Monitor market conditions for any shift in risk appetite"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T22:51:53+09:00",
+      "action": "HOLD",
+      "confidence": 0.3129411764705882,
+      "rationale": "The current market sentiment is neutral, and the recent earnings beat and positive guidance have driven short-term gains. However, with the market in a risk-off mode, further upside may be limited. The upcoming earnings call could provide clearer signals on future growth prospects.",
+      "key_drivers": [
+        "Strong Q4 CY2025 earnings beat and raised outlook",
+        "Positive guidance for 2026 and 2027"
+      ],
+      "key_risks": [
+        "Market remains in a risk-off mode, limiting potential gains",
+        "Earnings call results may not meet expectations"
+      ],
+      "valuation_view": "None",
+      "counterfactuals": [
+        "If earnings call results are below expectations, consider selling",
+        "If market sentiment shifts to risk-on, re-evaluate position"
+      ],
+      "next_checks": [
+        "Review Q4 CY2025 earnings report for detailed metrics and guidance",
+        "Monitor market conditions for any shifts in risk appetite"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.3129411764705882,
+        "rationale": "The current market sentiment is neutral, and the recent earnings beat and positive guidance have driven short-term gains. However, with the market in a risk-off mode, further upside may be limited. The upcoming earnings call could provide clearer signals on future growth prospects.",
+        "key_drivers": [
+          "Strong Q4 CY2025 earnings beat and raised outlook",
+          "Positive guidance for 2026 and 2027"
+        ],
+        "key_risks": [
+          "Market remains in a risk-off mode, limiting potential gains",
+          "Earnings call results may not meet expectations"
+        ],
+        "valuation_view": null,
+        "counterfactuals": [
+          "If earnings call results are below expectations, consider selling",
+          "If market sentiment shifts to risk-on, re-evaluate position"
+        ],
+        "next_checks": [
+          "Review Q4 CY2025 earnings report for detailed metrics and guidance",
+          "Monitor market conditions for any shifts in risk appetite"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T22:50:04+09:00",
+      "action": "HOLD",
+      "confidence": 0.3,
+      "rationale": "Recent earnings beat and positive guidance have driven short-term gains, but the market is currently in a risk-off mode. The upcoming earnings report could provide clearer signals on future growth prospects.",
+      "key_drivers": [
+        "Strong Q4 CY2025 revenue beat and raised outlook",
+        "Positive investor sentiment"
+      ],
+      "key_risks": [
+        "Market remains risk-off, potentially limiting upside",
+        "Earnings may not meet expectations in the upcoming report"
+      ],
+      "valuation_view": "Fair value not clearly defined without more data points",
+      "counterfactuals": [
+        "If earnings miss expectations significantly next week, consider selling",
+        "If market sentiment shifts to risk-on, re-evaluate position for potential buy"
+      ],
+      "next_checks": [
+        "Review Q4 CY2025 earnings report and guidance details",
+        "Monitor market regime for any shifts in risk appetite"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.3,
+        "rationale": "Recent earnings beat and positive guidance have driven short-term gains, but the market is currently in a risk-off mode. The upcoming earnings report could provide clearer signals on future growth prospects.",
+        "key_drivers": [
+          "Strong Q4 CY2025 revenue beat and raised outlook",
+          "Positive investor sentiment"
+        ],
+        "key_risks": [
+          "Market remains risk-off, potentially limiting upside",
+          "Earnings may not meet expectations in the upcoming report"
+        ],
+        "valuation_view": "Fair value not clearly defined without more data points",
+        "counterfactuals": [
+          "If earnings miss expectations significantly next week, consider selling",
+          "If market sentiment shifts to risk-on, re-evaluate position for potential buy"
+        ],
+        "next_checks": [
+          "Review Q4 CY2025 earnings report and guidance details",
+          "Monitor market regime for any shifts in risk appetite"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:54:46+09:00",
+      "action": "HOLD",
+      "confidence": 0.8,
+      "rationale": "近期有重要财报公布，市场反应可能较大，建议观望。",
+      "key_drivers": [
+        "Q4和FY25财报公布"
+      ],
+      "key_risks": [
+        "财报结果不及预期"
+      ],
+      "valuation_view": "当前估值未提供具体假设",
+      "counterfactuals": [
+        "若财报表现不佳，则需重新评估投资策略"
+      ],
+      "next_checks": [
+        "关注财报发布后的市场反应及公司后续公告"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.8,
+        "rationale": "近期有重要财报公布，市场反应可能较大，建议观望。",
+        "key_drivers": [
+          "Q4和FY25财报公布"
+        ],
+        "key_risks": [
+          "财报结果不及预期"
+        ],
+        "valuation_view": "当前估值未提供具体假设",
+        "counterfactuals": [
+          "若财报表现不佳，则需重新评估投资策略"
+        ],
+        "next_checks": [
+          "关注财报发布后的市场反应及公司后续公告"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:53:22+09:00",
+      "action": "HOLD",
+      "confidence": 0.8,
+      "rationale": "近期有重要财报公布，市场反应可能较大，建议观望。",
+      "key_drivers": [
+        "Q4和FY25财报公布"
+      ],
+      "key_risks": [
+        "财报结果不及预期"
+      ],
+      "valuation_view": "当前估值未提供具体假设",
+      "counterfactuals": [
+        "若财报表现不佳，则需重新评估投资策略"
+      ],
+      "next_checks": [
+        "关注财报发布后的市场反应及公司后续公告"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.8,
+        "rationale": "近期有重要财报公布，市场反应可能较大，建议观望。",
+        "key_drivers": [
+          "Q4和FY25财报公布"
+        ],
+        "key_risks": [
+          "财报结果不及预期"
+        ],
+        "valuation_view": "当前估值未提供具体假设",
+        "counterfactuals": [
+          "若财报表现不佳，则需重新评估投资策略"
+        ],
+        "next_checks": [
+          "关注财报发布后的市场反应及公司后续公告"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:51:59+09:00",
+      "action": "HOLD",
+      "confidence": 0.8,
+      "rationale": "近期有重要财报公布，市场反应可能较大，建议观望。",
+      "key_drivers": [
+        "Q4和FY25财报公布"
+      ],
+      "key_risks": [
+        "财报结果不及预期"
+      ],
+      "valuation_view": "当前估值未提供具体假设",
+      "counterfactuals": [
+        "若财报表现不佳，则需重新评估投资策略"
+      ],
+      "next_checks": [
+        "关注财报发布后的市场反应及公司后续公告"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.8,
+        "rationale": "近期有重要财报公布，市场反应可能较大，建议观望。",
+        "key_drivers": [
+          "Q4和FY25财报公布"
+        ],
+        "key_risks": [
+          "财报结果不及预期"
+        ],
+        "valuation_view": "当前估值未提供具体假设",
+        "counterfactuals": [
+          "若财报表现不佳，则需重新评估投资策略"
+        ],
+        "next_checks": [
+          "关注财报发布后的市场反应及公司后续公告"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:50:24+09:00",
+      "action": "HOLD",
+      "confidence": 0.8,
+      "rationale": "近期有重要财报公布，市场反应可能较大，建议观望。",
+      "key_drivers": [
+        "Q4和FY25财报公布"
+      ],
+      "key_risks": [
+        "财报结果不及预期"
+      ],
+      "valuation_view": "当前估值未提供具体假设",
+      "counterfactuals": [
+        "若财报表现不佳，则需重新评估投资策略"
+      ],
+      "next_checks": [
+        "关注财报发布后的市场反应及公司后续公告"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.8,
+        "rationale": "近期有重要财报公布，市场反应可能较大，建议观望。",
+        "key_drivers": [
+          "Q4和FY25财报公布"
+        ],
+        "key_risks": [
+          "财报结果不及预期"
+        ],
+        "valuation_view": "当前估值未提供具体假设",
+        "counterfactuals": [
+          "若财报表现不佳，则需重新评估投资策略"
+        ],
+        "next_checks": [
+          "关注财报发布后的市场反应及公司后续公告"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:32:36+09:00",
+      "action": "HOLD",
+      "confidence": 0.8,
+      "rationale": "近期有重要财报公布，市场反应可能较大，建议观望。",
+      "key_drivers": [
+        "Q4和FY25财报公布"
+      ],
+      "key_risks": [
+        "财报结果不及预期"
+      ],
+      "valuation_view": "当前估值未提供具体假设",
+      "counterfactuals": [
+        "若财报表现不佳，则需重新评估投资策略"
+      ],
+      "next_checks": [
+        "关注财报发布后的市场反应及公司后续公告"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.8,
+        "rationale": "近期有重要财报公布，市场反应可能较大，建议观望。",
+        "key_drivers": [
+          "Q4和FY25财报公布"
+        ],
+        "key_risks": [
+          "财报结果不及预期"
+        ],
+        "valuation_view": "当前估值未提供具体假设",
+        "counterfactuals": [
+          "若财报表现不佳，则需重新评估投资策略"
+        ],
+        "next_checks": [
+          "关注财报发布后的市场反应及公司后续公告"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:30:31+09:00",
+      "action": "HOLD",
+      "confidence": 0.8,
+      "rationale": "近期有重要财报公布，市场反应可能较大，建议观望。",
+      "key_drivers": [
+        "Q4和FY25财报公布"
+      ],
+      "key_risks": [
+        "财报结果不及预期"
+      ],
+      "valuation_view": "当前估值未提供具体假设",
+      "counterfactuals": [
+        "若财报表现不佳，则需重新评估投资策略"
+      ],
+      "next_checks": [
+        "关注财报发布后的市场反应及公司后续公告"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.8,
+        "rationale": "近期有重要财报公布，市场反应可能较大，建议观望。",
+        "key_drivers": [
+          "Q4和FY25财报公布"
+        ],
+        "key_risks": [
+          "财报结果不及预期"
+        ],
+        "valuation_view": "当前估值未提供具体假设",
+        "counterfactuals": [
+          "若财报表现不佳，则需重新评估投资策略"
+        ],
+        "next_checks": [
+          "关注财报发布后的市场反应及公司后续公告"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:25:15+09:00",
+      "action": "HOLD",
+      "confidence": 0.8,
+      "rationale": "近期有重要财报公布，市场反应可能较大，建议观望。",
+      "key_drivers": [
+        "Q4和FY25财报公布"
+      ],
+      "key_risks": [
+        "财报结果不及预期"
+      ],
+      "valuation_view": "当前估值未提供具体假设",
+      "counterfactuals": [
+        "若财报表现不佳，则需重新评估投资策略"
+      ],
+      "next_checks": [
+        "关注财报发布后的市场反应及公司后续公告"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.8,
+        "rationale": "近期有重要财报公布，市场反应可能较大，建议观望。",
+        "key_drivers": [
+          "Q4和FY25财报公布"
+        ],
+        "key_risks": [
+          "财报结果不及预期"
+        ],
+        "valuation_view": "当前估值未提供具体假设",
+        "counterfactuals": [
+          "若财报表现不佳，则需重新评估投资策略"
+        ],
+        "next_checks": [
+          "关注财报发布后的市场反应及公司后续公告"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:23:51+09:00",
+      "action": "HOLD",
+      "confidence": 0.8,
+      "rationale": "近期有重要财报公布，市场反应可能较大，建议观望。",
+      "key_drivers": [
+        "Q4和FY25财报公布"
+      ],
+      "key_risks": [
+        "财报结果不及预期"
+      ],
+      "valuation_view": "当前估值未提供具体假设",
+      "counterfactuals": [
+        "若财报表现不佳，则需重新评估投资策略"
+      ],
+      "next_checks": [
+        "关注财报发布后的市场反应及公司后续公告"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.8,
+        "rationale": "近期有重要财报公布，市场反应可能较大，建议观望。",
+        "key_drivers": [
+          "Q4和FY25财报公布"
+        ],
+        "key_risks": [
+          "财报结果不及预期"
+        ],
+        "valuation_view": "当前估值未提供具体假设",
+        "counterfactuals": [
+          "若财报表现不佳，则需重新评估投资策略"
+        ],
+        "next_checks": [
+          "关注财报发布后的市场反应及公司后续公告"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:22:34+09:00",
+      "action": "HOLD",
+      "confidence": 0.8,
+      "rationale": "近期有重要财报公布，市场反应可能较大，建议观望。",
+      "key_drivers": [
+        "Q4和FY25财报公布"
+      ],
+      "key_risks": [
+        "财报结果不及预期"
+      ],
+      "valuation_view": "当前估值未提供具体假设",
+      "counterfactuals": [
+        "若财报表现不佳，则需重新评估投资策略"
+      ],
+      "next_checks": [
+        "关注财报发布后的市场反应及公司后续公告"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.8,
+        "rationale": "近期有重要财报公布，市场反应可能较大，建议观望。",
+        "key_drivers": [
+          "Q4和FY25财报公布"
+        ],
+        "key_risks": [
+          "财报结果不及预期"
+        ],
+        "valuation_view": "当前估值未提供具体假设",
+        "counterfactuals": [
+          "若财报表现不佳，则需重新评估投资策略"
+        ],
+        "next_checks": [
+          "关注财报发布后的市场反应及公司后续公告"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:21:15+09:00",
+      "action": "HOLD",
+      "confidence": 0.8,
+      "rationale": "近期有重要财报公布，市场反应可能较大，建议观望。",
+      "key_drivers": [
+        "Q4和FY25财报公布"
+      ],
+      "key_risks": [
+        "财报结果不及预期"
+      ],
+      "valuation_view": "当前估值未提供具体假设",
+      "counterfactuals": [
+        "若财报表现不佳，则需重新评估投资策略"
+      ],
+      "next_checks": [
+        "关注财报发布后的市场反应及公司后续公告"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.8,
+        "rationale": "近期有重要财报公布，市场反应可能较大，建议观望。",
+        "key_drivers": [
+          "Q4和FY25财报公布"
+        ],
+        "key_risks": [
+          "财报结果不及预期"
+        ],
+        "valuation_view": "当前估值未提供具体假设",
+        "counterfactuals": [
+          "若财报表现不佳，则需重新评估投资策略"
+        ],
+        "next_checks": [
+          "关注财报发布后的市场反应及公司后续公告"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:19:47+09:00",
+      "action": "HOLD",
+      "confidence": 0.8,
+      "rationale": "近期有重要财报公布，市场反应可能较大，建议观望。",
+      "key_drivers": [
+        "Q4和FY25财报公布"
+      ],
+      "key_risks": [
+        "财报结果不及预期"
+      ],
+      "valuation_view": "当前估值未提供具体假设",
+      "counterfactuals": [
+        "若财报表现不佳，则需重新评估投资策略"
+      ],
+      "next_checks": [
+        "关注财报发布后的市场反应及公司后续公告"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.8,
+        "rationale": "近期有重要财报公布，市场反应可能较大，建议观望。",
+        "key_drivers": [
+          "Q4和FY25财报公布"
+        ],
+        "key_risks": [
+          "财报结果不及预期"
+        ],
+        "valuation_view": "当前估值未提供具体假设",
+        "counterfactuals": [
+          "若财报表现不佳，则需重新评估投资策略"
+        ],
+        "next_checks": [
+          "关注财报发布后的市场反应及公司后续公告"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    }
+  ],
+  "tags": []
+}

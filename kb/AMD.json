@@ -1,0 +1,1995 @@
+{
+  "ticker": "AMD",
+  "updated_at": "2026-02-22T22:01:59+09:00",
+  "thesis": "",
+  "business_summary": "",
+  "moat": "",
+  "key_drivers": [],
+  "key_risks": [],
+  "valuation_method": "simple",
+  "valuation_assumptions": {},
+  "target_price": null,
+  "fair_value_range": null,
+  "evidence": [],
+  "decisions": [
+    {
+      "ts_kst": "2026-02-22T22:01:59+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+      "key_drivers": [],
+      "key_risks": [
+        "미래의 기술 동향 변화",
+        "경쟁사들의 움직임"
+      ],
+      "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+      "counterfactuals": [
+        "NVIDIA와의 경쟁 심화",
+        "새로운 기술 트렌드 변화"
+      ],
+      "next_checks": [
+        "AMD의 최신 사업 동향",
+        "주요 경쟁사들의 움직임"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+        "key_drivers": [],
+        "key_risks": [
+          "미래의 기술 동향 변화",
+          "경쟁사들의 움직임"
+        ],
+        "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+        "counterfactuals": [
+          "NVIDIA와의 경쟁 심화",
+          "새로운 기술 트렌드 변화"
+        ],
+        "next_checks": [
+          "AMD의 최신 사업 동향",
+          "주요 경쟁사들의 움직임"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-22T22:01:28+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+      "key_drivers": [],
+      "key_risks": [
+        "미래의 기술 동향 변화",
+        "경쟁사들의 움직임"
+      ],
+      "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+      "counterfactuals": [
+        "NVIDIA와의 경쟁 심화",
+        "새로운 기술 트렌드 변화"
+      ],
+      "next_checks": [
+        "AMD의 최신 사업 동향",
+        "주요 경쟁사들의 움직임"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+        "key_drivers": [],
+        "key_risks": [
+          "미래의 기술 동향 변화",
+          "경쟁사들의 움직임"
+        ],
+        "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+        "counterfactuals": [
+          "NVIDIA와의 경쟁 심화",
+          "새로운 기술 트렌드 변화"
+        ],
+        "next_checks": [
+          "AMD의 최신 사업 동향",
+          "주요 경쟁사들의 움직임"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-22T22:00:56+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+      "key_drivers": [],
+      "key_risks": [
+        "미래의 기술 동향 변화",
+        "경쟁사들의 움직임"
+      ],
+      "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+      "counterfactuals": [
+        "NVIDIA와의 경쟁 심화",
+        "새로운 기술 트렌드 변화"
+      ],
+      "next_checks": [
+        "AMD의 최신 사업 동향",
+        "주요 경쟁사들의 움직임"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+        "key_drivers": [],
+        "key_risks": [
+          "미래의 기술 동향 변화",
+          "경쟁사들의 움직임"
+        ],
+        "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+        "counterfactuals": [
+          "NVIDIA와의 경쟁 심화",
+          "새로운 기술 트렌드 변화"
+        ],
+        "next_checks": [
+          "AMD의 최신 사업 동향",
+          "주요 경쟁사들의 움직임"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-22T22:00:24+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+      "key_drivers": [],
+      "key_risks": [
+        "미래의 기술 동향 변화",
+        "경쟁사들의 움직임"
+      ],
+      "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+      "counterfactuals": [
+        "NVIDIA와의 경쟁 심화",
+        "새로운 기술 트렌드 변화"
+      ],
+      "next_checks": [
+        "AMD의 최신 사업 동향",
+        "주요 경쟁사들의 움직임"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+        "key_drivers": [],
+        "key_risks": [
+          "미래의 기술 동향 변화",
+          "경쟁사들의 움직임"
+        ],
+        "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+        "counterfactuals": [
+          "NVIDIA와의 경쟁 심화",
+          "새로운 기술 트렌드 변화"
+        ],
+        "next_checks": [
+          "AMD의 최신 사업 동향",
+          "주요 경쟁사들의 움직임"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-22T21:59:51+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+      "key_drivers": [],
+      "key_risks": [
+        "미래의 기술 동향 변화",
+        "경쟁사들의 움직임"
+      ],
+      "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+      "counterfactuals": [
+        "NVIDIA와의 경쟁 심화",
+        "새로운 기술 트렌드 변화"
+      ],
+      "next_checks": [
+        "AMD의 최신 사업 동향",
+        "주요 경쟁사들의 움직임"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+        "key_drivers": [],
+        "key_risks": [
+          "미래의 기술 동향 변화",
+          "경쟁사들의 움직임"
+        ],
+        "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+        "counterfactuals": [
+          "NVIDIA와의 경쟁 심화",
+          "새로운 기술 트렌드 변화"
+        ],
+        "next_checks": [
+          "AMD의 최신 사업 동향",
+          "주요 경쟁사들의 움직임"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-22T21:59:20+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+      "key_drivers": [],
+      "key_risks": [
+        "미래의 기술 동향 변화",
+        "경쟁사들의 움직임"
+      ],
+      "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+      "counterfactuals": [
+        "NVIDIA와의 경쟁 심화",
+        "새로운 기술 트렌드 변화"
+      ],
+      "next_checks": [
+        "AMD의 최신 사업 동향",
+        "주요 경쟁사들의 움직임"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+        "key_drivers": [],
+        "key_risks": [
+          "미래의 기술 동향 변화",
+          "경쟁사들의 움직임"
+        ],
+        "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+        "counterfactuals": [
+          "NVIDIA와의 경쟁 심화",
+          "새로운 기술 트렌드 변화"
+        ],
+        "next_checks": [
+          "AMD의 최신 사업 동향",
+          "주요 경쟁사들의 움직임"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-22T21:58:42+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+      "key_drivers": [],
+      "key_risks": [
+        "미래의 기술 동향 변화",
+        "경쟁사들의 움직임"
+      ],
+      "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+      "counterfactuals": [
+        "NVIDIA와의 경쟁 심화",
+        "새로운 기술 트렌드 변화"
+      ],
+      "next_checks": [
+        "AMD의 최신 사업 동향",
+        "주요 경쟁사들의 움직임"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+        "key_drivers": [],
+        "key_risks": [
+          "미래의 기술 동향 변화",
+          "경쟁사들의 움직임"
+        ],
+        "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+        "counterfactuals": [
+          "NVIDIA와의 경쟁 심화",
+          "새로운 기술 트렌드 변화"
+        ],
+        "next_checks": [
+          "AMD의 최신 사업 동향",
+          "주요 경쟁사들의 움직임"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-22T20:36:51+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+      "key_drivers": [],
+      "key_risks": [
+        "미래의 기술 동향 변화",
+        "경쟁사들의 움직임"
+      ],
+      "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+      "counterfactuals": [
+        "NVIDIA와의 경쟁 심화",
+        "새로운 기술 트렌드 변화"
+      ],
+      "next_checks": [
+        "AMD의 최신 사업 동향",
+        "주요 경쟁사들의 움직임"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+        "key_drivers": [],
+        "key_risks": [
+          "미래의 기술 동향 변화",
+          "경쟁사들의 움직임"
+        ],
+        "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+        "counterfactuals": [
+          "NVIDIA와의 경쟁 심화",
+          "새로운 기술 트렌드 변화"
+        ],
+        "next_checks": [
+          "AMD의 최신 사업 동향",
+          "주요 경쟁사들의 움직임"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-22T20:36:20+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+      "key_drivers": [],
+      "key_risks": [
+        "미래의 기술 동향 변화",
+        "경쟁사들의 움직임"
+      ],
+      "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+      "counterfactuals": [
+        "NVIDIA와의 경쟁 심화",
+        "새로운 기술 트렌드 변화"
+      ],
+      "next_checks": [
+        "AMD의 최신 사업 동향",
+        "주요 경쟁사들의 움직임"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+        "key_drivers": [],
+        "key_risks": [
+          "미래의 기술 동향 변화",
+          "경쟁사들의 움직임"
+        ],
+        "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+        "counterfactuals": [
+          "NVIDIA와의 경쟁 심화",
+          "새로운 기술 트렌드 변화"
+        ],
+        "next_checks": [
+          "AMD의 최신 사업 동향",
+          "주요 경쟁사들의 움직임"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-22T20:34:51+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+      "key_drivers": [],
+      "key_risks": [
+        "미래의 기술 동향 변화",
+        "경쟁사들의 움직임"
+      ],
+      "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+      "counterfactuals": [
+        "NVIDIA와의 경쟁 심화",
+        "새로운 기술 트렌드 변화"
+      ],
+      "next_checks": [
+        "AMD의 최신 사업 동향",
+        "주요 경쟁사들의 움직임"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+        "key_drivers": [],
+        "key_risks": [
+          "미래의 기술 동향 변화",
+          "경쟁사들의 움직임"
+        ],
+        "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+        "counterfactuals": [
+          "NVIDIA와의 경쟁 심화",
+          "새로운 기술 트렌드 변화"
+        ],
+        "next_checks": [
+          "AMD의 최신 사업 동향",
+          "주요 경쟁사들의 움직임"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-22T20:34:20+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+      "key_drivers": [],
+      "key_risks": [
+        "미래의 기술 동향 변화",
+        "경쟁사들의 움직임"
+      ],
+      "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+      "counterfactuals": [
+        "NVIDIA와의 경쟁 심화",
+        "새로운 기술 트렌드 변화"
+      ],
+      "next_checks": [
+        "AMD의 최신 사업 동향",
+        "주요 경쟁사들의 움직임"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+        "key_drivers": [],
+        "key_risks": [
+          "미래의 기술 동향 변화",
+          "경쟁사들의 움직임"
+        ],
+        "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+        "counterfactuals": [
+          "NVIDIA와의 경쟁 심화",
+          "새로운 기술 트렌드 변화"
+        ],
+        "next_checks": [
+          "AMD의 최신 사업 동향",
+          "주요 경쟁사들의 움직임"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-22T20:33:49+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+      "key_drivers": [],
+      "key_risks": [
+        "미래의 기술 동향 변화",
+        "경쟁사들의 움직임"
+      ],
+      "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+      "counterfactuals": [
+        "NVIDIA와의 경쟁 심화",
+        "새로운 기술 트렌드 변화"
+      ],
+      "next_checks": [
+        "AMD의 최신 사업 동향",
+        "주요 경쟁사들의 움직임"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+        "key_drivers": [],
+        "key_risks": [
+          "미래의 기술 동향 변화",
+          "경쟁사들의 움직임"
+        ],
+        "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+        "counterfactuals": [
+          "NVIDIA와의 경쟁 심화",
+          "새로운 기술 트렌드 변화"
+        ],
+        "next_checks": [
+          "AMD의 최신 사업 동향",
+          "주요 경쟁사들의 움직임"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-22T20:33:18+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+      "key_drivers": [],
+      "key_risks": [
+        "미래의 기술 동향 변화",
+        "경쟁사들의 움직임"
+      ],
+      "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+      "counterfactuals": [
+        "NVIDIA와의 경쟁 심화",
+        "새로운 기술 트렌드 변화"
+      ],
+      "next_checks": [
+        "AMD의 최신 사업 동향",
+        "주요 경쟁사들의 움직임"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+        "key_drivers": [],
+        "key_risks": [
+          "미래의 기술 동향 변화",
+          "경쟁사들의 움직임"
+        ],
+        "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+        "counterfactuals": [
+          "NVIDIA와의 경쟁 심화",
+          "새로운 기술 트렌드 변화"
+        ],
+        "next_checks": [
+          "AMD의 최신 사업 동향",
+          "주요 경쟁사들의 움직임"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-22T20:32:47+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+      "key_drivers": [],
+      "key_risks": [
+        "미래의 기술 동향 변화",
+        "경쟁사들의 움직임"
+      ],
+      "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+      "counterfactuals": [
+        "NVIDIA와의 경쟁 심화",
+        "새로운 기술 트렌드 변화"
+      ],
+      "next_checks": [
+        "AMD의 최신 사업 동향",
+        "주요 경쟁사들의 움직임"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+        "key_drivers": [],
+        "key_risks": [
+          "미래의 기술 동향 변화",
+          "경쟁사들의 움직임"
+        ],
+        "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+        "counterfactuals": [
+          "NVIDIA와의 경쟁 심화",
+          "새로운 기술 트렌드 변화"
+        ],
+        "next_checks": [
+          "AMD의 최신 사업 동향",
+          "주요 경쟁사들의 움직임"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-22T20:32:17+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+      "key_drivers": [],
+      "key_risks": [
+        "미래의 기술 동향 변화",
+        "경쟁사들의 움직임"
+      ],
+      "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+      "counterfactuals": [
+        "NVIDIA와의 경쟁 심화",
+        "새로운 기술 트렌드 변화"
+      ],
+      "next_checks": [
+        "AMD의 최신 사업 동향",
+        "주요 경쟁사들의 움직임"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+        "key_drivers": [],
+        "key_risks": [
+          "미래의 기술 동향 변화",
+          "경쟁사들의 움직임"
+        ],
+        "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+        "counterfactuals": [
+          "NVIDIA와의 경쟁 심화",
+          "새로운 기술 트렌드 변화"
+        ],
+        "next_checks": [
+          "AMD의 최신 사업 동향",
+          "주요 경쟁사들의 움직임"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-22T20:31:46+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+      "key_drivers": [],
+      "key_risks": [
+        "미래의 기술 동향 변화",
+        "경쟁사들의 움직임"
+      ],
+      "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+      "counterfactuals": [
+        "NVIDIA와의 경쟁 심화",
+        "새로운 기술 트렌드 변화"
+      ],
+      "next_checks": [
+        "AMD의 최신 사업 동향",
+        "주요 경쟁사들의 움직임"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+        "key_drivers": [],
+        "key_risks": [
+          "미래의 기술 동향 변화",
+          "경쟁사들의 움직임"
+        ],
+        "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+        "counterfactuals": [
+          "NVIDIA와의 경쟁 심화",
+          "새로운 기술 트렌드 변화"
+        ],
+        "next_checks": [
+          "AMD의 최신 사업 동향",
+          "주요 경쟁사들의 움직임"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-22T20:31:15+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+      "key_drivers": [],
+      "key_risks": [
+        "미래의 기술 동향 변화",
+        "경쟁사들의 움직임"
+      ],
+      "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+      "counterfactuals": [
+        "NVIDIA와의 경쟁 심화",
+        "새로운 기술 트렌드 변화"
+      ],
+      "next_checks": [
+        "AMD의 최신 사업 동향",
+        "주요 경쟁사들의 움직임"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+        "key_drivers": [],
+        "key_risks": [
+          "미래의 기술 동향 변화",
+          "경쟁사들의 움직임"
+        ],
+        "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+        "counterfactuals": [
+          "NVIDIA와의 경쟁 심화",
+          "새로운 기술 트렌드 변화"
+        ],
+        "next_checks": [
+          "AMD의 최신 사업 동향",
+          "주요 경쟁사들의 움직임"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-22T20:30:44+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+      "key_drivers": [],
+      "key_risks": [
+        "미래의 기술 동향 변화",
+        "경쟁사들의 움직임"
+      ],
+      "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+      "counterfactuals": [
+        "NVIDIA와의 경쟁 심화",
+        "새로운 기술 트렌드 변화"
+      ],
+      "next_checks": [
+        "AMD의 최신 사업 동향",
+        "주요 경쟁사들의 움직임"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+        "key_drivers": [],
+        "key_risks": [
+          "미래의 기술 동향 변화",
+          "경쟁사들의 움직임"
+        ],
+        "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+        "counterfactuals": [
+          "NVIDIA와의 경쟁 심화",
+          "새로운 기술 트렌드 변화"
+        ],
+        "next_checks": [
+          "AMD의 최신 사업 동향",
+          "주요 경쟁사들의 움직임"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-22T20:30:13+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+      "key_drivers": [],
+      "key_risks": [
+        "미래의 기술 동향 변화",
+        "경쟁사들의 움직임"
+      ],
+      "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+      "counterfactuals": [
+        "NVIDIA와의 경쟁 심화",
+        "새로운 기술 트렌드 변화"
+      ],
+      "next_checks": [
+        "AMD의 최신 사업 동향",
+        "주요 경쟁사들의 움직임"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+        "key_drivers": [],
+        "key_risks": [
+          "미래의 기술 동향 변화",
+          "경쟁사들의 움직임"
+        ],
+        "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+        "counterfactuals": [
+          "NVIDIA와의 경쟁 심화",
+          "새로운 기술 트렌드 변화"
+        ],
+        "next_checks": [
+          "AMD의 최신 사업 동향",
+          "주요 경쟁사들의 움직임"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-22T20:29:42+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+      "key_drivers": [],
+      "key_risks": [
+        "미래의 기술 동향 변화",
+        "경쟁사들의 움직임"
+      ],
+      "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+      "counterfactuals": [
+        "NVIDIA와의 경쟁 심화",
+        "새로운 기술 트렌드 변화"
+      ],
+      "next_checks": [
+        "AMD의 최신 사업 동향",
+        "주요 경쟁사들의 움직임"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+        "key_drivers": [],
+        "key_risks": [
+          "미래의 기술 동향 변화",
+          "경쟁사들의 움직임"
+        ],
+        "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+        "counterfactuals": [
+          "NVIDIA와의 경쟁 심화",
+          "새로운 기술 트렌드 변화"
+        ],
+        "next_checks": [
+          "AMD의 최신 사업 동향",
+          "주요 경쟁사들의 움직임"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-22T20:29:11+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+      "key_drivers": [],
+      "key_risks": [
+        "미래의 기술 동향 변화",
+        "경쟁사들의 움직임"
+      ],
+      "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+      "counterfactuals": [
+        "NVIDIA와의 경쟁 심화",
+        "새로운 기술 트렌드 변화"
+      ],
+      "next_checks": [
+        "AMD의 최신 사업 동향",
+        "주요 경쟁사들의 움직임"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+        "key_drivers": [],
+        "key_risks": [
+          "미래의 기술 동향 변화",
+          "경쟁사들의 움직임"
+        ],
+        "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+        "counterfactuals": [
+          "NVIDIA와의 경쟁 심화",
+          "새로운 기술 트렌드 변화"
+        ],
+        "next_checks": [
+          "AMD의 최신 사업 동향",
+          "주요 경쟁사들의 움직임"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-22T20:28:40+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+      "key_drivers": [],
+      "key_risks": [
+        "미래의 기술 동향 변화",
+        "경쟁사들의 움직임"
+      ],
+      "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+      "counterfactuals": [
+        "NVIDIA와의 경쟁 심화",
+        "새로운 기술 트렌드 변화"
+      ],
+      "next_checks": [
+        "AMD의 최신 사업 동향",
+        "주요 경쟁사들의 움직임"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+        "key_drivers": [],
+        "key_risks": [
+          "미래의 기술 동향 변화",
+          "경쟁사들의 움직임"
+        ],
+        "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+        "counterfactuals": [
+          "NVIDIA와의 경쟁 심화",
+          "새로운 기술 트렌드 변화"
+        ],
+        "next_checks": [
+          "AMD의 최신 사업 동향",
+          "주요 경쟁사들의 움직임"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-22T20:28:09+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+      "key_drivers": [],
+      "key_risks": [
+        "미래의 기술 동향 변화",
+        "경쟁사들의 움직임"
+      ],
+      "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+      "counterfactuals": [
+        "NVIDIA와의 경쟁 심화",
+        "새로운 기술 트렌드 변화"
+      ],
+      "next_checks": [
+        "AMD의 최신 사업 동향",
+        "주요 경쟁사들의 움직임"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+        "key_drivers": [],
+        "key_risks": [
+          "미래의 기술 동향 변화",
+          "경쟁사들의 움직임"
+        ],
+        "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+        "counterfactuals": [
+          "NVIDIA와의 경쟁 심화",
+          "새로운 기술 트렌드 변화"
+        ],
+        "next_checks": [
+          "AMD의 최신 사업 동향",
+          "주요 경쟁사들의 움직임"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-22T20:27:38+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+      "key_drivers": [],
+      "key_risks": [
+        "미래의 기술 동향 변화",
+        "경쟁사들의 움직임"
+      ],
+      "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+      "counterfactuals": [
+        "NVIDIA와의 경쟁 심화",
+        "새로운 기술 트렌드 변화"
+      ],
+      "next_checks": [
+        "AMD의 최신 사업 동향",
+        "주요 경쟁사들의 움직임"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+        "key_drivers": [],
+        "key_risks": [
+          "미래의 기술 동향 변화",
+          "경쟁사들의 움직임"
+        ],
+        "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+        "counterfactuals": [
+          "NVIDIA와의 경쟁 심화",
+          "새로운 기술 트렌드 변화"
+        ],
+        "next_checks": [
+          "AMD의 최신 사업 동향",
+          "주요 경쟁사들의 움직임"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-22T20:27:07+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+      "key_drivers": [],
+      "key_risks": [
+        "미래의 기술 동향 변화",
+        "경쟁사들의 움직임"
+      ],
+      "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+      "counterfactuals": [
+        "NVIDIA와의 경쟁 심화",
+        "새로운 기술 트렌드 변화"
+      ],
+      "next_checks": [
+        "AMD의 최신 사업 동향",
+        "주요 경쟁사들의 움직임"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+        "key_drivers": [],
+        "key_risks": [
+          "미래의 기술 동향 변화",
+          "경쟁사들의 움직임"
+        ],
+        "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+        "counterfactuals": [
+          "NVIDIA와의 경쟁 심화",
+          "새로운 기술 트렌드 변화"
+        ],
+        "next_checks": [
+          "AMD의 최신 사업 동향",
+          "주요 경쟁사들의 움직임"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-22T20:26:36+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+      "key_drivers": [],
+      "key_risks": [
+        "미래의 기술 동향 변화",
+        "경쟁사들의 움직임"
+      ],
+      "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+      "counterfactuals": [
+        "NVIDIA와의 경쟁 심화",
+        "새로운 기술 트렌드 변화"
+      ],
+      "next_checks": [
+        "AMD의 최신 사업 동향",
+        "주요 경쟁사들의 움직임"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+        "key_drivers": [],
+        "key_risks": [
+          "미래의 기술 동향 변화",
+          "경쟁사들의 움직임"
+        ],
+        "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+        "counterfactuals": [
+          "NVIDIA와의 경쟁 심화",
+          "새로운 기술 트렌드 변화"
+        ],
+        "next_checks": [
+          "AMD의 최신 사업 동향",
+          "주요 경쟁사들의 움직임"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-22T20:26:06+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+      "key_drivers": [],
+      "key_risks": [
+        "미래의 기술 동향 변화",
+        "경쟁사들의 움직임"
+      ],
+      "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+      "counterfactuals": [
+        "NVIDIA와의 경쟁 심화",
+        "새로운 기술 트렌드 변화"
+      ],
+      "next_checks": [
+        "AMD의 최신 사업 동향",
+        "주요 경쟁사들의 움직임"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+        "key_drivers": [],
+        "key_risks": [
+          "미래의 기술 동향 변화",
+          "경쟁사들의 움직임"
+        ],
+        "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+        "counterfactuals": [
+          "NVIDIA와의 경쟁 심화",
+          "새로운 기술 트렌드 변화"
+        ],
+        "next_checks": [
+          "AMD의 최신 사업 동향",
+          "주요 경쟁사들의 움직임"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-22T20:25:34+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+      "key_drivers": [],
+      "key_risks": [
+        "미래의 기술 동향 변화",
+        "경쟁사들의 움직임"
+      ],
+      "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+      "counterfactuals": [
+        "NVIDIA와의 경쟁 심화",
+        "새로운 기술 트렌드 변화"
+      ],
+      "next_checks": [
+        "AMD의 최신 사업 동향",
+        "주요 경쟁사들의 움직임"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+        "key_drivers": [],
+        "key_risks": [
+          "미래의 기술 동향 변화",
+          "경쟁사들의 움직임"
+        ],
+        "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+        "counterfactuals": [
+          "NVIDIA와의 경쟁 심화",
+          "새로운 기술 트렌드 변화"
+        ],
+        "next_checks": [
+          "AMD의 최신 사업 동향",
+          "주요 경쟁사들의 움직임"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-22T20:25:03+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+      "key_drivers": [],
+      "key_risks": [
+        "미래의 기술 동향 변화",
+        "경쟁사들의 움직임"
+      ],
+      "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+      "counterfactuals": [
+        "NVIDIA와의 경쟁 심화",
+        "새로운 기술 트렌드 변화"
+      ],
+      "next_checks": [
+        "AMD의 최신 사업 동향",
+        "주요 경쟁사들의 움직임"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+        "key_drivers": [],
+        "key_risks": [
+          "미래의 기술 동향 변화",
+          "경쟁사들의 움직임"
+        ],
+        "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+        "counterfactuals": [
+          "NVIDIA와의 경쟁 심화",
+          "새로운 기술 트렌드 변화"
+        ],
+        "next_checks": [
+          "AMD의 최신 사업 동향",
+          "주요 경쟁사들의 움직임"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-22T20:24:33+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+      "key_drivers": [],
+      "key_risks": [
+        "미래의 기술 동향 변화",
+        "경쟁사들의 움직임"
+      ],
+      "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+      "counterfactuals": [
+        "NVIDIA와의 경쟁 심화",
+        "새로운 기술 트렌드 변화"
+      ],
+      "next_checks": [
+        "AMD의 최신 사업 동향",
+        "주요 경쟁사들의 움직임"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+        "key_drivers": [],
+        "key_risks": [
+          "미래의 기술 동향 변화",
+          "경쟁사들의 움직임"
+        ],
+        "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+        "counterfactuals": [
+          "NVIDIA와의 경쟁 심화",
+          "새로운 기술 트렌드 변화"
+        ],
+        "next_checks": [
+          "AMD의 최신 사업 동향",
+          "주요 경쟁사들의 움직임"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-22T20:24:02+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+      "key_drivers": [],
+      "key_risks": [
+        "미래의 기술 동향 변화",
+        "경쟁사들의 움직임"
+      ],
+      "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+      "counterfactuals": [
+        "NVIDIA와의 경쟁 심화",
+        "새로운 기술 트렌드 변화"
+      ],
+      "next_checks": [
+        "AMD의 최신 사업 동향",
+        "주요 경쟁사들의 움직임"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+        "key_drivers": [],
+        "key_risks": [
+          "미래의 기술 동향 변화",
+          "경쟁사들의 움직임"
+        ],
+        "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+        "counterfactuals": [
+          "NVIDIA와의 경쟁 심화",
+          "새로운 기술 트렌드 변화"
+        ],
+        "next_checks": [
+          "AMD의 최신 사업 동향",
+          "주요 경쟁사들의 움직임"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-22T20:23:31+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+      "key_drivers": [],
+      "key_risks": [
+        "미래의 기술 동향 변화",
+        "경쟁사들의 움직임"
+      ],
+      "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+      "counterfactuals": [
+        "NVIDIA와의 경쟁 심화",
+        "새로운 기술 트렌드 변화"
+      ],
+      "next_checks": [
+        "AMD의 최신 사업 동향",
+        "주요 경쟁사들의 움직임"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+        "key_drivers": [],
+        "key_risks": [
+          "미래의 기술 동향 변화",
+          "경쟁사들의 움직임"
+        ],
+        "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+        "counterfactuals": [
+          "NVIDIA와의 경쟁 심화",
+          "새로운 기술 트렌드 변화"
+        ],
+        "next_checks": [
+          "AMD의 최신 사업 동향",
+          "주요 경쟁사들의 움직임"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-22T20:23:00+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+      "key_drivers": [],
+      "key_risks": [
+        "미래의 기술 동향 변화",
+        "경쟁사들의 움직임"
+      ],
+      "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+      "counterfactuals": [
+        "NVIDIA와의 경쟁 심화",
+        "새로운 기술 트렌드 변화"
+      ],
+      "next_checks": [
+        "AMD의 최신 사업 동향",
+        "주요 경쟁사들의 움직임"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+        "key_drivers": [],
+        "key_risks": [
+          "미래의 기술 동향 변화",
+          "경쟁사들의 움직임"
+        ],
+        "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+        "counterfactuals": [
+          "NVIDIA와의 경쟁 심화",
+          "새로운 기술 트렌드 변화"
+        ],
+        "next_checks": [
+          "AMD의 최신 사업 동향",
+          "주요 경쟁사들의 움직임"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-22T20:22:29+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+      "key_drivers": [],
+      "key_risks": [
+        "미래의 기술 동향 변화",
+        "경쟁사들의 움직임"
+      ],
+      "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+      "counterfactuals": [
+        "NVIDIA와의 경쟁 심화",
+        "새로운 기술 트렌드 변화"
+      ],
+      "next_checks": [
+        "AMD의 최신 사업 동향",
+        "주요 경쟁사들의 움직임"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+        "key_drivers": [],
+        "key_risks": [
+          "미래의 기술 동향 변화",
+          "경쟁사들의 움직임"
+        ],
+        "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+        "counterfactuals": [
+          "NVIDIA와의 경쟁 심화",
+          "새로운 기술 트렌드 변화"
+        ],
+        "next_checks": [
+          "AMD의 최신 사업 동향",
+          "주요 경쟁사들의 움직임"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-22T20:21:58+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+      "key_drivers": [],
+      "key_risks": [
+        "미래의 기술 동향 변화",
+        "경쟁사들의 움직임"
+      ],
+      "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+      "counterfactuals": [
+        "NVIDIA와의 경쟁 심화",
+        "새로운 기술 트렌드 변화"
+      ],
+      "next_checks": [
+        "AMD의 최신 사업 동향",
+        "주요 경쟁사들의 움직임"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+        "key_drivers": [],
+        "key_risks": [
+          "미래의 기술 동향 변화",
+          "경쟁사들의 움직임"
+        ],
+        "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+        "counterfactuals": [
+          "NVIDIA와의 경쟁 심화",
+          "새로운 기술 트렌드 변화"
+        ],
+        "next_checks": [
+          "AMD의 최신 사업 동향",
+          "주요 경쟁사들의 움직임"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-22T20:21:27+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+      "key_drivers": [],
+      "key_risks": [
+        "미래의 기술 동향 변화",
+        "경쟁사들의 움직임"
+      ],
+      "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+      "counterfactuals": [
+        "NVIDIA와의 경쟁 심화",
+        "새로운 기술 트렌드 변화"
+      ],
+      "next_checks": [
+        "AMD의 최신 사업 동향",
+        "주요 경쟁사들의 움직임"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+        "key_drivers": [],
+        "key_risks": [
+          "미래의 기술 동향 변화",
+          "경쟁사들의 움직임"
+        ],
+        "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+        "counterfactuals": [
+          "NVIDIA와의 경쟁 심화",
+          "새로운 기술 트렌드 변화"
+        ],
+        "next_checks": [
+          "AMD의 최신 사업 동향",
+          "주요 경쟁사들의 움직임"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-22T20:20:51+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+      "key_drivers": [],
+      "key_risks": [
+        "미래의 기술 동향 변화",
+        "경쟁사들의 움직임"
+      ],
+      "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+      "counterfactuals": [
+        "NVIDIA와의 경쟁 심화",
+        "새로운 기술 트렌드 변화"
+      ],
+      "next_checks": [
+        "AMD의 최신 사업 동향",
+        "주요 경쟁사들의 움직임"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+        "key_drivers": [],
+        "key_risks": [
+          "미래의 기술 동향 변화",
+          "경쟁사들의 움직임"
+        ],
+        "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+        "counterfactuals": [
+          "NVIDIA와의 경쟁 심화",
+          "새로운 기술 트렌드 변화"
+        ],
+        "next_checks": [
+          "AMD의 최신 사업 동향",
+          "주요 경쟁사들의 움직임"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-22T19:03:31+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+      "key_drivers": [],
+      "key_risks": [
+        "미래의 기술 동향 변화",
+        "경쟁사들의 움직임"
+      ],
+      "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+      "counterfactuals": [
+        "NVIDIA와의 경쟁 심화",
+        "새로운 기술 트렌드 변화"
+      ],
+      "next_checks": [
+        "AMD의 최신 사업 동향",
+        "주요 경쟁사들의 움직임"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+        "key_drivers": [],
+        "key_risks": [
+          "미래의 기술 동향 변화",
+          "경쟁사들의 움직임"
+        ],
+        "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+        "counterfactuals": [
+          "NVIDIA와의 경쟁 심화",
+          "새로운 기술 트렌드 변화"
+        ],
+        "next_checks": [
+          "AMD의 최신 사업 동향",
+          "주요 경쟁사들의 움직임"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-22T18:01:42+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+      "key_drivers": [],
+      "key_risks": [
+        "미래의 기술 동향 변화",
+        "경쟁사들의 움직임"
+      ],
+      "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+      "counterfactuals": [
+        "NVIDIA와의 경쟁 심화",
+        "새로운 기술 트렌드 변화"
+      ],
+      "next_checks": [
+        "AMD의 최신 사업 동향",
+        "주요 경쟁사들의 움직임"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+        "key_drivers": [],
+        "key_risks": [
+          "미래의 기술 동향 변화",
+          "경쟁사들의 움직임"
+        ],
+        "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+        "counterfactuals": [
+          "NVIDIA와의 경쟁 심화",
+          "새로운 기술 트렌드 변화"
+        ],
+        "next_checks": [
+          "AMD의 최신 사업 동향",
+          "주요 경쟁사들의 움직임"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-22T17:53:37+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+      "key_drivers": [],
+      "key_risks": [
+        "미래의 기술 동향 변화",
+        "경쟁사들의 움직임"
+      ],
+      "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+      "counterfactuals": [
+        "NVIDIA와의 경쟁 심화",
+        "새로운 기술 트렌드 변화"
+      ],
+      "next_checks": [
+        "AMD의 최신 사업 동향",
+        "주요 경쟁사들의 움직임"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+        "key_drivers": [],
+        "key_risks": [
+          "미래의 기술 동향 변화",
+          "경쟁사들의 움직임"
+        ],
+        "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+        "counterfactuals": [
+          "NVIDIA와의 경쟁 심화",
+          "새로운 기술 트렌드 변화"
+        ],
+        "next_checks": [
+          "AMD의 최신 사업 동향",
+          "주요 경쟁사들의 움직임"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-22T16:58:23+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+      "key_drivers": [],
+      "key_risks": [
+        "미래의 기술 동향 변화",
+        "경쟁사들의 움직임"
+      ],
+      "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+      "counterfactuals": [
+        "NVIDIA와의 경쟁 심화",
+        "새로운 기술 트렌드 변화"
+      ],
+      "next_checks": [
+        "AMD의 최신 사업 동향",
+        "주요 경쟁사들의 움직임"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+        "key_drivers": [],
+        "key_risks": [
+          "미래의 기술 동향 변화",
+          "경쟁사들의 움직임"
+        ],
+        "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+        "counterfactuals": [
+          "NVIDIA와의 경쟁 심화",
+          "새로운 기술 트렌드 변화"
+        ],
+        "next_checks": [
+          "AMD의 최신 사업 동향",
+          "주요 경쟁사들의 움직임"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-22T16:42:59+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+      "key_drivers": [],
+      "key_risks": [
+        "미래의 기술 동향 변화",
+        "경쟁사들의 움직임"
+      ],
+      "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+      "counterfactuals": [
+        "NVIDIA와의 경쟁 심화",
+        "새로운 기술 트렌드 변화"
+      ],
+      "next_checks": [
+        "AMD의 최신 사업 동향",
+        "주요 경쟁사들의 움직임"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+        "key_drivers": [],
+        "key_risks": [
+          "미래의 기술 동향 변화",
+          "경쟁사들의 움직임"
+        ],
+        "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+        "counterfactuals": [
+          "NVIDIA와의 경쟁 심화",
+          "새로운 기술 트렌드 변화"
+        ],
+        "next_checks": [
+          "AMD의 최신 사업 동향",
+          "주요 경쟁사들의 움직임"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-22T13:13:25+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+      "key_drivers": [],
+      "key_risks": [
+        "미래의 기술 동향 변화",
+        "경쟁사들의 움직임"
+      ],
+      "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+      "counterfactuals": [
+        "NVIDIA와의 경쟁 심화",
+        "새로운 기술 트렌드 변화"
+      ],
+      "next_checks": [
+        "AMD의 최신 사업 동향",
+        "주요 경쟁사들의 움직임"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+        "key_drivers": [],
+        "key_risks": [
+          "미래의 기술 동향 변화",
+          "경쟁사들의 움직임"
+        ],
+        "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+        "counterfactuals": [
+          "NVIDIA와의 경쟁 심화",
+          "새로운 기술 트렌드 변화"
+        ],
+        "next_checks": [
+          "AMD의 최신 사업 동향",
+          "주요 경쟁사들의 움직임"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-21T09:29:46+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+      "key_drivers": [],
+      "key_risks": [
+        "미래의 기술 동향 변화",
+        "경쟁사들의 움직임"
+      ],
+      "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+      "counterfactuals": [
+        "NVIDIA와의 경쟁 심화",
+        "새로운 기술 트렌드 변화"
+      ],
+      "next_checks": [
+        "AMD의 최신 사업 동향",
+        "주요 경쟁사들의 움직임"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+        "key_drivers": [],
+        "key_risks": [
+          "미래의 기술 동향 변화",
+          "경쟁사들의 움직임"
+        ],
+        "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+        "counterfactuals": [
+          "NVIDIA와의 경쟁 심화",
+          "새로운 기술 트렌드 변화"
+        ],
+        "next_checks": [
+          "AMD의 최신 사업 동향",
+          "주요 경쟁사들의 움직임"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-21T09:00:50+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+      "key_drivers": [],
+      "key_risks": [
+        "미래의 기술 동향 변화",
+        "경쟁사들의 움직임"
+      ],
+      "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+      "counterfactuals": [
+        "NVIDIA와의 경쟁 심화",
+        "새로운 기술 트렌드 변화"
+      ],
+      "next_checks": [
+        "AMD의 최신 사업 동향",
+        "주요 경쟁사들의 움직임"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다.",
+        "key_drivers": [],
+        "key_risks": [
+          "미래의 기술 동향 변화",
+          "경쟁사들의 움직임"
+        ],
+        "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+        "counterfactuals": [
+          "NVIDIA와의 경쟁 심화",
+          "새로운 기술 트렌드 변화"
+        ],
+        "next_checks": [
+          "AMD의 최신 사업 동향",
+          "주요 경쟁사들의 움직임"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-21T08:59:20+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다. 따라서 현 포지션은 유지합니다.",
+      "key_drivers": [],
+      "key_risks": [
+        "미래의 기술 동향 변화",
+        "경쟁사들의 움직임"
+      ],
+      "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+      "counterfactuals": [
+        "NVIDIA와의 경쟁 심화",
+        "새로운 기술 트렌드 변화"
+      ],
+      "next_checks": [
+        "AMD의 최신 사업 동향",
+        "주요 경쟁사들의 움직임"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장 동향과 기업 이벤트는 AMD에 대한 직접적인 영향을 미치지 않았습니다. 따라서 현 포지션은 유지합니다.",
+        "key_drivers": [],
+        "key_risks": [
+          "미래의 기술 동향 변화",
+          "경쟁사들의 움직임"
+        ],
+        "valuation_view": "현재 평가 방법은 간단한 모델을 사용하며, 정확한 가치 범위는 아직 확정되지 않았습니다.",
+        "counterfactuals": [
+          "NVIDIA와의 경쟁 심화",
+          "새로운 기술 트렌드 변화"
+        ],
+        "next_checks": [
+          "AMD의 최신 사업 동향",
+          "주요 경쟁사들의 움직임"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    }
+  ],
+  "tags": []
+}

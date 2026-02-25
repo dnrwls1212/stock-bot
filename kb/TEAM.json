@@ -1,0 +1,2116 @@
+{
+  "ticker": "TEAM",
+  "updated_at": "2026-02-25T02:34:17+09:00",
+  "thesis": "",
+  "business_summary": "",
+  "moat": "",
+  "key_drivers": [],
+  "key_risks": [],
+  "valuation_method": "simple",
+  "valuation_assumptions": {},
+  "target_price": null,
+  "fair_value_range": null,
+  "evidence": [
+    {
+      "ts_kst": "2026-02-25T00:13:19+09:00",
+      "source": "news",
+      "title": "Zacks Investment Ideas feature highlights: Nvidia, Dillard's, Macy's and Kohl's",
+      "summary": "Dillard's nears Q4 with flat sales expected, softer EPS, and a 700% five-year surge could this retail leader be a buy-the-dip opportunity?",
+      "link": "https://finance.yahoo.com/news/zacks-investment-ideas-feature-highlights-133800513.html?.tsrc=rss",
+      "sentiment": "neutral",
+      "impact": 0,
+      "tags": [
+        "other"
+      ],
+      "raw": {
+        "tickers": [
+          "DDOG",
+          "TEAM"
+        ],
+        "event_type": "other",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [],
+        "trade_horizon": "swing_days",
+        "why_it_moves": ""
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T22:43:30+09:00",
+      "source": "news",
+      "title": "Investors Are Dumping Software Stocks and Earnings Won’t Stop It",
+      "summary": "AI's impact on growth is causing widespread investor pessimism, overshadowing positive earnings reports.",
+      "link": "https://finance.yahoo.com/news/investors-dumping-software-stocks-earnings-104057192.html?.tsrc=rss",
+      "sentiment": "bearish",
+      "impact": -2,
+      "tags": [
+        "earnings"
+      ],
+      "raw": {
+        "tickers": [
+          "TEAM",
+          "SHOP",
+          "SNOW"
+        ],
+        "event_type": "earnings",
+        "sentiment": "bearish",
+        "impact": -2,
+        "confidence": 0.7,
+        "key_points": [
+          "Software companies report earnings amid AI growth concerns.",
+          "Investors are selling software stocks despite earnings reports."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "AI's impact on growth is causing widespread investor pessimism, overshadowing positive earnings reports."
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T21:44:29+09:00",
+      "source": "news",
+      "title": "Atlassian CFO Shift Brings LinkedIn Experience To AI And Capital Decisions",
+      "summary": "Leadership change in Atlassian's senior management team could impact investor sentiment but lacks clear directional bias.",
+      "link": "https://finance.yahoo.com/news/atlassian-cfo-shift-brings-linkedin-031412064.html?.tsrc=rss",
+      "sentiment": "neutral",
+      "impact": 0,
+      "tags": [
+        "other"
+      ],
+      "raw": {
+        "tickers": [
+          "TEAM"
+        ],
+        "event_type": "other",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [
+          "Atlassian appoints James Chuong as new CFO with LinkedIn experience.",
+          "Chuong replaces retiring CFO Joe Binz."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Leadership change in Atlassian's senior management team could impact investor sentiment but lacks clear directional bias."
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T21:44:26+09:00",
+      "source": "news",
+      "title": "CrowdStrike, Datadog and other cybersecurity stocks slide after Anthropic's AI tool launch",
+      "summary": "The launch of a new AI security tool by Anthropic has led to widespread investor concern, causing a bearish sentiment among cybersecurity stocks.",
+      "link": "https://finance.yahoo.com/news/crowdstrike-datadog-other-cybersecurity-stocks-205224096.html?.tsrc=rss",
+      "sentiment": "bearish",
+      "impact": -2,
+      "tags": [
+        "other"
+      ],
+      "raw": {
+        "tickers": [
+          "DDOG",
+          "TEAM"
+        ],
+        "event_type": "other",
+        "sentiment": "bearish",
+        "impact": -2,
+        "confidence": 0.7,
+        "key_points": [
+          "Cybersecurity stocks, including Datadog and CrowdStrike, experienced significant declines following the launch of Anthropic's AI security tool.",
+          "Investor concerns centered around potential disruption to cybersecurity services from advanced AI tools."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "The launch of a new AI security tool by Anthropic has led to widespread investor concern, causing a bearish sentiment among cybersecurity stocks."
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:49:04+09:00",
+      "source": "news",
+      "title": "Is Atlassian (TEAM) Balancing AI Ambitions And Investor Scrutiny With Its New CFO Appointment?",
+      "summary": "The appointment of a new CFO amid an investor investigation could impact investor sentiment, though the outcome remains uncertain.",
+      "link": "https://finance.yahoo.com/news/atlassian-team-balancing-ai-ambitions-151032875.html?.tsrc=rss",
+      "sentiment": "neutral",
+      "impact": 0,
+      "tags": [
+        "other"
+      ],
+      "raw": {
+        "tickers": [
+          "TEAM"
+        ],
+        "event_type": "other",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [
+          "Atlassian appoints former LinkedIn CFO James Chuong to oversee Finance and Legal functions.",
+          "Investor investigation by Pomerantz LLP into potential securities law breaches is ongoing."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "The appointment of a new CFO amid an investor investigation could impact investor sentiment, though the outcome remains uncertain."
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:18:02+09:00",
+      "source": "news",
+      "title": "Trump team livid about Dario Amodei’s principled stand to keep the Defense Department from using his AI tools for warlike purposes",
+      "summary": "Unclear impact / insufficient info",
+      "link": "https://finance.yahoo.com/news/trump-team-livid-dario-amodei-090300871.html?.tsrc=rss",
+      "sentiment": "neutral",
+      "impact": 0,
+      "tags": [
+        "other"
+      ],
+      "raw": {
+        "tickers": [],
+        "event_type": "other",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Unclear impact / insufficient info"
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:17:34+09:00",
+      "source": "news",
+      "title": "Here Are Thursday’s Top Wall Street Analyst Research Calls: Analog Devices,  Chewy, Credo Technology, eBay, Fiverr, Shopify, Verizon, and More",
+      "summary": "Pre-Market Stock Futures: Futures are trading lower on Thursday, as Walmart’s forward outlook was disappointing. Risk-on was back on Wednesday, as the stock market, which is off to its worst start of the year versus global markets since 1995, rebounded. A combination of positive economic data, strong earnings, and relief from AI financing jitters helped ... Here Are Thursday’s Top Wall Street Analyst Research Calls: Analog Devices, Chewy, Credo Technology, eBay, Fiverr, Shopify, Verizon, and Mor",
+      "link": "https://247wallst.com/investing/2026/02/19/here-are-thursdays-top-wall-street-analyst-research-calls-analog-devices-chewy-credo-technology-ebay-fiverr-shopify-verizon-and-more/?.tsrc=rss",
+      "sentiment": "neutral",
+      "impact": 0,
+      "tags": [
+        "other"
+      ],
+      "raw": {
+        "tickers": [
+          "AMD",
+          "CHWY",
+          "TEAM",
+          "SHOP",
+          "VZ"
+        ],
+        "event_type": "other",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [],
+        "trade_horizon": "swing_days",
+        "why_it_moves": ""
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:17:23+09:00",
+      "source": "news",
+      "title": "Atlassian Investigation Puts AI Rollout And Formula 1 Partnership In Focus",
+      "summary": "Investigation into potential legal issues may dampen investor confidence and impact Atlassian's stock price negatively.",
+      "link": "https://finance.yahoo.com/news/atlassian-investigation-puts-ai-rollout-042423591.html?.tsrc=rss",
+      "sentiment": "bearish",
+      "impact": -1,
+      "tags": [
+        "litigation_investigation"
+      ],
+      "raw": {
+        "tickers": [
+          "TEAM"
+        ],
+        "event_type": "litigation_investigation",
+        "sentiment": "bearish",
+        "impact": -1,
+        "confidence": 0.7,
+        "key_points": [
+          "Atlassian facing investigation into securities law violations.",
+          "Rapid AI integration across collaboration products under scrutiny."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Investigation into potential legal issues may dampen investor confidence and impact Atlassian's stock price negatively."
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:17:21+09:00",
+      "source": "news",
+      "title": "Atlassian’s AI Reset Weighs On Shares While Long Term Thesis Builds",
+      "summary": "Investor sentiment is shifting due to AI developments, but the long-term potential is uncertain.",
+      "link": "https://finance.yahoo.com/news/atlassian-ai-reset-weighs-shares-043838635.html?.tsrc=rss",
+      "sentiment": "neutral",
+      "impact": 0,
+      "tags": [
+        "other"
+      ],
+      "raw": {
+        "tickers": [
+          "TEAM"
+        ],
+        "event_type": "other",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [
+          "Atlassian's AI reset is prompting investor reassessment.",
+          "Generative AI may benefit Atlassian in the long term."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Investor sentiment is shifting due to AI developments, but the long-term potential is uncertain."
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:10:26+09:00",
+      "source": "news",
+      "title": "How The Narrative Around Atlassian (TEAM) Is Shifting After The Fair Value Reset",
+      "summary": "The revision in valuation reflects a tighter narrative around Atlassian's future prospects, potentially impacting investor sentiment.",
+      "link": "https://finance.yahoo.com/news/narrative-around-atlassian-team-shifting-080946468.html?.tsrc=rss",
+      "sentiment": "neutral",
+      "impact": 0,
+      "tags": [
+        "guidance"
+      ],
+      "raw": {
+        "tickers": [
+          "TEAM"
+        ],
+        "event_type": "guidance",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [
+          "Atlassian’s fair value reset to US$177.85 from US$245.24.",
+          "New assumptions include a higher discount rate of 8.26% and more conservative revenue growth."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "The revision in valuation reflects a tighter narrative around Atlassian's future prospects, potentially impacting investor sentiment."
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:10:22+09:00",
+      "source": "news",
+      "title": "Atlassian Appoints James Chuong as Chief Financial Officer",
+      "summary": "CFO appointment typically has a neutral impact on stock performance.",
+      "link": "https://finance.yahoo.com/news/atlassian-appoints-james-chuong-chief-221500647.html?.tsrc=rss",
+      "sentiment": "neutral",
+      "impact": 0,
+      "tags": [
+        "other"
+      ],
+      "raw": {
+        "tickers": [
+          "TEAM"
+        ],
+        "event_type": "other",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [
+          "Atlassian appoints new CFO.",
+          "Effective date for CFO role is specified."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "CFO appointment typically has a neutral impact on stock performance."
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "ts_kst": "2026-02-25T02:34:17+09:00",
+      "action": "HOLD",
+      "confidence": 0.8,
+      "rationale": "The current market regime is risk-off with a weak technical analysis signal. Recent news events indicate bearish sentiment in the software and cybersecurity sectors due to AI concerns, which could impact Atlassian's stock negatively. However, the recent appointment of a CFO with significant experience may provide some stability.",
+      "key_drivers": [
+        "Bearish market regime",
+        "Negative earnings outlook for software companies",
+        "AI concerns impacting cybersecurity stocks",
+        "Stable CFO transition"
+      ],
+      "key_risks": [
+        "Further negative news on AI and growth expectations",
+        "Market-wide risk-off sentiment persisting",
+        "Earnings disappointments from key software players"
+      ],
+      "valuation_view": "The recent fair value reset reflects a tighter narrative around Atlassian's future prospects, potentially impacting investor sentiment negatively.",
+      "counterfactuals": [
+        "A positive earnings report or guidance from major tech companies could shift market sentiment",
+        "Significant improvements in AI integration and adoption by Atlassian could boost investor confidence"
+      ],
+      "next_checks": [
+        "Earnings reports from key software players to gauge broader market sentiment",
+        "Further developments on AI's impact on the cybersecurity sector",
+        "Atlassian’s Q4 earnings report for any signs of resilience or weakness"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.8,
+        "rationale": "The current market regime is risk-off with a weak technical analysis signal. Recent news events indicate bearish sentiment in the software and cybersecurity sectors due to AI concerns, which could impact Atlassian's stock negatively. However, the recent appointment of a CFO with significant experience may provide some stability.",
+        "key_drivers": [
+          "Bearish market regime",
+          "Negative earnings outlook for software companies",
+          "AI concerns impacting cybersecurity stocks",
+          "Stable CFO transition"
+        ],
+        "key_risks": [
+          "Further negative news on AI and growth expectations",
+          "Market-wide risk-off sentiment persisting",
+          "Earnings disappointments from key software players"
+        ],
+        "valuation_view": "The recent fair value reset reflects a tighter narrative around Atlassian's future prospects, potentially impacting investor sentiment negatively.",
+        "counterfactuals": [
+          "A positive earnings report or guidance from major tech companies could shift market sentiment",
+          "Significant improvements in AI integration and adoption by Atlassian could boost investor confidence"
+        ],
+        "next_checks": [
+          "Earnings reports from key software players to gauge broader market sentiment",
+          "Further developments on AI's impact on the cybersecurity sector",
+          "Atlassian’s Q4 earnings report for any signs of resilience or weakness"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T02:32:39+09:00",
+      "action": "HOLD",
+      "confidence": 0.8,
+      "rationale": "The current market regime is risk-off with a weak technical analysis signal. Recent news events indicate bearish sentiment in the software and cybersecurity sectors, driven by concerns over AI's impact on growth. While Atlassian has seen some leadership changes, these are neutral to the stock performance. The valuation remains strong, but recent news suggests caution.",
+      "key_drivers": [
+        "Bearish sentiment in the tech sector due to AI concerns",
+        "Neutral impact from leadership changes at Atlassian"
+      ],
+      "key_risks": [
+        "Further negative developments in AI and cybersecurity sectors could exacerbate market sentiment",
+        "Uncertainty around Atlassian's long-term growth prospects post-fair value reset"
+      ],
+      "valuation_view": "The valuation remains strong, but recent news suggests caution. The fair value reset to $177.85 reflects more conservative revenue growth assumptions.",
+      "counterfactuals": [
+        "A positive earnings report from key software companies could shift market sentiment",
+        "Positive developments in AI and cybersecurity sectors could mitigate current bearish trends"
+      ],
+      "next_checks": [
+        "Earnings reports from key tech companies to gauge overall sector performance",
+        "Atlassian's Q4 earnings report for any signs of resilience or further valuation adjustments"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.8,
+        "rationale": "The current market regime is risk-off with a weak technical analysis signal. Recent news events indicate bearish sentiment in the software and cybersecurity sectors, driven by concerns over AI's impact on growth. While Atlassian has seen some leadership changes, these are neutral to the stock performance. The valuation remains strong, but recent news suggests caution.",
+        "key_drivers": [
+          "Bearish sentiment in the tech sector due to AI concerns",
+          "Neutral impact from leadership changes at Atlassian"
+        ],
+        "key_risks": [
+          "Further negative developments in AI and cybersecurity sectors could exacerbate market sentiment",
+          "Uncertainty around Atlassian's long-term growth prospects post-fair value reset"
+        ],
+        "valuation_view": "The valuation remains strong, but recent news suggests caution. The fair value reset to $177.85 reflects more conservative revenue growth assumptions.",
+        "counterfactuals": [
+          "A positive earnings report from key software companies could shift market sentiment",
+          "Positive developments in AI and cybersecurity sectors could mitigate current bearish trends"
+        ],
+        "next_checks": [
+          "Earnings reports from key tech companies to gauge overall sector performance",
+          "Atlassian's Q4 earnings report for any signs of resilience or further valuation adjustments"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T02:30:42+09:00",
+      "action": "HOLD",
+      "confidence": 0.8,
+      "rationale": "The current market regime is risk-off with a weak technical analysis signal. Recent news events indicate bearish sentiment in the software and cybersecurity sectors due to AI concerns, but Atlassian's recent news (CFO appointment) has neutral impact. The valuation remains strong, but the lack of significant positive catalysts warrants a hold.",
+      "key_drivers": [
+        "Bearish market regime (-0.399)",
+        "Weak technical analysis signal (-0.85)",
+        "Negative earnings sentiment in software stocks",
+        "Neutral CFO appointment impact"
+      ],
+      "key_risks": [
+        "Continued AI concerns impacting tech sector",
+        "Potential negative earnings reports from key players"
+      ],
+      "valuation_view": "Atlassian's valuation remains strong, but the recent fair value reset to $177.85 reflects a tighter narrative around future prospects.",
+      "counterfactuals": [
+        "A positive earnings report or guidance from key tech companies could change sentiment",
+        "Improvement in AI-related concerns could lead to market recovery"
+      ],
+      "next_checks": [
+        "Monitor upcoming earnings reports and guidance from major tech firms",
+        "Watch for any significant changes in AI-related regulations or developments"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.8,
+        "rationale": "The current market regime is risk-off with a weak technical analysis signal. Recent news events indicate bearish sentiment in the software and cybersecurity sectors due to AI concerns, but Atlassian's recent news (CFO appointment) has neutral impact. The valuation remains strong, but the lack of significant positive catalysts warrants a hold.",
+        "key_drivers": [
+          "Bearish market regime (-0.399)",
+          "Weak technical analysis signal (-0.85)",
+          "Negative earnings sentiment in software stocks",
+          "Neutral CFO appointment impact"
+        ],
+        "key_risks": [
+          "Continued AI concerns impacting tech sector",
+          "Potential negative earnings reports from key players"
+        ],
+        "valuation_view": "Atlassian's valuation remains strong, but the recent fair value reset to $177.85 reflects a tighter narrative around future prospects.",
+        "counterfactuals": [
+          "A positive earnings report or guidance from key tech companies could change sentiment",
+          "Improvement in AI-related concerns could lead to market recovery"
+        ],
+        "next_checks": [
+          "Monitor upcoming earnings reports and guidance from major tech firms",
+          "Watch for any significant changes in AI-related regulations or developments"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T01:45:25+09:00",
+      "action": "HOLD",
+      "confidence": 0.8,
+      "rationale": "The current market regime is risk-off with a weak technical analysis signal and negative news sentiment. Recent earnings reports from software companies highlight ongoing concerns about AI's impact on growth, overshadowing positive earnings. Atlassian’s recent CFO appointment has minimal impact, while the valuation remains strong but unquantified.",
+      "key_drivers": [
+        "Negative market regime (risk-off)",
+        "Weak technical analysis signal",
+        "Bearish news sentiment regarding software and cybersecurity stocks"
+      ],
+      "key_risks": [
+        "Continued AI-driven concerns in tech sector",
+        "Potential earnings disappointments from other companies this week"
+      ],
+      "valuation_view": "The valuation remains strong, but the fair value is unquantified. The recent guidance revision reflects a tighter narrative around future prospects.",
+      "counterfactuals": [
+        "A positive earnings report from a major software company could shift sentiment",
+        "Improvement in AI-related concerns could lead to a market rally"
+      ],
+      "next_checks": [
+        "Earnings reports from other tech companies this week",
+        "Market reaction to any new AI developments or announcements"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.8,
+        "rationale": "The current market regime is risk-off with a weak technical analysis signal and negative news sentiment. Recent earnings reports from software companies highlight ongoing concerns about AI's impact on growth, overshadowing positive earnings. Atlassian’s recent CFO appointment has minimal impact, while the valuation remains strong but unquantified.",
+        "key_drivers": [
+          "Negative market regime (risk-off)",
+          "Weak technical analysis signal",
+          "Bearish news sentiment regarding software and cybersecurity stocks"
+        ],
+        "key_risks": [
+          "Continued AI-driven concerns in tech sector",
+          "Potential earnings disappointments from other companies this week"
+        ],
+        "valuation_view": "The valuation remains strong, but the fair value is unquantified. The recent guidance revision reflects a tighter narrative around future prospects.",
+        "counterfactuals": [
+          "A positive earnings report from a major software company could shift sentiment",
+          "Improvement in AI-related concerns could lead to a market rally"
+        ],
+        "next_checks": [
+          "Earnings reports from other tech companies this week",
+          "Market reaction to any new AI developments or announcements"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T01:29:50+09:00",
+      "action": "HOLD",
+      "confidence": 0.7,
+      "rationale": "The current market regime is risk-off with a weak technical analysis signal and negative news sentiment. The recent events, including the widespread dumping of software stocks due to AI concerns and the appointment of a new CFO at Atlassian, indicate mixed signals but overall bearish trends.",
+      "key_drivers": [
+        "Negative earnings sentiment in the software sector",
+        "Bearish market regime",
+        "Mixed leadership changes with neutral impact"
+      ],
+      "key_risks": [
+        "Continued AI concerns impacting tech stocks",
+        "Market-wide risk-off sentiment",
+        "Potential for further negative news events"
+      ],
+      "valuation_view": "The valuation remains strong, but the recent fair value reset to $177.85 reflects a tighter narrative around future prospects.",
+      "counterfactuals": [
+        "A significant positive earnings report from key software companies could shift sentiment.",
+        "Improvement in market regime towards risk-on",
+        "Positive developments in AI integration that alleviate concerns"
+      ],
+      "next_checks": [
+        "Earnings reports from major tech companies this week",
+        "Market-wide sentiment shifts on AI and technology",
+        "Further leadership changes or strategic announcements at Atlassian"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.7,
+        "rationale": "The current market regime is risk-off with a weak technical analysis signal and negative news sentiment. The recent events, including the widespread dumping of software stocks due to AI concerns and the appointment of a new CFO at Atlassian, indicate mixed signals but overall bearish trends.",
+        "key_drivers": [
+          "Negative earnings sentiment in the software sector",
+          "Bearish market regime",
+          "Mixed leadership changes with neutral impact"
+        ],
+        "key_risks": [
+          "Continued AI concerns impacting tech stocks",
+          "Market-wide risk-off sentiment",
+          "Potential for further negative news events"
+        ],
+        "valuation_view": "The valuation remains strong, but the recent fair value reset to $177.85 reflects a tighter narrative around future prospects.",
+        "counterfactuals": [
+          "A significant positive earnings report from key software companies could shift sentiment.",
+          "Improvement in market regime towards risk-on",
+          "Positive developments in AI integration that alleviate concerns"
+        ],
+        "next_checks": [
+          "Earnings reports from major tech companies this week",
+          "Market-wide sentiment shifts on AI and technology",
+          "Further leadership changes or strategic announcements at Atlassian"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T01:28:03+09:00",
+      "action": "HOLD",
+      "confidence": 0.8,
+      "rationale": "The current market regime is risk-off with a weak technical analysis signal. Recent news events indicate broad investor pessimism towards software stocks due to AI growth concerns, which aligns with the existing sentiment. While Atlassian's CFO appointment brings some stability, it does not significantly alter the overall bearish environment.",
+      "key_drivers": [
+        "Widespread investor pessimism regarding AI’s impact on software stock growth",
+        "Neutral impact from leadership changes at Atlassian"
+      ],
+      "key_risks": [
+        "Further negative news on AI and its effects on tech stocks could intensify selling pressure",
+        "Atlassian's fair value reset to a lower valuation, reflecting conservative assumptions"
+      ],
+      "valuation_view": "The current valuation is based on conservative revenue growth and higher discount rates, which may continue to weigh on the stock price.",
+      "counterfactuals": [
+        "A positive earnings report from Atlassian or other software companies could shift sentiment",
+        "Significant advancements in AI that do not negatively impact tech stocks"
+      ],
+      "next_checks": [
+        "Earnings reports from key software companies this week to gauge market reaction",
+        "Further developments on AI and its implications for the tech sector"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.8,
+        "rationale": "The current market regime is risk-off with a weak technical analysis signal. Recent news events indicate broad investor pessimism towards software stocks due to AI growth concerns, which aligns with the existing sentiment. While Atlassian's CFO appointment brings some stability, it does not significantly alter the overall bearish environment.",
+        "key_drivers": [
+          "Widespread investor pessimism regarding AI’s impact on software stock growth",
+          "Neutral impact from leadership changes at Atlassian"
+        ],
+        "key_risks": [
+          "Further negative news on AI and its effects on tech stocks could intensify selling pressure",
+          "Atlassian's fair value reset to a lower valuation, reflecting conservative assumptions"
+        ],
+        "valuation_view": "The current valuation is based on conservative revenue growth and higher discount rates, which may continue to weigh on the stock price.",
+        "counterfactuals": [
+          "A positive earnings report from Atlassian or other software companies could shift sentiment",
+          "Significant advancements in AI that do not negatively impact tech stocks"
+        ],
+        "next_checks": [
+          "Earnings reports from key software companies this week to gauge market reaction",
+          "Further developments on AI and its implications for the tech sector"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T01:26:05+09:00",
+      "action": "HOLD",
+      "confidence": 0.8,
+      "rationale": "The current market regime is risk-off with a weak technical analysis signal. Recent news events, including software earnings and cybersecurity stock declines due to AI concerns, contribute to bearish sentiment. While Atlassian's CFO appointment brings no clear directional bias, the overall market conditions suggest holding rather than making a decisive move.",
+      "key_drivers": [
+        "Bearish market regime (risk-off)",
+        "Weak technical analysis signal",
+        "Negative news on software earnings and cybersecurity stocks"
+      ],
+      "key_risks": [
+        "Potential reversal in AI sentiment if positive developments emerge",
+        "Market-wide risk-off stance could intensify"
+      ],
+      "valuation_view": "The valuation remains strong, but the recent fair value reset to $177.85 with conservative assumptions may indicate a cautious outlook.",
+      "counterfactuals": [
+        "If AI sentiment improves significantly in the next 1-4 weeks, consider selling",
+        "If market conditions shift towards risk-on, reassess and potentially buy"
+      ],
+      "next_checks": [
+        "Monitor AI-related news for any positive developments",
+        "Track broader market trends to gauge overall risk appetite"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.8,
+        "rationale": "The current market regime is risk-off with a weak technical analysis signal. Recent news events, including software earnings and cybersecurity stock declines due to AI concerns, contribute to bearish sentiment. While Atlassian's CFO appointment brings no clear directional bias, the overall market conditions suggest holding rather than making a decisive move.",
+        "key_drivers": [
+          "Bearish market regime (risk-off)",
+          "Weak technical analysis signal",
+          "Negative news on software earnings and cybersecurity stocks"
+        ],
+        "key_risks": [
+          "Potential reversal in AI sentiment if positive developments emerge",
+          "Market-wide risk-off stance could intensify"
+        ],
+        "valuation_view": "The valuation remains strong, but the recent fair value reset to $177.85 with conservative assumptions may indicate a cautious outlook.",
+        "counterfactuals": [
+          "If AI sentiment improves significantly in the next 1-4 weeks, consider selling",
+          "If market conditions shift towards risk-on, reassess and potentially buy"
+        ],
+        "next_checks": [
+          "Monitor AI-related news for any positive developments",
+          "Track broader market trends to gauge overall risk appetite"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:34:21+09:00",
+      "action": "HOLD",
+      "confidence": 0.85,
+      "rationale": "The current market regime is risk-off due to ongoing concerns about AI's impact on growth, as evidenced by recent earnings reports and leadership changes at key companies. The valuation of Atlassian remains strong but the market sentiment is bearish.",
+      "key_drivers": [
+        "Bearish market sentiment driven by AI concerns",
+        "Recent negative news events including earnings reports and leadership transitions"
+      ],
+      "key_risks": [
+        "Continued negative market sentiment could pressure stock prices further",
+        "Uncertainty around the long-term impact of generative AI on Atlassian's business model"
+      ],
+      "valuation_view": "Atlassian’s valuation remains strong, but the current market environment is risk-off and bearish.",
+      "counterfactuals": [
+        "A positive earnings report or guidance from key players in the tech sector could shift market sentiment",
+        "Significant improvements in AI technology that mitigate concerns about growth could change investor perceptions"
+      ],
+      "next_checks": [
+        "Monitor upcoming earnings reports for key tech companies to gauge broader market sentiment",
+        "Follow developments in generative AI and their impact on Atlassian’s core business"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.85,
+        "rationale": "The current market regime is risk-off due to ongoing concerns about AI's impact on growth, as evidenced by recent earnings reports and leadership changes at key companies. The valuation of Atlassian remains strong but the market sentiment is bearish.",
+        "key_drivers": [
+          "Bearish market sentiment driven by AI concerns",
+          "Recent negative news events including earnings reports and leadership transitions"
+        ],
+        "key_risks": [
+          "Continued negative market sentiment could pressure stock prices further",
+          "Uncertainty around the long-term impact of generative AI on Atlassian's business model"
+        ],
+        "valuation_view": "Atlassian’s valuation remains strong, but the current market environment is risk-off and bearish.",
+        "counterfactuals": [
+          "A positive earnings report or guidance from key players in the tech sector could shift market sentiment",
+          "Significant improvements in AI technology that mitigate concerns about growth could change investor perceptions"
+        ],
+        "next_checks": [
+          "Monitor upcoming earnings reports for key tech companies to gauge broader market sentiment",
+          "Follow developments in generative AI and their impact on Atlassian’s core business"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:32:24+09:00",
+      "action": "HOLD",
+      "confidence": 0.85,
+      "rationale": "The current market regime is risk-off, and recent news events indicate a bearish sentiment towards software stocks due to concerns about AI's impact on growth. Atlassian's recent earnings and leadership changes have not significantly altered the overall negative sentiment.",
+      "key_drivers": [
+        "Bearish sentiment in the software sector due to AI concerns",
+        "Atlassian's fair value reset to US$177.85, reflecting conservative assumptions"
+      ],
+      "key_risks": [
+        "Potential further negative impact from ongoing AI-related concerns",
+        "Market-wide risk-off sentiment could persist or worsen"
+      ],
+      "valuation_view": "The valuation remains high with a fair value of $177.85, but the recent reset reflects more conservative growth expectations.",
+      "counterfactuals": [
+        "A positive earnings report from key software companies could shift market sentiment",
+        "Significant progress in AI technology that benefits Atlassian's core business could improve investor confidence"
+      ],
+      "next_checks": [
+        "Earnings reports from other major software firms to gauge broader market sentiment",
+        "Atlassian’s next quarterly earnings call for any updates on its strategy and outlook"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.85,
+        "rationale": "The current market regime is risk-off, and recent news events indicate a bearish sentiment towards software stocks due to concerns about AI's impact on growth. Atlassian's recent earnings and leadership changes have not significantly altered the overall negative sentiment.",
+        "key_drivers": [
+          "Bearish sentiment in the software sector due to AI concerns",
+          "Atlassian's fair value reset to US$177.85, reflecting conservative assumptions"
+        ],
+        "key_risks": [
+          "Potential further negative impact from ongoing AI-related concerns",
+          "Market-wide risk-off sentiment could persist or worsen"
+        ],
+        "valuation_view": "The valuation remains high with a fair value of $177.85, but the recent reset reflects more conservative growth expectations.",
+        "counterfactuals": [
+          "A positive earnings report from key software companies could shift market sentiment",
+          "Significant progress in AI technology that benefits Atlassian's core business could improve investor confidence"
+        ],
+        "next_checks": [
+          "Earnings reports from other major software firms to gauge broader market sentiment",
+          "Atlassian’s next quarterly earnings call for any updates on its strategy and outlook"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:21:38+09:00",
+      "action": "HOLD",
+      "confidence": 0.85,
+      "rationale": "The current market regime is risk-off, and recent news events indicate a bearish sentiment towards software stocks due to AI growth concerns. The appointment of a new CFO at Atlassian has a neutral impact on stock performance.",
+      "key_drivers": [
+        "Bearish earnings reports from multiple software companies",
+        "Widespread investor pessimism due to AI's impact on growth",
+        "Neutral impact from the CFO change at Atlassian"
+      ],
+      "key_risks": [
+        "Further negative news on AI and its impact on software sector",
+        "Economic downturn or recession affecting IT spending"
+      ],
+      "valuation_view": "The valuation of Atlassian remains positive, but recent guidance adjustments have tightened expectations.",
+      "counterfactuals": [
+        "A strong earnings report from a major software company could shift market sentiment.",
+        "Positive developments in AI technology that improve growth prospects."
+      ],
+      "next_checks": [
+        "Earnings reports from other key players in the software sector",
+        "Further updates on AI's impact and its integration into business strategies"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.85,
+        "rationale": "The current market regime is risk-off, and recent news events indicate a bearish sentiment towards software stocks due to AI growth concerns. The appointment of a new CFO at Atlassian has a neutral impact on stock performance.",
+        "key_drivers": [
+          "Bearish earnings reports from multiple software companies",
+          "Widespread investor pessimism due to AI's impact on growth",
+          "Neutral impact from the CFO change at Atlassian"
+        ],
+        "key_risks": [
+          "Further negative news on AI and its impact on software sector",
+          "Economic downturn or recession affecting IT spending"
+        ],
+        "valuation_view": "The valuation of Atlassian remains positive, but recent guidance adjustments have tightened expectations.",
+        "counterfactuals": [
+          "A strong earnings report from a major software company could shift market sentiment.",
+          "Positive developments in AI technology that improve growth prospects."
+        ],
+        "next_checks": [
+          "Earnings reports from other key players in the software sector",
+          "Further updates on AI's impact and its integration into business strategies"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:19:54+09:00",
+      "action": "HOLD",
+      "confidence": 0.85,
+      "rationale": "The current market regime is risk-off with a weak technical analysis signal and negative news sentiment. Recent earnings reports from software companies continue to show bearish trends, overshadowed by concerns about AI's impact on growth. Atlassian's recent CFO appointment has a neutral impact, but the overall market conditions suggest caution.",
+      "key_drivers": [
+        "Negative earnings reports from software companies",
+        "Widespread investor pessimism due to AI's impact on growth",
+        "Neutral impact of Atlassian's CFO change"
+      ],
+      "key_risks": [
+        "Further negative developments in AI-related concerns",
+        "Economic or industry-specific shocks that could exacerbate market sentiment"
+      ],
+      "valuation_view": "The valuation remains strong, but the recent fair value reset to $177.85 reflects a more conservative outlook.",
+      "counterfactuals": [
+        "If software companies start reporting positive earnings and AI concerns ease, this may signal a shift in market sentiment.",
+        "A significant positive economic event or industry-specific news could change investor behavior."
+      ],
+      "next_checks": [
+        "Monitor upcoming earnings reports from key software companies",
+        "Watch for any changes in AI-related regulatory or technological developments"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.85,
+        "rationale": "The current market regime is risk-off with a weak technical analysis signal and negative news sentiment. Recent earnings reports from software companies continue to show bearish trends, overshadowed by concerns about AI's impact on growth. Atlassian's recent CFO appointment has a neutral impact, but the overall market conditions suggest caution.",
+        "key_drivers": [
+          "Negative earnings reports from software companies",
+          "Widespread investor pessimism due to AI's impact on growth",
+          "Neutral impact of Atlassian's CFO change"
+        ],
+        "key_risks": [
+          "Further negative developments in AI-related concerns",
+          "Economic or industry-specific shocks that could exacerbate market sentiment"
+        ],
+        "valuation_view": "The valuation remains strong, but the recent fair value reset to $177.85 reflects a more conservative outlook.",
+        "counterfactuals": [
+          "If software companies start reporting positive earnings and AI concerns ease, this may signal a shift in market sentiment.",
+          "A significant positive economic event or industry-specific news could change investor behavior."
+        ],
+        "next_checks": [
+          "Monitor upcoming earnings reports from key software companies",
+          "Watch for any changes in AI-related regulatory or technological developments"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:18:04+09:00",
+      "action": "HOLD",
+      "confidence": 0.85,
+      "rationale": "The current market regime is risk-off with a weak technical analysis signal. Recent news events, particularly the earnings reports and leadership changes at software companies, indicate ongoing investor pessimism towards growth due to AI concerns. The valuation remains strong but is overshadowed by the bearish sentiment in the market.",
+      "key_drivers": [
+        "Bearish sentiment driven by AI concerns impacting software stocks",
+        "Weak technical analysis signal indicating a bearish trend"
+      ],
+      "key_risks": [
+        "Potential for further negative earnings reports from key players in the industry",
+        "Uncertainty around the impact of generative AI on Atlassian’s business model"
+      ],
+      "valuation_view": "The valuation remains strong, but the current market conditions are not supportive. The fair value reset to $177.85 reflects conservative assumptions and a higher discount rate.",
+      "counterfactuals": [
+        "If earnings reports from key software companies show resilience or positive outlook, it could shift investor sentiment",
+        "If Atlassian’s AI integration proves successful and positively impacts revenue growth expectations, it could lead to a revaluation"
+      ],
+      "next_checks": [
+        "Monitor upcoming earnings reports for key players in the software industry",
+        "Assess the impact of generative AI on Atlassian’s core products and services"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.85,
+        "rationale": "The current market regime is risk-off with a weak technical analysis signal. Recent news events, particularly the earnings reports and leadership changes at software companies, indicate ongoing investor pessimism towards growth due to AI concerns. The valuation remains strong but is overshadowed by the bearish sentiment in the market.",
+        "key_drivers": [
+          "Bearish sentiment driven by AI concerns impacting software stocks",
+          "Weak technical analysis signal indicating a bearish trend"
+        ],
+        "key_risks": [
+          "Potential for further negative earnings reports from key players in the industry",
+          "Uncertainty around the impact of generative AI on Atlassian’s business model"
+        ],
+        "valuation_view": "The valuation remains strong, but the current market conditions are not supportive. The fair value reset to $177.85 reflects conservative assumptions and a higher discount rate.",
+        "counterfactuals": [
+          "If earnings reports from key software companies show resilience or positive outlook, it could shift investor sentiment",
+          "If Atlassian’s AI integration proves successful and positively impacts revenue growth expectations, it could lead to a revaluation"
+        ],
+        "next_checks": [
+          "Monitor upcoming earnings reports for key players in the software industry",
+          "Assess the impact of generative AI on Atlassian’s core products and services"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:16:19+09:00",
+      "action": "HOLD",
+      "confidence": 0.85,
+      "rationale": "The current market sentiment is risk-off due to ongoing concerns about AI's impact on growth, as evidenced by the recent negative earnings reports and leadership changes at key companies. Atlassian's recent news events, including a strong bearish technical analysis score, support a hold strategy.",
+      "key_drivers": [
+        "Negative earnings reports from software companies",
+        "Widespread investor pessimism due to AI concerns",
+        "Strong bearish technical analysis"
+      ],
+      "key_risks": [
+        "Further negative news on AI's impact on growth",
+        "Unexpected market volatility affecting tech stocks"
+      ],
+      "valuation_view": "The recent fair value reset at Atlassian suggests a tighter narrative around future prospects, which may continue to pressure the stock price.",
+      "counterfactuals": [
+        "A positive earnings report from key software companies could shift investor sentiment",
+        "Significant advancements in AI technology that positively impact growth expectations"
+      ],
+      "next_checks": [
+        "Earnings reports from major tech companies for signs of changing market sentiment",
+        "Further developments on the impact of AI on various industries"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.85,
+        "rationale": "The current market sentiment is risk-off due to ongoing concerns about AI's impact on growth, as evidenced by the recent negative earnings reports and leadership changes at key companies. Atlassian's recent news events, including a strong bearish technical analysis score, support a hold strategy.",
+        "key_drivers": [
+          "Negative earnings reports from software companies",
+          "Widespread investor pessimism due to AI concerns",
+          "Strong bearish technical analysis"
+        ],
+        "key_risks": [
+          "Further negative news on AI's impact on growth",
+          "Unexpected market volatility affecting tech stocks"
+        ],
+        "valuation_view": "The recent fair value reset at Atlassian suggests a tighter narrative around future prospects, which may continue to pressure the stock price.",
+        "counterfactuals": [
+          "A positive earnings report from key software companies could shift investor sentiment",
+          "Significant advancements in AI technology that positively impact growth expectations"
+        ],
+        "next_checks": [
+          "Earnings reports from major tech companies for signs of changing market sentiment",
+          "Further developments on the impact of AI on various industries"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:14:24+09:00",
+      "action": "HOLD",
+      "confidence": 0.8,
+      "rationale": "The current market regime is risk-off with a slight bearish trend. Recent news highlights widespread investor pessimism towards software stocks due to AI's impact on growth, which overshadows positive earnings reports. Atlassian's recent CFO appointment and valuation reset are neutral in their immediate impact but may influence long-term sentiment.",
+      "key_drivers": [
+        "Widespread investor pessimism about AI's impact on software growth",
+        "Neutral impact from Atlassian's CFO change and valuation reset"
+      ],
+      "key_risks": [
+        "Continued negative market sentiment towards AI-affected sectors",
+        "Potential earnings disappointments in upcoming reports"
+      ],
+      "valuation_view": "The recent fair value reset to $177.85 reflects a more conservative outlook, but the current price of $69.77 suggests valuation is still attractive.",
+      "counterfactuals": [
+        "If AI growth concerns ease and positive earnings reports from key players improve sentiment",
+        "If Atlassian announces significant new product developments or strategic partnerships"
+      ],
+      "next_checks": [
+        "Monitor upcoming earnings reports for key software companies to gauge market sentiment",
+        "Track any regulatory or policy changes affecting the tech sector, particularly AI regulations"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.8,
+        "rationale": "The current market regime is risk-off with a slight bearish trend. Recent news highlights widespread investor pessimism towards software stocks due to AI's impact on growth, which overshadows positive earnings reports. Atlassian's recent CFO appointment and valuation reset are neutral in their immediate impact but may influence long-term sentiment.",
+        "key_drivers": [
+          "Widespread investor pessimism about AI's impact on software growth",
+          "Neutral impact from Atlassian's CFO change and valuation reset"
+        ],
+        "key_risks": [
+          "Continued negative market sentiment towards AI-affected sectors",
+          "Potential earnings disappointments in upcoming reports"
+        ],
+        "valuation_view": "The recent fair value reset to $177.85 reflects a more conservative outlook, but the current price of $69.77 suggests valuation is still attractive.",
+        "counterfactuals": [
+          "If AI growth concerns ease and positive earnings reports from key players improve sentiment",
+          "If Atlassian announces significant new product developments or strategic partnerships"
+        ],
+        "next_checks": [
+          "Monitor upcoming earnings reports for key software companies to gauge market sentiment",
+          "Track any regulatory or policy changes affecting the tech sector, particularly AI regulations"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:50:15+09:00",
+      "action": "HOLD",
+      "confidence": 0.7,
+      "rationale": "The current market sentiment is bearish due to concerns about AI's impact on growth, overshadowing positive earnings reports. Atlassian's recent fair value reset and new CFO appointment have not significantly altered the overall negative outlook.",
+      "key_drivers": [
+        "Widespread investor pessimism driven by AI's impact on growth",
+        "Negative earnings sentiment across software stocks"
+      ],
+      "key_risks": [
+        "Potential delays or challenges in integrating a new CFO",
+        "Uncertainty around long-term benefits of AI integration"
+      ],
+      "valuation_view": "The recent fair value reset to $177.85 reflects more conservative revenue growth assumptions, indicating a tighter narrative on future prospects.",
+      "counterfactuals": [
+        "Significant positive earnings report from key software companies could shift market sentiment",
+        "Clear demonstration of AI integration benefits by Atlassian could boost investor confidence"
+      ],
+      "next_checks": [
+        "Earnings reports from other software companies to gauge broader market reaction",
+        "Atlassian's progress in integrating new CFO and any early signs of impact on operations"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.7,
+        "rationale": "The current market sentiment is bearish due to concerns about AI's impact on growth, overshadowing positive earnings reports. Atlassian's recent fair value reset and new CFO appointment have not significantly altered the overall negative outlook.",
+        "key_drivers": [
+          "Widespread investor pessimism driven by AI's impact on growth",
+          "Negative earnings sentiment across software stocks"
+        ],
+        "key_risks": [
+          "Potential delays or challenges in integrating a new CFO",
+          "Uncertainty around long-term benefits of AI integration"
+        ],
+        "valuation_view": "The recent fair value reset to $177.85 reflects more conservative revenue growth assumptions, indicating a tighter narrative on future prospects.",
+        "counterfactuals": [
+          "Significant positive earnings report from key software companies could shift market sentiment",
+          "Clear demonstration of AI integration benefits by Atlassian could boost investor confidence"
+        ],
+        "next_checks": [
+          "Earnings reports from other software companies to gauge broader market reaction",
+          "Atlassian's progress in integrating new CFO and any early signs of impact on operations"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:48:20+09:00",
+      "action": "HOLD",
+      "confidence": 0.8,
+      "rationale": "The current market sentiment is risk-off due to concerns about AI's impact on growth, which overshadows positive earnings reports. Atlassian's recent CFO appointment and valuation reset are neutral in their impact on the stock price.",
+      "key_drivers": [
+        "Widespread investor pessimism regarding AI’s impact on software growth",
+        "Neutral impact from leadership changes at Atlassian"
+      ],
+      "key_risks": [
+        "Continued negative sentiment towards AI and its effects on tech stocks",
+        "Uncertainty around Atlassian's long-term strategy with the new valuation assumptions"
+      ],
+      "valuation_view": "The recent fair value reset to $177.85 reflects a higher discount rate of 8.26% and more conservative revenue growth, indicating potential downward pressure on stock price.",
+      "counterfactuals": [
+        "If AI's impact on software growth improves or reverses, investor sentiment could shift positively",
+        "A positive earnings report from Atlassian that significantly outperforms expectations"
+      ],
+      "next_checks": [
+        "Earnings reports from other tech companies to gauge broader market sentiment",
+        "Atlassian’s progress in integrating generative AI into its products and services"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.8,
+        "rationale": "The current market sentiment is risk-off due to concerns about AI's impact on growth, which overshadows positive earnings reports. Atlassian's recent CFO appointment and valuation reset are neutral in their impact on the stock price.",
+        "key_drivers": [
+          "Widespread investor pessimism regarding AI’s impact on software growth",
+          "Neutral impact from leadership changes at Atlassian"
+        ],
+        "key_risks": [
+          "Continued negative sentiment towards AI and its effects on tech stocks",
+          "Uncertainty around Atlassian's long-term strategy with the new valuation assumptions"
+        ],
+        "valuation_view": "The recent fair value reset to $177.85 reflects a higher discount rate of 8.26% and more conservative revenue growth, indicating potential downward pressure on stock price.",
+        "counterfactuals": [
+          "If AI's impact on software growth improves or reverses, investor sentiment could shift positively",
+          "A positive earnings report from Atlassian that significantly outperforms expectations"
+        ],
+        "next_checks": [
+          "Earnings reports from other tech companies to gauge broader market sentiment",
+          "Atlassian’s progress in integrating generative AI into its products and services"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:46:32+09:00",
+      "action": "HOLD",
+      "confidence": 0.63,
+      "rationale": "The current market sentiment is risk-off due to concerns about AI's impact on growth, which overshadows positive earnings reports. The appointment of a new CFO at Atlassian has a neutral impact on stock performance. Given the recent fair value reset and the ongoing reassessment of long-term prospects, it is prudent to hold the position.",
+      "key_drivers": [
+        "Widespread investor pessimism due to AI's impact on growth",
+        "Neutral impact from the CFO appointment at Atlassian"
+      ],
+      "key_risks": [
+        "Uncertainty around long-term potential of generative AI for Atlassian",
+        "Potential negative reaction to ongoing fair value reassessment"
+      ],
+      "valuation_view": "The recent fair value reset reflects more conservative revenue growth assumptions, indicating a tighter narrative on future prospects.",
+      "counterfactuals": [
+        "If positive earnings reports from software companies significantly boost market sentiment, it could lead to a re-evaluation of Atlassian's stock.",
+        "A clearer indication of how generative AI will benefit Atlassian in the long term could shift investor sentiment positively."
+      ],
+      "next_checks": [
+        "Monitor upcoming earnings reports and guidance from key software companies for any shifts in market sentiment.",
+        "Assess Atlassian’s progress on integrating new AI technologies into its products and services."
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.63,
+        "rationale": "The current market sentiment is risk-off due to concerns about AI's impact on growth, which overshadows positive earnings reports. The appointment of a new CFO at Atlassian has a neutral impact on stock performance. Given the recent fair value reset and the ongoing reassessment of long-term prospects, it is prudent to hold the position.",
+        "key_drivers": [
+          "Widespread investor pessimism due to AI's impact on growth",
+          "Neutral impact from the CFO appointment at Atlassian"
+        ],
+        "key_risks": [
+          "Uncertainty around long-term potential of generative AI for Atlassian",
+          "Potential negative reaction to ongoing fair value reassessment"
+        ],
+        "valuation_view": "The recent fair value reset reflects more conservative revenue growth assumptions, indicating a tighter narrative on future prospects.",
+        "counterfactuals": [
+          "If positive earnings reports from software companies significantly boost market sentiment, it could lead to a re-evaluation of Atlassian's stock.",
+          "A clearer indication of how generative AI will benefit Atlassian in the long term could shift investor sentiment positively."
+        ],
+        "next_checks": [
+          "Monitor upcoming earnings reports and guidance from key software companies for any shifts in market sentiment.",
+          "Assess Atlassian’s progress on integrating new AI technologies into its products and services."
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:36:16+09:00",
+      "action": "HOLD",
+      "confidence": 0.8,
+      "rationale": "The current market sentiment is risk-off due to concerns about AI's impact on growth, which overshadows positive earnings reports. The appointment of a new CFO at Atlassian has a neutral impact on stock performance. Given the valuation reset and ongoing uncertainty around AI developments, it is prudent to hold the position.",
+      "key_drivers": [
+        "Widespread investor pessimism due to AI's impact on growth",
+        "Neutral impact from the CFO appointment"
+      ],
+      "key_risks": [
+        "Continued negative sentiment towards software and cybersecurity stocks",
+        "Uncertainty around Atlassian's long-term prospects with AI integration"
+      ],
+      "valuation_view": "The recent fair value reset reflects more conservative revenue growth assumptions, indicating a tighter narrative on future prospects.",
+      "counterfactuals": [
+        "A significant positive earnings report from key software companies could shift investor sentiment positively.",
+        "Positive developments in Atlassian's AI initiatives that demonstrate tangible benefits could alter the valuation outlook."
+      ],
+      "next_checks": [
+        "Earnings reports from other major software and cybersecurity firms to gauge broader market sentiment",
+        "Atlassian's progress on integrating AI into its core products"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.8,
+        "rationale": "The current market sentiment is risk-off due to concerns about AI's impact on growth, which overshadows positive earnings reports. The appointment of a new CFO at Atlassian has a neutral impact on stock performance. Given the valuation reset and ongoing uncertainty around AI developments, it is prudent to hold the position.",
+        "key_drivers": [
+          "Widespread investor pessimism due to AI's impact on growth",
+          "Neutral impact from the CFO appointment"
+        ],
+        "key_risks": [
+          "Continued negative sentiment towards software and cybersecurity stocks",
+          "Uncertainty around Atlassian's long-term prospects with AI integration"
+        ],
+        "valuation_view": "The recent fair value reset reflects more conservative revenue growth assumptions, indicating a tighter narrative on future prospects.",
+        "counterfactuals": [
+          "A significant positive earnings report from key software companies could shift investor sentiment positively.",
+          "Positive developments in Atlassian's AI initiatives that demonstrate tangible benefits could alter the valuation outlook."
+        ],
+        "next_checks": [
+          "Earnings reports from other major software and cybersecurity firms to gauge broader market sentiment",
+          "Atlassian's progress on integrating AI into its core products"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:34:35+09:00",
+      "action": "HOLD",
+      "confidence": 0.63,
+      "rationale": "Current market sentiment is risk-off due to AI concerns overshadowing positive earnings reports, and the recent news events do not provide a clear directional bias for Atlassian (TEAM). The appointment of James Chuong as CFO has a neutral impact on stock performance.",
+      "key_drivers": [
+        "Widespread investor pessimism regarding AI's impact on growth",
+        "Neutral sentiment from leadership changes in key companies"
+      ],
+      "key_risks": [
+        "Continued negative market sentiment towards software and tech stocks due to AI concerns",
+        "Uncertainty around Atlassian's long-term thesis with the fair value reset"
+      ],
+      "valuation_view": "The recent fair value reset reflects more conservative revenue growth assumptions, which may impact investor sentiment.",
+      "counterfactuals": [
+        "A positive earnings report from key software companies could shift market sentiment",
+        "Significant partnerships or acquisitions in AI that benefit Atlassian could improve its valuation"
+      ],
+      "next_checks": [
+        "Earnings reports from other tech and software firms to gauge broader market sentiment",
+        "Atlassian's progress on integrating generative AI into its products"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.63,
+        "rationale": "Current market sentiment is risk-off due to AI concerns overshadowing positive earnings reports, and the recent news events do not provide a clear directional bias for Atlassian (TEAM). The appointment of James Chuong as CFO has a neutral impact on stock performance.",
+        "key_drivers": [
+          "Widespread investor pessimism regarding AI's impact on growth",
+          "Neutral sentiment from leadership changes in key companies"
+        ],
+        "key_risks": [
+          "Continued negative market sentiment towards software and tech stocks due to AI concerns",
+          "Uncertainty around Atlassian's long-term thesis with the fair value reset"
+        ],
+        "valuation_view": "The recent fair value reset reflects more conservative revenue growth assumptions, which may impact investor sentiment.",
+        "counterfactuals": [
+          "A positive earnings report from key software companies could shift market sentiment",
+          "Significant partnerships or acquisitions in AI that benefit Atlassian could improve its valuation"
+        ],
+        "next_checks": [
+          "Earnings reports from other tech and software firms to gauge broader market sentiment",
+          "Atlassian's progress on integrating generative AI into its products"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:32:37+09:00",
+      "action": "HOLD",
+      "confidence": 0.8,
+      "rationale": "The current market sentiment is risk-off due to AI concerns overshadowing positive earnings reports, and the recent news events do not provide clear directional bias for Atlassian (TEAM). The valuation reset indicates a more cautious outlook but does not warrant an immediate sell. Given the neutral impact of the CFO appointment and the ongoing reassessment of long-term potential, holding is advised.",
+      "key_drivers": [
+        "Widespread investor pessimism due to AI concerns",
+        "Neutral impact from leadership changes at Atlassian",
+        "Ongoing valuation reassessment with more conservative growth assumptions"
+      ],
+      "key_risks": [
+        "Potential delays or issues with the integration of James Chuong as CFO",
+        "Further negative market sentiment on AI's impact on software stocks",
+        "Uncertainty in long-term benefits from generative AI adoption"
+      ],
+      "valuation_view": "The fair value reset to $177.85 reflects a more conservative revenue growth assumption, indicating a tighter narrative around Atlassian’s future prospects.",
+      "counterfactuals": [
+        "A positive earnings report or announcement of significant new product developments could shift investor sentiment positively.",
+        "Further negative market reactions to AI concerns could lead to a stronger bearish stance on software stocks."
+      ],
+      "next_checks": [
+        "Atlassian's first-quarter earnings report and guidance",
+        "Market reaction to AI developments in the tech sector"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.8,
+        "rationale": "The current market sentiment is risk-off due to AI concerns overshadowing positive earnings reports, and the recent news events do not provide clear directional bias for Atlassian (TEAM). The valuation reset indicates a more cautious outlook but does not warrant an immediate sell. Given the neutral impact of the CFO appointment and the ongoing reassessment of long-term potential, holding is advised.",
+        "key_drivers": [
+          "Widespread investor pessimism due to AI concerns",
+          "Neutral impact from leadership changes at Atlassian",
+          "Ongoing valuation reassessment with more conservative growth assumptions"
+        ],
+        "key_risks": [
+          "Potential delays or issues with the integration of James Chuong as CFO",
+          "Further negative market sentiment on AI's impact on software stocks",
+          "Uncertainty in long-term benefits from generative AI adoption"
+        ],
+        "valuation_view": "The fair value reset to $177.85 reflects a more conservative revenue growth assumption, indicating a tighter narrative around Atlassian’s future prospects.",
+        "counterfactuals": [
+          "A positive earnings report or announcement of significant new product developments could shift investor sentiment positively.",
+          "Further negative market reactions to AI concerns could lead to a stronger bearish stance on software stocks."
+        ],
+        "next_checks": [
+          "Atlassian's first-quarter earnings report and guidance",
+          "Market reaction to AI developments in the tech sector"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:28:05+09:00",
+      "action": "HOLD",
+      "confidence": 0.8,
+      "rationale": "The current market sentiment is risk-off due to concerns over AI's impact on growth, which overshadows positive earnings reports. Atlassian’s recent fair value reset and leadership changes have not significantly altered the overall bearish trend. The appointment of a CFO with LinkedIn experience may provide some stability but does not outweigh the broader market concerns.",
+      "key_drivers": [
+        "Widespread investor pessimism due to AI's impact on growth",
+        "Atlassian’s fair value reset and more conservative revenue assumptions"
+      ],
+      "key_risks": [
+        "Continued negative sentiment towards software stocks",
+        "Uncertainty around Atlassian’s long-term AI strategy"
+      ],
+      "valuation_view": "The valuation has been adjusted to reflect a higher discount rate and more conservative growth expectations, which may impact investor sentiment.",
+      "counterfactuals": [
+        "Significant positive earnings report from major tech companies could shift market sentiment",
+        "Clear demonstration of Atlassian’s AI integration benefits could improve investor confidence"
+      ],
+      "next_checks": [
+        "Earnings reports from other tech companies to gauge broader market reaction",
+        "Atlassian’s progress on its AI initiatives and their impact on product offerings"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.8,
+        "rationale": "The current market sentiment is risk-off due to concerns over AI's impact on growth, which overshadows positive earnings reports. Atlassian’s recent fair value reset and leadership changes have not significantly altered the overall bearish trend. The appointment of a CFO with LinkedIn experience may provide some stability but does not outweigh the broader market concerns.",
+        "key_drivers": [
+          "Widespread investor pessimism due to AI's impact on growth",
+          "Atlassian’s fair value reset and more conservative revenue assumptions"
+        ],
+        "key_risks": [
+          "Continued negative sentiment towards software stocks",
+          "Uncertainty around Atlassian’s long-term AI strategy"
+        ],
+        "valuation_view": "The valuation has been adjusted to reflect a higher discount rate and more conservative growth expectations, which may impact investor sentiment.",
+        "counterfactuals": [
+          "Significant positive earnings report from major tech companies could shift market sentiment",
+          "Clear demonstration of Atlassian’s AI integration benefits could improve investor confidence"
+        ],
+        "next_checks": [
+          "Earnings reports from other tech companies to gauge broader market reaction",
+          "Atlassian’s progress on its AI initiatives and their impact on product offerings"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:26:11+09:00",
+      "action": "HOLD",
+      "confidence": 0.8,
+      "rationale": "The current market sentiment is risk-off due to concerns over AI's impact on growth, which overshadows positive earnings reports. Atlassian’s recent CFO appointment and fair value reset are neutral in their impact on the stock price. Given the strong bearish trend and lack of clear catalysts for a significant move, it is prudent to hold the position.",
+      "key_drivers": [
+        "Widespread investor pessimism due to AI's impact on growth",
+        "Neutral impact from Atlassian’s CFO appointment"
+      ],
+      "key_risks": [
+        "Continued negative sentiment towards software and tech stocks",
+        "Uncertainty around long-term benefits of AI integration"
+      ],
+      "valuation_view": "The recent fair value reset reflects more conservative revenue growth assumptions, indicating a tighter narrative for future prospects.",
+      "counterfactuals": [
+        "A significant positive earnings report from Atlassian or other software companies could shift sentiment",
+        "Positive regulatory developments in the tech sector could improve investor confidence"
+      ],
+      "next_checks": [
+        "Earnings reports from key competitors to gauge broader market sentiment",
+        "Atlassian’s progress on AI integration and its impact on product offerings"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.8,
+        "rationale": "The current market sentiment is risk-off due to concerns over AI's impact on growth, which overshadows positive earnings reports. Atlassian’s recent CFO appointment and fair value reset are neutral in their impact on the stock price. Given the strong bearish trend and lack of clear catalysts for a significant move, it is prudent to hold the position.",
+        "key_drivers": [
+          "Widespread investor pessimism due to AI's impact on growth",
+          "Neutral impact from Atlassian’s CFO appointment"
+        ],
+        "key_risks": [
+          "Continued negative sentiment towards software and tech stocks",
+          "Uncertainty around long-term benefits of AI integration"
+        ],
+        "valuation_view": "The recent fair value reset reflects more conservative revenue growth assumptions, indicating a tighter narrative for future prospects.",
+        "counterfactuals": [
+          "A significant positive earnings report from Atlassian or other software companies could shift sentiment",
+          "Positive regulatory developments in the tech sector could improve investor confidence"
+        ],
+        "next_checks": [
+          "Earnings reports from key competitors to gauge broader market sentiment",
+          "Atlassian’s progress on AI integration and its impact on product offerings"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T22:51:28+09:00",
+      "action": "HOLD",
+      "confidence": 0.8,
+      "rationale": "The current market sentiment is risk-off due to concerns about AI's impact on growth, overshadowing positive earnings reports. Atlassian's recent leadership changes and valuation adjustments indicate a cautious outlook. Given the neutral impact of these events and the overall bearish environment, it is prudent to hold the position.",
+      "key_drivers": [
+        "Widespread investor pessimism due to AI’s impact on growth",
+        "Neutral impact from CFO appointment at Atlassian"
+      ],
+      "key_risks": [
+        "Continued negative market sentiment towards software and cybersecurity stocks",
+        "Uncertainty around Atlassian's long-term prospects with generative AI developments"
+      ],
+      "valuation_view": "The recent fair value reset reflects a tighter narrative on future prospects, indicating conservative revenue growth assumptions.",
+      "counterfactuals": [
+        "A significant positive earnings report from key software companies could shift investor sentiment positively.",
+        "Positive regulatory or technological developments in cybersecurity could stabilize or improve stock performance."
+      ],
+      "next_checks": [
+        "Earnings reports from other major software and cybersecurity firms",
+        "Atlassian's progress on integrating generative AI into its products"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.8,
+        "rationale": "The current market sentiment is risk-off due to concerns about AI's impact on growth, overshadowing positive earnings reports. Atlassian's recent leadership changes and valuation adjustments indicate a cautious outlook. Given the neutral impact of these events and the overall bearish environment, it is prudent to hold the position.",
+        "key_drivers": [
+          "Widespread investor pessimism due to AI’s impact on growth",
+          "Neutral impact from CFO appointment at Atlassian"
+        ],
+        "key_risks": [
+          "Continued negative market sentiment towards software and cybersecurity stocks",
+          "Uncertainty around Atlassian's long-term prospects with generative AI developments"
+        ],
+        "valuation_view": "The recent fair value reset reflects a tighter narrative on future prospects, indicating conservative revenue growth assumptions.",
+        "counterfactuals": [
+          "A significant positive earnings report from key software companies could shift investor sentiment positively.",
+          "Positive regulatory or technological developments in cybersecurity could stabilize or improve stock performance."
+        ],
+        "next_checks": [
+          "Earnings reports from other major software and cybersecurity firms",
+          "Atlassian's progress on integrating generative AI into its products"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T22:49:38+09:00",
+      "action": "SELL",
+      "confidence": 0.8,
+      "rationale": "The current market sentiment is risk-off due to widespread concerns about AI's impact on growth, as evidenced by the negative news score and the recent sell-offs in software stocks. Atlassian faces significant risks from its ongoing AI reset and valuation adjustments, which are likely to continue pressuring share prices.",
+      "key_drivers": [
+        "Negative market sentiment towards AI’s impact on growth",
+        "Atlassian's ongoing AI reset and fair value revision",
+        "Leadership changes with neutral impact"
+      ],
+      "key_risks": [
+        "Continued negative market sentiment could exacerbate selling pressure",
+        "Uncertainty around long-term benefits of AI integration",
+        "Potential regulatory or competitive challenges in the tech sector"
+      ],
+      "valuation_view": "The recent fair value reset to $177.85 from $245.24 reflects more conservative revenue growth assumptions, indicating a tighter narrative on Atlassian's future prospects.",
+      "counterfactuals": [
+        "A positive earnings report or announcement of significant new AI partnerships could reverse the sell-off",
+        "Improvement in market sentiment towards AI and tech stocks generally"
+      ],
+      "next_checks": [
+        "Earnings reports from other software companies to gauge broader market sentiment",
+        "Atlassian's progress on AI integration and its impact on product offerings"
+      ],
+      "raw": {
+        "action": "SELL",
+        "confidence": 0.8,
+        "rationale": "The current market sentiment is risk-off due to widespread concerns about AI's impact on growth, as evidenced by the negative news score and the recent sell-offs in software stocks. Atlassian faces significant risks from its ongoing AI reset and valuation adjustments, which are likely to continue pressuring share prices.",
+        "key_drivers": [
+          "Negative market sentiment towards AI’s impact on growth",
+          "Atlassian's ongoing AI reset and fair value revision",
+          "Leadership changes with neutral impact"
+        ],
+        "key_risks": [
+          "Continued negative market sentiment could exacerbate selling pressure",
+          "Uncertainty around long-term benefits of AI integration",
+          "Potential regulatory or competitive challenges in the tech sector"
+        ],
+        "valuation_view": "The recent fair value reset to $177.85 from $245.24 reflects more conservative revenue growth assumptions, indicating a tighter narrative on Atlassian's future prospects.",
+        "counterfactuals": [
+          "A positive earnings report or announcement of significant new AI partnerships could reverse the sell-off",
+          "Improvement in market sentiment towards AI and tech stocks generally"
+        ],
+        "next_checks": [
+          "Earnings reports from other software companies to gauge broader market sentiment",
+          "Atlassian's progress on AI integration and its impact on product offerings"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:54:08+09:00",
+      "action": "SELL",
+      "confidence": 0.85,
+      "rationale": "The recent news and analysis indicate a bearish sentiment towards Atlassian (TEAM). The ongoing investigation into potential legal issues, coupled with the AI reset and fair value revision, are likely to dampen investor confidence.",
+      "key_drivers": [
+        "Investigation into securities law violations",
+        "AI integration challenges",
+        "Fair value reset leading to more conservative growth assumptions"
+      ],
+      "key_risks": [
+        "Potential delays or cancellations of the AI rollout and Formula 1 partnership",
+        "Negative impact on stock price if legal issues are resolved unfavorably"
+      ],
+      "valuation_view": "The fair value revision reflects a tighter narrative around Atlassian's future prospects, indicating lower expected growth.",
+      "counterfactuals": [
+        "If the investigation into securities law violations is resolved positively within the next month, the stock could see a rebound.",
+        "A successful AI integration and positive market reception could shift investor sentiment."
+      ],
+      "next_checks": [
+        "Outcome of the ongoing legal investigation",
+        "Impact of AI tools on customer satisfaction and adoption rates"
+      ],
+      "raw": {
+        "action": "SELL",
+        "confidence": 0.85,
+        "rationale": "The recent news and analysis indicate a bearish sentiment towards Atlassian (TEAM). The ongoing investigation into potential legal issues, coupled with the AI reset and fair value revision, are likely to dampen investor confidence.",
+        "key_drivers": [
+          "Investigation into securities law violations",
+          "AI integration challenges",
+          "Fair value reset leading to more conservative growth assumptions"
+        ],
+        "key_risks": [
+          "Potential delays or cancellations of the AI rollout and Formula 1 partnership",
+          "Negative impact on stock price if legal issues are resolved unfavorably"
+        ],
+        "valuation_view": "The fair value revision reflects a tighter narrative around Atlassian's future prospects, indicating lower expected growth.",
+        "counterfactuals": [
+          "If the investigation into securities law violations is resolved positively within the next month, the stock could see a rebound.",
+          "A successful AI integration and positive market reception could shift investor sentiment."
+        ],
+        "next_checks": [
+          "Outcome of the ongoing legal investigation",
+          "Impact of AI tools on customer satisfaction and adoption rates"
+        ],
+        "position_plan": {
+          "prefer_qty": -100,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:52:44+09:00",
+      "action": "SELL",
+      "confidence": 0.7,
+      "rationale": "Investor sentiment is shifting negatively due to the ongoing investigation into potential legal issues and the AI reset, which may impact Atlassian's stock price.",
+      "key_drivers": [
+        "Investigation into securities law violations",
+        "Rapid AI integration under scrutiny"
+      ],
+      "key_risks": [
+        "Negative impact on investor confidence",
+        "Potential delays in AI rollout and Formula 1 partnership"
+      ],
+      "valuation_view": "The fair value reset reflects more conservative revenue growth assumptions, indicating a tighter narrative around Atlassian's future prospects.",
+      "counterfactuals": [
+        "If the investigation is resolved positively within the next month, consider revising to a HOLD stance.",
+        "A positive update on AI integration or Formula 1 partnership could shift sentiment."
+      ],
+      "next_checks": [
+        "Outcome of the ongoing legal investigation",
+        "Progress on AI integration and Formula 1 partnership"
+      ],
+      "raw": {
+        "action": "SELL",
+        "confidence": 0.7,
+        "rationale": "Investor sentiment is shifting negatively due to the ongoing investigation into potential legal issues and the AI reset, which may impact Atlassian's stock price.",
+        "key_drivers": [
+          "Investigation into securities law violations",
+          "Rapid AI integration under scrutiny"
+        ],
+        "key_risks": [
+          "Negative impact on investor confidence",
+          "Potential delays in AI rollout and Formula 1 partnership"
+        ],
+        "valuation_view": "The fair value reset reflects more conservative revenue growth assumptions, indicating a tighter narrative around Atlassian's future prospects.",
+        "counterfactuals": [
+          "If the investigation is resolved positively within the next month, consider revising to a HOLD stance.",
+          "A positive update on AI integration or Formula 1 partnership could shift sentiment."
+        ],
+        "next_checks": [
+          "Outcome of the ongoing legal investigation",
+          "Progress on AI integration and Formula 1 partnership"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:51:22+09:00",
+      "action": "SELL",
+      "confidence": 0.8,
+      "rationale": "Atlassian is facing significant legal and AI-related challenges that are likely to dampen investor sentiment. The ongoing investigation into securities law violations, combined with the recent fair value reset due to more conservative revenue growth assumptions, suggests a bearish outlook.",
+      "key_drivers": [
+        "Investigation into potential legal issues",
+        "Fair value reset due to higher discount rate and conservative revenue growth"
+      ],
+      "key_risks": [
+        "Potential delays in AI rollout and Formula 1 partnership",
+        "Negative impact on stock price if the investigation leads to regulatory action"
+      ],
+      "valuation_view": "The recent fair value reset reflects a tighter narrative around Atlassian's future prospects, indicating lower investor confidence.",
+      "counterfactuals": [
+        "If the legal investigation is resolved without significant penalties or delays in AI projects, sentiment could improve.",
+        "Positive earnings reports or successful AI integration could shift the valuation higher."
+      ],
+      "next_checks": [
+        "Outcome of the ongoing legal investigation",
+        "Impact of AI tools on customer satisfaction and adoption"
+      ],
+      "raw": {
+        "action": "SELL",
+        "confidence": 0.8,
+        "rationale": "Atlassian is facing significant legal and AI-related challenges that are likely to dampen investor sentiment. The ongoing investigation into securities law violations, combined with the recent fair value reset due to more conservative revenue growth assumptions, suggests a bearish outlook.",
+        "key_drivers": [
+          "Investigation into potential legal issues",
+          "Fair value reset due to higher discount rate and conservative revenue growth"
+        ],
+        "key_risks": [
+          "Potential delays in AI rollout and Formula 1 partnership",
+          "Negative impact on stock price if the investigation leads to regulatory action"
+        ],
+        "valuation_view": "The recent fair value reset reflects a tighter narrative around Atlassian's future prospects, indicating lower investor confidence.",
+        "counterfactuals": [
+          "If the legal investigation is resolved without significant penalties or delays in AI projects, sentiment could improve.",
+          "Positive earnings reports or successful AI integration could shift the valuation higher."
+        ],
+        "next_checks": [
+          "Outcome of the ongoing legal investigation",
+          "Impact of AI tools on customer satisfaction and adoption"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:49:47+09:00",
+      "action": "SELL",
+      "confidence": 0.8,
+      "rationale": "Atlassian is facing significant legal and AI integration challenges that are likely to dampen investor confidence.",
+      "key_drivers": [
+        "Investigation into potential securities law violations",
+        "Rapid AI integration across collaboration products under scrutiny"
+      ],
+      "key_risks": [
+        "Negative impact on stock price due to ongoing investigation",
+        "Uncertainty around long-term prospects of AI initiatives"
+      ],
+      "valuation_view": "The recent fair value reset reflects more conservative revenue growth and a higher discount rate, indicating pessimism about future performance.",
+      "counterfactuals": [
+        "If the legal issues are resolved quickly without significant impact on operations, sentiment could improve.",
+        "Positive earnings report or successful AI integration could shift investor confidence."
+      ],
+      "next_checks": [
+        "Outcome of the ongoing investigation",
+        "Company's progress in AI integration and its impact on business"
+      ],
+      "raw": {
+        "action": "SELL",
+        "confidence": 0.8,
+        "rationale": "Atlassian is facing significant legal and AI integration challenges that are likely to dampen investor confidence.",
+        "key_drivers": [
+          "Investigation into potential securities law violations",
+          "Rapid AI integration across collaboration products under scrutiny"
+        ],
+        "key_risks": [
+          "Negative impact on stock price due to ongoing investigation",
+          "Uncertainty around long-term prospects of AI initiatives"
+        ],
+        "valuation_view": "The recent fair value reset reflects more conservative revenue growth and a higher discount rate, indicating pessimism about future performance.",
+        "counterfactuals": [
+          "If the legal issues are resolved quickly without significant impact on operations, sentiment could improve.",
+          "Positive earnings report or successful AI integration could shift investor confidence."
+        ],
+        "next_checks": [
+          "Outcome of the ongoing investigation",
+          "Company's progress in AI integration and its impact on business"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:33:23+09:00",
+      "action": "SELL",
+      "confidence": 0.8,
+      "rationale": "Atlassian faces ongoing legal investigations and rapid AI integration scrutiny, which may dampen investor confidence.",
+      "key_drivers": [
+        "Investigation into potential securities law violations",
+        "Rapid AI integration across collaboration products"
+      ],
+      "key_risks": [
+        "Negative impact on stock price due to legal issues",
+        "Uncertainty in long-term AI strategy and its reception"
+      ],
+      "valuation_view": "The recent fair value reset reflects more conservative revenue growth assumptions, indicating a tighter narrative around Atlassian's future prospects.",
+      "counterfactuals": [
+        "A positive resolution of the legal investigation or successful implementation of AI tools could reverse this stance."
+      ],
+      "next_checks": [
+        "Outcome of the ongoing legal investigation",
+        "Market reaction to AI tool implementations"
+      ],
+      "raw": {
+        "action": "SELL",
+        "confidence": 0.8,
+        "rationale": "Atlassian faces ongoing legal investigations and rapid AI integration scrutiny, which may dampen investor confidence.",
+        "key_drivers": [
+          "Investigation into potential securities law violations",
+          "Rapid AI integration across collaboration products"
+        ],
+        "key_risks": [
+          "Negative impact on stock price due to legal issues",
+          "Uncertainty in long-term AI strategy and its reception"
+        ],
+        "valuation_view": "The recent fair value reset reflects more conservative revenue growth assumptions, indicating a tighter narrative around Atlassian's future prospects.",
+        "counterfactuals": [
+          "A positive resolution of the legal investigation or successful implementation of AI tools could reverse this stance."
+        ],
+        "next_checks": [
+          "Outcome of the ongoing legal investigation",
+          "Market reaction to AI tool implementations"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:31:59+09:00",
+      "action": "SELL",
+      "confidence": 0.8,
+      "rationale": "Atlassian faces ongoing legal investigation and AI integration challenges, which are likely to dampen investor sentiment.",
+      "key_drivers": [
+        "Investigation into potential securities law violations",
+        "Rapid AI integration across collaboration products under scrutiny"
+      ],
+      "key_risks": [
+        "Negative impact on stock price due to investor confidence issues",
+        "Potential delays in AI rollout and Formula 1 partnership"
+      ],
+      "valuation_view": "The fair value reset reflects more conservative revenue growth assumptions, indicating a tighter narrative around Atlassian's future prospects.",
+      "counterfactuals": [
+        "If the legal investigation is resolved positively within the next month, it could reverse investor sentiment.",
+        "A successful AI integration and positive market reaction to new products could shift valuation."
+      ],
+      "next_checks": [
+        "Outcome of the ongoing legal investigation",
+        "Market response to Atlassian's AI product launches"
+      ],
+      "raw": {
+        "action": "SELL",
+        "confidence": 0.8,
+        "rationale": "Atlassian faces ongoing legal investigation and AI integration challenges, which are likely to dampen investor sentiment.",
+        "key_drivers": [
+          "Investigation into potential securities law violations",
+          "Rapid AI integration across collaboration products under scrutiny"
+        ],
+        "key_risks": [
+          "Negative impact on stock price due to investor confidence issues",
+          "Potential delays in AI rollout and Formula 1 partnership"
+        ],
+        "valuation_view": "The fair value reset reflects more conservative revenue growth assumptions, indicating a tighter narrative around Atlassian's future prospects.",
+        "counterfactuals": [
+          "If the legal investigation is resolved positively within the next month, it could reverse investor sentiment.",
+          "A successful AI integration and positive market reaction to new products could shift valuation."
+        ],
+        "next_checks": [
+          "Outcome of the ongoing legal investigation",
+          "Market response to Atlassian's AI product launches"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:29:54+09:00",
+      "action": "SELL",
+      "confidence": 0.7,
+      "rationale": "Atlassian is facing legal investigations and a reset in its valuation due to AI developments, which are likely to dampen investor confidence.",
+      "key_drivers": [
+        "Investigation into potential securities law violations",
+        "Reset in fair value from US$245.24 to US$177.85",
+        "Uncertainty around long-term AI integration"
+      ],
+      "key_risks": [
+        "Negative impact on stock price due to legal issues",
+        "Reassessing investor sentiment towards Atlassian's future prospects"
+      ],
+      "valuation_view": "The valuation reset reflects a more conservative growth outlook and higher discount rate, impacting the stock negatively.",
+      "counterfactuals": [
+        "If Atlassian successfully resolves the legal investigation without significant delays or penalties, this could positively impact the stock.",
+        "A clearer path for AI integration across its products would boost investor confidence."
+      ],
+      "next_checks": [
+        "Outcome of the ongoing legal investigation",
+        "Atlassian's progress in integrating AI into its collaboration tools"
+      ],
+      "raw": {
+        "action": "SELL",
+        "confidence": 0.7,
+        "rationale": "Atlassian is facing legal investigations and a reset in its valuation due to AI developments, which are likely to dampen investor confidence.",
+        "key_drivers": [
+          "Investigation into potential securities law violations",
+          "Reset in fair value from US$245.24 to US$177.85",
+          "Uncertainty around long-term AI integration"
+        ],
+        "key_risks": [
+          "Negative impact on stock price due to legal issues",
+          "Reassessing investor sentiment towards Atlassian's future prospects"
+        ],
+        "valuation_view": "The valuation reset reflects a more conservative growth outlook and higher discount rate, impacting the stock negatively.",
+        "counterfactuals": [
+          "If Atlassian successfully resolves the legal investigation without significant delays or penalties, this could positively impact the stock.",
+          "A clearer path for AI integration across its products would boost investor confidence."
+        ],
+        "next_checks": [
+          "Outcome of the ongoing legal investigation",
+          "Atlassian's progress in integrating AI into its collaboration tools"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:24:22+09:00",
+      "action": "SELL",
+      "confidence": 0.7,
+      "rationale": "近期Atlassian面临多项负面事件，包括AI相关法律调查和估值重估。这些因素可能短期内影响投资者情绪。",
+      "key_drivers": [
+        "诉讼调查",
+        "估值下调"
+      ],
+      "key_risks": [
+        "短期市场情绪波动",
+        "长期业务方向不确定性"
+      ],
+      "valuation_view": "当前估值调整反映了对未来前景的更谨慎预期，短期内可能不利于股价表现。",
+      "counterfactuals": [
+        "如果Atlassian能够迅速解决法律问题并恢复投资者信心，则股价可能会反弹。",
+        "若AI技术发展不如预期，长期业务方向存在不确定性"
+      ],
+      "next_checks": [
+        "关注Atlassian关于法律调查的最新进展",
+        "跟踪市场对AI技术发展的看法变化"
+      ],
+      "raw": {
+        "action": "SELL",
+        "confidence": 0.7,
+        "rationale": "近期Atlassian面临多项负面事件，包括AI相关法律调查和估值重估。这些因素可能短期内影响投资者情绪。",
+        "key_drivers": [
+          "诉讼调查",
+          "估值下调"
+        ],
+        "key_risks": [
+          "短期市场情绪波动",
+          "长期业务方向不确定性"
+        ],
+        "valuation_view": "当前估值调整反映了对未来前景的更谨慎预期，短期内可能不利于股价表现。",
+        "counterfactuals": [
+          "如果Atlassian能够迅速解决法律问题并恢复投资者信心，则股价可能会反弹。",
+          "若AI技术发展不如预期，长期业务方向存在不确定性"
+        ],
+        "next_checks": [
+          "关注Atlassian关于法律调查的最新进展",
+          "跟踪市场对AI技术发展的看法变化"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:23:01+09:00",
+      "action": "SELL",
+      "confidence": 0.7,
+      "rationale": "近期Atlassian面临多项负面事件，包括AI相关法律调查和估值重估。这些因素可能短期内影响投资者情绪。",
+      "key_drivers": [
+        "诉讼调查",
+        "估值下调"
+      ],
+      "key_risks": [
+        "短期市场情绪波动",
+        "长期业务方向不确定性"
+      ],
+      "valuation_view": "当前估值调整反映了对未来前景的更谨慎预期，短期内可能不利于股价表现。",
+      "counterfactuals": [
+        "如果Atlassian能够迅速解决法律问题并恢复投资者信心，则股价可能会反弹。",
+        "若AI技术发展不如预期，长期业务方向存在不确定性"
+      ],
+      "next_checks": [
+        "关注Atlassian关于法律调查的最新进展",
+        "跟踪市场对AI技术发展的看法变化"
+      ],
+      "raw": {
+        "action": "SELL",
+        "confidence": 0.7,
+        "rationale": "近期Atlassian面临多项负面事件，包括AI相关法律调查和估值重估。这些因素可能短期内影响投资者情绪。",
+        "key_drivers": [
+          "诉讼调查",
+          "估值下调"
+        ],
+        "key_risks": [
+          "短期市场情绪波动",
+          "长期业务方向不确定性"
+        ],
+        "valuation_view": "当前估值调整反映了对未来前景的更谨慎预期，短期内可能不利于股价表现。",
+        "counterfactuals": [
+          "如果Atlassian能够迅速解决法律问题并恢复投资者信心，则股价可能会反弹。",
+          "若AI技术发展不如预期，长期业务方向存在不确定性"
+        ],
+        "next_checks": [
+          "关注Atlassian关于法律调查的最新进展",
+          "跟踪市场对AI技术发展的看法变化"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:21:44+09:00",
+      "action": "SELL",
+      "confidence": 0.7,
+      "rationale": "近期Atlassian面临多项负面事件，包括AI相关法律调查和估值重估。这些因素可能短期内影响投资者情绪。",
+      "key_drivers": [
+        "诉讼调查",
+        "估值下调"
+      ],
+      "key_risks": [
+        "短期市场情绪波动",
+        "长期业务方向不确定性"
+      ],
+      "valuation_view": "当前估值调整反映了对未来前景的更谨慎预期，短期内可能不利于股价表现。",
+      "counterfactuals": [
+        "如果Atlassian能够迅速解决法律问题并恢复投资者信心，则股价可能会反弹。",
+        "若AI技术发展不如预期，长期业务方向存在不确定性"
+      ],
+      "next_checks": [
+        "关注Atlassian关于法律调查的最新进展",
+        "跟踪市场对AI技术发展的看法变化"
+      ],
+      "raw": {
+        "action": "SELL",
+        "confidence": 0.7,
+        "rationale": "近期Atlassian面临多项负面事件，包括AI相关法律调查和估值重估。这些因素可能短期内影响投资者情绪。",
+        "key_drivers": [
+          "诉讼调查",
+          "估值下调"
+        ],
+        "key_risks": [
+          "短期市场情绪波动",
+          "长期业务方向不确定性"
+        ],
+        "valuation_view": "当前估值调整反映了对未来前景的更谨慎预期，短期内可能不利于股价表现。",
+        "counterfactuals": [
+          "如果Atlassian能够迅速解决法律问题并恢复投资者信心，则股价可能会反弹。",
+          "若AI技术发展不如预期，长期业务方向存在不确定性"
+        ],
+        "next_checks": [
+          "关注Atlassian关于法律调查的最新进展",
+          "跟踪市场对AI技术发展的看法变化"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:20:27+09:00",
+      "action": "SELL",
+      "confidence": 0.7,
+      "rationale": "近期Atlassian面临多项负面事件，包括AI相关法律调查和估值重估。这些因素可能短期内影响投资者情绪。",
+      "key_drivers": [
+        "诉讼调查",
+        "估值下调"
+      ],
+      "key_risks": [
+        "短期市场情绪波动",
+        "长期业务方向不确定性"
+      ],
+      "valuation_view": "当前估值调整反映了对未来前景的更谨慎预期，短期内可能不利于股价表现。",
+      "counterfactuals": [
+        "如果Atlassian能够迅速解决法律问题并恢复投资者信心，则股价可能会反弹。",
+        "若AI技术发展不如预期，长期业务方向存在不确定性"
+      ],
+      "next_checks": [
+        "关注Atlassian关于法律调查的最新进展",
+        "跟踪市场对AI技术发展的看法变化"
+      ],
+      "raw": {
+        "action": "SELL",
+        "confidence": 0.7,
+        "rationale": "近期Atlassian面临多项负面事件，包括AI相关法律调查和估值重估。这些因素可能短期内影响投资者情绪。",
+        "key_drivers": [
+          "诉讼调查",
+          "估值下调"
+        ],
+        "key_risks": [
+          "短期市场情绪波动",
+          "长期业务方向不确定性"
+        ],
+        "valuation_view": "当前估值调整反映了对未来前景的更谨慎预期，短期内可能不利于股价表现。",
+        "counterfactuals": [
+          "如果Atlassian能够迅速解决法律问题并恢复投资者信心，则股价可能会反弹。",
+          "若AI技术发展不如预期，长期业务方向存在不确定性"
+        ],
+        "next_checks": [
+          "关注Atlassian关于法律调查的最新进展",
+          "跟踪市场对AI技术发展的看法变化"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:18:57+09:00",
+      "action": "SELL",
+      "confidence": 0.7,
+      "rationale": "近期Atlassian面临多项负面事件，包括AI相关法律调查和估值重估，这些因素可能短期内影响投资者情绪。",
+      "key_drivers": [
+        "诉讼调查",
+        "估值下调"
+      ],
+      "key_risks": [
+        "短期市场情绪波动",
+        "长期业务方向不确定性"
+      ],
+      "valuation_view": "当前估值调整反映了对未来前景的更谨慎预期，短期内可能不利于股价表现。",
+      "counterfactuals": [
+        "如果Atlassian能够迅速解决法律问题并恢复投资者信心，则股价可能会反弹。",
+        "若AI技术发展不如预期，长期业务方向存在不确定性"
+      ],
+      "next_checks": [
+        "关注Atlassian关于法律调查的最新进展",
+        "跟踪市场对AI技术发展的看法变化"
+      ],
+      "raw": {
+        "action": "SELL",
+        "confidence": 0.7,
+        "rationale": "近期Atlassian面临多项负面事件，包括AI相关法律调查和估值重估，这些因素可能短期内影响投资者情绪。",
+        "key_drivers": [
+          "诉讼调查",
+          "估值下调"
+        ],
+        "key_risks": [
+          "短期市场情绪波动",
+          "长期业务方向不确定性"
+        ],
+        "valuation_view": "当前估值调整反映了对未来前景的更谨慎预期，短期内可能不利于股价表现。",
+        "counterfactuals": [
+          "如果Atlassian能够迅速解决法律问题并恢复投资者信心，则股价可能会反弹。",
+          "若AI技术发展不如预期，长期业务方向存在不确定性"
+        ],
+        "next_checks": [
+          "关注Atlassian关于法律调查的最新进展",
+          "跟踪市场对AI技术发展的看法变化"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    }
+  ],
+  "tags": []
+}

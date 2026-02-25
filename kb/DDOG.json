@@ -1,0 +1,2132 @@
+{
+  "ticker": "DDOG",
+  "updated_at": "2026-02-25T02:34:31+09:00",
+  "thesis": "",
+  "business_summary": "",
+  "moat": "",
+  "key_drivers": [],
+  "key_risks": [],
+  "valuation_method": "simple",
+  "valuation_assumptions": {},
+  "target_price": null,
+  "fair_value_range": null,
+  "evidence": [
+    {
+      "ts_kst": "2026-02-25T00:13:19+09:00",
+      "source": "news",
+      "title": "Zacks Investment Ideas feature highlights: Nvidia, Dillard's, Macy's and Kohl's",
+      "summary": "Dillard's nears Q4 with flat sales expected, softer EPS, and a 700% five-year surge could this retail leader be a buy-the-dip opportunity?",
+      "link": "https://finance.yahoo.com/news/zacks-investment-ideas-feature-highlights-133800513.html?.tsrc=rss",
+      "sentiment": "neutral",
+      "impact": 0,
+      "tags": [
+        "other"
+      ],
+      "raw": {
+        "tickers": [
+          "DDOG",
+          "TEAM"
+        ],
+        "event_type": "other",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [],
+        "trade_horizon": "swing_days",
+        "why_it_moves": ""
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T21:44:26+09:00",
+      "source": "news",
+      "title": "CrowdStrike, Datadog and other cybersecurity stocks slide after Anthropic's AI tool launch",
+      "summary": "The launch of a new AI security tool by Anthropic has led to widespread investor concern, causing a bearish sentiment among cybersecurity stocks.",
+      "link": "https://finance.yahoo.com/news/crowdstrike-datadog-other-cybersecurity-stocks-205224096.html?.tsrc=rss",
+      "sentiment": "bearish",
+      "impact": -2,
+      "tags": [
+        "other"
+      ],
+      "raw": {
+        "tickers": [
+          "DDOG",
+          "TEAM"
+        ],
+        "event_type": "other",
+        "sentiment": "bearish",
+        "impact": -2,
+        "confidence": 0.7,
+        "key_points": [
+          "Cybersecurity stocks, including Datadog and CrowdStrike, experienced significant declines following the launch of Anthropic's AI security tool.",
+          "Investor concerns centered around potential disruption to cybersecurity services from advanced AI tools."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "The launch of a new AI security tool by Anthropic has led to widespread investor concern, causing a bearish sentiment among cybersecurity stocks."
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:18:15+09:00",
+      "source": "news",
+      "title": "Datadog’s Bits AI And FedRAMP Progress Raise Valuation And Growth Questions",
+      "summary": "The launch of innovative products and progress in regulatory compliance are expected to boost Datadog's valuation and growth prospects, driving positive market reaction.",
+      "link": "https://finance.yahoo.com/news/datadog-bits-ai-fedramp-progress-011130349.html?.tsrc=rss",
+      "sentiment": "bullish",
+      "impact": 1,
+      "tags": [
+        "product_launch"
+      ],
+      "raw": {
+        "tickers": [
+          "DDOG"
+        ],
+        "event_type": "product_launch",
+        "sentiment": "bullish",
+        "impact": 1,
+        "confidence": 0.8,
+        "key_points": [
+          "Datadog launched Bits AI, an AI-powered DevOps assistant.",
+          "Achieved FedRAMP High 'In Process' status for federal government customers."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "The launch of innovative products and progress in regulatory compliance are expected to boost Datadog's valuation and growth prospects, driving positive market reaction."
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:18:12+09:00",
+      "source": "news",
+      "title": "Datadog (DDOG) Valuation Check After Strong Q4 Earnings Beat And Optimistic AI Driven Guidance",
+      "summary": "Strong earnings beat and positive guidance have boosted Datadog's share price in the short term.",
+      "link": "https://finance.yahoo.com/news/datadog-ddog-valuation-check-strong-141403734.html?.tsrc=rss",
+      "sentiment": "bullish",
+      "impact": 1,
+      "tags": [
+        "earnings"
+      ],
+      "raw": {
+        "tickers": [
+          "DDOG"
+        ],
+        "event_type": "earnings",
+        "sentiment": "bullish",
+        "impact": 1,
+        "confidence": 0.8,
+        "key_points": [
+          "Datadog (DDOG) reported strong Q4 2025 earnings and optimistic 2026 guidance.",
+          "Results were ahead of expectations, driven by demand for cloud and AI tools."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Strong earnings beat and positive guidance have boosted Datadog's share price in the short term."
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:18:09+09:00",
+      "source": "news",
+      "title": "5 Revealing Analyst Questions From Datadog’s Q4 Earnings Call",
+      "summary": "Rapid growth in core products and increased customer adoption drove a strong earnings report.",
+      "link": "https://finance.yahoo.com/news/5-revealing-analyst-questions-datadog-053126364.html?.tsrc=rss",
+      "sentiment": "bullish",
+      "impact": 1,
+      "tags": [
+        "earnings"
+      ],
+      "raw": {
+        "tickers": [
+          "DDOG"
+        ],
+        "event_type": "earnings",
+        "sentiment": "bullish",
+        "impact": 1,
+        "confidence": 0.7,
+        "key_points": [
+          "Strong positive market reaction to Q4 earnings.",
+          "Record number of large deal wins."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Rapid growth in core products and increased customer adoption drove a strong earnings report."
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:18:07+09:00",
+      "source": "news",
+      "title": "Datadog’s AI Deals And Q4 Strength Versus Lofty P/E And Targets",
+      "summary": "Strong earnings and record deal wins boost Datadog's stock, indicating positive market sentiment.",
+      "link": "https://finance.yahoo.com/news/datadog-ai-deals-q4-strength-211040487.html?.tsrc=rss",
+      "sentiment": "bullish",
+      "impact": 1,
+      "tags": [
+        "earnings"
+      ],
+      "raw": {
+        "tickers": [
+          "DDOG"
+        ],
+        "event_type": "earnings",
+        "sentiment": "bullish",
+        "impact": 1,
+        "confidence": 0.8,
+        "key_points": [
+          "Datadog reported robust Q4 results with strong demand for AI integrated observability platform.",
+          "Record large deal wins, particularly among enterprise and AI native customers."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Strong earnings and record deal wins boost Datadog's stock, indicating positive market sentiment."
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:18:04+09:00",
+      "source": "news",
+      "title": "Will Datadog Stock Sustain Growth on Rising AI Cloud Monitoring Spend?",
+      "summary": "DDOG rides 29% Q4 revenue jump as AI observability use soars, with 5,500+ AI integrations and a 2026 outlook signaling sustained growth momentum.",
+      "link": "https://finance.yahoo.com/news/datadog-stock-sustain-growth-rising-144300289.html?.tsrc=rss",
+      "sentiment": "neutral",
+      "impact": 0,
+      "tags": [
+        "other"
+      ],
+      "raw": {
+        "tickers": [
+          "DDOG"
+        ],
+        "event_type": "other",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [],
+        "trade_horizon": "swing_days",
+        "why_it_moves": ""
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "ts_kst": "2026-02-25T02:34:31+09:00",
+      "action": "HOLD",
+      "confidence": 0.17735294117647055,
+      "rationale": "The current market regime is risk-off, and recent news indicates strong bearish sentiment among cybersecurity stocks due to concerns over new AI security tools from Anthropic. While Datadog has reported strong Q4 earnings and positive guidance, the overall market environment remains challenging.",
+      "key_drivers": [
+        "Strong Q4 earnings and optimistic AI-driven guidance",
+        "Record large deal wins"
+      ],
+      "key_risks": [
+        "Widespread investor concern over new AI security tools from Anthropic",
+        "Risk-off market sentiment"
+      ],
+      "valuation_view": "Datadog's valuation remains high, but recent strong performance may indicate continued growth potential.",
+      "counterfactuals": [
+        "A significant decline in demand for cloud and AI tools could reverse positive momentum.",
+        "Further negative developments related to Anthropic’s AI security tool could intensify market sell-off."
+      ],
+      "next_checks": [
+        "Monitor Datadog's customer adoption of new AI-driven products",
+        "Track any regulatory or legal challenges related to Anthropic’s AI security tool"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.17735294117647055,
+        "rationale": "The current market regime is risk-off, and recent news indicates strong bearish sentiment among cybersecurity stocks due to concerns over new AI security tools from Anthropic. While Datadog has reported strong Q4 earnings and positive guidance, the overall market environment remains challenging.",
+        "key_drivers": [
+          "Strong Q4 earnings and optimistic AI-driven guidance",
+          "Record large deal wins"
+        ],
+        "key_risks": [
+          "Widespread investor concern over new AI security tools from Anthropic",
+          "Risk-off market sentiment"
+        ],
+        "valuation_view": "Datadog's valuation remains high, but recent strong performance may indicate continued growth potential.",
+        "counterfactuals": [
+          "A significant decline in demand for cloud and AI tools could reverse positive momentum.",
+          "Further negative developments related to Anthropic’s AI security tool could intensify market sell-off."
+        ],
+        "next_checks": [
+          "Monitor Datadog's customer adoption of new AI-driven products",
+          "Track any regulatory or legal challenges related to Anthropic’s AI security tool"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T02:32:53+09:00",
+      "action": "HOLD",
+      "confidence": 0.17735294117647055,
+      "rationale": "The current market regime is risk-off, and recent news events indicate a strong bearish sentiment among cybersecurity stocks due to concerns over new AI security tools from Anthropic. While Datadog has reported strong Q4 earnings and positive guidance, the overall market environment remains challenging.",
+      "key_drivers": [
+        "Strong Q4 earnings and optimistic AI-driven guidance",
+        "Record large deal wins"
+      ],
+      "key_risks": [
+        "Widespread investor concern over new AI security tools from Anthropic",
+        "Overall risk-off market sentiment"
+      ],
+      "valuation_view": "The recent strong performance of Datadog may be unsustainable given the current bearish market conditions and potential long-term risks posed by emerging technologies.",
+      "counterfactuals": [
+        "A significant positive shift in the market regime towards a risk-on stance",
+        "Further declines in cybersecurity stocks due to increased investor concerns over AI security tools"
+      ],
+      "next_checks": [
+        "Monitor Datadog's stock performance and any updates on its AI-driven observability platform",
+        "Keep an eye on broader market trends and how they may impact the tech sector, particularly cybersecurity companies"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.17735294117647055,
+        "rationale": "The current market regime is risk-off, and recent news events indicate a strong bearish sentiment among cybersecurity stocks due to concerns over new AI security tools from Anthropic. While Datadog has reported strong Q4 earnings and positive guidance, the overall market environment remains challenging.",
+        "key_drivers": [
+          "Strong Q4 earnings and optimistic AI-driven guidance",
+          "Record large deal wins"
+        ],
+        "key_risks": [
+          "Widespread investor concern over new AI security tools from Anthropic",
+          "Overall risk-off market sentiment"
+        ],
+        "valuation_view": "The recent strong performance of Datadog may be unsustainable given the current bearish market conditions and potential long-term risks posed by emerging technologies.",
+        "counterfactuals": [
+          "A significant positive shift in the market regime towards a risk-on stance",
+          "Further declines in cybersecurity stocks due to increased investor concerns over AI security tools"
+        ],
+        "next_checks": [
+          "Monitor Datadog's stock performance and any updates on its AI-driven observability platform",
+          "Keep an eye on broader market trends and how they may impact the tech sector, particularly cybersecurity companies"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T02:30:56+09:00",
+      "action": "HOLD",
+      "confidence": 0.17735294117647055,
+      "rationale": "The current market regime is risk-off, and recent news indicates strong bearish sentiment among cybersecurity stocks due to concerns over a new AI security tool from Anthropic. While Datadog has reported strong Q4 earnings and record deal wins, the overall market environment remains challenging.",
+      "key_drivers": [
+        "Strong Q4 earnings beat and optimistic guidance",
+        "Record number of large deal wins"
+      ],
+      "key_risks": [
+        "Widespread investor concern over new AI security tool from Anthropic",
+        "Risk-off market sentiment"
+      ],
+      "valuation_view": "Despite strong earnings, Datadog's valuation remains high relative to recent market conditions.",
+      "counterfactuals": [
+        "A significant decline in Q1 earnings or guidance could change the outlook negatively.",
+        "Positive developments from Anthropic that mitigate concerns about their AI security tool."
+      ],
+      "next_checks": [
+        "Q1 earnings report and guidance",
+        "Market sentiment on new AI security tools"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.17735294117647055,
+        "rationale": "The current market regime is risk-off, and recent news indicates strong bearish sentiment among cybersecurity stocks due to concerns over a new AI security tool from Anthropic. While Datadog has reported strong Q4 earnings and record deal wins, the overall market environment remains challenging.",
+        "key_drivers": [
+          "Strong Q4 earnings beat and optimistic guidance",
+          "Record number of large deal wins"
+        ],
+        "key_risks": [
+          "Widespread investor concern over new AI security tool from Anthropic",
+          "Risk-off market sentiment"
+        ],
+        "valuation_view": "Despite strong earnings, Datadog's valuation remains high relative to recent market conditions.",
+        "counterfactuals": [
+          "A significant decline in Q1 earnings or guidance could change the outlook negatively.",
+          "Positive developments from Anthropic that mitigate concerns about their AI security tool."
+        ],
+        "next_checks": [
+          "Q1 earnings report and guidance",
+          "Market sentiment on new AI security tools"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T01:30:05+09:00",
+      "action": "HOLD",
+      "confidence": 0.17735294117647055,
+      "rationale": "The current market regime is risk-off, and recent news events indicate a strong bearish sentiment among cybersecurity stocks due to concerns over new AI security tools from Anthropic. While Datadog has shown strong earnings and record deal wins, the overall market environment remains challenging.",
+      "key_drivers": [
+        "Strong Q4 earnings and positive guidance",
+        "Record number of large deals"
+      ],
+      "key_risks": [
+        "Widespread investor concern over new AI security tools from Anthropic",
+        "Overall risk-off market sentiment"
+      ],
+      "valuation_view": "Datadog's valuation remains high, but recent strong performance suggests it may be fairly valued given current conditions.",
+      "counterfactuals": [
+        "If Datadog reports weaker-than-expected earnings or guidance in the next quarter, it could lead to a sell-off.",
+        "A significant improvement in market sentiment towards cybersecurity stocks could prompt a re-evaluation of Datadog's stock."
+      ],
+      "next_checks": [
+        "Monitor Q1 earnings report for any signs of weakening demand",
+        "Track investor sentiment and news related to Anthropic's AI security tools"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.17735294117647055,
+        "rationale": "The current market regime is risk-off, and recent news events indicate a strong bearish sentiment among cybersecurity stocks due to concerns over new AI security tools from Anthropic. While Datadog has shown strong earnings and record deal wins, the overall market environment remains challenging.",
+        "key_drivers": [
+          "Strong Q4 earnings and positive guidance",
+          "Record number of large deals"
+        ],
+        "key_risks": [
+          "Widespread investor concern over new AI security tools from Anthropic",
+          "Overall risk-off market sentiment"
+        ],
+        "valuation_view": "Datadog's valuation remains high, but recent strong performance suggests it may be fairly valued given current conditions.",
+        "counterfactuals": [
+          "If Datadog reports weaker-than-expected earnings or guidance in the next quarter, it could lead to a sell-off.",
+          "A significant improvement in market sentiment towards cybersecurity stocks could prompt a re-evaluation of Datadog's stock."
+        ],
+        "next_checks": [
+          "Monitor Q1 earnings report for any signs of weakening demand",
+          "Track investor sentiment and news related to Anthropic's AI security tools"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T01:28:18+09:00",
+      "action": "HOLD",
+      "confidence": 0.17735294117647055,
+      "rationale": "The current market regime is risk-off, and recent news events indicate strong bearish sentiment among cybersecurity stocks due to concerns over new AI security tools from Anthropic. While Datadog has shown strong earnings and deal wins, the overall market environment suggests caution.",
+      "key_drivers": [
+        "Strong Q4 earnings and record deal wins for Datadog",
+        "Widespread investor concern over potential impact of Anthropic's new AI security tool on cybersecurity stocks"
+      ],
+      "key_risks": [
+        "Potential disruption to Datadog’s business from emerging AI-driven security solutions",
+        "Market-wide risk-off sentiment affecting all technology stocks, including Datadog"
+      ],
+      "valuation_view": "Datadog's valuation remains high despite strong earnings and deal wins. The market environment suggests caution in valuing the stock further.",
+      "counterfactuals": [
+        "If Anthropic’s AI security tool gains significant traction and disrupts the cybersecurity industry, Datadog could face pressure from investors.",
+        "A shift to a more bullish market regime could lead to increased investor interest in technology stocks, potentially boosting Datadog's share price."
+      ],
+      "next_checks": [
+        "Monitor Anthropic’s product development and market adoption",
+        "Review Datadog’s Q1 earnings report for any signs of slowing growth or new challenges"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.17735294117647055,
+        "rationale": "The current market regime is risk-off, and recent news events indicate strong bearish sentiment among cybersecurity stocks due to concerns over new AI security tools from Anthropic. While Datadog has shown strong earnings and deal wins, the overall market environment suggests caution.",
+        "key_drivers": [
+          "Strong Q4 earnings and record deal wins for Datadog",
+          "Widespread investor concern over potential impact of Anthropic's new AI security tool on cybersecurity stocks"
+        ],
+        "key_risks": [
+          "Potential disruption to Datadog’s business from emerging AI-driven security solutions",
+          "Market-wide risk-off sentiment affecting all technology stocks, including Datadog"
+        ],
+        "valuation_view": "Datadog's valuation remains high despite strong earnings and deal wins. The market environment suggests caution in valuing the stock further.",
+        "counterfactuals": [
+          "If Anthropic’s AI security tool gains significant traction and disrupts the cybersecurity industry, Datadog could face pressure from investors.",
+          "A shift to a more bullish market regime could lead to increased investor interest in technology stocks, potentially boosting Datadog's share price."
+        ],
+        "next_checks": [
+          "Monitor Anthropic’s product development and market adoption",
+          "Review Datadog’s Q1 earnings report for any signs of slowing growth or new challenges"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T01:26:20+09:00",
+      "action": "HOLD",
+      "confidence": 0.17735294117647055,
+      "rationale": "The current market regime is risk-off, and recent news events indicate strong bearish sentiment among cybersecurity stocks due to concerns over a new AI security tool from Anthropic. While Datadog has reported strong Q4 earnings and record deal wins, the overall market environment remains challenging.",
+      "key_drivers": [
+        "Strong Q4 earnings and positive guidance",
+        "Record number of large deal wins"
+      ],
+      "key_risks": [
+        "Widespread investor concern over new AI security tools from Anthropic",
+        "Risk-off market sentiment"
+      ],
+      "valuation_view": "Despite strong recent performance, Datadog's valuation remains high relative to the broader market and sector trends.",
+      "counterfactuals": [
+        "If Anthropic's AI tool gains significant traction and disrupts the cybersecurity landscape, investor sentiment could shift negatively for Datadog.",
+        "A reversal in market sentiment towards risk-on could lead to increased buying pressure on tech stocks."
+      ],
+      "next_checks": [
+        "Monitor updates on Anthropic's product development and market impact",
+        "Review Datadog's Q1 earnings report for any signs of slowing growth"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.17735294117647055,
+        "rationale": "The current market regime is risk-off, and recent news events indicate strong bearish sentiment among cybersecurity stocks due to concerns over a new AI security tool from Anthropic. While Datadog has reported strong Q4 earnings and record deal wins, the overall market environment remains challenging.",
+        "key_drivers": [
+          "Strong Q4 earnings and positive guidance",
+          "Record number of large deal wins"
+        ],
+        "key_risks": [
+          "Widespread investor concern over new AI security tools from Anthropic",
+          "Risk-off market sentiment"
+        ],
+        "valuation_view": "Despite strong recent performance, Datadog's valuation remains high relative to the broader market and sector trends.",
+        "counterfactuals": [
+          "If Anthropic's AI tool gains significant traction and disrupts the cybersecurity landscape, investor sentiment could shift negatively for Datadog.",
+          "A reversal in market sentiment towards risk-on could lead to increased buying pressure on tech stocks."
+        ],
+        "next_checks": [
+          "Monitor updates on Anthropic's product development and market impact",
+          "Review Datadog's Q1 earnings report for any signs of slowing growth"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:34:33+09:00",
+      "action": "HOLD",
+      "confidence": 0.17735294117647055,
+      "rationale": "The current market regime is risk-off, and recent news events indicate a strong bearish sentiment among cybersecurity stocks due to concerns over new AI security tools from Anthropic. While Datadog has reported strong Q4 earnings and positive guidance, the overall market conditions suggest caution.",
+      "key_drivers": [
+        "Strong Q4 earnings and optimistic AI-driven guidance",
+        "Record number of large deal wins"
+      ],
+      "key_risks": [
+        "Widespread investor concern over new AI security tools from Anthropic",
+        "Risk-off market sentiment"
+      ],
+      "valuation_view": "Despite strong short-term performance, the overall market conditions and investor concerns about new AI technologies could impact Datadog's valuation in the near term.",
+      "counterfactuals": [
+        "A significant positive shift in market sentiment towards AI security tools",
+        "Further strong earnings reports from Datadog that exceed expectations"
+      ],
+      "next_checks": [
+        "Monitor market sentiment and investor reactions to new AI security tools from Anthropic",
+        "Review Datadog's next earnings report for any unexpected changes or trends"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.17735294117647055,
+        "rationale": "The current market regime is risk-off, and recent news events indicate a strong bearish sentiment among cybersecurity stocks due to concerns over new AI security tools from Anthropic. While Datadog has reported strong Q4 earnings and positive guidance, the overall market conditions suggest caution.",
+        "key_drivers": [
+          "Strong Q4 earnings and optimistic AI-driven guidance",
+          "Record number of large deal wins"
+        ],
+        "key_risks": [
+          "Widespread investor concern over new AI security tools from Anthropic",
+          "Risk-off market sentiment"
+        ],
+        "valuation_view": "Despite strong short-term performance, the overall market conditions and investor concerns about new AI technologies could impact Datadog's valuation in the near term.",
+        "counterfactuals": [
+          "A significant positive shift in market sentiment towards AI security tools",
+          "Further strong earnings reports from Datadog that exceed expectations"
+        ],
+        "next_checks": [
+          "Monitor market sentiment and investor reactions to new AI security tools from Anthropic",
+          "Review Datadog's next earnings report for any unexpected changes or trends"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:32:38+09:00",
+      "action": "HOLD",
+      "confidence": 0.17735294117647055,
+      "rationale": "The current market regime is risk-off, and recent news events indicate a strong bearish sentiment among cybersecurity stocks due to concerns over new AI security tools from Anthropic. While Datadog has reported strong Q4 earnings and positive guidance, the overall market environment remains challenging.",
+      "key_drivers": [
+        "Strong Q4 earnings and positive guidance from Datadog",
+        "Rapid growth in core products and increased customer adoption"
+      ],
+      "key_risks": [
+        "Widespread investor concern over new AI security tools from Anthropic affecting the cybersecurity sector",
+        "Risk-off market sentiment impacting overall stock performance"
+      ],
+      "valuation_view": "Datadog's valuation remains high, but recent earnings and deal wins support its long-term growth potential. However, the current market conditions suggest caution.",
+      "counterfactuals": [
+        "If Anthropic's AI security tool gains significant traction and poses a substantial threat to cybersecurity stocks, Datadog could face downward pressure.",
+        "A shift in market sentiment towards risk-on could lead to increased buying interest in tech stocks like Datadog."
+      ],
+      "next_checks": [
+        "Monitor the adoption rate of Anthropic's AI security tool among major enterprises",
+        "Track Datadog's Q1 earnings and guidance for any signs of slowing growth"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.17735294117647055,
+        "rationale": "The current market regime is risk-off, and recent news events indicate a strong bearish sentiment among cybersecurity stocks due to concerns over new AI security tools from Anthropic. While Datadog has reported strong Q4 earnings and positive guidance, the overall market environment remains challenging.",
+        "key_drivers": [
+          "Strong Q4 earnings and positive guidance from Datadog",
+          "Rapid growth in core products and increased customer adoption"
+        ],
+        "key_risks": [
+          "Widespread investor concern over new AI security tools from Anthropic affecting the cybersecurity sector",
+          "Risk-off market sentiment impacting overall stock performance"
+        ],
+        "valuation_view": "Datadog's valuation remains high, but recent earnings and deal wins support its long-term growth potential. However, the current market conditions suggest caution.",
+        "counterfactuals": [
+          "If Anthropic's AI security tool gains significant traction and poses a substantial threat to cybersecurity stocks, Datadog could face downward pressure.",
+          "A shift in market sentiment towards risk-on could lead to increased buying interest in tech stocks like Datadog."
+        ],
+        "next_checks": [
+          "Monitor the adoption rate of Anthropic's AI security tool among major enterprises",
+          "Track Datadog's Q1 earnings and guidance for any signs of slowing growth"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:22:27+09:00",
+      "action": "HOLD",
+      "confidence": 0.17735294117647055,
+      "rationale": "The current market regime is risk-off, and recent news events indicate a strong bearish sentiment among cybersecurity stocks due to concerns over new AI security tools from Anthropic. While Datadog has reported strong Q4 earnings and positive guidance, the overall market environment remains challenging.",
+      "key_drivers": [
+        "Strong Q4 earnings and optimistic AI-driven guidance",
+        "Record number of large deal wins"
+      ],
+      "key_risks": [
+        "Widespread investor concern over new AI security tools from Anthropic",
+        "Risk-off market sentiment"
+      ],
+      "valuation_view": "Datadog's valuation remains high, but recent earnings and deal wins support positive growth momentum. However, the current market environment poses significant risks.",
+      "counterfactuals": [
+        "A reversal in investor sentiment towards AI security tools could significantly impact Datadog’s stock price negatively.",
+        "Weakness in overall market performance could exacerbate holding pressure."
+      ],
+      "next_checks": [
+        "Monitor Anthropic's product development and its potential impact on the cybersecurity industry",
+        "Track Datadog's customer adoption of new AI-driven solutions"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.17735294117647055,
+        "rationale": "The current market regime is risk-off, and recent news events indicate a strong bearish sentiment among cybersecurity stocks due to concerns over new AI security tools from Anthropic. While Datadog has reported strong Q4 earnings and positive guidance, the overall market environment remains challenging.",
+        "key_drivers": [
+          "Strong Q4 earnings and optimistic AI-driven guidance",
+          "Record number of large deal wins"
+        ],
+        "key_risks": [
+          "Widespread investor concern over new AI security tools from Anthropic",
+          "Risk-off market sentiment"
+        ],
+        "valuation_view": "Datadog's valuation remains high, but recent earnings and deal wins support positive growth momentum. However, the current market environment poses significant risks.",
+        "counterfactuals": [
+          "A reversal in investor sentiment towards AI security tools could significantly impact Datadog’s stock price negatively.",
+          "Weakness in overall market performance could exacerbate holding pressure."
+        ],
+        "next_checks": [
+          "Monitor Anthropic's product development and its potential impact on the cybersecurity industry",
+          "Track Datadog's customer adoption of new AI-driven solutions"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:20:42+09:00",
+      "action": "HOLD",
+      "confidence": 0.17735294117647055,
+      "rationale": "The current market regime is risk-off, and recent news events indicate strong bearish sentiment among cybersecurity stocks due to concerns over new AI security tools from Anthropic. While Datadog has reported strong Q4 earnings and positive guidance, the overall market conditions suggest a cautious approach.",
+      "key_drivers": [
+        "Strong Q4 earnings and optimistic AI-driven guidance",
+        "Record deal wins and robust demand for AI observability platform"
+      ],
+      "key_risks": [
+        "Widespread investor concern over new AI security tools from Anthropic",
+        "Risk-off market sentiment affecting overall stock performance"
+      ],
+      "valuation_view": "Datadog's valuation remains high, but recent earnings and deal wins support its growth potential. However, the current market conditions suggest a cautious approach.",
+      "counterfactuals": [
+        "A significant positive shift in investor sentiment towards AI security tools could reverse the bearish trend and provide an opportunity to buy Datadog.",
+        "Further deterioration of overall market conditions could lead to increased selling pressure on tech stocks."
+      ],
+      "next_checks": [
+        "Monitor upcoming earnings reports from competitors for any shifts in market perception",
+        "Track investor sentiment towards AI security tools and their impact on cybersecurity stocks"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.17735294117647055,
+        "rationale": "The current market regime is risk-off, and recent news events indicate strong bearish sentiment among cybersecurity stocks due to concerns over new AI security tools from Anthropic. While Datadog has reported strong Q4 earnings and positive guidance, the overall market conditions suggest a cautious approach.",
+        "key_drivers": [
+          "Strong Q4 earnings and optimistic AI-driven guidance",
+          "Record deal wins and robust demand for AI observability platform"
+        ],
+        "key_risks": [
+          "Widespread investor concern over new AI security tools from Anthropic",
+          "Risk-off market sentiment affecting overall stock performance"
+        ],
+        "valuation_view": "Datadog's valuation remains high, but recent earnings and deal wins support its growth potential. However, the current market conditions suggest a cautious approach.",
+        "counterfactuals": [
+          "A significant positive shift in investor sentiment towards AI security tools could reverse the bearish trend and provide an opportunity to buy Datadog.",
+          "Further deterioration of overall market conditions could lead to increased selling pressure on tech stocks."
+        ],
+        "next_checks": [
+          "Monitor upcoming earnings reports from competitors for any shifts in market perception",
+          "Track investor sentiment towards AI security tools and their impact on cybersecurity stocks"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:18:54+09:00",
+      "action": "HOLD",
+      "confidence": 0.18,
+      "rationale": "The current market regime is risk-off, and recent news events indicate a strong bearish sentiment among cybersecurity stocks due to concerns over AI-driven security tools from Anthropic. While Datadog has shown strong earnings and positive guidance, the overall market environment remains challenging.",
+      "key_drivers": [
+        "Strong Q4 earnings and optimistic AI-driven guidance",
+        "Record large deal wins, particularly among enterprise and AI native customers"
+      ],
+      "key_risks": [
+        "Widespread investor concern over potential impact of Anthropic's new security tool on the industry",
+        "Risk-off market sentiment affecting overall stock performance"
+      ],
+      "valuation_view": "Datadog's valuation is currently supported by strong earnings and positive guidance, but the broader market conditions suggest a cautious approach.",
+      "counterfactuals": [
+        "A significant improvement in cybersecurity stocks' performance could signal a shift to a more bullish market environment.",
+        "Positive developments from Anthropic or other AI-driven security tools that alleviate investor concerns."
+      ],
+      "next_checks": [
+        "Monitor Datadog's next earnings report for any signs of weakening momentum",
+        "Track the impact of Anthropic's new security tool on the broader cybersecurity sector"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.18,
+        "rationale": "The current market regime is risk-off, and recent news events indicate a strong bearish sentiment among cybersecurity stocks due to concerns over AI-driven security tools from Anthropic. While Datadog has shown strong earnings and positive guidance, the overall market environment remains challenging.",
+        "key_drivers": [
+          "Strong Q4 earnings and optimistic AI-driven guidance",
+          "Record large deal wins, particularly among enterprise and AI native customers"
+        ],
+        "key_risks": [
+          "Widespread investor concern over potential impact of Anthropic's new security tool on the industry",
+          "Risk-off market sentiment affecting overall stock performance"
+        ],
+        "valuation_view": "Datadog's valuation is currently supported by strong earnings and positive guidance, but the broader market conditions suggest a cautious approach.",
+        "counterfactuals": [
+          "A significant improvement in cybersecurity stocks' performance could signal a shift to a more bullish market environment.",
+          "Positive developments from Anthropic or other AI-driven security tools that alleviate investor concerns."
+        ],
+        "next_checks": [
+          "Monitor Datadog's next earnings report for any signs of weakening momentum",
+          "Track the impact of Anthropic's new security tool on the broader cybersecurity sector"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:17:07+09:00",
+      "action": "HOLD",
+      "confidence": 0.17735294117647055,
+      "rationale": "The current market regime is risk-off, and recent news events indicate a strong bearish sentiment among cybersecurity stocks due to concerns over new AI security tools from Anthropic. While Datadog has reported strong Q4 earnings and positive guidance, the overall market environment remains challenging.",
+      "key_drivers": [
+        "Strong Q4 earnings and optimistic AI-driven guidance",
+        "Positive customer adoption and deal wins"
+      ],
+      "key_risks": [
+        "Widespread investor concern over new AI security tools from Anthropic",
+        "Risk-off market sentiment affecting cybersecurity stocks"
+      ],
+      "valuation_view": "While Datadog's recent earnings beat expectations, the overall market environment remains challenging. The stock price is currently trading at $103.88, which may not fully reflect the risk-off sentiment.",
+      "counterfactuals": [
+        "If Anthropic's AI security tool gains significant traction and poses a substantial threat to cybersecurity firms, Datadog's share price could face further pressure.",
+        "A reversal in market sentiment towards risk-on could boost Datadog's stock if investor confidence improves."
+      ],
+      "next_checks": [
+        "Monitor updates on Anthropic's product development and market response",
+        "Review Datadog's Q1 earnings report for any signs of weakening momentum"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.17735294117647055,
+        "rationale": "The current market regime is risk-off, and recent news events indicate a strong bearish sentiment among cybersecurity stocks due to concerns over new AI security tools from Anthropic. While Datadog has reported strong Q4 earnings and positive guidance, the overall market environment remains challenging.",
+        "key_drivers": [
+          "Strong Q4 earnings and optimistic AI-driven guidance",
+          "Positive customer adoption and deal wins"
+        ],
+        "key_risks": [
+          "Widespread investor concern over new AI security tools from Anthropic",
+          "Risk-off market sentiment affecting cybersecurity stocks"
+        ],
+        "valuation_view": "While Datadog's recent earnings beat expectations, the overall market environment remains challenging. The stock price is currently trading at $103.88, which may not fully reflect the risk-off sentiment.",
+        "counterfactuals": [
+          "If Anthropic's AI security tool gains significant traction and poses a substantial threat to cybersecurity firms, Datadog's share price could face further pressure.",
+          "A reversal in market sentiment towards risk-on could boost Datadog's stock if investor confidence improves."
+        ],
+        "next_checks": [
+          "Monitor updates on Anthropic's product development and market response",
+          "Review Datadog's Q1 earnings report for any signs of weakening momentum"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:15:28+09:00",
+      "action": "HOLD",
+      "confidence": 0.17735294117647055,
+      "rationale": "The current market regime is risk-off, and recent news events indicate a strong bearish sentiment among cybersecurity stocks due to concerns over new AI security tools from Anthropic. While Datadog has reported strong Q4 earnings and positive guidance, the overall market environment remains challenging.",
+      "key_drivers": [
+        "Strong Q4 earnings beat and optimistic AI-driven guidance",
+        "Record number of large deal wins"
+      ],
+      "key_risks": [
+        "Widespread investor concern over new AI security tools from Anthropic",
+        "Risk-off market sentiment"
+      ],
+      "valuation_view": "The valuation remains challenging given the risk-off environment, and the fair value is not clearly defined.",
+      "counterfactuals": [
+        "If Datadog's stock price does not sustain growth despite strong earnings due to broader market concerns, it could lead to a sell signal in the near term.",
+        "A significant improvement in cybersecurity stocks' performance or a positive development from Anthropic could shift investor sentiment and warrant a buy signal."
+      ],
+      "next_checks": [
+        "Monitor Datadog's stock price for any signs of sustained growth despite market concerns.",
+        "Watch for any updates on Anthropic's product developments that might impact the cybersecurity sector."
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.17735294117647055,
+        "rationale": "The current market regime is risk-off, and recent news events indicate a strong bearish sentiment among cybersecurity stocks due to concerns over new AI security tools from Anthropic. While Datadog has reported strong Q4 earnings and positive guidance, the overall market environment remains challenging.",
+        "key_drivers": [
+          "Strong Q4 earnings beat and optimistic AI-driven guidance",
+          "Record number of large deal wins"
+        ],
+        "key_risks": [
+          "Widespread investor concern over new AI security tools from Anthropic",
+          "Risk-off market sentiment"
+        ],
+        "valuation_view": "The valuation remains challenging given the risk-off environment, and the fair value is not clearly defined.",
+        "counterfactuals": [
+          "If Datadog's stock price does not sustain growth despite strong earnings due to broader market concerns, it could lead to a sell signal in the near term.",
+          "A significant improvement in cybersecurity stocks' performance or a positive development from Anthropic could shift investor sentiment and warrant a buy signal."
+        ],
+        "next_checks": [
+          "Monitor Datadog's stock price for any signs of sustained growth despite market concerns.",
+          "Watch for any updates on Anthropic's product developments that might impact the cybersecurity sector."
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:13:27+09:00",
+      "action": "HOLD",
+      "confidence": 0.17735294117647055,
+      "rationale": "The current market regime is risk-off, and recent news indicates a strong bearish sentiment among cybersecurity stocks due to concerns over AI-driven security tools from Anthropic. While Datadog has shown strong earnings and positive growth in its AI observability platform, the overall market environment remains challenging.",
+      "key_drivers": [
+        "Strong Q4 earnings and optimistic guidance",
+        "Record deal wins and robust demand for AI integrated observability",
+        "Achieved FedRAMP High 'In Process' status"
+      ],
+      "key_risks": [
+        "Widespread investor concern over potential impact of Anthropic's new security tool on the industry",
+        "Market-wide risk-off sentiment affecting cybersecurity stocks"
+      ],
+      "valuation_view": "Datadog's valuation remains high, with strong earnings and growth in AI observability. However, the market environment suggests caution.",
+      "counterfactuals": [
+        "A significant positive development from Anthropic that alleviates investor concerns",
+        "Improvement in overall market sentiment leading to a risk-on regime"
+      ],
+      "next_checks": [
+        "Further earnings reports and guidance from Datadog",
+        "Market reaction to any developments from Anthropic or other AI security tools providers"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.17735294117647055,
+        "rationale": "The current market regime is risk-off, and recent news indicates a strong bearish sentiment among cybersecurity stocks due to concerns over AI-driven security tools from Anthropic. While Datadog has shown strong earnings and positive growth in its AI observability platform, the overall market environment remains challenging.",
+        "key_drivers": [
+          "Strong Q4 earnings and optimistic guidance",
+          "Record deal wins and robust demand for AI integrated observability",
+          "Achieved FedRAMP High 'In Process' status"
+        ],
+        "key_risks": [
+          "Widespread investor concern over potential impact of Anthropic's new security tool on the industry",
+          "Market-wide risk-off sentiment affecting cybersecurity stocks"
+        ],
+        "valuation_view": "Datadog's valuation remains high, with strong earnings and growth in AI observability. However, the market environment suggests caution.",
+        "counterfactuals": [
+          "A significant positive development from Anthropic that alleviates investor concerns",
+          "Improvement in overall market sentiment leading to a risk-on regime"
+        ],
+        "next_checks": [
+          "Further earnings reports and guidance from Datadog",
+          "Market reaction to any developments from Anthropic or other AI security tools providers"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:59:59+09:00",
+      "action": "HOLD",
+      "confidence": 0.8,
+      "rationale": "The current market environment is risk-off due to concerns over the potential impact of Anthropic's new AI security tool on cybersecurity stocks, which has led to a bearish sentiment. Despite strong Q4 earnings and positive outlooks from Datadog, recent news events suggest that investor caution remains high in this sector.",
+      "key_drivers": [
+        "Strong Q4 earnings and optimistic guidance",
+        "Innovative product launches like Bits AI",
+        "Progress in regulatory compliance (FedRAMP)",
+        "Increased customer adoption and large deal wins"
+      ],
+      "key_risks": [
+        "Widespread investor concern over potential impact of Anthropic's new AI security tool on the industry",
+        "Market sentiment remains cautious due to broader macroeconomic uncertainties"
+      ],
+      "valuation_view": "While recent earnings and product launches have boosted Datadog's valuation, the current market regime is risk-off, which may limit upward price movement.",
+      "counterfactuals": [
+        "A significant positive shift in investor sentiment towards AI security tools could reverse the bearish trend and drive Datadog's stock higher.",
+        "Further negative news or developments related to Anthropic's new tool could exacerbate market concerns."
+      ],
+      "next_checks": [
+        "Monitor upcoming earnings reports for any signs of weakening financial performance",
+        "Keep an eye on broader market trends and macroeconomic indicators that may impact investor sentiment"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.8,
+        "rationale": "The current market environment is risk-off due to concerns over the potential impact of Anthropic's new AI security tool on cybersecurity stocks, which has led to a bearish sentiment. Despite strong Q4 earnings and positive outlooks from Datadog, recent news events suggest that investor caution remains high in this sector.",
+        "key_drivers": [
+          "Strong Q4 earnings and optimistic guidance",
+          "Innovative product launches like Bits AI",
+          "Progress in regulatory compliance (FedRAMP)",
+          "Increased customer adoption and large deal wins"
+        ],
+        "key_risks": [
+          "Widespread investor concern over potential impact of Anthropic's new AI security tool on the industry",
+          "Market sentiment remains cautious due to broader macroeconomic uncertainties"
+        ],
+        "valuation_view": "While recent earnings and product launches have boosted Datadog's valuation, the current market regime is risk-off, which may limit upward price movement.",
+        "counterfactuals": [
+          "A significant positive shift in investor sentiment towards AI security tools could reverse the bearish trend and drive Datadog's stock higher.",
+          "Further negative news or developments related to Anthropic's new tool could exacerbate market concerns."
+        ],
+        "next_checks": [
+          "Monitor upcoming earnings reports for any signs of weakening financial performance",
+          "Keep an eye on broader market trends and macroeconomic indicators that may impact investor sentiment"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:49:28+09:00",
+      "action": "HOLD",
+      "confidence": 0.8,
+      "rationale": "The current market sentiment remains bearish due to the potential impact of Anthropic's new AI security tool on the cybersecurity sector. While Datadog has shown strong earnings and positive product launches, the overall market reaction is cautious given the broader industry concerns.",
+      "key_drivers": [
+        "Strong Q4 earnings and optimistic guidance from Datadog",
+        "Innovative product launch (Bits AI) and progress in regulatory compliance (FedRAMP)",
+        "Positive market sentiment on strong demand for AI integrated observability platform"
+      ],
+      "key_risks": [
+        "Widespread investor concern over the potential impact of Anthropic's new security tool on the industry",
+        "Cautious market reaction to broader cybersecurity sector concerns",
+        "Uncertainty around long-term growth prospects despite recent positive developments"
+      ],
+      "valuation_view": "While Datadog has shown strong financial performance, the current valuation is influenced by broader market sentiment and potential regulatory or technological disruptions.",
+      "counterfactuals": [
+        "A significant decline in investor concerns about Anthropic's new security tool could lead to a bullish market reaction for Datadog.",
+        "Negative earnings reports from key competitors could exacerbate market fears, leading to further declines."
+      ],
+      "next_checks": [
+        "Monitor the impact of Anthropic's new security tool on industry dynamics and competitor reactions",
+        "Assess any regulatory or technological developments that could affect the cybersecurity sector"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.8,
+        "rationale": "The current market sentiment remains bearish due to the potential impact of Anthropic's new AI security tool on the cybersecurity sector. While Datadog has shown strong earnings and positive product launches, the overall market reaction is cautious given the broader industry concerns.",
+        "key_drivers": [
+          "Strong Q4 earnings and optimistic guidance from Datadog",
+          "Innovative product launch (Bits AI) and progress in regulatory compliance (FedRAMP)",
+          "Positive market sentiment on strong demand for AI integrated observability platform"
+        ],
+        "key_risks": [
+          "Widespread investor concern over the potential impact of Anthropic's new security tool on the industry",
+          "Cautious market reaction to broader cybersecurity sector concerns",
+          "Uncertainty around long-term growth prospects despite recent positive developments"
+        ],
+        "valuation_view": "While Datadog has shown strong financial performance, the current valuation is influenced by broader market sentiment and potential regulatory or technological disruptions.",
+        "counterfactuals": [
+          "A significant decline in investor concerns about Anthropic's new security tool could lead to a bullish market reaction for Datadog.",
+          "Negative earnings reports from key competitors could exacerbate market fears, leading to further declines."
+        ],
+        "next_checks": [
+          "Monitor the impact of Anthropic's new security tool on industry dynamics and competitor reactions",
+          "Assess any regulatory or technological developments that could affect the cybersecurity sector"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:47:32+09:00",
+      "action": "HOLD",
+      "confidence": 0.8,
+      "rationale": "The current market sentiment is risk-off due to the potential impact of Anthropic's new AI security tool on cybersecurity stocks, which has led to a bearish reaction. While Datadog has strong earnings and positive product launches, the overall market environment remains challenging.",
+      "key_drivers": [
+        "Strong Q4 earnings and optimistic guidance",
+        "Innovative product launch (Bits AI)",
+        "Progress in regulatory compliance (FedRAMP High 'In Process')"
+      ],
+      "key_risks": [
+        "Widespread investor concern over potential impact of Anthropic's new AI security tool on the industry",
+        "Uncertainty around long-term growth prospects due to market volatility"
+      ],
+      "valuation_view": "While Datadog has reported strong earnings and positive guidance, the current market regime is risk-off, which may limit valuation appreciation. The fair value remains uncertain given the volatile market conditions.",
+      "counterfactuals": [
+        "If Anthropic's new AI security tool gains significant traction, it could further depress cybersecurity stock valuations, including Datadog’s.",
+        "A sudden improvement in market sentiment towards AI and cybersecurity stocks could drive a short-term rally."
+      ],
+      "next_checks": [
+        "Monitor the impact of Anthropic's product on the cybersecurity sector",
+        "Review Datadog's Q1 earnings for any signs of weakening momentum"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.8,
+        "rationale": "The current market sentiment is risk-off due to the potential impact of Anthropic's new AI security tool on cybersecurity stocks, which has led to a bearish reaction. While Datadog has strong earnings and positive product launches, the overall market environment remains challenging.",
+        "key_drivers": [
+          "Strong Q4 earnings and optimistic guidance",
+          "Innovative product launch (Bits AI)",
+          "Progress in regulatory compliance (FedRAMP High 'In Process')"
+        ],
+        "key_risks": [
+          "Widespread investor concern over potential impact of Anthropic's new AI security tool on the industry",
+          "Uncertainty around long-term growth prospects due to market volatility"
+        ],
+        "valuation_view": "While Datadog has reported strong earnings and positive guidance, the current market regime is risk-off, which may limit valuation appreciation. The fair value remains uncertain given the volatile market conditions.",
+        "counterfactuals": [
+          "If Anthropic's new AI security tool gains significant traction, it could further depress cybersecurity stock valuations, including Datadog’s.",
+          "A sudden improvement in market sentiment towards AI and cybersecurity stocks could drive a short-term rally."
+        ],
+        "next_checks": [
+          "Monitor the impact of Anthropic's product on the cybersecurity sector",
+          "Review Datadog's Q1 earnings for any signs of weakening momentum"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:45:41+09:00",
+      "action": "HOLD",
+      "confidence": 0.8,
+      "rationale": "The current market sentiment is risk-off due to concerns over the potential impact of Anthropic's new AI security tool on cybersecurity stocks, which has led to a bearish reaction in the sector. While Datadog has reported strong Q4 earnings and positive guidance, these gains are being offset by broader industry concerns.",
+      "key_drivers": [
+        "Strong Q4 earnings and optimistic AI-driven guidance",
+        "Innovative product launches like Bits AI",
+        "Progress in regulatory compliance (FedRAMP High 'In Process' status)"
+      ],
+      "key_risks": [
+        "Widespread investor concern over potential disruption from Anthropic's new security tool",
+        "Uncertainty around the long-term impact of AI on cybersecurity industry"
+      ],
+      "valuation_view": "While Datadog has shown strong financial performance, the current market sentiment is cautious due to broader industry concerns. The valuation remains challenging to assess without clear signs of how the new AI tools will affect the sector.",
+      "counterfactuals": [
+        "If Anthropic's tool gains significant traction and disrupts the cybersecurity landscape, Datadog’s stock could face further pressure.",
+        "A strong uptake of AI-driven security solutions by major clients could reverse current market sentiment."
+      ],
+      "next_checks": [
+        "Monitor industry reactions to Anthropic's new security tool",
+        "Track Datadog's customer adoption and integration progress for Bits AI"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.8,
+        "rationale": "The current market sentiment is risk-off due to concerns over the potential impact of Anthropic's new AI security tool on cybersecurity stocks, which has led to a bearish reaction in the sector. While Datadog has reported strong Q4 earnings and positive guidance, these gains are being offset by broader industry concerns.",
+        "key_drivers": [
+          "Strong Q4 earnings and optimistic AI-driven guidance",
+          "Innovative product launches like Bits AI",
+          "Progress in regulatory compliance (FedRAMP High 'In Process' status)"
+        ],
+        "key_risks": [
+          "Widespread investor concern over potential disruption from Anthropic's new security tool",
+          "Uncertainty around the long-term impact of AI on cybersecurity industry"
+        ],
+        "valuation_view": "While Datadog has shown strong financial performance, the current market sentiment is cautious due to broader industry concerns. The valuation remains challenging to assess without clear signs of how the new AI tools will affect the sector.",
+        "counterfactuals": [
+          "If Anthropic's tool gains significant traction and disrupts the cybersecurity landscape, Datadog’s stock could face further pressure.",
+          "A strong uptake of AI-driven security solutions by major clients could reverse current market sentiment."
+        ],
+        "next_checks": [
+          "Monitor industry reactions to Anthropic's new security tool",
+          "Track Datadog's customer adoption and integration progress for Bits AI"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:37:15+09:00",
+      "action": "HOLD",
+      "confidence": 0.8,
+      "rationale": "The current market regime is risk-off, and recent news indicates a bearish sentiment among cybersecurity stocks due to the potential impact of Anthropic's new AI security tool. While Datadog has shown strong earnings and product launches, the overall market conditions suggest caution.",
+      "key_drivers": [
+        "Strong Q4 earnings and positive guidance from Datadog",
+        "Innovative products like Bits AI and progress in regulatory compliance (FedRAMP)",
+        "Record deal wins and robust demand for AI integrated observability platform"
+      ],
+      "key_risks": [
+        "Widespread investor concern over the potential impact of Anthropic's new security tool on the industry",
+        "Market sentiment remains bearish, driven by broader market conditions"
+      ],
+      "valuation_view": "Datadog's strong earnings and product launches have boosted its valuation in the short term. However, the current risk-off market regime suggests that any positive momentum may be temporarily paused.",
+      "counterfactuals": [
+        "A significant improvement in market sentiment or a major breakthrough by Datadog could lead to a buy signal",
+        "Further negative developments related to Anthropic's AI security tool could intensify bearish sentiment"
+      ],
+      "next_checks": [
+        "Monitor market sentiment and any updates on Anthropic's product development",
+        "Review Datadog's next earnings report for any signs of weakening momentum"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.8,
+        "rationale": "The current market regime is risk-off, and recent news indicates a bearish sentiment among cybersecurity stocks due to the potential impact of Anthropic's new AI security tool. While Datadog has shown strong earnings and product launches, the overall market conditions suggest caution.",
+        "key_drivers": [
+          "Strong Q4 earnings and positive guidance from Datadog",
+          "Innovative products like Bits AI and progress in regulatory compliance (FedRAMP)",
+          "Record deal wins and robust demand for AI integrated observability platform"
+        ],
+        "key_risks": [
+          "Widespread investor concern over the potential impact of Anthropic's new security tool on the industry",
+          "Market sentiment remains bearish, driven by broader market conditions"
+        ],
+        "valuation_view": "Datadog's strong earnings and product launches have boosted its valuation in the short term. However, the current risk-off market regime suggests that any positive momentum may be temporarily paused.",
+        "counterfactuals": [
+          "A significant improvement in market sentiment or a major breakthrough by Datadog could lead to a buy signal",
+          "Further negative developments related to Anthropic's AI security tool could intensify bearish sentiment"
+        ],
+        "next_checks": [
+          "Monitor market sentiment and any updates on Anthropic's product development",
+          "Review Datadog's next earnings report for any signs of weakening momentum"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:35:35+09:00",
+      "action": "HOLD",
+      "confidence": 0.8,
+      "rationale": "The current market sentiment is risk-off due to concerns over the impact of Anthropic's new AI security tool on cybersecurity stocks. While Datadog has strong earnings and product launches, the overall bearish environment suggests holding rather than taking a more aggressive stance.",
+      "key_drivers": [
+        "Strong Q4 earnings and positive guidance",
+        "Innovative product launch (Bits AI)",
+        "Progress in regulatory compliance (FedRAMP High 'In Process')",
+        "Increased customer adoption and large deal wins"
+      ],
+      "key_risks": [
+        "Widespread investor concern over potential impact of Anthropic's new security tool on the industry",
+        "Uncertainty around long-term growth prospects given the current risk-off market sentiment"
+      ],
+      "valuation_view": "Despite strong short-term earnings and positive guidance, the valuation remains challenging due to the broader bearish market environment. The fair value is not clearly defined in the current context.",
+      "counterfactuals": [
+        "If Anthropic's new security tool gains significant traction and poses a direct threat to Datadog’s business model, this could lead to further declines in stock price.",
+        "A sudden shift towards a more bullish market sentiment could result in increased buying pressure and higher stock prices."
+      ],
+      "next_checks": [
+        "Monitor the impact of Anthropic's new security tool on the broader cybersecurity sector",
+        "Track Datadog’s customer adoption and deal wins for signs of continued growth"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.8,
+        "rationale": "The current market sentiment is risk-off due to concerns over the impact of Anthropic's new AI security tool on cybersecurity stocks. While Datadog has strong earnings and product launches, the overall bearish environment suggests holding rather than taking a more aggressive stance.",
+        "key_drivers": [
+          "Strong Q4 earnings and positive guidance",
+          "Innovative product launch (Bits AI)",
+          "Progress in regulatory compliance (FedRAMP High 'In Process')",
+          "Increased customer adoption and large deal wins"
+        ],
+        "key_risks": [
+          "Widespread investor concern over potential impact of Anthropic's new security tool on the industry",
+          "Uncertainty around long-term growth prospects given the current risk-off market sentiment"
+        ],
+        "valuation_view": "Despite strong short-term earnings and positive guidance, the valuation remains challenging due to the broader bearish market environment. The fair value is not clearly defined in the current context.",
+        "counterfactuals": [
+          "If Anthropic's new security tool gains significant traction and poses a direct threat to Datadog’s business model, this could lead to further declines in stock price.",
+          "A sudden shift towards a more bullish market sentiment could result in increased buying pressure and higher stock prices."
+        ],
+        "next_checks": [
+          "Monitor the impact of Anthropic's new security tool on the broader cybersecurity sector",
+          "Track Datadog’s customer adoption and deal wins for signs of continued growth"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:33:49+09:00",
+      "action": "HOLD",
+      "confidence": 0.8,
+      "rationale": "The current market regime is risk-off, and recent news indicates a bearish sentiment among cybersecurity stocks due to concerns over new AI security tools from Anthropic. While Datadog has strong earnings and product launches, the overall market environment suggests caution.",
+      "key_drivers": [
+        "Strong Q4 earnings and positive guidance",
+        "Innovative product launches like Bits AI",
+        "Progress in regulatory compliance with FedRAMP"
+      ],
+      "key_risks": [
+        "Widespread bearish sentiment among cybersecurity stocks due to new AI security tools from Anthropic",
+        "Potential regulatory challenges or market competition"
+      ],
+      "valuation_view": "While Datadog's earnings and product launches are positive, the current risk-off market environment suggests that valuations may be under pressure.",
+      "counterfactuals": [
+        "If Anthropic's AI security tool gains significant market share, it could negatively impact cybersecurity stocks including Datadog.",
+        "A shift in regulatory stance against AI tools or increased competition from other tech giants could also affect Datadog's growth prospects."
+      ],
+      "next_checks": [
+        "Monitor the progress of Anthropic's AI security tool and its impact on the market",
+        "Keep an eye on any regulatory developments that may affect Datadog"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.8,
+        "rationale": "The current market regime is risk-off, and recent news indicates a bearish sentiment among cybersecurity stocks due to concerns over new AI security tools from Anthropic. While Datadog has strong earnings and product launches, the overall market environment suggests caution.",
+        "key_drivers": [
+          "Strong Q4 earnings and positive guidance",
+          "Innovative product launches like Bits AI",
+          "Progress in regulatory compliance with FedRAMP"
+        ],
+        "key_risks": [
+          "Widespread bearish sentiment among cybersecurity stocks due to new AI security tools from Anthropic",
+          "Potential regulatory challenges or market competition"
+        ],
+        "valuation_view": "While Datadog's earnings and product launches are positive, the current risk-off market environment suggests that valuations may be under pressure.",
+        "counterfactuals": [
+          "If Anthropic's AI security tool gains significant market share, it could negatively impact cybersecurity stocks including Datadog.",
+          "A shift in regulatory stance against AI tools or increased competition from other tech giants could also affect Datadog's growth prospects."
+        ],
+        "next_checks": [
+          "Monitor the progress of Anthropic's AI security tool and its impact on the market",
+          "Keep an eye on any regulatory developments that may affect Datadog"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:31:52+09:00",
+      "action": "HOLD",
+      "confidence": 0.8,
+      "rationale": "The current market regime is risk-off, and recent news events indicate a bearish sentiment among cybersecurity stocks due to concerns over new AI security tools from Anthropic. While Datadog has strong earnings and product launches, the overall market environment suggests caution.",
+      "key_drivers": [
+        "Strong Q4 earnings and positive guidance",
+        "Innovative product launches like Bits AI",
+        "Progress in regulatory compliance (FedRAMP)"
+      ],
+      "key_risks": [
+        "Widespread bearish sentiment among cybersecurity stocks due to new AI tools from Anthropic",
+        "Potential regulatory challenges or market competition"
+      ],
+      "valuation_view": "The strong earnings and product launches have boosted Datadog's valuation, but the current risk-off market environment suggests that any positive momentum may be temporarily paused.",
+      "counterfactuals": [
+        "A significant decline in demand for AI observability tools could shift the market sentiment to bearish.",
+        "Positive regulatory developments or major partnerships could reverse the current hold stance."
+      ],
+      "next_checks": [
+        "Monitor market trends and any updates on regulatory compliance",
+        "Track customer adoption of new products like Bits AI"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.8,
+        "rationale": "The current market regime is risk-off, and recent news events indicate a bearish sentiment among cybersecurity stocks due to concerns over new AI security tools from Anthropic. While Datadog has strong earnings and product launches, the overall market environment suggests caution.",
+        "key_drivers": [
+          "Strong Q4 earnings and positive guidance",
+          "Innovative product launches like Bits AI",
+          "Progress in regulatory compliance (FedRAMP)"
+        ],
+        "key_risks": [
+          "Widespread bearish sentiment among cybersecurity stocks due to new AI tools from Anthropic",
+          "Potential regulatory challenges or market competition"
+        ],
+        "valuation_view": "The strong earnings and product launches have boosted Datadog's valuation, but the current risk-off market environment suggests that any positive momentum may be temporarily paused.",
+        "counterfactuals": [
+          "A significant decline in demand for AI observability tools could shift the market sentiment to bearish.",
+          "Positive regulatory developments or major partnerships could reverse the current hold stance."
+        ],
+        "next_checks": [
+          "Monitor market trends and any updates on regulatory compliance",
+          "Track customer adoption of new products like Bits AI"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:27:38+09:00",
+      "action": "HOLD",
+      "confidence": 0.8,
+      "rationale": "The current market regime is risk-off, and recent news indicates a bearish sentiment among cybersecurity stocks due to concerns over new AI security tools from Anthropic. While Datadog has strong earnings and product launches, the overall market environment suggests caution.",
+      "key_drivers": [
+        "Strong Q4 earnings and positive guidance",
+        "Innovative products like Bits AI",
+        "Progress in regulatory compliance (FedRAMP)"
+      ],
+      "key_risks": [
+        "Widespread investor concerns over new AI security tools from Anthropic",
+        "Potential impact on the broader cybersecurity sector"
+      ],
+      "valuation_view": "Datadog's valuation is supported by strong earnings and product launches, but the current market regime suggests that fair value may be difficult to determine with certainty.",
+      "counterfactuals": [
+        "A significant positive announcement from Anthropic or other major players in the AI security space could shift investor sentiment positively for Datadog.",
+        "Further declines in cybersecurity stocks due to ongoing concerns about new AI tools could pressure Datadog's stock."
+      ],
+      "next_checks": [
+        "Monitor market reaction to any announcements from Anthropic or other competitors",
+        "Review Datadog’s Q1 earnings report and customer adoption metrics"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.8,
+        "rationale": "The current market regime is risk-off, and recent news indicates a bearish sentiment among cybersecurity stocks due to concerns over new AI security tools from Anthropic. While Datadog has strong earnings and product launches, the overall market environment suggests caution.",
+        "key_drivers": [
+          "Strong Q4 earnings and positive guidance",
+          "Innovative products like Bits AI",
+          "Progress in regulatory compliance (FedRAMP)"
+        ],
+        "key_risks": [
+          "Widespread investor concerns over new AI security tools from Anthropic",
+          "Potential impact on the broader cybersecurity sector"
+        ],
+        "valuation_view": "Datadog's valuation is supported by strong earnings and product launches, but the current market regime suggests that fair value may be difficult to determine with certainty.",
+        "counterfactuals": [
+          "A significant positive announcement from Anthropic or other major players in the AI security space could shift investor sentiment positively for Datadog.",
+          "Further declines in cybersecurity stocks due to ongoing concerns about new AI tools could pressure Datadog's stock."
+        ],
+        "next_checks": [
+          "Monitor market reaction to any announcements from Anthropic or other competitors",
+          "Review Datadog’s Q1 earnings report and customer adoption metrics"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:25:49+09:00",
+      "action": "HOLD",
+      "confidence": 0.8,
+      "rationale": "The current market regime is risk-off, and recent news events indicate a bearish sentiment among cybersecurity stocks due to concerns over new AI security tools from Anthropic. While Datadog has strong earnings and positive product launches, the overall market environment suggests caution.",
+      "key_drivers": [
+        "Strong Q4 earnings and optimistic guidance",
+        "Innovative product launches like Bits AI",
+        "Progress in regulatory compliance (FedRAMP)"
+      ],
+      "key_risks": [
+        "Bearish sentiment among cybersecurity stocks due to new AI tools from Anthropic",
+        "Potential regulatory challenges with FedRAMP",
+        "Market-wide risk-off sentiment"
+      ],
+      "valuation_view": "Datadog's valuation is supported by strong earnings and positive market reaction, but the current bearish market environment may limit upside potential.",
+      "counterfactuals": [
+        "If Anthropic's AI tools gain widespread adoption and significantly impact cybersecurity stocks, Datadog could face downward pressure.",
+        "A shift in regulatory approval for FedRAMP could affect Datadog's growth prospects."
+      ],
+      "next_checks": [
+        "Monitor market sentiment towards new AI security tools from Anthropic",
+        "Track progress on FedRAMP compliance and any related regulatory changes"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.8,
+        "rationale": "The current market regime is risk-off, and recent news events indicate a bearish sentiment among cybersecurity stocks due to concerns over new AI security tools from Anthropic. While Datadog has strong earnings and positive product launches, the overall market environment suggests caution.",
+        "key_drivers": [
+          "Strong Q4 earnings and optimistic guidance",
+          "Innovative product launches like Bits AI",
+          "Progress in regulatory compliance (FedRAMP)"
+        ],
+        "key_risks": [
+          "Bearish sentiment among cybersecurity stocks due to new AI tools from Anthropic",
+          "Potential regulatory challenges with FedRAMP",
+          "Market-wide risk-off sentiment"
+        ],
+        "valuation_view": "Datadog's valuation is supported by strong earnings and positive market reaction, but the current bearish market environment may limit upside potential.",
+        "counterfactuals": [
+          "If Anthropic's AI tools gain widespread adoption and significantly impact cybersecurity stocks, Datadog could face downward pressure.",
+          "A shift in regulatory approval for FedRAMP could affect Datadog's growth prospects."
+        ],
+        "next_checks": [
+          "Monitor market sentiment towards new AI security tools from Anthropic",
+          "Track progress on FedRAMP compliance and any related regulatory changes"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T22:52:40+09:00",
+      "action": "HOLD",
+      "confidence": 0.8,
+      "rationale": "The current market regime is risk-off, and recent news events have shown a bearish sentiment among cybersecurity stocks due to concerns over new AI security tools from Anthropic. While Datadog has strong earnings and product launches, the overall market environment suggests caution.",
+      "key_drivers": [
+        "Strong Q4 earnings beat and optimistic guidance",
+        "Launch of innovative products like Bits AI",
+        "Progress in regulatory compliance (FedRAMP)"
+      ],
+      "key_risks": [
+        "Bearish sentiment among cybersecurity stocks due to new AI tools from Anthropic",
+        "Market regime remains risk-off"
+      ],
+      "valuation_view": "Datadog's valuation is supported by strong earnings and product launches, but the market environment suggests caution. The fair value cannot be accurately determined given the current risk-off regime.",
+      "counterfactuals": [
+        "If Anthropic's AI security tool gains significant market traction, it could negatively impact Datadog's stock price.",
+        "A shift to a more bullish market regime could lead to increased investor interest in cybersecurity stocks."
+      ],
+      "next_checks": [
+        "Monitor the progress of Anthropic's AI security tool and its impact on the cybersecurity industry",
+        "Assess any changes in the market regime that might affect overall sentiment"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.8,
+        "rationale": "The current market regime is risk-off, and recent news events have shown a bearish sentiment among cybersecurity stocks due to concerns over new AI security tools from Anthropic. While Datadog has strong earnings and product launches, the overall market environment suggests caution.",
+        "key_drivers": [
+          "Strong Q4 earnings beat and optimistic guidance",
+          "Launch of innovative products like Bits AI",
+          "Progress in regulatory compliance (FedRAMP)"
+        ],
+        "key_risks": [
+          "Bearish sentiment among cybersecurity stocks due to new AI tools from Anthropic",
+          "Market regime remains risk-off"
+        ],
+        "valuation_view": "Datadog's valuation is supported by strong earnings and product launches, but the market environment suggests caution. The fair value cannot be accurately determined given the current risk-off regime.",
+        "counterfactuals": [
+          "If Anthropic's AI security tool gains significant market traction, it could negatively impact Datadog's stock price.",
+          "A shift to a more bullish market regime could lead to increased investor interest in cybersecurity stocks."
+        ],
+        "next_checks": [
+          "Monitor the progress of Anthropic's AI security tool and its impact on the cybersecurity industry",
+          "Assess any changes in the market regime that might affect overall sentiment"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T22:51:04+09:00",
+      "action": "HOLD",
+      "confidence": 0.85,
+      "rationale": "Current market sentiment and technical indicators suggest a cautious approach. Recent strong earnings and product launches have boosted Datadog's share price, but the broader cybersecurity sector is experiencing bearish pressure due to concerns over AI-driven security tools.",
+      "key_drivers": [
+        "Strong Q4 earnings and positive guidance",
+        "Launch of innovative products like Bits AI",
+        "Progress in regulatory compliance (FedRAMP)"
+      ],
+      "key_risks": [
+        "Bearish sentiment in the broader cybersecurity sector due to AI-driven security tools",
+        "Regulatory challenges with FedRAMP",
+        "Market overvaluation based on current P/E ratios"
+      ],
+      "valuation_view": "Datadog's valuation is supported by strong earnings and product launches, but the stock may be slightly overvalued given its current price-to-earnings ratio.",
+      "counterfactuals": [
+        "A significant decline in AI-driven security tool concerns could lead to a sell-off",
+        "Negative regulatory developments or delays with FedRAMP could impact growth prospects",
+        "Earnings miss expectations in the upcoming quarters"
+      ],
+      "next_checks": [
+        "Monitor market reaction to AI-driven security tools and their potential impact on Datadog's business",
+        "Track progress of regulatory compliance (FedRAMP) and any related delays or setbacks",
+        "Review earnings reports for signs of slowing growth or increased competition"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.85,
+        "rationale": "Current market sentiment and technical indicators suggest a cautious approach. Recent strong earnings and product launches have boosted Datadog's share price, but the broader cybersecurity sector is experiencing bearish pressure due to concerns over AI-driven security tools.",
+        "key_drivers": [
+          "Strong Q4 earnings and positive guidance",
+          "Launch of innovative products like Bits AI",
+          "Progress in regulatory compliance (FedRAMP)"
+        ],
+        "key_risks": [
+          "Bearish sentiment in the broader cybersecurity sector due to AI-driven security tools",
+          "Regulatory challenges with FedRAMP",
+          "Market overvaluation based on current P/E ratios"
+        ],
+        "valuation_view": "Datadog's valuation is supported by strong earnings and product launches, but the stock may be slightly overvalued given its current price-to-earnings ratio.",
+        "counterfactuals": [
+          "A significant decline in AI-driven security tool concerns could lead to a sell-off",
+          "Negative regulatory developments or delays with FedRAMP could impact growth prospects",
+          "Earnings miss expectations in the upcoming quarters"
+        ],
+        "next_checks": [
+          "Monitor market reaction to AI-driven security tools and their potential impact on Datadog's business",
+          "Track progress of regulatory compliance (FedRAMP) and any related delays or setbacks",
+          "Review earnings reports for signs of slowing growth or increased competition"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T22:49:15+09:00",
+      "action": "HOLD",
+      "confidence": 0.8,
+      "rationale": "Current market conditions and recent news suggest a cautious approach given the mixed signals from both positive earnings and regulatory progress, as well as broader concerns about AI integration in cybersecurity.",
+      "key_drivers": [
+        "Strong Q4 earnings beat and optimistic guidance",
+        "Innovative product launches like Bits AI",
+        "Progress towards FedRAMP compliance"
+      ],
+      "key_risks": [
+        "Widespread bearish sentiment among cybersecurity stocks due to new AI security tools from Anthropic",
+        "Uncertainty in the broader market environment"
+      ],
+      "valuation_view": "While recent earnings and product launches have boosted Datadog's valuation, the overall market regime remains risk-off, suggesting caution.",
+      "counterfactuals": [
+        "A significant decline in cybersecurity stocks due to further AI security tool releases",
+        "Negative earnings surprises or regulatory setbacks for Datadog"
+      ],
+      "next_checks": [
+        "Monitor broader market trends and any updates on Anthropic's product development",
+        "Review upcoming earnings reports from competitors in the cybersecurity space"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.8,
+        "rationale": "Current market conditions and recent news suggest a cautious approach given the mixed signals from both positive earnings and regulatory progress, as well as broader concerns about AI integration in cybersecurity.",
+        "key_drivers": [
+          "Strong Q4 earnings beat and optimistic guidance",
+          "Innovative product launches like Bits AI",
+          "Progress towards FedRAMP compliance"
+        ],
+        "key_risks": [
+          "Widespread bearish sentiment among cybersecurity stocks due to new AI security tools from Anthropic",
+          "Uncertainty in the broader market environment"
+        ],
+        "valuation_view": "While recent earnings and product launches have boosted Datadog's valuation, the overall market regime remains risk-off, suggesting caution.",
+        "counterfactuals": [
+          "A significant decline in cybersecurity stocks due to further AI security tool releases",
+          "Negative earnings surprises or regulatory setbacks for Datadog"
+        ],
+        "next_checks": [
+          "Monitor broader market trends and any updates on Anthropic's product development",
+          "Review upcoming earnings reports from competitors in the cybersecurity space"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:53:55+09:00",
+      "action": "HOLD",
+      "confidence": 0.56,
+      "rationale": "Current market conditions and recent news indicate strong bullish sentiment, but the overall technical analysis suggests a bearish bias. The stock price is currently stable with no immediate catalysts for significant movement.",
+      "key_drivers": [
+        "Strong Q4 earnings beat and optimistic AI-driven guidance",
+        "Launch of innovative products like Bits AI and progress in FedRAMP compliance"
+      ],
+      "key_risks": [
+        "Potential shift in market sentiment if future earnings do not meet expectations",
+        "Regulatory risks associated with FedRAMP compliance"
+      ],
+      "valuation_view": "The current valuation is supported by strong growth prospects, but the P/E ratio remains high.",
+      "counterfactuals": [
+        "If Q1 earnings fall short of expectations, it could negatively impact market sentiment and stock price.",
+        "Any setbacks in FedRAMP compliance progress could also lead to a decline in stock value."
+      ],
+      "next_checks": [
+        "Monitor Q1 earnings report for any deviations from expectations",
+        "Track updates on FedRAMP compliance status"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.56,
+        "rationale": "Current market conditions and recent news indicate strong bullish sentiment, but the overall technical analysis suggests a bearish bias. The stock price is currently stable with no immediate catalysts for significant movement.",
+        "key_drivers": [
+          "Strong Q4 earnings beat and optimistic AI-driven guidance",
+          "Launch of innovative products like Bits AI and progress in FedRAMP compliance"
+        ],
+        "key_risks": [
+          "Potential shift in market sentiment if future earnings do not meet expectations",
+          "Regulatory risks associated with FedRAMP compliance"
+        ],
+        "valuation_view": "The current valuation is supported by strong growth prospects, but the P/E ratio remains high.",
+        "counterfactuals": [
+          "If Q1 earnings fall short of expectations, it could negatively impact market sentiment and stock price.",
+          "Any setbacks in FedRAMP compliance progress could also lead to a decline in stock value."
+        ],
+        "next_checks": [
+          "Monitor Q1 earnings report for any deviations from expectations",
+          "Track updates on FedRAMP compliance status"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:52:31+09:00",
+      "action": "HOLD",
+      "confidence": 0.7,
+      "rationale": "当前市场情绪谨慎，Datadog 股价虽有强劲财报支持，但整体技术面偏弱。短期内维持现有仓位较为合理。",
+      "key_drivers": [
+        "强劲的 Q4 财报和积极的 AI 驱动指引",
+        "创新产品 Bits AI 和 FedRAMP 进展"
+      ],
+      "key_risks": [
+        "整体市场情绪谨慎，技术面偏弱",
+        "未来财报不及预期的风险"
+      ],
+      "valuation_view": "尽管近期股价上涨，但估值仍处于合理区间。需关注长期增长潜力。",
+      "counterfactuals": [
+        "如果 Q1 财报低于预期，可能会改变当前判断",
+        "技术面出现明显改善信号会促使重新评估仓位"
+      ],
+      "next_checks": [
+        "密切关注 Q1 财报表现",
+        "跟踪市场情绪和技术面变化"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.7,
+        "rationale": "当前市场情绪谨慎，Datadog 股价虽有强劲财报支持，但整体技术面偏弱。短期内维持现有仓位较为合理。",
+        "key_drivers": [
+          "强劲的 Q4 财报和积极的 AI 驱动指引",
+          "创新产品 Bits AI 和 FedRAMP 进展"
+        ],
+        "key_risks": [
+          "整体市场情绪谨慎，技术面偏弱",
+          "未来财报不及预期的风险"
+        ],
+        "valuation_view": "尽管近期股价上涨，但估值仍处于合理区间。需关注长期增长潜力。",
+        "counterfactuals": [
+          "如果 Q1 财报低于预期，可能会改变当前判断",
+          "技术面出现明显改善信号会促使重新评估仓位"
+        ],
+        "next_checks": [
+          "密切关注 Q1 财报表现",
+          "跟踪市场情绪和技术面变化"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:51:08+09:00",
+      "action": "HOLD",
+      "confidence": 0.56,
+      "rationale": "Current market conditions and recent earnings suggest a cautious approach.",
+      "key_drivers": [
+        "Strong Q4 earnings beat and positive guidance",
+        "Rapid growth in core products and increased customer adoption"
+      ],
+      "key_risks": [
+        "Market sentiment remains bearish",
+        "Potential for short-term volatility due to ongoing macroeconomic uncertainties"
+      ],
+      "valuation_view": "Valuation is currently fair, with no significant changes in key assumptions.",
+      "counterfactuals": [
+        "A weaker-than-expected earnings report could shift the market sentiment towards selling.",
+        "Significant negative news regarding AI observability or regulatory issues could impact stock performance."
+      ],
+      "next_checks": [
+        "Monitor upcoming earnings reports for any signs of weakening trends",
+        "Keep an eye on broader market movements and macroeconomic indicators"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.56,
+        "rationale": "Current market conditions and recent earnings suggest a cautious approach.",
+        "key_drivers": [
+          "Strong Q4 earnings beat and positive guidance",
+          "Rapid growth in core products and increased customer adoption"
+        ],
+        "key_risks": [
+          "Market sentiment remains bearish",
+          "Potential for short-term volatility due to ongoing macroeconomic uncertainties"
+        ],
+        "valuation_view": "Valuation is currently fair, with no significant changes in key assumptions.",
+        "counterfactuals": [
+          "A weaker-than-expected earnings report could shift the market sentiment towards selling.",
+          "Significant negative news regarding AI observability or regulatory issues could impact stock performance."
+        ],
+        "next_checks": [
+          "Monitor upcoming earnings reports for any signs of weakening trends",
+          "Keep an eye on broader market movements and macroeconomic indicators"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:49:33+09:00",
+      "action": "HOLD",
+      "confidence": 0.6,
+      "rationale": "当前市场情绪偏向谨慎，技术分析显示短期熊市信号。尽管近期有积极的财报和产品发布推动股价上涨，但整体市场环境不利于大幅操作。",
+      "key_drivers": [
+        "强劲的Q4财报和乐观的2026年指引",
+        "AI产品的快速增长和客户采用率提高"
+      ],
+      "key_risks": [
+        "整体市场情绪偏向谨慎",
+        "技术分析显示短期熊市信号"
+      ],
+      "valuation_view": "尽管近期有积极因素，但整体估值尚未明显提升。",
+      "counterfactuals": [
+        "如果未来几周内市场情绪进一步恶化或技术面出现更明显的下跌趋势，则可能需要重新评估策略。",
+        "若财报不及预期或新产品推广效果不佳，股价可能会回调。"
+      ],
+      "next_checks": [
+        "关注后续财报表现和产品推广情况",
+        "观察市场情绪变化和技术分析信号"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.6,
+        "rationale": "当前市场情绪偏向谨慎，技术分析显示短期熊市信号。尽管近期有积极的财报和产品发布推动股价上涨，但整体市场环境不利于大幅操作。",
+        "key_drivers": [
+          "强劲的Q4财报和乐观的2026年指引",
+          "AI产品的快速增长和客户采用率提高"
+        ],
+        "key_risks": [
+          "整体市场情绪偏向谨慎",
+          "技术分析显示短期熊市信号"
+        ],
+        "valuation_view": "尽管近期有积极因素，但整体估值尚未明显提升。",
+        "counterfactuals": [
+          "如果未来几周内市场情绪进一步恶化或技术面出现更明显的下跌趋势，则可能需要重新评估策略。",
+          "若财报不及预期或新产品推广效果不佳，股价可能会回调。"
+        ],
+        "next_checks": [
+          "关注后续财报表现和产品推广情况",
+          "观察市场情绪变化和技术分析信号"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:33:07+09:00",
+      "action": "HOLD",
+      "confidence": 0.7,
+      "rationale": "当前市场情绪偏向谨慎，且技术分析显示短期存在回调压力。尽管Datadog近期业绩强劲，但整体估值尚未充分反映其长期增长潜力。",
+      "key_drivers": [
+        "近期强劲的Q4财报和积极的AI驱动指引",
+        "创新产品Bits AI及联邦政府客户合规进展"
+      ],
+      "key_risks": [
+        "市场情绪短期内可能进一步转弱，导致股价承压",
+        "未来几个季度的增长预期能否持续存在不确定性"
+      ],
+      "valuation_view": "当前估值尚未完全反映长期增长潜力，需关注后续业绩表现以确认价值重估。",
+      "counterfactuals": [
+        "如果未来一个季度内Datadog的业绩不及预期，则可能引发股价回调",
+        "市场情绪进一步恶化导致整体科技股承压"
+      ],
+      "next_checks": [
+        "跟踪下一季财报，特别是AI相关业务的增长情况",
+        "关注市场情绪变化及技术面指标是否出现明显转弱信号"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.7,
+        "rationale": "当前市场情绪偏向谨慎，且技术分析显示短期存在回调压力。尽管Datadog近期业绩强劲，但整体估值尚未充分反映其长期增长潜力。",
+        "key_drivers": [
+          "近期强劲的Q4财报和积极的AI驱动指引",
+          "创新产品Bits AI及联邦政府客户合规进展"
+        ],
+        "key_risks": [
+          "市场情绪短期内可能进一步转弱，导致股价承压",
+          "未来几个季度的增长预期能否持续存在不确定性"
+        ],
+        "valuation_view": "当前估值尚未完全反映长期增长潜力，需关注后续业绩表现以确认价值重估。",
+        "counterfactuals": [
+          "如果未来一个季度内Datadog的业绩不及预期，则可能引发股价回调",
+          "市场情绪进一步恶化导致整体科技股承压"
+        ],
+        "next_checks": [
+          "跟踪下一季财报，特别是AI相关业务的增长情况",
+          "关注市场情绪变化及技术面指标是否出现明显转弱信号"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:31:45+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "Recent strong earnings and positive guidance have driven Datadog's share price in the short term, with innovative product launches and regulatory progress expected to further boost growth prospects.",
+      "key_drivers": [
+        "Strong Q4 earnings beat and optimistic 2026 guidance",
+        "Launch of Bits AI and FedRAMP progress"
+      ],
+      "key_risks": [
+        "Market sentiment could shift if future earnings do not meet expectations",
+        "Regulatory compliance issues could arise"
+      ],
+      "valuation_view": "Current valuation reflects strong growth prospects, but fair value is uncertain without a clear range.",
+      "counterfactuals": [
+        "If Q1 earnings fall short of expectations, it may signal a shift in market sentiment and negatively impact share price."
+      ],
+      "next_checks": [
+        "Monitor upcoming earnings reports for any signs of weakening growth",
+        "Track regulatory progress and its impact on customer adoption"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "Recent strong earnings and positive guidance have driven Datadog's share price in the short term, with innovative product launches and regulatory progress expected to further boost growth prospects.",
+        "key_drivers": [
+          "Strong Q4 earnings beat and optimistic 2026 guidance",
+          "Launch of Bits AI and FedRAMP progress"
+        ],
+        "key_risks": [
+          "Market sentiment could shift if future earnings do not meet expectations",
+          "Regulatory compliance issues could arise"
+        ],
+        "valuation_view": "Current valuation reflects strong growth prospects, but fair value is uncertain without a clear range.",
+        "counterfactuals": [
+          "If Q1 earnings fall short of expectations, it may signal a shift in market sentiment and negatively impact share price."
+        ],
+        "next_checks": [
+          "Monitor upcoming earnings reports for any signs of weakening growth",
+          "Track regulatory progress and its impact on customer adoption"
+        ],
+        "position_plan": {
+          "prefer_qty": 1,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:29:39+09:00",
+      "action": "HOLD",
+      "confidence": 0.7,
+      "rationale": "Current market conditions and recent positive earnings suggest stability but not strong buying signals.",
+      "key_drivers": [
+        "Strong Q4 earnings beat and optimistic AI-driven guidance",
+        "Rapid growth in core products and increased customer adoption"
+      ],
+      "key_risks": [
+        "Market regime is risk-off, indicating cautious sentiment",
+        "Neutral to slightly bearish technical indicators"
+      ],
+      "valuation_view": "While recent positive news supports valuation, the market regime suggests caution.",
+      "counterfactuals": [
+        "A significant earnings miss in upcoming quarters could change the outlook."
+      ],
+      "next_checks": [
+        "Monitor Q1 earnings and any regulatory updates on FedRAMP progress",
+        "Watch for changes in market regime or technical indicators"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.7,
+        "rationale": "Current market conditions and recent positive earnings suggest stability but not strong buying signals.",
+        "key_drivers": [
+          "Strong Q4 earnings beat and optimistic AI-driven guidance",
+          "Rapid growth in core products and increased customer adoption"
+        ],
+        "key_risks": [
+          "Market regime is risk-off, indicating cautious sentiment",
+          "Neutral to slightly bearish technical indicators"
+        ],
+        "valuation_view": "While recent positive news supports valuation, the market regime suggests caution.",
+        "counterfactuals": [
+          "A significant earnings miss in upcoming quarters could change the outlook."
+        ],
+        "next_checks": [
+          "Monitor Q1 earnings and any regulatory updates on FedRAMP progress",
+          "Watch for changes in market regime or technical indicators"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:25:00+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "近期Datadog的新闻事件显示其在产品创新和业绩增长方面表现出色，市场反应积极。尽管技术分析指标偏向于短期回调，但基于公司方向性和近期正面消息，建议采取买入策略。",
+      "key_drivers": [
+        "产品创新（Bits AI）",
+        "强劲财报表现"
+      ],
+      "key_risks": [
+        "宏观经济波动可能影响科技股整体表现"
+      ],
+      "valuation_view": "当前股价反映了市场对Datadog未来增长的积极预期，但具体估值区间尚不明确",
+      "counterfactuals": [
+        "如果接下来几周内业绩不及预期或新产品推广受阻，则需重新评估"
+      ],
+      "next_checks": [
+        "关注下一季度财报发布情况",
+        "产品Bits AI的实际用户反馈和市场接受度"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "近期Datadog的新闻事件显示其在产品创新和业绩增长方面表现出色，市场反应积极。尽管技术分析指标偏向于短期回调，但基于公司方向性和近期正面消息，建议采取买入策略。",
+        "key_drivers": [
+          "产品创新（Bits AI）",
+          "强劲财报表现"
+        ],
+        "key_risks": [
+          "宏观经济波动可能影响科技股整体表现"
+        ],
+        "valuation_view": "当前股价反映了市场对Datadog未来增长的积极预期，但具体估值区间尚不明确",
+        "counterfactuals": [
+          "如果接下来几周内业绩不及预期或新产品推广受阻，则需重新评估"
+        ],
+        "next_checks": [
+          "关注下一季度财报发布情况",
+          "产品Bits AI的实际用户反馈和市场接受度"
+        ],
+        "position_plan": {
+          "prefer_qty": 1,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:23:37+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "近期Datadog的新闻事件显示其在产品创新和业绩增长方面表现出色，市场反应积极。尽管技术分析指标偏向于短期回调，但基于公司方向性和近期正面消息，建议采取买入策略。",
+      "key_drivers": [
+        "产品创新（Bits AI）",
+        "强劲财报表现"
+      ],
+      "key_risks": [
+        "宏观经济波动可能影响科技股整体表现"
+      ],
+      "valuation_view": "当前股价反映了市场对Datadog未来增长的积极预期，但具体估值区间尚不明确",
+      "counterfactuals": [
+        "如果接下来几周内业绩不及预期或新产品推广受阻，则需重新评估"
+      ],
+      "next_checks": [
+        "关注下一季度财报发布情况",
+        "产品Bits AI的实际用户反馈和市场接受度"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "近期Datadog的新闻事件显示其在产品创新和业绩增长方面表现出色，市场反应积极。尽管技术分析指标偏向于短期回调，但基于公司方向性和近期正面消息，建议采取买入策略。",
+        "key_drivers": [
+          "产品创新（Bits AI）",
+          "强劲财报表现"
+        ],
+        "key_risks": [
+          "宏观经济波动可能影响科技股整体表现"
+        ],
+        "valuation_view": "当前股价反映了市场对Datadog未来增长的积极预期，但具体估值区间尚不明确",
+        "counterfactuals": [
+          "如果接下来几周内业绩不及预期或新产品推广受阻，则需重新评估"
+        ],
+        "next_checks": [
+          "关注下一季度财报发布情况",
+          "产品Bits AI的实际用户反馈和市场接受度"
+        ],
+        "position_plan": {
+          "prefer_qty": 1,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:22:20+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "近期Datadog的新闻事件显示其在产品创新和业绩增长方面表现出色，市场反应积极。尽管技术分析指标偏向于短期回调，但基于公司方向性和近期正面消息，建议采取买入策略。",
+      "key_drivers": [
+        "产品创新（Bits AI）",
+        "强劲财报表现"
+      ],
+      "key_risks": [
+        "宏观经济波动可能影响科技股整体表现"
+      ],
+      "valuation_view": "当前股价反映了市场对Datadog未来增长的积极预期，但具体估值区间尚不明确",
+      "counterfactuals": [
+        "如果接下来几周内业绩不及预期或新产品推广受阻，则需重新评估"
+      ],
+      "next_checks": [
+        "关注下一季度财报发布情况",
+        "产品Bits AI的实际用户反馈和市场接受度"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "近期Datadog的新闻事件显示其在产品创新和业绩增长方面表现出色，市场反应积极。尽管技术分析指标偏向于短期回调，但基于公司方向性和近期正面消息，建议采取买入策略。",
+        "key_drivers": [
+          "产品创新（Bits AI）",
+          "强劲财报表现"
+        ],
+        "key_risks": [
+          "宏观经济波动可能影响科技股整体表现"
+        ],
+        "valuation_view": "当前股价反映了市场对Datadog未来增长的积极预期，但具体估值区间尚不明确",
+        "counterfactuals": [
+          "如果接下来几周内业绩不及预期或新产品推广受阻，则需重新评估"
+        ],
+        "next_checks": [
+          "关注下一季度财报发布情况",
+          "产品Bits AI的实际用户反馈和市场接受度"
+        ],
+        "position_plan": {
+          "prefer_qty": 1,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:21:01+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "近期Datadog的新闻事件显示其在产品创新和业绩增长方面表现出色，市场反应积极。尽管技术分析指标偏向于短期回调，但基于公司方向性和近期正面消息，建议采取买入策略。",
+      "key_drivers": [
+        "产品创新（Bits AI）",
+        "强劲财报表现"
+      ],
+      "key_risks": [
+        "宏观经济波动可能影响科技股整体表现"
+      ],
+      "valuation_view": "当前股价反映了市场对Datadog未来增长的积极预期，但具体估值区间尚不明确",
+      "counterfactuals": [
+        "如果接下来几周内业绩不及预期或新产品推广受阻，则需重新评估"
+      ],
+      "next_checks": [
+        "关注下一季度财报发布情况",
+        "产品Bits AI的实际用户反馈和市场接受度"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "近期Datadog的新闻事件显示其在产品创新和业绩增长方面表现出色，市场反应积极。尽管技术分析指标偏向于短期回调，但基于公司方向性和近期正面消息，建议采取买入策略。",
+        "key_drivers": [
+          "产品创新（Bits AI）",
+          "强劲财报表现"
+        ],
+        "key_risks": [
+          "宏观经济波动可能影响科技股整体表现"
+        ],
+        "valuation_view": "当前股价反映了市场对Datadog未来增长的积极预期，但具体估值区间尚不明确",
+        "counterfactuals": [
+          "如果接下来几周内业绩不及预期或新产品推广受阻，则需重新评估"
+        ],
+        "next_checks": [
+          "关注下一季度财报发布情况",
+          "产品Bits AI的实际用户反馈和市场接受度"
+        ],
+        "position_plan": {
+          "prefer_qty": 1,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:19:32+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "近期Datadog的新闻事件显示其在产品创新和业绩增长方面表现出色，市场反应积极。尽管技术分析指标偏向于短期回调，但基于公司方向性和近期正面消息，建议采取买入策略。",
+      "key_drivers": [
+        "产品创新（Bits AI）",
+        "强劲财报表现"
+      ],
+      "key_risks": [
+        "宏观经济波动可能影响科技股整体表现"
+      ],
+      "valuation_view": "当前股价反映了市场对Datadog未来增长的积极预期，但具体估值区间尚不明确",
+      "counterfactuals": [
+        "如果接下来几周内业绩不及预期或新产品推广受阻，则需重新评估"
+      ],
+      "next_checks": [
+        "关注下一季度财报发布情况",
+        "产品Bits AI的实际用户反馈和市场接受度"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "近期Datadog的新闻事件显示其在产品创新和业绩增长方面表现出色，市场反应积极。尽管技术分析指标偏向于短期回调，但基于公司方向性和近期正面消息，建议采取买入策略。",
+        "key_drivers": [
+          "产品创新（Bits AI）",
+          "强劲财报表现"
+        ],
+        "key_risks": [
+          "宏观经济波动可能影响科技股整体表现"
+        ],
+        "valuation_view": "当前股价反映了市场对Datadog未来增长的积极预期，但具体估值区间尚不明确",
+        "counterfactuals": [
+          "如果接下来几周内业绩不及预期或新产品推广受阻，则需重新评估"
+        ],
+        "next_checks": [
+          "关注下一季度财报发布情况",
+          "产品Bits AI的实际用户反馈和市场接受度"
+        ],
+        "position_plan": {
+          "prefer_qty": 1,
+          "time_horizon": "swing_days"
+        }
+      }
+    }
+  ],
+  "tags": []
+}

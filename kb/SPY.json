@@ -1,0 +1,1172 @@
+{
+  "ticker": "SPY",
+  "updated_at": "2026-02-25T02:34:44+09:00",
+  "thesis": "",
+  "business_summary": "",
+  "moat": "",
+  "key_drivers": [],
+  "key_risks": [],
+  "valuation_method": "simple",
+  "valuation_assumptions": {},
+  "target_price": null,
+  "fair_value_range": null,
+  "evidence": [],
+  "decisions": [
+    {
+      "ts_kst": "2026-02-25T02:34:44+09:00",
+      "action": "HOLD",
+      "confidence": 0.5823529411764706,
+      "rationale": "현재 시장 상황과 기술적 분석은 중립적이며 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+      "key_drivers": [],
+      "key_risks": [],
+      "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+      "counterfactuals": [
+        "시장 상황이 급변할 경우"
+      ],
+      "next_checks": [
+        "시장 뉴스 및 기업 이벤트 확인",
+        "기타 투자 대상의 최근 동향 확인"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5823529411764706,
+        "rationale": "현재 시장 상황과 기술적 분석은 중립적이며 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+        "key_drivers": [],
+        "key_risks": [],
+        "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+        "counterfactuals": [
+          "시장 상황이 급변할 경우"
+        ],
+        "next_checks": [
+          "시장 뉴스 및 기업 이벤트 확인",
+          "기타 투자 대상의 최근 동향 확인"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T02:33:06+09:00",
+      "action": "HOLD",
+      "confidence": 0.5823529411764706,
+      "rationale": "현재 시장 상황과 기술적 분석은 중립적이며 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+      "key_drivers": [],
+      "key_risks": [],
+      "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+      "counterfactuals": [
+        "시장 상황이 급변할 경우"
+      ],
+      "next_checks": [
+        "시장 뉴스 및 기업 이벤트 확인",
+        "기타 투자 대상의 최근 동향 확인"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5823529411764706,
+        "rationale": "현재 시장 상황과 기술적 분석은 중립적이며 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+        "key_drivers": [],
+        "key_risks": [],
+        "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+        "counterfactuals": [
+          "시장 상황이 급변할 경우"
+        ],
+        "next_checks": [
+          "시장 뉴스 및 기업 이벤트 확인",
+          "기타 투자 대상의 최근 동향 확인"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T02:31:09+09:00",
+      "action": "HOLD",
+      "confidence": 0.5823529411764706,
+      "rationale": "현재 시장 상황과 기술적 분석은 중립적이며 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+      "key_drivers": [],
+      "key_risks": [],
+      "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+      "counterfactuals": [
+        "시장 상황이 급변할 경우"
+      ],
+      "next_checks": [
+        "시장 뉴스 및 기업 이벤트 확인",
+        "기타 투자 대상의 최근 동향 확인"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5823529411764706,
+        "rationale": "현재 시장 상황과 기술적 분석은 중립적이며 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+        "key_drivers": [],
+        "key_risks": [],
+        "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+        "counterfactuals": [
+          "시장 상황이 급변할 경우"
+        ],
+        "next_checks": [
+          "시장 뉴스 및 기업 이벤트 확인",
+          "기타 투자 대상의 최근 동향 확인"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T01:30:11+09:00",
+      "action": "HOLD",
+      "confidence": 0.5823529411764706,
+      "rationale": "현재 시장 상황과 기술적 분석은 중립적이며 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+      "key_drivers": [],
+      "key_risks": [],
+      "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+      "counterfactuals": [
+        "시장 상황이 급변할 경우"
+      ],
+      "next_checks": [
+        "시장 뉴스 및 기업 이벤트 확인",
+        "기타 투자 대상의 최근 동향 확인"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5823529411764706,
+        "rationale": "현재 시장 상황과 기술적 분석은 중립적이며 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+        "key_drivers": [],
+        "key_risks": [],
+        "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+        "counterfactuals": [
+          "시장 상황이 급변할 경우"
+        ],
+        "next_checks": [
+          "시장 뉴스 및 기업 이벤트 확인",
+          "기타 투자 대상의 최근 동향 확인"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T01:28:24+09:00",
+      "action": "HOLD",
+      "confidence": 0.5823529411764706,
+      "rationale": "현재 시장 상황과 기술적 분석은 중립적이며 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+      "key_drivers": [],
+      "key_risks": [],
+      "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+      "counterfactuals": [
+        "시장 상황이 급변할 경우"
+      ],
+      "next_checks": [
+        "시장 뉴스 및 기업 이벤트 확인",
+        "기타 투자 대상의 최근 동향 확인"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5823529411764706,
+        "rationale": "현재 시장 상황과 기술적 분석은 중립적이며 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+        "key_drivers": [],
+        "key_risks": [],
+        "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+        "counterfactuals": [
+          "시장 상황이 급변할 경우"
+        ],
+        "next_checks": [
+          "시장 뉴스 및 기업 이벤트 확인",
+          "기타 투자 대상의 최근 동향 확인"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T01:26:26+09:00",
+      "action": "HOLD",
+      "confidence": 0.5823529411764706,
+      "rationale": "현재 시장 상황과 기술적 분석은 중립적이며 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+      "key_drivers": [],
+      "key_risks": [],
+      "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+      "counterfactuals": [
+        "시장 상황이 급변할 경우"
+      ],
+      "next_checks": [
+        "시장 뉴스 및 기업 이벤트 확인",
+        "기타 투자 대상의 최근 동향 확인"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5823529411764706,
+        "rationale": "현재 시장 상황과 기술적 분석은 중립적이며 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+        "key_drivers": [],
+        "key_risks": [],
+        "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+        "counterfactuals": [
+          "시장 상황이 급변할 경우"
+        ],
+        "next_checks": [
+          "시장 뉴스 및 기업 이벤트 확인",
+          "기타 투자 대상의 최근 동향 확인"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:34:46+09:00",
+      "action": "HOLD",
+      "confidence": 0.5823529411764706,
+      "rationale": "현재 시장 상황과 기술적 분석은 중립적이며 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+      "key_drivers": [],
+      "key_risks": [],
+      "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+      "counterfactuals": [
+        "시장 상황이 급변할 경우"
+      ],
+      "next_checks": [
+        "시장 뉴스 및 기업 이벤트 확인",
+        "기타 투자 대상의 최근 동향 확인"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5823529411764706,
+        "rationale": "현재 시장 상황과 기술적 분석은 중립적이며 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+        "key_drivers": [],
+        "key_risks": [],
+        "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+        "counterfactuals": [
+          "시장 상황이 급변할 경우"
+        ],
+        "next_checks": [
+          "시장 뉴스 및 기업 이벤트 확인",
+          "기타 투자 대상의 최근 동향 확인"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:32:51+09:00",
+      "action": "HOLD",
+      "confidence": 0.5823529411764706,
+      "rationale": "현재 시장 상황과 기술적 분석은 중립적이며, 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+      "key_drivers": [],
+      "key_risks": [],
+      "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+      "counterfactuals": [
+        "시장 상황이 급변할 경우"
+      ],
+      "next_checks": [
+        "시장 뉴스 및 기업 이벤트 확인",
+        "기타 투자 대상의 최근 동향 확인"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5823529411764706,
+        "rationale": "현재 시장 상황과 기술적 분석은 중립적이며, 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+        "key_drivers": [],
+        "key_risks": [],
+        "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+        "counterfactuals": [
+          "시장 상황이 급변할 경우"
+        ],
+        "next_checks": [
+          "시장 뉴스 및 기업 이벤트 확인",
+          "기타 투자 대상의 최근 동향 확인"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:22:04+09:00",
+      "action": "HOLD",
+      "confidence": 0.5823529411764706,
+      "rationale": "현재 시장 상황과 기술적 분석은 중립적이며 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+      "key_drivers": [],
+      "key_risks": [],
+      "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+      "counterfactuals": [
+        "시장 상황이 급변할 경우"
+      ],
+      "next_checks": [
+        "시장 뉴스 및 기업 이벤트 확인",
+        "기타 투자 대상의 최근 동향 확인"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5823529411764706,
+        "rationale": "현재 시장 상황과 기술적 분석은 중립적이며 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+        "key_drivers": [],
+        "key_risks": [],
+        "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+        "counterfactuals": [
+          "시장 상황이 급변할 경우"
+        ],
+        "next_checks": [
+          "시장 뉴스 및 기업 이벤트 확인",
+          "기타 투자 대상의 최근 동향 확인"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:20:19+09:00",
+      "action": "HOLD",
+      "confidence": 0.5823529411764706,
+      "rationale": "현재 시장 상황과 기술적 분석은 중립적이며 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+      "key_drivers": [],
+      "key_risks": [],
+      "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+      "counterfactuals": [
+        "시장 상황이 급변할 경우"
+      ],
+      "next_checks": [
+        "시장 뉴스 및 기업 이벤트 확인",
+        "기타 투자 대상의 최근 동향 확인"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5823529411764706,
+        "rationale": "현재 시장 상황과 기술적 분석은 중립적이며 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+        "key_drivers": [],
+        "key_risks": [],
+        "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+        "counterfactuals": [
+          "시장 상황이 급변할 경우"
+        ],
+        "next_checks": [
+          "시장 뉴스 및 기업 이벤트 확인",
+          "기타 투자 대상의 최근 동향 확인"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:18:31+09:00",
+      "action": "HOLD",
+      "confidence": 0.5823529411764706,
+      "rationale": "현재 시장 상황과 기술적 분석은 중립적이며 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+      "key_drivers": [],
+      "key_risks": [],
+      "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+      "counterfactuals": [
+        "시장 상황이 급변할 경우"
+      ],
+      "next_checks": [
+        "시장 뉴스 및 기업 이벤트 확인",
+        "기타 투자 대상의 최근 동향 확인"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5823529411764706,
+        "rationale": "현재 시장 상황과 기술적 분석은 중립적이며 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+        "key_drivers": [],
+        "key_risks": [],
+        "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+        "counterfactuals": [
+          "시장 상황이 급변할 경우"
+        ],
+        "next_checks": [
+          "시장 뉴스 및 기업 이벤트 확인",
+          "기타 투자 대상의 최근 동향 확인"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:16:44+09:00",
+      "action": "HOLD",
+      "confidence": 0.5823529411764706,
+      "rationale": "현재 시장 상황과 기술적 분석은 중립적이며 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+      "key_drivers": [],
+      "key_risks": [],
+      "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+      "counterfactuals": [
+        "시장 상황이 급변할 경우"
+      ],
+      "next_checks": [
+        "시장 뉴스 및 기업 이벤트 확인",
+        "기타 투자 대상의 최근 동향 확인"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5823529411764706,
+        "rationale": "현재 시장 상황과 기술적 분석은 중립적이며 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+        "key_drivers": [],
+        "key_risks": [],
+        "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+        "counterfactuals": [
+          "시장 상황이 급변할 경우"
+        ],
+        "next_checks": [
+          "시장 뉴스 및 기업 이벤트 확인",
+          "기타 투자 대상의 최근 동향 확인"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T00:14:50+09:00",
+      "action": "HOLD",
+      "confidence": 0.5823529411764706,
+      "rationale": "현재 시장 상황과 기술적 분석은 중립적이고 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+      "key_drivers": [],
+      "key_risks": [],
+      "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+      "counterfactuals": [
+        "시장 상황이 급변할 경우"
+      ],
+      "next_checks": [
+        "시장 뉴스 및 기업 이벤트 확인",
+        "기타 투자 대상의 최근 동향 확인"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5823529411764706,
+        "rationale": "현재 시장 상황과 기술적 분석은 중립적이고 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+        "key_drivers": [],
+        "key_risks": [],
+        "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+        "counterfactuals": [
+          "시장 상황이 급변할 경우"
+        ],
+        "next_checks": [
+          "시장 뉴스 및 기업 이벤트 확인",
+          "기타 투자 대상의 최근 동향 확인"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:49:05+09:00",
+      "action": "HOLD",
+      "confidence": 0.5823529411764706,
+      "rationale": "현재 시장 상황과 기술적 분석은 중립적이고 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+      "key_drivers": [],
+      "key_risks": [],
+      "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+      "counterfactuals": [
+        "시장 상황이 급변할 경우"
+      ],
+      "next_checks": [
+        "시장 뉴스 및 기업 이벤트 확인",
+        "기타 투자 대상의 최근 동향 확인"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5823529411764706,
+        "rationale": "현재 시장 상황과 기술적 분석은 중립적이고 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+        "key_drivers": [],
+        "key_risks": [],
+        "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+        "counterfactuals": [
+          "시장 상황이 급변할 경우"
+        ],
+        "next_checks": [
+          "시장 뉴스 및 기업 이벤트 확인",
+          "기타 투자 대상의 최근 동향 확인"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:46:58+09:00",
+      "action": "HOLD",
+      "confidence": 0.5823529411764706,
+      "rationale": "현재 시장 상황과 기술적 분석은 중립적이고 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+      "key_drivers": [],
+      "key_risks": [],
+      "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+      "counterfactuals": [
+        "시장 상황이 급변할 경우"
+      ],
+      "next_checks": [
+        "시장 뉴스 및 기업 이벤트 확인",
+        "기타 투자 대상의 최근 동향 확인"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5823529411764706,
+        "rationale": "현재 시장 상황과 기술적 분석은 중립적이고 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+        "key_drivers": [],
+        "key_risks": [],
+        "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+        "counterfactuals": [
+          "시장 상황이 급변할 경우"
+        ],
+        "next_checks": [
+          "시장 뉴스 및 기업 이벤트 확인",
+          "기타 투자 대상의 최근 동향 확인"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:36:52+09:00",
+      "action": "HOLD",
+      "confidence": 0.5823529411764706,
+      "rationale": "현재 시장 상황과 기술적 분석은 중립적이고 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+      "key_drivers": [],
+      "key_risks": [],
+      "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+      "counterfactuals": [
+        "시장 상황이 급변할 경우"
+      ],
+      "next_checks": [
+        "시장 뉴스 및 기업 이벤트 확인",
+        "기타 투자 대상의 최근 동향 확인"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5823529411764706,
+        "rationale": "현재 시장 상황과 기술적 분석은 중립적이고 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+        "key_drivers": [],
+        "key_risks": [],
+        "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+        "counterfactuals": [
+          "시장 상황이 급변할 경우"
+        ],
+        "next_checks": [
+          "시장 뉴스 및 기업 이벤트 확인",
+          "기타 투자 대상의 최근 동향 확인"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:35:12+09:00",
+      "action": "HOLD",
+      "confidence": 0.5823529411764706,
+      "rationale": "현재 시장 상황과 기술적 분석은 중립적이고 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+      "key_drivers": [],
+      "key_risks": [],
+      "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+      "counterfactuals": [
+        "시장 상황이 급변할 경우"
+      ],
+      "next_checks": [
+        "시장 뉴스 및 기업 이벤트 확인",
+        "기타 투자 대상의 최근 동향 확인"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5823529411764706,
+        "rationale": "현재 시장 상황과 기술적 분석은 중립적이고 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+        "key_drivers": [],
+        "key_risks": [],
+        "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+        "counterfactuals": [
+          "시장 상황이 급변할 경우"
+        ],
+        "next_checks": [
+          "시장 뉴스 및 기업 이벤트 확인",
+          "기타 투자 대상의 최근 동향 확인"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:33:15+09:00",
+      "action": "HOLD",
+      "confidence": 0.5823529411764706,
+      "rationale": "현재 시장 상황과 기술적 분석은 중립적이고 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+      "key_drivers": [],
+      "key_risks": [],
+      "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+      "counterfactuals": [
+        "시장 상황이 급변할 경우"
+      ],
+      "next_checks": [
+        "시장 뉴스 및 기업 이벤트 확인",
+        "기타 투자 대상의 최근 동향 확인"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5823529411764706,
+        "rationale": "현재 시장 상황과 기술적 분석은 중립적이고 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+        "key_drivers": [],
+        "key_risks": [],
+        "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+        "counterfactuals": [
+          "시장 상황이 급변할 경우"
+        ],
+        "next_checks": [
+          "시장 뉴스 및 기업 이벤트 확인",
+          "기타 투자 대상의 최근 동향 확인"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:28:54+09:00",
+      "action": "HOLD",
+      "confidence": 0.5823529411764706,
+      "rationale": "현재 시장 상황과 기술적 분석은 중립적이고 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+      "key_drivers": [],
+      "key_risks": [],
+      "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+      "counterfactuals": [
+        "시장 상황이 급변할 경우"
+      ],
+      "next_checks": [
+        "시장 뉴스 및 기업 이벤트 확인",
+        "기타 투자 대상의 최근 동향 확인"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5823529411764706,
+        "rationale": "현재 시장 상황과 기술적 분석은 중립적이고 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+        "key_drivers": [],
+        "key_risks": [],
+        "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+        "counterfactuals": [
+          "시장 상황이 급변할 경우"
+        ],
+        "next_checks": [
+          "시장 뉴스 및 기업 이벤트 확인",
+          "기타 투자 대상의 최근 동향 확인"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T23:27:04+09:00",
+      "action": "HOLD",
+      "confidence": 0.5823529411764706,
+      "rationale": "현재 시장 상황과 기술적 분석은 중립적이고 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+      "key_drivers": [],
+      "key_risks": [],
+      "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+      "counterfactuals": [
+        "시장 상황이 급변할 경우"
+      ],
+      "next_checks": [
+        "시장 뉴스 및 기업 이벤트 확인",
+        "기타 투자 대상의 최근 동향 확인"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5823529411764706,
+        "rationale": "현재 시장 상황과 기술적 분석은 중립적이고 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+        "key_drivers": [],
+        "key_risks": [],
+        "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+        "counterfactuals": [
+          "시장 상황이 급변할 경우"
+        ],
+        "next_checks": [
+          "시장 뉴스 및 기업 이벤트 확인",
+          "기타 투자 대상의 최근 동향 확인"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T22:52:17+09:00",
+      "action": "HOLD",
+      "confidence": 0.5823529411764706,
+      "rationale": "현재 시장 상황과 기술적 분석은 중립적이고 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+      "key_drivers": [],
+      "key_risks": [],
+      "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+      "counterfactuals": [
+        "시장 상황이 급변할 경우"
+      ],
+      "next_checks": [
+        "시장 뉴스 및 기업 이벤트 확인",
+        "기타 투자 대상의 최근 동향 확인"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5823529411764706,
+        "rationale": "현재 시장 상황과 기술적 분석은 중립적이고 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+        "key_drivers": [],
+        "key_risks": [],
+        "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+        "counterfactuals": [
+          "시장 상황이 급변할 경우"
+        ],
+        "next_checks": [
+          "시장 뉴스 및 기업 이벤트 확인",
+          "기타 투자 대상의 최근 동향 확인"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T22:50:29+09:00",
+      "action": "HOLD",
+      "confidence": 0.5823529411764706,
+      "rationale": "현재 시장 상황과 기술적 분석은 중립적이고 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+      "key_drivers": [],
+      "key_risks": [],
+      "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+      "counterfactuals": [
+        "시장 상황이 급변할 경우"
+      ],
+      "next_checks": [
+        "시장 뉴스 및 기업 이벤트 확인",
+        "기타 투자 대상의 최근 동향 확인"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5823529411764706,
+        "rationale": "현재 시장 상황과 기술적 분석은 중립적이고 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+        "key_drivers": [],
+        "key_risks": [],
+        "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+        "counterfactuals": [
+          "시장 상황이 급변할 경우"
+        ],
+        "next_checks": [
+          "시장 뉴스 및 기업 이벤트 확인",
+          "기타 투자 대상의 최근 동향 확인"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:54:41+09:00",
+      "action": "HOLD",
+      "confidence": 0.5823529411764706,
+      "rationale": "현재 시장 상황과 기술적 분석은 중립적이고 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+      "key_drivers": [],
+      "key_risks": [],
+      "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+      "counterfactuals": [
+        "시장 상황이 급변할 경우"
+      ],
+      "next_checks": [
+        "시장 뉴스 및 기업 이벤트 확인",
+        "기타 투자 대상의 최근 동향 확인"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5823529411764706,
+        "rationale": "현재 시장 상황과 기술적 분석은 중립적이고 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+        "key_drivers": [],
+        "key_risks": [],
+        "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+        "counterfactuals": [
+          "시장 상황이 급변할 경우"
+        ],
+        "next_checks": [
+          "시장 뉴스 및 기업 이벤트 확인",
+          "기타 투자 대상의 최근 동향 확인"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:53:17+09:00",
+      "action": "HOLD",
+      "confidence": 0.5823529411764706,
+      "rationale": "현재 시장 상황과 기술적 분석은 중립적이고 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+      "key_drivers": [],
+      "key_risks": [],
+      "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+      "counterfactuals": [
+        "시장 상황이 급변할 경우"
+      ],
+      "next_checks": [
+        "시장 뉴스 및 기업 이벤트 확인",
+        "기타 투자 대상의 최근 동향 확인"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5823529411764706,
+        "rationale": "현재 시장 상황과 기술적 분석은 중립적이고 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+        "key_drivers": [],
+        "key_risks": [],
+        "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+        "counterfactuals": [
+          "시장 상황이 급변할 경우"
+        ],
+        "next_checks": [
+          "시장 뉴스 및 기업 이벤트 확인",
+          "기타 투자 대상의 최근 동향 확인"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:51:55+09:00",
+      "action": "HOLD",
+      "confidence": 0.5823529411764706,
+      "rationale": "현재 시장 상황과 기술적 분석은 중립적이고 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+      "key_drivers": [],
+      "key_risks": [],
+      "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+      "counterfactuals": [
+        "시장 상황이 급변할 경우"
+      ],
+      "next_checks": [
+        "시장 뉴스 및 기업 이벤트 확인",
+        "기타 투자 대상의 최근 동향 확인"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5823529411764706,
+        "rationale": "현재 시장 상황과 기술적 분석은 중립적이고 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+        "key_drivers": [],
+        "key_risks": [],
+        "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+        "counterfactuals": [
+          "시장 상황이 급변할 경우"
+        ],
+        "next_checks": [
+          "시장 뉴스 및 기업 이벤트 확인",
+          "기타 투자 대상의 최근 동향 확인"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:50:21+09:00",
+      "action": "HOLD",
+      "confidence": 0.5823529411764706,
+      "rationale": "현재 시장 상황과 기술적 분석은 중립적이고 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+      "key_drivers": [],
+      "key_risks": [],
+      "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+      "counterfactuals": [
+        "시장 상황이 급변할 경우"
+      ],
+      "next_checks": [
+        "시장 뉴스 및 기업 이벤트 확인",
+        "기타 투자 대상의 최근 동향 확인"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5823529411764706,
+        "rationale": "현재 시장 상황과 기술적 분석은 중립적이고 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+        "key_drivers": [],
+        "key_risks": [],
+        "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+        "counterfactuals": [
+          "시장 상황이 급변할 경우"
+        ],
+        "next_checks": [
+          "시장 뉴스 및 기업 이벤트 확인",
+          "기타 투자 대상의 최근 동향 확인"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:32:32+09:00",
+      "action": "HOLD",
+      "confidence": 0.5823529411764706,
+      "rationale": "현재 시장 상황과 기술적 분석은 중립적이고 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+      "key_drivers": [],
+      "key_risks": [],
+      "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+      "counterfactuals": [
+        "시장 상황이 급변할 경우"
+      ],
+      "next_checks": [
+        "시장 뉴스 및 기업 이벤트 확인",
+        "기타 투자 대상의 최근 동향 확인"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5823529411764706,
+        "rationale": "현재 시장 상황과 기술적 분석은 중립적이고 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+        "key_drivers": [],
+        "key_risks": [],
+        "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+        "counterfactuals": [
+          "시장 상황이 급변할 경우"
+        ],
+        "next_checks": [
+          "시장 뉴스 및 기업 이벤트 확인",
+          "기타 투자 대상의 최근 동향 확인"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:30:27+09:00",
+      "action": "HOLD",
+      "confidence": 0.5823529411764706,
+      "rationale": "현재 시장 상황과 기술적 분석은 중립적이고 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+      "key_drivers": [],
+      "key_risks": [],
+      "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+      "counterfactuals": [
+        "시장 상황이 급변할 경우"
+      ],
+      "next_checks": [
+        "시장 뉴스 및 기업 이벤트 확인",
+        "기타 투자 대상의 최근 동향 확인"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5823529411764706,
+        "rationale": "현재 시장 상황과 기술적 분석은 중립적이고 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+        "key_drivers": [],
+        "key_risks": [],
+        "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+        "counterfactuals": [
+          "시장 상황이 급변할 경우"
+        ],
+        "next_checks": [
+          "시장 뉴스 및 기업 이벤트 확인",
+          "기타 투자 대상의 최근 동향 확인"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:24:49+09:00",
+      "action": "HOLD",
+      "confidence": 0.5823529411764706,
+      "rationale": "현재 시장 상황과 기술적 분석은 중립적이고 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+      "key_drivers": [],
+      "key_risks": [],
+      "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+      "counterfactuals": [
+        "시장 상황이 급변할 경우"
+      ],
+      "next_checks": [
+        "시장 뉴스 및 기업 이벤트 확인",
+        "기타 투자 대상의 최근 동향 확인"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5823529411764706,
+        "rationale": "현재 시장 상황과 기술적 분석은 중립적이고 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+        "key_drivers": [],
+        "key_risks": [],
+        "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+        "counterfactuals": [
+          "시장 상황이 급변할 경우"
+        ],
+        "next_checks": [
+          "시장 뉴스 및 기업 이벤트 확인",
+          "기타 투자 대상의 최근 동향 확인"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:23:27+09:00",
+      "action": "HOLD",
+      "confidence": 0.5823529411764706,
+      "rationale": "현재 시장 상황과 기술적 분석은 중립적이고 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+      "key_drivers": [],
+      "key_risks": [],
+      "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+      "counterfactuals": [
+        "시장 상황이 급변할 경우"
+      ],
+      "next_checks": [
+        "시장 뉴스 및 기업 이벤트 확인",
+        "기타 투자 대상의 최근 동향 확인"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5823529411764706,
+        "rationale": "현재 시장 상황과 기술적 분석은 중립적이고 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+        "key_drivers": [],
+        "key_risks": [],
+        "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+        "counterfactuals": [
+          "시장 상황이 급변할 경우"
+        ],
+        "next_checks": [
+          "시장 뉴스 및 기업 이벤트 확인",
+          "기타 투자 대상의 최근 동향 확인"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:22:09+09:00",
+      "action": "HOLD",
+      "confidence": 0.5823529411764706,
+      "rationale": "현재 시장 상황과 기술적 분석은 중립적이고 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+      "key_drivers": [],
+      "key_risks": [],
+      "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+      "counterfactuals": [
+        "시장 상황이 급변할 경우"
+      ],
+      "next_checks": [
+        "시장 뉴스 및 기업 이벤트 확인",
+        "기타 투자 대상의 최근 동향 확인"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5823529411764706,
+        "rationale": "현재 시장 상황과 기술적 분석은 중립적이고 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+        "key_drivers": [],
+        "key_risks": [],
+        "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+        "counterfactuals": [
+          "시장 상황이 급변할 경우"
+        ],
+        "next_checks": [
+          "시장 뉴스 및 기업 이벤트 확인",
+          "기타 투자 대상의 최근 동향 확인"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:20:52+09:00",
+      "action": "HOLD",
+      "confidence": 0.5823529411764706,
+      "rationale": "현재 시장 상황과 기술적 분석은 중립적이고 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+      "key_drivers": [],
+      "key_risks": [],
+      "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+      "counterfactuals": [
+        "시장 상황이 급변할 경우"
+      ],
+      "next_checks": [
+        "시장 뉴스 및 기업 이벤트 확인",
+        "기타 투자 대상의 최근 동향 확인"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5823529411764706,
+        "rationale": "현재 시장 상황과 기술적 분석은 중립적이고 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+        "key_drivers": [],
+        "key_risks": [],
+        "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+        "counterfactuals": [
+          "시장 상황이 급변할 경우"
+        ],
+        "next_checks": [
+          "시장 뉴스 및 기업 이벤트 확인",
+          "기타 투자 대상의 최근 동향 확인"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-24T00:19:24+09:00",
+      "action": "HOLD",
+      "confidence": 0.5823529411764706,
+      "rationale": "현재 시장 상황과 기술적 분석은 중립적이고 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+      "key_drivers": [],
+      "key_risks": [],
+      "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+      "counterfactuals": [
+        "시장 상황이 급변할 경우"
+      ],
+      "next_checks": [
+        "시장 뉴스 및 기업 이벤트 확인",
+        "기타 투자 대상의 최근 동향 확인"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5823529411764706,
+        "rationale": "현재 시장 상황과 기술적 분석은 중립적이고 스윙 포지션을 유지하는 데 유리하지만, 최근 이벤트가 없어 추가적인 정보가 필요합니다.",
+        "key_drivers": [],
+        "key_risks": [],
+        "valuation_view": "현재 평가 방법은 간단하며, 공정 가치 범위와 목표 가격이 설정되지 않았습니다.",
+        "counterfactuals": [
+          "시장 상황이 급변할 경우"
+        ],
+        "next_checks": [
+          "시장 뉴스 및 기업 이벤트 확인",
+          "기타 투자 대상의 최근 동향 확인"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    }
+  ],
+  "tags": []
+}

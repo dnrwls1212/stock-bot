@@ -1,0 +1,44 @@
+{
+  "ticker": "TSLA",
+  "updated_at": "2026-02-23T00:04:22+09:00",
+  "thesis": "",
+  "business_summary": "",
+  "moat": "",
+  "key_drivers": [],
+  "key_risks": [],
+  "valuation_method": "simple",
+  "valuation_assumptions": {},
+  "target_price": null,
+  "fair_value_range": null,
+  "evidence": [
+    {
+      "ts_kst": "2026-02-23T00:04:22+09:00",
+      "source": "news",
+      "title": "Short Seller Jim Chanos Calls Elon Musk's Orbital Datacenter Goals 'AI Snake Oil' — Says Need To See 'Actual' Savings",
+      "summary": "Criticism from a notable short seller may dampen investor sentiment towards Tesla's ambitious projects.",
+      "link": "https://finance.yahoo.com/news/short-seller-jim-chanos-calls-013115967.html?.tsrc=rss",
+      "sentiment": "bearish",
+      "impact": -1,
+      "tags": [
+        "other"
+      ],
+      "raw": {
+        "tickers": [
+          "TSLA"
+        ],
+        "event_type": "other",
+        "sentiment": "bearish",
+        "impact": -1,
+        "confidence": 0.6,
+        "key_points": [
+          "Short seller criticizes Elon Musk's vision for orbital datacenters.",
+          "Expected higher costs for space-based datacenters."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Criticism from a notable short seller may dampen investor sentiment towards Tesla's ambitious projects."
+      }
+    }
+  ],
+  "decisions": [],
+  "tags": []
+}
