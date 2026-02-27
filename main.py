@@ -837,6 +837,12 @@ def main() -> None:
     # positions
     positions = load_state(POS_PATH)
 
+    # 🚨 [추가] 이미 보유 중인 주식은 매도를 위해 감시 리스트(WATCHLIST)에 강제 추가
+    for t, pos_info in positions.items():
+        if float(pos_info.qty) > 0 and t not in WATCHLIST:
+            WATCHLIST.append(t)
+            print(f"📌 보유 종목 강제 감시 추가: {t}")
+
     # pending orders + order manager
     pending_store = PendingOrderStore(PENDING_PATH)
     order_mgr = OrderManager(
@@ -1303,8 +1309,8 @@ def main() -> None:
                         max_scan=25,
                     )
 
-                    buy_th_eff = _clamp(float(buy_th_eff) + float(buy_delta), 0.40, 0.95)
-                    sell_th_eff = _clamp(float(sell_th_eff) + float(sell_delta), -0.95, -0.40)
+                    buy_th_eff = _clamp(float(buy_th_eff) + float(buy_delta), 0.05, 0.95)
+                    sell_th_eff = _clamp(float(sell_th_eff) + float(sell_delta), -0.95, -0.05)
 
                     force_sell = bool(rd.force_sell)
                     force_sell_frac = float(rd.sell_frac)

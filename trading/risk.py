@@ -36,8 +36,11 @@ def can_trade(
         return True, "HOLD"
 
     # 기본 금지 규칙
-    if a == "SELL" and float(pos.qty) <= 0:
-        return False, "no position to sell"
+    # 🚨 [추가/수정] 매도(SELL)는 횟수/쿨타임 제한을 무시하고 무조건 허용합니다!
+    if a == "SELL":
+        if float(pos.qty) <= 0:
+            return False, "no position to sell"
+        return True, "ok"
     if a == "BUY" and max_position_qty is not None and float(pos.qty) >= float(max_position_qty):
         return False, f"at max position (qty={pos.qty:.2f} / max={float(max_position_qty):.2f})"
 
@@ -379,6 +382,10 @@ class AccountRiskManager:
 
         if qty <= 0 or price <= 0:
             return False, "bad_qty_or_price"
+
+        # 🚨 [추가] 계좌 손실 한도에 도달했더라도 매도(손절/익절)는 탈출을 위해 무조건 허용!
+        if a == "SELL":
+            return True, "sell_always_allowed"
 
         if not self._snapshot:
             return True, "no_snapshot_skip"  # 스냅샷 없으면 안전하게 스킵이 아니라 "패스" (원하면 block으로 바꿔도 됨)

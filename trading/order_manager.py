@@ -139,11 +139,21 @@ class OrderManager:
         if is_paper and not self.pos_sync_paper_enabled:
             return
 
-        try:
-            pb = broker.inquire_present_balance()
-        except Exception as e:
-            print(f"[POS_SYNC] inquire_present_balance skipped: {e!r}")
-            return
+        import time  # 상단에 없어도 동작하도록 여기에 추가
+
+        max_retries = 3
+        pb = None
+        for attempt in range(max_retries):
+            try:
+                pb = broker.inquire_present_balance()
+                break  # 성공하면 즉시 루프 탈출
+            except Exception as e:
+                if attempt < max_retries - 1:
+                    print(f"[POS_SYNC] KIS server error (attempt {attempt+1}/{max_retries}). retrying in 2s...")
+                    time.sleep(2)  # 2초 대기 후 재시도
+                else:
+                    print(f"[POS_SYNC] All {max_retries} retries failed: {e!r}. skipping sync.")
+                    return
 
         items = None
         if isinstance(pb, dict):
@@ -152,6 +162,9 @@ class OrderManager:
             if rt_cd is not None and str(rt_cd) != "0":
                 print(f"[POS_SYNC] API error (rt_cd={rt_cd}, msg={pb.get('msg1')}). skipping sync.")
                 return
+
+            # 🚨 [추가] 에러 없이 정상적으로 통신에 성공했을 때 로그 출력!
+            print(f"[POS_SYNC] KIS 서버 잔고조회 통신 성공! (Sync OK)")
 
             items = (
                 pb.get("output1") or pb.get("output2") or pb.get("output")
@@ -168,13 +181,14 @@ class OrderManager:
             if not isinstance(it, dict):
                 continue
 
-            ticker = (it.get("PDNO") or it.get("OVRS_PDNO") or it.get("SYMB") or it.get("ticker") or "")
+            # ✅ KIS API 실제 응답(소문자) 및 공식 문서 필드명(ovrs_cblc_qty) 완벽 대응
+            ticker = (it.get("PDNO") or it.get("OVRS_PDNO") or it.get("ovrs_pdno") or it.get("SYMB") or it.get("ticker") or "")
             ticker = str(ticker).upper().strip()
             if not ticker:
                 continue
 
-            qty = _to_float(it.get("HLDG_QTY") or it.get("OVRS_HLDG_QTY") or it.get("BAL_QTY") or it.get("qty") or 0.0)
-            avg = _to_float(it.get("PCHS_AVG_PRIC") or it.get("PUR_AVG_PRIC") or it.get("AVG_PRIC") or it.get("avg_price") or 0.0)
+            qty = _to_float(it.get("HLDG_QTY") or it.get("OVRS_HLDG_QTY") or it.get("ovrs_cblc_qty") or it.get("BAL_QTY") or it.get("qty") or 0.0)
+            avg = _to_float(it.get("PCHS_AVG_PRIC") or it.get("pchs_avg_pric") or it.get("PUR_AVG_PRIC") or it.get("AVG_PRIC") or it.get("avg_price") or 0.0)
 
             if qty <= 0:
                 continue
