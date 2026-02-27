@@ -1,0 +1,571 @@
+{
+  "ticker": "WDAY",
+  "updated_at": "2026-02-25T23:47:52+09:00",
+  "thesis": "",
+  "business_summary": "",
+  "moat": "",
+  "key_drivers": [],
+  "key_risks": [],
+  "valuation_method": "simple",
+  "valuation_assumptions": {},
+  "target_price": null,
+  "fair_value_range": null,
+  "evidence": [
+    {
+      "ts_kst": "2026-02-25T23:32:53+09:00",
+      "source": "news",
+      "title": "Workday Q4 earnings top estimates, stock drops on cautious guidance",
+      "summary": "Cautious subscription revenue outlook for fiscal 2027 led to investor sell-offs despite strong earnings.",
+      "link": "https://www.proactiveinvestors.com/companies/news/1087864/workday-q4-earnings-top-estimates-stock-drops-on-cautious-guidance-1087864.html?.tsrc=rss",
+      "sentiment": "bearish",
+      "impact": -1,
+      "tags": [
+        "earnings"
+      ],
+      "raw": {
+        "tickers": [
+          "WDAY"
+        ],
+        "event_type": "earnings",
+        "sentiment": "bearish",
+        "impact": -1,
+        "confidence": 0.8,
+        "key_points": [
+          "Workday Inc reported better-than-expected Q4 results.",
+          "Stock fell over 6% after hours due to cautious guidance."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Cautious subscription revenue outlook for fiscal 2027 led to investor sell-offs despite strong earnings."
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T23:32:50+09:00",
+      "source": "news",
+      "title": "Workday (NASDAQ:WDAY) Reports Q4 CY2025 In Line With Expectations But Stock Drops",
+      "summary": "Earnings results were in line with expectations, leading to stable market reaction.",
+      "link": "https://finance.yahoo.com/news/workday-nasdaq-wday-reports-q4-212718216.html?.tsrc=rss",
+      "sentiment": "neutral",
+      "impact": 0,
+      "tags": [
+        "earnings"
+      ],
+      "raw": {
+        "tickers": [
+          "WDAY"
+        ],
+        "event_type": "earnings",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [
+          "Workday met Q4 CY2025 revenue expectations.",
+          "Sales grew 14.5% year on year."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Earnings results were in line with expectations, leading to stable market reaction."
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T23:32:49+09:00",
+      "source": "news",
+      "title": "Workday's Fourth-Quarter Results Top Views, Subscription Revenue Outlook Misses",
+      "summary": "Earnings beat expectations, boosting short-term investor sentiment despite a miss on the revenue outlook.",
+      "link": "https://finance.yahoo.com/news/workday-apos-fourth-quarter-results-214758333.html?.tsrc=rss",
+      "sentiment": "bullish",
+      "impact": 1,
+      "tags": [
+        "earnings"
+      ],
+      "raw": {
+        "tickers": [
+          "WDAY"
+        ],
+        "event_type": "earnings",
+        "sentiment": "bullish",
+        "impact": 1,
+        "confidence": 0.8,
+        "key_points": [
+          "Workday's fourth-quarter results exceeded Wall Street's estimates.",
+          "Subscription revenue outlook missed expectations."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Earnings beat expectations, boosting short-term investor sentiment despite a miss on the revenue outlook."
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T23:32:46+09:00",
+      "source": "news",
+      "title": "Workday (WDAY) Beats Q4 Earnings and Revenue Estimates",
+      "summary": "Strong earnings beat expectations, likely to boost short-term stock performance.",
+      "link": "https://finance.yahoo.com/news/workday-wday-beats-q4-earnings-003010330.html?.tsrc=rss",
+      "sentiment": "bullish",
+      "impact": 1,
+      "tags": [
+        "earnings"
+      ],
+      "raw": {
+        "tickers": [
+          "WDAY"
+        ],
+        "event_type": "earnings",
+        "sentiment": "bullish",
+        "impact": 1,
+        "confidence": 0.8,
+        "key_points": [
+          "Workday (WDAY) beat Q4 earnings and revenue estimates.",
+          "Earnings and revenue surprises were +7.21% and +0.36%, respectively."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Strong earnings beat expectations, likely to boost short-term stock performance."
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T23:32:43+09:00",
+      "source": "news",
+      "title": "Workday (WDAY) Q4 Earnings: Taking a Look at Key Metrics Versus Estimates",
+      "summary": "Earnings reports often drive short-term market reactions as investors assess financial health and future prospects.",
+      "link": "https://finance.yahoo.com/news/workday-wday-q4-earnings-taking-010003247.html?.tsrc=rss",
+      "sentiment": "neutral",
+      "impact": 0,
+      "tags": [
+        "earnings"
+      ],
+      "raw": {
+        "tickers": [
+          "WDAY"
+        ],
+        "event_type": "earnings",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [
+          "Workday reported Q4 earnings, providing insights into the company's performance.",
+          "Key metrics were compared against Wall Street estimates and year-ago actuals."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Earnings reports often drive short-term market reactions as investors assess financial health and future prospects."
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T23:32:40+09:00",
+      "source": "news",
+      "title": "Stocks to Watch Tuesday Recap: Workday, Home Depot, Paramount, FedEx",
+      "summary": "Missed guidance and AI concerns weighed on Workday's stock.",
+      "link": "https://finance.yahoo.com/m/0bdfb26c-185a-3467-9f1b-20db81eec6bc/stocks-to-watch-tuesday.html?.tsrc=rss",
+      "sentiment": "bearish",
+      "impact": -1,
+      "tags": [
+        "guidance"
+      ],
+      "raw": {
+        "tickers": [
+          "WDAY"
+        ],
+        "event_type": "guidance",
+        "sentiment": "bearish",
+        "impact": -1,
+        "confidence": 0.8,
+        "key_points": [
+          "Workday guidance missed Wall Street’s expectations.",
+          "Investors are concerned about AI risks to Workday's business."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Missed guidance and AI concerns weighed on Workday's stock."
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T23:32:38+09:00",
+      "source": "news",
+      "title": "Workday Inc (WDAY) Q4 2026 Earnings Call Highlights: Strong Subscription Growth and AI ...",
+      "summary": "Earnings report highlights robust growth but conservative outlook for the fiscal year, leading to neutral market reaction.",
+      "link": "https://finance.yahoo.com/news/workday-inc-wday-q4-2026-050329066.html?.tsrc=rss",
+      "sentiment": "neutral",
+      "impact": 0,
+      "tags": [
+        "earnings"
+      ],
+      "raw": {
+        "tickers": [
+          "WDAY"
+        ],
+        "event_type": "earnings",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [
+          "Q4 results show strong subscription revenue growth.",
+          "Strategic focus on AI despite conservative FY27 guidance."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Earnings report highlights robust growth but conservative outlook for the fiscal year, leading to neutral market reaction."
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T23:32:35+09:00",
+      "source": "news",
+      "title": "Workday Q4 Earnings Call Highlights",
+      "summary": "The focus on new technology and stability in operations did not provide clear bullish or bearish signals for Workday's stock price movement.",
+      "link": "https://www.marketbeat.com/instant-alerts/workday-q4-earnings-call-highlights-2026-02-25/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+      "sentiment": "neutral",
+      "impact": 0,
+      "tags": [
+        "earnings"
+      ],
+      "raw": {
+        "tickers": [
+          "WDAY"
+        ],
+        "event_type": "earnings",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [
+          "Workday emphasized innovation centered on agentic AI.",
+          "Management characterized the company's financial performance as stable."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "The focus on new technology and stability in operations did not provide clear bullish or bearish signals for Workday's stock price movement."
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T23:32:27+09:00",
+      "source": "news",
+      "title": "Weak Guidance Overshadows Workday’s Solid Q4 Results, Shares Tumble",
+      "summary": "Weak forward guidance disappointed investors, leading to a significant selloff in shares.",
+      "link": "https://247wallst.com/investing/2026/02/25/weak-guidance-overshadows-workdays-solid-q4-results-shares-tumble/?.tsrc=rss",
+      "sentiment": "bearish",
+      "impact": -2,
+      "tags": [
+        "guidance"
+      ],
+      "raw": {
+        "tickers": [
+          "WDAY"
+        ],
+        "event_type": "guidance",
+        "sentiment": "bearish",
+        "impact": -2,
+        "confidence": 0.8,
+        "key_points": [
+          "Workday delivered strong Q4 FY2026 results with non-GAAP EPS of $2.47, beating estimates.",
+          "Weak forward guidance overshadowed the positive earnings report."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Weak forward guidance disappointed investors, leading to a significant selloff in shares."
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "ts_kst": "2026-02-25T23:47:52+09:00",
+      "action": "HOLD",
+      "confidence": 0.7,
+      "rationale": "The recent earnings reports and guidance from Workday have shown mixed signals. While the company reported strong earnings in Q4 CY2026, with a +7.21% surprise on earnings and a +0.36% surprise on revenue, these positive results were overshadowed by cautious outlooks for fiscal 2027. The market's reaction has been volatile, with both bullish and bearish sentiments influencing share prices. Given the current valuation and the mixed signals from recent reports, a hold position is prudent to allow for further clarity.",
+      "key_drivers": [
+        "Strong Q4 earnings beat expectations",
+        "Cautious outlook for fiscal 2027 subscription revenue",
+        "AI focus and innovation initiatives"
+      ],
+      "key_risks": [
+        "Potential overvaluation based on recent positive earnings reports",
+        "Risks associated with AI integration and market acceptance",
+        "Volatility in the enterprise software sector"
+      ],
+      "valuation_view": "The current valuation appears to be supported by strong Q4 results, but caution is advised given the conservative outlook for fiscal 2027. The stock may be overvalued if the cautious guidance materializes.",
+      "counterfactuals": [
+        "If Workday's FY2027 subscription revenue misses expectations significantly, it could lead to a sell-off",
+        "A strong uptake of AI initiatives and innovation could drive further positive sentiment"
+      ],
+      "next_checks": [
+        "Quarterly earnings reports for Q1 CY2027 to assess the sustainability of current trends",
+        "Market acceptance and integration progress of AI initiatives",
+        "Competitor performance in the enterprise software sector"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.7,
+        "rationale": "The recent earnings reports and guidance from Workday have shown mixed signals. While the company reported strong earnings in Q4 CY2026, with a +7.21% surprise on earnings and a +0.36% surprise on revenue, these positive results were overshadowed by cautious outlooks for fiscal 2027. The market's reaction has been volatile, with both bullish and bearish sentiments influencing share prices. Given the current valuation and the mixed signals from recent reports, a hold position is prudent to allow for further clarity.",
+        "key_drivers": [
+          "Strong Q4 earnings beat expectations",
+          "Cautious outlook for fiscal 2027 subscription revenue",
+          "AI focus and innovation initiatives"
+        ],
+        "key_risks": [
+          "Potential overvaluation based on recent positive earnings reports",
+          "Risks associated with AI integration and market acceptance",
+          "Volatility in the enterprise software sector"
+        ],
+        "valuation_view": "The current valuation appears to be supported by strong Q4 results, but caution is advised given the conservative outlook for fiscal 2027. The stock may be overvalued if the cautious guidance materializes.",
+        "counterfactuals": [
+          "If Workday's FY2027 subscription revenue misses expectations significantly, it could lead to a sell-off",
+          "A strong uptake of AI initiatives and innovation could drive further positive sentiment"
+        ],
+        "next_checks": [
+          "Quarterly earnings reports for Q1 CY2027 to assess the sustainability of current trends",
+          "Market acceptance and integration progress of AI initiatives",
+          "Competitor performance in the enterprise software sector"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days|swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T23:46:05+09:00",
+      "action": "HOLD",
+      "confidence": 0.8,
+      "rationale": "The recent earnings reports for Workday have shown mixed signals. While the company delivered strong earnings in Q4 CY2026, with revenue and profit beating expectations, the cautious outlook for fiscal 2027 has led to investor sell-offs. The market reaction suggests that investors are concerned about the long-term growth prospects given the emphasis on AI and the conservative guidance. Given these factors, a hold position is appropriate as the company's fundamentals remain strong but require further clarity on future growth drivers.",
+      "key_drivers": [
+        "Strong Q4 CY2026 earnings with revenue and profit beating expectations",
+        "Cautious subscription revenue outlook for fiscal 2027 leading to investor concerns"
+      ],
+      "key_risks": [
+        "Potential overvaluation given the conservative guidance and AI-related risks",
+        "Market sentiment could shift if future results do not meet current expectations"
+      ],
+      "valuation_view": "The valuation of Workday appears reasonable based on its strong earnings, but the market is cautious about long-term growth prospects due to AI-related uncertainties.",
+      "counterfactuals": [
+        "If Q1 CY2027 results significantly miss expectations, it could lead to a sell-off",
+        "A positive update on AI integration and future growth strategies could boost investor confidence"
+      ],
+      "next_checks": [
+        "Review of Q1 CY2027 earnings report for any signs of improvement in subscription revenue outlook",
+        "Monitoring of competitor performance and market trends related to AI adoption"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.8,
+        "rationale": "The recent earnings reports for Workday have shown mixed signals. While the company delivered strong earnings in Q4 CY2026, with revenue and profit beating expectations, the cautious outlook for fiscal 2027 has led to investor sell-offs. The market reaction suggests that investors are concerned about the long-term growth prospects given the emphasis on AI and the conservative guidance. Given these factors, a hold position is appropriate as the company's fundamentals remain strong but require further clarity on future growth drivers.",
+        "key_drivers": [
+          "Strong Q4 CY2026 earnings with revenue and profit beating expectations",
+          "Cautious subscription revenue outlook for fiscal 2027 leading to investor concerns"
+        ],
+        "key_risks": [
+          "Potential overvaluation given the conservative guidance and AI-related risks",
+          "Market sentiment could shift if future results do not meet current expectations"
+        ],
+        "valuation_view": "The valuation of Workday appears reasonable based on its strong earnings, but the market is cautious about long-term growth prospects due to AI-related uncertainties.",
+        "counterfactuals": [
+          "If Q1 CY2027 results significantly miss expectations, it could lead to a sell-off",
+          "A positive update on AI integration and future growth strategies could boost investor confidence"
+        ],
+        "next_checks": [
+          "Review of Q1 CY2027 earnings report for any signs of improvement in subscription revenue outlook",
+          "Monitoring of competitor performance and market trends related to AI adoption"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days|swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T23:44:24+09:00",
+      "action": "HOLD",
+      "confidence": 0.8,
+      "rationale": "The recent earnings reports and guidance from Workday have shown mixed signals. While the company delivered strong earnings in Q4 FY2026, with a +7.21% surprise on earnings and a +0.36% surprise on revenue, these positive results were overshadowed by cautious outlooks for fiscal 2027. The market's reaction has been volatile, with both bullish and bearish sentiments driving share price movements. Given the current valuation and the mixed signals from recent reports, a hold position is prudent to allow further clarity.",
+      "key_drivers": [
+        "Strong Q4 FY2026 earnings beating expectations",
+        "Cautious outlook for fiscal 2027 subscription revenue",
+        "Mixed market reaction leading to volatile share price movements"
+      ],
+      "key_risks": [
+        "Continued AI concerns impacting investor sentiment",
+        "Uncertainty in the guidance provided by management",
+        "Market volatility affecting short-term performance"
+      ],
+      "valuation_view": "The current valuation appears reasonable given the strong earnings, but the cautious outlook for future growth could indicate potential overvaluation. A reassessment of the stock's value is warranted as more clarity emerges from upcoming reports and market conditions.",
+      "counterfactuals": [
+        "If Workday provides a more optimistic guidance in its next earnings report, it may signal a buying opportunity.",
+        "A significant decline in AI-related concerns could lead to increased investor confidence and higher share prices."
+      ],
+      "next_checks": [
+        "Review of the company's Q1 FY2027 results for any new insights or changes in strategy",
+        "Further analysis of competitor performance and market trends affecting Workday's business"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.8,
+        "rationale": "The recent earnings reports and guidance from Workday have shown mixed signals. While the company delivered strong earnings in Q4 FY2026, with a +7.21% surprise on earnings and a +0.36% surprise on revenue, these positive results were overshadowed by cautious outlooks for fiscal 2027. The market's reaction has been volatile, with both bullish and bearish sentiments driving share price movements. Given the current valuation and the mixed signals from recent reports, a hold position is prudent to allow further clarity.",
+        "key_drivers": [
+          "Strong Q4 FY2026 earnings beating expectations",
+          "Cautious outlook for fiscal 2027 subscription revenue",
+          "Mixed market reaction leading to volatile share price movements"
+        ],
+        "key_risks": [
+          "Continued AI concerns impacting investor sentiment",
+          "Uncertainty in the guidance provided by management",
+          "Market volatility affecting short-term performance"
+        ],
+        "valuation_view": "The current valuation appears reasonable given the strong earnings, but the cautious outlook for future growth could indicate potential overvaluation. A reassessment of the stock's value is warranted as more clarity emerges from upcoming reports and market conditions.",
+        "counterfactuals": [
+          "If Workday provides a more optimistic guidance in its next earnings report, it may signal a buying opportunity.",
+          "A significant decline in AI-related concerns could lead to increased investor confidence and higher share prices."
+        ],
+        "next_checks": [
+          "Review of the company's Q1 FY2027 results for any new insights or changes in strategy",
+          "Further analysis of competitor performance and market trends affecting Workday's business"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T23:42:39+09:00",
+      "action": "HOLD",
+      "confidence": 0.7,
+      "rationale": "Recent earnings reports and guidance from Workday have shown mixed signals. While the company delivered strong earnings in Q4 CY2026, with a +7.21% surprise on EPS and a +0.36% surprise on revenue, these gains were overshadowed by cautious outlooks for fiscal 2027. Investors remain concerned about potential risks from AI integration and subscription revenue growth expectations. The current market reaction reflects a balance between short-term positive earnings and long-term uncertainties.",
+      "key_drivers": [
+        "Strong Q4 CY2026 earnings with EPS beating estimates",
+        "Cautious outlook for fiscal 2027, particularly in subscription revenue growth",
+        "Continued focus on AI innovation but stable operational performance"
+      ],
+      "key_risks": [
+        "Potential market overreaction to cautious guidance",
+        "Increased competition and technological challenges from AI integration",
+        "Uncertainty around long-term growth prospects despite strong Q4 results"
+      ],
+      "valuation_view": "The current valuation appears fair given the mixed signals. The stock may be overvalued based on short-term earnings but undervalued if long-term strategic initiatives succeed.",
+      "counterfactuals": [
+        "If Workday fails to meet even modest revenue growth expectations in Q1 CY2027, it could lead to a significant sell-off.",
+        "A major breakthrough or setback in AI integration could dramatically alter investor sentiment and stock price."
+      ],
+      "next_checks": [
+        "Q1 CY2027 earnings report for early signs of subscription revenue growth",
+        "Further developments in the AI space and their impact on Workday’s business model"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.7,
+        "rationale": "Recent earnings reports and guidance from Workday have shown mixed signals. While the company delivered strong earnings in Q4 CY2026, with a +7.21% surprise on EPS and a +0.36% surprise on revenue, these gains were overshadowed by cautious outlooks for fiscal 2027. Investors remain concerned about potential risks from AI integration and subscription revenue growth expectations. The current market reaction reflects a balance between short-term positive earnings and long-term uncertainties.",
+        "key_drivers": [
+          "Strong Q4 CY2026 earnings with EPS beating estimates",
+          "Cautious outlook for fiscal 2027, particularly in subscription revenue growth",
+          "Continued focus on AI innovation but stable operational performance"
+        ],
+        "key_risks": [
+          "Potential market overreaction to cautious guidance",
+          "Increased competition and technological challenges from AI integration",
+          "Uncertainty around long-term growth prospects despite strong Q4 results"
+        ],
+        "valuation_view": "The current valuation appears fair given the mixed signals. The stock may be overvalued based on short-term earnings but undervalued if long-term strategic initiatives succeed.",
+        "counterfactuals": [
+          "If Workday fails to meet even modest revenue growth expectations in Q1 CY2027, it could lead to a significant sell-off.",
+          "A major breakthrough or setback in AI integration could dramatically alter investor sentiment and stock price."
+        ],
+        "next_checks": [
+          "Q1 CY2027 earnings report for early signs of subscription revenue growth",
+          "Further developments in the AI space and their impact on Workday’s business model"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days|swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T23:40:55+09:00",
+      "action": "HOLD",
+      "confidence": 0.7,
+      "rationale": "The recent earnings reports from Workday have shown mixed signals. While the company delivered strong earnings in Q4 CY2026, with a +7.21% surprise on earnings and a +0.36% surprise on revenue, these positive results were overshadowed by cautious guidance for fiscal 2027. The market's reaction has been volatile, with both bullish and bearish sentiments influencing share prices. Given the current valuation and the mixed signals from recent reports, it is prudent to hold the position rather than make a decisive move.",
+      "key_drivers": [
+        "Strong earnings beat expectations but were followed by cautious guidance for fiscal 2027.",
+        "Investor concerns over AI risks have added volatility to the stock price."
+      ],
+      "key_risks": [
+        "Cautious subscription revenue outlook could lead to further downward pressure on share prices if not met.",
+        "AI-related risks and their impact on business models remain uncertain."
+      ],
+      "valuation_view": "The current valuation appears fair given recent earnings, but the cautious guidance suggests potential downside risk. The market may be overestimating the negative impact of AI concerns or underestimating the long-term growth potential.",
+      "counterfactuals": [
+        "If Workday fails to meet its conservative subscription revenue outlook for fiscal 2027, it could lead to a significant sell-off in shares.",
+        "A positive shift in AI-related business models could drive strong upward momentum."
+      ],
+      "next_checks": [
+        "Monitor the company's Q1 CY2027 earnings report for any signs of improvement or deterioration in subscription revenue guidance.",
+        "Keep an eye on broader market sentiment towards AI and its impact on enterprise software companies."
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.7,
+        "rationale": "The recent earnings reports from Workday have shown mixed signals. While the company delivered strong earnings in Q4 CY2026, with a +7.21% surprise on earnings and a +0.36% surprise on revenue, these positive results were overshadowed by cautious guidance for fiscal 2027. The market's reaction has been volatile, with both bullish and bearish sentiments influencing share prices. Given the current valuation and the mixed signals from recent reports, it is prudent to hold the position rather than make a decisive move.",
+        "key_drivers": [
+          "Strong earnings beat expectations but were followed by cautious guidance for fiscal 2027.",
+          "Investor concerns over AI risks have added volatility to the stock price."
+        ],
+        "key_risks": [
+          "Cautious subscription revenue outlook could lead to further downward pressure on share prices if not met.",
+          "AI-related risks and their impact on business models remain uncertain."
+        ],
+        "valuation_view": "The current valuation appears fair given recent earnings, but the cautious guidance suggests potential downside risk. The market may be overestimating the negative impact of AI concerns or underestimating the long-term growth potential.",
+        "counterfactuals": [
+          "If Workday fails to meet its conservative subscription revenue outlook for fiscal 2027, it could lead to a significant sell-off in shares.",
+          "A positive shift in AI-related business models could drive strong upward momentum."
+        ],
+        "next_checks": [
+          "Monitor the company's Q1 CY2027 earnings report for any signs of improvement or deterioration in subscription revenue guidance.",
+          "Keep an eye on broader market sentiment towards AI and its impact on enterprise software companies."
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-25T23:39:02+09:00",
+      "action": "HOLD",
+      "confidence": 0.7,
+      "rationale": "The recent earnings reports from Workday have shown mixed signals. While the company's Q4 results beat expectations with strong subscription growth, the cautious outlook for fiscal 2027 and concerns over AI risks have led to investor sell-offs. The current market reaction is neutral, as evidenced by stable performance post-earnings announcements. Given these factors, a hold position seems prudent until clearer signals emerge.",
+      "key_drivers": [
+        "Strong Q4 earnings with +7.21% EPS and +0.36% revenue growth",
+        "Cautious subscription revenue outlook for fiscal 2027",
+        "AI risks and investor concerns"
+      ],
+      "key_risks": [
+        "Potential further sell-offs if the cautious guidance is not met",
+        "Market sentiment could shift based on upcoming AI developments or regulatory changes"
+      ],
+      "valuation_view": "The current valuation appears fair given the strong Q4 results, but the cautious outlook for fiscal 2027 introduces uncertainty. A revaluation may occur if the company's AI initiatives gain traction and improve guidance.",
+      "counterfactuals": [
+        "If Workday fails to meet its conservative revenue outlook in the next quarter",
+        "If there are significant regulatory changes affecting AI in the industry"
+      ],
+      "next_checks": [
+        "Quarterly earnings reports for any shifts in subscription growth or revenue trends",
+        "AI developments and their impact on market perception of Workday's strategic direction"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.7,
+        "rationale": "The recent earnings reports from Workday have shown mixed signals. While the company's Q4 results beat expectations with strong subscription growth, the cautious outlook for fiscal 2027 and concerns over AI risks have led to investor sell-offs. The current market reaction is neutral, as evidenced by stable performance post-earnings announcements. Given these factors, a hold position seems prudent until clearer signals emerge.",
+        "key_drivers": [
+          "Strong Q4 earnings with +7.21% EPS and +0.36% revenue growth",
+          "Cautious subscription revenue outlook for fiscal 2027",
+          "AI risks and investor concerns"
+        ],
+        "key_risks": [
+          "Potential further sell-offs if the cautious guidance is not met",
+          "Market sentiment could shift based on upcoming AI developments or regulatory changes"
+        ],
+        "valuation_view": "The current valuation appears fair given the strong Q4 results, but the cautious outlook for fiscal 2027 introduces uncertainty. A revaluation may occur if the company's AI initiatives gain traction and improve guidance.",
+        "counterfactuals": [
+          "If Workday fails to meet its conservative revenue outlook in the next quarter",
+          "If there are significant regulatory changes affecting AI in the industry"
+        ],
+        "next_checks": [
+          "Quarterly earnings reports for any shifts in subscription growth or revenue trends",
+          "AI developments and their impact on market perception of Workday's strategic direction"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days|swing_weeks"
+        }
+      }
+    }
+  ],
+  "tags": []
+}
