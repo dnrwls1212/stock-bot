@@ -1153,7 +1153,7 @@ def main() -> None:
             size_mult = 1.0
 
             # ✅ regime 영향(옵션)
-            if regime is not None and not paper_scalp_mode:
+            if regime is not None:
                 try:
                     if float(getattr(regime, "score", 0.0)) <= float(regime_risk_off):
                         th_mult = float(regime_th_mult)
@@ -1325,6 +1325,16 @@ def main() -> None:
                     sell_th=sell_th_eff,
                     conf_th=conf_th_eff,
                 )
+
+                # 🚨 [완벽한 인버스 강제 매수 주입] 🚨
+                # 수식이 점수 미달로 HOLD를 내더라도, 폭락장이면 강제로 BUY 신호로 둔갑시킵니다!
+                # 이렇게 위쪽에서 신호를 바꿔주어야 최대 보유 수량 제한(200주 등)이 정상 작동하여 무한 매수를 막습니다.
+                is_inverse = ticker in inverse_tickers
+                if buy_block and is_inverse and sig.action != "SELL":
+                    try:
+                        sig = type(sig)("BUY", 1.0, f"INVERSE_FORCED_BUY (risk_off) | was {sig.action}")
+                    except Exception:
+                        pass
 
                 # ✅ strength boost 반영
                 try:
