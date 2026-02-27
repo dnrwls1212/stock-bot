@@ -1163,10 +1163,6 @@ def main() -> None:
                 except Exception:
                     pass
 
-            # 모의 단타 모드에서는 regime 완화
-            if regime is not None and paper_scalp_mode:
-                buy_block = False
-
             # ---------- 2) ticker loop ----------
             for ticker in WATCHLIST:
                 pos = get_position(positions, ticker)
