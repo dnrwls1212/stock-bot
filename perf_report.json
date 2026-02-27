@@ -1,5 +1,5 @@
 {
-  "generated_at_kst": "2026-02-25T02:31:24+09:00",
+  "generated_at_kst": "2026-02-27T06:59:30+09:00",
   "labeled_path": "data/decisions_labeled.jsonl",
   "horizons": [
     "1h",
@@ -7,26 +7,26 @@
   ],
   "min_abs_ret_success": 0.002,
   "only_conf_ge": 0.0,
-  "n_rows": 597,
+  "n_rows": 4386,
   "by_horizon": {
     "1h": {
       "raw_signal": {
-        "n": 12,
-        "n_eval": 12,
-        "win_rate": 0.5,
-        "avg_ret": 0.0021045854450118993
+        "n": 20,
+        "n_eval": 20,
+        "win_rate": 0.3,
+        "avg_ret": -0.00543117995208246
       },
       "plan": {
-        "n": 3,
-        "n_eval": 3,
-        "win_rate": 0.6666666666666666,
-        "avg_ret": 0.001366305406953076
+        "n": 5,
+        "n_eval": 5,
+        "win_rate": 0.4,
+        "avg_ret": -0.0038765365233549122
       },
       "decision": {
-        "n": 23,
-        "n_eval": 23,
-        "win_rate": 0.391304347826087,
-        "avg_ret": -0.0022420126322486578
+        "n": 49,
+        "n_eval": 49,
+        "win_rate": 0.40816326530612246,
+        "avg_ret": -0.005912799451321101
       }
     },
     "1d": {
@@ -177,13 +177,55 @@
         }
       }
     },
-    "DDOG": {
+    "CRWD": {
       "1h": {
         "raw_signal": {
           "n": 0,
           "n_eval": 0,
           "win_rate": 0.0,
           "avg_ret": 0.0
+        },
+        "plan": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "decision": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        }
+      },
+      "1d": {
+        "raw_signal": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "plan": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "decision": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        }
+      }
+    },
+    "DDOG": {
+      "1h": {
+        "raw_signal": {
+          "n": 1,
+          "n_eval": 1,
+          "win_rate": 0.0,
+          "avg_ret": -0.03847490737371573
         },
         "plan": {
           "n": 0,
@@ -234,10 +276,10 @@
           "avg_ret": 0.0
         },
         "decision": {
-          "n": 2,
-          "n_eval": 2,
-          "win_rate": 0.0,
-          "avg_ret": -0.013879057895064106
+          "n": 9,
+          "n_eval": 9,
+          "win_rate": 0.1111111111111111,
+          "avg_ret": -0.02716453823789242
         }
       },
       "1d": {
@@ -264,10 +306,10 @@
     "MDB": {
       "1h": {
         "raw_signal": {
-          "n": 0,
-          "n_eval": 0,
+          "n": 1,
+          "n_eval": 1,
           "win_rate": 0.0,
-          "avg_ret": 0.0
+          "avg_ret": -0.040547782138121824
         },
         "plan": {
           "n": 0,
@@ -276,10 +318,10 @@
           "avg_ret": 0.0
         },
         "decision": {
-          "n": 2,
-          "n_eval": 2,
-          "win_rate": 0.0,
-          "avg_ret": -0.007866222701132353
+          "n": 4,
+          "n_eval": 4,
+          "win_rate": 0.25,
+          "avg_ret": -0.0028648114592058627
         }
       },
       "1d": {
@@ -306,22 +348,22 @@
     "MSTR": {
       "1h": {
         "raw_signal": {
-          "n": 0,
-          "n_eval": 0,
-          "win_rate": 0.0,
-          "avg_ret": 0.0
-        },
-        "plan": {
-          "n": 0,
-          "n_eval": 0,
-          "win_rate": 0.0,
-          "avg_ret": 0.0
-        },
-        "decision": {
           "n": 2,
           "n_eval": 2,
-          "win_rate": 0.5,
-          "avg_ret": 0.00229443938475693
+          "win_rate": 0.0,
+          "avg_ret": -0.011740799418816894
+        },
+        "plan": {
+          "n": 2,
+          "n_eval": 2,
+          "win_rate": 0.0,
+          "avg_ret": -0.011740799418816894
+        },
+        "decision": {
+          "n": 9,
+          "n_eval": 9,
+          "win_rate": 0.6666666666666666,
+          "avg_ret": 0.005017390883223715
         }
       },
       "1d": {
@@ -348,10 +390,10 @@
     "MU": {
       "1h": {
         "raw_signal": {
-          "n": 6,
-          "n_eval": 6,
-          "win_rate": 0.5,
-          "avg_ret": 0.0014927317639197857
+          "n": 8,
+          "n_eval": 8,
+          "win_rate": 0.375,
+          "avg_ret": -0.002357181037180592
         },
         "plan": {
           "n": 3,
@@ -360,10 +402,10 @@
           "avg_ret": 0.001366305406953076
         },
         "decision": {
-          "n": 6,
-          "n_eval": 6,
-          "win_rate": 0.5,
-          "avg_ret": 0.0014927317639197857
+          "n": 12,
+          "n_eval": 12,
+          "win_rate": 0.25,
+          "avg_ret": -0.006836012012221893
         }
       },
       "1d": {
@@ -432,10 +474,10 @@
     "NVDA": {
       "1h": {
         "raw_signal": {
-          "n": 6,
-          "n_eval": 6,
-          "win_rate": 0.5,
-          "avg_ret": 0.0027164391261040124
+          "n": 8,
+          "n_eval": 8,
+          "win_rate": 0.375,
+          "avg_ret": 0.0015922672006583594
         },
         "plan": {
           "n": 0,
@@ -742,6 +784,90 @@
           "n_eval": 3,
           "win_rate": 0.0,
           "avg_ret": -0.0022957944993552415
+        }
+      },
+      "1d": {
+        "raw_signal": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "plan": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "decision": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        }
+      }
+    },
+    "TSLA": {
+      "1h": {
+        "raw_signal": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "plan": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "decision": {
+          "n": 4,
+          "n_eval": 4,
+          "win_rate": 1.0,
+          "avg_ret": 0.006177385440782335
+        }
+      },
+      "1d": {
+        "raw_signal": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "plan": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "decision": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        }
+      }
+    },
+    "WDAY": {
+      "1h": {
+        "raw_signal": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "plan": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
+        },
+        "decision": {
+          "n": 0,
+          "n_eval": 0,
+          "win_rate": 0.0,
+          "avg_ret": 0.0
         }
       },
       "1d": {

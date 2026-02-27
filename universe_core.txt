@@ -1,32 +1,3 @@
-# === Index / Broad ETF (regime & baseline) ===
-SPY
-QQQ
-IWM
-DIA
-VTI
-VOO
-
-# === Sector / Style ETF (context & rotation) ===
-SMH
-SOXX
-XLK
-XLC
-XLF
-XLE
-XLI
-XLV
-XLP
-XLY
-XLB
-XLU
-IYR
-IGV
-SKYY
-CLOU
-BOTZ
-ROBO
-ARKK
-
 # === Big Tech / Mega-cap ===
 AAPL
 MSFT

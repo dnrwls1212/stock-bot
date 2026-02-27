@@ -1,16 +1,16 @@
 {
-  "generated_at_kst": "2026-02-25T02:31:23+09:00",
+  "generated_at_kst": "2026-02-27T06:59:28+09:00",
   "input_labeled_path": "data/decisions_labeled.jsonl",
-  "n_labeled": 597,
+  "n_labeled": 4386,
   "horizons": [
     "1h",
     "1d"
   ],
   "by_horizon": {
     "1h": {
-      "n_eval": 23,
-      "avg_ret": -0.0022420126322486578,
-      "win_rate": 0.391304347826087
+      "n_eval": 49,
+      "avg_ret": -0.005912799451321101,
+      "win_rate": 0.40816326530612246
     },
     "1d": {
       "n_eval": 0,
@@ -81,9 +81,9 @@
     },
     "MSTR": {
       "1h": {
-        "n_eval": 2,
-        "avg_ret": 0.00229443938475693,
-        "win_rate": 0.5
+        "n_eval": 9,
+        "avg_ret": 0.005017390883223715,
+        "win_rate": 0.6666666666666666
       },
       "1d": {
         "n_eval": 0,
@@ -93,9 +93,9 @@
     },
     "MU": {
       "1h": {
-        "n_eval": 6,
-        "avg_ret": 0.0014927317639197857,
-        "win_rate": 0.5
+        "n_eval": 12,
+        "avg_ret": -0.006836012012221893,
+        "win_rate": 0.25
       },
       "1d": {
         "n_eval": 0,
@@ -165,9 +165,9 @@
     },
     "MDB": {
       "1h": {
-        "n_eval": 2,
-        "avg_ret": -0.007866222701132353,
-        "win_rate": 0.0
+        "n_eval": 4,
+        "avg_ret": -0.0028648114592058627,
+        "win_rate": 0.25
       },
       "1d": {
         "n_eval": 0,
@@ -189,9 +189,9 @@
     },
     "DOCN": {
       "1h": {
-        "n_eval": 2,
-        "avg_ret": -0.013879057895064106,
-        "win_rate": 0.0
+        "n_eval": 9,
+        "avg_ret": -0.02716453823789242,
+        "win_rate": 0.1111111111111111
       },
       "1d": {
         "n_eval": 0,
@@ -216,6 +216,42 @@
         "n_eval": 0,
         "avg_ret": 0.0,
         "win_rate": 0.0
+      },
+      "1d": {
+        "n_eval": 0,
+        "avg_ret": 0.0,
+        "win_rate": 0.0
+      }
+    },
+    "WDAY": {
+      "1h": {
+        "n_eval": 0,
+        "avg_ret": 0.0,
+        "win_rate": 0.0
+      },
+      "1d": {
+        "n_eval": 0,
+        "avg_ret": 0.0,
+        "win_rate": 0.0
+      }
+    },
+    "CRWD": {
+      "1h": {
+        "n_eval": 0,
+        "avg_ret": 0.0,
+        "win_rate": 0.0
+      },
+      "1d": {
+        "n_eval": 0,
+        "avg_ret": 0.0,
+        "win_rate": 0.0
+      }
+    },
+    "TSLA": {
+      "1h": {
+        "n_eval": 4,
+        "avg_ret": 0.006177385440782335,
+        "win_rate": 1.0
       },
       "1d": {
         "n_eval": 0,

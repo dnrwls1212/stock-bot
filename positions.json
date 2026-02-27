@@ -6,15 +6,15 @@
     "trades_today": 0,
     "last_trade_ts": null,
     "cooldown_until_ts": null,
-    "buy_streak": 13,
+    "buy_streak": 0,
     "sell_streak": 0,
-    "last_action_raw": "BUY",
-    "last_reset_date": "2026-02-25",
+    "last_action_raw": "HOLD",
+    "last_reset_date": "2026-02-27",
     "meta": {
+      "_peak_price": 0.0,
       "_tp1_done": false,
       "_tp2_done": false,
-      "_sl1_done": false,
-      "_peak_price": 0.0
+      "_sl1_done": false
     }
   },
   "ORCL": {
@@ -45,7 +45,7 @@
     "buy_streak": 0,
     "sell_streak": 0,
     "last_action_raw": "HOLD",
-    "last_reset_date": "2026-02-22",
+    "last_reset_date": "2026-02-27",
     "meta": {
       "_tp1_done": false,
       "_tp2_done": false,
@@ -81,7 +81,7 @@
     "buy_streak": 0,
     "sell_streak": 0,
     "last_action_raw": "HOLD",
-    "last_reset_date": "2026-02-25",
+    "last_reset_date": "2026-02-27",
     "meta": {
       "_tp1_done": false,
       "_tp2_done": false,
@@ -99,7 +99,7 @@
     "buy_streak": 0,
     "sell_streak": 0,
     "last_action_raw": "HOLD",
-    "last_reset_date": "2026-02-25",
+    "last_reset_date": "2026-02-27",
     "meta": {
       "_tp1_done": false,
       "_tp2_done": false,
@@ -114,15 +114,15 @@
     "trades_today": 0,
     "last_trade_ts": null,
     "cooldown_until_ts": null,
-    "buy_streak": 13,
+    "buy_streak": 0,
     "sell_streak": 0,
-    "last_action_raw": "BUY",
-    "last_reset_date": "2026-02-25",
+    "last_action_raw": "HOLD",
+    "last_reset_date": "2026-02-27",
     "meta": {
+      "_peak_price": 0.0,
       "_tp1_done": false,
       "_tp2_done": false,
-      "_sl1_done": false,
-      "_peak_price": 0.0
+      "_sl1_done": false
     }
   },
   "SHOP": {
@@ -135,7 +135,7 @@
     "buy_streak": 0,
     "sell_streak": 0,
     "last_action_raw": "HOLD",
-    "last_reset_date": "2026-02-25",
+    "last_reset_date": "2026-02-27",
     "meta": {
       "_tp1_done": false,
       "_tp2_done": false,
@@ -153,7 +153,7 @@
     "buy_streak": 0,
     "sell_streak": 0,
     "last_action_raw": "HOLD",
-    "last_reset_date": "2026-02-25",
+    "last_reset_date": "2026-02-27",
     "meta": {
       "_tp1_done": false,
       "_tp2_done": false,
@@ -207,7 +207,7 @@
     "buy_streak": 0,
     "sell_streak": 0,
     "last_action_raw": "HOLD",
-    "last_reset_date": "2026-02-25",
+    "last_reset_date": "2026-02-27",
     "meta": {
       "_tp1_done": false,
       "_tp2_done": false,
@@ -225,7 +225,7 @@
     "buy_streak": 0,
     "sell_streak": 0,
     "last_action_raw": "HOLD",
-    "last_reset_date": "2026-02-25",
+    "last_reset_date": "2026-02-27",
     "meta": {
       "_tp1_done": false,
       "_tp2_done": false,
@@ -243,7 +243,7 @@
     "buy_streak": 0,
     "sell_streak": 0,
     "last_action_raw": "HOLD",
-    "last_reset_date": "2026-02-25",
+    "last_reset_date": "2026-02-27",
     "meta": {
       "_tp1_done": false,
       "_tp2_done": false,
@@ -261,12 +261,12 @@
     "buy_streak": 0,
     "sell_streak": 0,
     "last_action_raw": "HOLD",
-    "last_reset_date": "2026-02-25",
+    "last_reset_date": "2026-02-27",
     "meta": {
+      "_peak_price": 0.0,
       "_tp1_done": false,
       "_tp2_done": false,
-      "_sl1_done": false,
-      "_peak_price": 0.0
+      "_sl1_done": false
     }
   },
   "NVO": {
@@ -298,6 +298,60 @@
     "sell_streak": 0,
     "last_action_raw": "HOLD",
     "last_reset_date": "2026-02-25",
+    "meta": {
+      "_tp1_done": false,
+      "_tp2_done": false,
+      "_sl1_done": false,
+      "_peak_price": 0.0
+    }
+  },
+  "WDAY": {
+    "ticker": "WDAY",
+    "qty": 0.0,
+    "avg_price": 0.0,
+    "trades_today": 0,
+    "last_trade_ts": null,
+    "cooldown_until_ts": null,
+    "buy_streak": 0,
+    "sell_streak": 0,
+    "last_action_raw": "HOLD",
+    "last_reset_date": "2026-02-25",
+    "meta": {
+      "_tp1_done": false,
+      "_tp2_done": false,
+      "_sl1_done": false,
+      "_peak_price": 0.0
+    }
+  },
+  "CRWD": {
+    "ticker": "CRWD",
+    "qty": 0.0,
+    "avg_price": 0.0,
+    "trades_today": 0,
+    "last_trade_ts": null,
+    "cooldown_until_ts": null,
+    "buy_streak": 0,
+    "sell_streak": 1,
+    "last_action_raw": "SELL",
+    "last_reset_date": "2026-02-26",
+    "meta": {
+      "_tp1_done": false,
+      "_tp2_done": false,
+      "_sl1_done": false,
+      "_peak_price": 0.0
+    }
+  },
+  "TSLA": {
+    "ticker": "TSLA",
+    "qty": 0.0,
+    "avg_price": 0.0,
+    "trades_today": 0,
+    "last_trade_ts": null,
+    "cooldown_until_ts": null,
+    "buy_streak": 0,
+    "sell_streak": 0,
+    "last_action_raw": "HOLD",
+    "last_reset_date": "2026-02-27",
     "meta": {
       "_tp1_done": false,
       "_tp2_done": false,

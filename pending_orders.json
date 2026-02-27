@@ -4,44 +4,1283 @@
       "ticker": "NVDA",
       "side": "BUY",
       "qty": 20.0,
-      "status": "SUBMITTED",
-      "submitted_at": "2026-02-24T17:30:04+00:00",
-      "kis_order_no": "0000021518",
-      "client_order_id": "1771954204899-137067-5-NVDA-BUY",
+      "status": "FILLED",
+      "submitted_at": "2026-02-25T14:37:58+00:00",
+      "kis_order_no": "0000021951",
+      "client_order_id": "1772030278555-188443-7-NVDA-BUY",
       "raw": {
         "rt_cd": "0",
         "msg_cd": "40600000",
         "msg1": "모의투자 매수주문이 완료 되었습니다.",
         "output": {
           "KRX_FWDG_ORD_ORGNO": "00950",
-          "ODNO": "0000021518",
-          "ORD_TMD": "023004"
+          "ODNO": "0000021951",
+          "ORD_TMD": "233757"
         }
       },
-      "filled_qty": 0.0,
-      "avg_fill_price": 0.0
+      "filled_qty": 20.0,
+      "avg_fill_price": 194.42
+    },
+    {
+      "ticker": "NVDA",
+      "side": "BUY",
+      "qty": 20.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-25T14:39:55+00:00",
+      "kis_order_no": "0000021979",
+      "client_order_id": "1772030395024-188443-8-NVDA-BUY",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40600000",
+        "msg1": "모의투자 매수주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000021979",
+          "ORD_TMD": "233954"
+        }
+      },
+      "filled_qty": 20.0,
+      "avg_fill_price": 194.35
+    },
+    {
+      "ticker": "NVDA",
+      "side": "BUY",
+      "qty": 20.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-25T14:41:30+00:00",
+      "kis_order_no": "0000022037",
+      "client_order_id": "1772030490837-188443-9-NVDA-BUY",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40600000",
+        "msg1": "모의투자 매수주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000022037",
+          "ORD_TMD": "234130"
+        }
+      },
+      "filled_qty": 20.0,
+      "avg_fill_price": 194.65
+    },
+    {
+      "ticker": "NVDA",
+      "side": "BUY",
+      "qty": 20.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-25T14:43:20+00:00",
+      "kis_order_no": "0000022141",
+      "client_order_id": "1772030600560-188443-10-NVDA-BUY",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40600000",
+        "msg1": "모의투자 매수주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000022141",
+          "ORD_TMD": "234319"
+        }
+      },
+      "filled_qty": 20.0,
+      "avg_fill_price": 194.48
+    },
+    {
+      "ticker": "NVDA",
+      "side": "BUY",
+      "qty": 20.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-25T14:45:00+00:00",
+      "kis_order_no": "0000022229",
+      "client_order_id": "1772030700579-188443-11-NVDA-BUY",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40600000",
+        "msg1": "모의투자 매수주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000022229",
+          "ORD_TMD": "234459"
+        }
+      },
+      "filled_qty": 20.0,
+      "avg_fill_price": 194.595
+    },
+    {
+      "ticker": "NVDA",
+      "side": "BUY",
+      "qty": 20.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-25T14:46:46+00:00",
+      "kis_order_no": "0000022322",
+      "client_order_id": "1772030806810-188443-12-NVDA-BUY",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40600000",
+        "msg1": "모의투자 매수주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000022322",
+          "ORD_TMD": "234646"
+        }
+      },
+      "filled_qty": 20.0,
+      "avg_fill_price": 194.8
+    },
+    {
+      "ticker": "NVDA",
+      "side": "BUY",
+      "qty": 20.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-25T14:48:29+00:00",
+      "kis_order_no": "0000022363",
+      "client_order_id": "1772030909115-188443-13-NVDA-BUY",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40600000",
+        "msg1": "모의투자 매수주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000022363",
+          "ORD_TMD": "234828"
+        }
+      },
+      "filled_qty": 20.0,
+      "avg_fill_price": 194.8337
+    },
+    {
+      "ticker": "NVDA",
+      "side": "SELL",
+      "qty": 42.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-25T14:52:59+00:00",
+      "kis_order_no": "0000022473",
+      "client_order_id": "1772031179811-193497-14-NVDA-SELL",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40590000",
+        "msg1": "모의투자 매도주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000022473",
+          "ORD_TMD": "235259"
+        }
+      },
+      "filled_qty": 42.0,
+      "avg_fill_price": 195.33
+    },
+    {
+      "ticker": "NVDA",
+      "side": "SELL",
+      "qty": 49.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-25T14:54:56+00:00",
+      "kis_order_no": "0000022496",
+      "client_order_id": "1772031296713-193497-15-NVDA-SELL",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40590000",
+        "msg1": "모의투자 매도주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000022496",
+          "ORD_TMD": "235456"
+        }
+      },
+      "filled_qty": 49.0,
+      "avg_fill_price": 195.85
+    },
+    {
+      "ticker": "NVDA",
+      "side": "BUY",
+      "qty": 20.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-25T14:58:20+00:00",
+      "kis_order_no": "0000022552",
+      "client_order_id": "1772031500283-193497-16-NVDA-BUY",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40600000",
+        "msg1": "모의투자 매수주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000022552",
+          "ORD_TMD": "235820"
+        }
+      },
+      "filled_qty": 20.0,
+      "avg_fill_price": 195.6
+    },
+    {
+      "ticker": "NVDA",
+      "side": "SELL",
+      "qty": 20.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-25T15:07:02+00:00",
+      "kis_order_no": "0000022736",
+      "client_order_id": "1772032022827-197385-17-NVDA-SELL",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40590000",
+        "msg1": "모의투자 매도주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000022736",
+          "ORD_TMD": "000702"
+        }
+      },
+      "filled_qty": 20.0,
+      "avg_fill_price": 196.435
+    },
+    {
+      "ticker": "NVDA",
+      "side": "SELL",
+      "qty": 14.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-25T15:09:01+00:00",
+      "kis_order_no": "0000022763",
+      "client_order_id": "1772032141526-197385-18-NVDA-SELL",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40590000",
+        "msg1": "모의투자 매도주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000022763",
+          "ORD_TMD": "000901"
+        }
+      },
+      "filled_qty": 14.0,
+      "avg_fill_price": 196.279
+    },
+    {
+      "ticker": "NVDA",
+      "side": "SELL",
+      "qty": 35.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-25T15:13:51+00:00",
+      "kis_order_no": "0000022863",
+      "client_order_id": "1772032431916-199703-19-NVDA-SELL",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40590000",
+        "msg1": "모의투자 매도주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000022863",
+          "ORD_TMD": "001351"
+        }
+      },
+      "filled_qty": 35.0,
+      "avg_fill_price": 195.79
+    },
+    {
+      "ticker": "NVDA",
+      "side": "BUY",
+      "qty": 20.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-25T15:17:35+00:00",
+      "kis_order_no": "0000022921",
+      "client_order_id": "1772032655263-199703-20-NVDA-BUY",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40600000",
+        "msg1": "모의투자 매수주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000022921",
+          "ORD_TMD": "001734"
+        }
+      },
+      "filled_qty": 20.0,
+      "avg_fill_price": 195.42
+    },
+    {
+      "ticker": "NVDA",
+      "side": "BUY",
+      "qty": 20.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-25T15:19:16+00:00",
+      "kis_order_no": "0000022940",
+      "client_order_id": "1772032756226-199703-21-NVDA-BUY",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40600000",
+        "msg1": "모의투자 매수주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000022940",
+          "ORD_TMD": "001915"
+        }
+      },
+      "filled_qty": 20.0,
+      "avg_fill_price": 195.19
+    },
+    {
+      "ticker": "NVDA",
+      "side": "BUY",
+      "qty": 20.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-25T15:21:00+00:00",
+      "kis_order_no": "0000022964",
+      "client_order_id": "1772032860235-199703-22-NVDA-BUY",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40600000",
+        "msg1": "모의투자 매수주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000022964",
+          "ORD_TMD": "002100"
+        }
+      },
+      "filled_qty": 20.0,
+      "avg_fill_price": 195.5
+    },
+    {
+      "ticker": "NVDA",
+      "side": "BUY",
+      "qty": 20.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-25T15:22:48+00:00",
+      "kis_order_no": "0000022999",
+      "client_order_id": "1772032968063-199703-23-NVDA-BUY",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40600000",
+        "msg1": "모의투자 매수주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000022999",
+          "ORD_TMD": "002247"
+        }
+      },
+      "filled_qty": 20.0,
+      "avg_fill_price": 195.471
+    },
+    {
+      "ticker": "NVDA",
+      "side": "BUY",
+      "qty": 20.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-25T15:24:40+00:00",
+      "kis_order_no": "0000023027",
+      "client_order_id": "1772033080479-199703-24-NVDA-BUY",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40600000",
+        "msg1": "모의투자 매수주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000023027",
+          "ORD_TMD": "002440"
+        }
+      },
+      "filled_qty": 20.0,
+      "avg_fill_price": 195.52
+    },
+    {
+      "ticker": "NVDA",
+      "side": "BUY",
+      "qty": 20.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-25T15:26:45+00:00",
+      "kis_order_no": "0000023054",
+      "client_order_id": "1772033205926-199703-25-NVDA-BUY",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40600000",
+        "msg1": "모의투자 매수주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000023054",
+          "ORD_TMD": "002645"
+        }
+      },
+      "filled_qty": 20.0,
+      "avg_fill_price": 195.68
+    },
+    {
+      "ticker": "NVDA",
+      "side": "BUY",
+      "qty": 20.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-25T15:28:34+00:00",
+      "kis_order_no": "0000023084",
+      "client_order_id": "1772033314105-199703-26-NVDA-BUY",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40600000",
+        "msg1": "모의투자 매수주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000023084",
+          "ORD_TMD": "002833"
+        }
+      },
+      "filled_qty": 20.0,
+      "avg_fill_price": 195.93
+    },
+    {
+      "ticker": "NVDA",
+      "side": "BUY",
+      "qty": 20.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-25T15:30:29+00:00",
+      "kis_order_no": "0000023135",
+      "client_order_id": "1772033429497-199703-27-NVDA-BUY",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40600000",
+        "msg1": "모의투자 매수주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000023135",
+          "ORD_TMD": "003028"
+        }
+      },
+      "filled_qty": 20.0,
+      "avg_fill_price": 195.96
+    },
+    {
+      "ticker": "NVDA",
+      "side": "BUY",
+      "qty": 20.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-25T15:32:29+00:00",
+      "kis_order_no": "0000023176",
+      "client_order_id": "1772033549558-199703-28-NVDA-BUY",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40600000",
+        "msg1": "모의투자 매수주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000023176",
+          "ORD_TMD": "003228"
+        }
+      },
+      "filled_qty": 20.0,
+      "avg_fill_price": 196.05
+    },
+    {
+      "ticker": "NVDA",
+      "side": "BUY",
+      "qty": 20.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-25T15:34:17+00:00",
+      "kis_order_no": "0000023224",
+      "client_order_id": "1772033657934-199703-29-NVDA-BUY",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40600000",
+        "msg1": "모의투자 매수주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000023224",
+          "ORD_TMD": "003417"
+        }
+      },
+      "filled_qty": 20.0,
+      "avg_fill_price": 195.76
+    },
+    {
+      "ticker": "DOCN",
+      "side": "BUY",
+      "qty": 40.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-25T16:00:43+00:00",
+      "kis_order_no": "0000023734",
+      "client_order_id": "1772035243863-199703-30-DOCN-BUY",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40600000",
+        "msg1": "모의투자 매수주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000023734",
+          "ORD_TMD": "010043"
+        }
+      },
+      "filled_qty": 40.0,
+      "avg_fill_price": 58.88
+    },
+    {
+      "ticker": "MU",
+      "side": "BUY",
+      "qty": 60.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-25T16:02:01+00:00",
+      "kis_order_no": "0000023762",
+      "client_order_id": "1772035321865-199703-31-MU-BUY",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40600000",
+        "msg1": "모의투자 매수주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000023762",
+          "ORD_TMD": "010201"
+        }
+      },
+      "filled_qty": 60.0,
+      "avg_fill_price": 427.05
+    },
+    {
+      "ticker": "DOCN",
+      "side": "BUY",
+      "qty": 40.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-25T16:04:42+00:00",
+      "kis_order_no": "0000023808",
+      "client_order_id": "1772035482628-199703-32-DOCN-BUY",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40600000",
+        "msg1": "모의투자 매수주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000023808",
+          "ORD_TMD": "010442"
+        }
+      },
+      "filled_qty": 40.0,
+      "avg_fill_price": 58.75
+    },
+    {
+      "ticker": "MU",
+      "side": "BUY",
+      "qty": 40.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-25T16:05:46+00:00",
+      "kis_order_no": "0000023830",
+      "client_order_id": "1772035546322-199703-33-MU-BUY",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40600000",
+        "msg1": "모의투자 매수주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000023830",
+          "ORD_TMD": "010545"
+        }
+      },
+      "filled_qty": 40.0,
+      "avg_fill_price": 428.568
+    },
+    {
+      "ticker": "DOCN",
+      "side": "BUY",
+      "qty": 40.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-25T16:08:18+00:00",
+      "kis_order_no": "0000023889",
+      "client_order_id": "1772035698128-199703-34-DOCN-BUY",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40600000",
+        "msg1": "모의투자 매수주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000023889",
+          "ORD_TMD": "010817"
+        }
+      },
+      "filled_qty": 40.0,
+      "avg_fill_price": 58.75
+    },
+    {
+      "ticker": "MU",
+      "side": "BUY",
+      "qty": 40.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-25T16:11:19+00:00",
+      "kis_order_no": "0000023941",
+      "client_order_id": "1772035879257-199703-35-MU-BUY",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40600000",
+        "msg1": "모의투자 매수주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000023941",
+          "ORD_TMD": "011119"
+        }
+      },
+      "filled_qty": 40.0,
+      "avg_fill_price": 428.7473
+    },
+    {
+      "ticker": "TEAM",
+      "side": "BUY",
+      "qty": 20.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-25T16:12:15+00:00",
+      "kis_order_no": "0000023956",
+      "client_order_id": "1772035935996-199703-36-TEAM-BUY",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40600000",
+        "msg1": "모의투자 매수주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000023956",
+          "ORD_TMD": "011215"
+        }
+      },
+      "filled_qty": 20.0,
+      "avg_fill_price": 71.87
+    },
+    {
+      "ticker": "DOCN",
+      "side": "BUY",
+      "qty": 40.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-25T16:13:50+00:00",
+      "kis_order_no": "0000023982",
+      "client_order_id": "1772036030246-199703-37-DOCN-BUY",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40600000",
+        "msg1": "모의투자 매수주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000023982",
+          "ORD_TMD": "011349"
+        }
+      },
+      "filled_qty": 40.0,
+      "avg_fill_price": 58.35
+    },
+    {
+      "ticker": "TEAM",
+      "side": "BUY",
+      "qty": 20.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-25T16:16:02+00:00",
+      "kis_order_no": "0000024019",
+      "client_order_id": "1772036162714-199703-38-TEAM-BUY",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40600000",
+        "msg1": "모의투자 매수주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000024019",
+          "ORD_TMD": "011602"
+        }
+      },
+      "filled_qty": 20.0,
+      "avg_fill_price": 71.8301
+    },
+    {
+      "ticker": "DOCN",
+      "side": "BUY",
+      "qty": 40.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-25T16:17:34+00:00",
+      "kis_order_no": "0000024051",
+      "client_order_id": "1772036254281-199703-39-DOCN-BUY",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40600000",
+        "msg1": "모의투자 매수주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000024051",
+          "ORD_TMD": "011734"
+        }
+      },
+      "filled_qty": 40.0,
+      "avg_fill_price": 58.305
     },
     {
       "ticker": "MU",
       "side": "BUY",
       "qty": 20.0,
-      "status": "SUBMITTED",
-      "submitted_at": "2026-02-24T17:30:25+00:00",
-      "kis_order_no": "0000021524",
-      "client_order_id": "1771954225991-137067-6-MU-BUY",
+      "status": "FILLED",
+      "submitted_at": "2026-02-25T16:22:27+00:00",
+      "kis_order_no": "0000024151",
+      "client_order_id": "1772036547922-199703-40-MU-BUY",
       "raw": {
         "rt_cd": "0",
         "msg_cd": "40600000",
         "msg1": "모의투자 매수주문이 완료 되었습니다.",
         "output": {
           "KRX_FWDG_ORD_ORGNO": "00950",
-          "ODNO": "0000021524",
-          "ORD_TMD": "023026"
+          "ODNO": "0000024151",
+          "ORD_TMD": "012227"
         }
       },
-      "filled_qty": 0.0,
-      "avg_fill_price": 0.0
+      "filled_qty": 20.0,
+      "avg_fill_price": 429.14
+    },
+    {
+      "ticker": "TEAM",
+      "side": "SELL",
+      "qty": 12.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-25T16:25:04+00:00",
+      "kis_order_no": "0000024203",
+      "client_order_id": "1772036704827-199703-41-TEAM-SELL",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40590000",
+        "msg1": "모의투자 매도주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000024203",
+          "ORD_TMD": "012504"
+        }
+      },
+      "filled_qty": 12.0,
+      "avg_fill_price": 72.34
+    },
+    {
+      "ticker": "MU",
+      "side": "BUY",
+      "qty": 40.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-25T16:26:01+00:00",
+      "kis_order_no": "0000024222",
+      "client_order_id": "1772036761165-199703-42-MU-BUY",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40600000",
+        "msg1": "모의투자 매수주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000024222",
+          "ORD_TMD": "012600"
+        }
+      },
+      "filled_qty": 40.0,
+      "avg_fill_price": 428.66
+    },
+    {
+      "ticker": "TEAM",
+      "side": "SELL",
+      "qty": 14.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-25T16:34:27+00:00",
+      "kis_order_no": "0000024353",
+      "client_order_id": "1772037267786-199703-43-TEAM-SELL",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40590000",
+        "msg1": "모의투자 매도주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000024353",
+          "ORD_TMD": "013427"
+        }
+      },
+      "filled_qty": 14.0,
+      "avg_fill_price": 72.73
+    },
+    {
+      "ticker": "TEAM",
+      "side": "SELL",
+      "qty": 14.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-25T16:38:13+00:00",
+      "kis_order_no": "0000024400",
+      "client_order_id": "1772037493384-199703-44-TEAM-SELL",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40590000",
+        "msg1": "모의투자 매도주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000024400",
+          "ORD_TMD": "013812"
+        }
+      },
+      "filled_qty": 14.0,
+      "avg_fill_price": 72.51
+    },
+    {
+      "ticker": "TEAM",
+      "side": "BUY",
+      "qty": 20.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-25T17:04:14+00:00",
+      "kis_order_no": "0000024791",
+      "client_order_id": "1772039054730-199703-45-TEAM-BUY",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40600000",
+        "msg1": "모의투자 매수주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000024791",
+          "ORD_TMD": "020414"
+        }
+      },
+      "filled_qty": 20.0,
+      "avg_fill_price": 71.85
+    },
+    {
+      "ticker": "MU",
+      "side": "BUY",
+      "qty": 20.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-25T17:05:10+00:00",
+      "kis_order_no": "0000024808",
+      "client_order_id": "1772039110758-199703-46-MU-BUY",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40600000",
+        "msg1": "모의투자 매수주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000024808",
+          "ORD_TMD": "020510"
+        }
+      },
+      "filled_qty": 20.0,
+      "avg_fill_price": 428.0729
+    },
+    {
+      "ticker": "MU",
+      "side": "BUY",
+      "qty": 40.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-25T17:10:53+00:00",
+      "kis_order_no": "0000024897",
+      "client_order_id": "1772039453513-199703-47-MU-BUY",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40600000",
+        "msg1": "모의투자 매수주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000024897",
+          "ORD_TMD": "021053"
+        }
+      },
+      "filled_qty": 40.0,
+      "avg_fill_price": 427.815
+    },
+    {
+      "ticker": "DOCN",
+      "side": "BUY",
+      "qty": 20.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-25T17:11:34+00:00",
+      "kis_order_no": "0000024909",
+      "client_order_id": "1772039494779-199703-48-DOCN-BUY",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40600000",
+        "msg1": "모의투자 매수주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000024909",
+          "ORD_TMD": "021134"
+        }
+      },
+      "filled_qty": 20.0,
+      "avg_fill_price": 58.97
+    },
+    {
+      "ticker": "MU",
+      "side": "BUY",
+      "qty": 20.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-25T17:22:28+00:00",
+      "kis_order_no": "0000025116",
+      "client_order_id": "1772040148500-199703-49-MU-BUY",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40600000",
+        "msg1": "모의투자 매수주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000025116",
+          "ORD_TMD": "022228"
+        }
+      },
+      "filled_qty": 20.0,
+      "avg_fill_price": 428.41
+    },
+    {
+      "ticker": "MU",
+      "side": "SELL",
+      "qty": 340.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-26T15:53:54+00:00",
+      "kis_order_no": "0000030599",
+      "client_order_id": "1772121234080-324398-50-MU-SELL",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40590000",
+        "msg1": "모의투자 매도주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000030599",
+          "ORD_TMD": "005353"
+        }
+      },
+      "filled_qty": 340.0,
+      "avg_fill_price": 408.87
+    },
+    {
+      "ticker": "DOCN",
+      "side": "SELL",
+      "qty": 220.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-26T16:11:32+00:00",
+      "kis_order_no": "0000030931",
+      "client_order_id": "1772122292337-328566-51-DOCN-SELL",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40590000",
+        "msg1": "모의투자 매도주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000030931",
+          "ORD_TMD": "011131"
+        }
+      },
+      "filled_qty": 220.0,
+      "avg_fill_price": 56.665
+    },
+    {
+      "ticker": "MU",
+      "side": "BUY",
+      "qty": 50.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-26T16:18:32+00:00",
+      "kis_order_no": "0000031076",
+      "client_order_id": "1772122712744-329647-52-MU-BUY",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40600000",
+        "msg1": "모의투자 매수주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000031076",
+          "ORD_TMD": "011831"
+        }
+      },
+      "filled_qty": 50.0,
+      "avg_fill_price": 410.53
+    },
+    {
+      "ticker": "MU",
+      "side": "BUY",
+      "qty": 50.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-26T16:20:31+00:00",
+      "kis_order_no": "0000031117",
+      "client_order_id": "1772122831590-329647-53-MU-BUY",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40600000",
+        "msg1": "모의투자 매수주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000031117",
+          "ORD_TMD": "012030"
+        }
+      },
+      "filled_qty": 50.0,
+      "avg_fill_price": 411.845
+    },
+    {
+      "ticker": "MU",
+      "side": "BUY",
+      "qty": 50.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-26T16:22:37+00:00",
+      "kis_order_no": "0000031168",
+      "client_order_id": "1772122957455-329647-54-MU-BUY",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40600000",
+        "msg1": "모의투자 매수주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000031168",
+          "ORD_TMD": "012236"
+        }
+      },
+      "filled_qty": 50.0,
+      "avg_fill_price": 412.7178
+    },
+    {
+      "ticker": "NVDA",
+      "side": "SELL",
+      "qty": 229.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-26T16:24:54+00:00",
+      "kis_order_no": "0000031209",
+      "client_order_id": "1772123094825-333218-55-NVDA-SELL",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40590000",
+        "msg1": "모의투자 매도주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000031209",
+          "ORD_TMD": "012454"
+        }
+      },
+      "filled_qty": 229.0,
+      "avg_fill_price": 187.505
+    },
+    {
+      "ticker": "MU",
+      "side": "BUY",
+      "qty": 50.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-26T16:25:11+00:00",
+      "kis_order_no": "0000031220",
+      "client_order_id": "1772123111568-333218-56-MU-BUY",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40600000",
+        "msg1": "모의투자 매수주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000031220",
+          "ORD_TMD": "012510"
+        }
+      },
+      "filled_qty": 50.0,
+      "avg_fill_price": 413.42
+    },
+    {
+      "ticker": "MU",
+      "side": "BUY",
+      "qty": 50.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-26T17:15:04+00:00",
+      "kis_order_no": "0000032363",
+      "client_order_id": "1772126104272-345671-57-MU-BUY",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40600000",
+        "msg1": "모의투자 매수주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000032363",
+          "ORD_TMD": "021503"
+        }
+      },
+      "filled_qty": 50.0,
+      "avg_fill_price": 413.5
+    },
+    {
+      "ticker": "MU",
+      "side": "BUY",
+      "qty": 50.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-26T17:16:39+00:00",
+      "kis_order_no": "0000032412",
+      "client_order_id": "1772126199363-346145-58-MU-BUY",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40600000",
+        "msg1": "모의투자 매수주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000032412",
+          "ORD_TMD": "021638"
+        }
+      },
+      "filled_qty": 50.0,
+      "avg_fill_price": 413.2699
+    },
+    {
+      "ticker": "MU",
+      "side": "BUY",
+      "qty": 50.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-26T17:18:57+00:00",
+      "kis_order_no": "0000032461",
+      "client_order_id": "1772126337505-346145-59-MU-BUY",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40600000",
+        "msg1": "모의투자 매수주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000032461",
+          "ORD_TMD": "021856"
+        }
+      },
+      "filled_qty": 50.0,
+      "avg_fill_price": 413.24
+    },
+    {
+      "ticker": "MU",
+      "side": "BUY",
+      "qty": 50.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-26T17:21:01+00:00",
+      "kis_order_no": "0000032486",
+      "client_order_id": "1772126461570-346145-60-MU-BUY",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40600000",
+        "msg1": "모의투자 매수주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000032486",
+          "ORD_TMD": "022101"
+        }
+      },
+      "filled_qty": 50.0,
+      "avg_fill_price": 412.845
+    },
+    {
+      "ticker": "MU",
+      "side": "BUY",
+      "qty": 50.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-26T17:23:15+00:00",
+      "kis_order_no": "0000032500",
+      "client_order_id": "1772126595100-346145-61-MU-BUY",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40600000",
+        "msg1": "모의투자 매수주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000032500",
+          "ORD_TMD": "022314"
+        }
+      },
+      "filled_qty": 50.0,
+      "avg_fill_price": 413.189
+    },
+    {
+      "ticker": "MU",
+      "side": "BUY",
+      "qty": 50.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-26T17:25:30+00:00",
+      "kis_order_no": "0000032524",
+      "client_order_id": "1772126730486-346145-62-MU-BUY",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40600000",
+        "msg1": "모의투자 매수주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000032524",
+          "ORD_TMD": "022529"
+        }
+      },
+      "filled_qty": 50.0,
+      "avg_fill_price": 413.22
+    },
+    {
+      "ticker": "DDOG",
+      "side": "BUY",
+      "qty": 50.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-26T18:15:23+00:00",
+      "kis_order_no": "0000032996",
+      "client_order_id": "1772129723313-346145-63-DDOG-BUY",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40600000",
+        "msg1": "모의투자 매수주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000032996",
+          "ORD_TMD": "031522"
+        }
+      },
+      "filled_qty": 50.0,
+      "avg_fill_price": 112.43
+    },
+    {
+      "ticker": "MSTR",
+      "side": "BUY",
+      "qty": 50.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-26T18:15:40+00:00",
+      "kis_order_no": "0000032998",
+      "client_order_id": "1772129740010-346145-64-MSTR-BUY",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40600000",
+        "msg1": "모의투자 매수주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000032998",
+          "ORD_TMD": "031539"
+        }
+      },
+      "filled_qty": 50.0,
+      "avg_fill_price": 129.215
+    },
+    {
+      "ticker": "SHOP",
+      "side": "BUY",
+      "qty": 50.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-26T18:15:57+00:00",
+      "kis_order_no": "0000033003",
+      "client_order_id": "1772129757064-346145-65-SHOP-BUY",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40600000",
+        "msg1": "모의투자 매수주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000033003",
+          "ORD_TMD": "031556"
+        }
+      },
+      "filled_qty": 50.0,
+      "avg_fill_price": 123.39
+    },
+    {
+      "ticker": "TEAM",
+      "side": "BUY",
+      "qty": 50.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-26T18:17:44+00:00",
+      "kis_order_no": "0000033013",
+      "client_order_id": "1772129864219-346145-66-TEAM-BUY",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40600000",
+        "msg1": "모의투자 매수주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000033013",
+          "ORD_TMD": "031743"
+        }
+      },
+      "filled_qty": 50.0,
+      "avg_fill_price": 77.74
+    },
+    {
+      "ticker": "AVGO",
+      "side": "BUY",
+      "qty": 50.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-26T18:18:04+00:00",
+      "kis_order_no": "0000033018",
+      "client_order_id": "1772129884440-346145-67-AVGO-BUY",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40600000",
+        "msg1": "모의투자 매수주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000033018",
+          "ORD_TMD": "031804"
+        }
+      },
+      "filled_qty": 50.0,
+      "avg_fill_price": 310.77
     }
   ],
-  "_seq": 6
+  "_seq": 67
 }
