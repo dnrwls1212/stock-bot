@@ -683,7 +683,15 @@ def main() -> None:
 
     # ✅ 최종 watchlist 로드 (auto 파일 우선)
     WATCHLIST = load_watchlist()
-    print(f"[WATCHLIST] loaded: {WATCHLIST}")
+    
+    # 🚨 하락장 대비 인버스 종목 강제 주입
+    inverse_env = os.environ.get("INVERSE_TICKERS", "SQQQ,SOXS,PSQ")
+    inverse_tickers = [t.strip().upper() for t in inverse_env.split(",") if t.strip()]
+    for inv_t in inverse_tickers:
+        if inv_t not in WATCHLIST:
+            WATCHLIST.append(inv_t)
+            
+    print(f"[WATCHLIST] loaded (with inverse): {WATCHLIST}")
 
     tick_seconds = _env_int("TICK_SECONDS", 60)
 
@@ -922,6 +930,11 @@ def main() -> None:
             if watchlist_refresh_min > 0 and next_watchlist_refresh is not None and now_kst >= next_watchlist_refresh:
                 _maybe_build_universe_and_watchlist_once(notifier)
                 WATCHLIST = load_watchlist()
+                
+                # 🚨 갱신될 때도 인버스 종목 다시 주입
+                for inv_t in inverse_tickers:
+                    if inv_t not in WATCHLIST:
+                        WATCHLIST.append(inv_t)
 
                 # watchlist 바뀌면 관련 상태도 갱신
                 rss_urls = build_rss_urls(WATCHLIST)
@@ -1645,12 +1658,29 @@ def main() -> None:
                         print(f"[ACC_RISK_BLOCK] {ticker} {why_acc}")
 
                 # ==========================
-                # ✅ FINAL GUARDS (Regime / Chase / Cost)
+                # ✅ FINAL GUARDS (Regime / Chase / Cost / Inverse)
                 # ==========================
-                if plan_action == "BUY" and buy_block:
-                    plan_action = "HOLD"
-                    plan_qty = 0
-                    plan_reason = f"REGIME_BLOCK (risk_off) | {plan_reason}"
+                is_inverse = ticker in inverse_tickers
+
+                if plan_action == "BUY":
+                    if buy_block: 
+                        # 📉 하락장 (Risk Off): 일반 종목 매수 금지, 인버스는 매수 허용
+                        if is_inverse:
+                            plan_reason = f"INVERSE_ALLOWED (risk_off) | {plan_reason}"
+                        else:
+                            plan_action = "HOLD"
+                            plan_qty = 0
+                            plan_reason = f"REGIME_BLOCK (risk_off) | {plan_reason}"
+                            if not block_reason:
+                                block_reason = "REGIME_BLOCK"
+                    else: 
+                        # 📈 상승장 (Risk On): 일반 종목 매수 허용, 인버스는 매수 금지
+                        if is_inverse:
+                            plan_action = "HOLD"
+                            plan_qty = 0
+                            plan_reason = f"INVERSE_BLOCKED (risk_on) | {plan_reason}"
+                            if not block_reason:
+                                block_reason = "INVERSE_BLOCK"
 
                 if chase_ban_enabled and plan_action == "BUY" and plan_qty > 0:
                     hot = False
