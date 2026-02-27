@@ -1049,10 +1049,14 @@ def main() -> None:
                     },
                 )
 
+                # 번역된 한국어 제목 가져오기 (없으면 영어 원문 사용)
+                kr_title = str(evt.get("kr_title", "")).strip()
+                display_title = kr_title if kr_title else title
+
                 notifier.send(
                     fmt_news(
                         tickers=",".join(assigned),
-                        title=title,
+                        title=display_title,  # <-- 여기를 변경!
                         score=float(escore),
                         event_type=str(evt.get("event_type", "") or ""),
                         sentiment=str(evt.get("sentiment", "") or ""),
@@ -1726,7 +1730,7 @@ def main() -> None:
                             if not block_reason:
                                 block_reason = "CHASE_SOFT"
 
-                if cost_gate_enabled and plan_action in ("BUY", "SELL") and plan_qty > 0:
+                if cost_gate_enabled and plan_action == "BUY" and plan_qty > 0:
                     total_cost_bps = float(cost_fee_bps) + float(cost_spread_bps) + float(cost_slip_bps)
                     exp_edge_pct = abs(float(total)) * float(edge_per_score)
                     exp_edge_bps = exp_edge_pct * 10000.0
@@ -1889,8 +1893,11 @@ def main() -> None:
                     h = "1d"
                     bh = (s.get("by_horizon") or {}).get(h) or {}
                     msg = (
-                        f"[LABEL] +{lab.get('n_new',0)} new | {h} "
-                        f"n={bh.get('n_eval',0)} win={bh.get('win_rate',0):.2f} avg={bh.get('avg_ret',0):.4f}"
+                        f"새로 채점한 판단: {lab.get('n_new',0)}건\n"
+                        f"⏱️ 기준 시간: {h} 뒤\n"
+                        f"✅ 평가된 건수: {bh.get('n_eval',0)}건\n"
+                        f"🎯 승률: {bh.get('win_rate',0)*100:.1f}%\n"
+                        f"💰 평균 수익률: {bh.get('avg_ret',0)*100:.2f}%"
                     )
                     print(msg)
                     if auto_labeler.s.telegram_enabled:

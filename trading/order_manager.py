@@ -68,8 +68,8 @@ class OrderManager:
         fill_price: Optional[float] = None,
     ) -> PendingOrder:
         """
-        ✅ 주문 성공 직후 pending에 등록.
-        ✅ (옵션) PAPER_ASSUME_IMMEDIATE_FILL=1이면 모의에서는 즉시 FILLED 처리 + positions 반영.
+        주문 성공 직후 pending에 등록.
+        (옵션) PAPER_ASSUME_IMMEDIATE_FILL=1이면 모의에서는 즉시 FILLED 처리 + positions 반영.
         """
         order_no = None
         if isinstance(kis_response, dict):
@@ -88,7 +88,7 @@ class OrderManager:
             raw=kis_response,
         )
 
-        # ✅ 모의에서는 체결조회가 불안정할 수 있어 "즉시체결 가정" 옵션 제공
+        # 모의에서는 체결조회가 불안정할 수 있어 "즉시체결 가정" 옵션 제공
         assume_fill = _env_bool("PAPER_ASSUME_IMMEDIATE_FILL", False)
         if not assume_fill:
             return po
@@ -147,10 +147,17 @@ class OrderManager:
 
         items = None
         if isinstance(pb, dict):
+            # ✅ 방어선 1: API 통신 에러 시 동기화 스킵
+            rt_cd = pb.get("rt_cd") or pb.get("RT_CD")
+            if rt_cd is not None and str(rt_cd) != "0":
+                print(f"[POS_SYNC] API error (rt_cd={rt_cd}, msg={pb.get('msg1')}). skipping sync.")
+                return
+
             items = (
                 pb.get("output1") or pb.get("output2") or pb.get("output")
                 or pb.get("OUTPUT1") or pb.get("OUTPUT2") or pb.get("OUTPUT")
             )
+            
         if isinstance(items, dict):
             items = [items]
         if not isinstance(items, list):
@@ -173,6 +180,11 @@ class OrderManager:
                 continue
 
             broker_pos[ticker] = {"qty": float(qty), "avg_price": float(avg)}
+
+        # ✅ 방어선 2: 모의투자 서버 불안정으로 빈 잔고 리스트를 응답받았을 때, 내 주식 날리지 않기
+        if is_paper and len(items) == 0:
+            print("[POS_SYNC] Warning: API returned empty balance list. Skipping zero-out to prevent data loss.")
+            return
 
         changed = False
 
