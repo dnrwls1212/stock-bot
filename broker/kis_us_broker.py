@@ -68,8 +68,10 @@ class KisUsBroker:
                 "CANO": self.kis.cfg.account_no,
                 "ACNT_PRDT_CD": self.kis.cfg.account_prdt,
 
-                # ✅ 핵심: ORD_DT (필수 요구 케이스 대응)
+                # ✅ 핵심 수정: KIS API 에러 방지를 위해 세 가지 날짜 필드를 모두 전송
                 "ORD_DT": ord_dt,
+                "ORD_STRT_DT": ord_dt,
+                "ORD_END_DT": ord_dt,
 
                 # 전체조회
                 # 모의는 PDNO/OVRS_EXCG_CD 공란만 허용되는 케이스가 있어 공란 처리

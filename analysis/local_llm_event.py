@@ -84,6 +84,7 @@ IMPORTANT RULES:
   - "Oracle" -> "ORCL"
 - key_points must contain 2~5 concrete bullets (short).
 - why_it_moves must be a non-empty 1~2 sentence explanation. If you truly cannot explain, set impact=0 and write why_it_moves="Unclear impact / insufficient info".
+- kr_title MUST be the Korean translation of the original English title. Do not summarize, just translate it naturally into Korean.
 - Only set impact != 0 if key_points and why_it_moves justify it.
 - If uncertain, keep impact = 0 and confidence around 0.5.
 - Heuristic: litigation/investigation usually has negative sentiment unless clearly dismissed or a favorable ruling is mentioned.

@@ -7,4 +7,5 @@ SCHEMA_TEMPLATE = {
     "key_points": [],
     "trade_horizon": "swing_days",  # intraday,swing_days,swing_weeks,long_term
     "why_it_moves": "",
+    "kr_title": ""
 }
