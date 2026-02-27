@@ -1357,68 +1357,60 @@ def main() -> None:
                     if not block_reason:
                         block_reason = "MARKET_CLOSED"
                 else:
-                    ok_trade, why = can_trade(
+                    # 🚨 [순서 변경] 긴급 탈출(TP/SL)을 판단하는 compute_position_plan을 먼저 실행!
+                    plan = compute_position_plan(
                         pos=pos,
-                        now=now_kst,
-                        action=sig.action,
-                        cooldown_minutes=cooldown_minutes,
-                        max_trades_per_day=max_trades_per_day,
+                        raw_action=sig.action,
+                        strength=sig.strength,
+                        price=price_f,
+                        confirm_ticks=confirm_ticks_eff,
+                        fast_track_strength=fast_track_strength,
+                        stop_loss_1=stop_loss_1,
+                        stop_loss_2=stop_loss_2,
+                        take_profit_1=take_profit_1,
+                        stop_sell_frac=stop_sell_frac,
+                        tp_sell_frac=tp_sell_frac,
+                        base_qty=float(base_qty),
                         max_position_qty=float(max_position_qty),
+                        buy_t1=buy_t1, buy_t2=buy_t2, buy_t3=buy_t3, buy_m1=buy_m1, buy_m2=buy_m2, buy_m3=buy_m3,
+                        sell_t1=sell_t1, sell_t2=sell_t2, sell_t3=sell_t3, sell_f1=sell_f1, sell_f2=sell_f2, sell_f3=sell_f3,
                     )
-                    if not ok_trade:
+
+                    plan_action = plan.action
+                    plan_qty = _to_int_qty(plan.qty)
+                    plan_reason = f"{plan.reason} | sig={sig.reason}"
+
+                    if plan_action in ("BUY", "SELL") and plan_qty <= 0:
                         plan_action = "HOLD"
-                        plan_qty = 0
-                        plan_reason = f"risk blocked: {why} | raw={sig.action} | {sig.reason}"
+                        plan_reason = f"{plan_reason} | int_qty became 0"
                         if not block_reason:
-                            block_reason = "CAN_TRADE_BLOCK"
-                    else:
-                        plan = compute_position_plan(
+                            block_reason = "QTY_ZERO"
+
+                    # force sell: 포지션이 있을 때만
+                    if force_sell and float(pos.qty) > 0:
+                        fs_qty = int(math.floor(float(pos.qty) * force_sell_frac))
+                        if fs_qty <= 0:
+                            fs_qty = 1
+                        plan_action = "SELL"
+                        plan_qty = fs_qty
+                        plan_reason = f"FORCE_SELL({force_sell_frac:.2f}) due to news risk | {risk_reason} | {plan_reason}"
+
+                    # 🚨 [추가] 이제 매수(BUY)일 때만 거래 한도/쿨다운(can_trade)을 검사합니다.
+                    if plan_action == "BUY":
+                        ok_trade, why = can_trade(
                             pos=pos,
-                            raw_action=sig.action,
-                            strength=sig.strength,
-                            price=price_f,
-                            confirm_ticks=confirm_ticks_eff,
-                            fast_track_strength=fast_track_strength,
-                            stop_loss_1=stop_loss_1,
-                            stop_loss_2=stop_loss_2,
-                            take_profit_1=take_profit_1,
-                            stop_sell_frac=stop_sell_frac,
-                            tp_sell_frac=tp_sell_frac,
-                            base_qty=float(base_qty),
+                            now=now_kst,
+                            action=plan_action,
+                            cooldown_minutes=cooldown_minutes,
+                            max_trades_per_day=max_trades_per_day,
                             max_position_qty=float(max_position_qty),
-                            buy_t1=buy_t1,
-                            buy_t2=buy_t2,
-                            buy_t3=buy_t3,
-                            buy_m1=buy_m1,
-                            buy_m2=buy_m2,
-                            buy_m3=buy_m3,
-                            sell_t1=sell_t1,
-                            sell_t2=sell_t2,
-                            sell_t3=sell_t3,
-                            sell_f1=sell_f1,
-                            sell_f2=sell_f2,
-                            sell_f3=sell_f3,
                         )
-
-                        plan_action = plan.action
-                        plan_qty = _to_int_qty(plan.qty)
-                        plan_reason = f"{plan.reason} | sig={sig.reason}"
-
-                        if plan_action in ("BUY", "SELL") and plan_qty <= 0:
+                        if not ok_trade:
                             plan_action = "HOLD"
-                            plan_reason = f"{plan_reason} | int_qty became 0"
+                            plan_qty = 0
+                            plan_reason = f"risk blocked: {why} | {plan_reason}"
                             if not block_reason:
-                                block_reason = "QTY_ZERO"
-
-                        # force sell: 포지션이 있을 때만
-                        if force_sell and float(pos.qty) > 0:
-                            fs_qty = int(math.floor(float(pos.qty) * force_sell_frac))
-                            if fs_qty <= 0:
-                                fs_qty = 1
-                            plan_action = "SELL"
-                            plan_qty = fs_qty
-                            plan_reason = f"FORCE_SELL({force_sell_frac:.2f}) due to news risk | {risk_reason} | {plan_reason}"
-                            # force sell은 block이 아니라 override라서 block_reason은 굳이 안 넣음
+                                block_reason = "CAN_TRADE_BLOCK"
 
                 # regime size mult
                 if plan_action in ("BUY", "SELL") and plan_qty > 0:
@@ -1463,7 +1455,7 @@ def main() -> None:
                     plan_reason = f"blocked: open pending order exists for {ticker}"
 
                 # per-ticker limit
-                if plan_action in ("BUY", "SELL") and plan_qty > 0:
+                if plan_action == "BUY" and plan_qty > 0:
                     ok_lim, lim_reason = limit_store.allow(
                         ticker=ticker,
                         now_kst=now_kst,
