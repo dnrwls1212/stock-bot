@@ -222,17 +222,22 @@ class PerformanceReporter:
     @staticmethod
     def format_telegram_summary(report: Dict[str, Any], horizon: str = "1h") -> str:
         """
-        텔레그램 1~2줄 요약용
+        텔레그램 1~2줄 요약용 (한글화 패치)
         """
         bh = (report.get("by_horizon") or {}).get(horizon) or {}
         if not bh:
-            return f"[PERF] horizon={horizon} no data"
+            return f"⏱️ 평가 기준: {horizon} 뒤 (데이터 없음)"
 
-        def fmt(p: str) -> str:
+        def fmt(korean_name: str, p: str) -> str:
             s = bh.get(p) or {}
-            return f"{p}:n={s.get('n_eval',0)} win={s.get('win_rate',0):.2f} avg={s.get('avg_ret',0):.4f}"
+            n_eval = s.get('n_eval', 0)
+            win_rate = s.get('win_rate', 0.0) * 100
+            avg_ret = s.get('avg_ret', 0.0) * 100
+            return f" 🔹 {korean_name}: {n_eval}건 | 승률 {win_rate:.1f}% | 평균수익 {avg_ret:.2f}%"
 
         return (
-            f"[PERF {horizon}] "
-            + " | ".join([fmt("raw_signal"), fmt("plan"), fmt("decision")])
+            f"⏱️ 평가 기준: {horizon} (시간/일) 뒤 수익률\n"
+            f"{fmt('단순 수식', 'raw_signal')}\n"
+            f"{fmt('최종 주문', 'plan')}\n"
+            f"{fmt('AI 에이전트', 'decision')}"
         )
