@@ -205,7 +205,7 @@ class NewsStore:
         max_items: int = 200,
     ) -> Dict[str, Any]:
         """
-        뉴스 이벤트 점수를 time-decay로 합산해 news_score 반환
+        뉴스 이벤트 점수를 time-decay로 합산하여 불합리한 누적 편향을 제거한 news_score 반환
         """
         t = (ticker or "").upper().strip()
         arr = self.events.get(t, []) or []
@@ -214,7 +214,10 @@ class NewsStore:
         half_life = max(0.1, float(half_life_hours))
         lam = 0.69314718056 / half_life  # ln(2)/half_life
 
-        raw_sum = 0.0
+        decayed_sum = 0.0
+        weight_sum = 0.0
+        max_abs_score = 0.0
+        max_score_sign = 1.0
         conf_sum = 0.0
         n = 0
 
@@ -228,16 +231,34 @@ class NewsStore:
                 age_h = max(0.0, (now_kst - dt).total_seconds() / 3600.0)
 
             decay = pow(2.718281828, -lam * age_h)
-            raw_sum += float(e.event_score) * float(decay)
+            score = float(e.event_score) * decay
+
+            decayed_sum += score
+            weight_sum += decay
             conf_sum += float(e.confidence)
             n += 1
 
+            # 가장 강력했던(임팩트가 큰) 뉴스의 점수 추적
+            if abs(score) > max_abs_score:
+                max_abs_score = abs(score)
+                max_score_sign = 1.0 if score >= 0 else -1.0
+
         conf = (conf_sum / n) if n > 0 else 0.55
-        news_score = max(-2.0, min(2.0, raw_sum))
+        
+        # 🚨 [수정] 단순 합산이 아닌 "가중 평균"과 "최대 임팩트"를 조합
+        avg_score = (decayed_sum / weight_sum) if weight_sum > 0 else 0.0
+        
+        if n > 0:
+            # 특급 뉴스의 비중을 70%, 전체 평균 분위기를 30%로 반영하여 공정성 확보
+            news_score = (max_abs_score * max_score_sign * 0.7) + (avg_score * 0.3)
+        else:
+            news_score = 0.0
+
+        news_score = max(-2.0, min(2.0, news_score))
 
         return {
             "ticker": t,
-            "raw_sum": float(raw_sum),
+            "raw_sum": float(decayed_sum), # legacy 코드 호환용
             "raw_n": int(n),
             "news_score": float(news_score),
             "news_conf": float(conf),

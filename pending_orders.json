@@ -1280,7 +1280,301 @@
       },
       "filled_qty": 50.0,
       "avg_fill_price": 310.77
+    },
+    {
+      "ticker": "TEAM",
+      "side": "SELL",
+      "qty": 50.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-27T15:18:02+00:00",
+      "kis_order_no": "0000025895",
+      "client_order_id": "1772205482158-17704-68-TEAM-SELL",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40590000",
+        "msg1": "모의투자 매도주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000025895",
+          "ORD_TMD": "001802"
+        }
+      },
+      "filled_qty": 50.0,
+      "avg_fill_price": 74.785
+    },
+    {
+      "ticker": "SHOP",
+      "side": "SELL",
+      "qty": 50.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-27T15:18:56+00:00",
+      "kis_order_no": "0000025905",
+      "client_order_id": "1772205536915-17704-69-SHOP-SELL",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40590000",
+        "msg1": "모의투자 매도주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000025905",
+          "ORD_TMD": "001856"
+        }
+      },
+      "filled_qty": 50.0,
+      "avg_fill_price": 121.4515
+    },
+    {
+      "ticker": "AVGO",
+      "side": "SELL",
+      "qty": 25.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-27T15:19:22+00:00",
+      "kis_order_no": "0000025933",
+      "client_order_id": "1772205562333-17704-70-AVGO-SELL",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40590000",
+        "msg1": "모의투자 매도주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000025933",
+          "ORD_TMD": "001922"
+        }
+      },
+      "filled_qty": 25.0,
+      "avg_fill_price": 317.7701
+    },
+    {
+      "ticker": "AVGO",
+      "side": "SELL",
+      "qty": 12.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-27T15:22:35+00:00",
+      "kis_order_no": "0000025990",
+      "client_order_id": "1772205755695-17704-71-AVGO-SELL",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40590000",
+        "msg1": "모의투자 매도주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000025990",
+          "ORD_TMD": "002235"
+        }
+      },
+      "filled_qty": 12.0,
+      "avg_fill_price": 318.38
+    },
+    {
+      "ticker": "AVGO",
+      "side": "SELL",
+      "qty": 6.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-27T15:25:40+00:00",
+      "kis_order_no": "0000026044",
+      "client_order_id": "1772205940199-17704-72-AVGO-SELL",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40590000",
+        "msg1": "모의투자 매도주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000026044",
+          "ORD_TMD": "002540"
+        }
+      },
+      "filled_qty": 6.0,
+      "avg_fill_price": 318.16
+    },
+    {
+      "ticker": "MSTR",
+      "side": "SELL",
+      "qty": 25.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-27T15:25:48+00:00",
+      "kis_order_no": "0000026045",
+      "client_order_id": "1772205948390-17704-73-MSTR-SELL",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40590000",
+        "msg1": "모의투자 매도주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000026045",
+          "ORD_TMD": "002548"
+        }
+      },
+      "filled_qty": 25.0,
+      "avg_fill_price": 130.28
+    },
+    {
+      "ticker": "AVGO",
+      "side": "SELL",
+      "qty": 3.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-27T15:28:41+00:00",
+      "kis_order_no": "0000026088",
+      "client_order_id": "1772206121791-17704-74-AVGO-SELL",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40590000",
+        "msg1": "모의투자 매도주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000026088",
+          "ORD_TMD": "002841"
+        }
+      },
+      "filled_qty": 3.0,
+      "avg_fill_price": 318.475
+    },
+    {
+      "ticker": "MU",
+      "side": "SELL",
+      "qty": 75.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-27T15:47:35+00:00",
+      "kis_order_no": "0000026348",
+      "client_order_id": "1772207255889-24738-75-MU-SELL",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40590000",
+        "msg1": "모의투자 매도주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000026348",
+          "ORD_TMD": "004735"
+        }
+      },
+      "filled_qty": 75.0,
+      "avg_fill_price": 416.03
+    },
+    {
+      "ticker": "DDOG",
+      "side": "SELL",
+      "qty": 10.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-27T15:54:00+00:00",
+      "kis_order_no": "0000026438",
+      "client_order_id": "1772207640889-24738-76-DDOG-SELL",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40590000",
+        "msg1": "모의투자 매도주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000026438",
+          "ORD_TMD": "005400"
+        }
+      },
+      "filled_qty": 10.0,
+      "avg_fill_price": 111.78
+    },
+    {
+      "ticker": "DDOG",
+      "side": "SELL",
+      "qty": 40.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-27T17:10:56+00:00",
+      "kis_order_no": "0000027438",
+      "client_order_id": "1772212256470-45222-77-DDOG-SELL",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40590000",
+        "msg1": "모의투자 매도주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000027438",
+          "ORD_TMD": "021056"
+        }
+      },
+      "filled_qty": 40.0,
+      "avg_fill_price": 111.17
+    },
+    {
+      "ticker": "AVGO",
+      "side": "SELL",
+      "qty": 2.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-27T17:37:02+00:00",
+      "kis_order_no": "0000027989",
+      "client_order_id": "1772213822653-50622-78-AVGO-SELL",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40590000",
+        "msg1": "모의투자 매도주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000027989",
+          "ORD_TMD": "023702"
+        }
+      },
+      "filled_qty": 2.0,
+      "avg_fill_price": 319.16
+    },
+    {
+      "ticker": "AVGO",
+      "side": "SELL",
+      "qty": 1.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-27T17:40:19+00:00",
+      "kis_order_no": "0000028044",
+      "client_order_id": "1772214019236-50622-79-AVGO-SELL",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40590000",
+        "msg1": "모의투자 매도주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000028044",
+          "ORD_TMD": "024019"
+        }
+      },
+      "filled_qty": 1.0,
+      "avg_fill_price": 318.8493
+    },
+    {
+      "ticker": "MSTR",
+      "side": "SELL",
+      "qty": 17.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-27T17:42:46+00:00",
+      "kis_order_no": "0000028072",
+      "client_order_id": "1772214166123-50622-80-MSTR-SELL",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40590000",
+        "msg1": "모의투자 매도주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000028072",
+          "ORD_TMD": "024246"
+        }
+      },
+      "filled_qty": 17.0,
+      "avg_fill_price": 128.5
+    },
+    {
+      "ticker": "AVGO",
+      "side": "SELL",
+      "qty": 1.0,
+      "status": "FILLED",
+      "submitted_at": "2026-02-27T18:05:34+00:00",
+      "kis_order_no": "0000028367",
+      "client_order_id": "1772215534283-57349-81-AVGO-SELL",
+      "raw": {
+        "rt_cd": "0",
+        "msg_cd": "40590000",
+        "msg1": "모의투자 매도주문이 완료 되었습니다.",
+        "output": {
+          "KRX_FWDG_ORD_ORGNO": "00950",
+          "ODNO": "0000028367",
+          "ORD_TMD": "030534"
+        }
+      },
+      "filled_qty": 1.0,
+      "avg_fill_price": 317.532
     }
   ],
-  "_seq": 67
+  "_seq": 81
 }

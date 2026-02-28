@@ -1,16 +1,16 @@
 {
-  "generated_at_kst": "2026-02-27T06:59:28+09:00",
+  "generated_at_kst": "2026-02-28T03:05:44+09:00",
   "input_labeled_path": "data/decisions_labeled.jsonl",
-  "n_labeled": 4386,
+  "n_labeled": 4900,
   "horizons": [
     "1h",
     "1d"
   ],
   "by_horizon": {
     "1h": {
-      "n_eval": 49,
-      "avg_ret": -0.005912799451321101,
-      "win_rate": 0.40816326530612246
+      "n_eval": 64,
+      "avg_ret": -0.00826545836759585,
+      "win_rate": 0.390625
     },
     "1d": {
       "n_eval": 0,
@@ -69,8 +69,8 @@
     },
     "TEAM": {
       "1h": {
-        "n_eval": 3,
-        "avg_ret": -0.0022957944993552415,
+        "n_eval": 8,
+        "avg_ret": -0.025253455426126725,
         "win_rate": 0.0
       },
       "1d": {
@@ -81,9 +81,9 @@
     },
     "MSTR": {
       "1h": {
-        "n_eval": 9,
-        "avg_ret": 0.005017390883223715,
-        "win_rate": 0.6666666666666666
+        "n_eval": 13,
+        "avg_ret": 0.011630243469891303,
+        "win_rate": 0.7692307692307693
       },
       "1d": {
         "n_eval": 0,
@@ -93,9 +93,9 @@
     },
     "MU": {
       "1h": {
-        "n_eval": 12,
-        "avg_ret": -0.006836012012221893,
-        "win_rate": 0.25
+        "n_eval": 14,
+        "avg_ret": -0.009768105162530192,
+        "win_rate": 0.21428571428571427
       },
       "1d": {
         "n_eval": 0,
@@ -117,8 +117,8 @@
     },
     "COIN": {
       "1h": {
-        "n_eval": 0,
-        "avg_ret": 0.0,
+        "n_eval": 2,
+        "avg_ret": -0.032806831342165554,
         "win_rate": 0.0
       },
       "1d": {
@@ -189,9 +189,9 @@
     },
     "DOCN": {
       "1h": {
-        "n_eval": 9,
-        "avg_ret": -0.02716453823789242,
-        "win_rate": 0.1111111111111111
+        "n_eval": 10,
+        "avg_ret": -0.028852804406943634,
+        "win_rate": 0.1
       },
       "1d": {
         "n_eval": 0,
@@ -249,9 +249,57 @@
     },
     "TSLA": {
       "1h": {
-        "n_eval": 4,
-        "avg_ret": 0.006177385440782335,
+        "n_eval": 5,
+        "avg_ret": 0.007786636568919825,
         "win_rate": 1.0
+      },
+      "1d": {
+        "n_eval": 0,
+        "avg_ret": 0.0,
+        "win_rate": 0.0
+      }
+    },
+    "ZS": {
+      "1h": {
+        "n_eval": 0,
+        "avg_ret": 0.0,
+        "win_rate": 0.0
+      },
+      "1d": {
+        "n_eval": 0,
+        "avg_ret": 0.0,
+        "win_rate": 0.0
+      }
+    },
+    "SQQQ": {
+      "1h": {
+        "n_eval": 0,
+        "avg_ret": 0.0,
+        "win_rate": 0.0
+      },
+      "1d": {
+        "n_eval": 0,
+        "avg_ret": 0.0,
+        "win_rate": 0.0
+      }
+    },
+    "SOXS": {
+      "1h": {
+        "n_eval": 0,
+        "avg_ret": 0.0,
+        "win_rate": 0.0
+      },
+      "1d": {
+        "n_eval": 0,
+        "avg_ret": 0.0,
+        "win_rate": 0.0
+      }
+    },
+    "PSQ": {
+      "1h": {
+        "n_eval": 0,
+        "avg_ret": 0.0,
+        "win_rate": 0.0
       },
       "1d": {
         "n_eval": 0,

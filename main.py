@@ -924,6 +924,9 @@ def main() -> None:
     pos_sync_every_ticks = _env_int("POS_SYNC_EVERY_TICKS", 5)
     _pos_sync_tick = 0
 
+    bg_idx = 0  # 🚨 [추가] 유니버스 백그라운드 탐색용 인덱스
+    last_regime_noti_time = None
+
     try:
         while True:
             now_kst = datetime.now(ZoneInfo("Asia/Seoul"))
@@ -1001,8 +1004,30 @@ def main() -> None:
             # ==================================================
 
             # ---------- 1) RSS 뉴스 수집 ----------
+            # 🚨 [추가] 2 & 3단계: 유니버스 백그라운드 조용히 수집 (IP 차단 방지)
+            current_rss_tickers = list(WATCHLIST)
+            universe_path = _env_str("UNIVERSE_PATH", "data/universe.txt")
             try:
-                news_items = fetch_rss_news(rss_urls=rss_urls)
+                if os.path.exists(universe_path):
+                    with open(universe_path, "r", encoding="utf-8") as f:
+                        universe_all = [line.strip().upper() for line in f if line.strip()]
+                    
+                    bg_count = 0
+                    start_idx = bg_idx
+                    while bg_count < 2 and (bg_idx - start_idx) < len(universe_all):
+                        bg_t = universe_all[bg_idx % len(universe_all)]
+                        bg_idx += 1
+                        if bg_t not in current_rss_tickers:
+                            current_rss_tickers.append(bg_t)
+                            bg_count += 1
+            except Exception:
+                pass
+
+            loop_rss_urls = build_rss_urls(current_rss_tickers)
+
+            try:
+                # 🚨 rss_urls 대신 loop_rss_urls 사용
+                news_items = fetch_rss_news(limit=20, rss_urls=loop_rss_urls)
             except Exception as e:
                 notifier.send(f"[ERR] fetch_rss_news failed: {e}")
                 news_items = []
@@ -1029,18 +1054,20 @@ def main() -> None:
                     skipped_low_signal += 1
                     continue
 
-                candidates = _candidate_tickers(title, summary, WATCHLIST)
+                # 🚨 WATCHLIST 대신 current_rss_tickers 전달
+                candidates = _candidate_tickers(title, summary, current_rss_tickers)
                 if not candidates:
                     skipped_no_candidate += 1
                     continue
 
                 try:
+                    # 🚨 LLM 프롬프트에도 current_rss_tickers 전달
                     evt = analyze_news_local_ollama(
                         title=title,
                         summary=summary,
                         link=link,
                         published=published,
-                        watchlist=WATCHLIST,
+                        watchlist=current_rss_tickers,
                     )
                 except Exception:
                     llm_fail += 1
@@ -1058,7 +1085,8 @@ def main() -> None:
 
                 llm_tickers = evt.get("tickers") if isinstance(evt, dict) else None
                 if isinstance(llm_tickers, list):
-                    assigned = [t for t in llm_tickers if str(t).upper() in WATCHLIST]
+                    # 🚨 필터링에도 current_rss_tickers 사용
+                    assigned = [t for t in llm_tickers if str(t).upper() in current_rss_tickers]
                 else:
                     assigned = []
 
@@ -1067,6 +1095,9 @@ def main() -> None:
 
                 analyzed_links += 1
 
+                # =========================================================
+                # 👇 아래부터는 질문자님이 작성하신 기존 저장/알림 로직 그대로 유지됨
+                # =========================================================
                 _append_jsonl(
                     EVENT_LOG_PATH,
                     {
@@ -1085,14 +1116,13 @@ def main() -> None:
                     },
                 )
 
-                # 번역된 한국어 제목 가져오기 (없으면 영어 원문 사용)
                 kr_title = str(evt.get("kr_title", "")).strip()
                 display_title = kr_title if kr_title else title
 
                 notifier.send(
                     fmt_news(
                         tickers=",".join(assigned),
-                        title=display_title,  # <-- 여기를 변경!
+                        title=display_title,
                         score=float(escore),
                         event_type=str(evt.get("event_type", "") or ""),
                         sentiment=str(evt.get("sentiment", "") or ""),
@@ -1185,6 +1215,39 @@ def main() -> None:
                         buy_block = bool(regime_buy_block)
                 except Exception:
                     pass
+
+            # ==================================================
+            # 🚨 [수정] 15분마다 AI 시장 판단 결과 텔레그램 발송
+            # ==================================================
+            if regime is not None and market_open:
+                # 첫 실행이거나, 마지막 알림 이후 15분(900초)이 지났을 때만 발송
+                if last_regime_noti_time is None or (now_kst - last_regime_noti_time).total_seconds() >= 15 * 60:
+                    r_score = float(getattr(regime, "score", 0.0))
+                    r_label = str(getattr(regime, "label", "unknown"))
+                    
+                    # AI 분석 코멘트 가져오기 (reason 또는 analysis 속성)
+                    r_ai_text = str(getattr(regime, "reason", getattr(regime, "analysis", "분석 내용 없음")))
+                    
+                    if r_score <= float(regime_risk_off):
+                        kr_label = "📉 하락장 (Risk-Off)"
+                        inv_status = "일반 종목 매수 차단 / 인버스 매수 허용"
+                    elif r_score >= 0.1:
+                        kr_label = "📈 상승장 (Risk-On)"
+                        inv_status = "일반 종목 적극 매수"
+                    else:
+                        kr_label = "⚖️ 횡보/중립장 (Neutral)"
+                        inv_status = "기본 매매 진행"
+                        
+                    noti_msg = (
+                        f"🤖 [AI 시장 판단]\n"
+                        f"상태: {kr_label} ({r_label})\n"
+                        f"점수: {r_score:.2f}\n"
+                        f"분석: {r_ai_text}\n"
+                        f"봇 대응: {inv_status}"
+                    )
+                    notifier.send(noti_msg)
+                    last_regime_noti_time = now_kst
+            # ==================================================
 
             # ---------- 2) ticker loop ----------
             for ticker in WATCHLIST:

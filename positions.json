@@ -7,14 +7,14 @@
     "last_trade_ts": null,
     "cooldown_until_ts": null,
     "buy_streak": 0,
-    "sell_streak": 0,
-    "last_action_raw": "HOLD",
-    "last_reset_date": "2026-02-27",
+    "sell_streak": 6,
+    "last_action_raw": "SELL",
+    "last_reset_date": "2026-02-28",
     "meta": {
-      "_peak_price": 0.0,
       "_tp1_done": false,
       "_tp2_done": false,
-      "_sl1_done": false
+      "_sl1_done": false,
+      "_peak_price": 0.0
     }
   },
   "ORCL": {
@@ -43,14 +43,14 @@
     "last_trade_ts": null,
     "cooldown_until_ts": null,
     "buy_streak": 0,
-    "sell_streak": 0,
-    "last_action_raw": "HOLD",
-    "last_reset_date": "2026-02-27",
+    "sell_streak": 4,
+    "last_action_raw": "SELL",
+    "last_reset_date": "2026-02-28",
     "meta": {
-      "_tp1_done": false,
-      "_tp2_done": false,
+      "_tp1_done": true,
+      "_tp2_done": true,
       "_sl1_done": false,
-      "_peak_price": 0.0
+      "_peak_price": 319.16
     }
   },
   "AMD": {
@@ -81,7 +81,7 @@
     "buy_streak": 0,
     "sell_streak": 0,
     "last_action_raw": "HOLD",
-    "last_reset_date": "2026-02-27",
+    "last_reset_date": "2026-02-28",
     "meta": {
       "_tp1_done": false,
       "_tp2_done": false,
@@ -91,38 +91,38 @@
   },
   "MSTR": {
     "ticker": "MSTR",
-    "qty": 0.0,
-    "avg_price": 0.0,
+    "qty": 8.0,
+    "avg_price": 129.209,
     "trades_today": 0,
     "last_trade_ts": null,
     "cooldown_until_ts": null,
-    "buy_streak": 0,
+    "buy_streak": 1,
     "sell_streak": 0,
-    "last_action_raw": "HOLD",
-    "last_reset_date": "2026-02-27",
+    "last_action_raw": "BUY",
+    "last_reset_date": "2026-02-28",
     "meta": {
-      "_tp1_done": false,
+      "_tp1_done": true,
       "_tp2_done": false,
-      "_sl1_done": false,
-      "_peak_price": 0.0
+      "_sl1_done": true,
+      "_peak_price": 130.31
     }
   },
   "MU": {
     "ticker": "MU",
-    "qty": 0.0,
-    "avg_price": 0.0,
+    "qty": 425.0,
+    "avg_price": 412.648,
     "trades_today": 0,
     "last_trade_ts": null,
     "cooldown_until_ts": null,
-    "buy_streak": 0,
+    "buy_streak": 6,
     "sell_streak": 0,
-    "last_action_raw": "HOLD",
-    "last_reset_date": "2026-02-27",
+    "last_action_raw": "BUY",
+    "last_reset_date": "2026-02-28",
     "meta": {
-      "_peak_price": 0.0,
-      "_tp1_done": false,
+      "_tp1_done": true,
       "_tp2_done": false,
-      "_sl1_done": false
+      "_sl1_done": false,
+      "_peak_price": 416.03
     }
   },
   "SHOP": {
@@ -133,9 +133,9 @@
     "last_trade_ts": null,
     "cooldown_until_ts": null,
     "buy_streak": 0,
-    "sell_streak": 0,
-    "last_action_raw": "HOLD",
-    "last_reset_date": "2026-02-27",
+    "sell_streak": 6,
+    "last_action_raw": "SELL",
+    "last_reset_date": "2026-02-28",
     "meta": {
       "_tp1_done": false,
       "_tp2_done": false,
@@ -153,7 +153,7 @@
     "buy_streak": 0,
     "sell_streak": 0,
     "last_action_raw": "HOLD",
-    "last_reset_date": "2026-02-27",
+    "last_reset_date": "2026-02-28",
     "meta": {
       "_tp1_done": false,
       "_tp2_done": false,
@@ -205,9 +205,9 @@
     "last_trade_ts": null,
     "cooldown_until_ts": null,
     "buy_streak": 0,
-    "sell_streak": 0,
-    "last_action_raw": "HOLD",
-    "last_reset_date": "2026-02-27",
+    "sell_streak": 6,
+    "last_action_raw": "SELL",
+    "last_reset_date": "2026-02-28",
     "meta": {
       "_tp1_done": false,
       "_tp2_done": false,
@@ -223,9 +223,9 @@
     "last_trade_ts": null,
     "cooldown_until_ts": null,
     "buy_streak": 0,
-    "sell_streak": 0,
-    "last_action_raw": "HOLD",
-    "last_reset_date": "2026-02-27",
+    "sell_streak": 6,
+    "last_action_raw": "SELL",
+    "last_reset_date": "2026-02-28",
     "meta": {
       "_tp1_done": false,
       "_tp2_done": false,
@@ -241,9 +241,9 @@
     "last_trade_ts": null,
     "cooldown_until_ts": null,
     "buy_streak": 0,
-    "sell_streak": 0,
-    "last_action_raw": "HOLD",
-    "last_reset_date": "2026-02-27",
+    "sell_streak": 6,
+    "last_action_raw": "SELL",
+    "last_reset_date": "2026-02-28",
     "meta": {
       "_tp1_done": false,
       "_tp2_done": false,
@@ -261,12 +261,12 @@
     "buy_streak": 0,
     "sell_streak": 0,
     "last_action_raw": "HOLD",
-    "last_reset_date": "2026-02-27",
+    "last_reset_date": "2026-02-28",
     "meta": {
-      "_peak_price": 0.0,
       "_tp1_done": false,
       "_tp2_done": false,
-      "_sl1_done": false
+      "_sl1_done": false,
+      "_peak_price": 0.0
     }
   },
   "NVO": {
@@ -349,9 +349,81 @@
     "last_trade_ts": null,
     "cooldown_until_ts": null,
     "buy_streak": 0,
+    "sell_streak": 6,
+    "last_action_raw": "SELL",
+    "last_reset_date": "2026-02-28",
+    "meta": {
+      "_tp1_done": false,
+      "_tp2_done": false,
+      "_sl1_done": false,
+      "_peak_price": 0.0
+    }
+  },
+  "ZS": {
+    "ticker": "ZS",
+    "qty": 0.0,
+    "avg_price": 0.0,
+    "trades_today": 0,
+    "last_trade_ts": null,
+    "cooldown_until_ts": null,
+    "buy_streak": 6,
+    "sell_streak": 0,
+    "last_action_raw": "BUY",
+    "last_reset_date": "2026-02-28",
+    "meta": {
+      "_tp1_done": false,
+      "_tp2_done": false,
+      "_sl1_done": false,
+      "_peak_price": 0.0
+    }
+  },
+  "SQQQ": {
+    "ticker": "SQQQ",
+    "qty": 0.0,
+    "avg_price": 0.0,
+    "trades_today": 0,
+    "last_trade_ts": null,
+    "cooldown_until_ts": null,
+    "buy_streak": 6,
+    "sell_streak": 0,
+    "last_action_raw": "BUY",
+    "last_reset_date": "2026-02-28",
+    "meta": {
+      "_tp1_done": false,
+      "_tp2_done": false,
+      "_sl1_done": false,
+      "_peak_price": 0.0
+    }
+  },
+  "SOXS": {
+    "ticker": "SOXS",
+    "qty": 0.0,
+    "avg_price": 0.0,
+    "trades_today": 0,
+    "last_trade_ts": null,
+    "cooldown_until_ts": null,
+    "buy_streak": 0,
     "sell_streak": 0,
     "last_action_raw": "HOLD",
-    "last_reset_date": "2026-02-27",
+    "last_reset_date": "2026-02-28",
+    "meta": {
+      "_tp1_done": false,
+      "_tp2_done": false,
+      "_sl1_done": false,
+      "_peak_price": 0.0
+    }
+  },
+  "PSQ": {
+    "ticker": "PSQ",
+    "qty": 0.0,
+    "avg_price": 0.0,
+    "trades_today": 0,
+    "last_trade_ts": null,
+    "cooldown_until_ts": null,
+    "buy_streak": 6,
+    "sell_streak": 0,
+    "last_action_raw": "BUY",
+    "last_reset_date": "2026-02-28",
     "meta": {
       "_tp1_done": false,
       "_tp2_done": false,

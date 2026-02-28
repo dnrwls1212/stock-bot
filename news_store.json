@@ -1958,6 +1958,36 @@
   "DDOG": [
     {
       "ticker": "DDOG",
+      "ts_kst": "2026-02-27T23:50:10+09:00",
+      "published": "Fri, 27 Feb 2026 11:17:35 +0000",
+      "title": "Datadog Sakana AI Partnership Targets Enterprise AI Workloads And Investor Expectations",
+      "summary": "Datadog (NasdaqGS:DDOG) has announced a partnership with Sakana AI to support enterprise AI adoption and product development. The collaboration focuses on joint research, product work, and go to market efforts, initially aimed at large Japanese enterprises with plans to expand globally. The partnership is designed to connect cutting edge AI work with production ready observability and monitoring capabilities. Datadog enters this agreement with Sakana AI as an established observability...",
+      "link": "https://finance.yahoo.com/news/datadog-sakana-ai-partnership-targets-111735678.html?.tsrc=rss",
+      "event_score": 0.0,
+      "confidence": 0.5,
+      "event_type": "other",
+      "sentiment": "neutral",
+      "impact": 0,
+      "why_it_moves": "Unclear impact / insufficient info",
+      "raw": {
+        "tickers": [
+          "DDOG"
+        ],
+        "event_type": "other",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [
+          "Datadog partners with Sakana AI to support enterprise AI adoption.",
+          "Focus on joint research, product development, and go-to-market efforts."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Unclear impact / insufficient info",
+        "kr_title": "다타도그, 사카나 AI와 엔터프라이즈 AI 채택을 위한 파트너십 체결"
+      }
+    },
+    {
+      "ticker": "DDOG",
       "ts_kst": "2026-02-27T01:28:44+09:00",
       "published": "Thu, 26 Feb 2026 16:09:45 +0000",
       "title": "Is Datadog’s (DDOG) Sakana AI Tie-Up Quietly Redefining Its Enterprise AI Moat?",
@@ -2074,6 +2104,31 @@
     }
   ],
   "TEAM": [
+    {
+      "ticker": "TEAM",
+      "ts_kst": "2026-02-27T23:50:10+09:00",
+      "published": "Wed, 30 Jul 2025 14:41:00 +0000",
+      "title": "BetaPro by Global X Investments Canada Inc. Opens the Market",
+      "summary": "Toronto, Ontario--(Newsfile Corp. - July 30, 2025) - Chris McHaney, Executive Vice President, Head of Investment Management and Strategy, Global X Investments Canada Inc. (\"Global X\"), and his team, joined Graham MacKenzie, Managing Director, Exchange Traded Products, Toronto Stock Exchange (TSX), to open the market to celebrate the upcoming launch of their new BetaPro ETFs on August 7, 2025:BetaPro 3X S&amp;P 500 Daily Leveraged Bull Alternative ETF - TSPX BetaPro -3X S&amp;P 500 Daily ...",
+      "link": "https://finance.yahoo.com/news/betapro-global-x-investments-canada-144100123.html?.tsrc=rss",
+      "event_score": 0.0,
+      "confidence": 0.5,
+      "event_type": "other",
+      "sentiment": "neutral",
+      "impact": 0,
+      "why_it_moves": "",
+      "raw": {
+        "tickers": [],
+        "event_type": "other",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "",
+        "kr_title": "글로벌 X 투자신탁 캐나다 본사가 시장 개막"
+      }
+    },
     {
       "ticker": "TEAM",
       "ts_kst": "2026-02-27T06:11:26+09:00",
@@ -2365,6 +2420,486 @@
     }
   ],
   "NVDA": [
+    {
+      "ticker": "NVDA",
+      "ts_kst": "2026-02-28T02:33:54+09:00",
+      "published": "Fri, 27 Feb 2026 17:28:01 +0000",
+      "title": "Nvidia Stock Is Sliding Again -- AI Spending Concerns Persist",
+      "summary": "AI Hype Hits Wall Street: Nvidia Stock Pulls Back Despite Revenue Beat",
+      "link": "https://finance.yahoo.com/news/nvidia-stock-sliding-again-ai-172801153.html?.tsrc=rss",
+      "event_score": 0.0,
+      "confidence": 0.7,
+      "event_type": "other",
+      "sentiment": "bearish",
+      "impact": -1,
+      "why_it_moves": "Market sentiment remains bearish due to ongoing AI spending concerns, despite positive financial results.",
+      "raw": {
+        "tickers": [
+          "NVDA"
+        ],
+        "event_type": "other",
+        "sentiment": "bearish",
+        "impact": -1,
+        "confidence": 0.7,
+        "key_points": [
+          "Nvidia stock is declining despite a revenue beat.",
+          "AI spending concerns persist in the market."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Market sentiment remains bearish due to ongoing AI spending concerns, despite positive financial results.",
+        "kr_title": "나VIDIA 주식은 다시 하락세 -- AI 투자 우려가 지속됩니다"
+      }
+    },
+    {
+      "ticker": "NVDA",
+      "ts_kst": "2026-02-28T01:52:30+09:00",
+      "published": "Fri, 27 Feb 2026 16:37:41 +0000",
+      "title": "OpenAI Raises $110 Billion From Amazon, Nvidia, SoftBank. OpenAI And AWS Expand Partnership.",
+      "summary": "Amazon stock climbed after the company announced it will invest $50 billion into ChatGPT creator OpenAI.",
+      "link": "https://finance.yahoo.com/m/f0ef4d92-2b73-3ec0-b2ee-8939976ef9f0/openai-raises-%24110-billion.html?.tsrc=rss",
+      "event_score": 0.8,
+      "confidence": 0.8,
+      "event_type": "financing_offering",
+      "sentiment": "bullish",
+      "impact": 1,
+      "why_it_moves": "Significant investment from major tech players likely boosts Amazon's valuation and market confidence.",
+      "raw": {
+        "tickers": [
+          "AMZN",
+          "NVDA"
+        ],
+        "event_type": "financing_offering",
+        "sentiment": "bullish",
+        "impact": 1,
+        "confidence": 0.8,
+        "key_points": [
+          "Amazon invests $50 billion in OpenAI.",
+          "Nvidia is also involved in the investment."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Significant investment from major tech players likely boosts Amazon's valuation and market confidence.",
+        "kr_title": "오라클이 110조원을 투자한 오픈아이, 아마존 주가 상승"
+      }
+    },
+    {
+      "ticker": "NVDA",
+      "ts_kst": "2026-02-28T01:17:49+09:00",
+      "published": "Fri, 27 Feb 2026 16:04:56 +0000",
+      "title": "Stock Market Can't Hold Key Levels Amid AI Concerns; Nvidia Tumbles Despite Strong Earnings: Weekly Review",
+      "summary": "The stock market ultimately fell for the week, with all the major indexes below their 50-day lines. Nvidia tumbled despite strong earnings.",
+      "link": "https://finance.yahoo.com/m/f1399b64-6562-3261-9059-663ac21260a6/stock-market-can%27t-hold-key.html?.tsrc=rss",
+      "event_score": -1.6,
+      "confidence": 0.8,
+      "event_type": "earnings",
+      "sentiment": "bearish",
+      "impact": -1,
+      "why_it_moves": "Nvidia's performance was negatively impacted by overall market concerns, overshadowing its strong earnings report.",
+      "raw": {
+        "tickers": [
+          "NVDA"
+        ],
+        "event_type": "earnings",
+        "sentiment": "bearish",
+        "impact": -1,
+        "confidence": 0.8,
+        "key_points": [
+          "Nvidia's stock fell despite strong earnings.",
+          "The broader market experienced a decline for the week."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Nvidia's performance was negatively impacted by overall market concerns, overshadowing its strong earnings report.",
+        "kr_title": "주식 시장은 AI 우려 속 주요 수준을 지키지 못했으며, Nvidia는 강한 실적에도 불구하고 급락했습니다."
+      }
+    },
+    {
+      "ticker": "NVDA",
+      "ts_kst": "2026-02-28T01:04:34+09:00",
+      "published": "Fri, 27 Feb 2026 15:38:13 +0000",
+      "title": "Stocks to Watch Friday: Nvidia, Dell, Duolingo, Compass",
+      "summary": "↗️ Dell (DELL): The technology company reported a 39% leap in quarterly sales, boosted by its artificial-intelligence server business. Shares surged 18% Friday morning. ↘️ Duolingo (DUOL): The educational technology company said it expects a slowdown in bookings and revenue growth this year, as well as lower profitability.",
+      "link": "https://finance.yahoo.com/m/34e4596a-8cf7-32f8-b757-3a2b0b6fa65f/stocks-to-watch-friday%3A.html?.tsrc=rss",
+      "event_score": -1.4,
+      "confidence": 0.7,
+      "event_type": "earnings",
+      "sentiment": "bearish",
+      "impact": -1,
+      "why_it_moves": "Dell's strong earnings boosted its stock, while Duolingo's guidance on slowing growth led to concerns among investors.",
+      "raw": {
+        "tickers": [
+          "DELL",
+          "DUOL"
+        ],
+        "event_type": "earnings",
+        "sentiment": "bearish",
+        "impact": -1,
+        "confidence": 0.7,
+        "key_points": [
+          "Dell reported a significant increase in quarterly sales due to AI server business.",
+          "Duolingo expects a slowdown in bookings and revenue growth, impacting profitability."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Dell's strong earnings boosted its stock, while Duolingo's guidance on slowing growth led to concerns among investors.",
+        "kr_title": "금요일 주목해야 할 주식: 델, 듀올링고"
+      }
+    },
+    {
+      "ticker": "NVDA",
+      "ts_kst": "2026-02-28T00:52:41+09:00",
+      "published": "Fri, 27 Feb 2026 15:45:06 +0000",
+      "title": "Nvidia's blowout results and Salesforce's Agentforce progress signal the AI software selloff has gone too far, says Wedbush",
+      "summary": "Jensen Huang's $78 billion April guidance number and Marc Benioff's AI monetisation roadmap have given tech bulls their first clean arguments against the doomsday narrative that has hammered software stocks all year It has been a rough start to 2026 for tech investors. A creeping fear that AI...",
+      "link": "https://www.proactiveinvestors.com/companies/news/1088065/nvidia-s-blowout-results-and-salesforce-s-agentforce-progress-signal-the-ai-software-selloff-has-gone-too-far-says-wedbush-1088065.html?.tsrc=rss",
+      "event_score": 1.4,
+      "confidence": 0.7,
+      "event_type": "earnings",
+      "sentiment": "bullish",
+      "impact": 1,
+      "why_it_moves": "Strong earnings from Nvidia and Salesforce's AI progress are providing positive momentum to the tech sector, reversing recent sell-off trends.",
+      "raw": {
+        "tickers": [
+          "NVDA",
+          "CRM"
+        ],
+        "event_type": "earnings",
+        "sentiment": "bullish",
+        "impact": 1,
+        "confidence": 0.7,
+        "key_points": [
+          "Nvidia's strong earnings boost tech sector confidence.",
+          "Salesforce's AI progress supports broader tech optimism."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Strong earnings from Nvidia and Salesforce's AI progress are providing positive momentum to the tech sector, reversing recent sell-off trends.",
+        "kr_title": "NVDA와 CRM의 강한 실적, AI 소프트웨어 시장 판도 재편"
+      }
+    },
+    {
+      "ticker": "NVDA",
+      "ts_kst": "2026-02-28T00:43:33+09:00",
+      "published": "Fri, 27 Feb 2026 15:13:55 +0000",
+      "title": "Meta’s Multi Vendor AI Chip Push And What It Means For Valuation",
+      "summary": "Meta Platforms (NasdaqGS:META) has agreed multi billion dollar AI chip deals with AMD and Alphabet's Google, expanding its data center hardware pipeline beyond Nvidia. The AMD agreement includes more than $100b in GPU commitments tied to a 6 gigawatt build out of AI capacity, plus a performance based warrant for an equity stake in AMD. A separate multi billion dollar deal gives Meta access to Google's advanced TPU systems through cloud rentals, adding another major source of AI compute. At...",
+      "link": "https://finance.yahoo.com/news/meta-multi-vendor-ai-chip-151355406.html?.tsrc=rss",
+      "event_score": 0.1,
+      "confidence": 0.5,
+      "event_type": "contract_partnership",
+      "sentiment": "neutral",
+      "impact": 0,
+      "why_it_moves": "Impact on Meta's hardware strategy and diversification is unclear, hence neutral sentiment.",
+      "raw": {
+        "tickers": [
+          "META",
+          "AMD"
+        ],
+        "event_type": "contract_partnership",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [
+          "Meta Platforms has secured multi-billion dollar AI chip deals with AMD and Google.",
+          "The agreements expand Meta's data center hardware pipeline beyond Nvidia."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Impact on Meta's hardware strategy and diversification is unclear, hence neutral sentiment.",
+        "kr_title": "메타, 다중 제조사 AI 칩 계약과 이를 둘러싼 가치 평가"
+      }
+    },
+    {
+      "ticker": "NVDA",
+      "ts_kst": "2026-02-28T00:43:33+09:00",
+      "published": "Fri, 27 Feb 2026 15:28:00 +0000",
+      "title": "This Mind-Boggling Figure From Nvidia Captures Why Its Staggering Growth Should Persist This Year",
+      "summary": "Nvidia's massive revenue outlook shows the AI build-out is still booming.",
+      "link": "https://www.fool.com/investing/2026/02/27/this-mind-boggling-figure-from-nvidia-captures-why/?.tsrc=rss",
+      "event_score": 1.6,
+      "confidence": 0.8,
+      "event_type": "guidance",
+      "sentiment": "bullish",
+      "impact": 2,
+      "why_it_moves": "Nvidia's robust guidance on AI growth indicates sustained demand and profitability, boosting investor confidence.",
+      "raw": {
+        "tickers": [
+          "NVDA"
+        ],
+        "event_type": "guidance",
+        "sentiment": "bullish",
+        "impact": 2,
+        "confidence": 0.8,
+        "key_points": [
+          "Nvidia provided a strong revenue outlook for the year.",
+          "The AI build-out is expected to continue driving growth."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Nvidia's robust guidance on AI growth indicates sustained demand and profitability, boosting investor confidence.",
+        "kr_title": "NVIDIA의 이 놀라운 수치는 올해 엄청난 성장이 지속될 이유를 설명합니다."
+      }
+    },
+    {
+      "ticker": "NVDA",
+      "ts_kst": "2026-02-28T00:43:33+09:00",
+      "published": "Fri, 27 Feb 2026 15:31:53 +0000",
+      "title": "Stock Market Today: Dow Drops 700 Points On Inflation Data; Nvidia Partner CoreWeave Plunges (Live Coverage)",
+      "summary": "Stock Market Today: The Dow Jones index dropped Friday on surprise inflation data. Nvidia partner CoreWeave plunged on earnings.",
+      "link": "https://finance.yahoo.com/m/6321d290-afe8-3442-b334-34bd0776a36f/stock-market-today%3A-dow-drops.html?.tsrc=rss",
+      "event_score": -1.6,
+      "confidence": 0.8,
+      "event_type": "earnings",
+      "sentiment": "bearish",
+      "impact": -2,
+      "why_it_moves": "CoreWeave's earnings disappointment led to a sharp decline, impacting Nvidia's sentiment negatively.",
+      "raw": {
+        "tickers": [
+          "NVDA"
+        ],
+        "event_type": "earnings",
+        "sentiment": "bearish",
+        "impact": -2,
+        "confidence": 0.8,
+        "key_points": [
+          "Nvidia partner CoreWeave experienced a significant drop in stock price.",
+          "The Dow Jones index fell by 700 points due to unexpected inflation data."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "CoreWeave's earnings disappointment led to a sharp decline, impacting Nvidia's sentiment negatively.",
+        "kr_title": "투자자 소식: 도우지수 700포인트 하락, 인플레이션 데이터에 따른 반응; 넥서스 파트너 코어웨이프 주가 폭락 (실시간 보도)"
+      }
+    },
+    {
+      "ticker": "NVDA",
+      "ts_kst": "2026-02-28T00:11:32+09:00",
+      "published": "Fri, 27 Feb 2026 14:16:52 +0000",
+      "title": "2-27-2026: Olympic Highs, Tariffs Resurface + Nvidia Earnings",
+      "summary": "Eric Criscuolo, NYSE Market Strategist, covers a week where AI‑driven disruption fears and new tariff moves sparked volatility across tech and financials. Markets steadied after Monday’s drop, with software rebounding and the S&amp;P holding its 250‑point range. Nvidia delivered strong results but still slipped, underscoring shifting momentum between hardware and software. Defensive sectors led as crude softened, crypto wavered, and Treasury yields dipped. With major earnings, labor data, and global indicators ahead, markets enter March navigating tight ranges and persistent AI uncertainty.",
+      "link": "https://finance.yahoo.com/video/2-27-2026-olympic-highs-141652498.html?.tsrc=rss",
+      "event_score": 0.2,
+      "confidence": 0.5,
+      "event_type": "earnings",
+      "sentiment": "neutral",
+      "impact": 1,
+      "why_it_moves": "Nvidia's earnings report showed strong performance, but the market reaction was mixed, indicating a shift in investor sentiment towards hardware versus software.",
+      "raw": {
+        "tickers": [
+          "NVDA"
+        ],
+        "event_type": "earnings",
+        "sentiment": "neutral",
+        "impact": 1,
+        "confidence": 0.5,
+        "key_points": [
+          "Nvidia delivered strong results but still slipped.",
+          "Shifting momentum between hardware and software is noted."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Nvidia's earnings report showed strong performance, but the market reaction was mixed, indicating a shift in investor sentiment towards hardware versus software.",
+        "kr_title": "2026년 2월 27일: 올림픽 고점, 관세 재등장 + 나이키아 이익 발표"
+      }
+    },
+    {
+      "ticker": "NVDA",
+      "ts_kst": "2026-02-28T00:08:15+09:00",
+      "published": "Fri, 27 Feb 2026 14:45:55 +0000",
+      "title": "Nvidia Looks Like a Value Stock Even as Earnings Scream Growth",
+      "summary": "It added to the selloff with a 2% drop on Friday.  The two-day drop has erased about $360 billion off its market capitalization.  The stock is priced at less than 22 times forward earnings, well below its five-year average of 37 and basically even with the S&amp;P 500’s multiple.",
+      "link": "https://finance.yahoo.com/news/nvidia-looks-value-stock-even-102343281.html?.tsrc=rss",
+      "event_score": 0.2,
+      "confidence": 0.5,
+      "event_type": "earnings",
+      "sentiment": "neutral",
+      "impact": 0,
+      "why_it_moves": "Earnings report led to a selloff, but valuation metrics suggest the stock may be undervalued.",
+      "raw": {
+        "tickers": [
+          "NVDA"
+        ],
+        "event_type": "earnings",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [
+          "Nvidia's stock price dropped by 2% on Friday.",
+          "The two-day drop has resulted in a loss of about $360 billion in market capitalization."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Earnings report led to a selloff, but valuation metrics suggest the stock may be undervalued.",
+        "kr_title": "나비디가 수익성 성장에도 불구하고 가치주로 보입니다"
+      }
+    },
+    {
+      "ticker": "NVDA",
+      "ts_kst": "2026-02-28T00:08:15+09:00",
+      "published": "Fri, 27 Feb 2026 14:59:25 +0000",
+      "title": "OpenAI's $110 billion funding round draws investment from Amazon, Nvidia, SoftBank",
+      "summary": "OpenAI said on Friday it is raising $110 billion in a blockbuster funding round that would value the ChatGPT ‌maker at $840 billion, in a deal that signals the feverish ‌pace of investment in artificial intelligence.  The funding round includes a $30 billion investment from SoftBank, $30 billion ​from Nvidia, and $50 billion from Amazon, and comes ahead of the AI startup's expected mega-IPO later this year.  Big Tech companies and large tech investors such as SoftBank are racing to forge partnerships with OpenAI - which is spending heavily ‌on data centers - betting ⁠that closer ties with the company would give them a competitive edge in the AI race.",
+      "link": "https://finance.yahoo.com/news/openais-110-billion-funding-round-145925079.html?.tsrc=rss",
+      "event_score": 0.0,
+      "confidence": 0.5,
+      "event_type": "other",
+      "sentiment": "neutral",
+      "impact": 0,
+      "why_it_moves": "Unclear impact / insufficient info",
+      "raw": {
+        "tickers": [
+          "NVDA"
+        ],
+        "event_type": "other",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Unclear impact / insufficient info",
+        "kr_title": "오픈아이의 1100억 달러 펀딩 라운드, zon과 넥사다가 투자 참여"
+      }
+    },
+    {
+      "ticker": "NVDA",
+      "ts_kst": "2026-02-27T23:59:51+09:00",
+      "published": "Fri, 27 Feb 2026 14:50:00 +0000",
+      "title": "Why Rare Earth Magnets Are the Real Battlefield Between the U.S. and China",
+      "summary": "The struggle for geopolitical supremacy is rapidly becoming a struggle over one critical resource - rare earth magnets. They will determine whether the United States can build military equipment at scale, whether weapons can be replaced as fast as they are used, and whether industry can keep pace with demand across an economy measured in the tens of trillions of dollars. Companies mentioned in this release include: REalloys Inc. (ALOY), Microsoft (NASDAQ: MSFT), NVIDIA (NASDAQ: NVDA), Alphabet (",
+      "link": "https://finance.yahoo.com/news/why-rare-earth-magnets-real-145000035.html?.tsrc=rss",
+      "event_score": 0.0,
+      "confidence": 0.5,
+      "event_type": "other",
+      "sentiment": "neutral",
+      "impact": 0,
+      "why_it_moves": "Unclear impact / insufficient info",
+      "raw": {
+        "tickers": [
+          "NVDA"
+        ],
+        "event_type": "other",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Unclear impact / insufficient info",
+        "kr_title": "희귀지구물질, 미국과 중국 간 진정한 전장이 될까"
+      }
+    },
+    {
+      "ticker": "NVDA",
+      "ts_kst": "2026-02-27T23:50:10+09:00",
+      "published": "Fri, 27 Feb 2026 08:54:00 +0000",
+      "title": "Bitcoin, Ethereum, XRP Fall as Cryptos Unwind Gains. Blame Nvidia.",
+      "summary": "The price of major cryptocurrencies fell as tech stocks suffered a leg-down following Nvidia earnings report.",
+      "link": "https://finance.yahoo.com/m/dd0bde40-6634-3c7a-8029-8ac14d3b7590/bitcoin%2C-ethereum%2C-xrp-fall.html?.tsrc=rss",
+      "event_score": -1.6,
+      "confidence": 0.8,
+      "event_type": "earnings",
+      "sentiment": "bearish",
+      "impact": -1,
+      "why_it_moves": "Nvidia's earnings report negatively impacted investor sentiment towards the tech sector, leading to a sell-off in cryptocurrencies and other tech stocks.",
+      "raw": {
+        "tickers": [
+          "NVDA"
+        ],
+        "event_type": "earnings",
+        "sentiment": "bearish",
+        "impact": -1,
+        "confidence": 0.8,
+        "key_points": [
+          "Nvidia's earnings report led to a decline in major cryptocurrencies and tech stocks.",
+          "The crypto market unwound gains due to broader market sentiment."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Nvidia's earnings report negatively impacted investor sentiment towards the tech sector, leading to a sell-off in cryptocurrencies and other tech stocks.",
+        "kr_title": "비트코인, 이더리움, XRP가 하락하며 암호화폐 시장은 수익 보고서 이후 기술주들에 따른 조정을 겪습니다."
+      }
+    },
+    {
+      "ticker": "NVDA",
+      "ts_kst": "2026-02-27T23:50:10+09:00",
+      "published": "Fri, 27 Feb 2026 13:30:00 +0000",
+      "title": "Duos Technologies Group, Inc. Signs ~$200M LOI and Appoints Doug Recker as CEO",
+      "summary": "3-Year NVIDIA GPU hosting LOI delivers $40M+ annual EBITDA 10MW site secured to accelerate expansion of distributed AI infrastructure in 2026 JACKSONVILLE, Fla., Feb. 27, 2026 (GLOBE NEWSWIRE) -- Duos Technologies Group, Inc. (“Duos” or the “Company”) (Nasdaq: DUOT) has signed a non-binding letter of intent (“LOI”) with Hydra Host to deploy a high-density NVIDIA GPU cluster for a leading global technology customer. The project supports an underlying GPU-as-a-Service (“GPUaas”) partnership that i",
+      "link": "https://finance.yahoo.com/news/duos-technologies-group-inc-signs-133000888.html?.tsrc=rss",
+      "event_score": 0.8,
+      "confidence": 0.8,
+      "event_type": "contract_partnership",
+      "sentiment": "bullish",
+      "impact": 1,
+      "why_it_moves": "The partnership with Hydra Host and NVIDIA is expected to significantly boost Duos' revenue through a high-density GPU cluster deployment, driving positive sentiment.",
+      "raw": {
+        "tickers": [
+          "DUOT",
+          "NVDA"
+        ],
+        "event_type": "contract_partnership",
+        "sentiment": "bullish",
+        "impact": 1,
+        "confidence": 0.8,
+        "key_points": [
+          "Duos Technologies Group, Inc. signed a non-binding letter of intent with Hydra Host to deploy a high-density NVIDIA GPU cluster.",
+          "The project supports an underlying GPU-as-a-Service partnership that is expected to deliver $40M+ annual EBITDA."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "The partnership with Hydra Host and NVIDIA is expected to significantly boost Duos' revenue through a high-density GPU cluster deployment, driving positive sentiment.",
+        "kr_title": "두오스 기술 그룹, 인피니디와 높은 밀도의 NVIDIA GPU 클러스터 배치 계약 체결"
+      }
+    },
+    {
+      "ticker": "NVDA",
+      "ts_kst": "2026-02-27T23:50:10+09:00",
+      "published": "Fri, 27 Feb 2026 13:35:10 +0000",
+      "title": "OpenAI's $110 billion funding round draws investment from Amazon, Nvidia, SoftBank",
+      "summary": "OpenAI said on Friday it is raising $110 billion in a blockbuster funding round that would value the ChatGPT ‌maker at $840 billion, in a deal that signals the feverish ‌pace of investment in artificial intelligence.  The funding round includes a $30 billion investment from SoftBank, $30 billion ​from Nvidia, and $50 billion from Amazon, and comes ahead of the AI startup's expected mega-IPO later this year.  Big Tech companies and large tech investors such as SoftBank are racing to forge partnerships with OpenAI - which is spending heavily ‌on data centers - betting ⁠that closer ties with the company would give them a competitive edge in the AI race.",
+      "link": "https://finance.yahoo.com/news/amazon-invest-50-billion-openai-133510892.html?.tsrc=rss",
+      "event_score": 0.0,
+      "confidence": 0.5,
+      "event_type": "other",
+      "sentiment": "neutral",
+      "impact": 0,
+      "why_it_moves": "Investment from major tech players could impact their respective positions in the AI market, though the direct financial impact on OpenAI is not yet clear.",
+      "raw": {
+        "tickers": [
+          "NVDA",
+          "AMZN"
+        ],
+        "event_type": "other",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [
+          "Nvidia and Amazon are major investors in OpenAI's $110 billion funding round.",
+          "The investment signals increased interest from Big Tech companies in AI."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Investment from major tech players could impact their respective positions in the AI market, though the direct financial impact on OpenAI is not yet clear.",
+        "kr_title": "OpenAI의 1100억 달러 펀딩 라운드, 아마존과 넥사스가 참여"
+      }
+    },
+    {
+      "ticker": "NVDA",
+      "ts_kst": "2026-02-27T23:50:10+09:00",
+      "published": "Fri, 27 Feb 2026 14:11:38 +0000",
+      "title": "Stock Market Today: Dow Slides On Surprise Inflation Data; Nvidia Partner CoreWeave Plunges (Live Coverage)",
+      "summary": "Stock Market Today: The Dow Jones index dropped Friday on surprise inflation data. Nvidia partner CoreWeave plunged on earnings.",
+      "link": "https://finance.yahoo.com/m/6321d290-afe8-3442-b334-34bd0776a36f/stock-market-today%3A-dow.html?.tsrc=rss",
+      "event_score": -1.6,
+      "confidence": 0.8,
+      "event_type": "earnings",
+      "sentiment": "bearish",
+      "impact": -1,
+      "why_it_moves": "CoreWeave's earnings disappointment led to a sharp decline, impacting Nvidia's sentiment negatively.",
+      "raw": {
+        "tickers": [
+          "NVDA"
+        ],
+        "event_type": "earnings",
+        "sentiment": "bearish",
+        "impact": -1,
+        "confidence": 0.8,
+        "key_points": [
+          "Nvidia partner CoreWeave experienced a significant drop in stock price.",
+          "The Dow Jones index fell due to unexpected inflation data."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "CoreWeave's earnings disappointment led to a sharp decline, impacting Nvidia's sentiment negatively.",
+        "kr_title": "주식 시장 오늘: 놀라운 인플레이션 데이터로 다우지오 하락; 네바다 파트너 코어웨이프 폭락 (실시간 cobertura)"
+      }
+    },
     {
       "ticker": "NVDA",
       "ts_kst": "2026-02-27T07:07:09+09:00",
@@ -5886,6 +6421,96 @@
   "MU": [
     {
       "ticker": "MU",
+      "ts_kst": "2026-02-28T02:12:24+09:00",
+      "published": "Fri, 27 Feb 2026 17:03:00 +0000",
+      "title": "AMD stock surges after Meta agrees to giant $100B AI chip deal",
+      "summary": "Advanced Micro Devices (AMD) just carved itself a real seat at the table in artificial intelligence. Shares jumped more than 9% before the February 24th market open after Meta Platforms agreed to source massive volumes of AI chips from the chipmaker in a multi-year deal. For investors, this was not ...",
+      "link": "https://www.thestreet.com/investing/stocks/amd-stock-surges-after-meta-agrees-to-giant-100b-ai-chip-deal?.tsrc=rss",
+      "event_score": 0.8,
+      "confidence": 0.8,
+      "event_type": "contract_partnership",
+      "sentiment": "bullish",
+      "impact": 2,
+      "why_it_moves": "Significant contract with Meta Platforms is expected to boost AMD's revenue and market position in AI chip market.",
+      "raw": {
+        "tickers": [
+          "AMD"
+        ],
+        "event_type": "contract_partnership",
+        "sentiment": "bullish",
+        "impact": 2,
+        "confidence": 0.8,
+        "key_points": [
+          "Meta Platforms agreed to source massive volumes of AI chips from AMD in a multi-year deal.",
+          "AMD's shares jumped more than 9% before the market open."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Significant contract with Meta Platforms is expected to boost AMD's revenue and market position in AI chip market.",
+        "kr_title": "AMD 주식이 메타와 대규모 AI 반도체 계약으로 급등"
+      }
+    },
+    {
+      "ticker": "MU",
+      "ts_kst": "2026-02-28T00:43:33+09:00",
+      "published": "Fri, 27 Feb 2026 15:13:55 +0000",
+      "title": "Meta’s Multi Vendor AI Chip Push And What It Means For Valuation",
+      "summary": "Meta Platforms (NasdaqGS:META) has agreed multi billion dollar AI chip deals with AMD and Alphabet's Google, expanding its data center hardware pipeline beyond Nvidia. The AMD agreement includes more than $100b in GPU commitments tied to a 6 gigawatt build out of AI capacity, plus a performance based warrant for an equity stake in AMD. A separate multi billion dollar deal gives Meta access to Google's advanced TPU systems through cloud rentals, adding another major source of AI compute. At...",
+      "link": "https://finance.yahoo.com/news/meta-multi-vendor-ai-chip-151355406.html?.tsrc=rss",
+      "event_score": 0.1,
+      "confidence": 0.5,
+      "event_type": "contract_partnership",
+      "sentiment": "neutral",
+      "impact": 0,
+      "why_it_moves": "Impact on Meta's hardware strategy and diversification is unclear, hence neutral sentiment.",
+      "raw": {
+        "tickers": [
+          "META",
+          "AMD"
+        ],
+        "event_type": "contract_partnership",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [
+          "Meta Platforms has secured multi-billion dollar AI chip deals with AMD and Google.",
+          "The agreements expand Meta's data center hardware pipeline beyond Nvidia."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Impact on Meta's hardware strategy and diversification is unclear, hence neutral sentiment.",
+        "kr_title": "메타, 다중 제조사 AI 칩 계약과 이를 둘러싼 가치 평가"
+      }
+    },
+    {
+      "ticker": "MU",
+      "ts_kst": "2026-02-27T23:50:10+09:00",
+      "published": "Fri, 27 Feb 2026 11:27:23 +0000",
+      "title": "These 2 Beaten-Down Stocks Could Stage a Comeback, Says Oppenheimer",
+      "summary": "So much is going on, it’s hard to know where to start. There are always doomsayers, but recent economic data can’t be pleasing them. Q4 earnings are better than predicted, and with some 85% of the S&amp;P-listed companies having reported, we can see that revenues are up almost 9% and earnings are up more than 12%. Quarterly GDP growth has slowed, but remains sound at 1.4%. Analysts expect a bump when the Q1 numbers come in and the effects of the understated Federal Government shutdown finish ripplin",
+      "link": "https://finance.yahoo.com/news/2-beaten-down-stocks-could-112723218.html?.tsrc=rss",
+      "event_score": 0.0,
+      "confidence": 0.5,
+      "event_type": "other",
+      "sentiment": "neutral",
+      "impact": 0,
+      "why_it_moves": "Economic data and Q4 earnings reports are positive, but the overall market sentiment remains neutral.",
+      "raw": {
+        "tickers": [],
+        "event_type": "other",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [
+          "Q4 earnings better than predicted",
+          "Revenues up almost 9%, earnings up more than 12%",
+          "Quarterly GDP growth at 1.4%"
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Economic data and Q4 earnings reports are positive, but the overall market sentiment remains neutral.",
+        "kr_title": "두 부진한 주식이 회복될 수 있다는 오페네heimer의 예측"
+      }
+    },
+    {
+      "ticker": "MU",
       "ts_kst": "2026-02-27T00:49:42+09:00",
       "published": "Thu, 26 Feb 2026 15:11:00 +0000",
       "title": "J.M. Smucker Stock Is Surging After Earnings. It Needs a Boost.",
@@ -7272,6 +7897,34 @@
   "COIN": [
     {
       "ticker": "COIN",
+      "ts_kst": "2026-02-27T23:50:10+09:00",
+      "published": "Fri, 27 Feb 2026 05:20:05 +0000",
+      "title": "Morgan Stanley Explores Full-Stack Digital Asset Services, Including Bitcoin Lending",
+      "summary": "Morgan Stanley plans to launch Bitcoin custody, trading, lending, and yield services, signaling deeper integration of digital assets.",
+      "link": "https://beincrypto.com/morgan-stanley-bitcoin-trading-lending-custody/?.tsrc=rss",
+      "event_score": 0.0,
+      "confidence": 0.5,
+      "event_type": "other",
+      "sentiment": "neutral",
+      "impact": 0,
+      "why_it_moves": "Unclear impact / insufficient info",
+      "raw": {
+        "tickers": [],
+        "event_type": "other",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [
+          "Morgan Stanley plans to launch Bitcoin custody, trading, lending, and yield services.",
+          "Signaling deeper integration of digital assets into traditional financial services."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Unclear impact / insufficient info",
+        "kr_title": "모건스탠리가 비트코인 거래 대출 보관 서비스 출시 계획"
+      }
+    },
+    {
+      "ticker": "COIN",
       "ts_kst": "2026-02-27T06:33:36+09:00",
       "published": "Thu, 26 Feb 2026 21:12:43 +0000",
       "title": "Mastercard Crypto Card And Fintech Deals Reshape Long Term Earnings Story",
@@ -7770,6 +8423,96 @@
   "TSLA": [
     {
       "ticker": "TSLA",
+      "ts_kst": "2026-02-28T03:02:22+09:00",
+      "published": "Fri, 27 Feb 2026 16:30:13 +0000",
+      "title": "Why Is Tesla (TSLA) Down 1.9% Since Last Earnings Report?",
+      "summary": "Tesla (TSLA) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
+      "link": "https://finance.yahoo.com/news/why-tesla-tsla-down-1-163013092.html?.tsrc=rss",
+      "event_score": 0.2,
+      "confidence": 0.5,
+      "event_type": "earnings",
+      "sentiment": "neutral",
+      "impact": 0,
+      "why_it_moves": "Unclear impact / insufficient info",
+      "raw": {
+        "tickers": [],
+        "event_type": "earnings",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [
+          "Tesla (TSLA) reported earnings 30 days ago.",
+          "Earnings estimates are being analyzed for future stock performance."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Unclear impact / insufficient info",
+        "kr_title": "테슬라(TSLA) 이전 실적 보고 이후 왜 1.9% 하락했을까요?"
+      }
+    },
+    {
+      "ticker": "TSLA",
+      "ts_kst": "2026-02-27T23:50:10+09:00",
+      "published": "Fri, 27 Feb 2026 12:45:08 +0000",
+      "title": "Tesla’s Robotaxi Promises Are Empty: Zero Miles Logged, No Permits, Now Suing Regulators",
+      "summary": "Tesla’s (NASDAQ: TSLA) robotaxi ambitions have generated enormous investor attention, but the gap between rhetoric and reality is widening. As of Friday morning, Tesla has no commercial robotaxi permits in any major U.S. market, has disclosed no meaningful revenue or miles-logged metrics from its autonomous ride-hailing operations, and is now in legal conflict with the ... Tesla’s Robotaxi Promises Are Empty: Zero Miles Logged, No Permits, Now Suing Regulators",
+      "link": "https://247wallst.com/investing/2026/02/27/teslas-robotaxi-promises-are-empty-zero-miles-logged-no-permits-now-suing-regulators/?.tsrc=rss",
+      "event_score": -0.8,
+      "confidence": 0.8,
+      "event_type": "litigation_investigation",
+      "sentiment": "bearish",
+      "impact": -1,
+      "why_it_moves": "Legal conflicts and lack of progress on robotaxi initiatives could negatively impact investor sentiment and stock performance.",
+      "raw": {
+        "tickers": [
+          "TSLA"
+        ],
+        "event_type": "litigation_investigation",
+        "sentiment": "bearish",
+        "impact": -1,
+        "confidence": 0.8,
+        "key_points": [
+          "Tesla has no commercial robotaxi permits in any major U.S. market.",
+          "No meaningful revenue or miles-logged metrics from autonomous ride-hailing operations have been disclosed.",
+          "Tesla is now in legal conflict with regulators."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Legal conflicts and lack of progress on robotaxi initiatives could negatively impact investor sentiment and stock performance.",
+        "kr_title": "테슬라의 로봇택시 약속은 빈말: 마일리지 0, 허가 없이now 규제 당국과 소송"
+      }
+    },
+    {
+      "ticker": "TSLA",
+      "ts_kst": "2026-02-27T23:50:10+09:00",
+      "published": "Fri, 27 Feb 2026 14:30:22 +0000",
+      "title": "Nio Blitzes SUV Market: Flagship ES9, Onvo L80 Set For May Launch",
+      "summary": "Nio Inc. (NYSE:NIO) is gearing up for an aggressive SUV expansion, unveiling plans to roll out new flagship and sub-brand models in the coming months as it intensifies competition with rivals including Tesla Inc. (NASDAQ:TSLA) and Li Auto Inc. (NASDAQ:LI) in China's fast-growing electric vehicle market. Qin Lihong, co-founder and president of the automaker, outlined the company's near-term product strategy during a recent community event, CnEV Post reports. He shared timelines covering both the",
+      "link": "https://finance.yahoo.com/news/nio-blitzes-suv-market-flagship-143022105.html?.tsrc=rss",
+      "event_score": 0.1,
+      "confidence": 0.5,
+      "event_type": "product_launch",
+      "sentiment": "neutral",
+      "impact": 0,
+      "why_it_moves": "New product launches can impact company stock performance as they signal future growth potential, but the exact impact depends on market reception and sales data.",
+      "raw": {
+        "tickers": [
+          "NIO",
+          "TSLA"
+        ],
+        "event_type": "product_launch",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [
+          "Nio Inc. is launching new SUV models in the coming months.",
+          "Competing with Tesla and Li Auto in China's electric vehicle market."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "New product launches can impact company stock performance as they signal future growth potential, but the exact impact depends on market reception and sales data.",
+        "kr_title": "니오, SUV 시장 공략 본격화…ES9와 온보 L80 5월 출시 예정"
+      }
+    },
+    {
+      "ticker": "TSLA",
       "ts_kst": "2026-02-27T00:49:42+09:00",
       "published": "Thu, 26 Feb 2026 07:09:09 +0000",
       "title": "Tesla’s AI Pivot And Robotaxis Put Valuation And Regulatory Risks In Focus",
@@ -7937,6 +8680,91 @@
     }
   ],
   "AVGO": [
+    {
+      "ticker": "AVGO",
+      "ts_kst": "2026-02-28T00:43:33+09:00",
+      "published": "Fri, 27 Feb 2026 15:35:41 +0000",
+      "title": "Broadcom Stock, Fiber Optic Star Ciena Step Up To Earnings Plate After Nvidia Carnage",
+      "summary": "Broadcom stock is on a downtrend despite bright growth prospects with earnings right around the corner. Ciena is also on the calendar.",
+      "link": "https://finance.yahoo.com/m/b3e6285f-5b96-3fea-8b91-766c21e434bd/broadcom-stock%2C-fiber-optic.html?.tsrc=rss",
+      "event_score": -1.4,
+      "confidence": 0.7,
+      "event_type": "earnings",
+      "sentiment": "bearish",
+      "impact": -1,
+      "why_it_moves": "Nvidia's earnings carnage has negatively impacted investor sentiment towards semiconductor stocks, including Broadcom.",
+      "raw": {
+        "tickers": [
+          "AVGO"
+        ],
+        "event_type": "earnings",
+        "sentiment": "bearish",
+        "impact": -1,
+        "confidence": 0.7,
+        "key_points": [
+          "Broadcom stock is experiencing a downtrend.",
+          "Earnings are expected soon, but the market reaction is negative."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Nvidia's earnings carnage has negatively impacted investor sentiment towards semiconductor stocks, including Broadcom.",
+        "kr_title": "브로드컴 주식, 빛나는 성장 전망에도 불구하고 이익 발표 앞두고 하락세"
+      }
+    },
+    {
+      "ticker": "AVGO",
+      "ts_kst": "2026-02-28T00:20:14+09:00",
+      "published": "Fri, 27 Feb 2026 15:18:11 +0000",
+      "title": "Stocks to watch next week: Broadcom, Costco, Adidas, Aviva and Greggs",
+      "summary": "Earnings preview of key companies reporting next week and what to look out for.",
+      "link": "https://uk.finance.yahoo.com/news/broadcom-costco-adidas-aviva-greggs-stocks-to-watch-151811073.html?.tsrc=rss",
+      "event_score": 0.0,
+      "confidence": 0.5,
+      "event_type": "other",
+      "sentiment": "neutral",
+      "impact": 0,
+      "why_it_moves": "",
+      "raw": {
+        "tickers": [],
+        "event_type": "other",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "",
+        "kr_title": "다음 주 주목해야 할 주식: AVGO, Costco, Adidas, Aviva, Greggs"
+      }
+    },
+    {
+      "ticker": "AVGO",
+      "ts_kst": "2026-02-27T23:50:10+09:00",
+      "published": "Fri, 27 Feb 2026 11:06:32 +0000",
+      "title": "AI disruption looms over markets with US jobs data on tap",
+      "summary": "Prospects for artificial intelligence to disrupt business sectors should keep the U.S. stock market on edge in the coming week, as Wall Street looks for more insight into how the emerging technology will reverberate through the economy.  The monthly U.S. jobs report headlines ‌economic data due next week, while major semiconductor player Broadcom is among the remaining reports that will close out the fourth-quarter earnings season.  \"There continues to be this...back and forth about who might be ​the victim and those that will actually emerge winners because they are harnessing AI as opposed to being replaced by it,\" said Kristina Hooper, chief market strategist at Man Group.",
+      "link": "https://finance.yahoo.com/news/ai-disruption-looms-over-markets-110632458.html?.tsrc=rss",
+      "event_score": 0.0,
+      "confidence": 0.5,
+      "event_type": "other",
+      "sentiment": "neutral",
+      "impact": 0,
+      "why_it_moves": "Unclear impact / insufficient info",
+      "raw": {
+        "tickers": [
+          "AVGO"
+        ],
+        "event_type": "other",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [
+          "AI disruption remains a key market concern.",
+          "Semiconductor companies like Broadcom are under scrutiny."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Unclear impact / insufficient info",
+        "kr_title": "AI 혁신이 시장에 미치는 영향, 미국 고용 데이터 발표 앞두고"
+      }
+    },
     {
       "ticker": "AVGO",
       "ts_kst": "2026-02-27T03:16:22+09:00",
@@ -8294,6 +9122,248 @@
         ],
         "trade_horizon": "swing_days",
         "why_it_moves": "The partnership could potentially challenge Nvidia and Broadcom in the AI inference market, but details are limited."
+      }
+    }
+  ],
+  "ZS": [
+    {
+      "ticker": "ZS",
+      "ts_kst": "2026-02-28T02:37:26+09:00",
+      "published": "Fri, 27 Feb 2026 17:23:33 +0000",
+      "title": "Why Zscaler Shares Are Tumbling Despite Earnings Beat",
+      "summary": "Zscaler Falls Sharply After Beating EPS and Revenue Estimates",
+      "link": "https://finance.yahoo.com/news/why-zscaler-shares-tumbling-despite-172333373.html?.tsrc=rss",
+      "event_score": 0.2,
+      "confidence": 0.5,
+      "event_type": "earnings",
+      "sentiment": "neutral",
+      "impact": 0,
+      "why_it_moves": "Investor sentiment may be influenced by factors not reflected in the earnings report, leading to a sharp decline in share price.",
+      "raw": {
+        "tickers": [
+          "ZS"
+        ],
+        "event_type": "earnings",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [
+          "Zscaler shares fell sharply despite beating EPS and revenue estimates.",
+          "Market reaction suggests investor concerns beyond financial performance."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Investor sentiment may be influenced by factors not reflected in the earnings report, leading to a sharp decline in share price.",
+        "kr_title": "Zscaler 주식이 실적 초과에도 불구하고 급락하는 이유"
+      }
+    },
+    {
+      "ticker": "ZS",
+      "ts_kst": "2026-02-27T23:50:10+09:00",
+      "published": "Thu, 26 Feb 2026 22:30:05 +0000",
+      "title": "Zscaler (ZS) Tops Q2 Earnings and Revenue Estimates",
+      "summary": "Zscaler (ZS) delivered earnings and revenue surprises of +12.94% and +2.22%, respectively, for the quarter ended January 2026. Do the numbers hold clues to what lies ahead for the stock?",
+      "link": "https://finance.yahoo.com/news/zscaler-zs-tops-q2-earnings-223005859.html?.tsrc=rss",
+      "event_score": 1.6,
+      "confidence": 0.8,
+      "event_type": "earnings",
+      "sentiment": "bullish",
+      "impact": 1,
+      "why_it_moves": "Strong earnings beat expectations, signaling positive momentum for the stock.",
+      "raw": {
+        "tickers": [
+          "ZS"
+        ],
+        "event_type": "earnings",
+        "sentiment": "bullish",
+        "impact": 1,
+        "confidence": 0.8,
+        "key_points": [
+          "Q2 earnings and revenue exceeded estimates by +12.94% and +2.22%",
+          "Positive performance may indicate strong market position and future growth potential"
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Strong earnings beat expectations, signaling positive momentum for the stock.",
+        "kr_title": "Zscaler (ZS) Q2 수익과 매출 예상치를 상회"
+      }
+    },
+    {
+      "ticker": "ZS",
+      "ts_kst": "2026-02-27T23:50:10+09:00",
+      "published": "Fri, 27 Feb 2026 01:34:00 +0000",
+      "title": "Zscaler (ZS) Q2 2026 Earnings Call Transcript",
+      "summary": "On the call with me today are Jay Chaudhry, Chairman and CEO, and Kevin Rubin, CFO.  Zscaler, Inc. minimizes the attack surface and limits lateral movement with our unique Zero Trust architecture that enables direct one-to-one communication among users, applications, and AI agents.",
+      "link": "https://www.fool.com/earnings/call-transcripts/2026/02/26/zscaler-zs-q2-2026-earnings-call-transcript/?.tsrc=rss",
+      "event_score": 0.2,
+      "confidence": 0.5,
+      "event_type": "earnings",
+      "sentiment": "neutral",
+      "impact": 0,
+      "why_it_moves": "Earnings call details provide insight into company performance but no significant positive or negative news was reported.",
+      "raw": {
+        "tickers": [
+          "ZS"
+        ],
+        "event_type": "earnings",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [
+          "Q2 2026 earnings call held with Jay Chaudhry and Kevin Rubin participating.",
+          "Zscaler's Zero Trust architecture highlighted as key to minimizing attack surface."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Earnings call details provide insight into company performance but no significant positive or negative news was reported.",
+        "kr_title": "Zscaler (ZS) 2026年第2季度收益电话会议纪要"
+      }
+    },
+    {
+      "ticker": "ZS",
+      "ts_kst": "2026-02-27T23:50:10+09:00",
+      "published": "Fri, 27 Feb 2026 05:05:47 +0000",
+      "title": "Zscaler Inc (ZS) Q2 2026 Earnings Call Highlights: Strong ARR Growth and AI Security Expansion ...",
+      "summary": "Zscaler Inc (ZS) reports robust demand for its platform and AI solutions, while navigating acquisition-related churn and competitive pressures.",
+      "link": "https://finance.yahoo.com/news/zscaler-inc-zs-q2-2026-050547249.html?.tsrc=rss",
+      "event_score": 1.6,
+      "confidence": 0.8,
+      "event_type": "earnings",
+      "sentiment": "bullish",
+      "impact": 1,
+      "why_it_moves": "Robust earnings and growth in AI security solutions positively impact Zscaler's stock.",
+      "raw": {
+        "tickers": [
+          "ZS"
+        ],
+        "event_type": "earnings",
+        "sentiment": "bullish",
+        "impact": 1,
+        "confidence": 0.8,
+        "key_points": [
+          "Strong ARR growth reported",
+          "Expansion in AI security solutions"
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Robust earnings and growth in AI security solutions positively impact Zscaler's stock.",
+        "kr_title": "Z스케일러 인코포레이티드 (ZS) Q2 2026 이익电话会议亮点：强劲的ARR增长和AI安全扩展"
+      }
+    },
+    {
+      "ticker": "ZS",
+      "ts_kst": "2026-02-27T23:50:10+09:00",
+      "published": "Fri, 27 Feb 2026 07:05:36 +0000",
+      "title": "Zscaler Airtel AI Cyber Center Opens As Shares Trade Below Targets",
+      "summary": "Zscaler (NasdaqGS:ZS) has launched an AI & Cyber Threat Research Center in India in partnership with Bharti Airtel. The new center focuses on cybersecurity research, trusted AI use cases, and developing local AI and security talent. The collaboration is aimed at supporting India's national cyber resilience and expanding Zscaler's presence in a key market. Zscaler, known for its cloud delivered security platform, is expanding its on the ground footprint in India through this new research...",
+      "link": "https://finance.yahoo.com/news/zscaler-airtel-ai-cyber-center-070536424.html?.tsrc=rss",
+      "event_score": 0.0,
+      "confidence": 0.5,
+      "event_type": "other",
+      "sentiment": "neutral",
+      "impact": 0,
+      "why_it_moves": "Unclear impact / insufficient info",
+      "raw": {
+        "tickers": [
+          "ZS"
+        ],
+        "event_type": "other",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [
+          "Zscaler launches AI & Cyber Threat Research Center in India with Bharti Airtel.",
+          "Focus on cybersecurity research and expanding local talent."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Unclear impact / insufficient info",
+        "kr_title": "Zscaler, 아리텔 인공지능 및 사이버 보안 연구 센터 오픈"
+      }
+    },
+    {
+      "ticker": "ZS",
+      "ts_kst": "2026-02-27T23:50:10+09:00",
+      "published": "Fri, 27 Feb 2026 11:01:00 +0000",
+      "title": "Zscaler Falls Sharply After Solid Earnings. Software Stocks Are Wild Right Now.",
+      "summary": "The initial reaction to Zscaler’s earnings put the stock on course to bookend the week with sharp declines—who’d be a software investor?  Adjusted earnings of $1.01 per share beat Wall Street estimates of 89 cents, according to FactSet data.  Full-year guidance for between $3.99 and $4.02 per share was also ahead of the $3.92 consensus.",
+      "link": "https://finance.yahoo.com/m/0f9e1ef1-f255-30b6-91e3-557cb1500559/zscaler-falls-sharply-after.html?.tsrc=rss",
+      "event_score": 0.2,
+      "confidence": 0.5,
+      "event_type": "earnings",
+      "sentiment": "neutral",
+      "impact": 0,
+      "why_it_moves": "Earnings beat expectations, but the stock fell sharply initially, indicating mixed market reaction.",
+      "raw": {
+        "tickers": [
+          "ZS"
+        ],
+        "event_type": "earnings",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [
+          "Zscaler reported solid earnings with adjusted earnings of $1.01 per share beating estimates.",
+          "Full-year guidance was also ahead of consensus at between $3.99 and $4.02 per share."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Earnings beat expectations, but the stock fell sharply initially, indicating mixed market reaction.",
+        "kr_title": "Zscaler의 실적 발표 후 주가 급락... 소프트웨어 투자자들에게는 어떤가?"
+      }
+    },
+    {
+      "ticker": "ZS",
+      "ts_kst": "2026-02-27T23:50:10+09:00",
+      "published": "Fri, 27 Feb 2026 12:55:00 +0000",
+      "title": "Zscaler Q2 Earnings Surpass Estimates, Revenues Increase Y/Y",
+      "summary": "ZS tops Q2 estimates with 26% revenue growth and strong customer momentum, prompting the company to lift its full-year outlook.",
+      "link": "https://finance.yahoo.com/news/zscaler-q2-earnings-surpass-estimates-125500541.html?.tsrc=rss",
+      "event_score": 1.6,
+      "confidence": 0.8,
+      "event_type": "earnings",
+      "sentiment": "bullish",
+      "impact": 1,
+      "why_it_moves": "Strong financial performance and positive guidance boost investor confidence.",
+      "raw": {
+        "tickers": [
+          "ZS"
+        ],
+        "event_type": "earnings",
+        "sentiment": "bullish",
+        "impact": 1,
+        "confidence": 0.8,
+        "key_points": [
+          "Q2 earnings surpass estimates with 26% revenue growth",
+          "Strong customer momentum and lifted full-year outlook"
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Strong financial performance and positive guidance boost investor confidence.",
+        "kr_title": "Zscaler, Q2 실적 예상 초과, 매출 26% 증가"
+      }
+    },
+    {
+      "ticker": "ZS",
+      "ts_kst": "2026-02-27T23:50:10+09:00",
+      "published": "Fri, 27 Feb 2026 13:53:50 +0000",
+      "title": "Zscaler Stock Falls On Q4 Earnings, Outlook For Key Sales Growth Metric",
+      "summary": "Zscaler stock fell after the cybersecurity firm reported fiscal Q2 earnings that topped estimates but analysts focused on a key growth metric.",
+      "link": "https://finance.yahoo.com/m/33800aac-ca52-3d52-b799-6bb2d91b1ffe/zscaler-stock-falls-on-q4.html?.tsrc=rss",
+      "event_score": -1.6,
+      "confidence": 0.8,
+      "event_type": "earnings",
+      "sentiment": "bearish",
+      "impact": -1,
+      "why_it_moves": "Earnings exceeded expectations, but concerns over future growth metrics led to stock decline.",
+      "raw": {
+        "tickers": [
+          "ZS"
+        ],
+        "event_type": "earnings",
+        "sentiment": "bearish",
+        "impact": -1,
+        "confidence": 0.8,
+        "key_points": [
+          "Q4 earnings topped estimates.",
+          "Analysts focused on a key growth metric."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Earnings exceeded expectations, but concerns over future growth metrics led to stock decline.",
+        "kr_title": "Zscaler 주식, 제기준 성장 지표에 따른 4분기 이익 발표 후 하락"
       }
     }
   ]
