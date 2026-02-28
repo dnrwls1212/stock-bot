@@ -1,6 +1,6 @@
 {
   "ticker": "AVGO",
-  "updated_at": "2026-02-27T07:11:27+09:00",
+  "updated_at": "2026-02-28T03:05:33+09:00",
   "thesis": "",
   "business_summary": "",
   "moat": "",
@@ -11,6 +11,85 @@
   "target_price": null,
   "fair_value_range": null,
   "evidence": [
+    {
+      "ts_kst": "2026-02-28T00:43:49+09:00",
+      "source": "news",
+      "title": "Broadcom Stock, Fiber Optic Star Ciena Step Up To Earnings Plate After Nvidia Carnage",
+      "summary": "Nvidia's earnings carnage has negatively impacted investor sentiment towards semiconductor stocks, including Broadcom.",
+      "link": "https://finance.yahoo.com/m/b3e6285f-5b96-3fea-8b91-766c21e434bd/broadcom-stock%2C-fiber-optic.html?.tsrc=rss",
+      "sentiment": "bearish",
+      "impact": -1,
+      "tags": [
+        "earnings"
+      ],
+      "raw": {
+        "tickers": [
+          "AVGO"
+        ],
+        "event_type": "earnings",
+        "sentiment": "bearish",
+        "impact": -1,
+        "confidence": 0.7,
+        "key_points": [
+          "Broadcom stock is experiencing a downtrend.",
+          "Earnings are expected soon, but the market reaction is negative."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Nvidia's earnings carnage has negatively impacted investor sentiment towards semiconductor stocks, including Broadcom.",
+        "kr_title": "브로드컴 주식, 빛나는 성장 전망에도 불구하고 이익 발표 앞두고 하락세"
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:20:26+09:00",
+      "source": "news",
+      "title": "Stocks to watch next week: Broadcom, Costco, Adidas, Aviva and Greggs",
+      "summary": "Earnings preview of key companies reporting next week and what to look out for.",
+      "link": "https://uk.finance.yahoo.com/news/broadcom-costco-adidas-aviva-greggs-stocks-to-watch-151811073.html?.tsrc=rss",
+      "sentiment": "neutral",
+      "impact": 0,
+      "tags": [
+        "other"
+      ],
+      "raw": {
+        "tickers": [],
+        "event_type": "other",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "",
+        "kr_title": "다음 주 주목해야 할 주식: AVGO, Costco, Adidas, Aviva, Greggs"
+      }
+    },
+    {
+      "ts_kst": "2026-02-27T23:50:41+09:00",
+      "source": "news",
+      "title": "AI disruption looms over markets with US jobs data on tap",
+      "summary": "Unclear impact / insufficient info",
+      "link": "https://finance.yahoo.com/news/ai-disruption-looms-over-markets-110632458.html?.tsrc=rss",
+      "sentiment": "neutral",
+      "impact": 0,
+      "tags": [
+        "other"
+      ],
+      "raw": {
+        "tickers": [
+          "AVGO"
+        ],
+        "event_type": "other",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [
+          "AI disruption remains a key market concern.",
+          "Semiconductor companies like Broadcom are under scrutiny."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Unclear impact / insufficient info",
+        "kr_title": "AI 혁신이 시장에 미치는 영향, 미국 고용 데이터 발표 앞두고"
+      }
+    },
     {
       "ts_kst": "2026-02-27T03:16:30+09:00",
       "source": "news",
@@ -375,6 +454,592 @@
     }
   ],
   "decisions": [
+    {
+      "ts_kst": "2026-02-28T03:05:33+09:00",
+      "action": "SELL",
+      "confidence": 0.7,
+      "rationale": "Broadcom's stock is declining due to negative sentiment from Nvidia's earnings report and concerns over long-term sustainability of capital expenditure levels in the semiconductor sector.",
+      "key_drivers": [
+        "Negative market reaction to Nvidia's strong but underwhelming results",
+        "Concerns about Broadcom's ability to meet Wall Street expectations"
+      ],
+      "key_risks": [
+        "Potential upside if broader chip sector recovers unexpectedly",
+        "Positive earnings report from Broadcom could reverse sentiment"
+      ],
+      "valuation_view": "Current valuation does not account for potential risks and uncertainties in the semiconductor market.",
+      "counterfactuals": [
+        "If Nvidia's strategic direction is well-received by investors, it may boost related stocks including Broadcom."
+      ],
+      "next_checks": [
+        "Earnings report from Broadcom",
+        "Market reaction to US jobs data and AI disruption concerns"
+      ],
+      "raw": {
+        "action": "SELL",
+        "confidence": 0.7,
+        "rationale": "Broadcom's stock is declining due to negative sentiment from Nvidia's earnings report and concerns over long-term sustainability of capital expenditure levels in the semiconductor sector.",
+        "key_drivers": [
+          "Negative market reaction to Nvidia's strong but underwhelming results",
+          "Concerns about Broadcom's ability to meet Wall Street expectations"
+        ],
+        "key_risks": [
+          "Potential upside if broader chip sector recovers unexpectedly",
+          "Positive earnings report from Broadcom could reverse sentiment"
+        ],
+        "valuation_view": "Current valuation does not account for potential risks and uncertainties in the semiconductor market.",
+        "counterfactuals": [
+          "If Nvidia's strategic direction is well-received by investors, it may boost related stocks including Broadcom."
+        ],
+        "next_checks": [
+          "Earnings report from Broadcom",
+          "Market reaction to US jobs data and AI disruption concerns"
+        ],
+        "position_plan": {
+          "prefer_qty": -1,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:43:22+09:00",
+      "action": "HOLD",
+      "confidence": 0.7,
+      "rationale": "Broadcom's stock is under pressure due to recent earnings reports from Nvidia and the broader semiconductor sector performance. Market sentiment remains cautious, with concerns over long-term sustainability of capital expenditure levels.",
+      "key_drivers": [
+        "Nvidia's strong but disappointing earnings report",
+        "Broader market uncertainty around AI spending cycle",
+        "Potential for disappointment in Broadcom's upcoming earnings"
+      ],
+      "key_risks": [
+        "Negative surprises in Broadcom's Q4 results",
+        "Increased competition from rivals like AMD and Nvidia",
+        "Slowing demand for semiconductor products"
+      ],
+      "valuation_view": "Current valuation reflects cautious market sentiment, but any positive earnings surprise could provide a catalyst.",
+      "counterfactuals": [
+        "If Nvidia's stock stabilizes or rallies post-earnings, it may positively impact Broadcom and other semiconductor stocks",
+        "Positive guidance from Broadcom on future growth prospects"
+      ],
+      "next_checks": [
+        "Broadcom's Q4 earnings report next week",
+        "Market reaction to US jobs data and AI disruption concerns"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.7,
+        "rationale": "Broadcom's stock is under pressure due to recent earnings reports from Nvidia and the broader semiconductor sector performance. Market sentiment remains cautious, with concerns over long-term sustainability of capital expenditure levels.",
+        "key_drivers": [
+          "Nvidia's strong but disappointing earnings report",
+          "Broader market uncertainty around AI spending cycle",
+          "Potential for disappointment in Broadcom's upcoming earnings"
+        ],
+        "key_risks": [
+          "Negative surprises in Broadcom's Q4 results",
+          "Increased competition from rivals like AMD and Nvidia",
+          "Slowing demand for semiconductor products"
+        ],
+        "valuation_view": "Current valuation reflects cautious market sentiment, but any positive earnings surprise could provide a catalyst.",
+        "counterfactuals": [
+          "If Nvidia's stock stabilizes or rallies post-earnings, it may positively impact Broadcom and other semiconductor stocks",
+          "Positive guidance from Broadcom on future growth prospects"
+        ],
+        "next_checks": [
+          "Broadcom's Q4 earnings report next week",
+          "Market reaction to US jobs data and AI disruption concerns"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:40:18+09:00",
+      "action": "SELL",
+      "confidence": 0.7,
+      "rationale": "Nvidia's earnings report has led to a decline in Broadcom's stock price despite strong results, indicating investor concerns over long-term sustainability and competition.",
+      "key_drivers": [
+        "Negative sentiment following Nvidia's earnings report affecting the broader semiconductor sector",
+        "Uncertainty about Broadcom's ability to meet market expectations given current conditions"
+      ],
+      "key_risks": [
+        "Potential for unexpected positive news or a rally in the semiconductor sector",
+        "Market overreaction leading to an oversold condition"
+      ],
+      "valuation_view": "Current valuation does not account for potential risks and uncertainties in the near term.",
+      "counterfactuals": [
+        "If Nvidia's stock stabilizes and shows signs of recovery, it could positively impact Broadcom’s price",
+        "Positive earnings report from Broadcom may lead to a short-term rebound"
+      ],
+      "next_checks": [
+        "Nvidia's strategic direction and competitive landscape updates",
+        "Broadcom's Q4 earnings release and market reaction"
+      ],
+      "raw": {
+        "action": "SELL",
+        "confidence": 0.7,
+        "rationale": "Nvidia's earnings report has led to a decline in Broadcom's stock price despite strong results, indicating investor concerns over long-term sustainability and competition.",
+        "key_drivers": [
+          "Negative sentiment following Nvidia's earnings report affecting the broader semiconductor sector",
+          "Uncertainty about Broadcom's ability to meet market expectations given current conditions"
+        ],
+        "key_risks": [
+          "Potential for unexpected positive news or a rally in the semiconductor sector",
+          "Market overreaction leading to an oversold condition"
+        ],
+        "valuation_view": "Current valuation does not account for potential risks and uncertainties in the near term.",
+        "counterfactuals": [
+          "If Nvidia's stock stabilizes and shows signs of recovery, it could positively impact Broadcom’s price",
+          "Positive earnings report from Broadcom may lead to a short-term rebound"
+        ],
+        "next_checks": [
+          "Nvidia's strategic direction and competitive landscape updates",
+          "Broadcom's Q4 earnings release and market reaction"
+        ],
+        "position_plan": {
+          "prefer_qty": -10,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:37:02+09:00",
+      "action": "SELL",
+      "confidence": 0.8,
+      "rationale": "Nvidia's earnings report has negatively impacted Broadcom and other semiconductor stocks despite strong results. Market concerns over long-term sustainability of capital expenditure levels are causing a broader sector decline.",
+      "key_drivers": [
+        "Negative sentiment following Nvidia's earnings",
+        "Concerns about the long-term sustainability of current capital expenditure levels in the semiconductor industry"
+      ],
+      "key_risks": [
+        "Potential positive surprise from Broadcom’s upcoming earnings report",
+        "Market rebound if investor concerns over AI spending cycle ease"
+      ],
+      "valuation_view": "Current valuation does not account for potential near-term headwinds and risks associated with sector-wide sentiment.",
+      "counterfactuals": [
+        "If Nvidia's strong results were seen as a positive catalyst for the broader semiconductor sector",
+        "If Broadcom’s earnings report exceeds expectations"
+      ],
+      "next_checks": [
+        "Broadcom’s upcoming earnings report",
+        "Market reaction to US jobs data and AI disruption concerns"
+      ],
+      "raw": {
+        "action": "SELL",
+        "confidence": 0.8,
+        "rationale": "Nvidia's earnings report has negatively impacted Broadcom and other semiconductor stocks despite strong results. Market concerns over long-term sustainability of capital expenditure levels are causing a broader sector decline.",
+        "key_drivers": [
+          "Negative sentiment following Nvidia's earnings",
+          "Concerns about the long-term sustainability of current capital expenditure levels in the semiconductor industry"
+        ],
+        "key_risks": [
+          "Potential positive surprise from Broadcom’s upcoming earnings report",
+          "Market rebound if investor concerns over AI spending cycle ease"
+        ],
+        "valuation_view": "Current valuation does not account for potential near-term headwinds and risks associated with sector-wide sentiment.",
+        "counterfactuals": [
+          "If Nvidia's strong results were seen as a positive catalyst for the broader semiconductor sector",
+          "If Broadcom’s earnings report exceeds expectations"
+        ],
+        "next_checks": [
+          "Broadcom’s upcoming earnings report",
+          "Market reaction to US jobs data and AI disruption concerns"
+        ],
+        "position_plan": {
+          "prefer_qty": -10,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:28:41+09:00",
+      "action": "SELL",
+      "confidence": 0.8,
+      "rationale": "Broadcom's stock has been negatively impacted by Nvidia's strong earnings report and concerns over long-term sustainability of capital expenditure levels in the semiconductor sector.",
+      "key_drivers": [
+        "Nvidia's earnings report led to a decline in Broadcom's stock price.",
+        "Investor concerns about the long-term sustainability of current capital expenditure levels."
+      ],
+      "key_risks": [
+        "Potential disappointment in Broadcom's upcoming earnings report due to lack of key ingredients for an earnings beat.",
+        "Price target reduction by TD Cowen indicating potential downside pressure on the stock."
+      ],
+      "valuation_view": "The recent price decline and analyst downgrades suggest a re-evaluation of Broadcom's valuation is necessary.",
+      "counterfactuals": [
+        "If Nvidia's strategic direction proves sustainable and competitive pressures ease, Broadcom could recover.",
+        "Positive earnings surprises or unexpected sector-wide rallies could reverse the current negative sentiment."
+      ],
+      "next_checks": [
+        "Monitor Broadcom's upcoming earnings report for any positive surprises.",
+        "Watch for broader semiconductor sector trends and investor sentiment towards AI infrastructure spending."
+      ],
+      "raw": {
+        "action": "SELL",
+        "confidence": 0.8,
+        "rationale": "Broadcom's stock has been negatively impacted by Nvidia's strong earnings report and concerns over long-term sustainability of capital expenditure levels in the semiconductor sector.",
+        "key_drivers": [
+          "Nvidia's earnings report led to a decline in Broadcom's stock price.",
+          "Investor concerns about the long-term sustainability of current capital expenditure levels."
+        ],
+        "key_risks": [
+          "Potential disappointment in Broadcom's upcoming earnings report due to lack of key ingredients for an earnings beat.",
+          "Price target reduction by TD Cowen indicating potential downside pressure on the stock."
+        ],
+        "valuation_view": "The recent price decline and analyst downgrades suggest a re-evaluation of Broadcom's valuation is necessary.",
+        "counterfactuals": [
+          "If Nvidia's strategic direction proves sustainable and competitive pressures ease, Broadcom could recover.",
+          "Positive earnings surprises or unexpected sector-wide rallies could reverse the current negative sentiment."
+        ],
+        "next_checks": [
+          "Monitor Broadcom's upcoming earnings report for any positive surprises.",
+          "Watch for broader semiconductor sector trends and investor sentiment towards AI infrastructure spending."
+        ],
+        "position_plan": {
+          "prefer_qty": -1,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:25:39+09:00",
+      "action": "SELL",
+      "confidence": 0.8,
+      "rationale": "Broadcom's stock has been negatively impacted by recent earnings reports from Nvidia and concerns over long-term sustainability of capital expenditure levels in the semiconductor sector.",
+      "key_drivers": [
+        "Nvidia's strong earnings report did not lift broader chip stocks, leading to a decline in Broadcom's share price.",
+        "TD Cowen reduced its price target on Broadcom, indicating potential downside pressure despite maintaining a Buy rating."
+      ],
+      "key_risks": [
+        "Investor concerns over the long-term sustainability of current capital expenditure levels may persist.",
+        "Competition from rivals like Nvidia and AMD could further impact Broadcom's market position."
+      ],
+      "valuation_view": "The recent price target reduction by TD Cowen suggests a downward revision in Broadcom's valuation.",
+      "counterfactuals": [
+        "If Nvidia's stock stabilizes or shows signs of recovery, it may positively influence the broader semiconductor sector including Broadcom.",
+        "Positive earnings surprises from Broadcom could mitigate current concerns and improve investor sentiment."
+      ],
+      "next_checks": [
+        "Monitor Nvidia’s performance for any positive signals that might impact the broader chip sector.",
+        "Watch for any updates or developments in Broadcom's Q4 earnings report scheduled next week."
+      ],
+      "raw": {
+        "action": "SELL",
+        "confidence": 0.8,
+        "rationale": "Broadcom's stock has been negatively impacted by recent earnings reports from Nvidia and concerns over long-term sustainability of capital expenditure levels in the semiconductor sector.",
+        "key_drivers": [
+          "Nvidia's strong earnings report did not lift broader chip stocks, leading to a decline in Broadcom's share price.",
+          "TD Cowen reduced its price target on Broadcom, indicating potential downside pressure despite maintaining a Buy rating."
+        ],
+        "key_risks": [
+          "Investor concerns over the long-term sustainability of current capital expenditure levels may persist.",
+          "Competition from rivals like Nvidia and AMD could further impact Broadcom's market position."
+        ],
+        "valuation_view": "The recent price target reduction by TD Cowen suggests a downward revision in Broadcom's valuation.",
+        "counterfactuals": [
+          "If Nvidia's stock stabilizes or shows signs of recovery, it may positively influence the broader semiconductor sector including Broadcom.",
+          "Positive earnings surprises from Broadcom could mitigate current concerns and improve investor sentiment."
+        ],
+        "next_checks": [
+          "Monitor Nvidia’s performance for any positive signals that might impact the broader chip sector.",
+          "Watch for any updates or developments in Broadcom's Q4 earnings report scheduled next week."
+        ],
+        "position_plan": {
+          "prefer_qty": -10,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:22:35+09:00",
+      "action": "SELL",
+      "confidence": 0.8,
+      "rationale": "Broadcom's stock is under pressure due to concerns over long-term sustainability of capital expenditure levels and potential competition from rivals like Nvidia.",
+      "key_drivers": [
+        "Nvidia's strong earnings report led to a decline in Broadcom's stock price.",
+        "TD Cowen reduced its price target on Broadcom, indicating downside risks."
+      ],
+      "key_risks": [
+        "Investor concerns over the long-term sustainability of current capital expenditure levels may persist.",
+        "Increased competition from rivals could impact Broadcom's market position and profitability."
+      ],
+      "valuation_view": "The reduction in price target by TD Cowen suggests a downward revision in Broadcom's valuation.",
+      "counterfactuals": [
+        "If Nvidia's stock stabilizes or shows signs of recovery, it may positively influence the broader semiconductor sector including Broadcom.",
+        "Positive earnings surprises could alleviate concerns and boost investor confidence."
+      ],
+      "next_checks": [
+        "Monitor Nvidia’s performance and any updates on its strategic direction.",
+        "Watch for Broadcom’s upcoming earnings report to assess if key expectations are met or exceeded."
+      ],
+      "raw": {
+        "action": "SELL",
+        "confidence": 0.8,
+        "rationale": "Broadcom's stock is under pressure due to concerns over long-term sustainability of capital expenditure levels and potential competition from rivals like Nvidia.",
+        "key_drivers": [
+          "Nvidia's strong earnings report led to a decline in Broadcom's stock price.",
+          "TD Cowen reduced its price target on Broadcom, indicating downside risks."
+        ],
+        "key_risks": [
+          "Investor concerns over the long-term sustainability of current capital expenditure levels may persist.",
+          "Increased competition from rivals could impact Broadcom's market position and profitability."
+        ],
+        "valuation_view": "The reduction in price target by TD Cowen suggests a downward revision in Broadcom's valuation.",
+        "counterfactuals": [
+          "If Nvidia's stock stabilizes or shows signs of recovery, it may positively influence the broader semiconductor sector including Broadcom.",
+          "Positive earnings surprises could alleviate concerns and boost investor confidence."
+        ],
+        "next_checks": [
+          "Monitor Nvidia’s performance and any updates on its strategic direction.",
+          "Watch for Broadcom’s upcoming earnings report to assess if key expectations are met or exceeded."
+        ],
+        "position_plan": {
+          "prefer_qty": -50,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:19:22+09:00",
+      "action": "SELL",
+      "confidence": 0.8,
+      "rationale": "Broadcom's stock is under pressure due to recent earnings reports and analyst downgrades, despite positive AI tailwinds.",
+      "key_drivers": [
+        "Nvidia's earnings report negatively impacted the broader semiconductor sector, leading to a decline in Broadcom's stock price.",
+        "TD Cowen reduced its valuation on Broadcom, indicating potential downside risks."
+      ],
+      "key_risks": [
+        "Market concerns over long-term sustainability of capital expenditure levels in the semiconductor industry.",
+        "Competition from other tech giants may hinder Broadcom's growth prospects."
+      ],
+      "valuation_view": "The recent price target reduction by TD Cowen suggests a more cautious outlook on Broadcom's valuation.",
+      "counterfactuals": [
+        "If Nvidia's earnings report had sparked a rally in the semiconductor sector, it could have positively impacted Broadcom's stock price."
+      ],
+      "next_checks": [
+        "Monitor broader market sentiment towards the semiconductor industry and any updates from key competitors like AMD and NVIDIA.",
+        "Watch for any positive catalysts or developments that may counteract current negative trends."
+      ],
+      "raw": {
+        "action": "SELL",
+        "confidence": 0.8,
+        "rationale": "Broadcom's stock is under pressure due to recent earnings reports and analyst downgrades, despite positive AI tailwinds.",
+        "key_drivers": [
+          "Nvidia's earnings report negatively impacted the broader semiconductor sector, leading to a decline in Broadcom's stock price.",
+          "TD Cowen reduced its valuation on Broadcom, indicating potential downside risks."
+        ],
+        "key_risks": [
+          "Market concerns over long-term sustainability of capital expenditure levels in the semiconductor industry.",
+          "Competition from other tech giants may hinder Broadcom's growth prospects."
+        ],
+        "valuation_view": "The recent price target reduction by TD Cowen suggests a more cautious outlook on Broadcom's valuation.",
+        "counterfactuals": [
+          "If Nvidia's earnings report had sparked a rally in the semiconductor sector, it could have positively impacted Broadcom's stock price."
+        ],
+        "next_checks": [
+          "Monitor broader market sentiment towards the semiconductor industry and any updates from key competitors like AMD and NVIDIA.",
+          "Watch for any positive catalysts or developments that may counteract current negative trends."
+        ],
+        "position_plan": {
+          "prefer_qty": -10,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:13:54+09:00",
+      "action": "HOLD",
+      "confidence": 0.8,
+      "rationale": "Current market sentiment is mixed with concerns over long-term sustainability and potential competition in the AI sector.",
+      "key_drivers": [
+        "Nvidia's earnings report negatively impacted Broadcom due to investor concerns about capital expenditure levels.",
+        "TD Cowen reduced its price target on Broadcom, indicating potential downside pressure despite maintaining a Buy rating."
+      ],
+      "key_risks": [
+        "Continued weakness in the broader semiconductor sector could drag down Broadcom’s stock further.",
+        "Increased competition from rivals like AMD and Nvidia may impact Broadcom's market share."
+      ],
+      "valuation_view": "Current valuation is influenced by short-term concerns, but long-term AI tailwinds remain positive.",
+      "counterfactuals": [
+        "If Nvidia's earnings report had a more positive outlook for the semiconductor sector, it could boost Broadcom’s stock price.",
+        "Positive guidance from Broadcom in its upcoming earnings report could alleviate current market concerns."
+      ],
+      "next_checks": [
+        "Monitor Broadcom's earnings report and any updates on AI partnerships or product launches.",
+        "Watch for broader industry trends and competitor performance to gauge overall sector health."
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.8,
+        "rationale": "Current market sentiment is mixed with concerns over long-term sustainability and potential competition in the AI sector.",
+        "key_drivers": [
+          "Nvidia's earnings report negatively impacted Broadcom due to investor concerns about capital expenditure levels.",
+          "TD Cowen reduced its price target on Broadcom, indicating potential downside pressure despite maintaining a Buy rating."
+        ],
+        "key_risks": [
+          "Continued weakness in the broader semiconductor sector could drag down Broadcom’s stock further.",
+          "Increased competition from rivals like AMD and Nvidia may impact Broadcom's market share."
+        ],
+        "valuation_view": "Current valuation is influenced by short-term concerns, but long-term AI tailwinds remain positive.",
+        "counterfactuals": [
+          "If Nvidia's earnings report had a more positive outlook for the semiconductor sector, it could boost Broadcom’s stock price.",
+          "Positive guidance from Broadcom in its upcoming earnings report could alleviate current market concerns."
+        ],
+        "next_checks": [
+          "Monitor Broadcom's earnings report and any updates on AI partnerships or product launches.",
+          "Watch for broader industry trends and competitor performance to gauge overall sector health."
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:10:42+09:00",
+      "action": "HOLD",
+      "confidence": 0.7,
+      "rationale": "Broadcom's stock is currently under pressure due to recent earnings reports and analyst downgrades, despite positive long-term AI tailwinds.",
+      "key_drivers": [
+        "Nvidia's strong earnings report led to a decline in broader semiconductor stocks including Broadcom.",
+        "TD Cowen reduced the price target on Broadcom from $450 to $405."
+      ],
+      "key_risks": [
+        "Concerns over long-term sustainability of capital expenditure levels in the semiconductor sector.",
+        "Potential disappointment in upcoming earnings report due to lack of key ingredients for an earnings beat."
+      ],
+      "valuation_view": "Current valuation reflects near-term challenges, but long-term AI growth prospects remain positive.",
+      "counterfactuals": [
+        "If Nvidia's stock stabilizes and broader market sentiment improves, Broadcom could see a rebound.",
+        "Positive surprises in upcoming earnings report could boost the stock."
+      ],
+      "next_checks": [
+        "Earnings report next week",
+        "Market reaction to Nvidia's strategic direction"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.7,
+        "rationale": "Broadcom's stock is currently under pressure due to recent earnings reports and analyst downgrades, despite positive long-term AI tailwinds.",
+        "key_drivers": [
+          "Nvidia's strong earnings report led to a decline in broader semiconductor stocks including Broadcom.",
+          "TD Cowen reduced the price target on Broadcom from $450 to $405."
+        ],
+        "key_risks": [
+          "Concerns over long-term sustainability of capital expenditure levels in the semiconductor sector.",
+          "Potential disappointment in upcoming earnings report due to lack of key ingredients for an earnings beat."
+        ],
+        "valuation_view": "Current valuation reflects near-term challenges, but long-term AI growth prospects remain positive.",
+        "counterfactuals": [
+          "If Nvidia's stock stabilizes and broader market sentiment improves, Broadcom could see a rebound.",
+          "Positive surprises in upcoming earnings report could boost the stock."
+        ],
+        "next_checks": [
+          "Earnings report next week",
+          "Market reaction to Nvidia's strategic direction"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-27T23:56:18+09:00",
+      "action": "HOLD",
+      "confidence": 0.7,
+      "rationale": "Current market sentiment and analyst downgrades indicate potential downside pressure on Broadcom's stock price.",
+      "key_drivers": [
+        "TD Cowen's downgrade of Broadcom to $405 from $450 despite maintaining a Buy rating suggests near-term uncertainty.",
+        "Nvidia's earnings report negatively impacted broader semiconductor stocks, including Broadcom."
+      ],
+      "key_risks": [
+        "Concerns over long-term sustainability of capital expenditure levels in the semiconductor sector.",
+        "Potential disappointment in upcoming earnings due to lack of key ingredients for an earnings beat."
+      ],
+      "valuation_view": "The price target reduction by TD Cowen implies a more cautious view on Broadcom's near-term prospects.",
+      "counterfactuals": [
+        "If Nvidia's stock stabilizes and broader semiconductor sector sentiment improves, it could positively impact Broadcom's share price."
+      ],
+      "next_checks": [
+        "Monitor earnings report for any positive surprises or strategic initiatives that could change market perception.",
+        "Watch for updates on AI tailwinds and product launches that may boost investor confidence."
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.7,
+        "rationale": "Current market sentiment and analyst downgrades indicate potential downside pressure on Broadcom's stock price.",
+        "key_drivers": [
+          "TD Cowen's downgrade of Broadcom to $405 from $450 despite maintaining a Buy rating suggests near-term uncertainty.",
+          "Nvidia's earnings report negatively impacted broader semiconductor stocks, including Broadcom."
+        ],
+        "key_risks": [
+          "Concerns over long-term sustainability of capital expenditure levels in the semiconductor sector.",
+          "Potential disappointment in upcoming earnings due to lack of key ingredients for an earnings beat."
+        ],
+        "valuation_view": "The price target reduction by TD Cowen implies a more cautious view on Broadcom's near-term prospects.",
+        "counterfactuals": [
+          "If Nvidia's stock stabilizes and broader semiconductor sector sentiment improves, it could positively impact Broadcom's share price."
+        ],
+        "next_checks": [
+          "Monitor earnings report for any positive surprises or strategic initiatives that could change market perception.",
+          "Watch for updates on AI tailwinds and product launches that may boost investor confidence."
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-27T23:53:19+09:00",
+      "action": "HOLD",
+      "confidence": 0.7,
+      "rationale": "Broadcom's stock is currently facing mixed signals from recent earnings reports and analyst adjustments, leading to uncertainty in the short term.",
+      "key_drivers": [
+        "Nvidia's earnings report negatively impacted Broadcom's share price due to sector-wide concerns over long-term sustainability of capital expenditure levels.",
+        "TD Cowen reduced its valuation on Broadcom despite maintaining a Buy rating, indicating potential downside pressure."
+      ],
+      "key_risks": [
+        "Market expectations for upcoming earnings reports may not be met, leading to further declines in stock price.",
+        "Increased competition from other tech giants could impact Broadcom's market position and profitability."
+      ],
+      "valuation_view": "Current valuation reflects mixed sentiment; any positive surprises in the next earnings report could provide a catalyst for upward movement.",
+      "counterfactuals": [
+        "If Nvidia's strategic direction is seen as more sustainable, broader semiconductor sector including Broadcom may see an uptick.",
+        "Positive guidance or unexpected growth from AI tailwinds could change market sentiment."
+      ],
+      "next_checks": [
+        "Monitor upcoming earnings reports for any surprises that could impact stock price.",
+        "Watch for developments in the competitive landscape and strategic partnerships."
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.7,
+        "rationale": "Broadcom's stock is currently facing mixed signals from recent earnings reports and analyst adjustments, leading to uncertainty in the short term.",
+        "key_drivers": [
+          "Nvidia's earnings report negatively impacted Broadcom's share price due to sector-wide concerns over long-term sustainability of capital expenditure levels.",
+          "TD Cowen reduced its valuation on Broadcom despite maintaining a Buy rating, indicating potential downside pressure."
+        ],
+        "key_risks": [
+          "Market expectations for upcoming earnings reports may not be met, leading to further declines in stock price.",
+          "Increased competition from other tech giants could impact Broadcom's market position and profitability."
+        ],
+        "valuation_view": "Current valuation reflects mixed sentiment; any positive surprises in the next earnings report could provide a catalyst for upward movement.",
+        "counterfactuals": [
+          "If Nvidia's strategic direction is seen as more sustainable, broader semiconductor sector including Broadcom may see an uptick.",
+          "Positive guidance or unexpected growth from AI tailwinds could change market sentiment."
+        ],
+        "next_checks": [
+          "Monitor upcoming earnings reports for any surprises that could impact stock price.",
+          "Watch for developments in the competitive landscape and strategic partnerships."
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
     {
       "ts_kst": "2026-02-27T07:11:27+09:00",
       "action": "HOLD",

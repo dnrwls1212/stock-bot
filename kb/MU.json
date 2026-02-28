@@ -1,6 +1,6 @@
 {
   "ticker": "MU",
-  "updated_at": "2026-02-27T07:10:14+09:00",
+  "updated_at": "2026-02-28T03:06:43+09:00",
   "thesis": "",
   "business_summary": "",
   "moat": "",
@@ -11,6 +11,90 @@
   "target_price": null,
   "fair_value_range": null,
   "evidence": [
+    {
+      "ts_kst": "2026-02-28T02:12:37+09:00",
+      "source": "news",
+      "title": "AMD stock surges after Meta agrees to giant $100B AI chip deal",
+      "summary": "Significant contract with Meta Platforms is expected to boost AMD's revenue and market position in AI chip market.",
+      "link": "https://www.thestreet.com/investing/stocks/amd-stock-surges-after-meta-agrees-to-giant-100b-ai-chip-deal?.tsrc=rss",
+      "sentiment": "bullish",
+      "impact": 2,
+      "tags": [
+        "contract_partnership"
+      ],
+      "raw": {
+        "tickers": [
+          "AMD"
+        ],
+        "event_type": "contract_partnership",
+        "sentiment": "bullish",
+        "impact": 2,
+        "confidence": 0.8,
+        "key_points": [
+          "Meta Platforms agreed to source massive volumes of AI chips from AMD in a multi-year deal.",
+          "AMD's shares jumped more than 9% before the market open."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Significant contract with Meta Platforms is expected to boost AMD's revenue and market position in AI chip market.",
+        "kr_title": "AMD 주식이 메타와 대규모 AI 반도체 계약으로 급등"
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:43:59+09:00",
+      "source": "news",
+      "title": "Meta’s Multi Vendor AI Chip Push And What It Means For Valuation",
+      "summary": "Impact on Meta's hardware strategy and diversification is unclear, hence neutral sentiment.",
+      "link": "https://finance.yahoo.com/news/meta-multi-vendor-ai-chip-151355406.html?.tsrc=rss",
+      "sentiment": "neutral",
+      "impact": 0,
+      "tags": [
+        "contract_partnership"
+      ],
+      "raw": {
+        "tickers": [
+          "META",
+          "AMD"
+        ],
+        "event_type": "contract_partnership",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [
+          "Meta Platforms has secured multi-billion dollar AI chip deals with AMD and Google.",
+          "The agreements expand Meta's data center hardware pipeline beyond Nvidia."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Impact on Meta's hardware strategy and diversification is unclear, hence neutral sentiment.",
+        "kr_title": "메타, 다중 제조사 AI 칩 계약과 이를 둘러싼 가치 평가"
+      }
+    },
+    {
+      "ts_kst": "2026-02-27T23:50:55+09:00",
+      "source": "news",
+      "title": "These 2 Beaten-Down Stocks Could Stage a Comeback, Says Oppenheimer",
+      "summary": "Economic data and Q4 earnings reports are positive, but the overall market sentiment remains neutral.",
+      "link": "https://finance.yahoo.com/news/2-beaten-down-stocks-could-112723218.html?.tsrc=rss",
+      "sentiment": "neutral",
+      "impact": 0,
+      "tags": [
+        "other"
+      ],
+      "raw": {
+        "tickers": [],
+        "event_type": "other",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [
+          "Q4 earnings better than predicted",
+          "Revenues up almost 9%, earnings up more than 12%",
+          "Quarterly GDP growth at 1.4%"
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Economic data and Q4 earnings reports are positive, but the overall market sentiment remains neutral.",
+        "kr_title": "두 부진한 주식이 회복될 수 있다는 오페네heimer의 예측"
+      }
+    },
     {
       "ts_kst": "2026-02-27T00:50:08+09:00",
       "source": "news",
@@ -383,6 +467,1569 @@
     }
   ],
   "decisions": [
+    {
+      "ts_kst": "2026-02-28T03:06:43+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "AMD's significant contract with Meta Platforms is driving strong sentiment and market performance.",
+      "key_drivers": [
+        "Major AI chip deal with Meta",
+        "Positive earnings outlook"
+      ],
+      "key_risks": [
+        "Market volatility",
+        "Competition in AI chip market"
+      ],
+      "valuation_view": "Earnings estimates revised upwards due to the large-scale contract",
+      "counterfactuals": [
+        "Negative news or delays in AI project implementation by Meta"
+      ],
+      "next_checks": [
+        "Meta's progress on AI projects, AMD's financial reports"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "AMD's significant contract with Meta Platforms is driving strong sentiment and market performance.",
+        "key_drivers": [
+          "Major AI chip deal with Meta",
+          "Positive earnings outlook"
+        ],
+        "key_risks": [
+          "Market volatility",
+          "Competition in AI chip market"
+        ],
+        "valuation_view": "Earnings estimates revised upwards due to the large-scale contract",
+        "counterfactuals": [
+          "Negative news or delays in AI project implementation by Meta"
+        ],
+        "next_checks": [
+          "Meta's progress on AI projects, AMD's financial reports"
+        ],
+        "position_plan": {
+          "prefer_qty": 425.0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T03:03:35+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "AMD's significant contract with Meta Platforms is driving strong positive sentiment and expected revenue growth in the AI chip market.",
+      "key_drivers": [
+        "Meta's multi-billion dollar deal with AMD",
+        "Expected increase in AMD's market position"
+      ],
+      "key_risks": [
+        "Uncertainty around execution of large-scale contracts",
+        "Competition from other tech giants"
+      ],
+      "valuation_view": "The earnings potential from this partnership could significantly boost AMD's valuation.",
+      "counterfactuals": [
+        "If Meta Platforms decides to diversify its chip suppliers further, it could impact AMD's market position negatively."
+      ],
+      "next_checks": [
+        "Monitor progress on the AI chip deal implementation",
+        "Watch for any new partnerships or developments by competitors"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "AMD's significant contract with Meta Platforms is driving strong positive sentiment and expected revenue growth in the AI chip market.",
+        "key_drivers": [
+          "Meta's multi-billion dollar deal with AMD",
+          "Expected increase in AMD's market position"
+        ],
+        "key_risks": [
+          "Uncertainty around execution of large-scale contracts",
+          "Competition from other tech giants"
+        ],
+        "valuation_view": "The earnings potential from this partnership could significantly boost AMD's valuation.",
+        "counterfactuals": [
+          "If Meta Platforms decides to diversify its chip suppliers further, it could impact AMD's market position negatively."
+        ],
+        "next_checks": [
+          "Monitor progress on the AI chip deal implementation",
+          "Watch for any new partnerships or developments by competitors"
+        ],
+        "position_plan": {
+          "prefer_qty": 100,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:44:17+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "AMD's recent significant contract with Meta Platforms is driving strong positive sentiment and expected revenue growth in the AI chip market.",
+      "key_drivers": [
+        "Significant $100B+ multi-year deal with Meta for AI chips",
+        "Expected boost to AMD’s market position and revenue"
+      ],
+      "key_risks": [
+        "Uncertainty around execution of large-scale contracts",
+        "Competition from Nvidia and other players in the AI chip space"
+      ],
+      "valuation_view": "Positive earnings outlook driven by major contract",
+      "counterfactuals": [
+        "Failure to execute on the Meta deal or delays in delivery could negatively impact sentiment"
+      ],
+      "next_checks": [
+        "Monitor AMD's Q1 guidance for any updates on the Meta deal",
+        "Watch for competitive developments from Nvidia and other AI chip providers"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "AMD's recent significant contract with Meta Platforms is driving strong positive sentiment and expected revenue growth in the AI chip market.",
+        "key_drivers": [
+          "Significant $100B+ multi-year deal with Meta for AI chips",
+          "Expected boost to AMD’s market position and revenue"
+        ],
+        "key_risks": [
+          "Uncertainty around execution of large-scale contracts",
+          "Competition from Nvidia and other players in the AI chip space"
+        ],
+        "valuation_view": "Positive earnings outlook driven by major contract",
+        "counterfactuals": [
+          "Failure to execute on the Meta deal or delays in delivery could negatively impact sentiment"
+        ],
+        "next_checks": [
+          "Monitor AMD's Q1 guidance for any updates on the Meta deal",
+          "Watch for competitive developments from Nvidia and other AI chip providers"
+        ],
+        "position_plan": {
+          "prefer_qty": 50,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:41:17+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "AMD's recent $100B AI chip deal with Meta Platforms significantly boosts revenue and market position in the AI chip sector, driving strong positive sentiment.",
+      "key_drivers": [
+        "Significant contract with Meta Platforms expected to boost AMD's revenue and market share in AI chips",
+        "Positive analyst coverage and earnings outlook"
+      ],
+      "key_risks": [
+        "Potential competition from other tech giants entering the AI chip market",
+        "Uncertainty around execution of large-scale contracts"
+      ],
+      "valuation_view": "Earnings estimates revised upwards due to new contract, supporting higher valuation multiples.",
+      "counterfactuals": [
+        "If Meta Platforms decides to diversify its supplier base beyond AMD",
+        "If competition from other AI chip providers intensifies unexpectedly"
+      ],
+      "next_checks": [
+        "Monitor progress on the $100B deal with Meta Platforms",
+        "Watch for any updates on new contracts or partnerships in the AI sector"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "AMD's recent $100B AI chip deal with Meta Platforms significantly boosts revenue and market position in the AI chip sector, driving strong positive sentiment.",
+        "key_drivers": [
+          "Significant contract with Meta Platforms expected to boost AMD's revenue and market share in AI chips",
+          "Positive analyst coverage and earnings outlook"
+        ],
+        "key_risks": [
+          "Potential competition from other tech giants entering the AI chip market",
+          "Uncertainty around execution of large-scale contracts"
+        ],
+        "valuation_view": "Earnings estimates revised upwards due to new contract, supporting higher valuation multiples.",
+        "counterfactuals": [
+          "If Meta Platforms decides to diversify its supplier base beyond AMD",
+          "If competition from other AI chip providers intensifies unexpectedly"
+        ],
+        "next_checks": [
+          "Monitor progress on the $100B deal with Meta Platforms",
+          "Watch for any updates on new contracts or partnerships in the AI sector"
+        ],
+        "position_plan": {
+          "prefer_qty": 50,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:38:18+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "AMD stock is surging after a significant $100B AI chip deal with Meta Platforms, boosting revenue and market position in the AI chip market.",
+      "key_drivers": [
+        "Significant contract with Meta Platforms",
+        "Positive sentiment from major analyst firms"
+      ],
+      "key_risks": [
+        "Uncertainty around execution of large-scale contracts",
+        "Potential competition from other tech giants"
+      ],
+      "valuation_view": "The earnings outlook for AMD is positive, with a new EPS target exceeding previous estimates.",
+      "counterfactuals": [
+        "If Meta Platforms decides to diversify its chip suppliers further or if the deal faces regulatory hurdles"
+      ],
+      "next_checks": [
+        "Monitor execution of the AI chip contract",
+        "Watch for any updates on competition in the AI market"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "AMD stock is surging after a significant $100B AI chip deal with Meta Platforms, boosting revenue and market position in the AI chip market.",
+        "key_drivers": [
+          "Significant contract with Meta Platforms",
+          "Positive sentiment from major analyst firms"
+        ],
+        "key_risks": [
+          "Uncertainty around execution of large-scale contracts",
+          "Potential competition from other tech giants"
+        ],
+        "valuation_view": "The earnings outlook for AMD is positive, with a new EPS target exceeding previous estimates.",
+        "counterfactuals": [
+          "If Meta Platforms decides to diversify its chip suppliers further or if the deal faces regulatory hurdles"
+        ],
+        "next_checks": [
+          "Monitor execution of the AI chip contract",
+          "Watch for any updates on competition in the AI market"
+        ],
+        "position_plan": {
+          "prefer_qty": 50,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:35:04+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "AMD's recent significant contract with Meta Platforms is driving strong sentiment and expected revenue growth in the AI chip market.",
+      "key_drivers": [
+        "Significant $100B AI chip deal with Meta",
+        "Expected boost to AMD's market position"
+      ],
+      "key_risks": [
+        "Uncertainty around execution of large-scale contracts",
+        "Potential competition from other tech firms"
+      ],
+      "valuation_view": "Positive earnings outlook and strong contract support current valuation",
+      "counterfactuals": [
+        "Failure to meet revenue targets under the Meta deal",
+        "Increased competition in AI chip market"
+      ],
+      "next_checks": [
+        "AMD's Q1 2023 financial results",
+        "Meta's progress on AI infrastructure buildout"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "AMD's recent significant contract with Meta Platforms is driving strong sentiment and expected revenue growth in the AI chip market.",
+        "key_drivers": [
+          "Significant $100B AI chip deal with Meta",
+          "Expected boost to AMD's market position"
+        ],
+        "key_risks": [
+          "Uncertainty around execution of large-scale contracts",
+          "Potential competition from other tech firms"
+        ],
+        "valuation_view": "Positive earnings outlook and strong contract support current valuation",
+        "counterfactuals": [
+          "Failure to meet revenue targets under the Meta deal",
+          "Increased competition in AI chip market"
+        ],
+        "next_checks": [
+          "AMD's Q1 2023 financial results",
+          "Meta's progress on AI infrastructure buildout"
+        ],
+        "position_plan": {
+          "prefer_qty": 50,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:16:42+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "AMD stock is surging after a significant $100B AI chip deal with Meta Platforms, boosting revenue and market position in the AI chip market.",
+      "key_drivers": [
+        "Significant contract with Meta Platforms",
+        "Positive sentiment from major analyst firms"
+      ],
+      "key_risks": [
+        "Uncertainty around execution of large contracts",
+        "Potential competition from other tech giants"
+      ],
+      "valuation_view": "Earnings outlook raised by TD Cowen to $60 in 2026, exceeding previous estimates.",
+      "counterfactuals": [
+        "Negative news on Meta's AI strategy or delays in contract implementation could impact sentiment negatively."
+      ],
+      "next_checks": [
+        "Monitor AMD’s Q1 earnings report for further details on the deal with Meta"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "AMD stock is surging after a significant $100B AI chip deal with Meta Platforms, boosting revenue and market position in the AI chip market.",
+        "key_drivers": [
+          "Significant contract with Meta Platforms",
+          "Positive sentiment from major analyst firms"
+        ],
+        "key_risks": [
+          "Uncertainty around execution of large contracts",
+          "Potential competition from other tech giants"
+        ],
+        "valuation_view": "Earnings outlook raised by TD Cowen to $60 in 2026, exceeding previous estimates.",
+        "counterfactuals": [
+          "Negative news on Meta's AI strategy or delays in contract implementation could impact sentiment negatively."
+        ],
+        "next_checks": [
+          "Monitor AMD’s Q1 earnings report for further details on the deal with Meta"
+        ],
+        "position_plan": {
+          "prefer_qty": 50,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:13:51+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "AMD stock is surging due to a significant multi-year AI chip deal with Meta Platforms, expected to boost revenue and market position.",
+      "key_drivers": [
+        "Significant contract with Meta Platforms",
+        "Positive sentiment from major analyst coverage"
+      ],
+      "key_risks": [
+        "Uncertainty in the broader tech sector",
+        "Potential competition from other vendors"
+      ],
+      "valuation_view": "Current price justified by strong earnings outlook and strategic partnerships",
+      "counterfactuals": [
+        "Negative news on AI chip market or Meta's financial performance could impact AMD stock"
+      ],
+      "next_checks": [
+        "Monitor Meta Platforms' quarterly results for any updates on the deal",
+        "Watch for new competitive threats in AI chips"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "AMD stock is surging due to a significant multi-year AI chip deal with Meta Platforms, expected to boost revenue and market position.",
+        "key_drivers": [
+          "Significant contract with Meta Platforms",
+          "Positive sentiment from major analyst coverage"
+        ],
+        "key_risks": [
+          "Uncertainty in the broader tech sector",
+          "Potential competition from other vendors"
+        ],
+        "valuation_view": "Current price justified by strong earnings outlook and strategic partnerships",
+        "counterfactuals": [
+          "Negative news on AI chip market or Meta's financial performance could impact AMD stock"
+        ],
+        "next_checks": [
+          "Monitor Meta Platforms' quarterly results for any updates on the deal",
+          "Watch for new competitive threats in AI chips"
+        ],
+        "position_plan": {
+          "prefer_qty": 50,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:10:44+09:00",
+      "action": "BUY",
+      "confidence": 0.85,
+      "rationale": "Market regime is risk-on and technical analysis indicates bullish sentiment. Recent news on Meta's multi-billion dollar AI chip deals with AMD supports the current position.",
+      "key_drivers": [
+        "Meta's hardware diversification strategy",
+        "Bullish market regime"
+      ],
+      "key_risks": [
+        "Uncertainty in economic data interpretation",
+        "Potential volatility due to geopolitical events"
+      ],
+      "valuation_view": "Current price aligns well with fair value assumptions based on earnings outlook and technical indicators",
+      "counterfactuals": [
+        "Negative Q1 earnings reports from major tech companies could impact sentiment"
+      ],
+      "next_checks": [
+        "Monitor Meta's AI chip deal progress",
+        "Watch economic data releases for market direction"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.85,
+        "rationale": "Market regime is risk-on and technical analysis indicates bullish sentiment. Recent news on Meta's multi-billion dollar AI chip deals with AMD supports the current position.",
+        "key_drivers": [
+          "Meta's hardware diversification strategy",
+          "Bullish market regime"
+        ],
+        "key_risks": [
+          "Uncertainty in economic data interpretation",
+          "Potential volatility due to geopolitical events"
+        ],
+        "valuation_view": "Current price aligns well with fair value assumptions based on earnings outlook and technical indicators",
+        "counterfactuals": [
+          "Negative Q1 earnings reports from major tech companies could impact sentiment"
+        ],
+        "next_checks": [
+          "Monitor Meta's AI chip deal progress",
+          "Watch economic data releases for market direction"
+        ],
+        "position_plan": {
+          "prefer_qty": 50,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:05:01+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "Current market conditions and recent news events indicate a neutral sentiment with no significant changes in valuation or position.",
+      "key_drivers": [
+        "Meta's multi-vendor AI chip deals with AMD and Google, expanding its hardware pipeline beyond Nvidia."
+      ],
+      "key_risks": [
+        "Unclear impact of Meta's diversification strategy on its overall valuation."
+      ],
+      "valuation_view": "No significant changes in fair value or range assumptions.",
+      "counterfactuals": [
+        "Significant negative news about AMD or Intel could alter the market sentiment and position."
+      ],
+      "next_checks": [
+        "Monitor Meta's progress with AI chip deals and their impact on stock performance."
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "Current market conditions and recent news events indicate a neutral sentiment with no significant changes in valuation or position.",
+        "key_drivers": [
+          "Meta's multi-vendor AI chip deals with AMD and Google, expanding its hardware pipeline beyond Nvidia."
+        ],
+        "key_risks": [
+          "Unclear impact of Meta's diversification strategy on its overall valuation."
+        ],
+        "valuation_view": "No significant changes in fair value or range assumptions.",
+        "counterfactuals": [
+          "Significant negative news about AMD or Intel could alter the market sentiment and position."
+        ],
+        "next_checks": [
+          "Monitor Meta's progress with AI chip deals and their impact on stock performance."
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:00:11+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "Current market conditions and recent news events indicate a neutral sentiment towards the stock. The overall score is within the hold range, with no significant bullish or bearish signals.",
+      "key_drivers": [
+        "Meta's multi-vendor AI chip deals are expanding its hardware pipeline but have an unclear impact on valuation.",
+        "J.M. Smucker reported strong earnings and board appointments which positively impacted investor confidence."
+      ],
+      "key_risks": [
+        "Uncertainty around Intel’s partnership with SambaNova, as the details of market challenges against Nvidia and Broadcom are limited.",
+        "General economic data and Q4 earnings reports have positive trends but do not significantly influence market sentiment."
+      ],
+      "valuation_view": "No significant changes in valuation assumptions based on recent events. Fair value remains unchanged.",
+      "counterfactuals": [
+        "A major negative earnings report or unexpected regulatory action could shift the sentiment towards a sell recommendation."
+      ],
+      "next_checks": [
+        "Monitor Meta's and Intel’s partnerships for any updates that may impact their respective valuations.",
+        "Keep an eye on broader economic data releases and market trends to assess overall market sentiment."
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "Current market conditions and recent news events indicate a neutral sentiment towards the stock. The overall score is within the hold range, with no significant bullish or bearish signals.",
+        "key_drivers": [
+          "Meta's multi-vendor AI chip deals are expanding its hardware pipeline but have an unclear impact on valuation.",
+          "J.M. Smucker reported strong earnings and board appointments which positively impacted investor confidence."
+        ],
+        "key_risks": [
+          "Uncertainty around Intel’s partnership with SambaNova, as the details of market challenges against Nvidia and Broadcom are limited.",
+          "General economic data and Q4 earnings reports have positive trends but do not significantly influence market sentiment."
+        ],
+        "valuation_view": "No significant changes in valuation assumptions based on recent events. Fair value remains unchanged.",
+        "counterfactuals": [
+          "A major negative earnings report or unexpected regulatory action could shift the sentiment towards a sell recommendation."
+        ],
+        "next_checks": [
+          "Monitor Meta's and Intel’s partnerships for any updates that may impact their respective valuations.",
+          "Keep an eye on broader economic data releases and market trends to assess overall market sentiment."
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:57:09+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "현재 주가는 안정적이고, 기술적 분석은 상승세를 유지하고 있습니다. 최근 뉴스 이벤트는 중립적이며 큰 영향을 미치지 않습니다.",
+      "key_drivers": [
+        "Meta의 다중 공급자 AI 칩 전략",
+        "J.M. Smucker의 양호한 실적"
+      ],
+      "key_risks": [
+        "AI 시장 경쟁 심화 가능성",
+        "경제 데이터에 대한 불확실성"
+      ],
+      "valuation_view": "현재 주가는 적정가치와 일치하며, 추가적인 긍정적인 이벤트 없이는 큰 변동이 예상되지 않습니다.",
+      "counterfactuals": [
+        "AI 시장에서 경쟁사들의 강한 반응",
+        "경제 성장 둔화"
+      ],
+      "next_checks": [
+        "Meta의 AI 칩 전략 진행 상황",
+        "J.M. Smucker의 사업 확장 동향"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "현재 주가는 안정적이고, 기술적 분석은 상승세를 유지하고 있습니다. 최근 뉴스 이벤트는 중립적이며 큰 영향을 미치지 않습니다.",
+        "key_drivers": [
+          "Meta의 다중 공급자 AI 칩 전략",
+          "J.M. Smucker의 양호한 실적"
+        ],
+        "key_risks": [
+          "AI 시장 경쟁 심화 가능성",
+          "경제 데이터에 대한 불확실성"
+        ],
+        "valuation_view": "현재 주가는 적정가치와 일치하며, 추가적인 긍정적인 이벤트 없이는 큰 변동이 예상되지 않습니다.",
+        "counterfactuals": [
+          "AI 시장에서 경쟁사들의 강한 반응",
+          "경제 성장 둔화"
+        ],
+        "next_checks": [
+          "Meta의 AI 칩 전략 진행 상황",
+          "J.M. Smucker의 사업 확장 동향"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:54:15+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "현재 주가는 412.5원이며, 시장은 위험 선호 모드에 있습니다. 기술적 분석은 상승세를 나타내고 있지만, 이익 신호는 중립적입니다.",
+      "key_drivers": [
+        "Meta Platforms의 다중 공급자 AI 칩 계약이 진행되고 있으며, AMD와 Google과의 거래가 확대되었습니다.",
+        "J.M. Smucker의 실적이 예상보다 좋았으며 주가는 상승세를 보이고 있습니다."
+      ],
+      "key_risks": [
+        "Meta Platforms의 다중 공급자 AI 칩 계약이 구체적인 세부 사항 없이 진행되고 있어 불확실성이 존재합니다.",
+        "전반적으로 시장은 중립적 태도를 유지하고 있으며, 경제 데이터와 Q4 실적이 긍정적이지만 이를 반영하지 않고 있습니다."
+      ],
+      "valuation_view": "현재 주가 평가는 공정 가치로 판단되며, 추가적인 이벤트나 정보 없이는 큰 변화는 예상되지 않습니다.",
+      "counterfactuals": [
+        "Meta Platforms의 AI 칩 계약이 구체화되어 실질적인 영향을 미치지 않을 경우",
+        "J.M. Smucker의 실적이 지속적으로 개선되지 못할 경우"
+      ],
+      "next_checks": [
+        "Meta Platforms와 AMD, Google 간의 AI 칩 계약 진행 상황",
+        "J.M. Smucker의 추가적인 경영진 변경 및 전략 발표"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "현재 주가는 412.5원이며, 시장은 위험 선호 모드에 있습니다. 기술적 분석은 상승세를 나타내고 있지만, 이익 신호는 중립적입니다.",
+        "key_drivers": [
+          "Meta Platforms의 다중 공급자 AI 칩 계약이 진행되고 있으며, AMD와 Google과의 거래가 확대되었습니다.",
+          "J.M. Smucker의 실적이 예상보다 좋았으며 주가는 상승세를 보이고 있습니다."
+        ],
+        "key_risks": [
+          "Meta Platforms의 다중 공급자 AI 칩 계약이 구체적인 세부 사항 없이 진행되고 있어 불확실성이 존재합니다.",
+          "전반적으로 시장은 중립적 태도를 유지하고 있으며, 경제 데이터와 Q4 실적이 긍정적이지만 이를 반영하지 않고 있습니다."
+        ],
+        "valuation_view": "현재 주가 평가는 공정 가치로 판단되며, 추가적인 이벤트나 정보 없이는 큰 변화는 예상되지 않습니다.",
+        "counterfactuals": [
+          "Meta Platforms의 AI 칩 계약이 구체화되어 실질적인 영향을 미치지 않을 경우",
+          "J.M. Smucker의 실적이 지속적으로 개선되지 못할 경우"
+        ],
+        "next_checks": [
+          "Meta Platforms와 AMD, Google 간의 AI 칩 계약 진행 상황",
+          "J.M. Smucker의 추가적인 경영진 변경 및 전략 발표"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:28:02+09:00",
+      "action": "BUY",
+      "confidence": 0.55,
+      "rationale": "Market sentiment is slightly bullish with recent positive earnings reports and strategic partnerships.",
+      "key_drivers": [
+        "J.M. Smucker's strong earnings report and board appointments with Elliott Investment Management boosting investor confidence.",
+        "Meta Platforms' multi-billion dollar AI chip deals with AMD and Google, expanding its hardware pipeline beyond Nvidia."
+      ],
+      "key_risks": [
+        "Unclear impact of Meta's multi-vendor strategy on valuation and market share.",
+        "Economic data and Q4 earnings reports are positive but overall market sentiment remains neutral."
+      ],
+      "valuation_view": "Recent news events support a bullish stance, with potential for further upside if economic conditions remain stable.",
+      "counterfactuals": [
+        "Negative surprises in Q1 earnings or unexpected shifts in Meta's hardware strategy could dampen investor confidence."
+      ],
+      "next_checks": [
+        "Monitor Q1 earnings reports and updates on Meta's AI chip partnerships.",
+        "Watch for any changes in market sentiment towards technology stocks."
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.55,
+        "rationale": "Market sentiment is slightly bullish with recent positive earnings reports and strategic partnerships.",
+        "key_drivers": [
+          "J.M. Smucker's strong earnings report and board appointments with Elliott Investment Management boosting investor confidence.",
+          "Meta Platforms' multi-billion dollar AI chip deals with AMD and Google, expanding its hardware pipeline beyond Nvidia."
+        ],
+        "key_risks": [
+          "Unclear impact of Meta's multi-vendor strategy on valuation and market share.",
+          "Economic data and Q4 earnings reports are positive but overall market sentiment remains neutral."
+        ],
+        "valuation_view": "Recent news events support a bullish stance, with potential for further upside if economic conditions remain stable.",
+        "counterfactuals": [
+          "Negative surprises in Q1 earnings or unexpected shifts in Meta's hardware strategy could dampen investor confidence."
+        ],
+        "next_checks": [
+          "Monitor Q1 earnings reports and updates on Meta's AI chip partnerships.",
+          "Watch for any changes in market sentiment towards technology stocks."
+        ],
+        "position_plan": {
+          "prefer_qty": 15,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:25:13+09:00",
+      "action": "BUY",
+      "confidence": 0.55,
+      "rationale": "The market is in a risk-off regime but the stock's technical analysis and recent news events indicate bullish sentiment, particularly from Meta’s multi-billion dollar AI chip deals with AMD.",
+      "key_drivers": [
+        "Meta’s multi-vendor AI chip strategy",
+        "Bullish technical signals"
+      ],
+      "key_risks": [
+        "Uncertainty around economic data",
+        "Potential diversification risks for Meta"
+      ],
+      "valuation_view": "Current price aligns well with fair value based on earnings outlook and strategic partnerships",
+      "counterfactuals": [
+        "Negative sentiment from broader market downturn",
+        "Deterioration in AMD's financial performance"
+      ],
+      "next_checks": [
+        "Earnings reports from key tech companies",
+        "Further developments in Meta’s AI chip strategy"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.55,
+        "rationale": "The market is in a risk-off regime but the stock's technical analysis and recent news events indicate bullish sentiment, particularly from Meta’s multi-billion dollar AI chip deals with AMD.",
+        "key_drivers": [
+          "Meta’s multi-vendor AI chip strategy",
+          "Bullish technical signals"
+        ],
+        "key_risks": [
+          "Uncertainty around economic data",
+          "Potential diversification risks for Meta"
+        ],
+        "valuation_view": "Current price aligns well with fair value based on earnings outlook and strategic partnerships",
+        "counterfactuals": [
+          "Negative sentiment from broader market downturn",
+          "Deterioration in AMD's financial performance"
+        ],
+        "next_checks": [
+          "Earnings reports from key tech companies",
+          "Further developments in Meta’s AI chip strategy"
+        ],
+        "position_plan": {
+          "prefer_qty": 15,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:22:22+09:00",
+      "action": "BUY",
+      "confidence": 0.55,
+      "rationale": "The market is currently in a risk-off regime but the technical analysis and recent news events suggest a bullish sentiment, particularly with Meta's multi-vendor AI chip deals and J.M. Smucker's strong earnings report.",
+      "key_drivers": [
+        "Meta Platforms' multi-billion dollar AI chip deals with AMD and Google",
+        "J.M. Smucker's better-than-expected quarterly earnings"
+      ],
+      "key_risks": [
+        "Uncertainty around Meta's hardware strategy diversification",
+        "Potential market volatility due to economic data and Q4 earnings reports"
+      ],
+      "valuation_view": "The current price is within a reasonable range, but the recent positive news events could push it higher.",
+      "counterfactuals": [
+        "Negative sentiment towards AMD or Meta's AI chip deals could dampen investor confidence",
+        "Economic data and Q4 earnings reports may not meet expectations"
+      ],
+      "next_checks": [
+        "Monitor Meta's progress on its multi-vendor AI chip strategy",
+        "Watch J.M. Smucker's stock performance post-earnings report"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.55,
+        "rationale": "The market is currently in a risk-off regime but the technical analysis and recent news events suggest a bullish sentiment, particularly with Meta's multi-vendor AI chip deals and J.M. Smucker's strong earnings report.",
+        "key_drivers": [
+          "Meta Platforms' multi-billion dollar AI chip deals with AMD and Google",
+          "J.M. Smucker's better-than-expected quarterly earnings"
+        ],
+        "key_risks": [
+          "Uncertainty around Meta's hardware strategy diversification",
+          "Potential market volatility due to economic data and Q4 earnings reports"
+        ],
+        "valuation_view": "The current price is within a reasonable range, but the recent positive news events could push it higher.",
+        "counterfactuals": [
+          "Negative sentiment towards AMD or Meta's AI chip deals could dampen investor confidence",
+          "Economic data and Q4 earnings reports may not meet expectations"
+        ],
+        "next_checks": [
+          "Monitor Meta's progress on its multi-vendor AI chip strategy",
+          "Watch J.M. Smucker's stock performance post-earnings report"
+        ],
+        "position_plan": {
+          "prefer_qty": 15,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:19:27+09:00",
+      "action": "BUY",
+      "confidence": 0.55,
+      "rationale": "Market sentiment is neutral to slightly bullish with recent positive earnings reports and strategic partnerships. The technical analysis score indicates a bullish trend.",
+      "key_drivers": [
+        "J.M. Smucker's strong earnings report and board appointments with an activist investor boosting confidence",
+        "Meta's multi-billion dollar AI chip deals with AMD and Google, expanding hardware pipeline beyond Nvidia"
+      ],
+      "key_risks": [
+        "Uncertainty around the full impact of Meta's multi-vendor strategy on valuation",
+        "Economic data remains positive but market sentiment is cautious"
+      ],
+      "valuation_view": "Current price aligns with recent earnings reports and strategic partnerships, suggesting fair value or slightly undervalued.",
+      "counterfactuals": [
+        "Negative economic data could dampen investor confidence",
+        "Failure of J.M. Smucker to maintain strong financial performance"
+      ],
+      "next_checks": [
+        "Monitor Q1 earnings reports for broader market trends",
+        "Evaluate impact of Meta's AI chip deals on competition and valuation"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.55,
+        "rationale": "Market sentiment is neutral to slightly bullish with recent positive earnings reports and strategic partnerships. The technical analysis score indicates a bullish trend.",
+        "key_drivers": [
+          "J.M. Smucker's strong earnings report and board appointments with an activist investor boosting confidence",
+          "Meta's multi-billion dollar AI chip deals with AMD and Google, expanding hardware pipeline beyond Nvidia"
+        ],
+        "key_risks": [
+          "Uncertainty around the full impact of Meta's multi-vendor strategy on valuation",
+          "Economic data remains positive but market sentiment is cautious"
+        ],
+        "valuation_view": "Current price aligns with recent earnings reports and strategic partnerships, suggesting fair value or slightly undervalued.",
+        "counterfactuals": [
+          "Negative economic data could dampen investor confidence",
+          "Failure of J.M. Smucker to maintain strong financial performance"
+        ],
+        "next_checks": [
+          "Monitor Q1 earnings reports for broader market trends",
+          "Evaluate impact of Meta's AI chip deals on competition and valuation"
+        ],
+        "position_plan": {
+          "prefer_qty": 15,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:16:22+09:00",
+      "action": "BUY",
+      "confidence": 0.55,
+      "rationale": "Market regime is risk-off but technical analysis and recent news suggest a bullish trend. Recent contract partnership with Meta indicates potential growth for AMD.",
+      "key_drivers": [
+        "Meta's multi-billion dollar AI chip deal",
+        "Bullish technical indicators"
+      ],
+      "key_risks": [
+        "Uncertainty in market sentiment towards Meta's hardware strategy",
+        "Potential volatility due to economic data and Q4 earnings reports"
+      ],
+      "valuation_view": "Current price is within fair value range based on recent earnings and partnership news",
+      "counterfactuals": [
+        "Negative sentiment from Meta regarding AMD's performance could impact stock negatively"
+      ],
+      "next_checks": [
+        "Monitor Meta's announcements related to AI chip deals",
+        "Review Q1 earnings reports for broader market trends"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.55,
+        "rationale": "Market regime is risk-off but technical analysis and recent news suggest a bullish trend. Recent contract partnership with Meta indicates potential growth for AMD.",
+        "key_drivers": [
+          "Meta's multi-billion dollar AI chip deal",
+          "Bullish technical indicators"
+        ],
+        "key_risks": [
+          "Uncertainty in market sentiment towards Meta's hardware strategy",
+          "Potential volatility due to economic data and Q4 earnings reports"
+        ],
+        "valuation_view": "Current price is within fair value range based on recent earnings and partnership news",
+        "counterfactuals": [
+          "Negative sentiment from Meta regarding AMD's performance could impact stock negatively"
+        ],
+        "next_checks": [
+          "Monitor Meta's announcements related to AI chip deals",
+          "Review Q1 earnings reports for broader market trends"
+        ],
+        "position_plan": {
+          "prefer_qty": 15,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:06:23+09:00",
+      "action": "BUY",
+      "confidence": 0.55,
+      "rationale": "Meta's multi-vendor AI chip strategy and J.M. Smucker's strong earnings are driving positive sentiment, despite overall market neutrality.",
+      "key_drivers": [
+        "Meta's diversification of hardware suppliers",
+        "J.M. Smucker's better-than-expected earnings"
+      ],
+      "key_risks": [
+        "Uncertainty around Intel-SambaNova partnership details",
+        "Market-wide neutral sentiment"
+      ],
+      "valuation_view": "Current price aligns with fair value based on recent positive news",
+      "counterfactuals": [
+        "Negative Q1 earnings reports could dampen market sentiment"
+      ],
+      "next_checks": [
+        "Q1 earnings releases, especially from tech companies"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.55,
+        "rationale": "Meta's multi-vendor AI chip strategy and J.M. Smucker's strong earnings are driving positive sentiment, despite overall market neutrality.",
+        "key_drivers": [
+          "Meta's diversification of hardware suppliers",
+          "J.M. Smucker's better-than-expected earnings"
+        ],
+        "key_risks": [
+          "Uncertainty around Intel-SambaNova partnership details",
+          "Market-wide neutral sentiment"
+        ],
+        "valuation_view": "Current price aligns with fair value based on recent positive news",
+        "counterfactuals": [
+          "Negative Q1 earnings reports could dampen market sentiment"
+        ],
+        "next_checks": [
+          "Q1 earnings releases, especially from tech companies"
+        ],
+        "position_plan": {
+          "prefer_qty": 15,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:56:53+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "Current market regime is risk-off with a negative score (-0.8), and the signal strength (0.18) does not meet the threshold for a strong action. Recent news events are neutral, with no significant positive or negative impact on valuation.",
+      "key_drivers": [
+        "Meta's multi-vendor AI chip deals with AMD and Google",
+        "J.M. Smucker's better-than-expected earnings and board appointments"
+      ],
+      "key_risks": [
+        "Unclear details of Cloudflare's strategic partnership with Mastercard",
+        "Risk-off market regime may continue to pressure stock prices"
+      ],
+      "valuation_view": "No significant change in valuation assumptions based on recent news events.",
+      "counterfactuals": [
+        "Positive earnings reports and partnerships could shift the market sentiment from risk-off to risk-on."
+      ],
+      "next_checks": [
+        "Monitor Meta's AI chip deals for any updates or additional details",
+        "Watch J.M. Smucker's stock performance post-earnings"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "Current market regime is risk-off with a negative score (-0.8), and the signal strength (0.18) does not meet the threshold for a strong action. Recent news events are neutral, with no significant positive or negative impact on valuation.",
+        "key_drivers": [
+          "Meta's multi-vendor AI chip deals with AMD and Google",
+          "J.M. Smucker's better-than-expected earnings and board appointments"
+        ],
+        "key_risks": [
+          "Unclear details of Cloudflare's strategic partnership with Mastercard",
+          "Risk-off market regime may continue to pressure stock prices"
+        ],
+        "valuation_view": "No significant change in valuation assumptions based on recent news events.",
+        "counterfactuals": [
+          "Positive earnings reports and partnerships could shift the market sentiment from risk-off to risk-on."
+        ],
+        "next_checks": [
+          "Monitor Meta's AI chip deals for any updates or additional details",
+          "Watch J.M. Smucker's stock performance post-earnings"
+        ],
+        "position_plan": {
+          "prefer_qty": 425,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:53:49+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "Current market regime is risk-off with a negative score (-0.8), and the signal strength (0.18) does not meet the required threshold for action.",
+      "key_drivers": [
+        "Meta's multi-vendor AI chip deals with AMD and Google, expanding its data center hardware pipeline beyond Nvidia",
+        "J.M. Smucker reported better-than-expected earnings and struck a deal with activist investor Elliott Investment Management"
+      ],
+      "key_risks": [
+        "Unclear impact of Meta’s diversification strategy on valuation",
+        "Market regime remains risk-off which could hinder stock performance despite positive news events"
+      ],
+      "valuation_view": "Fair value not provided, but recent earnings reports and strategic partnerships are positive signals for the company.",
+      "counterfactuals": [
+        "If market sentiment shifts to risk-on, this could provide a significant boost to the stock price",
+        "Negative developments in Meta's AI chip deals or J.M. Smucker’s board appointments with Elliott Investment Management could negatively impact valuation"
+      ],
+      "next_checks": [
+        "Monitor regime shift towards risk-on",
+        "Watch for any updates on strategic partnerships and their impact on company performance"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "Current market regime is risk-off with a negative score (-0.8), and the signal strength (0.18) does not meet the required threshold for action.",
+        "key_drivers": [
+          "Meta's multi-vendor AI chip deals with AMD and Google, expanding its data center hardware pipeline beyond Nvidia",
+          "J.M. Smucker reported better-than-expected earnings and struck a deal with activist investor Elliott Investment Management"
+        ],
+        "key_risks": [
+          "Unclear impact of Meta’s diversification strategy on valuation",
+          "Market regime remains risk-off which could hinder stock performance despite positive news events"
+        ],
+        "valuation_view": "Fair value not provided, but recent earnings reports and strategic partnerships are positive signals for the company.",
+        "counterfactuals": [
+          "If market sentiment shifts to risk-on, this could provide a significant boost to the stock price",
+          "Negative developments in Meta's AI chip deals or J.M. Smucker’s board appointments with Elliott Investment Management could negatively impact valuation"
+        ],
+        "next_checks": [
+          "Monitor regime shift towards risk-on",
+          "Watch for any updates on strategic partnerships and their impact on company performance"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:50:43+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "Current market regime is risk-off with a negative score (-0.8), and the signal strength (0.18) is below the preferred threshold for action. Recent news events are neutral to slightly positive, but not significant enough to override the current position.",
+      "key_drivers": [
+        "Meta's multi-vendor AI chip deals with AMD and Google",
+        "J.M. Smucker's strong earnings and board appointments"
+      ],
+      "key_risks": [
+        "Unclear impact of Meta's hardware diversification strategy on valuation",
+        "Potential market volatility due to economic data and Q4 earnings reports"
+      ],
+      "valuation_view": "Fair value not provided, but recent positive news could indicate potential upside if sentiment improves.",
+      "counterfactuals": [
+        "If the risk-off regime shifts to risk-on with a positive score, consider revisiting position",
+        "If J.M. Smucker's stock continues to outperform due to earnings and board changes"
+      ],
+      "next_checks": [
+        "Monitor market sentiment and regime shift indicators",
+        "Watch for updates on Meta's AI chip deals and their impact on valuation"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "Current market regime is risk-off with a negative score (-0.8), and the signal strength (0.18) is below the preferred threshold for action. Recent news events are neutral to slightly positive, but not significant enough to override the current position.",
+        "key_drivers": [
+          "Meta's multi-vendor AI chip deals with AMD and Google",
+          "J.M. Smucker's strong earnings and board appointments"
+        ],
+        "key_risks": [
+          "Unclear impact of Meta's hardware diversification strategy on valuation",
+          "Potential market volatility due to economic data and Q4 earnings reports"
+        ],
+        "valuation_view": "Fair value not provided, but recent positive news could indicate potential upside if sentiment improves.",
+        "counterfactuals": [
+          "If the risk-off regime shifts to risk-on with a positive score, consider revisiting position",
+          "If J.M. Smucker's stock continues to outperform due to earnings and board changes"
+        ],
+        "next_checks": [
+          "Monitor market sentiment and regime shift indicators",
+          "Watch for updates on Meta's AI chip deals and their impact on valuation"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:47:35+09:00",
+      "action": "SELL",
+      "confidence": 0.55,
+      "rationale": "The market is in a risk-off regime with a negative score of -0.8, indicating cautious sentiment. The recent news events are neutral to slightly bullish but do not significantly impact the current position.",
+      "key_drivers": [
+        "Meta's multi-vendor AI chip push",
+        "J.M. Smucker's strong earnings and board appointments"
+      ],
+      "key_risks": [
+        "Uncertainty around Meta's hardware strategy diversification",
+        "Potential market volatility due to economic data and Q4 earnings reports"
+      ],
+      "valuation_view": "The fair value is not provided, but the current price of $416.03 seems reasonable given recent news events.",
+      "counterfactuals": [
+        "If Meta's hardware strategy leads to significant revenue growth",
+        "If J.M. Smucker continues to outperform earnings expectations"
+      ],
+      "next_checks": [
+        "Monitor Meta's progress on AI chip deals with AMD and Google",
+        "Watch for updates on J.M. Smucker’s financial performance"
+      ],
+      "raw": {
+        "action": "SELL",
+        "confidence": 0.55,
+        "rationale": "The market is in a risk-off regime with a negative score of -0.8, indicating cautious sentiment. The recent news events are neutral to slightly bullish but do not significantly impact the current position.",
+        "key_drivers": [
+          "Meta's multi-vendor AI chip push",
+          "J.M. Smucker's strong earnings and board appointments"
+        ],
+        "key_risks": [
+          "Uncertainty around Meta's hardware strategy diversification",
+          "Potential market volatility due to economic data and Q4 earnings reports"
+        ],
+        "valuation_view": "The fair value is not provided, but the current price of $416.03 seems reasonable given recent news events.",
+        "counterfactuals": [
+          "If Meta's hardware strategy leads to significant revenue growth",
+          "If J.M. Smucker continues to outperform earnings expectations"
+        ],
+        "next_checks": [
+          "Monitor Meta's progress on AI chip deals with AMD and Google",
+          "Watch for updates on J.M. Smucker’s financial performance"
+        ],
+        "position_plan": {
+          "prefer_qty": 75,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:30:23+09:00",
+      "action": "HOLD",
+      "confidence": 0.567,
+      "rationale": "Market sentiment is neutral to slightly bullish with recent positive economic data and earnings reports, but the overall risk-off regime suggests caution.",
+      "key_drivers": [
+        "Positive Q4 earnings and revenue growth",
+        "J.M. Smucker's strong earnings report and board appointments"
+      ],
+      "key_risks": [
+        "Limited details on Intel-SambaNova partnership impact",
+        "Uncertainty around market sentiment in a risk-off regime"
+      ],
+      "valuation_view": "Current price is near fair value, but no specific valuation range provided.",
+      "counterfactuals": [
+        "Negative Q1 earnings reports could shift market sentiment negatively."
+      ],
+      "next_checks": [
+        "Q1 earnings reports and economic data releases",
+        "Further developments in major partnerships or regulatory news"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.567,
+        "rationale": "Market sentiment is neutral to slightly bullish with recent positive economic data and earnings reports, but the overall risk-off regime suggests caution.",
+        "key_drivers": [
+          "Positive Q4 earnings and revenue growth",
+          "J.M. Smucker's strong earnings report and board appointments"
+        ],
+        "key_risks": [
+          "Limited details on Intel-SambaNova partnership impact",
+          "Uncertainty around market sentiment in a risk-off regime"
+        ],
+        "valuation_view": "Current price is near fair value, but no specific valuation range provided.",
+        "counterfactuals": [
+          "Negative Q1 earnings reports could shift market sentiment negatively."
+        ],
+        "next_checks": [
+          "Q1 earnings reports and economic data releases",
+          "Further developments in major partnerships or regulatory news"
+        ],
+        "position_plan": {
+          "prefer_qty": 500,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:27:21+09:00",
+      "action": "HOLD",
+      "confidence": 0.567,
+      "rationale": "Current market sentiment is neutral with a risk-off regime. Recent news events are mixed, but overall do not significantly impact the stock's performance.",
+      "key_drivers": [
+        "Positive earnings report from J.M. Smucker",
+        "Intel and SambaNova partnership"
+      ],
+      "key_risks": [
+        "Uncertainty around economic data interpretation",
+        "Limited details on Intel-SambaNova deal"
+      ],
+      "valuation_view": "No significant change in valuation assumptions",
+      "counterfactuals": [
+        "Negative Q1 earnings reports could shift market sentiment"
+      ],
+      "next_checks": [
+        "Q1 earnings releases, broader economic indicators"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.567,
+        "rationale": "Current market sentiment is neutral with a risk-off regime. Recent news events are mixed, but overall do not significantly impact the stock's performance.",
+        "key_drivers": [
+          "Positive earnings report from J.M. Smucker",
+          "Intel and SambaNova partnership"
+        ],
+        "key_risks": [
+          "Uncertainty around economic data interpretation",
+          "Limited details on Intel-SambaNova deal"
+        ],
+        "valuation_view": "No significant change in valuation assumptions",
+        "counterfactuals": [
+          "Negative Q1 earnings reports could shift market sentiment"
+        ],
+        "next_checks": [
+          "Q1 earnings releases, broader economic indicators"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:24:20+09:00",
+      "action": "HOLD",
+      "confidence": 0.567,
+      "rationale": "Market sentiment is neutral to slightly bullish based on recent economic data and earnings reports, but the overall risk-off regime suggests caution.",
+      "key_drivers": [
+        "Positive Q4 earnings reports with revenues up almost 9% and earnings up more than 12%",
+        "J.M. Smucker's strong earnings and board appointments",
+        "Intel's partnership with SambaNova in AI data center accelerators"
+      ],
+      "key_risks": [
+        "Uncertainty around the details of Intel's partnership with SambaNova",
+        "Potential market volatility due to economic and geopolitical factors",
+        "Risk-off regime indicating cautious investor sentiment"
+      ],
+      "valuation_view": "Current valuation score is at 1.0, but fair value estimate is not provided.",
+      "counterfactuals": [
+        "Negative Q1 earnings reports could shift market sentiment negatively",
+        "Increased economic uncertainty or geopolitical tensions could lead to further risk-off conditions"
+      ],
+      "next_checks": [
+        "Monitor Q1 earnings reports for any significant deviations from expectations",
+        "Watch for updates on Intel's partnership with SambaNova and its impact on the company’s performance"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.567,
+        "rationale": "Market sentiment is neutral to slightly bullish based on recent economic data and earnings reports, but the overall risk-off regime suggests caution.",
+        "key_drivers": [
+          "Positive Q4 earnings reports with revenues up almost 9% and earnings up more than 12%",
+          "J.M. Smucker's strong earnings and board appointments",
+          "Intel's partnership with SambaNova in AI data center accelerators"
+        ],
+        "key_risks": [
+          "Uncertainty around the details of Intel's partnership with SambaNova",
+          "Potential market volatility due to economic and geopolitical factors",
+          "Risk-off regime indicating cautious investor sentiment"
+        ],
+        "valuation_view": "Current valuation score is at 1.0, but fair value estimate is not provided.",
+        "counterfactuals": [
+          "Negative Q1 earnings reports could shift market sentiment negatively",
+          "Increased economic uncertainty or geopolitical tensions could lead to further risk-off conditions"
+        ],
+        "next_checks": [
+          "Monitor Q1 earnings reports for any significant deviations from expectations",
+          "Watch for updates on Intel's partnership with SambaNova and its impact on the company’s performance"
+        ],
+        "position_plan": {
+          "prefer_qty": 500,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:21:19+09:00",
+      "action": "HOLD",
+      "confidence": 0.567,
+      "rationale": "Market sentiment is neutral with a risk-off regime and recent economic data showing positive Q4 earnings, but overall market remains cautious.",
+      "key_drivers": [
+        "Positive Q4 earnings reports",
+        "Neutral market sentiment"
+      ],
+      "key_risks": [
+        "Economic uncertainties",
+        "Potential negative news impacting investor confidence"
+      ],
+      "valuation_view": "Current valuation score is neutral with no specific fair value or range provided",
+      "counterfactuals": [
+        "Negative economic data releases, geopolitical events"
+      ],
+      "next_checks": [
+        "Continued monitoring of Q1 earnings reports and market sentiment"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.567,
+        "rationale": "Market sentiment is neutral with a risk-off regime and recent economic data showing positive Q4 earnings, but overall market remains cautious.",
+        "key_drivers": [
+          "Positive Q4 earnings reports",
+          "Neutral market sentiment"
+        ],
+        "key_risks": [
+          "Economic uncertainties",
+          "Potential negative news impacting investor confidence"
+        ],
+        "valuation_view": "Current valuation score is neutral with no specific fair value or range provided",
+        "counterfactuals": [
+          "Negative economic data releases, geopolitical events"
+        ],
+        "next_checks": [
+          "Continued monitoring of Q1 earnings reports and market sentiment"
+        ],
+        "position_plan": {
+          "prefer_qty": 500,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:18:12+09:00",
+      "action": "HOLD",
+      "confidence": 0.567,
+      "rationale": "Current market sentiment is neutral with a risk-off regime. Recent news events are mixed, but overall do not significantly impact the stock.",
+      "key_drivers": [
+        "Positive earnings report from J.M. Smucker",
+        "Neutral partnership between Intel and SambaNova"
+      ],
+      "key_risks": [
+        "Uncertainty in economic data interpretation",
+        "Limited details on strategic partnerships"
+      ],
+      "valuation_view": "Fair value is currently unassessed, but market sentiment suggests no immediate overvaluation or undervaluation.",
+      "counterfactuals": [
+        "Negative Q1 earnings reports could shift market sentiment",
+        "Major changes in AI market dynamics affecting Intel and SambaNova partnership"
+      ],
+      "next_checks": [
+        "Monitor upcoming economic data releases",
+        "Evaluate any significant developments from J.M. Smucker post-earnings report"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.567,
+        "rationale": "Current market sentiment is neutral with a risk-off regime. Recent news events are mixed, but overall do not significantly impact the stock.",
+        "key_drivers": [
+          "Positive earnings report from J.M. Smucker",
+          "Neutral partnership between Intel and SambaNova"
+        ],
+        "key_risks": [
+          "Uncertainty in economic data interpretation",
+          "Limited details on strategic partnerships"
+        ],
+        "valuation_view": "Fair value is currently unassessed, but market sentiment suggests no immediate overvaluation or undervaluation.",
+        "counterfactuals": [
+          "Negative Q1 earnings reports could shift market sentiment",
+          "Major changes in AI market dynamics affecting Intel and SambaNova partnership"
+        ],
+        "next_checks": [
+          "Monitor upcoming economic data releases",
+          "Evaluate any significant developments from J.M. Smucker post-earnings report"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:12:36+09:00",
+      "action": "HOLD",
+      "confidence": 0.567,
+      "rationale": "Current market sentiment is neutral with a slight positive bias from J.M. Smucker's earnings report and strategic partnership news, but overall economic data remains mixed.",
+      "key_drivers": [
+        "J.M. Smucker’s better-than-expected earnings",
+        "Intel-SambaNova alliance in AI"
+      ],
+      "key_risks": [
+        "Uncertainty around the full impact of the Intel-SambaNova deal on market competition",
+        "Potential negative sentiment from broader economic indicators"
+      ],
+      "valuation_view": "Market sentiment is currently neutral, with no significant change in valuation assumptions.",
+      "counterfactuals": [
+        "Negative Q1 earnings reports could shift market sentiment negatively.",
+        "Economic data showing further slowdown could impact overall market performance."
+      ],
+      "next_checks": [
+        "Q1 earnings reports for major companies",
+        "Further developments on Intel-SambaNova partnership"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.567,
+        "rationale": "Current market sentiment is neutral with a slight positive bias from J.M. Smucker's earnings report and strategic partnership news, but overall economic data remains mixed.",
+        "key_drivers": [
+          "J.M. Smucker’s better-than-expected earnings",
+          "Intel-SambaNova alliance in AI"
+        ],
+        "key_risks": [
+          "Uncertainty around the full impact of the Intel-SambaNova deal on market competition",
+          "Potential negative sentiment from broader economic indicators"
+        ],
+        "valuation_view": "Market sentiment is currently neutral, with no significant change in valuation assumptions.",
+        "counterfactuals": [
+          "Negative Q1 earnings reports could shift market sentiment negatively.",
+          "Economic data showing further slowdown could impact overall market performance."
+        ],
+        "next_checks": [
+          "Q1 earnings reports for major companies",
+          "Further developments on Intel-SambaNova partnership"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:09:32+09:00",
+      "action": "HOLD",
+      "confidence": 0.567,
+      "rationale": "Current market sentiment is neutral with a risk-off regime. Recent news events are mixed, but overall do not significantly impact the stock price or valuation.",
+      "key_drivers": [
+        "J.M. Smucker's strong earnings and board appointments have positively impacted investor confidence.",
+        "Intel's partnership with SambaNova may challenge competitors in AI inference market, though details are limited."
+      ],
+      "key_risks": [
+        "Uncertainty around economic data and Q4 earnings reports despite positive trends.",
+        "Limited impact from recent news events on stock price movement."
+      ],
+      "valuation_view": "Current valuation score is neutral with no significant changes in assumptions.",
+      "counterfactuals": [
+        "A shift towards a risk-on regime could positively impact the stock price.",
+        "Negative economic data or earnings reports could negatively affect investor sentiment."
+      ],
+      "next_checks": [
+        "Monitor Q1 earnings reports for any significant deviations from expectations.",
+        "Watch for further developments in Intel's partnership with SambaNova and its market impact."
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.567,
+        "rationale": "Current market sentiment is neutral with a risk-off regime. Recent news events are mixed, but overall do not significantly impact the stock price or valuation.",
+        "key_drivers": [
+          "J.M. Smucker's strong earnings and board appointments have positively impacted investor confidence.",
+          "Intel's partnership with SambaNova may challenge competitors in AI inference market, though details are limited."
+        ],
+        "key_risks": [
+          "Uncertainty around economic data and Q4 earnings reports despite positive trends.",
+          "Limited impact from recent news events on stock price movement."
+        ],
+        "valuation_view": "Current valuation score is neutral with no significant changes in assumptions.",
+        "counterfactuals": [
+          "A shift towards a risk-on regime could positively impact the stock price.",
+          "Negative economic data or earnings reports could negatively affect investor sentiment."
+        ],
+        "next_checks": [
+          "Monitor Q1 earnings reports for any significant deviations from expectations.",
+          "Watch for further developments in Intel's partnership with SambaNova and its market impact."
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-27T23:58:13+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "Market sentiment is neutral with recent economic data showing positive trends but not enough to shift the overall market regime from risk-off. Recent news events have mixed sentiments, with some bullish and others neutral.",
+      "key_drivers": [
+        "Positive Q4 earnings reports and economic data",
+        "Intel's partnership with SambaNova in AI accelerators"
+      ],
+      "key_risks": [
+        "Limited details on Intel-SambaNova alliance impact",
+        "Unclear market direction despite positive economic indicators"
+      ],
+      "valuation_view": "Current price is within fair value range, but no specific valuation model applied due to neutral sentiment.",
+      "counterfactuals": [
+        "If Q1 earnings reports are significantly better than expected, could shift market from risk-off to more bullish",
+        "Negative geopolitical events or economic downturn could further weaken the market"
+      ],
+      "next_checks": [
+        "Monitor Q1 earnings releases for broader market sentiment shifts",
+        "Watch for any major developments in Intel-SambaNova partnership"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "Market sentiment is neutral with recent economic data showing positive trends but not enough to shift the overall market regime from risk-off. Recent news events have mixed sentiments, with some bullish and others neutral.",
+        "key_drivers": [
+          "Positive Q4 earnings reports and economic data",
+          "Intel's partnership with SambaNova in AI accelerators"
+        ],
+        "key_risks": [
+          "Limited details on Intel-SambaNova alliance impact",
+          "Unclear market direction despite positive economic indicators"
+        ],
+        "valuation_view": "Current price is within fair value range, but no specific valuation model applied due to neutral sentiment.",
+        "counterfactuals": [
+          "If Q1 earnings reports are significantly better than expected, could shift market from risk-off to more bullish",
+          "Negative geopolitical events or economic downturn could further weaken the market"
+        ],
+        "next_checks": [
+          "Monitor Q1 earnings releases for broader market sentiment shifts",
+          "Watch for any major developments in Intel-SambaNova partnership"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-27T23:55:20+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "Current market sentiment is neutral with a risk-off regime and no significant news impacting the stock directly.",
+      "key_drivers": [
+        "Positive Q4 earnings reports and economic data are boosting overall market sentiment, but not driving individual stock performance."
+      ],
+      "key_risks": [
+        "Uncertainty around future economic data releases and potential changes in market sentiment could impact stock prices."
+      ],
+      "valuation_view": "No significant change in valuation assumptions.",
+      "counterfactuals": [
+        "A shift towards a risk-on regime or positive news specific to the company could alter the current neutral stance."
+      ],
+      "next_checks": [
+        "Monitor Q1 earnings reports and any changes in market sentiment indicators."
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "Current market sentiment is neutral with a risk-off regime and no significant news impacting the stock directly.",
+        "key_drivers": [
+          "Positive Q4 earnings reports and economic data are boosting overall market sentiment, but not driving individual stock performance."
+        ],
+        "key_risks": [
+          "Uncertainty around future economic data releases and potential changes in market sentiment could impact stock prices."
+        ],
+        "valuation_view": "No significant change in valuation assumptions.",
+        "counterfactuals": [
+          "A shift towards a risk-on regime or positive news specific to the company could alter the current neutral stance."
+        ],
+        "next_checks": [
+          "Monitor Q1 earnings reports and any changes in market sentiment indicators."
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-27T23:52:25+09:00",
+      "action": "HOLD",
+      "confidence": 0.54,
+      "rationale": "Current market sentiment is neutral with mixed signals from recent economic data and earnings reports. The risk-off regime suggests caution.",
+      "key_drivers": [
+        "Positive Q4 earnings and GDP growth, but concerns about quarterly GDP slowdown.",
+        "J.M. Smucker's strong earnings and board appointments with an activist investor."
+      ],
+      "key_risks": [
+        "Uncertainty around Micron Technology’s upcoming earnings report on March 18th.",
+        "Elon Musk's comments on aging have unclear implications for the market."
+      ],
+      "valuation_view": "No significant change in valuation assumptions based on recent news.",
+      "counterfactuals": [
+        "Negative Q1 GDP growth or poor Micron Technology earnings could shift sentiment negatively."
+      ],
+      "next_checks": [
+        "Micron Technology's fiscal second quarter results on March 18th, 2026.",
+        "Further economic data releases and market reactions to them."
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.54,
+        "rationale": "Current market sentiment is neutral with mixed signals from recent economic data and earnings reports. The risk-off regime suggests caution.",
+        "key_drivers": [
+          "Positive Q4 earnings and GDP growth, but concerns about quarterly GDP slowdown.",
+          "J.M. Smucker's strong earnings and board appointments with an activist investor."
+        ],
+        "key_risks": [
+          "Uncertainty around Micron Technology’s upcoming earnings report on March 18th.",
+          "Elon Musk's comments on aging have unclear implications for the market."
+        ],
+        "valuation_view": "No significant change in valuation assumptions based on recent news.",
+        "counterfactuals": [
+          "Negative Q1 GDP growth or poor Micron Technology earnings could shift sentiment negatively."
+        ],
+        "next_checks": [
+          "Micron Technology's fiscal second quarter results on March 18th, 2026.",
+          "Further economic data releases and market reactions to them."
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
     {
       "ts_kst": "2026-02-27T07:10:14+09:00",
       "action": "HOLD",
@@ -8635,1655 +10282,6 @@
         "position_plan": {
           "prefer_qty": 10,
           "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:38:00+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "The recent contract partnerships and earnings upgrades for AMD and Micron Technology have significantly boosted their stock prices, indicating strong market confidence in their ability to capitalize on the AI infrastructure boom. Key drivers include large-scale deals with Meta and positive analyst outlooks.",
-      "key_drivers": [
-        "Large $60B+ deal between AMD and Meta",
-        "Earnings upgrade from TD Cowen for Micron Technology",
-        "Strategic partnership between Cloudflare and Mastercard"
-      ],
-      "key_risks": [
-        "Potential slowdown in AI infrastructure demand",
-        "Competition intensifying among chip manufacturers",
-        "Market volatility affecting overall tech sector performance"
-      ],
-      "valuation_view": "The upgrades from TD Cowen suggest a strong earnings outlook, which could support higher valuations. However, the market's reaction to these deals and upgrades will be crucial in determining long-term value.",
-      "counterfactuals": [
-        "If Meta or AMD announces weaker-than-expected financial results next month",
-        "A significant shift in AI infrastructure demand trends",
-        "Negative regulatory changes impacting tech companies"
-      ],
-      "next_checks": [
-        "Quarterly earnings reports from AMD and Micron Technology",
-        "Meta's progress on its AI initiatives and data center expansion plans",
-        "Competitor actions and market share dynamics"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "The recent contract partnerships and earnings upgrades for AMD and Micron Technology have significantly boosted their stock prices, indicating strong market confidence in their ability to capitalize on the AI infrastructure boom. Key drivers include large-scale deals with Meta and positive analyst outlooks.",
-        "key_drivers": [
-          "Large $60B+ deal between AMD and Meta",
-          "Earnings upgrade from TD Cowen for Micron Technology",
-          "Strategic partnership between Cloudflare and Mastercard"
-        ],
-        "key_risks": [
-          "Potential slowdown in AI infrastructure demand",
-          "Competition intensifying among chip manufacturers",
-          "Market volatility affecting overall tech sector performance"
-        ],
-        "valuation_view": "The upgrades from TD Cowen suggest a strong earnings outlook, which could support higher valuations. However, the market's reaction to these deals and upgrades will be crucial in determining long-term value.",
-        "counterfactuals": [
-          "If Meta or AMD announces weaker-than-expected financial results next month",
-          "A significant shift in AI infrastructure demand trends",
-          "Negative regulatory changes impacting tech companies"
-        ],
-        "next_checks": [
-          "Quarterly earnings reports from AMD and Micron Technology",
-          "Meta's progress on its AI initiatives and data center expansion plans",
-          "Competitor actions and market share dynamics"
-        ],
-        "position_plan": {
-          "prefer_qty": 100,
-          "time_horizon": "swing_days|swing_weeks"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:36:17+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "The recent contract partnership between AMD and Meta Platforms is expected to significantly boost AMD's revenue and market position, driven by a $60 billion deal over five years. This large-scale agreement has already led to a surge in AMD's stock price and could result in Meta owning up to 10% of AMD’s shares. Additionally, TD Cowen's earnings upgrade for Micron Technology Inc. (MU) suggests strong growth potential in the semiconductor sector.",
-      "key_drivers": [
-        "Large-scale contract with Meta Platforms",
-        "Earnings upgrade from TD Cowen"
-      ],
-      "key_risks": [
-        "Potential delays or cancellations of the deal",
-        "Competition from Nvidia and other tech giants"
-      ],
-      "valuation_view": "The valuation of AMD is supported by strong analyst expectations, indicating that the stock may be undervalued relative to its earnings potential.",
-      "counterfactuals": [
-        "If Meta cancels or significantly reduces the deal with AMD",
-        "A downturn in the semiconductor market"
-      ],
-      "next_checks": [
-        "Monitor the progress of the contract and any updates from Meta on their AI infrastructure plans",
-        "Keep an eye on broader market trends affecting tech stocks"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "The recent contract partnership between AMD and Meta Platforms is expected to significantly boost AMD's revenue and market position, driven by a $60 billion deal over five years. This large-scale agreement has already led to a surge in AMD's stock price and could result in Meta owning up to 10% of AMD’s shares. Additionally, TD Cowen's earnings upgrade for Micron Technology Inc. (MU) suggests strong growth potential in the semiconductor sector.",
-        "key_drivers": [
-          "Large-scale contract with Meta Platforms",
-          "Earnings upgrade from TD Cowen"
-        ],
-        "key_risks": [
-          "Potential delays or cancellations of the deal",
-          "Competition from Nvidia and other tech giants"
-        ],
-        "valuation_view": "The valuation of AMD is supported by strong analyst expectations, indicating that the stock may be undervalued relative to its earnings potential.",
-        "counterfactuals": [
-          "If Meta cancels or significantly reduces the deal with AMD",
-          "A downturn in the semiconductor market"
-        ],
-        "next_checks": [
-          "Monitor the progress of the contract and any updates from Meta on their AI infrastructure plans",
-          "Keep an eye on broader market trends affecting tech stocks"
-        ],
-        "position_plan": {
-          "prefer_qty": 10,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:34:36+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "The recent contract partnership between AMD and Meta Platforms is expected to significantly boost AMD's revenue and market position, driving positive sentiment in the stock. Additionally, an earnings upgrade from TD Cowen further supports this outlook.",
-      "key_drivers": [
-        "Large-scale AI chip deal with Meta",
-        "Earnings upgrade from TD Cowen"
-      ],
-      "key_risks": [
-        "Potential delays or issues in executing the contract",
-        "Competition from Nvidia and other tech giants"
-      ],
-      "valuation_view": "The earnings upgrade suggests a potential revaluation of AMD's stock, with expectations for higher EPS. However, current valuation metrics should be closely monitored.",
-      "counterfactuals": [
-        "If Meta delays or cancels the AI chip deal",
-        "If AMD fails to deliver on its projected revenue growth"
-      ],
-      "next_checks": [
-        "Monitor execution of the contract and any updates from Meta",
-        "Review AMD's quarterly earnings report for signs of operational strength"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "The recent contract partnership between AMD and Meta Platforms is expected to significantly boost AMD's revenue and market position, driving positive sentiment in the stock. Additionally, an earnings upgrade from TD Cowen further supports this outlook.",
-        "key_drivers": [
-          "Large-scale AI chip deal with Meta",
-          "Earnings upgrade from TD Cowen"
-        ],
-        "key_risks": [
-          "Potential delays or issues in executing the contract",
-          "Competition from Nvidia and other tech giants"
-        ],
-        "valuation_view": "The earnings upgrade suggests a potential revaluation of AMD's stock, with expectations for higher EPS. However, current valuation metrics should be closely monitored.",
-        "counterfactuals": [
-          "If Meta delays or cancels the AI chip deal",
-          "If AMD fails to deliver on its projected revenue growth"
-        ],
-        "next_checks": [
-          "Monitor execution of the contract and any updates from Meta",
-          "Review AMD's quarterly earnings report for signs of operational strength"
-        ],
-        "position_plan": {
-          "prefer_qty": 100,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:32:43+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "The recent contract partnerships and earnings upgrades have significantly bolstered the outlook for both AMD and Micron Technology. The $100 billion+ deal between AMD and Meta Platforms is expected to substantially boost AMD's revenue and market position, while TD Cowen's EPS call on Micron Technology further enhances investor confidence.",
-      "key_drivers": [
-        "Large-scale contract with Meta Platforms (AMD)",
-        "Earnings upgrade from TD Cowen for Micron Technology",
-        "Strategic partnership between Cloudflare and Mastercard"
-      ],
-      "key_risks": [
-        "Market downturn or broader economic issues that could impact tech stocks",
-        "Technical difficulties in executing the AMD-Meta deal",
-        "Competition from Nvidia and other AI chip manufacturers"
-      ],
-      "valuation_view": "The recent upgrades and contracts suggest a revaluation of both companies' earnings potential, potentially leading to higher stock prices. However, it is crucial to monitor the execution of these deals and any changes in market conditions.",
-      "counterfactuals": [
-        "If AMD fails to deliver on its revenue targets from the Meta deal",
-        "If Micron Technology's EPS growth does not materialize as expected"
-      ],
-      "next_checks": [
-        "Quarterly earnings reports for both companies to assess performance against expectations",
-        "Market trends and overall tech sector health"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "The recent contract partnerships and earnings upgrades have significantly bolstered the outlook for both AMD and Micron Technology. The $100 billion+ deal between AMD and Meta Platforms is expected to substantially boost AMD's revenue and market position, while TD Cowen's EPS call on Micron Technology further enhances investor confidence.",
-        "key_drivers": [
-          "Large-scale contract with Meta Platforms (AMD)",
-          "Earnings upgrade from TD Cowen for Micron Technology",
-          "Strategic partnership between Cloudflare and Mastercard"
-        ],
-        "key_risks": [
-          "Market downturn or broader economic issues that could impact tech stocks",
-          "Technical difficulties in executing the AMD-Meta deal",
-          "Competition from Nvidia and other AI chip manufacturers"
-        ],
-        "valuation_view": "The recent upgrades and contracts suggest a revaluation of both companies' earnings potential, potentially leading to higher stock prices. However, it is crucial to monitor the execution of these deals and any changes in market conditions.",
-        "counterfactuals": [
-          "If AMD fails to deliver on its revenue targets from the Meta deal",
-          "If Micron Technology's EPS growth does not materialize as expected"
-        ],
-        "next_checks": [
-          "Quarterly earnings reports for both companies to assess performance against expectations",
-          "Market trends and overall tech sector health"
-        ],
-        "position_plan": {
-          "prefer_qty": 100,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:30:51+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "The recent contract partnership between AMD and Meta Platforms is expected to significantly boost AMD's revenue and market position, driving positive sentiment in the stock. Additionally, an earnings upgrade from TD Cowen further bolsters investor confidence.",
-      "key_drivers": [
-        "Large-scale contract with Meta (up to $60 billion worth of AI chips)",
-        "Earnings upgrade from TD Cowen ($60 EPS call for Micron Technology)"
-      ],
-      "key_risks": [
-        "Potential underperformance by AMD in delivering the promised products and services",
-        "Market-wide risks affecting semiconductor stocks"
-      ],
-      "valuation_view": "The earnings upgrade suggests a higher long-term valuation, but current market conditions should be closely monitored.",
-      "counterfactuals": [
-        "If AMD fails to deliver on its promises or faces significant delays in product delivery, the stock could underperform expectations.",
-        "A broader market downturn could negatively impact semiconductor stocks."
-      ],
-      "next_checks": [
-        "Quarterly earnings reports from AMD and Meta Platforms",
-        "Product development timelines and milestones for the AI chip deal"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "The recent contract partnership between AMD and Meta Platforms is expected to significantly boost AMD's revenue and market position, driving positive sentiment in the stock. Additionally, an earnings upgrade from TD Cowen further bolsters investor confidence.",
-        "key_drivers": [
-          "Large-scale contract with Meta (up to $60 billion worth of AI chips)",
-          "Earnings upgrade from TD Cowen ($60 EPS call for Micron Technology)"
-        ],
-        "key_risks": [
-          "Potential underperformance by AMD in delivering the promised products and services",
-          "Market-wide risks affecting semiconductor stocks"
-        ],
-        "valuation_view": "The earnings upgrade suggests a higher long-term valuation, but current market conditions should be closely monitored.",
-        "counterfactuals": [
-          "If AMD fails to deliver on its promises or faces significant delays in product delivery, the stock could underperform expectations.",
-          "A broader market downturn could negatively impact semiconductor stocks."
-        ],
-        "next_checks": [
-          "Quarterly earnings reports from AMD and Meta Platforms",
-          "Product development timelines and milestones for the AI chip deal"
-        ],
-        "position_plan": {
-          "prefer_qty": 100,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:28:46+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "The recent contract partnership between AMD and Meta Platforms is expected to significantly boost AMD's revenue and market position in the AI infrastructure space, as evidenced by the $100 billion+ deal. This large-scale agreement is likely to drive positive sentiment and stock price appreciation.",
-      "key_drivers": [
-        "Large multi-year AI chip supply deal with Meta",
-        "Potential for Meta to own up to 10% of AMD's stock"
-      ],
-      "key_risks": [
-        "Market downturn or reduced demand for AI infrastructure",
-        "Technical issues or delays in delivering the chips"
-      ],
-      "valuation_view": "The earnings upgrade from TD Cowen and the large-scale contract with Meta suggest that AMD is undervalued, given its potential to reach $60 EPS by 2026.",
-      "counterfactuals": [
-        "If Meta were to reduce or cancel the deal, it could negatively impact AMD's stock price.",
-        "A market downturn in AI infrastructure could also pose a risk."
-      ],
-      "next_checks": [
-        "Monitor Meta's progress and any updates on the contract",
-        "Keep an eye on AMD's financial performance and guidance"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "The recent contract partnership between AMD and Meta Platforms is expected to significantly boost AMD's revenue and market position in the AI infrastructure space, as evidenced by the $100 billion+ deal. This large-scale agreement is likely to drive positive sentiment and stock price appreciation.",
-        "key_drivers": [
-          "Large multi-year AI chip supply deal with Meta",
-          "Potential for Meta to own up to 10% of AMD's stock"
-        ],
-        "key_risks": [
-          "Market downturn or reduced demand for AI infrastructure",
-          "Technical issues or delays in delivering the chips"
-        ],
-        "valuation_view": "The earnings upgrade from TD Cowen and the large-scale contract with Meta suggest that AMD is undervalued, given its potential to reach $60 EPS by 2026.",
-        "counterfactuals": [
-          "If Meta were to reduce or cancel the deal, it could negatively impact AMD's stock price.",
-          "A market downturn in AI infrastructure could also pose a risk."
-        ],
-        "next_checks": [
-          "Monitor Meta's progress and any updates on the contract",
-          "Keep an eye on AMD's financial performance and guidance"
-        ],
-        "position_plan": {
-          "prefer_qty": 10,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:26:55+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "The recent contract partnership between AMD and Meta Platforms is expected to significantly boost AMD's revenue and market position in the AI infrastructure space, supported by an earnings upgrade from TD Cowen.",
-      "key_drivers": [
-        "Large-scale multi-year deal with Meta",
-        "Earnings upgrade from TD Cowen"
-      ],
-      "key_risks": [
-        "Potential underperformance of Meta’s AI initiatives",
-        "Competition in the AI chip market"
-      ],
-      "valuation_view": "The earnings upgrade suggests a potential revaluation of AMD's stock, indicating that the company may be undervalued based on its long-term growth prospects.",
-      "counterfactuals": [
-        "If Meta's AI projects do not materialize as expected",
-        "If other chip manufacturers offer more competitive products"
-      ],
-      "next_checks": [
-        "Quarterly earnings reports from AMD and Meta to assess progress of the partnership",
-        "Market share changes in the AI infrastructure space"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "The recent contract partnership between AMD and Meta Platforms is expected to significantly boost AMD's revenue and market position in the AI infrastructure space, supported by an earnings upgrade from TD Cowen.",
-        "key_drivers": [
-          "Large-scale multi-year deal with Meta",
-          "Earnings upgrade from TD Cowen"
-        ],
-        "key_risks": [
-          "Potential underperformance of Meta’s AI initiatives",
-          "Competition in the AI chip market"
-        ],
-        "valuation_view": "The earnings upgrade suggests a potential revaluation of AMD's stock, indicating that the company may be undervalued based on its long-term growth prospects.",
-        "counterfactuals": [
-          "If Meta's AI projects do not materialize as expected",
-          "If other chip manufacturers offer more competitive products"
-        ],
-        "next_checks": [
-          "Quarterly earnings reports from AMD and Meta to assess progress of the partnership",
-          "Market share changes in the AI infrastructure space"
-        ],
-        "position_plan": {
-          "prefer_qty": 10,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:25:02+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "The recent contract partnership between AMD and Meta Platforms is driving significant positive sentiment in the stock, with a potential $100 billion deal expected to boost AMD's revenue and market position significantly. Additionally, an earnings upgrade from TD Cowen further supports the bullish outlook on Micron Technology (MU).",
-      "key_drivers": [
-        "Large-scale contract with Meta Platforms",
-        "Earnings upgrade from TD Cowen"
-      ],
-      "key_risks": [
-        "Market downturn or unexpected guidance from AMD or Meta",
-        "Competition in the AI chip market intensifying"
-      ],
-      "valuation_view": "The earnings upgrade and large contract suggest that AMD's valuation may be undervalued, given the potential for significant revenue growth.",
-      "counterfactuals": [
-        "If AMD fails to deliver on its revenue projections or if Meta reduces its investment in AI infrastructure",
-        "A downturn in the broader tech sector could negatively impact investor sentiment"
-      ],
-      "next_checks": [
-        "Quarterly earnings reports from both AMD and Meta Platforms",
-        "Further details on the contract terms between AMD and Meta"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "The recent contract partnership between AMD and Meta Platforms is driving significant positive sentiment in the stock, with a potential $100 billion deal expected to boost AMD's revenue and market position significantly. Additionally, an earnings upgrade from TD Cowen further supports the bullish outlook on Micron Technology (MU).",
-        "key_drivers": [
-          "Large-scale contract with Meta Platforms",
-          "Earnings upgrade from TD Cowen"
-        ],
-        "key_risks": [
-          "Market downturn or unexpected guidance from AMD or Meta",
-          "Competition in the AI chip market intensifying"
-        ],
-        "valuation_view": "The earnings upgrade and large contract suggest that AMD's valuation may be undervalued, given the potential for significant revenue growth.",
-        "counterfactuals": [
-          "If AMD fails to deliver on its revenue projections or if Meta reduces its investment in AI infrastructure",
-          "A downturn in the broader tech sector could negatively impact investor sentiment"
-        ],
-        "next_checks": [
-          "Quarterly earnings reports from both AMD and Meta Platforms",
-          "Further details on the contract terms between AMD and Meta"
-        ],
-        "position_plan": {
-          "prefer_qty": 10,
-          "time_horizon": "swing_weeks"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:23:21+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "The recent contract partnership between AMD and Meta Platforms is expected to significantly boost AMD's revenue and market position, as evidenced by the large-scale deal worth up to $100 billion. This deal could result in Meta owning as much as 10% of AMD’s stock, further validating AMD's AI chip capabilities and positioning it as a key supplier in the race to challenge Nvidia's dominance.",
-      "key_drivers": [
-        "Large contract with Meta Platforms",
-        "Potential for increased market share and revenue growth"
-      ],
-      "key_risks": [
-        "Market competition from other tech giants like Nvidia",
-        "Uncertainty around the execution of the deal"
-      ],
-      "valuation_view": "The earnings upgrade from TD Cowen to $60 EPS by 2026, above its prior bull-case assumption of $50, suggests that AMD is undervalued and has strong growth potential.",
-      "counterfactuals": [
-        "If Meta were to reduce or cancel the deal with AMD",
-        "A significant downturn in the broader tech market"
-      ],
-      "next_checks": [
-        "Quarterly earnings reports from both AMD and Meta Platforms",
-        "Market share updates for AMD's AI chip sales"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "The recent contract partnership between AMD and Meta Platforms is expected to significantly boost AMD's revenue and market position, as evidenced by the large-scale deal worth up to $100 billion. This deal could result in Meta owning as much as 10% of AMD’s stock, further validating AMD's AI chip capabilities and positioning it as a key supplier in the race to challenge Nvidia's dominance.",
-        "key_drivers": [
-          "Large contract with Meta Platforms",
-          "Potential for increased market share and revenue growth"
-        ],
-        "key_risks": [
-          "Market competition from other tech giants like Nvidia",
-          "Uncertainty around the execution of the deal"
-        ],
-        "valuation_view": "The earnings upgrade from TD Cowen to $60 EPS by 2026, above its prior bull-case assumption of $50, suggests that AMD is undervalued and has strong growth potential.",
-        "counterfactuals": [
-          "If Meta were to reduce or cancel the deal with AMD",
-          "A significant downturn in the broader tech market"
-        ],
-        "next_checks": [
-          "Quarterly earnings reports from both AMD and Meta Platforms",
-          "Market share updates for AMD's AI chip sales"
-        ],
-        "position_plan": {
-          "prefer_qty": 10,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:21:29+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "The recent contract partnership between AMD and Meta Platforms is expected to significantly boost AMD's revenue and market position, driving positive sentiment in the stock. Additionally, an earnings upgrade from TD Cowen further supports this outlook.",
-      "key_drivers": [
-        "Large-scale contract with Meta",
-        "Earnings upgrade from TD Cowen"
-      ],
-      "key_risks": [
-        "Potential underperformance of AMD's other business segments",
-        "Market competition and challenges in the AI chip market"
-      ],
-      "valuation_view": "The earnings upgrade suggests a potential re-rating of Micron Technology, indicating that the stock may be undervalued based on the revised long-term earnings outlook.",
-      "counterfactuals": [
-        "If AMD fails to deliver on its revenue targets with Meta",
-        "A downturn in the broader semiconductor market"
-      ],
-      "next_checks": [
-        "Quarterly earnings report from AMD for any signs of strain in other business segments",
-        "Competitor performance and market share dynamics"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "The recent contract partnership between AMD and Meta Platforms is expected to significantly boost AMD's revenue and market position, driving positive sentiment in the stock. Additionally, an earnings upgrade from TD Cowen further supports this outlook.",
-        "key_drivers": [
-          "Large-scale contract with Meta",
-          "Earnings upgrade from TD Cowen"
-        ],
-        "key_risks": [
-          "Potential underperformance of AMD's other business segments",
-          "Market competition and challenges in the AI chip market"
-        ],
-        "valuation_view": "The earnings upgrade suggests a potential re-rating of Micron Technology, indicating that the stock may be undervalued based on the revised long-term earnings outlook.",
-        "counterfactuals": [
-          "If AMD fails to deliver on its revenue targets with Meta",
-          "A downturn in the broader semiconductor market"
-        ],
-        "next_checks": [
-          "Quarterly earnings report from AMD for any signs of strain in other business segments",
-          "Competitor performance and market share dynamics"
-        ],
-        "position_plan": {
-          "prefer_qty": 100,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:19:41+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "The recent contract between AMD and Meta Platforms is expected to significantly boost AMD's revenue and market position, driving positive sentiment among investors. Additionally, the earnings upgrade from TD Cowen further supports this outlook.",
-      "key_drivers": [
-        "Large-scale AI chip deal with Meta",
-        "Earnings upgrade from TD Cowen"
-      ],
-      "key_risks": [
-        "Potential underperformance of AMD's other business segments",
-        "Market competition, particularly from Nvidia"
-      ],
-      "valuation_view": "The earnings upgrade suggests a potential revaluation of AMD’s stock, given the significant revenue boost expected from the Meta deal.",
-      "counterfactuals": [
-        "If AMD fails to deliver on its AI chip performance or if the Meta deal does not materialize as anticipated",
-        "A downturn in the broader tech market could negatively impact investor sentiment"
-      ],
-      "next_checks": [
-        "Quarterly earnings reports from both AMD and Meta to assess the progress of the partnership",
-        "Market reaction to any further announcements regarding AI chip technology or partnerships"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "The recent contract between AMD and Meta Platforms is expected to significantly boost AMD's revenue and market position, driving positive sentiment among investors. Additionally, the earnings upgrade from TD Cowen further supports this outlook.",
-        "key_drivers": [
-          "Large-scale AI chip deal with Meta",
-          "Earnings upgrade from TD Cowen"
-        ],
-        "key_risks": [
-          "Potential underperformance of AMD's other business segments",
-          "Market competition, particularly from Nvidia"
-        ],
-        "valuation_view": "The earnings upgrade suggests a potential revaluation of AMD’s stock, given the significant revenue boost expected from the Meta deal.",
-        "counterfactuals": [
-          "If AMD fails to deliver on its AI chip performance or if the Meta deal does not materialize as anticipated",
-          "A downturn in the broader tech market could negatively impact investor sentiment"
-        ],
-        "next_checks": [
-          "Quarterly earnings reports from both AMD and Meta to assess the progress of the partnership",
-          "Market reaction to any further announcements regarding AI chip technology or partnerships"
-        ],
-        "position_plan": {
-          "prefer_qty": 100,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:17:57+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "The recent contract partnerships and earnings upgrades have significantly boosted the stock prices of AMD and Micron Technology. The $100 billion+ deal between Meta and AMD, along with TD Cowen's EPS call for Micron Technology, indicate strong growth potential in the AI infrastructure market.",
-      "key_drivers": [
-        "Large-scale contract with Meta (AMD)",
-        "Earnings upgrade from TD Cowen for Micron Technology",
-        "Strategic partnership between Cloudflare and Mastercard"
-      ],
-      "key_risks": [
-        "Market downturn affecting tech stocks",
-        "Competition intensifying in the AI chip market",
-        "Meta's performance impacting AMD's stock price"
-      ],
-      "valuation_view": "The earnings upgrade for Micron Technology suggests a potential re-rating of its valuation, while the large contract with Meta is expected to significantly boost AMD's revenue and market position.",
-      "counterfactuals": [
-        "A downturn in Meta's financial performance could negatively impact AMD's stock price",
-        "If other tech companies do not follow suit with similar AI chip deals, it may limit AMD's growth potential"
-      ],
-      "next_checks": [
-        "Quarterly earnings reports from both AMD and Micron Technology",
-        "Meta's progress on its AI initiatives and data center expansion plans"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "The recent contract partnerships and earnings upgrades have significantly boosted the stock prices of AMD and Micron Technology. The $100 billion+ deal between Meta and AMD, along with TD Cowen's EPS call for Micron Technology, indicate strong growth potential in the AI infrastructure market.",
-        "key_drivers": [
-          "Large-scale contract with Meta (AMD)",
-          "Earnings upgrade from TD Cowen for Micron Technology",
-          "Strategic partnership between Cloudflare and Mastercard"
-        ],
-        "key_risks": [
-          "Market downturn affecting tech stocks",
-          "Competition intensifying in the AI chip market",
-          "Meta's performance impacting AMD's stock price"
-        ],
-        "valuation_view": "The earnings upgrade for Micron Technology suggests a potential re-rating of its valuation, while the large contract with Meta is expected to significantly boost AMD's revenue and market position.",
-        "counterfactuals": [
-          "A downturn in Meta's financial performance could negatively impact AMD's stock price",
-          "If other tech companies do not follow suit with similar AI chip deals, it may limit AMD's growth potential"
-        ],
-        "next_checks": [
-          "Quarterly earnings reports from both AMD and Micron Technology",
-          "Meta's progress on its AI initiatives and data center expansion plans"
-        ],
-        "position_plan": {
-          "prefer_qty": 100,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:16:12+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "The recent contract between AMD and Meta Platforms is expected to significantly boost AMD's revenue and market position in the AI chip market, as validated by TD Cowen's earnings upgrade for Micron Technology (MU). These factors are driving positive sentiment in both companies.",
-      "key_drivers": [
-        "Large-scale contract with Meta Platforms",
-        "Earnings upgrade from TD Cowen for Micron Technology"
-      ],
-      "key_risks": [
-        "Potential delays or issues in the implementation of the AMD-Meta deal",
-        "Competition intensifying in the AI chip market"
-      ],
-      "valuation_view": "The recent analyst upgrades and positive contract news suggest that both AMD and Micron Technology are undervalued based on their long-term growth prospects.",
-      "counterfactuals": [
-        "If TD Cowen downgrades its earnings outlook for Micron Technology, it could negatively impact investor sentiment.",
-        "A delay in the implementation of the AMD-Meta deal could lead to a temporary dip in stock prices."
-      ],
-      "next_checks": [
-        "Monitor the progress and execution of the AMD-Meta contract",
-        "Review any upcoming analyst reports on both companies"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "The recent contract between AMD and Meta Platforms is expected to significantly boost AMD's revenue and market position in the AI chip market, as validated by TD Cowen's earnings upgrade for Micron Technology (MU). These factors are driving positive sentiment in both companies.",
-        "key_drivers": [
-          "Large-scale contract with Meta Platforms",
-          "Earnings upgrade from TD Cowen for Micron Technology"
-        ],
-        "key_risks": [
-          "Potential delays or issues in the implementation of the AMD-Meta deal",
-          "Competition intensifying in the AI chip market"
-        ],
-        "valuation_view": "The recent analyst upgrades and positive contract news suggest that both AMD and Micron Technology are undervalued based on their long-term growth prospects.",
-        "counterfactuals": [
-          "If TD Cowen downgrades its earnings outlook for Micron Technology, it could negatively impact investor sentiment.",
-          "A delay in the implementation of the AMD-Meta deal could lead to a temporary dip in stock prices."
-        ],
-        "next_checks": [
-          "Monitor the progress and execution of the AMD-Meta contract",
-          "Review any upcoming analyst reports on both companies"
-        ],
-        "position_plan": {
-          "prefer_qty": 100,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:14:32+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "The recent contract partnership between AMD and Meta Platforms is expected to significantly boost AMD's revenue and market position in the AI infrastructure space, as evidenced by the $100 billion+ deal. Additionally, TD Cowen’s earnings upgrade for Micron Technology Inc. (MU) suggests strong growth potential in the semiconductor sector.",
-      "key_drivers": [
-        "Large-scale contract with Meta Platforms",
-        "Earnings upgrade from TD Cowen"
-      ],
-      "key_risks": [
-        "Potential delays or cancellations of the AMD-Meta deal",
-        "Competition intensifying in the AI chip market"
-      ],
-      "valuation_view": "The upgrades and positive sentiment suggest that current valuations may be undervaluing the growth potential, especially given the strong analyst support.",
-      "counterfactuals": [
-        "If the AMD-Meta deal is delayed or canceled, it could negatively impact AMD's stock price.",
-        "A downturn in the semiconductor market could affect overall performance."
-      ],
-      "next_checks": [
-        "Monitor the progress of the AMD-Meta deal and any potential regulatory hurdles",
-        "Keep an eye on broader market trends affecting semiconductor stocks"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "The recent contract partnership between AMD and Meta Platforms is expected to significantly boost AMD's revenue and market position in the AI infrastructure space, as evidenced by the $100 billion+ deal. Additionally, TD Cowen’s earnings upgrade for Micron Technology Inc. (MU) suggests strong growth potential in the semiconductor sector.",
-        "key_drivers": [
-          "Large-scale contract with Meta Platforms",
-          "Earnings upgrade from TD Cowen"
-        ],
-        "key_risks": [
-          "Potential delays or cancellations of the AMD-Meta deal",
-          "Competition intensifying in the AI chip market"
-        ],
-        "valuation_view": "The upgrades and positive sentiment suggest that current valuations may be undervaluing the growth potential, especially given the strong analyst support.",
-        "counterfactuals": [
-          "If the AMD-Meta deal is delayed or canceled, it could negatively impact AMD's stock price.",
-          "A downturn in the semiconductor market could affect overall performance."
-        ],
-        "next_checks": [
-          "Monitor the progress of the AMD-Meta deal and any potential regulatory hurdles",
-          "Keep an eye on broader market trends affecting semiconductor stocks"
-        ],
-        "position_plan": {
-          "prefer_qty": 100,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:12:40+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "The recent contract partnerships and earnings upgrades for AMD and Micron Technology have significantly boosted investor sentiment. The $100 billion+ deal between AMD and Meta Platforms is expected to substantially increase AMD's revenue and market share, while the earnings upgrade from TD Cowen for Micron Technology indicates strong long-term growth potential.",
-      "key_drivers": [
-        "Large-scale contract with Meta Platforms",
-        "Earnings upgrade from TD Cowen"
-      ],
-      "key_risks": [
-        "Market downturns or macroeconomic factors affecting tech stocks",
-        "Competitor actions that could undermine AMD's position in the AI chip market"
-      ],
-      "valuation_view": "The upgrades and positive contract news suggest a revaluation of both companies' earnings potential, which may not yet be fully reflected in current stock prices.",
-      "counterfactuals": [
-        "A downturn in Meta Platforms' business could negatively impact AMD's revenue streams",
-        "Nvidia or other competitors might introduce more competitive products"
-      ],
-      "next_checks": [
-        "Quarterly earnings reports from both companies to assess financial health and growth trajectory",
-        "Market reactions to any new developments in AI chip technology or partnerships"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "The recent contract partnerships and earnings upgrades for AMD and Micron Technology have significantly boosted investor sentiment. The $100 billion+ deal between AMD and Meta Platforms is expected to substantially increase AMD's revenue and market share, while the earnings upgrade from TD Cowen for Micron Technology indicates strong long-term growth potential.",
-        "key_drivers": [
-          "Large-scale contract with Meta Platforms",
-          "Earnings upgrade from TD Cowen"
-        ],
-        "key_risks": [
-          "Market downturns or macroeconomic factors affecting tech stocks",
-          "Competitor actions that could undermine AMD's position in the AI chip market"
-        ],
-        "valuation_view": "The upgrades and positive contract news suggest a revaluation of both companies' earnings potential, which may not yet be fully reflected in current stock prices.",
-        "counterfactuals": [
-          "A downturn in Meta Platforms' business could negatively impact AMD's revenue streams",
-          "Nvidia or other competitors might introduce more competitive products"
-        ],
-        "next_checks": [
-          "Quarterly earnings reports from both companies to assess financial health and growth trajectory",
-          "Market reactions to any new developments in AI chip technology or partnerships"
-        ],
-        "position_plan": {
-          "prefer_qty": 100,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:10:44+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "The recent contract between AMD and Meta Platforms is expected to significantly boost AMD's revenue and market position, driven by a multi-year deal worth up to $60 billion in AI chips. This large-scale agreement, coupled with an earnings upgrade from TD Cowen, has already positively impacted AMD's stock price. The strategic partnership between Cloudflare and Mastercard also shows potential for expanding Cloudflare's offerings, though the exact impact is uncertain.",
-      "key_drivers": [
-        "Large contract with Meta Platforms",
-        "Earnings upgrade from TD Cowen"
-      ],
-      "key_risks": [
-        "Market downturns affecting tech stocks",
-        "Technical issues or delays in chip production and delivery"
-      ],
-      "valuation_view": "The earnings upgrade suggests that AMD's long-term prospects are stronger than previously thought, potentially supporting a higher valuation. However, the exact revenue impact from the Meta deal is still uncertain.",
-      "counterfactuals": [
-        "If AMD fails to deliver on its chip supply commitments to Meta",
-        "A significant market downturn affecting tech stocks"
-      ],
-      "next_checks": [
-        "Quarterly earnings reports for AMD and Meta Platforms",
-        "Chip production and delivery timelines"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "The recent contract between AMD and Meta Platforms is expected to significantly boost AMD's revenue and market position, driven by a multi-year deal worth up to $60 billion in AI chips. This large-scale agreement, coupled with an earnings upgrade from TD Cowen, has already positively impacted AMD's stock price. The strategic partnership between Cloudflare and Mastercard also shows potential for expanding Cloudflare's offerings, though the exact impact is uncertain.",
-        "key_drivers": [
-          "Large contract with Meta Platforms",
-          "Earnings upgrade from TD Cowen"
-        ],
-        "key_risks": [
-          "Market downturns affecting tech stocks",
-          "Technical issues or delays in chip production and delivery"
-        ],
-        "valuation_view": "The earnings upgrade suggests that AMD's long-term prospects are stronger than previously thought, potentially supporting a higher valuation. However, the exact revenue impact from the Meta deal is still uncertain.",
-        "counterfactuals": [
-          "If AMD fails to deliver on its chip supply commitments to Meta",
-          "A significant market downturn affecting tech stocks"
-        ],
-        "next_checks": [
-          "Quarterly earnings reports for AMD and Meta Platforms",
-          "Chip production and delivery timelines"
-        ],
-        "position_plan": {
-          "prefer_qty": 10,
-          "time_horizon": "swing_weeks"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:08:53+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "The recent contract between AMD and Meta Platforms is expected to significantly boost AMD's revenue and market position, supported by an earnings upgrade from TD Cowen. Cloudflare's strategic partnership with Mastercard also indicates potential growth opportunities.",
-      "key_drivers": [
-        "Multi-billion dollar deal with Meta",
-        "Earnings upgrade from TD Cowen",
-        "Strategic partnership between Cloudflare and Mastercard"
-      ],
-      "key_risks": [
-        "Market downturn affecting tech stocks",
-        "Technical issues or delays in product development",
-        "Competition intensifying in the AI chip market"
-      ],
-      "valuation_view": "The earnings upgrade suggests a higher long-term EPS target, indicating potential undervaluation. However, current valuations should be closely monitored.",
-      "counterfactuals": [
-        "If AMD fails to deliver on its revenue targets",
-        "If Meta decides not to fully utilize the AI chips as expected"
-      ],
-      "next_checks": [
-        "Quarterly earnings reports from both AMD and Meta",
-        "Product development updates from AMD",
-        "Market trends in the AI chip sector"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "The recent contract between AMD and Meta Platforms is expected to significantly boost AMD's revenue and market position, supported by an earnings upgrade from TD Cowen. Cloudflare's strategic partnership with Mastercard also indicates potential growth opportunities.",
-        "key_drivers": [
-          "Multi-billion dollar deal with Meta",
-          "Earnings upgrade from TD Cowen",
-          "Strategic partnership between Cloudflare and Mastercard"
-        ],
-        "key_risks": [
-          "Market downturn affecting tech stocks",
-          "Technical issues or delays in product development",
-          "Competition intensifying in the AI chip market"
-        ],
-        "valuation_view": "The earnings upgrade suggests a higher long-term EPS target, indicating potential undervaluation. However, current valuations should be closely monitored.",
-        "counterfactuals": [
-          "If AMD fails to deliver on its revenue targets",
-          "If Meta decides not to fully utilize the AI chips as expected"
-        ],
-        "next_checks": [
-          "Quarterly earnings reports from both AMD and Meta",
-          "Product development updates from AMD",
-          "Market trends in the AI chip sector"
-        ],
-        "position_plan": {
-          "prefer_qty": 100,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:07:01+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "The recent contract between AMD and Meta Platforms is expected to significantly boost AMD's revenue and market position, driven by a multi-year deal worth up to $60 billion in AI chips. This large-scale validation from a major tech player like Meta is likely to drive positive sentiment and stock price growth.",
-      "key_drivers": [
-        "Large contract with Meta Platforms",
-        "Potential for AMD to capture up to 10% of Meta's chip needs"
-      ],
-      "key_risks": [
-        "Market competition from Nvidia",
-        "Meta's ability to fulfill its purchase commitments"
-      ],
-      "valuation_view": "The earnings upgrade from TD Cowen and the large contract with Meta suggest that AMD's long-term EPS could reach $60, significantly higher than previous expectations. This indicates a strong valuation potential.",
-      "counterfactuals": [
-        "If Meta fails to follow through on its purchase commitments, it could negatively impact AMD's stock price.",
-        "A slowdown in the AI infrastructure market could reduce demand for AMD's chips."
-      ],
-      "next_checks": [
-        "Monitor Meta's progress and execution of the chip deal",
-        "Track AMD's financial performance and guidance"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "The recent contract between AMD and Meta Platforms is expected to significantly boost AMD's revenue and market position, driven by a multi-year deal worth up to $60 billion in AI chips. This large-scale validation from a major tech player like Meta is likely to drive positive sentiment and stock price growth.",
-        "key_drivers": [
-          "Large contract with Meta Platforms",
-          "Potential for AMD to capture up to 10% of Meta's chip needs"
-        ],
-        "key_risks": [
-          "Market competition from Nvidia",
-          "Meta's ability to fulfill its purchase commitments"
-        ],
-        "valuation_view": "The earnings upgrade from TD Cowen and the large contract with Meta suggest that AMD's long-term EPS could reach $60, significantly higher than previous expectations. This indicates a strong valuation potential.",
-        "counterfactuals": [
-          "If Meta fails to follow through on its purchase commitments, it could negatively impact AMD's stock price.",
-          "A slowdown in the AI infrastructure market could reduce demand for AMD's chips."
-        ],
-        "next_checks": [
-          "Monitor Meta's progress and execution of the chip deal",
-          "Track AMD's financial performance and guidance"
-        ],
-        "position_plan": {
-          "prefer_qty": 100,
-          "time_horizon": "swing_weeks"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:05:04+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "The recent contract between AMD and Meta Platforms is expected to significantly boost AMD's revenue and market position in the AI infrastructure space, as highlighted by a major earnings upgrade from TD Cowen. Additionally, while Cloudflare's partnership with Mastercard may have neutral impact, it could potentially expand its customer base.",
-      "key_drivers": [
-        "Large-scale contract with Meta Platforms",
-        "Earnings upgrade from TD Cowen"
-      ],
-      "key_risks": [
-        "Potential underperformance of AMD in other areas",
-        "Market competition and challenges from Nvidia"
-      ],
-      "valuation_view": "The earnings upgrade suggests a strong growth outlook, but the current valuation should be monitored for any changes.",
-      "counterfactuals": [
-        "If Meta's AI buildout slows down or if there are delays in the delivery of AMD chips, it could negatively impact the revenue forecast.",
-        "A significant market downturn or increased competition from Nvidia could also pose risks."
-      ],
-      "next_checks": [
-        "Monitor Meta's progress on its AI initiatives and any updates on the contract timeline",
-        "Keep an eye on AMD's financial performance and guidance for upcoming quarters"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "The recent contract between AMD and Meta Platforms is expected to significantly boost AMD's revenue and market position in the AI infrastructure space, as highlighted by a major earnings upgrade from TD Cowen. Additionally, while Cloudflare's partnership with Mastercard may have neutral impact, it could potentially expand its customer base.",
-        "key_drivers": [
-          "Large-scale contract with Meta Platforms",
-          "Earnings upgrade from TD Cowen"
-        ],
-        "key_risks": [
-          "Potential underperformance of AMD in other areas",
-          "Market competition and challenges from Nvidia"
-        ],
-        "valuation_view": "The earnings upgrade suggests a strong growth outlook, but the current valuation should be monitored for any changes.",
-        "counterfactuals": [
-          "If Meta's AI buildout slows down or if there are delays in the delivery of AMD chips, it could negatively impact the revenue forecast.",
-          "A significant market downturn or increased competition from Nvidia could also pose risks."
-        ],
-        "next_checks": [
-          "Monitor Meta's progress on its AI initiatives and any updates on the contract timeline",
-          "Keep an eye on AMD's financial performance and guidance for upcoming quarters"
-        ],
-        "position_plan": {
-          "prefer_qty": 100,
-          "time_horizon": "swing_weeks"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:03:08+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "The recent contract between AMD and Meta Platforms for AI chips is a significant positive catalyst, expected to boost AMD's revenue and market position significantly. Additionally, an earnings upgrade from TD Cowen further enhances investor confidence.",
-      "key_drivers": [
-        "Large-scale contract with Meta",
-        "Earnings upgrade from TD Cowen"
-      ],
-      "key_risks": [
-        "Potential underperformance of Meta’s AI initiatives",
-        "Competition in the AI chip market"
-      ],
-      "valuation_view": "The earnings upgrade suggests a potential re-rating of AMD's stock, given the strong revenue growth outlook. However, the current valuation should be closely monitored for any changes.",
-      "counterfactuals": [
-        "If Meta’s AI initiatives underperform or face regulatory challenges",
-        "If other chip manufacturers successfully challenge AMD in the market"
-      ],
-      "next_checks": [
-        "Quarterly earnings reports from both AMD and Meta to gauge progress on AI initiatives",
-        "Market share dynamics in the AI chip sector"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "The recent contract between AMD and Meta Platforms for AI chips is a significant positive catalyst, expected to boost AMD's revenue and market position significantly. Additionally, an earnings upgrade from TD Cowen further enhances investor confidence.",
-        "key_drivers": [
-          "Large-scale contract with Meta",
-          "Earnings upgrade from TD Cowen"
-        ],
-        "key_risks": [
-          "Potential underperformance of Meta’s AI initiatives",
-          "Competition in the AI chip market"
-        ],
-        "valuation_view": "The earnings upgrade suggests a potential re-rating of AMD's stock, given the strong revenue growth outlook. However, the current valuation should be closely monitored for any changes.",
-        "counterfactuals": [
-          "If Meta’s AI initiatives underperform or face regulatory challenges",
-          "If other chip manufacturers successfully challenge AMD in the market"
-        ],
-        "next_checks": [
-          "Quarterly earnings reports from both AMD and Meta to gauge progress on AI initiatives",
-          "Market share dynamics in the AI chip sector"
-        ],
-        "position_plan": {
-          "prefer_qty": 100,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:01:27+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "The recent contract partnership between AMD and Meta Platforms is expected to significantly boost AMD's revenue and market position in the AI infrastructure space, as evidenced by the $60 billion+ deal. Additionally, TD Cowen's earnings upgrade for Micron Technology Inc. (MU) suggests strong growth potential in the semiconductor sector.",
-      "key_drivers": [
-        "Large-scale contract with Meta Platforms",
-        "Earnings upgrade from TD Cowen"
-      ],
-      "key_risks": [
-        "Potential delays or issues in delivering AI chips to Meta",
-        "Competition from Nvidia and other tech giants"
-      ],
-      "valuation_view": "The recent analyst upgrades and positive market sentiment suggest that the current valuation may be undervalued, especially given the strong growth prospects.",
-      "counterfactuals": [
-        "A significant delay or cancellation of the AMD-Meta deal",
-        "Negative earnings reports from other semiconductor companies"
-      ],
-      "next_checks": [
-        "Quarterly earnings reports for both AMD and Micron Technology",
-        "Market reaction to any potential delays in the AMD-Meta deal"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "The recent contract partnership between AMD and Meta Platforms is expected to significantly boost AMD's revenue and market position in the AI infrastructure space, as evidenced by the $60 billion+ deal. Additionally, TD Cowen's earnings upgrade for Micron Technology Inc. (MU) suggests strong growth potential in the semiconductor sector.",
-        "key_drivers": [
-          "Large-scale contract with Meta Platforms",
-          "Earnings upgrade from TD Cowen"
-        ],
-        "key_risks": [
-          "Potential delays or issues in delivering AI chips to Meta",
-          "Competition from Nvidia and other tech giants"
-        ],
-        "valuation_view": "The recent analyst upgrades and positive market sentiment suggest that the current valuation may be undervalued, especially given the strong growth prospects.",
-        "counterfactuals": [
-          "A significant delay or cancellation of the AMD-Meta deal",
-          "Negative earnings reports from other semiconductor companies"
-        ],
-        "next_checks": [
-          "Quarterly earnings reports for both AMD and Micron Technology",
-          "Market reaction to any potential delays in the AMD-Meta deal"
-        ],
-        "position_plan": {
-          "prefer_qty": 100,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:59:32+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "The recent contract partnership between AMD and Meta Platforms is driving significant positive sentiment in AMD's stock, with a potential $100 billion deal expected to boost revenue and market position. Additionally, an earnings upgrade from TD Cowen further supports the bullish outlook.",
-      "key_drivers": [
-        "Large-scale AI chip deal with Meta",
-        "Earnings upgrade from TD Cowen"
-      ],
-      "key_risks": [
-        "Potential delays or cancellations of the contract",
-        "Competition in the AI infrastructure market"
-      ],
-      "valuation_view": "The earnings upgrade suggests a higher long-term EPS target, indicating that the stock may be undervalued given current market conditions.",
-      "counterfactuals": [
-        "If AMD fails to deliver on its promised revenue growth from Meta",
-        "A downturn in Meta's business could negatively impact AMD's contract"
-      ],
-      "next_checks": [
-        "Monitor quarterly earnings reports for both companies",
-        "Track the progress of the AI chip development and deployment"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "The recent contract partnership between AMD and Meta Platforms is driving significant positive sentiment in AMD's stock, with a potential $100 billion deal expected to boost revenue and market position. Additionally, an earnings upgrade from TD Cowen further supports the bullish outlook.",
-        "key_drivers": [
-          "Large-scale AI chip deal with Meta",
-          "Earnings upgrade from TD Cowen"
-        ],
-        "key_risks": [
-          "Potential delays or cancellations of the contract",
-          "Competition in the AI infrastructure market"
-        ],
-        "valuation_view": "The earnings upgrade suggests a higher long-term EPS target, indicating that the stock may be undervalued given current market conditions.",
-        "counterfactuals": [
-          "If AMD fails to deliver on its promised revenue growth from Meta",
-          "A downturn in Meta's business could negatively impact AMD's contract"
-        ],
-        "next_checks": [
-          "Monitor quarterly earnings reports for both companies",
-          "Track the progress of the AI chip development and deployment"
-        ],
-        "position_plan": {
-          "prefer_qty": 100,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:57:29+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "The recent contract partnership between AMD and Meta Platforms is expected to significantly boost AMD's revenue and market position, driven by a multi-year deal worth up to $100 billion for AI chips. This large-scale validation from a key player in the tech industry is likely to drive positive sentiment and stock price growth.",
-      "key_drivers": [
-        "Large contract with Meta Platforms",
-        "Potential for AMD to become a major supplier of AI infrastructure"
-      ],
-      "key_risks": [
-        "Market downturn or competitive pressures",
-        "Technical issues in chip production or delivery"
-      ],
-      "valuation_view": "The earnings upgrade from TD Cowen and the large-scale contract with Meta suggest that AMD's long-term earnings outlook is improving, potentially justifying a higher valuation.",
-      "counterfactuals": [
-        "If AMD fails to deliver on its promises of AI chip supply or if Meta reduces its investment in AI infrastructure, this could negatively impact AMD’s stock price.",
-        "A downturn in the broader tech market could also affect investor sentiment towards AMD."
-      ],
-      "next_checks": [
-        "Quarterly earnings reports from both AMD and Meta",
-        "Technical progress on new AI chip designs and production"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "The recent contract partnership between AMD and Meta Platforms is expected to significantly boost AMD's revenue and market position, driven by a multi-year deal worth up to $100 billion for AI chips. This large-scale validation from a key player in the tech industry is likely to drive positive sentiment and stock price growth.",
-        "key_drivers": [
-          "Large contract with Meta Platforms",
-          "Potential for AMD to become a major supplier of AI infrastructure"
-        ],
-        "key_risks": [
-          "Market downturn or competitive pressures",
-          "Technical issues in chip production or delivery"
-        ],
-        "valuation_view": "The earnings upgrade from TD Cowen and the large-scale contract with Meta suggest that AMD's long-term earnings outlook is improving, potentially justifying a higher valuation.",
-        "counterfactuals": [
-          "If AMD fails to deliver on its promises of AI chip supply or if Meta reduces its investment in AI infrastructure, this could negatively impact AMD’s stock price.",
-          "A downturn in the broader tech market could also affect investor sentiment towards AMD."
-        ],
-        "next_checks": [
-          "Quarterly earnings reports from both AMD and Meta",
-          "Technical progress on new AI chip designs and production"
-        ],
-        "position_plan": {
-          "prefer_qty": 100,
-          "time_horizon": "swing_weeks"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:55:34+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "The recent contract partnership between AMD and Meta Platforms is expected to significantly boost AMD's revenue and market position in the AI infrastructure space, as evidenced by the $60 billion deal. This large-scale agreement could result in Meta owning up to 10% of AMD’s stock, further validating AMD's capabilities and positioning it to challenge Nvidia's dominance.",
-      "key_drivers": [
-        "Large contract with Meta Platforms",
-        "Potential for increased market share in AI infrastructure"
-      ],
-      "key_risks": [
-        "Market competition from other chip manufacturers",
-        "Meta's financial performance could impact the deal’s success"
-      ],
-      "valuation_view": "The earnings upgrade from TD Cowen to $60 EPS by 2026, above previous estimates of $50, suggests that AMD is undervalued and poised for significant growth.",
-      "counterfactuals": [
-        "If Meta's financial performance declines or if the deal with AMD does not materialize as expected",
-        "If other chip manufacturers successfully challenge AMD’s market position"
-      ],
-      "next_checks": [
-        "Quarterly earnings reports from both AMD and Meta to assess the health of their respective businesses",
-        "Market share changes in AI infrastructure after the deal is implemented"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "The recent contract partnership between AMD and Meta Platforms is expected to significantly boost AMD's revenue and market position in the AI infrastructure space, as evidenced by the $60 billion deal. This large-scale agreement could result in Meta owning up to 10% of AMD’s stock, further validating AMD's capabilities and positioning it to challenge Nvidia's dominance.",
-        "key_drivers": [
-          "Large contract with Meta Platforms",
-          "Potential for increased market share in AI infrastructure"
-        ],
-        "key_risks": [
-          "Market competition from other chip manufacturers",
-          "Meta's financial performance could impact the deal’s success"
-        ],
-        "valuation_view": "The earnings upgrade from TD Cowen to $60 EPS by 2026, above previous estimates of $50, suggests that AMD is undervalued and poised for significant growth.",
-        "counterfactuals": [
-          "If Meta's financial performance declines or if the deal with AMD does not materialize as expected",
-          "If other chip manufacturers successfully challenge AMD’s market position"
-        ],
-        "next_checks": [
-          "Quarterly earnings reports from both AMD and Meta to assess the health of their respective businesses",
-          "Market share changes in AI infrastructure after the deal is implemented"
-        ],
-        "position_plan": {
-          "prefer_qty": 100,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:53:43+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "The recent contract partnerships and earnings upgrades have significantly boosted the stock prices of AMD and Micron Technology. The multi-billion dollar deals with Meta are expected to enhance both companies' market positions, driving revenue growth and positive investor sentiment.",
-      "key_drivers": [
-        "Large-scale AI chip deal between AMD and Meta",
-        "Earnings upgrade from TD Cowen for Micron Technology",
-        "Strategic partnership between Cloudflare and Mastercard"
-      ],
-      "key_risks": [
-        "Market downturn or slowdown in AI infrastructure demand",
-        "Technical issues with new products or services",
-        "Competition intensifying, especially from Nvidia"
-      ],
-      "valuation_view": "The upgrades to earnings expectations suggest that both companies are undervalued and poised for significant growth. The recent contracts indicate strong demand and market validation.",
-      "counterfactuals": [
-        "If Meta were to reduce its investment in AI infrastructure or if there's a slowdown in the tech sector, it could negatively impact AMD’s stock price.",
-        "A failure in delivering new products or services on time could harm Cloudflare’s strategic partnership with Mastercard."
-      ],
-      "next_checks": [
-        "Monitor Meta's progress and spending on AI projects",
-        "Review AMD's quarterly earnings for any signs of strain",
-        "Keep an eye on market trends and competition"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "The recent contract partnerships and earnings upgrades have significantly boosted the stock prices of AMD and Micron Technology. The multi-billion dollar deals with Meta are expected to enhance both companies' market positions, driving revenue growth and positive investor sentiment.",
-        "key_drivers": [
-          "Large-scale AI chip deal between AMD and Meta",
-          "Earnings upgrade from TD Cowen for Micron Technology",
-          "Strategic partnership between Cloudflare and Mastercard"
-        ],
-        "key_risks": [
-          "Market downturn or slowdown in AI infrastructure demand",
-          "Technical issues with new products or services",
-          "Competition intensifying, especially from Nvidia"
-        ],
-        "valuation_view": "The upgrades to earnings expectations suggest that both companies are undervalued and poised for significant growth. The recent contracts indicate strong demand and market validation.",
-        "counterfactuals": [
-          "If Meta were to reduce its investment in AI infrastructure or if there's a slowdown in the tech sector, it could negatively impact AMD’s stock price.",
-          "A failure in delivering new products or services on time could harm Cloudflare’s strategic partnership with Mastercard."
-        ],
-        "next_checks": [
-          "Monitor Meta's progress and spending on AI projects",
-          "Review AMD's quarterly earnings for any signs of strain",
-          "Keep an eye on market trends and competition"
-        ],
-        "position_plan": {
-          "prefer_qty": 100,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:51:48+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "The recent contract partnership between AMD and Meta Platforms is expected to significantly boost AMD's revenue and market position, driving positive sentiment among investors.",
-      "key_drivers": [
-        "Large-scale multi-year deal with Meta worth up to $60 billion",
-        "Potential for AMD to become a key supplier in the AI infrastructure market"
-      ],
-      "key_risks": [
-        "Market conditions could change, affecting demand for AMD's products",
-        "Competition from Nvidia and other tech giants may intensify"
-      ],
-      "valuation_view": "The earnings upgrade from TD Cowen suggests that Micron Technology (MU) is undervalued. The potential for significant revenue growth from the new contract with Meta supports this view.",
-      "counterfactuals": [
-        "If AMD fails to deliver on its product performance or if the deal with Meta does not materialize as expected, it could negatively impact stock prices.",
-        "A downturn in the tech sector could affect investor sentiment and stock performance."
-      ],
-      "next_checks": [
-        "Monitor AMD's quarterly earnings reports for signs of revenue growth from the new contract",
-        "Keep an eye on market conditions and competition levels"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "The recent contract partnership between AMD and Meta Platforms is expected to significantly boost AMD's revenue and market position, driving positive sentiment among investors.",
-        "key_drivers": [
-          "Large-scale multi-year deal with Meta worth up to $60 billion",
-          "Potential for AMD to become a key supplier in the AI infrastructure market"
-        ],
-        "key_risks": [
-          "Market conditions could change, affecting demand for AMD's products",
-          "Competition from Nvidia and other tech giants may intensify"
-        ],
-        "valuation_view": "The earnings upgrade from TD Cowen suggests that Micron Technology (MU) is undervalued. The potential for significant revenue growth from the new contract with Meta supports this view.",
-        "counterfactuals": [
-          "If AMD fails to deliver on its product performance or if the deal with Meta does not materialize as expected, it could negatively impact stock prices.",
-          "A downturn in the tech sector could affect investor sentiment and stock performance."
-        ],
-        "next_checks": [
-          "Monitor AMD's quarterly earnings reports for signs of revenue growth from the new contract",
-          "Keep an eye on market conditions and competition levels"
-        ],
-        "position_plan": {
-          "prefer_qty": 100,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:49:56+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "The recent contract between AMD and Meta Platforms is expected to significantly boost AMD's revenue and market position in the AI chip market, as validated by TD Cowen’s earnings upgrade for Micron Technology.",
-      "key_drivers": [
-        "Large-scale multi-year deal with Meta",
-        "Earnings upgrade from TD Cowen for Micron Technology"
-      ],
-      "key_risks": [
-        "Potential underperformance of AMD's stock if the market does not fully appreciate the value of the Meta deal in the short term.",
-        "Risks associated with broader market conditions and overall semiconductor industry trends."
-      ],
-      "valuation_view": "The upgrade to $60 EPS for Micron Technology by TD Cowen suggests a strong earnings outlook, which could be a key driver for the stock's valuation. However, AMD’s stock price may also benefit from this positive sentiment.",
-      "counterfactuals": [
-        "If Meta were to reduce its investment in AI infrastructure or if there is a significant slowdown in the broader semiconductor market, it could negatively impact AMD’s stock performance."
-      ],
-      "next_checks": [
-        "Monitor AMD's quarterly earnings reports for any signs of underperformance.",
-        "Keep an eye on Meta's progress and spending in AI-related projects to gauge the sustainability of the deal."
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "The recent contract between AMD and Meta Platforms is expected to significantly boost AMD's revenue and market position in the AI chip market, as validated by TD Cowen’s earnings upgrade for Micron Technology.",
-        "key_drivers": [
-          "Large-scale multi-year deal with Meta",
-          "Earnings upgrade from TD Cowen for Micron Technology"
-        ],
-        "key_risks": [
-          "Potential underperformance of AMD's stock if the market does not fully appreciate the value of the Meta deal in the short term.",
-          "Risks associated with broader market conditions and overall semiconductor industry trends."
-        ],
-        "valuation_view": "The upgrade to $60 EPS for Micron Technology by TD Cowen suggests a strong earnings outlook, which could be a key driver for the stock's valuation. However, AMD’s stock price may also benefit from this positive sentiment.",
-        "counterfactuals": [
-          "If Meta were to reduce its investment in AI infrastructure or if there is a significant slowdown in the broader semiconductor market, it could negatively impact AMD’s stock performance."
-        ],
-        "next_checks": [
-          "Monitor AMD's quarterly earnings reports for any signs of underperformance.",
-          "Keep an eye on Meta's progress and spending in AI-related projects to gauge the sustainability of the deal."
-        ],
-        "position_plan": {
-          "prefer_qty": 100,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:48:08+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "The recent contract with Meta for AMD is a significant positive development that could significantly boost its revenue and market position in the AI chip space, challenging Nvidia's dominance.",
-      "key_drivers": [
-        "Large-scale contract with Meta expected to increase AMD's revenue and market share",
-        "Earnings upgrade from TD Cowen for Micron Technology"
-      ],
-      "key_risks": [
-        "Potential underperformance of AMD or Meta in the future could impact the deal",
-        "Competition from other chip manufacturers could intensify, affecting AMD's market position"
-      ],
-      "valuation_view": "The earnings upgrade and large contract with Meta suggest that AMD is undervalued based on its long-term growth potential.",
-      "counterfactuals": [
-        "If AMD fails to deliver the expected revenue or if Meta's financial performance declines significantly",
-        "If Nvidia or other competitors gain significant market share, reducing AMD's competitive edge"
-      ],
-      "next_checks": [
-        "Quarterly earnings reports from both AMD and Meta to assess progress on the deal",
-        "Market trends in AI chip demand and competition levels"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "The recent contract with Meta for AMD is a significant positive development that could significantly boost its revenue and market position in the AI chip space, challenging Nvidia's dominance.",
-        "key_drivers": [
-          "Large-scale contract with Meta expected to increase AMD's revenue and market share",
-          "Earnings upgrade from TD Cowen for Micron Technology"
-        ],
-        "key_risks": [
-          "Potential underperformance of AMD or Meta in the future could impact the deal",
-          "Competition from other chip manufacturers could intensify, affecting AMD's market position"
-        ],
-        "valuation_view": "The earnings upgrade and large contract with Meta suggest that AMD is undervalued based on its long-term growth potential.",
-        "counterfactuals": [
-          "If AMD fails to deliver the expected revenue or if Meta's financial performance declines significantly",
-          "If Nvidia or other competitors gain significant market share, reducing AMD's competitive edge"
-        ],
-        "next_checks": [
-          "Quarterly earnings reports from both AMD and Meta to assess progress on the deal",
-          "Market trends in AI chip demand and competition levels"
-        ],
-        "position_plan": {
-          "prefer_qty": 100,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:46:12+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "The recent contract partnerships and earnings upgrades have significantly boosted the stock prices of AMD and Micron Technology. The $100 billion+ deal between Meta and AMD is expected to substantially increase AMD's revenue and market position, while TD Cowen's earnings upgrade for Micron Technology suggests strong long-term growth potential.",
-      "key_drivers": [
-        "Large-scale contract with Meta (AMD)",
-        "Earnings upgrade from TD Cowen (Micron Technology)"
-      ],
-      "key_risks": [
-        "Market downturn or regulatory issues",
-        "Technical difficulties in delivering the AI chips"
-      ],
-      "valuation_view": "The upgrades and contracts indicate strong growth potential, but it's important to monitor the execution of these deals. The current valuation seems justified given the expected revenue boost.",
-      "counterfactuals": [
-        "If Meta were to reduce its investment in AMD or if there are delays in delivering the AI chips, this could negatively impact AMD’s stock price.",
-        "A broader market downturn could affect overall tech stocks, including AMD and Micron Technology."
-      ],
-      "next_checks": [
-        "Monitor the execution of the Meta-AMD deal for any delays or issues",
-        "Keep an eye on TD Cowen's earnings outlook for further updates"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "The recent contract partnerships and earnings upgrades have significantly boosted the stock prices of AMD and Micron Technology. The $100 billion+ deal between Meta and AMD is expected to substantially increase AMD's revenue and market position, while TD Cowen's earnings upgrade for Micron Technology suggests strong long-term growth potential.",
-        "key_drivers": [
-          "Large-scale contract with Meta (AMD)",
-          "Earnings upgrade from TD Cowen (Micron Technology)"
-        ],
-        "key_risks": [
-          "Market downturn or regulatory issues",
-          "Technical difficulties in delivering the AI chips"
-        ],
-        "valuation_view": "The upgrades and contracts indicate strong growth potential, but it's important to monitor the execution of these deals. The current valuation seems justified given the expected revenue boost.",
-        "counterfactuals": [
-          "If Meta were to reduce its investment in AMD or if there are delays in delivering the AI chips, this could negatively impact AMD’s stock price.",
-          "A broader market downturn could affect overall tech stocks, including AMD and Micron Technology."
-        ],
-        "next_checks": [
-          "Monitor the execution of the Meta-AMD deal for any delays or issues",
-          "Keep an eye on TD Cowen's earnings outlook for further updates"
-        ],
-        "position_plan": {
-          "prefer_qty": 10,
-          "time_horizon": "swing_days|swing_weeks"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:44:23+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "The recent contract between AMD and Meta Platforms is expected to significantly boost AMD's revenue and market position in the AI infrastructure space, supported by an earnings upgrade from TD Cowen.",
-      "key_drivers": [
-        "Large-scale multi-year deal with Meta worth up to $60 billion",
-        "Potential for Meta to own as much as 10% of AMD’s stock",
-        "Earnings upgrade from TD Cowen projecting EPS of $60 in 2026"
-      ],
-      "key_risks": [
-        "Market downturn or reduced demand for AI infrastructure",
-        "Technical issues with AMD's chip performance or reliability",
-        "Competition intensifying, particularly from Nvidia"
-      ],
-      "valuation_view": "The upgrade to $60 EPS by TD Cowen suggests a strong valuation outlook, but investors should monitor actual earnings and market share gains.",
-      "counterfactuals": [
-        "If AMD fails to deliver on the expected revenue growth or if Meta's investment in AI infrastructure slows down",
-        "A significant competitor like Nvidia outperforms or innovates more effectively"
-      ],
-      "next_checks": [
-        "Quarterly earnings reports from both AMD and Meta",
-        "Market trends in AI infrastructure spending",
-        "Technical performance of AMD’s new chips in real-world applications"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "The recent contract between AMD and Meta Platforms is expected to significantly boost AMD's revenue and market position in the AI infrastructure space, supported by an earnings upgrade from TD Cowen.",
-        "key_drivers": [
-          "Large-scale multi-year deal with Meta worth up to $60 billion",
-          "Potential for Meta to own as much as 10% of AMD’s stock",
-          "Earnings upgrade from TD Cowen projecting EPS of $60 in 2026"
-        ],
-        "key_risks": [
-          "Market downturn or reduced demand for AI infrastructure",
-          "Technical issues with AMD's chip performance or reliability",
-          "Competition intensifying, particularly from Nvidia"
-        ],
-        "valuation_view": "The upgrade to $60 EPS by TD Cowen suggests a strong valuation outlook, but investors should monitor actual earnings and market share gains.",
-        "counterfactuals": [
-          "If AMD fails to deliver on the expected revenue growth or if Meta's investment in AI infrastructure slows down",
-          "A significant competitor like Nvidia outperforms or innovates more effectively"
-        ],
-        "next_checks": [
-          "Quarterly earnings reports from both AMD and Meta",
-          "Market trends in AI infrastructure spending",
-          "Technical performance of AMD’s new chips in real-world applications"
-        ],
-        "position_plan": {
-          "prefer_qty": 100,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:42:22+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "The recent contract partnerships and earnings upgrades for AMD and Micron Technology are driving positive sentiment in the semiconductor sector. Specifically, the $100 billion+ deal between Meta Platforms and AMD is expected to significantly boost AMD's revenue and market position, while TD Cowen's earnings upgrade for Micron Technology further bolsters investor confidence.",
-      "key_drivers": [
-        "Large-scale contract with Meta Platforms (AMD)",
-        "Earnings upgrade from TD Cowen for Micron Technology"
-      ],
-      "key_risks": [
-        "Market downturn or unexpected guidance from AMD and/or Micron",
-        "Competition in the AI chip market intensifying"
-      ],
-      "valuation_view": "The upgrades to earnings expectations suggest that both companies are on track for strong growth, which could justify higher valuations.",
-      "counterfactuals": [
-        "If Meta Platforms were to issue underwhelming guidance or cut its spending plans, it would negatively impact AMD's stock price.",
-        "A slowdown in the AI chip market or increased competition from Nvidia could pose risks."
-      ],
-      "next_checks": [
-        "Monitor Meta Platforms' upcoming earnings report for any signs of weakening demand or cost pressures.",
-        "Keep an eye on AMD's quarterly results to assess the impact of the new contract and overall financial health."
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "The recent contract partnerships and earnings upgrades for AMD and Micron Technology are driving positive sentiment in the semiconductor sector. Specifically, the $100 billion+ deal between Meta Platforms and AMD is expected to significantly boost AMD's revenue and market position, while TD Cowen's earnings upgrade for Micron Technology further bolsters investor confidence.",
-        "key_drivers": [
-          "Large-scale contract with Meta Platforms (AMD)",
-          "Earnings upgrade from TD Cowen for Micron Technology"
-        ],
-        "key_risks": [
-          "Market downturn or unexpected guidance from AMD and/or Micron",
-          "Competition in the AI chip market intensifying"
-        ],
-        "valuation_view": "The upgrades to earnings expectations suggest that both companies are on track for strong growth, which could justify higher valuations.",
-        "counterfactuals": [
-          "If Meta Platforms were to issue underwhelming guidance or cut its spending plans, it would negatively impact AMD's stock price.",
-          "A slowdown in the AI chip market or increased competition from Nvidia could pose risks."
-        ],
-        "next_checks": [
-          "Monitor Meta Platforms' upcoming earnings report for any signs of weakening demand or cost pressures.",
-          "Keep an eye on AMD's quarterly results to assess the impact of the new contract and overall financial health."
-        ],
-        "position_plan": {
-          "prefer_qty": 10,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:39:16+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "The recent contract partnership between AMD and Meta Platforms is expected to significantly boost AMD's revenue and market position, driven by a multi-year deal worth up to $100 billion for AI chips. This large-scale validation from Meta, one of the leading tech companies, is likely to drive positive sentiment and stock price appreciation in the short term.",
-      "key_drivers": [
-        "Large contract with Meta Platforms",
-        "Potential for AMD to become a key supplier in the AI infrastructure market"
-      ],
-      "key_risks": [
-        "Market competition from Nvidia",
-        "Meta's ability to fulfill its purchase commitments"
-      ],
-      "valuation_view": "The earnings upgrade from TD Cowen and the significant contract with Meta suggest that AMD is undervalued. The long-term EPS outlook of $60 by TD Cowen indicates strong growth potential.",
-      "counterfactuals": [
-        "If Meta fails to fulfill its purchase commitments, it could negatively impact AMD's stock price.",
-        "A downturn in the tech sector or a slowdown in AI infrastructure demand could also pose risks."
-      ],
-      "next_checks": [
-        "Monitor Meta's progress on fulfilling the contract and any updates from TD Cowen on earnings expectations",
-        "Keep an eye on market competition and overall tech industry trends"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "The recent contract partnership between AMD and Meta Platforms is expected to significantly boost AMD's revenue and market position, driven by a multi-year deal worth up to $100 billion for AI chips. This large-scale validation from Meta, one of the leading tech companies, is likely to drive positive sentiment and stock price appreciation in the short term.",
-        "key_drivers": [
-          "Large contract with Meta Platforms",
-          "Potential for AMD to become a key supplier in the AI infrastructure market"
-        ],
-        "key_risks": [
-          "Market competition from Nvidia",
-          "Meta's ability to fulfill its purchase commitments"
-        ],
-        "valuation_view": "The earnings upgrade from TD Cowen and the significant contract with Meta suggest that AMD is undervalued. The long-term EPS outlook of $60 by TD Cowen indicates strong growth potential.",
-        "counterfactuals": [
-          "If Meta fails to fulfill its purchase commitments, it could negatively impact AMD's stock price.",
-          "A downturn in the tech sector or a slowdown in AI infrastructure demand could also pose risks."
-        ],
-        "next_checks": [
-          "Monitor Meta's progress on fulfilling the contract and any updates from TD Cowen on earnings expectations",
-          "Keep an eye on market competition and overall tech industry trends"
-        ],
-        "position_plan": {
-          "prefer_qty": 10,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:37:25+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "The recent contract between AMD and Meta Platforms is expected to significantly boost AMD's revenue and market position, as evidenced by the large-scale deal worth up to $100 billion. This partnership not only validates AMD's AI chip capabilities but also positions it as a key supplier in the growing AI infrastructure market, challenging Nvidia's dominance.",
-      "key_drivers": [
-        "Large contract with Meta Platforms",
-        "Potential for increased revenue and market share"
-      ],
-      "key_risks": [
-        "Market competition from Nvidia",
-        "Technical challenges in delivering AI chips on time and at expected performance levels"
-      ],
-      "valuation_view": "The earnings upgrade from TD Cowen to $60 EPS by 2026, above the previous estimate of $50, suggests that AMD's valuation may be undervalued given its strong fundamentals.",
-      "counterfactuals": [
-        "If Meta were to reduce or cancel the contract with AMD, it could negatively impact AMD's stock price and revenue growth.",
-        "A slowdown in AI infrastructure demand could also affect AMD's performance."
-      ],
-      "next_checks": [
-        "Monitor Meta's progress on its AI initiatives and any updates on the contract terms",
-        "Keep an eye on AMD's quarterly earnings reports for signs of operational strength"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "The recent contract between AMD and Meta Platforms is expected to significantly boost AMD's revenue and market position, as evidenced by the large-scale deal worth up to $100 billion. This partnership not only validates AMD's AI chip capabilities but also positions it as a key supplier in the growing AI infrastructure market, challenging Nvidia's dominance.",
-        "key_drivers": [
-          "Large contract with Meta Platforms",
-          "Potential for increased revenue and market share"
-        ],
-        "key_risks": [
-          "Market competition from Nvidia",
-          "Technical challenges in delivering AI chips on time and at expected performance levels"
-        ],
-        "valuation_view": "The earnings upgrade from TD Cowen to $60 EPS by 2026, above the previous estimate of $50, suggests that AMD's valuation may be undervalued given its strong fundamentals.",
-        "counterfactuals": [
-          "If Meta were to reduce or cancel the contract with AMD, it could negatively impact AMD's stock price and revenue growth.",
-          "A slowdown in AI infrastructure demand could also affect AMD's performance."
-        ],
-        "next_checks": [
-          "Monitor Meta's progress on its AI initiatives and any updates on the contract terms",
-          "Keep an eye on AMD's quarterly earnings reports for signs of operational strength"
-        ],
-        "position_plan": {
-          "prefer_qty": 10,
-          "time_horizon": "swing_days|swing_weeks"
         }
       }
     }

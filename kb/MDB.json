@@ -1,6 +1,6 @@
 {
   "ticker": "MDB",
-  "updated_at": "2026-02-27T07:09:02+09:00",
+  "updated_at": "2026-02-28T03:04:27+09:00",
   "thesis": "",
   "business_summary": "",
   "moat": "",
@@ -119,6 +119,1395 @@
     }
   ],
   "decisions": [
+    {
+      "ts_kst": "2026-02-28T03:04:27+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "기술적 분석은 약세를 나타내지만 최근 뉴스 이벤트가 없어 결정을 유보합니다.",
+      "key_drivers": [
+        "클라우드플레어의 포스트 얀데르 보안 플랫폼 출시"
+      ],
+      "key_risks": [
+        "MDB의 실적 발표 결과 부진",
+        "클라우드플레어의 고가 대비 평가 우려"
+      ],
+      "valuation_view": "-0.8 점으로 고평가 상태를 유지",
+      "counterfactuals": [
+        "MDB의 Q4 실적이 예상치 미달",
+        "클라우드플레어 양자 보안 플랫폼에 대한 반응 부진"
+      ],
+      "next_checks": [
+        "MDB의 Q4 실적 발표 내용",
+        "클라우드플레어의 양자 보안 플랫폼 시장 반응"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "기술적 분석은 약세를 나타내지만 최근 뉴스 이벤트가 없어 결정을 유보합니다.",
+        "key_drivers": [
+          "클라우드플레어의 포스트 얀데르 보안 플랫폼 출시"
+        ],
+        "key_risks": [
+          "MDB의 실적 발표 결과 부진",
+          "클라우드플레어의 고가 대비 평가 우려"
+        ],
+        "valuation_view": "-0.8 점으로 고평가 상태를 유지",
+        "counterfactuals": [
+          "MDB의 Q4 실적이 예상치 미달",
+          "클라우드플레어 양자 보안 플랫폼에 대한 반응 부진"
+        ],
+        "next_checks": [
+          "MDB의 Q4 실적 발표 내용",
+          "클라우드플레어의 양자 보안 플랫폼 시장 반응"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:45:19+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 가격과 기술적 분석은 매도 신호를 보여주지만, 최근 뉴스 이벤트가 없어 추가 확인이 필요하다.",
+      "key_drivers": [
+        "Cloudflare의 포스트 얀데르 보안 플랫폼 출시",
+        "MongoDB의 Q4 실적 발표"
+      ],
+      "key_risks": [
+        "클라우드플레어의 고평가 우려",
+        "MDB의 Q4 실적이 기대 이하일 가능성"
+      ],
+      "valuation_view": "-0.8 점으로 고평가 상태를 유지",
+      "counterfactuals": [
+        "MongoDB의 Q4 실적이 양호하게 발표될 경우 매수 가능",
+        "클라우드플레어의 보안 플랫폼이 시장에서 좋은 반응을 얻지 못할 경우"
+      ],
+      "next_checks": [
+        "MongoDB의 Q4 실적 발표 결과",
+        "클라우드플레어의 포스트 얀데르 보안 플랫폼에 대한 시장 반응"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 가격과 기술적 분석은 매도 신호를 보여주지만, 최근 뉴스 이벤트가 없어 추가 확인이 필요하다.",
+        "key_drivers": [
+          "Cloudflare의 포스트 얀데르 보안 플랫폼 출시",
+          "MongoDB의 Q4 실적 발표"
+        ],
+        "key_risks": [
+          "클라우드플레어의 고평가 우려",
+          "MDB의 Q4 실적이 기대 이하일 가능성"
+        ],
+        "valuation_view": "-0.8 점으로 고평가 상태를 유지",
+        "counterfactuals": [
+          "MongoDB의 Q4 실적이 양호하게 발표될 경우 매수 가능",
+          "클라우드플레어의 보안 플랫폼이 시장에서 좋은 반응을 얻지 못할 경우"
+        ],
+        "next_checks": [
+          "MongoDB의 Q4 실적 발표 결과",
+          "클라우드플레어의 포스트 얀데르 보안 플랫폼에 대한 시장 반응"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:42:13+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 가격과 기술적 분석은 매도 신호를 보여주지만, 최근 뉴스 이벤트가 없어 결정을 유보한다.",
+      "key_drivers": [
+        "Cloudflare의 양자 안전성 플랫폼 출시",
+        "MongoDB의 Q4 실적 발표"
+      ],
+      "key_risks": [
+        "클라우드플레어의 높은 평가 우려",
+        "MDB의 실적이 기대 이하일 가능성"
+      ],
+      "valuation_view": "-0.8 점으로 고평가 판단",
+      "counterfactuals": [
+        "MongoDB의 Q4 실적이 긍정적일 경우 매수 시점이 될 수 있다."
+      ],
+      "next_checks": [
+        "MongoDB의 Q4 실적 발표 결과",
+        "클라우드플레어의 양자 안전성 플랫폼에 대한 반응"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 가격과 기술적 분석은 매도 신호를 보여주지만, 최근 뉴스 이벤트가 없어 결정을 유보한다.",
+        "key_drivers": [
+          "Cloudflare의 양자 안전성 플랫폼 출시",
+          "MongoDB의 Q4 실적 발표"
+        ],
+        "key_risks": [
+          "클라우드플레어의 높은 평가 우려",
+          "MDB의 실적이 기대 이하일 가능성"
+        ],
+        "valuation_view": "-0.8 점으로 고평가 판단",
+        "counterfactuals": [
+          "MongoDB의 Q4 실적이 긍정적일 경우 매수 시점이 될 수 있다."
+        ],
+        "next_checks": [
+          "MongoDB의 Q4 실적 발표 결과",
+          "클라우드플레어의 양자 안전성 플랫폼에 대한 반응"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:39:12+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "주가 하락 가능성과 기업의 가치 평가 우려로 인해 판매 신호가 발생했으나, 최근 뉴스 이벤트는 중립적이고 큰 영향을 미치지 않아 보유를 유지한다.",
+      "key_drivers": [
+        "클라우드플레어의 양자 안보 플랫폼 출시",
+        "MDB의 Q4 실적 발표"
+      ],
+      "key_risks": [
+        "클라우드플레어의 높은 기업 가치 우려",
+        "MDB의 실적이 예상치에 미달할 가능성"
+      ],
+      "valuation_view": "-0.8 점으로 기업 가치가 고평가되어 있다고 판단",
+      "counterfactuals": [
+        "MDB의 Q4 실적이 긍정적일 경우 주가 상승 가능",
+        "클라우드플레어의 양자 안보 플랫폼이 시장에서 호평을 받을 가능성"
+      ],
+      "next_checks": [
+        "MDB의 Q4 실적 발표 결과",
+        "클라우드플레어의 양자 안보 플랫폼에 대한 반응"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "주가 하락 가능성과 기업의 가치 평가 우려로 인해 판매 신호가 발생했으나, 최근 뉴스 이벤트는 중립적이고 큰 영향을 미치지 않아 보유를 유지한다.",
+        "key_drivers": [
+          "클라우드플레어의 양자 안보 플랫폼 출시",
+          "MDB의 Q4 실적 발표"
+        ],
+        "key_risks": [
+          "클라우드플레어의 높은 기업 가치 우려",
+          "MDB의 실적이 예상치에 미달할 가능성"
+        ],
+        "valuation_view": "-0.8 점으로 기업 가치가 고평가되어 있다고 판단",
+        "counterfactuals": [
+          "MDB의 Q4 실적이 긍정적일 경우 주가 상승 가능",
+          "클라우드플레어의 양자 안보 플랫폼이 시장에서 호평을 받을 가능성"
+        ],
+        "next_checks": [
+          "MDB의 Q4 실적 발표 결과",
+          "클라우드플레어의 양자 안보 플랫폼에 대한 반응"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:35:59+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장 상황과 기술적 분석 결과를 고려할 때 매도 신호가 발생했으나, 최근 뉴스 이벤트가 없어 결정을 보류합니다.",
+      "key_drivers": [
+        "클라우드플레어의 양자 안전성 플랫폼 출시",
+        "MDB의 Q4 실적 발표"
+      ],
+      "key_risks": [
+        "클라우드플레어의 고평가 우려",
+        "MDB의 Q4 실적이 기대 이하일 가능성"
+      ],
+      "valuation_view": "-0.8 점으로 고평가 상태를 유지합니다.",
+      "counterfactuals": [
+        "MDB의 Q4 실적이 예상보다 좋지 않을 경우, 주가는 하락할 수 있습니다."
+      ],
+      "next_checks": [
+        "MDB의 Q4 실적 발표 결과",
+        "클라우드플레어의 양자 안전성 플랫폼에 대한 시장 반응"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장 상황과 기술적 분석 결과를 고려할 때 매도 신호가 발생했으나, 최근 뉴스 이벤트가 없어 결정을 보류합니다.",
+        "key_drivers": [
+          "클라우드플레어의 양자 안전성 플랫폼 출시",
+          "MDB의 Q4 실적 발표"
+        ],
+        "key_risks": [
+          "클라우드플레어의 고평가 우려",
+          "MDB의 Q4 실적이 기대 이하일 가능성"
+        ],
+        "valuation_view": "-0.8 점으로 고평가 상태를 유지합니다.",
+        "counterfactuals": [
+          "MDB의 Q4 실적이 예상보다 좋지 않을 경우, 주가는 하락할 수 있습니다."
+        ],
+        "next_checks": [
+          "MDB의 Q4 실적 발표 결과",
+          "클라우드플레어의 양자 안전성 플랫폼에 대한 시장 반응"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:17:06+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장은 위험 선호 모드이며 기술적 분석은 하락세를 나타내고 있어 신중한 접근이 필요하다.",
+      "key_drivers": [
+        "Cloudflare의 양자 보안 플랫폼 출시",
+        "MongoDB Q4 실적 발표"
+      ],
+      "key_risks": [
+        "클라우드플레어의 고평가 우려",
+        "MDB의 실적이 예상치 미달"
+      ],
+      "valuation_view": "-0.8 점으로 고평가 상태를 유지",
+      "counterfactuals": [
+        "MongoDB Q4 실적 발표 시 긍정적인 결과 없음",
+        "클라우드플레어 양자 보안 플랫폼에 대한 반응 부진"
+      ],
+      "next_checks": [
+        "MongoDB의 Q4 실적 발표 내용",
+        "클라우드플레어의 양자 보안 플랫폼 시장 반응"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장은 위험 선호 모드이며 기술적 분석은 하락세를 나타내고 있어 신중한 접근이 필요하다.",
+        "key_drivers": [
+          "Cloudflare의 양자 보안 플랫폼 출시",
+          "MongoDB Q4 실적 발표"
+        ],
+        "key_risks": [
+          "클라우드플레어의 고평가 우려",
+          "MDB의 실적이 예상치 미달"
+        ],
+        "valuation_view": "-0.8 점으로 고평가 상태를 유지",
+        "counterfactuals": [
+          "MongoDB Q4 실적 발표 시 긍정적인 결과 없음",
+          "클라우드플레어 양자 보안 플랫폼에 대한 반응 부진"
+        ],
+        "next_checks": [
+          "MongoDB의 Q4 실적 발표 내용",
+          "클라우드플레어의 양자 보안 플랫폼 시장 반응"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:14:15+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장 상황과 기술적 분석은 매도 신호를 보여주지만, 최근 뉴스 이벤트가 없어 동향을 지켜볼 필요가 있다.",
+      "key_drivers": [
+        "Cloudflare의 포스트 양자 보안 플랫폼 출시",
+        "MongoDB Q4 실적 발표"
+      ],
+      "key_risks": [
+        "클라우드플레어의 고평가 우려",
+        "MDB의 Q4 실적이 기대 이하일 가능성"
+      ],
+      "valuation_view": "-0.8 점으로 고평가 상태를 유지",
+      "counterfactuals": [
+        "MongoDB의 Q4 실적 발표 시 긍정적인 결과가 나올 경우 주가 상승 가능",
+        "클라우드플레어의 포스트 양자 보안 플랫폼이 기대 이상으로 받아들여질 가능성"
+      ],
+      "next_checks": [
+        "MongoDB의 Q4 실적 발표 내용",
+        "클라우드플레어의 포스트 양자 보안 플랫폼에 대한 시장 반응"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장 상황과 기술적 분석은 매도 신호를 보여주지만, 최근 뉴스 이벤트가 없어 동향을 지켜볼 필요가 있다.",
+        "key_drivers": [
+          "Cloudflare의 포스트 양자 보안 플랫폼 출시",
+          "MongoDB Q4 실적 발표"
+        ],
+        "key_risks": [
+          "클라우드플레어의 고평가 우려",
+          "MDB의 Q4 실적이 기대 이하일 가능성"
+        ],
+        "valuation_view": "-0.8 점으로 고평가 상태를 유지",
+        "counterfactuals": [
+          "MongoDB의 Q4 실적 발표 시 긍정적인 결과가 나올 경우 주가 상승 가능",
+          "클라우드플레어의 포스트 양자 보안 플랫폼이 기대 이상으로 받아들여질 가능성"
+        ],
+        "next_checks": [
+          "MongoDB의 Q4 실적 발표 내용",
+          "클라우드플레어의 포스트 양자 보안 플랫폼에 대한 시장 반응"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:11:08+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장은 위험 선호 모드이지만, 기술적 분석과 동적 요인 모두 약세를 나타내므로 추가적인 상승 가능성은 낮다.",
+      "key_drivers": [
+        "클라우드플레어의 양자 보안 플랫폼 출시",
+        "MDB의 Q4 실적 발표"
+      ],
+      "key_risks": [
+        "클라우드플레어의 고평가 우려",
+        "MDB의 실적이 기대치 미달일 가능성"
+      ],
+      "valuation_view": "-0.8 점으로 고평가 상태를 유지하고 있다.",
+      "counterfactuals": [
+        "MDB의 Q4 실적이 양호하게 발표될 경우 상승 가능성이 있음"
+      ],
+      "next_checks": [
+        "MDB의 Q4 실적 발표 결과",
+        "클라우드플레어의 양자 보안 플랫폼에 대한 시장 반응"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장은 위험 선호 모드이지만, 기술적 분석과 동적 요인 모두 약세를 나타내므로 추가적인 상승 가능성은 낮다.",
+        "key_drivers": [
+          "클라우드플레어의 양자 보안 플랫폼 출시",
+          "MDB의 Q4 실적 발표"
+        ],
+        "key_risks": [
+          "클라우드플레어의 고평가 우려",
+          "MDB의 실적이 기대치 미달일 가능성"
+        ],
+        "valuation_view": "-0.8 점으로 고평가 상태를 유지하고 있다.",
+        "counterfactuals": [
+          "MDB의 Q4 실적이 양호하게 발표될 경우 상승 가능성이 있음"
+        ],
+        "next_checks": [
+          "MDB의 Q4 실적 발표 결과",
+          "클라우드플레어의 양자 보안 플랫폼에 대한 시장 반응"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:05:23+09:00",
+      "action": "HOLD",
+      "confidence": 0.21,
+      "rationale": "현재 주가는 고평가 상태로 판단되며, 기술적 분석은 하락세를 나타내고 있습니다.",
+      "key_drivers": [
+        "클라우드플레어의 양자 보안 플랫폼 출시",
+        "MDB의 Q4 실적 발표"
+      ],
+      "key_risks": [
+        "클라우드플레어의 고평가 우려",
+        "MDB의 실적이 예상치에 미달할 가능성"
+      ],
+      "valuation_view": "-0.8 점으로 고평가 상태를 유지하고 있습니다.",
+      "counterfactuals": [
+        "MDB의 Q4 실적이 긍정적일 경우 주가 상승 가능성이 있음",
+        "클라우드플레어의 양자 보안 플랫폼이 시장에서 호평을 받을 가능성"
+      ],
+      "next_checks": [
+        "MDB의 Q4 실적 발표 결과",
+        "클라우드플레어의 양자 보안 플랫폼에 대한 시장 반응"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.21,
+        "rationale": "현재 주가는 고평가 상태로 판단되며, 기술적 분석은 하락세를 나타내고 있습니다.",
+        "key_drivers": [
+          "클라우드플레어의 양자 보안 플랫폼 출시",
+          "MDB의 Q4 실적 발표"
+        ],
+        "key_risks": [
+          "클라우드플레어의 고평가 우려",
+          "MDB의 실적이 예상치에 미달할 가능성"
+        ],
+        "valuation_view": "-0.8 점으로 고평가 상태를 유지하고 있습니다.",
+        "counterfactuals": [
+          "MDB의 Q4 실적이 긍정적일 경우 주가 상승 가능성이 있음",
+          "클라우드플레어의 양자 보안 플랫폼이 시장에서 호평을 받을 가능성"
+        ],
+        "next_checks": [
+          "MDB의 Q4 실적 발표 결과",
+          "클라우드플레어의 양자 보안 플랫폼에 대한 시장 반응"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:00:34+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장은 위험 선호 모드이지만, 기업 이벤트가 없어 동결.",
+      "key_drivers": [
+        "클라우드플레어의 양자 보안 플랫폼 출시",
+        "MDB의 Q4 실적 발표"
+      ],
+      "key_risks": [
+        "클라우드플레어의 고평가 우려",
+        "MDB의 실적이 기대 이하일 가능성"
+      ],
+      "valuation_view": "-0.8 점으로 고평가 상태 유지",
+      "counterfactuals": [
+        "클라우드플레어 양자 보안 플랫폼이 시장에서 호평받지 못할 경우",
+        "MDB의 Q4 실적이 부진할 경우"
+      ],
+      "next_checks": [
+        "클라우드플레어와 MDB의 Q4 실적 발표 결과"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장은 위험 선호 모드이지만, 기업 이벤트가 없어 동결.",
+        "key_drivers": [
+          "클라우드플레어의 양자 보안 플랫폼 출시",
+          "MDB의 Q4 실적 발표"
+        ],
+        "key_risks": [
+          "클라우드플레어의 고평가 우려",
+          "MDB의 실적이 기대 이하일 가능성"
+        ],
+        "valuation_view": "-0.8 점으로 고평가 상태 유지",
+        "counterfactuals": [
+          "클라우드플레어 양자 보안 플랫폼이 시장에서 호평받지 못할 경우",
+          "MDB의 Q4 실적이 부진할 경우"
+        ],
+        "next_checks": [
+          "클라우드플레어와 MDB의 Q4 실적 발표 결과"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:57:32+09:00",
+      "action": "HOLD",
+      "confidence": 0.21,
+      "rationale": "현재 가격이 공정가치보다 낮은 편이며, 기술적 분석은 약세를 나타내지만 최근 뉴스 이벤트는 중립적입니다.",
+      "key_drivers": [
+        "클라우드플레어의 양자 보안 플랫폼 출시",
+        "MDB의 Q4 실적 발표"
+      ],
+      "key_risks": [
+        "클라우드플레어의 고평가 우려",
+        "MDB의 실적이 예상치에 미달할 가능성"
+      ],
+      "valuation_view": "-0.8 점으로 여전히 고평가 상태를 유지",
+      "counterfactuals": [
+        "MDB의 Q4 실적이 부진하거나 클라우드플레어의 양자 보안 플랫폼이 시장 반응이 좋지 않을 경우"
+      ],
+      "next_checks": [
+        "MDB의 Q4 실적 발표 결과",
+        "클라우드플레어의 양자 보안 플랫폼에 대한 시장 반응"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.21,
+        "rationale": "현재 가격이 공정가치보다 낮은 편이며, 기술적 분석은 약세를 나타내지만 최근 뉴스 이벤트는 중립적입니다.",
+        "key_drivers": [
+          "클라우드플레어의 양자 보안 플랫폼 출시",
+          "MDB의 Q4 실적 발표"
+        ],
+        "key_risks": [
+          "클라우드플레어의 고평가 우려",
+          "MDB의 실적이 예상치에 미달할 가능성"
+        ],
+        "valuation_view": "-0.8 점으로 여전히 고평가 상태를 유지",
+        "counterfactuals": [
+          "MDB의 Q4 실적이 부진하거나 클라우드플레어의 양자 보안 플랫폼이 시장 반응이 좋지 않을 경우"
+        ],
+        "next_checks": [
+          "MDB의 Q4 실적 발표 결과",
+          "클라우드플레어의 양자 보안 플랫폼에 대한 시장 반응"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:54:37+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 가격은 평가 점수 -0.8을 기반으로 하며, 동적 요인에 큰 변화 없음.",
+      "key_drivers": [
+        "클라우드플레어의 양자 보안 플랫폼 출시",
+        "MDB의 Q4 실적 발표"
+      ],
+      "key_risks": [
+        "클라우드플레어의 고평가 우려",
+        "MDB의 실적이 기대 이하일 가능성"
+      ],
+      "valuation_view": "현재 가격이 적절하다고 판단됨.",
+      "counterfactuals": [
+        "MDB의 Q4 실적이 부진할 경우, 주가는 하락 가능성이 있음."
+      ],
+      "next_checks": [
+        "MDB의 Q4 실적 발표 결과",
+        "클라우드플레어의 양자 보안 플랫폼에 대한 시장 반응"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 가격은 평가 점수 -0.8을 기반으로 하며, 동적 요인에 큰 변화 없음.",
+        "key_drivers": [
+          "클라우드플레어의 양자 보안 플랫폼 출시",
+          "MDB의 Q4 실적 발표"
+        ],
+        "key_risks": [
+          "클라우드플레어의 고평가 우려",
+          "MDB의 실적이 기대 이하일 가능성"
+        ],
+        "valuation_view": "현재 가격이 적절하다고 판단됨.",
+        "counterfactuals": [
+          "MDB의 Q4 실적이 부진할 경우, 주가는 하락 가능성이 있음."
+        ],
+        "next_checks": [
+          "MDB의 Q4 실적 발표 결과",
+          "클라우드플레어의 양자 보안 플랫폼에 대한 시장 반응"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:28:35+09:00",
+      "action": "HOLD",
+      "confidence": 0.39,
+      "rationale": "시장은 위험회피 모드로, 클라우드flare의 양자 보안 플랫폼 출시와 MongoDB의 Q4 실적 발표가 주요 이슈.",
+      "key_drivers": [
+        "Cloudflare의 양자 보안 플랫폼 출시",
+        "MongoDB의 Q4 실적"
+      ],
+      "key_risks": [
+        "클라우드flare의 고평가 우려",
+        "MongoDB의 실적이 기대치 미달일 가능성"
+      ],
+      "valuation_view": "-0.8로 고평가 상태 유지, 주가는 큰 변동 없을 것으로 예상",
+      "counterfactuals": [
+        "Cloudflare의 양자 보안 플랫폼이 긍정적인 반응을 받거나 MongoDB의 실적이 우수할 경우 주가 상승 가능"
+      ],
+      "next_checks": [
+        "클라우드flare와 MongoDB의 Q4 실적 발표 내용",
+        "시장 전반적인 위험회피 심리 변화"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.39,
+        "rationale": "시장은 위험회피 모드로, 클라우드flare의 양자 보안 플랫폼 출시와 MongoDB의 Q4 실적 발표가 주요 이슈.",
+        "key_drivers": [
+          "Cloudflare의 양자 보안 플랫폼 출시",
+          "MongoDB의 Q4 실적"
+        ],
+        "key_risks": [
+          "클라우드flare의 고평가 우려",
+          "MongoDB의 실적이 기대치 미달일 가능성"
+        ],
+        "valuation_view": "-0.8로 고평가 상태 유지, 주가는 큰 변동 없을 것으로 예상",
+        "counterfactuals": [
+          "Cloudflare의 양자 보안 플랫폼이 긍정적인 반응을 받거나 MongoDB의 실적이 우수할 경우 주가 상승 가능"
+        ],
+        "next_checks": [
+          "클라우드flare와 MongoDB의 Q4 실적 발표 내용",
+          "시장 전반적인 위험회피 심리 변화"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:25:47+09:00",
+      "action": "HOLD",
+      "confidence": 0.39,
+      "rationale": "현재 리스크 오프 시장에서 클라우드flare의 양자 보안 플랫폼 출시와 MongoDB의 Q4 실적 발표가 예정되어 있으나, 큰 영향은 없음.",
+      "key_drivers": [
+        "클라우드flare 양자 보안 플랫폼 출시",
+        "MongoDB Q4 실적"
+      ],
+      "key_risks": [
+        "클라우드flare의 높은 평가 우려",
+        "MongoDB 실적이 기대 이하일 가능성"
+      ],
+      "valuation_view": "-0.8 점으로 고평가 상태 유지",
+      "counterfactuals": [
+        "MongoDB Q4 실적이 예상보다 좋지 않을 경우 주가는 하락할 수 있음"
+      ],
+      "next_checks": [
+        "MongoDB의 Q4 실적 발표",
+        "클라우드flare 양자 보안 플랫폼에 대한 시장 반응"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.39,
+        "rationale": "현재 리스크 오프 시장에서 클라우드flare의 양자 보안 플랫폼 출시와 MongoDB의 Q4 실적 발표가 예정되어 있으나, 큰 영향은 없음.",
+        "key_drivers": [
+          "클라우드flare 양자 보안 플랫폼 출시",
+          "MongoDB Q4 실적"
+        ],
+        "key_risks": [
+          "클라우드flare의 높은 평가 우려",
+          "MongoDB 실적이 기대 이하일 가능성"
+        ],
+        "valuation_view": "-0.8 점으로 고평가 상태 유지",
+        "counterfactuals": [
+          "MongoDB Q4 실적이 예상보다 좋지 않을 경우 주가는 하락할 수 있음"
+        ],
+        "next_checks": [
+          "MongoDB의 Q4 실적 발표",
+          "클라우드flare 양자 보안 플랫폼에 대한 시장 반응"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:22:59+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "시장은 위험회피 모드로, 클라우드flare의 양자 보안 플랫폼 출시와 MongoDB의 Q4 실적 발표가 주요 이슈.",
+      "key_drivers": [
+        "클라우드flare의 양자 보안 플랫폼 출시",
+        "MongoDB의 Q4 실적"
+      ],
+      "key_risks": [
+        "클라우드flare의 고평가 우려",
+        "MongoDB의 실적이 기대 이하일 가능성"
+      ],
+      "valuation_view": "-0.8 점으로 고평가 상태 유지",
+      "counterfactuals": [
+        "클라우드flare의 양자 보안 플랫폼이 시장에서 호평받지 못하거나, MongoDB의 Q4 실적이 부진할 경우"
+      ],
+      "next_checks": [
+        "MongoDB의 Q4 실적 발표",
+        "클라우드flare의 양자 보안 플랫폼에 대한 반응"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "시장은 위험회피 모드로, 클라우드flare의 양자 보안 플랫폼 출시와 MongoDB의 Q4 실적 발표가 주요 이슈.",
+        "key_drivers": [
+          "클라우드flare의 양자 보안 플랫폼 출시",
+          "MongoDB의 Q4 실적"
+        ],
+        "key_risks": [
+          "클라우드flare의 고평가 우려",
+          "MongoDB의 실적이 기대 이하일 가능성"
+        ],
+        "valuation_view": "-0.8 점으로 고평가 상태 유지",
+        "counterfactuals": [
+          "클라우드flare의 양자 보안 플랫폼이 시장에서 호평받지 못하거나, MongoDB의 Q4 실적이 부진할 경우"
+        ],
+        "next_checks": [
+          "MongoDB의 Q4 실적 발표",
+          "클라우드flare의 양자 보안 플랫폼에 대한 반응"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:20:04+09:00",
+      "action": "HOLD",
+      "confidence": 0.39,
+      "rationale": "시장은 위험회피 모드로, 클라우드flare의 양자 보안 플랫폼 출시와 MongoDB의 Q4 실적 발표가 주요 이벤트지만 아직 큰 영향력 없음.",
+      "key_drivers": [
+        "Cloudflare의 양자 보안 플랫폼 출시",
+        "MongoDB의 Q4 실적 발표"
+      ],
+      "key_risks": [
+        "클라우드flare의 고평가 우려",
+        "기술 분석 약세"
+      ],
+      "valuation_view": "-0.8 점으로 여전히 고평가 상태",
+      "counterfactuals": [
+        "MongoDB 실적이 부진할 경우, 클라우드flare 플랫폼이 시장에서 성공하지 못할 경우"
+      ],
+      "next_checks": [
+        "MongoDB의 Q4 실적 발표 결과",
+        "클라우드flare 양자 보안 플랫폼 반응"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.39,
+        "rationale": "시장은 위험회피 모드로, 클라우드flare의 양자 보안 플랫폼 출시와 MongoDB의 Q4 실적 발표가 주요 이벤트지만 아직 큰 영향력 없음.",
+        "key_drivers": [
+          "Cloudflare의 양자 보안 플랫폼 출시",
+          "MongoDB의 Q4 실적 발표"
+        ],
+        "key_risks": [
+          "클라우드flare의 고평가 우려",
+          "기술 분석 약세"
+        ],
+        "valuation_view": "-0.8 점으로 여전히 고평가 상태",
+        "counterfactuals": [
+          "MongoDB 실적이 부진할 경우, 클라우드flare 플랫폼이 시장에서 성공하지 못할 경우"
+        ],
+        "next_checks": [
+          "MongoDB의 Q4 실적 발표 결과",
+          "클라우드flare 양자 보안 플랫폼 반응"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:16:56+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "시장은 위험회피 모드로, 클라우드flare의 양자 보안 플랫폼 출시와 MongoDB의 Q4 실적 발표를 앞두고 있어 불확실성이 존재합니다.",
+      "key_drivers": [
+        "Cloudflare의 양자 보안 플랫폼 출시",
+        "MongoDB의 Q4 실적"
+      ],
+      "key_risks": [
+        "클라우드flare의 고평가 우려",
+        "MongoDB의 실적이 기대 이하일 가능성"
+      ],
+      "valuation_view": "-0.8 점으로 고평가 우려가 있지만, 시장 상황과 기술적 지표를 고려할 때 현재 가격이 적절하다고 판단됩니다.",
+      "counterfactuals": [
+        "MongoDB의 Q4 실적이 부진할 경우",
+        "클라우드flare의 양자 보안 플랫폼에 대한 시장 반응이 냉담할 경우"
+      ],
+      "next_checks": [
+        "MongoDB의 Q4 실적 발표 결과",
+        "클라우드flare의 양자 보안 플랫폼 관련 추가 뉴스 및 분석"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "시장은 위험회피 모드로, 클라우드flare의 양자 보안 플랫폼 출시와 MongoDB의 Q4 실적 발표를 앞두고 있어 불확실성이 존재합니다.",
+        "key_drivers": [
+          "Cloudflare의 양자 보안 플랫폼 출시",
+          "MongoDB의 Q4 실적"
+        ],
+        "key_risks": [
+          "클라우드flare의 고평가 우려",
+          "MongoDB의 실적이 기대 이하일 가능성"
+        ],
+        "valuation_view": "-0.8 점으로 고평가 우려가 있지만, 시장 상황과 기술적 지표를 고려할 때 현재 가격이 적절하다고 판단됩니다.",
+        "counterfactuals": [
+          "MongoDB의 Q4 실적이 부진할 경우",
+          "클라우드flare의 양자 보안 플랫폼에 대한 시장 반응이 냉담할 경우"
+        ],
+        "next_checks": [
+          "MongoDB의 Q4 실적 발표 결과",
+          "클라우드flare의 양자 보안 플랫폼 관련 추가 뉴스 및 분석"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:06:47+09:00",
+      "action": "HOLD",
+      "confidence": 0.39,
+      "rationale": "현재 시장은 위험회피 모드로, 클라우드플레어의 양자 보안 플랫폼 출시와 MongoDB의 Q4 실적 발표가 예정되어 있으나, 이들 뉴스의 영향력이 제한적입니다.",
+      "key_drivers": [
+        "클라우드플레어의 양자 보안 플랫폼 출시",
+        "MongoDB의 Q4 실적 발표"
+      ],
+      "key_risks": [
+        "클라우드플레어의 고평가 우려",
+        "시장 전반적인 위험회피 심리"
+      ],
+      "valuation_view": "-0.8로 고평가 상태를 유지하고 있으며, 현재 시장 상황에서 주가는 큰 변동 없을 것으로 예상됩니다.",
+      "counterfactuals": [
+        "클라우드플레어의 양자 보안 플랫폼이 긍정적인 반응을 받거나 MongoDB의 실적이 우수할 경우 주가 상승 가능성이 있습니다."
+      ],
+      "next_checks": [
+        "클라우드플레어와 MongoDB의 Q4 실적 발표 내용",
+        "시장 전반적인 위험회피 심리 변화"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.39,
+        "rationale": "현재 시장은 위험회피 모드로, 클라우드플레어의 양자 보안 플랫폼 출시와 MongoDB의 Q4 실적 발표가 예정되어 있으나, 이들 뉴스의 영향력이 제한적입니다.",
+        "key_drivers": [
+          "클라우드플레어의 양자 보안 플랫폼 출시",
+          "MongoDB의 Q4 실적 발표"
+        ],
+        "key_risks": [
+          "클라우드플레어의 고평가 우려",
+          "시장 전반적인 위험회피 심리"
+        ],
+        "valuation_view": "-0.8로 고평가 상태를 유지하고 있으며, 현재 시장 상황에서 주가는 큰 변동 없을 것으로 예상됩니다.",
+        "counterfactuals": [
+          "클라우드플레어의 양자 보안 플랫폼이 긍정적인 반응을 받거나 MongoDB의 실적이 우수할 경우 주가 상승 가능성이 있습니다."
+        ],
+        "next_checks": [
+          "클라우드플레어와 MongoDB의 Q4 실적 발표 내용",
+          "시장 전반적인 위험회피 심리 변화"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:54:49+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "시장은 위험회피 모드로, 클라우드flare의 양자 보안 플랫폼 출시와 MongoDB의 Q4 실적 발표가 예정되어 있으나, 현재까지는 큰 영향 없음.",
+      "key_drivers": [
+        "Cloudflare의 양자 보안 플랫폼 출시",
+        "MongoDB의 Q4 실적 발표"
+      ],
+      "key_risks": [
+        "클라우드flare의 고평가 우려",
+        "MongoDB의 실적이 기대 이하일 가능성"
+      ],
+      "valuation_view": "-0.8 점으로 고평가 상태 유지",
+      "counterfactuals": [
+        "MongoDB의 Q4 실적이 예상보다 좋지 않을 경우 주가는 하락할 수 있음"
+      ],
+      "next_checks": [
+        "MongoDB의 Q4 실적 발표 결과",
+        "클라우드flare의 양자 보안 플랫폼에 대한 시장 반응"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "시장은 위험회피 모드로, 클라우드flare의 양자 보안 플랫폼 출시와 MongoDB의 Q4 실적 발표가 예정되어 있으나, 현재까지는 큰 영향 없음.",
+        "key_drivers": [
+          "Cloudflare의 양자 보안 플랫폼 출시",
+          "MongoDB의 Q4 실적 발표"
+        ],
+        "key_risks": [
+          "클라우드flare의 고평가 우려",
+          "MongoDB의 실적이 기대 이하일 가능성"
+        ],
+        "valuation_view": "-0.8 점으로 고평가 상태 유지",
+        "counterfactuals": [
+          "MongoDB의 Q4 실적이 예상보다 좋지 않을 경우 주가는 하락할 수 있음"
+        ],
+        "next_checks": [
+          "MongoDB의 Q4 실적 발표 결과",
+          "클라우드flare의 양자 보안 플랫폼에 대한 시장 반응"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:51:50+09:00",
+      "action": "HOLD",
+      "confidence": 0.39,
+      "rationale": "현재 시장은 위험회피 모드로, 클라우드리스크와 MongoDB의 Q4 실적 발표 이슈가 있지만 아직 큰 영향력은 없다.",
+      "key_drivers": [
+        "Cloudflare의 양자 보안 플랫폼 출시",
+        "MongoDB의 Q4 실적 발표"
+      ],
+      "key_risks": [
+        "클라우드리스크에 대한 고평가 우려",
+        "MongoDB의 실적이 기대 이하일 가능성"
+      ],
+      "valuation_view": "-0.8로 고평가 상태 유지",
+      "counterfactuals": [
+        "Cloudflare의 양자 보안 플랫폼이 시장에서 호평을 받지 못하거나, MongoDB의 Q4 실적이 부진할 경우"
+      ],
+      "next_checks": [
+        "MongoDB의 Q4 실적 발표 내용",
+        "클라우드리스크의 양자 보안 플랫폼에 대한 반응"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.39,
+        "rationale": "현재 시장은 위험회피 모드로, 클라우드리스크와 MongoDB의 Q4 실적 발표 이슈가 있지만 아직 큰 영향력은 없다.",
+        "key_drivers": [
+          "Cloudflare의 양자 보안 플랫폼 출시",
+          "MongoDB의 Q4 실적 발표"
+        ],
+        "key_risks": [
+          "클라우드리스크에 대한 고평가 우려",
+          "MongoDB의 실적이 기대 이하일 가능성"
+        ],
+        "valuation_view": "-0.8로 고평가 상태 유지",
+        "counterfactuals": [
+          "Cloudflare의 양자 보안 플랫폼이 시장에서 호평을 받지 못하거나, MongoDB의 Q4 실적이 부진할 경우"
+        ],
+        "next_checks": [
+          "MongoDB의 Q4 실적 발표 내용",
+          "클라우드리스크의 양자 보안 플랫폼에 대한 반응"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:48:34+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "시장은 리스크 오프 모드로, 클라우드flare의 양자 보안 플랫폼 출시와 MongoDB의 Q4 실적 발표가 주요 이벤트지만 아직 큰 영향력 없음.",
+      "key_drivers": [
+        "Cloudflare의 양자 보안 플랫폼 출시",
+        "MongoDB의 Q4 실적 발표"
+      ],
+      "key_risks": [
+        "클라우드flare의 높은 평가 우려",
+        "기술 분석 약세"
+      ],
+      "valuation_view": "-0.8 점으로 여전히 고평가 상태",
+      "counterfactuals": [
+        "MongoDB 실적이 부진할 경우, 클라우드flare의 양자 보안 플랫폼이 시장에서 성공하지 못할 경우"
+      ],
+      "next_checks": [
+        "MongoDB Q4 실적 발표 결과",
+        "클라우드flare의 양자 보안 플랫폼 반응"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "시장은 리스크 오프 모드로, 클라우드flare의 양자 보안 플랫폼 출시와 MongoDB의 Q4 실적 발표가 주요 이벤트지만 아직 큰 영향력 없음.",
+        "key_drivers": [
+          "Cloudflare의 양자 보안 플랫폼 출시",
+          "MongoDB의 Q4 실적 발표"
+        ],
+        "key_risks": [
+          "클라우드flare의 높은 평가 우려",
+          "기술 분석 약세"
+        ],
+        "valuation_view": "-0.8 점으로 여전히 고평가 상태",
+        "counterfactuals": [
+          "MongoDB 실적이 부진할 경우, 클라우드flare의 양자 보안 플랫폼이 시장에서 성공하지 못할 경우"
+        ],
+        "next_checks": [
+          "MongoDB Q4 실적 발표 결과",
+          "클라우드flare의 양자 보안 플랫폼 반응"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:28:28+09:00",
+      "action": "HOLD",
+      "confidence": 0.21,
+      "rationale": "시장은 리스크 오프 모드로, 클라우드flare의 양자 보안 플랫폼 출시와 MongoDB의 Q4 실적 발표가 주요 이슈입니다.",
+      "key_drivers": [
+        "Cloudflare의 양자 보안 플랫폼 출시",
+        "MongoDB의 Q4 실적 발표"
+      ],
+      "key_risks": [
+        "클라우드flare의 고평가 우려",
+        "MongoDB의 실적이 기대 이하일 가능성"
+      ],
+      "valuation_view": "-0.8 점으로 고평가 우려가 있지만, 시장 상황과 기술적 지표를 고려할 때 현재 가격이 적절하다고 판단됩니다.",
+      "counterfactuals": [
+        "MongoDB의 Q4 실적이 부진할 경우",
+        "클라우드flare의 양자 보안 플랫폼에 대한 시장 반응이 냉담할 경우"
+      ],
+      "next_checks": [
+        "MongoDB의 Q4 실적 발표 결과",
+        "클라우드flare의 양자 보안 플랫폼에 대한 추가 뉴스 및 분석"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.21,
+        "rationale": "시장은 리스크 오프 모드로, 클라우드flare의 양자 보안 플랫폼 출시와 MongoDB의 Q4 실적 발표가 주요 이슈입니다.",
+        "key_drivers": [
+          "Cloudflare의 양자 보안 플랫폼 출시",
+          "MongoDB의 Q4 실적 발표"
+        ],
+        "key_risks": [
+          "클라우드flare의 고평가 우려",
+          "MongoDB의 실적이 기대 이하일 가능성"
+        ],
+        "valuation_view": "-0.8 점으로 고평가 우려가 있지만, 시장 상황과 기술적 지표를 고려할 때 현재 가격이 적절하다고 판단됩니다.",
+        "counterfactuals": [
+          "MongoDB의 Q4 실적이 부진할 경우",
+          "클라우드flare의 양자 보안 플랫폼에 대한 시장 반응이 냉담할 경우"
+        ],
+        "next_checks": [
+          "MongoDB의 Q4 실적 발표 결과",
+          "클라우드flare의 양자 보안 플랫폼에 대한 추가 뉴스 및 분석"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:25:26+09:00",
+      "action": "HOLD",
+      "confidence": 0.21,
+      "rationale": "현재 시장은 위험회피 모드로, 클라우드리스프의 양자 보안 플랫폼 출시와 MongoDB의 Q4 실적 발표가 예정되어 있으나, 이들 뉴스의 영향력이 크지 않아 주가는 큰 변동 없을 것으로 판단됩니다.",
+      "key_drivers": [
+        "클라우드리스프 양자 보안 플랫폼 출시",
+        "MongoDB Q4 실적 발표"
+      ],
+      "key_risks": [
+        "클라우드리스프의 고평가 우려",
+        "시장 전반적인 위험회피 심리"
+      ],
+      "valuation_view": "-0.8로 고평가 상태를 유지하고 있으며, 현재 시장 상황에서 주가는 큰 변동 없을 것으로 예상됩니다.",
+      "counterfactuals": [
+        "클라우드리스프의 양자 보안 플랫폼이 긍정적인 반응을 받거나 MongoDB 실적이 우수할 경우 주가 상승 가능성이 있습니다."
+      ],
+      "next_checks": [
+        "클라우드리스프와 MongoDB의 Q4 실적 발표 내용",
+        "시장 전반적인 위험회피 심리 변화"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.21,
+        "rationale": "현재 시장은 위험회피 모드로, 클라우드리스프의 양자 보안 플랫폼 출시와 MongoDB의 Q4 실적 발표가 예정되어 있으나, 이들 뉴스의 영향력이 크지 않아 주가는 큰 변동 없을 것으로 판단됩니다.",
+        "key_drivers": [
+          "클라우드리스프 양자 보안 플랫폼 출시",
+          "MongoDB Q4 실적 발표"
+        ],
+        "key_risks": [
+          "클라우드리스프의 고평가 우려",
+          "시장 전반적인 위험회피 심리"
+        ],
+        "valuation_view": "-0.8로 고평가 상태를 유지하고 있으며, 현재 시장 상황에서 주가는 큰 변동 없을 것으로 예상됩니다.",
+        "counterfactuals": [
+          "클라우드리스프의 양자 보안 플랫폼이 긍정적인 반응을 받거나 MongoDB 실적이 우수할 경우 주가 상승 가능성이 있습니다."
+        ],
+        "next_checks": [
+          "클라우드리스프와 MongoDB의 Q4 실적 발표 내용",
+          "시장 전반적인 위험회피 심리 변화"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:22:23+09:00",
+      "action": "HOLD",
+      "confidence": 0.21,
+      "rationale": "시장은 리스크 오프 모드로, 기술적 분석도 약세를 나타내고 있어 매수 신호가 부족하다.",
+      "key_drivers": [
+        "클라우드리프의 포스트 얀스텀 보안 플랫폼 출시",
+        "MDB의 Q4 실적 발표"
+      ],
+      "key_risks": [
+        "클라우드리프의 고평가 우려",
+        "MDB의 Q4 실적이 기대 이하일 가능성"
+      ],
+      "valuation_view": "-0.8 점으로 고평가 상태를 유지하고 있다.",
+      "counterfactuals": [
+        "MDB의 Q4 실적이 예상보다 좋지 않을 경우 주가는 하락할 수 있음",
+        "클라우드리프의 포스트 얀스텀 보안 플랫폼이 기대 이하로 받아들여질 가능성"
+      ],
+      "next_checks": [
+        "MDB의 Q4 실적 발표 결과",
+        "클라우드리프의 포스트 얀스텀 보안 플랫폼에 대한 시장 반응"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.21,
+        "rationale": "시장은 리스크 오프 모드로, 기술적 분석도 약세를 나타내고 있어 매수 신호가 부족하다.",
+        "key_drivers": [
+          "클라우드리프의 포스트 얀스텀 보안 플랫폼 출시",
+          "MDB의 Q4 실적 발표"
+        ],
+        "key_risks": [
+          "클라우드리프의 고평가 우려",
+          "MDB의 Q4 실적이 기대 이하일 가능성"
+        ],
+        "valuation_view": "-0.8 점으로 고평가 상태를 유지하고 있다.",
+        "counterfactuals": [
+          "MDB의 Q4 실적이 예상보다 좋지 않을 경우 주가는 하락할 수 있음",
+          "클라우드리프의 포스트 얀스텀 보안 플랫폼이 기대 이하로 받아들여질 가능성"
+        ],
+        "next_checks": [
+          "MDB의 Q4 실적 발표 결과",
+          "클라우드리프의 포스트 얀스텀 보안 플랫폼에 대한 시장 반응"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:19:10+09:00",
+      "action": "HOLD",
+      "confidence": 0.21,
+      "rationale": "현재 시장은 위험회피 모드로, 클라우드플레어의 양자 보안 플랫폼 출시와 MongoDB의 Q4 실적 발표가 예정되어 있으나, 이들 뉴스의 영향력이 제한적이어서 주요 방향성 변화는 없을 것으로 판단됩니다.",
+      "key_drivers": [
+        "클라우드플레어 양자 보안 플랫폼 출시",
+        "MongoDB Q4 실적 발표"
+      ],
+      "key_risks": [
+        "클라우드플레어의 고평가 우려",
+        "시장 전반적인 위험회피 심리"
+      ],
+      "valuation_view": "클라우드플레어의 평가 점수는 여전히 -0.8로 고평가 상태를 유지하고 있습니다.",
+      "counterfactuals": [
+        "MongoDB의 Q4 실적이 예상보다 좋지 않을 경우",
+        "클라우드플레어의 양자 보안 플랫폼이 시장 반응이 부진할 경우"
+      ],
+      "next_checks": [
+        "MongoDB의 Q4 실적 발표 결과",
+        "클라우드플레어의 양자 보안 플랫폼 출시 후 주가 동향"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.21,
+        "rationale": "현재 시장은 위험회피 모드로, 클라우드플레어의 양자 보안 플랫폼 출시와 MongoDB의 Q4 실적 발표가 예정되어 있으나, 이들 뉴스의 영향력이 제한적이어서 주요 방향성 변화는 없을 것으로 판단됩니다.",
+        "key_drivers": [
+          "클라우드플레어 양자 보안 플랫폼 출시",
+          "MongoDB Q4 실적 발표"
+        ],
+        "key_risks": [
+          "클라우드플레어의 고평가 우려",
+          "시장 전반적인 위험회피 심리"
+        ],
+        "valuation_view": "클라우드플레어의 평가 점수는 여전히 -0.8로 고평가 상태를 유지하고 있습니다.",
+        "counterfactuals": [
+          "MongoDB의 Q4 실적이 예상보다 좋지 않을 경우",
+          "클라우드플레어의 양자 보안 플랫폼이 시장 반응이 부진할 경우"
+        ],
+        "next_checks": [
+          "MongoDB의 Q4 실적 발표 결과",
+          "클라우드플레어의 양자 보안 플랫폼 출시 후 주가 동향"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:13:42+09:00",
+      "action": "HOLD",
+      "confidence": 0.21,
+      "rationale": "시장이 위험회피 모드로 전환되고 기술적 분석은 약세를 나타내고 있어 추가적인 상승 가능성은 제한적입니다.",
+      "key_drivers": [
+        "클라우드플레어의 포스트 퀀텀 보안 플랫폼 출시",
+        "몽고DB의 Q4 실적 발표"
+      ],
+      "key_risks": [
+        "클라우드플레어의 높은 평가 우려",
+        "기술적 분석 약세"
+      ],
+      "valuation_view": "클라우드플레어의 평가 점수는 여전히 높음 (-0.8)",
+      "counterfactuals": [
+        "몽고DB의 Q4 실적이 부진할 경우",
+        "클라우드플레어의 포스트 퀀텀 보안 플랫폼이 시장에서 성공하지 못할 경우"
+      ],
+      "next_checks": [
+        "몽고DB의 Q4 실적 발표 결과",
+        "클라우드플레어의 포스트 퀀텀 보안 플랫폼 반응"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.21,
+        "rationale": "시장이 위험회피 모드로 전환되고 기술적 분석은 약세를 나타내고 있어 추가적인 상승 가능성은 제한적입니다.",
+        "key_drivers": [
+          "클라우드플레어의 포스트 퀀텀 보안 플랫폼 출시",
+          "몽고DB의 Q4 실적 발표"
+        ],
+        "key_risks": [
+          "클라우드플레어의 높은 평가 우려",
+          "기술적 분석 약세"
+        ],
+        "valuation_view": "클라우드플레어의 평가 점수는 여전히 높음 (-0.8)",
+        "counterfactuals": [
+          "몽고DB의 Q4 실적이 부진할 경우",
+          "클라우드플레어의 포스트 퀀텀 보안 플랫폼이 시장에서 성공하지 못할 경우"
+        ],
+        "next_checks": [
+          "몽고DB의 Q4 실적 발표 결과",
+          "클라우드플레어의 포스트 퀀텀 보안 플랫폼 반응"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:10:30+09:00",
+      "action": "HOLD",
+      "confidence": 0.21,
+      "rationale": "시장은 위험회피 모드로, 기술적 분석은 약세를 나타내며 최근 뉴스 이벤트가 없어 추가적인 움직임이 예상되지 않습니다.",
+      "key_drivers": [
+        "클라우드flare의 포스트 양자 보안 플랫폼 출시",
+        "MongoDB의 Q4 실적 발표"
+      ],
+      "key_risks": [
+        "클라우드flare의 풍부한 평가 우려",
+        "기술적 분석 약세"
+      ],
+      "valuation_view": "-0.8 점으로 과평가 우려가 있으나, 시장 상황과 기술적 지표를 고려할 때 현재 가격이 적절하다고 판단됩니다.",
+      "counterfactuals": [
+        "MongoDB의 Q4 실적이 예상보다 좋지 않을 경우",
+        "클라우드flare의 포스트 양자 보안 플랫폼에 대한 시장 반응이 부진할 경우"
+      ],
+      "next_checks": [
+        "MongoDB의 Q4 실적 발표 결과",
+        "클라우드flare의 포스트 양자 보안 플랫폼에 대한 추가 뉴스 및 분석"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.21,
+        "rationale": "시장은 위험회피 모드로, 기술적 분석은 약세를 나타내며 최근 뉴스 이벤트가 없어 추가적인 움직임이 예상되지 않습니다.",
+        "key_drivers": [
+          "클라우드flare의 포스트 양자 보안 플랫폼 출시",
+          "MongoDB의 Q4 실적 발표"
+        ],
+        "key_risks": [
+          "클라우드flare의 풍부한 평가 우려",
+          "기술적 분석 약세"
+        ],
+        "valuation_view": "-0.8 점으로 과평가 우려가 있으나, 시장 상황과 기술적 지표를 고려할 때 현재 가격이 적절하다고 판단됩니다.",
+        "counterfactuals": [
+          "MongoDB의 Q4 실적이 예상보다 좋지 않을 경우",
+          "클라우드flare의 포스트 양자 보안 플랫폼에 대한 시장 반응이 부진할 경우"
+        ],
+        "next_checks": [
+          "MongoDB의 Q4 실적 발표 결과",
+          "클라우드flare의 포스트 양자 보안 플랫폼에 대한 추가 뉴스 및 분석"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-27T23:56:42+09:00",
+      "action": "HOLD",
+      "confidence": 0.21,
+      "rationale": "현재 시장 상황과 기업 이벤트를 고려할 때 추가적인 움직임이 없으므로 HOLD.",
+      "key_drivers": [
+        "클라우드flare의 포스트 양자 보안 플랫폼 출시",
+        "MongoDB의 Q4 실적 발표"
+      ],
+      "key_risks": [
+        "클라우드flare의 고평가 우려",
+        "MongoDB의 Q4 실적이 기대 이하일 경우"
+      ],
+      "valuation_view": "클라우드flare의 평가 점수는 여전히 -0.8로 고평가 상태를 유지하고 있습니다.",
+      "counterfactuals": [
+        "MongoDB의 Q4 실적이 예상보다 좋지 않을 경우",
+        "클라우드flare의 포스트 양자 보안 플랫폼이 시장에서 부정적인 반응을 받을 경우"
+      ],
+      "next_checks": [
+        "MongoDB의 Q4 실적 발표 결과",
+        "클라우드flare의 포스트 양자 보안 플랫폼에 대한 시장 반응"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.21,
+        "rationale": "현재 시장 상황과 기업 이벤트를 고려할 때 추가적인 움직임이 없으므로 HOLD.",
+        "key_drivers": [
+          "클라우드flare의 포스트 양자 보안 플랫폼 출시",
+          "MongoDB의 Q4 실적 발표"
+        ],
+        "key_risks": [
+          "클라우드flare의 고평가 우려",
+          "MongoDB의 Q4 실적이 기대 이하일 경우"
+        ],
+        "valuation_view": "클라우드flare의 평가 점수는 여전히 -0.8로 고평가 상태를 유지하고 있습니다.",
+        "counterfactuals": [
+          "MongoDB의 Q4 실적이 예상보다 좋지 않을 경우",
+          "클라우드flare의 포스트 양자 보안 플랫폼이 시장에서 부정적인 반응을 받을 경우"
+        ],
+        "next_checks": [
+          "MongoDB의 Q4 실적 발표 결과",
+          "클라우드flare의 포스트 양자 보안 플랫폼에 대한 시장 반응"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-27T23:53:42+09:00",
+      "action": "HOLD",
+      "confidence": 0.21,
+      "rationale": "현재 시장 상황과 기술적 분석 결과를 고려할 때 매수 또는 매도의 명확한 신호가 없습니다.",
+      "key_drivers": [
+        "클라우드flare의 포스트 양자 보안 플랫폼 출시",
+        "MongoDB의 Q4 실적 발표 전 긍정적인 시장 기대감"
+      ],
+      "key_risks": [
+        "시장 리스크 오프 상태 지속",
+        "기술적 분석에서 약세 신호 유지"
+      ],
+      "valuation_view": "클라우드flare의 풍부한 평가 우려 여전히 존재",
+      "counterfactuals": [
+        "MongoDB의 Q4 실적이 예상보다 부진할 경우",
+        "시장 리스크 오프 상태에서 빠른 회복이 이루어질 경우"
+      ],
+      "next_checks": [
+        "MongoDB의 Q4 실적 발표 결과",
+        "기술적 분석 지표 변화 상황"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.21,
+        "rationale": "현재 시장 상황과 기술적 분석 결과를 고려할 때 매수 또는 매도의 명확한 신호가 없습니다.",
+        "key_drivers": [
+          "클라우드flare의 포스트 양자 보안 플랫폼 출시",
+          "MongoDB의 Q4 실적 발표 전 긍정적인 시장 기대감"
+        ],
+        "key_risks": [
+          "시장 리스크 오프 상태 지속",
+          "기술적 분석에서 약세 신호 유지"
+        ],
+        "valuation_view": "클라우드flare의 풍부한 평가 우려 여전히 존재",
+        "counterfactuals": [
+          "MongoDB의 Q4 실적이 예상보다 부진할 경우",
+          "시장 리스크 오프 상태에서 빠른 회복이 이루어질 경우"
+        ],
+        "next_checks": [
+          "MongoDB의 Q4 실적 발표 결과",
+          "기술적 분석 지표 변화 상황"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
     {
       "ts_kst": "2026-02-27T07:09:02+09:00",
       "action": "HOLD",
@@ -8664,1137 +10053,6 @@
         ],
         "position_plan": {
           "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:21:18+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
-      "key_drivers": [
-        "이익 예상 증가"
-      ],
-      "key_risks": [],
-      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
-      "counterfactuals": [
-        "시장 상황이 급격히 변동할 경우"
-      ],
-      "next_checks": [
-        "기업의 재무상태 변경사항",
-        "주요 이벤트나 뉴스"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
-        "key_drivers": [
-          "이익 예상 증가"
-        ],
-        "key_risks": [],
-        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
-        "counterfactuals": [
-          "시장 상황이 급격히 변동할 경우"
-        ],
-        "next_checks": [
-          "기업의 재무상태 변경사항",
-          "주요 이벤트나 뉴스"
-        ],
-        "position_plan": {
-          "prefer_qty": 10,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:19:30+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
-      "key_drivers": [
-        "이익 예상 증가"
-      ],
-      "key_risks": [],
-      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
-      "counterfactuals": [
-        "시장 상황이 급격히 변동할 경우"
-      ],
-      "next_checks": [
-        "기업의 재무상태 변경사항",
-        "주요 이벤트나 뉴스"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
-        "key_drivers": [
-          "이익 예상 증가"
-        ],
-        "key_risks": [],
-        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
-        "counterfactuals": [
-          "시장 상황이 급격히 변동할 경우"
-        ],
-        "next_checks": [
-          "기업의 재무상태 변경사항",
-          "주요 이벤트나 뉴스"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:17:49+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
-      "key_drivers": [
-        "이익 예상 증가"
-      ],
-      "key_risks": [],
-      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
-      "counterfactuals": [
-        "시장 상황이 급격히 변동할 경우"
-      ],
-      "next_checks": [
-        "기업의 재무상태 변경사항",
-        "주요 이벤트나 뉴스"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
-        "key_drivers": [
-          "이익 예상 증가"
-        ],
-        "key_risks": [],
-        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
-        "counterfactuals": [
-          "시장 상황이 급격히 변동할 경우"
-        ],
-        "next_checks": [
-          "기업의 재무상태 변경사항",
-          "주요 이벤트나 뉴스"
-        ],
-        "position_plan": {
-          "prefer_qty": 10,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:16:05+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
-      "key_drivers": [
-        "이익 예상 증가"
-      ],
-      "key_risks": [],
-      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
-      "counterfactuals": [
-        "시장 상황이 급격히 변동할 경우"
-      ],
-      "next_checks": [
-        "기업의 재무상태 변경사항",
-        "주요 이벤트나 뉴스"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
-        "key_drivers": [
-          "이익 예상 증가"
-        ],
-        "key_risks": [],
-        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
-        "counterfactuals": [
-          "시장 상황이 급격히 변동할 경우"
-        ],
-        "next_checks": [
-          "기업의 재무상태 변경사항",
-          "주요 이벤트나 뉴스"
-        ],
-        "position_plan": {
-          "prefer_qty": 10,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:14:25+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
-      "key_drivers": [
-        "이익 예상 증가"
-      ],
-      "key_risks": [],
-      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
-      "counterfactuals": [
-        "시장 상황이 급격히 변동할 경우"
-      ],
-      "next_checks": [
-        "기업의 재무상태 변경사항",
-        "주요 이벤트나 뉴스"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
-        "key_drivers": [
-          "이익 예상 증가"
-        ],
-        "key_risks": [],
-        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
-        "counterfactuals": [
-          "시장 상황이 급격히 변동할 경우"
-        ],
-        "next_checks": [
-          "기업의 재무상태 변경사항",
-          "주요 이벤트나 뉴스"
-        ],
-        "position_plan": {
-          "prefer_qty": 10,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:12:28+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
-      "key_drivers": [
-        "이익 예상 증가"
-      ],
-      "key_risks": [],
-      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
-      "counterfactuals": [
-        "시장 상황이 급격히 변동할 경우"
-      ],
-      "next_checks": [
-        "기업의 재무상태 변경사항",
-        "주요 이벤트나 뉴스"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
-        "key_drivers": [
-          "이익 예상 증가"
-        ],
-        "key_risks": [],
-        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
-        "counterfactuals": [
-          "시장 상황이 급격히 변동할 경우"
-        ],
-        "next_checks": [
-          "기업의 재무상태 변경사항",
-          "주요 이벤트나 뉴스"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:10:33+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
-      "key_drivers": [
-        "이익 예상 증가"
-      ],
-      "key_risks": [],
-      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
-      "counterfactuals": [
-        "시장 상황이 급격히 변동할 경우"
-      ],
-      "next_checks": [
-        "기업의 재무상태 변경사항",
-        "주요 이벤트나 뉴스"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
-        "key_drivers": [
-          "이익 예상 증가"
-        ],
-        "key_risks": [],
-        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
-        "counterfactuals": [
-          "시장 상황이 급격히 변동할 경우"
-        ],
-        "next_checks": [
-          "기업의 재무상태 변경사항",
-          "주요 이벤트나 뉴스"
-        ],
-        "position_plan": {
-          "prefer_qty": 10,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:08:41+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
-      "key_drivers": [
-        "이익 예상 증가"
-      ],
-      "key_risks": [],
-      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
-      "counterfactuals": [
-        "시장 상황이 급격히 변동할 경우"
-      ],
-      "next_checks": [
-        "기업의 재무상태 변경사항",
-        "주요 이벤트나 뉴스"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
-        "key_drivers": [
-          "이익 예상 증가"
-        ],
-        "key_risks": [],
-        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
-        "counterfactuals": [
-          "시장 상황이 급격히 변동할 경우"
-        ],
-        "next_checks": [
-          "기업의 재무상태 변경사항",
-          "주요 이벤트나 뉴스"
-        ],
-        "position_plan": {
-          "prefer_qty": 10,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:06:49+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
-      "key_drivers": [
-        "이익 예상 증가"
-      ],
-      "key_risks": [],
-      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
-      "counterfactuals": [
-        "시장 상황이 급격히 변동할 경우"
-      ],
-      "next_checks": [
-        "기업의 재무상태 변경사항",
-        "주요 이벤트나 뉴스"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
-        "key_drivers": [
-          "이익 예상 증가"
-        ],
-        "key_risks": [],
-        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
-        "counterfactuals": [
-          "시장 상황이 급격히 변동할 경우"
-        ],
-        "next_checks": [
-          "기업의 재무상태 변경사항",
-          "주요 이벤트나 뉴스"
-        ],
-        "position_plan": {
-          "prefer_qty": 10,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:04:52+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
-      "key_drivers": [
-        "이익 예상 증가"
-      ],
-      "key_risks": [],
-      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
-      "counterfactuals": [
-        "시장 상황이 급격히 변동할 경우"
-      ],
-      "next_checks": [
-        "기업의 재무상태 변경사항",
-        "주요 이벤트나 뉴스"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
-        "key_drivers": [
-          "이익 예상 증가"
-        ],
-        "key_risks": [],
-        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
-        "counterfactuals": [
-          "시장 상황이 급격히 변동할 경우"
-        ],
-        "next_checks": [
-          "기업의 재무상태 변경사항",
-          "주요 이벤트나 뉴스"
-        ],
-        "position_plan": {
-          "prefer_qty": 10,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:03:02+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
-      "key_drivers": [
-        "이익 예상 증가"
-      ],
-      "key_risks": [],
-      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
-      "counterfactuals": [
-        "시장 상황이 급격히 변동할 경우"
-      ],
-      "next_checks": [
-        "기업의 재무상태 변경사항",
-        "주요 이벤트나 뉴스"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
-        "key_drivers": [
-          "이익 예상 증가"
-        ],
-        "key_risks": [],
-        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
-        "counterfactuals": [
-          "시장 상황이 급격히 변동할 경우"
-        ],
-        "next_checks": [
-          "기업의 재무상태 변경사항",
-          "주요 이벤트나 뉴스"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:01:16+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
-      "key_drivers": [
-        "이익 예상 증가"
-      ],
-      "key_risks": [],
-      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
-      "counterfactuals": [
-        "시장 상황이 급격히 변동할 경우"
-      ],
-      "next_checks": [
-        "기업의 재무상태 변경사항",
-        "주요 이벤트나 뉴스"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
-        "key_drivers": [
-          "이익 예상 증가"
-        ],
-        "key_risks": [],
-        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
-        "counterfactuals": [
-          "시장 상황이 급격히 변동할 경우"
-        ],
-        "next_checks": [
-          "기업의 재무상태 변경사항",
-          "주요 이벤트나 뉴스"
-        ],
-        "position_plan": {
-          "prefer_qty": 10,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:59:21+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
-      "key_drivers": [
-        "이익 예상 증가"
-      ],
-      "key_risks": [],
-      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
-      "counterfactuals": [
-        "시장 상황이 급격히 변동할 경우"
-      ],
-      "next_checks": [
-        "기업의 재무상태 변경사항",
-        "주요 이벤트나 뉴스"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
-        "key_drivers": [
-          "이익 예상 증가"
-        ],
-        "key_risks": [],
-        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
-        "counterfactuals": [
-          "시장 상황이 급격히 변동할 경우"
-        ],
-        "next_checks": [
-          "기업의 재무상태 변경사항",
-          "주요 이벤트나 뉴스"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:57:17+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
-      "key_drivers": [
-        "이익 예상 증가"
-      ],
-      "key_risks": [],
-      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
-      "counterfactuals": [
-        "시장 상황이 급격히 변동할 경우"
-      ],
-      "next_checks": [
-        "기업의 재무상태 변경사항",
-        "주요 이벤트나 뉴스"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
-        "key_drivers": [
-          "이익 예상 증가"
-        ],
-        "key_risks": [],
-        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
-        "counterfactuals": [
-          "시장 상황이 급격히 변동할 경우"
-        ],
-        "next_checks": [
-          "기업의 재무상태 변경사항",
-          "주요 이벤트나 뉴스"
-        ],
-        "position_plan": {
-          "prefer_qty": 10,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:55:22+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
-      "key_drivers": [
-        "이익 예상 증가"
-      ],
-      "key_risks": [],
-      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
-      "counterfactuals": [
-        "시장 상황이 급격히 변동할 경우"
-      ],
-      "next_checks": [
-        "기업의 재무상태 변경사항",
-        "주요 이벤트나 뉴스"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
-        "key_drivers": [
-          "이익 예상 증가"
-        ],
-        "key_risks": [],
-        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
-        "counterfactuals": [
-          "시장 상황이 급격히 변동할 경우"
-        ],
-        "next_checks": [
-          "기업의 재무상태 변경사항",
-          "주요 이벤트나 뉴스"
-        ],
-        "position_plan": {
-          "prefer_qty": 10,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:53:30+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
-      "key_drivers": [
-        "이익 예상 증가"
-      ],
-      "key_risks": [],
-      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
-      "counterfactuals": [
-        "시장 상황이 급격히 변동할 경우"
-      ],
-      "next_checks": [
-        "기업의 재무상태 변경사항",
-        "주요 이벤트나 뉴스"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
-        "key_drivers": [
-          "이익 예상 증가"
-        ],
-        "key_risks": [],
-        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
-        "counterfactuals": [
-          "시장 상황이 급격히 변동할 경우"
-        ],
-        "next_checks": [
-          "기업의 재무상태 변경사항",
-          "주요 이벤트나 뉴스"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:51:35+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
-      "key_drivers": [
-        "이익 예상 증가"
-      ],
-      "key_risks": [],
-      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
-      "counterfactuals": [
-        "시장 상황이 급격히 변동할 경우"
-      ],
-      "next_checks": [
-        "기업의 재무상태 변경사항",
-        "주요 이벤트나 뉴스"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
-        "key_drivers": [
-          "이익 예상 증가"
-        ],
-        "key_risks": [],
-        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
-        "counterfactuals": [
-          "시장 상황이 급격히 변동할 경우"
-        ],
-        "next_checks": [
-          "기업의 재무상태 변경사항",
-          "주요 이벤트나 뉴스"
-        ],
-        "position_plan": {
-          "prefer_qty": 10,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:49:48+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
-      "key_drivers": [
-        "이익 예상 증가"
-      ],
-      "key_risks": [],
-      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
-      "counterfactuals": [
-        "시장 상황이 급격히 변동할 경우"
-      ],
-      "next_checks": [
-        "기업의 재무상태 변경사항",
-        "주요 이벤트나 뉴스"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
-        "key_drivers": [
-          "이익 예상 증가"
-        ],
-        "key_risks": [],
-        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
-        "counterfactuals": [
-          "시장 상황이 급격히 변동할 경우"
-        ],
-        "next_checks": [
-          "기업의 재무상태 변경사항",
-          "주요 이벤트나 뉴스"
-        ],
-        "position_plan": {
-          "prefer_qty": 10,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:47:57+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
-      "key_drivers": [
-        "이익 예상 증가"
-      ],
-      "key_risks": [],
-      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
-      "counterfactuals": [
-        "시장 상황이 급격히 변동할 경우"
-      ],
-      "next_checks": [
-        "기업의 재무상태 변경사항",
-        "주요 이벤트나 뉴스"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
-        "key_drivers": [
-          "이익 예상 증가"
-        ],
-        "key_risks": [],
-        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
-        "counterfactuals": [
-          "시장 상황이 급격히 변동할 경우"
-        ],
-        "next_checks": [
-          "기업의 재무상태 변경사항",
-          "주요 이벤트나 뉴스"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:46:05+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
-      "key_drivers": [
-        "이익 예상 증가"
-      ],
-      "key_risks": [],
-      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
-      "counterfactuals": [
-        "시장 상황이 급격히 변동할 경우"
-      ],
-      "next_checks": [
-        "기업의 재무상태 변경사항",
-        "주요 이벤트나 뉴스"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
-        "key_drivers": [
-          "이익 예상 증가"
-        ],
-        "key_risks": [],
-        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
-        "counterfactuals": [
-          "시장 상황이 급격히 변동할 경우"
-        ],
-        "next_checks": [
-          "기업의 재무상태 변경사항",
-          "주요 이벤트나 뉴스"
-        ],
-        "position_plan": {
-          "prefer_qty": 10,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:44:15+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
-      "key_drivers": [
-        "이익 예상 증가"
-      ],
-      "key_risks": [],
-      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
-      "counterfactuals": [
-        "시장 상황이 급격히 변동할 경우"
-      ],
-      "next_checks": [
-        "기업의 재무상태 변경사항",
-        "주요 이벤트나 뉴스"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
-        "key_drivers": [
-          "이익 예상 증가"
-        ],
-        "key_risks": [],
-        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
-        "counterfactuals": [
-          "시장 상황이 급격히 변동할 경우"
-        ],
-        "next_checks": [
-          "기업의 재무상태 변경사항",
-          "주요 이벤트나 뉴스"
-        ],
-        "position_plan": {
-          "prefer_qty": 10,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:42:10+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
-      "key_drivers": [
-        "이익 예상 증가"
-      ],
-      "key_risks": [],
-      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
-      "counterfactuals": [
-        "시장 상황이 급격히 변동할 경우"
-      ],
-      "next_checks": [
-        "기업의 재무상태 변경사항",
-        "주요 이벤트나 뉴스"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
-        "key_drivers": [
-          "이익 예상 증가"
-        ],
-        "key_risks": [],
-        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
-        "counterfactuals": [
-          "시장 상황이 급격히 변동할 경우"
-        ],
-        "next_checks": [
-          "기업의 재무상태 변경사항",
-          "주요 이벤트나 뉴스"
-        ],
-        "position_plan": {
-          "prefer_qty": 10,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:39:08+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
-      "key_drivers": [
-        "이익 예상 증가"
-      ],
-      "key_risks": [],
-      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
-      "counterfactuals": [
-        "시장 상황이 급격히 변동할 경우"
-      ],
-      "next_checks": [
-        "기업의 재무상태 변경사항",
-        "주요 이벤트나 뉴스"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
-        "key_drivers": [
-          "이익 예상 증가"
-        ],
-        "key_risks": [],
-        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
-        "counterfactuals": [
-          "시장 상황이 급격히 변동할 경우"
-        ],
-        "next_checks": [
-          "기업의 재무상태 변경사항",
-          "주요 이벤트나 뉴스"
-        ],
-        "position_plan": {
-          "prefer_qty": 10,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:37:17+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
-      "key_drivers": [
-        "이익 예상 증가"
-      ],
-      "key_risks": [],
-      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
-      "counterfactuals": [
-        "시장 상황이 급격히 변동할 경우"
-      ],
-      "next_checks": [
-        "기업의 재무상태 변경사항",
-        "주요 이벤트나 뉴스"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
-        "key_drivers": [
-          "이익 예상 증가"
-        ],
-        "key_risks": [],
-        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
-        "counterfactuals": [
-          "시장 상황이 급격히 변동할 경우"
-        ],
-        "next_checks": [
-          "기업의 재무상태 변경사항",
-          "주요 이벤트나 뉴스"
-        ],
-        "position_plan": {
-          "prefer_qty": 10,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:35:31+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
-      "key_drivers": [
-        "이익 예상 증가"
-      ],
-      "key_risks": [],
-      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
-      "counterfactuals": [
-        "시장 상황이 급격히 변동할 경우"
-      ],
-      "next_checks": [
-        "기업의 재무상태 변경사항",
-        "주요 이벤트나 뉴스"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
-        "key_drivers": [
-          "이익 예상 증가"
-        ],
-        "key_risks": [],
-        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
-        "counterfactuals": [
-          "시장 상황이 급격히 변동할 경우"
-        ],
-        "next_checks": [
-          "기업의 재무상태 변경사항",
-          "주요 이벤트나 뉴스"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:33:38+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
-      "key_drivers": [
-        "이익 예상 증가"
-      ],
-      "key_risks": [],
-      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
-      "counterfactuals": [
-        "시장 상황이 급격히 변동할 경우"
-      ],
-      "next_checks": [
-        "기업의 재무상태 변경사항",
-        "주요 이벤트나 뉴스"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
-        "key_drivers": [
-          "이익 예상 증가"
-        ],
-        "key_risks": [],
-        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
-        "counterfactuals": [
-          "시장 상황이 급격히 변동할 경우"
-        ],
-        "next_checks": [
-          "기업의 재무상태 변경사항",
-          "주요 이벤트나 뉴스"
-        ],
-        "position_plan": {
-          "prefer_qty": 10,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:31:47+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
-      "key_drivers": [
-        "이익 예상 증가"
-      ],
-      "key_risks": [],
-      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
-      "counterfactuals": [
-        "시장 상황이 급격히 변동할 경우"
-      ],
-      "next_checks": [
-        "기업의 재무상태 변경사항",
-        "주요 이벤트나 뉴스"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
-        "key_drivers": [
-          "이익 예상 증가"
-        ],
-        "key_risks": [],
-        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
-        "counterfactuals": [
-          "시장 상황이 급격히 변동할 경우"
-        ],
-        "next_checks": [
-          "기업의 재무상태 변경사항",
-          "주요 이벤트나 뉴스"
-        ],
-        "position_plan": {
-          "prefer_qty": 10,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:29:48+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
-      "key_drivers": [
-        "이익 예상 증가"
-      ],
-      "key_risks": [],
-      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
-      "counterfactuals": [
-        "시장 상황이 급격히 변동할 경우"
-      ],
-      "next_checks": [
-        "기업의 재무상태 변경사항",
-        "주요 이벤트나 뉴스"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
-        "key_drivers": [
-          "이익 예상 증가"
-        ],
-        "key_risks": [],
-        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
-        "counterfactuals": [
-          "시장 상황이 급격히 변동할 경우"
-        ],
-        "next_checks": [
-          "기업의 재무상태 변경사항",
-          "주요 이벤트나 뉴스"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:27:50+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
-      "key_drivers": [
-        "이익 예상 증가"
-      ],
-      "key_risks": [],
-      "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
-      "counterfactuals": [
-        "시장 상황이 급격히 변동할 경우"
-      ],
-      "next_checks": [
-        "기업의 재무상태 변경사항",
-        "주요 이벤트나 뉴스"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "MongoDB (MDB)의 이익 예상 증가와 관련된 긍정적인 뉴스가 있어 단기 수익을 노리기에 적합합니다.",
-        "key_drivers": [
-          "이익 예상 증가"
-        ],
-        "key_risks": [],
-        "valuation_view": "현재 평가는 낙관적이지 않으며, 실질적인 가치 범위가 아직 명확하지 않습니다.",
-        "counterfactuals": [
-          "시장 상황이 급격히 변동할 경우"
-        ],
-        "next_checks": [
-          "기업의 재무상태 변경사항",
-          "주요 이벤트나 뉴스"
-        ],
-        "position_plan": {
-          "prefer_qty": 10,
           "time_horizon": "swing_days"
         }
       }

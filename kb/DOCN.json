@@ -1,6 +1,6 @@
 {
   "ticker": "DOCN",
-  "updated_at": "2026-02-27T07:10:29+09:00",
+  "updated_at": "2026-02-28T03:06:23+09:00",
   "thesis": "",
   "business_summary": "",
   "moat": "",
@@ -393,6 +393,1621 @@
     }
   ],
   "decisions": [
+    {
+      "ts_kst": "2026-02-28T03:06:23+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "현재 가격은 중립적 위치에 있으며, 최근 뉴스나 이벤트가 없어 추가적인 움직임이 예상되지 않습니다.",
+      "key_drivers": [
+        "중립적 시장 제도",
+        "최근 관련 뉴스 부재"
+      ],
+      "key_risks": [
+        "시장 변동성 증가",
+        "새로운 경쟁자 등장"
+      ],
+      "valuation_view": "공정 가치 미정",
+      "counterfactuals": [
+        "긍정적인 재무결과 발표, 시장 상승세"
+      ],
+      "next_checks": [
+        "다음 분기 실적 발표, 경쟁사 동향"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "현재 가격은 중립적 위치에 있으며, 최근 뉴스나 이벤트가 없어 추가적인 움직임이 예상되지 않습니다.",
+        "key_drivers": [
+          "중립적 시장 제도",
+          "최근 관련 뉴스 부재"
+        ],
+        "key_risks": [
+          "시장 변동성 증가",
+          "새로운 경쟁자 등장"
+        ],
+        "valuation_view": "공정 가치 미정",
+        "counterfactuals": [
+          "긍정적인 재무결과 발표, 시장 상승세"
+        ],
+        "next_checks": [
+          "다음 분기 실적 발표, 경쟁사 동향"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T03:03:13+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "현재 가격은 중립적이고 최근 뉴스가 없어 추가적인 움직임이 예상되지 않습니다.",
+      "key_drivers": [
+        "중립적인 시장 제도",
+        "최근 뉴스 부재"
+      ],
+      "key_risks": [
+        "시장 변동성 증가",
+        "급격한 경영진 발표"
+      ],
+      "valuation_view": "공정 가치 미정",
+      "counterfactuals": [
+        "긍정적 또는 부정적인 뉴스 발생"
+      ],
+      "next_checks": [
+        "다음 주요 이벤트나 뉴스를 모니터링"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "현재 가격은 중립적이고 최근 뉴스가 없어 추가적인 움직임이 예상되지 않습니다.",
+        "key_drivers": [
+          "중립적인 시장 제도",
+          "최근 뉴스 부재"
+        ],
+        "key_risks": [
+          "시장 변동성 증가",
+          "급격한 경영진 발표"
+        ],
+        "valuation_view": "공정 가치 미정",
+        "counterfactuals": [
+          "긍정적 또는 부정적인 뉴스 발생"
+        ],
+        "next_checks": [
+          "다음 주요 이벤트나 뉴스를 모니터링"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:43:58+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "현재 주가는 중립적이고 최근 뉴스가 없어 변화 요인을 찾기 어려움.",
+      "key_drivers": [
+        "중립적인 기술적 지표",
+        "최근 실적이 양호"
+      ],
+      "key_risks": [
+        "경쟁 업체의 신제품 출시",
+        "기술 트렌드 변화"
+      ],
+      "valuation_view": "공정가치 평가 불가",
+      "counterfactuals": [
+        "경쟁사 제품 출시로 인한 시장 점유율 하락 가능성"
+      ],
+      "next_checks": [
+        "경쟁 업체의 신제품 동향",
+        "기술 트렌드 변화"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "현재 주가는 중립적이고 최근 뉴스가 없어 변화 요인을 찾기 어려움.",
+        "key_drivers": [
+          "중립적인 기술적 지표",
+          "최근 실적이 양호"
+        ],
+        "key_risks": [
+          "경쟁 업체의 신제품 출시",
+          "기술 트렌드 변화"
+        ],
+        "valuation_view": "공정가치 평가 불가",
+        "counterfactuals": [
+          "경쟁사 제품 출시로 인한 시장 점유율 하락 가능성"
+        ],
+        "next_checks": [
+          "경쟁 업체의 신제품 동향",
+          "기술 트렌드 변화"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:40:55+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "현재 가격은 중립적이고 최근 뉴스가 없어 추가적인 움직임이 예상되지 않습니다.",
+      "key_drivers": [
+        "중립적인 시장 제도",
+        "최근 주요 뉴스 부재"
+      ],
+      "key_risks": [
+        "시장 조건의 갑작스러운 변화"
+      ],
+      "valuation_view": "공정가치 평가는 불확실합니다.",
+      "counterfactuals": [
+        "긍정적인 기업 소식이나 시장 상승세"
+      ],
+      "next_checks": [
+        "다음 주요 이벤트나 뉴스를 확인"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "현재 가격은 중립적이고 최근 뉴스가 없어 추가적인 움직임이 예상되지 않습니다.",
+        "key_drivers": [
+          "중립적인 시장 제도",
+          "최근 주요 뉴스 부재"
+        ],
+        "key_risks": [
+          "시장 조건의 갑작스러운 변화"
+        ],
+        "valuation_view": "공정가치 평가는 불확실합니다.",
+        "counterfactuals": [
+          "긍정적인 기업 소식이나 시장 상승세"
+        ],
+        "next_checks": [
+          "다음 주요 이벤트나 뉴스를 확인"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:37:57+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "현재 시장 상황이 중립적이고 최근 뉴스가 없어 추가적인 움직임이 예상되지 않습니다.",
+      "key_drivers": [
+        "중립적인 기술 지표",
+        "최근 긍정적이거나 부정적인 뉴스 없음"
+      ],
+      "key_risks": [
+        "시장 변동성 증가",
+        "미래 실적 발표"
+      ],
+      "valuation_view": "공정 가치 미확정",
+      "counterfactuals": [
+        "부정적인 재무 보고서 공개",
+        "경쟁사의 혁신 제품 출시"
+      ],
+      "next_checks": [
+        "다음 분기 실적 예상치",
+        "기술 지표 변화"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "현재 시장 상황이 중립적이고 최근 뉴스가 없어 추가적인 움직임이 예상되지 않습니다.",
+        "key_drivers": [
+          "중립적인 기술 지표",
+          "최근 긍정적이거나 부정적인 뉴스 없음"
+        ],
+        "key_risks": [
+          "시장 변동성 증가",
+          "미래 실적 발표"
+        ],
+        "valuation_view": "공정 가치 미확정",
+        "counterfactuals": [
+          "부정적인 재무 보고서 공개",
+          "경쟁사의 혁신 제품 출시"
+        ],
+        "next_checks": [
+          "다음 분기 실적 예상치",
+          "기술 지표 변화"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:34:46+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "현재 가격은 중립적이고 최근 뉴스가 없어 추가적인 움직임이 예상되지 않습니다.",
+      "key_drivers": [
+        "중립적인 시장 제도",
+        "최근 뉴스 부재"
+      ],
+      "key_risks": [
+        "시장 조건의 갑작스러운 변화"
+      ],
+      "valuation_view": "공정가치 미정",
+      "counterfactuals": [
+        "긍정적 또는 부정적인 뉴스 발생"
+      ],
+      "next_checks": [
+        "최근 회사 및 산업 뉴스 모니터링"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "현재 가격은 중립적이고 최근 뉴스가 없어 추가적인 움직임이 예상되지 않습니다.",
+        "key_drivers": [
+          "중립적인 시장 제도",
+          "최근 뉴스 부재"
+        ],
+        "key_risks": [
+          "시장 조건의 갑작스러운 변화"
+        ],
+        "valuation_view": "공정가치 미정",
+        "counterfactuals": [
+          "긍정적 또는 부정적인 뉴스 발생"
+        ],
+        "next_checks": [
+          "최근 회사 및 산업 뉴스 모니터링"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:15:47+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "현재 가격은 중립적이고 최근 뉴스가 없어 추가적인 움직임이 예상되지 않습니다.",
+      "key_drivers": [
+        "위험 선호 분위기",
+        "최근 실적 발표 이후 안정"
+      ],
+      "key_risks": [
+        "시장 변동성 증가",
+        "경쟁사의 신제품 출시"
+      ],
+      "valuation_view": "공정한 가치 판단 불가",
+      "counterfactuals": [
+        "부정적인 경영진 인터뷰, 실적 하향 조정"
+      ],
+      "next_checks": [
+        "다음 분기 실적 발표",
+        "경쟁사 동향"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "현재 가격은 중립적이고 최근 뉴스가 없어 추가적인 움직임이 예상되지 않습니다.",
+        "key_drivers": [
+          "위험 선호 분위기",
+          "최근 실적 발표 이후 안정"
+        ],
+        "key_risks": [
+          "시장 변동성 증가",
+          "경쟁사의 신제품 출시"
+        ],
+        "valuation_view": "공정한 가치 판단 불가",
+        "counterfactuals": [
+          "부정적인 경영진 인터뷰, 실적 하향 조정"
+        ],
+        "next_checks": [
+          "다음 분기 실적 발표",
+          "경쟁사 동향"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:12:58+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "현재 시장은 위험 선호 분위기이며 DigitalOcean의 주가는 안정적입니다.",
+      "key_drivers": [
+        "위험 선호 투자 심리",
+        "최근 실적 호조"
+      ],
+      "key_risks": [
+        "경쟁 업체들의 신제품 출시",
+        "기술 변화에 따른 대응 능력"
+      ],
+      "valuation_view": "공정가치 평가 불확실",
+      "counterfactuals": [
+        "경쟁사의 혁신 제품 출시",
+        "기술 트렌드 변화"
+      ],
+      "next_checks": [
+        "경쟁 업체들의 신제품 동향",
+        "기술 트렌드 변화"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "현재 시장은 위험 선호 분위기이며 DigitalOcean의 주가는 안정적입니다.",
+        "key_drivers": [
+          "위험 선호 투자 심리",
+          "최근 실적 호조"
+        ],
+        "key_risks": [
+          "경쟁 업체들의 신제품 출시",
+          "기술 변화에 따른 대응 능력"
+        ],
+        "valuation_view": "공정가치 평가 불확실",
+        "counterfactuals": [
+          "경쟁사의 혁신 제품 출시",
+          "기술 트렌드 변화"
+        ],
+        "next_checks": [
+          "경쟁 업체들의 신제품 동향",
+          "기술 트렌드 변화"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:09:53+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "현재 시장은 위험 선호 모드이며 DigitalOcean의 주가는 안정적입니다.",
+      "key_drivers": [
+        "위험 선호 모드",
+        "최근 실적이 양호"
+      ],
+      "key_risks": [
+        "긍정적인 뉴스 부재"
+      ],
+      "valuation_view": "None",
+      "counterfactuals": [
+        "부정적인 재무 정보 공개"
+      ],
+      "next_checks": [
+        "다음 주간 실적 발표"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "현재 시장은 위험 선호 모드이며 DigitalOcean의 주가는 안정적입니다.",
+        "key_drivers": [
+          "위험 선호 모드",
+          "최근 실적이 양호"
+        ],
+        "key_risks": [
+          "긍정적인 뉴스 부재"
+        ],
+        "valuation_view": null,
+        "counterfactuals": [
+          "부정적인 재무 정보 공개"
+        ],
+        "next_checks": [
+          "다음 주간 실적 발표"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:07:07+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "현재 시장 상황과 기업 실적 모두 중립적입니다.",
+      "key_drivers": [
+        "시장 제도는 위험 선호 모드",
+        "최근 실적이 양호했으나 새로운 정보 없음"
+      ],
+      "key_risks": [
+        "새로운 부정적인 뉴스 또는 이벤트 발생 가능성"
+      ],
+      "valuation_view": "공정가치 미정, 추가 분석 필요",
+      "counterfactuals": [
+        "부정적인 실적 발표 또는 경쟁 업체의 혁신 제품 출시"
+      ],
+      "next_checks": [
+        "새로운 뉴스 및 이벤트 모니터링",
+        "업계 동향 파악"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "현재 시장 상황과 기업 실적 모두 중립적입니다.",
+        "key_drivers": [
+          "시장 제도는 위험 선호 모드",
+          "최근 실적이 양호했으나 새로운 정보 없음"
+        ],
+        "key_risks": [
+          "새로운 부정적인 뉴스 또는 이벤트 발생 가능성"
+        ],
+        "valuation_view": "공정가치 미정, 추가 분석 필요",
+        "counterfactuals": [
+          "부정적인 실적 발표 또는 경쟁 업체의 혁신 제품 출시"
+        ],
+        "next_checks": [
+          "새로운 뉴스 및 이벤트 모니터링",
+          "업계 동향 파악"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:04:11+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "현재 가격은 중립적이고 최근 뉴스가 없어 추가적인 움직임이 없다.",
+      "key_drivers": [
+        "시장 제도는 위험 온 모드",
+        "최근 주요 뉴스나 이벤트 없음"
+      ],
+      "key_risks": [
+        "기술 지표 변화 없음",
+        "평가 가치 정보 부족"
+      ],
+      "valuation_view": "공정가치 평가는 불명확함",
+      "counterfactuals": [
+        "긍정적인 기업 뉴스 또는 시장 조건 개선"
+      ],
+      "next_checks": [
+        "최근 회사 뉴스 및 이벤트 모니터링",
+        "기술 지표 변화 확인"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "현재 가격은 중립적이고 최근 뉴스가 없어 추가적인 움직임이 없다.",
+        "key_drivers": [
+          "시장 제도는 위험 온 모드",
+          "최근 주요 뉴스나 이벤트 없음"
+        ],
+        "key_risks": [
+          "기술 지표 변화 없음",
+          "평가 가치 정보 부족"
+        ],
+        "valuation_view": "공정가치 평가는 불명확함",
+        "counterfactuals": [
+          "긍정적인 기업 뉴스 또는 시장 조건 개선"
+        ],
+        "next_checks": [
+          "최근 회사 뉴스 및 이벤트 모니터링",
+          "기술 지표 변화 확인"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:59:12+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "현재 시장은 위험 선호 분위기이며 DigitalOcean의 주가는 안정적입니다.",
+      "key_drivers": [
+        "위험 선호 시장",
+        "최근 실적이 양호"
+      ],
+      "key_risks": [
+        "경쟁 업체들의 영향력 증가",
+        "기술 혁신 지연"
+      ],
+      "valuation_view": "공정 가치 미정",
+      "counterfactuals": [
+        "시장 분위기 변화, 경쟁 업체의 신제품 출시"
+      ],
+      "next_checks": [
+        "시장 동향 모니터링, 경쟁 업체 동향"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "현재 시장은 위험 선호 분위기이며 DigitalOcean의 주가는 안정적입니다.",
+        "key_drivers": [
+          "위험 선호 시장",
+          "최근 실적이 양호"
+        ],
+        "key_risks": [
+          "경쟁 업체들의 영향력 증가",
+          "기술 혁신 지연"
+        ],
+        "valuation_view": "공정 가치 미정",
+        "counterfactuals": [
+          "시장 분위기 변화, 경쟁 업체의 신제품 출시"
+        ],
+        "next_checks": [
+          "시장 동향 모니터링, 경쟁 업체 동향"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:56:16+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "현재 시장은 위험 허용 모드이며 DigitalOcean의 최근 실적과 가이던스는 긍정적이지만, 주가 움직임이 제한적입니다.",
+      "key_drivers": [
+        "긍정적인 이익 및 가이던스",
+        "경쟁력 있는 클라우드 서비스"
+      ],
+      "key_risks": [
+        "시장 변동성 증가",
+        "기술 혁신 지연"
+      ],
+      "valuation_view": "공정 가치 미정",
+      "counterfactuals": [
+        "부진한 실적 발표, 경쟁사의 신제품 출시"
+      ],
+      "next_checks": [
+        "다음 분기 실적 발표, 시장 동향"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "현재 시장은 위험 허용 모드이며 DigitalOcean의 최근 실적과 가이던스는 긍정적이지만, 주가 움직임이 제한적입니다.",
+        "key_drivers": [
+          "긍정적인 이익 및 가이던스",
+          "경쟁력 있는 클라우드 서비스"
+        ],
+        "key_risks": [
+          "시장 변동성 증가",
+          "기술 혁신 지연"
+        ],
+        "valuation_view": "공정 가치 미정",
+        "counterfactuals": [
+          "부진한 실적 발표, 경쟁사의 신제품 출시"
+        ],
+        "next_checks": [
+          "다음 분기 실적 발표, 시장 동향"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:53:20+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "현재 시장은 위험 선호 모드이지만 최근 뉴스나 이벤트가 없어 주요 지표 변화가 없다.",
+      "key_drivers": [
+        "위험 선호 모드",
+        "최근 뉴스 부재"
+      ],
+      "key_risks": [
+        "시장 변동성 증가",
+        "기업 실적 하락 우려"
+      ],
+      "valuation_view": "공정 가치 미정",
+      "counterfactuals": [
+        "긍정적인 기업 이벤트나 실적 발표"
+      ],
+      "next_checks": [
+        "다음 주요 실적 발표일",
+        "시장 동향 변화"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "현재 시장은 위험 선호 모드이지만 최근 뉴스나 이벤트가 없어 주요 지표 변화가 없다.",
+        "key_drivers": [
+          "위험 선호 모드",
+          "최근 뉴스 부재"
+        ],
+        "key_risks": [
+          "시장 변동성 증가",
+          "기업 실적 하락 우려"
+        ],
+        "valuation_view": "공정 가치 미정",
+        "counterfactuals": [
+          "긍정적인 기업 이벤트나 실적 발표"
+        ],
+        "next_checks": [
+          "다음 주요 실적 발표일",
+          "시장 동향 변화"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:26:54+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 리스크 오프 시장에서 DigitalOcean의 가격은 안정적 수준을 유지하고 있으며, 최근 긍정적인 이슈가 없어 추가 매수를 유보한다.",
+      "key_drivers": [
+        "리스크 오프 시장",
+        "최근 긍정적인 뉴스 부재"
+      ],
+      "key_risks": [
+        "시장 리스크 상승 가능성",
+        "긍정적 이벤트 미발생"
+      ],
+      "valuation_view": "공정가치 평가 불가",
+      "counterfactuals": [
+        "시장 전반의 위험 회복, 긍정적인 기업 뉴스 발생"
+      ],
+      "next_checks": [
+        "시장 리스크 지표 모니터링",
+        "기업 관련 뉴스 및 이벤트 주시"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 리스크 오프 시장에서 DigitalOcean의 가격은 안정적 수준을 유지하고 있으며, 최근 긍정적인 이슈가 없어 추가 매수를 유보한다.",
+        "key_drivers": [
+          "리스크 오프 시장",
+          "최근 긍정적인 뉴스 부재"
+        ],
+        "key_risks": [
+          "시장 리스크 상승 가능성",
+          "긍정적 이벤트 미발생"
+        ],
+        "valuation_view": "공정가치 평가 불가",
+        "counterfactuals": [
+          "시장 전반의 위험 회복, 긍정적인 기업 뉴스 발생"
+        ],
+        "next_checks": [
+          "시장 리스크 지표 모니터링",
+          "기업 관련 뉴스 및 이벤트 주시"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:24:05+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 리스크 오프 시장에서 DigitalOcean의 주가는 안정적 수준을 유지하고 있습니다.",
+      "key_drivers": [
+        "리스크 오프 시장 조건",
+        "최근 긍정적인 이슈 없음"
+      ],
+      "key_risks": [
+        "시장 변동성 증가 가능성",
+        "경쟁 업체들의 경쟁 압력"
+      ],
+      "valuation_view": "공정 가치 평가 불확실",
+      "counterfactuals": [
+        "긍정적인 기업 뉴스나 이벤트 발생 시 주가 상승 가능"
+      ],
+      "next_checks": [
+        "시장 조건 변화",
+        "기업 실적 및 전략 발표"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 리스크 오프 시장에서 DigitalOcean의 주가는 안정적 수준을 유지하고 있습니다.",
+        "key_drivers": [
+          "리스크 오프 시장 조건",
+          "최근 긍정적인 이슈 없음"
+        ],
+        "key_risks": [
+          "시장 변동성 증가 가능성",
+          "경쟁 업체들의 경쟁 압력"
+        ],
+        "valuation_view": "공정 가치 평가 불확실",
+        "counterfactuals": [
+          "긍정적인 기업 뉴스나 이벤트 발생 시 주가 상승 가능"
+        ],
+        "next_checks": [
+          "시장 조건 변화",
+          "기업 실적 및 전략 발표"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:21:12+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "현재 리스크 오프 시장 상황에서 최근 긍정적인 뉴스 없음.",
+      "key_drivers": [
+        "리스크 오프 시장"
+      ],
+      "key_risks": [
+        "시장 변동성 증가"
+      ],
+      "valuation_view": "공정 가치 미정",
+      "counterfactuals": [
+        "긍정적 이벤트나 뉴스 발생"
+      ],
+      "next_checks": [
+        "긍정적인 기업 뉴스, 시장 상황 변화"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "현재 리스크 오프 시장 상황에서 최근 긍정적인 뉴스 없음.",
+        "key_drivers": [
+          "리스크 오프 시장"
+        ],
+        "key_risks": [
+          "시장 변동성 증가"
+        ],
+        "valuation_view": "공정 가치 미정",
+        "counterfactuals": [
+          "긍정적 이벤트나 뉴스 발생"
+        ],
+        "next_checks": [
+          "긍정적인 기업 뉴스, 시장 상황 변화"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:18:21+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "현재 시장은 리스크 오프 모드로, 최근 긍정적인 뉴스가 없어 추가 매수를 지양합니다.",
+      "key_drivers": [
+        "리스크 오프 모멘텀",
+        "최근 긍정적 뉴스 부재"
+      ],
+      "key_risks": [
+        "시장 리스크 회복 지연",
+        "기업 실적 악화 우려"
+      ],
+      "valuation_view": "공정가치 미정",
+      "counterfactuals": [
+        "긍정적인 기업 실적 발표나 시장 상승세 재개"
+      ],
+      "next_checks": [
+        "다음 분기 실적 발표, 시장 리스크 모멘텀 변화"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "현재 시장은 리스크 오프 모드로, 최근 긍정적인 뉴스가 없어 추가 매수를 지양합니다.",
+        "key_drivers": [
+          "리스크 오프 모멘텀",
+          "최근 긍정적 뉴스 부재"
+        ],
+        "key_risks": [
+          "시장 리스크 회복 지연",
+          "기업 실적 악화 우려"
+        ],
+        "valuation_view": "공정가치 미정",
+        "counterfactuals": [
+          "긍정적인 기업 실적 발표나 시장 상승세 재개"
+        ],
+        "next_checks": [
+          "다음 분기 실적 발표, 시장 리스크 모멘텀 변화"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:15:17+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "현재 리스크 오프 시장에서 최근 긍정적인 뉴스 없이 가격이 안정적입니다.",
+      "key_drivers": [
+        "리스크 오프 시장",
+        "최근 긍정적인 뉴스 부재"
+      ],
+      "key_risks": [
+        "시장 변동성 증가",
+        "긍정적인 이벤트 미발생"
+      ],
+      "valuation_view": "공정 가치 평가 불가",
+      "counterfactuals": [
+        "긍정적인 기업 이벤트 발생 시 매수 타이밍 될 수 있음"
+      ],
+      "next_checks": [
+        "긍정적인 뉴스 및 이벤트 모니터링"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "현재 리스크 오프 시장에서 최근 긍정적인 뉴스 없이 가격이 안정적입니다.",
+        "key_drivers": [
+          "리스크 오프 시장",
+          "최근 긍정적인 뉴스 부재"
+        ],
+        "key_risks": [
+          "시장 변동성 증가",
+          "긍정적인 이벤트 미발생"
+        ],
+        "valuation_view": "공정 가치 평가 불가",
+        "counterfactuals": [
+          "긍정적인 기업 이벤트 발생 시 매수 타이밍 될 수 있음"
+        ],
+        "next_checks": [
+          "긍정적인 뉴스 및 이벤트 모니터링"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:05:17+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장은 리스크 오프 모드로, DigitalOcean의 주가는 큰 변동 없이 안정적입니다.",
+      "key_drivers": [
+        "리스크 오프 트렌드",
+        "최근 실적 발표 이후 호평"
+      ],
+      "key_risks": [
+        "시장 전체적인 불안 요인",
+        "경쟁사들의 경쟁 강도"
+      ],
+      "valuation_view": "공정가치 평가는 아직 진행 중이며, 현재는 시장 상황을 주시하고 있습니다.",
+      "counterfactuals": [
+        "시장 리스크 오프 트렌드 변화",
+        "DigitalOcean의 추가적인 실적 발표"
+      ],
+      "next_checks": [
+        "시장 전반적인 흐름",
+        "DigitalOcean의 경쟁사 동향"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장은 리스크 오프 모드로, DigitalOcean의 주가는 큰 변동 없이 안정적입니다.",
+        "key_drivers": [
+          "리스크 오프 트렌드",
+          "최근 실적 발표 이후 호평"
+        ],
+        "key_risks": [
+          "시장 전체적인 불안 요인",
+          "경쟁사들의 경쟁 강도"
+        ],
+        "valuation_view": "공정가치 평가는 아직 진행 중이며, 현재는 시장 상황을 주시하고 있습니다.",
+        "counterfactuals": [
+          "시장 리스크 오프 트렌드 변화",
+          "DigitalOcean의 추가적인 실적 발표"
+        ],
+        "next_checks": [
+          "시장 전반적인 흐름",
+          "DigitalOcean의 경쟁사 동향"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:56:25+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 리스크 오프 시장에서 DigitalOcean의 가격은 안정적 수준을 유지하고 있으며, 최근 뉴스나 이벤트가 없어 추가적인 움직임이 예상되지 않습니다.",
+      "key_drivers": [
+        "리스크 오프 시장 조건",
+        "최근 실적 발표 이후의 안정화"
+      ],
+      "key_risks": [
+        "시장 리스크 요인 증가",
+        "기술주 하락세 지속"
+      ],
+      "valuation_view": "공정 가치 미정, 추가적인 가격 변동 없음",
+      "counterfactuals": [
+        "긍정적인 뉴스나 이벤트 발생 시 주가 상승 가능",
+        "시장 리스크 증가로 인한 하락 가능성"
+      ],
+      "next_checks": [
+        "시장 조건 변화 확인",
+        "DigitalOcean 관련 새로운 뉴스 및 이벤트 모니터링"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 리스크 오프 시장에서 DigitalOcean의 가격은 안정적 수준을 유지하고 있으며, 최근 뉴스나 이벤트가 없어 추가적인 움직임이 예상되지 않습니다.",
+        "key_drivers": [
+          "리스크 오프 시장 조건",
+          "최근 실적 발표 이후의 안정화"
+        ],
+        "key_risks": [
+          "시장 리스크 요인 증가",
+          "기술주 하락세 지속"
+        ],
+        "valuation_view": "공정 가치 미정, 추가적인 가격 변동 없음",
+        "counterfactuals": [
+          "긍정적인 뉴스나 이벤트 발생 시 주가 상승 가능",
+          "시장 리스크 증가로 인한 하락 가능성"
+        ],
+        "next_checks": [
+          "시장 조건 변화 확인",
+          "DigitalOcean 관련 새로운 뉴스 및 이벤트 모니터링"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:53:24+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "현재 시장은 리스크 오프 모드로, 최근 주요 뉴스나 이벤트가 없어 기존 포지션 유지.",
+      "key_drivers": [
+        "리스크 오프 트렌드",
+        "최근 실적 및 가이던스 호재 소진"
+      ],
+      "key_risks": [
+        "시장 리스크 재평가 가능성",
+        "경쟁사 동향"
+      ],
+      "valuation_view": "공정가치 평가 미확정",
+      "counterfactuals": [
+        "긍정적인 뉴스나 이벤트 발생 시 매수 가능"
+      ],
+      "next_checks": [
+        "다음 실적 발표 전까지 경영진 인터뷰 및 재무제표 동향 주시"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "현재 시장은 리스크 오프 모드로, 최근 주요 뉴스나 이벤트가 없어 기존 포지션 유지.",
+        "key_drivers": [
+          "리스크 오프 트렌드",
+          "최근 실적 및 가이던스 호재 소진"
+        ],
+        "key_risks": [
+          "시장 리스크 재평가 가능성",
+          "경쟁사 동향"
+        ],
+        "valuation_view": "공정가치 평가 미확정",
+        "counterfactuals": [
+          "긍정적인 뉴스나 이벤트 발생 시 매수 가능"
+        ],
+        "next_checks": [
+          "다음 실적 발표 전까지 경영진 인터뷰 및 재무제표 동향 주시"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:50:21+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "현재 시장은 위험회피 모드로 가격 변동성이 낮아진 상태입니다.",
+      "key_drivers": [
+        "위험회피 모드",
+        "최근 뉴스 없음"
+      ],
+      "key_risks": [
+        "시장 상황 변화",
+        "새로운 경제 지표 발표"
+      ],
+      "valuation_view": "공정가치 평가 미적용",
+      "counterfactuals": [
+        "시장이 위험 선호 모드로 전환할 경우 가격 하락 가능"
+      ],
+      "next_checks": [
+        "시장 제도 변화",
+        "기업 실적 공시"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "현재 시장은 위험회피 모드로 가격 변동성이 낮아진 상태입니다.",
+        "key_drivers": [
+          "위험회피 모드",
+          "최근 뉴스 없음"
+        ],
+        "key_risks": [
+          "시장 상황 변화",
+          "새로운 경제 지표 발표"
+        ],
+        "valuation_view": "공정가치 평가 미적용",
+        "counterfactuals": [
+          "시장이 위험 선호 모드로 전환할 경우 가격 하락 가능"
+        ],
+        "next_checks": [
+          "시장 제도 변화",
+          "기업 실적 공시"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:47:12+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장은 리스크 오프 모드로, 최근 주요 뉴스나 이벤트가 없어 기업의 기본적인 성과만을 고려합니다.",
+      "key_drivers": [
+        "리스크 오프 트렌드",
+        "최근 실적 개선"
+      ],
+      "key_risks": [
+        "시장 리스크 확대 가능성",
+        "경쟁 업체들의 경쟁력 강화"
+      ],
+      "valuation_view": "공정가치는 현재 정보로 판단 불가",
+      "counterfactuals": [
+        "시장 리스크 온 트렌드 전환",
+        "기업 실적 부진"
+      ],
+      "next_checks": [
+        "시장 리스크 모드 변화",
+        "최근 기업 뉴스 및 이벤트"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장은 리스크 오프 모드로, 최근 주요 뉴스나 이벤트가 없어 기업의 기본적인 성과만을 고려합니다.",
+        "key_drivers": [
+          "리스크 오프 트렌드",
+          "최근 실적 개선"
+        ],
+        "key_risks": [
+          "시장 리스크 확대 가능성",
+          "경쟁 업체들의 경쟁력 강화"
+        ],
+        "valuation_view": "공정가치는 현재 정보로 판단 불가",
+        "counterfactuals": [
+          "시장 리스크 온 트렌드 전환",
+          "기업 실적 부진"
+        ],
+        "next_checks": [
+          "시장 리스크 모드 변화",
+          "최근 기업 뉴스 및 이벤트"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:44:58+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장은 위험회피 모드로, DigitalOcean의 최근 실적 발표에도 불구하고 큰 변동성이 없다.",
+      "key_drivers": [
+        "위험회피 트렌드",
+        "최근 실적 발표"
+      ],
+      "key_risks": [
+        "시장 전반적인 불확실성",
+        "미래 실적 부진 우려"
+      ],
+      "valuation_view": "공정가치 미정, 최근 이슈 없음",
+      "counterfactuals": [
+        "긍정적인 경제 지표나 투자 심리 개선"
+      ],
+      "next_checks": [
+        "시장 전반의 위험회피 모드 변화",
+        "DigitalOcean 추가 실적 발표"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장은 위험회피 모드로, DigitalOcean의 최근 실적 발표에도 불구하고 큰 변동성이 없다.",
+        "key_drivers": [
+          "위험회피 트렌드",
+          "최근 실적 발표"
+        ],
+        "key_risks": [
+          "시장 전반적인 불확실성",
+          "미래 실적 부진 우려"
+        ],
+        "valuation_view": "공정가치 미정, 최근 이슈 없음",
+        "counterfactuals": [
+          "긍정적인 경제 지표나 투자 심리 개선"
+        ],
+        "next_checks": [
+          "시장 전반의 위험회피 모드 변화",
+          "DigitalOcean 추가 실적 발표"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:30:02+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장은 리스크 오프 모드로, DigitalOcean의 주요 이벤트나 뉴스가 없어 판단을 유보합니다.",
+      "key_drivers": [
+        "리스크 오프 트렌드",
+        "최근 중요한 이슈 부재"
+      ],
+      "key_risks": [
+        "시장 변동성 증가",
+        "기술적 지표 약세"
+      ],
+      "valuation_view": "공정 가치 평가는 아직 진행 중이며, 추가적인 정보가 필요합니다.",
+      "counterfactuals": [
+        "긍정적인 뉴스나 이벤트 발생 시 매수 판단 가능",
+        "시장 리스크 증가로 인한 하락 가능성"
+      ],
+      "next_checks": [
+        "DigitalOcean의 주요 뉴스 및 이벤트 모니터링",
+        "기술적 지표 변화 확인"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장은 리스크 오프 모드로, DigitalOcean의 주요 이벤트나 뉴스가 없어 판단을 유보합니다.",
+        "key_drivers": [
+          "리스크 오프 트렌드",
+          "최근 중요한 이슈 부재"
+        ],
+        "key_risks": [
+          "시장 변동성 증가",
+          "기술적 지표 약세"
+        ],
+        "valuation_view": "공정 가치 평가는 아직 진행 중이며, 추가적인 정보가 필요합니다.",
+        "counterfactuals": [
+          "긍정적인 뉴스나 이벤트 발생 시 매수 판단 가능",
+          "시장 리스크 증가로 인한 하락 가능성"
+        ],
+        "next_checks": [
+          "DigitalOcean의 주요 뉴스 및 이벤트 모니터링",
+          "기술적 지표 변화 확인"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:27:00+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장 상황이 위험회피 모드로 전환되어 있으며, 최근 이슈가 없어 기존 판단을 유지합니다.",
+      "key_drivers": [
+        "Q4 실적 발표",
+        "긍정적인 가이던스"
+      ],
+      "key_risks": [
+        "경쟁사의 신제품 출시",
+        "기술 리스크"
+      ],
+      "valuation_view": "공정가치 평가는 최근 이슈 없음으로 변경사항 없음",
+      "counterfactuals": [
+        "경쟁사 제품 출시로 인한 시장 점유율 하락 가능성"
+      ],
+      "next_checks": [
+        "3월 실적 발표",
+        "기술 동향 및 경쟁사 움직임"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장 상황이 위험회피 모드로 전환되어 있으며, 최근 이슈가 없어 기존 판단을 유지합니다.",
+        "key_drivers": [
+          "Q4 실적 발표",
+          "긍정적인 가이던스"
+        ],
+        "key_risks": [
+          "경쟁사의 신제품 출시",
+          "기술 리스크"
+        ],
+        "valuation_view": "공정가치 평가는 최근 이슈 없음으로 변경사항 없음",
+        "counterfactuals": [
+          "경쟁사 제품 출시로 인한 시장 점유율 하락 가능성"
+        ],
+        "next_checks": [
+          "3월 실적 발표",
+          "기술 동향 및 경쟁사 움직임"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:23:57+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 DigitalOcean의 주가는 중립적이고 최근 이슈가 없어 큰 변화가 예상되지 않습니다.",
+      "key_drivers": [
+        "Q4 실적 발표",
+        "AMD와의 협업"
+      ],
+      "key_risks": [
+        "경쟁사들의 신제품 출시",
+        "기술 리스크"
+      ],
+      "valuation_view": "공정가치는 현재 주가 수준에서 중립적입니다.",
+      "counterfactuals": [
+        "경쟁사들이 강력한 제품을 출시하면 시장 점유율 하락 가능성이 있습니다."
+      ],
+      "next_checks": [
+        "다음 분기 실적 발표",
+        "새로운 협업 및 제품 출시 소식"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 DigitalOcean의 주가는 중립적이고 최근 이슈가 없어 큰 변화가 예상되지 않습니다.",
+        "key_drivers": [
+          "Q4 실적 발표",
+          "AMD와의 협업"
+        ],
+        "key_risks": [
+          "경쟁사들의 신제품 출시",
+          "기술 리스크"
+        ],
+        "valuation_view": "공정가치는 현재 주가 수준에서 중립적입니다.",
+        "counterfactuals": [
+          "경쟁사들이 강력한 제품을 출시하면 시장 점유율 하락 가능성이 있습니다."
+        ],
+        "next_checks": [
+          "다음 분기 실적 발표",
+          "새로운 협업 및 제품 출시 소식"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:20:59+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장은 리스크 오프 모드로, DigitalOcean의 주요 이슈나 긍정적인 뉴스가 없어 기대감이 제한적입니다.",
+      "key_drivers": [
+        "리스크 오프 트렌드",
+        "최근 실적이 중립적"
+      ],
+      "key_risks": [
+        "시장 리스크 요인",
+        "경쟁사들의 경쟁 압력"
+      ],
+      "valuation_view": "공정가치 평가는 불확실성이 높아 현재는 유지",
+      "counterfactuals": [
+        "긍정적인 실적 발표나 새로운 제품 출시 등 긍정적인 이벤트 발생 시 매수 가능"
+      ],
+      "next_checks": [
+        "DigitalOcean의 향후 실적 예측",
+        "경쟁사들의 동향"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장은 리스크 오프 모드로, DigitalOcean의 주요 이슈나 긍정적인 뉴스가 없어 기대감이 제한적입니다.",
+        "key_drivers": [
+          "리스크 오프 트렌드",
+          "최근 실적이 중립적"
+        ],
+        "key_risks": [
+          "시장 리스크 요인",
+          "경쟁사들의 경쟁 압력"
+        ],
+        "valuation_view": "공정가치 평가는 불확실성이 높아 현재는 유지",
+        "counterfactuals": [
+          "긍정적인 실적 발표나 새로운 제품 출시 등 긍정적인 이벤트 발생 시 매수 가능"
+        ],
+        "next_checks": [
+          "DigitalOcean의 향후 실적 예측",
+          "경쟁사들의 동향"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:17:52+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장 상황이 위험회피 모드이며 최근 뉴스가 없어 큰 변화 요인을 찾기 어렵습니다.",
+      "key_drivers": [
+        "Q4 실적 발표 이후 주요 이슈 부재"
+      ],
+      "key_risks": [
+        "시장 전반적인 리스크 오프 상태 지속"
+      ],
+      "valuation_view": "공정가치 평가 불가, 시장 상황에 따른",
+      "counterfactuals": [
+        "긍정적인 뉴스나 실적 개선 소식이 나올 경우 매수 가능"
+      ],
+      "next_checks": [
+        "다음 주요 이벤트 및 실적 발표 동향 모니터링"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장 상황이 위험회피 모드이며 최근 뉴스가 없어 큰 변화 요인을 찾기 어렵습니다.",
+        "key_drivers": [
+          "Q4 실적 발표 이후 주요 이슈 부재"
+        ],
+        "key_risks": [
+          "시장 전반적인 리스크 오프 상태 지속"
+        ],
+        "valuation_view": "공정가치 평가 불가, 시장 상황에 따른",
+        "counterfactuals": [
+          "긍정적인 뉴스나 실적 개선 소식이 나올 경우 매수 가능"
+        ],
+        "next_checks": [
+          "다음 주요 이벤트 및 실적 발표 동향 모니터링"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:12:16+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장 상황이 위험회피 모드로 전환되었으며, DigitalOcean의 최근 실적 발표는 중립적인 영향을 미쳤습니다.",
+      "key_drivers": [
+        "시장 전체적인 리스크 오프 트렌드",
+        "DigitalOcean의 Q4 실적 발표"
+      ],
+      "key_risks": [
+        "전체 시장의 불확실성 증가",
+        "경쟁사들의 실적이 예상보다 부진할 경우"
+      ],
+      "valuation_view": "공정가치 평가는 현재 진행 중이며, 추가적인 데이터 수집이 필요합니다.",
+      "counterfactuals": [
+        "시장 상황이 위험온 모드로 전환될 경우",
+        "DigitalOcean의 Q4 실적이 예상보다 우수할 경우"
+      ],
+      "next_checks": [
+        "DigitalOcean의 주요 경쟁사들의 실적 발표",
+        "전체 시장 동향 및 리스크 오프 트렌드 지속 여부"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장 상황이 위험회피 모드로 전환되었으며, DigitalOcean의 최근 실적 발표는 중립적인 영향을 미쳤습니다.",
+        "key_drivers": [
+          "시장 전체적인 리스크 오프 트렌드",
+          "DigitalOcean의 Q4 실적 발표"
+        ],
+        "key_risks": [
+          "전체 시장의 불확실성 증가",
+          "경쟁사들의 실적이 예상보다 부진할 경우"
+        ],
+        "valuation_view": "공정가치 평가는 현재 진행 중이며, 추가적인 데이터 수집이 필요합니다.",
+        "counterfactuals": [
+          "시장 상황이 위험온 모드로 전환될 경우",
+          "DigitalOcean의 Q4 실적이 예상보다 우수할 경우"
+        ],
+        "next_checks": [
+          "DigitalOcean의 주요 경쟁사들의 실적 발표",
+          "전체 시장 동향 및 리스크 오프 트렌드 지속 여부"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:09:10+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 DigitalOcean의 주가는 중립적이고 최근 이슈가 없어 큰 변화가 예상되지 않습니다.",
+      "key_drivers": [
+        "최근 실적 발표 이후 긍정적인 시장 반응",
+        "향후 수익 전망 개선"
+      ],
+      "key_risks": [
+        "경쟁사들의 경쟁 압력",
+        "AI 관련 기술의 빠른 변화"
+      ],
+      "valuation_view": "현재 공시된 정보만으로는 정확한 공정가치를 산출하기 어렵습니다.",
+      "counterfactuals": [
+        "다음 분기 실적 발표 시 부진한 성과, 경쟁사들의 신제품 출시"
+      ],
+      "next_checks": [
+        "다음 분기 실적 발표",
+        "경쟁사의 동향 및 기술 변화"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 DigitalOcean의 주가는 중립적이고 최근 이슈가 없어 큰 변화가 예상되지 않습니다.",
+        "key_drivers": [
+          "최근 실적 발표 이후 긍정적인 시장 반응",
+          "향후 수익 전망 개선"
+        ],
+        "key_risks": [
+          "경쟁사들의 경쟁 압력",
+          "AI 관련 기술의 빠른 변화"
+        ],
+        "valuation_view": "현재 공시된 정보만으로는 정확한 공정가치를 산출하기 어렵습니다.",
+        "counterfactuals": [
+          "다음 분기 실적 발표 시 부진한 성과, 경쟁사들의 신제품 출시"
+        ],
+        "next_checks": [
+          "다음 분기 실적 발표",
+          "경쟁사의 동향 및 기술 변화"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-27T23:58:24+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 DigitalOcean의 주가는 중립적이고, 최근 이슈가 없어 큰 변동이 예상되지 않습니다.",
+      "key_drivers": [
+        "AI 관련 업계 동향",
+        "DigitalOcean의 Q4 실적"
+      ],
+      "key_risks": [
+        "경쟁사들의 경쟁력 강화",
+        "기술 혁신 지연"
+      ],
+      "valuation_view": "현재 주가는 공정가치를 반영하고 있으며, 추가적인 정보 없이는 가격 변동이 제한적일 것으로 예상됩니다.",
+      "counterfactuals": [
+        "Nvidia나 Snowflake 등의 AI 관련 기업들의 실적이 좋지 않을 경우 DigitalOcean의 주가도 영향을 받을 수 있습니다."
+      ],
+      "next_checks": [
+        "DigitalOcean과 경쟁사들의 Q4 실적 발표",
+        "AI 산업 전반의 동향"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 DigitalOcean의 주가는 중립적이고, 최근 이슈가 없어 큰 변동이 예상되지 않습니다.",
+        "key_drivers": [
+          "AI 관련 업계 동향",
+          "DigitalOcean의 Q4 실적"
+        ],
+        "key_risks": [
+          "경쟁사들의 경쟁력 강화",
+          "기술 혁신 지연"
+        ],
+        "valuation_view": "현재 주가는 공정가치를 반영하고 있으며, 추가적인 정보 없이는 가격 변동이 제한적일 것으로 예상됩니다.",
+        "counterfactuals": [
+          "Nvidia나 Snowflake 등의 AI 관련 기업들의 실적이 좋지 않을 경우 DigitalOcean의 주가도 영향을 받을 수 있습니다."
+        ],
+        "next_checks": [
+          "DigitalOcean과 경쟁사들의 Q4 실적 발표",
+          "AI 산업 전반의 동향"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-27T23:55:30+09:00",
+      "action": "HOLD",
+      "confidence": 0.8,
+      "rationale": "현재 DigitalOcean의 주가는 중립적이고 최근 이슈가 없어 추가적인 움직임이 예상되지 않습니다.",
+      "key_drivers": [
+        "최근 실적 발표 후 주가 상승 및 안정화",
+        "긍정적인 가이던스"
+      ],
+      "key_risks": [
+        "AI 관련 경쟁사들의 실적이 시장에 미치는 영향",
+        "시장 전반의 리스크 오프 모드"
+      ],
+      "valuation_view": "현재 공정 가치 평가를 위한 데이터 부족",
+      "counterfactuals": [
+        "경쟁사들의 실적 발표 후 DigitalOcean 주가 하락 가능성",
+        "전체 시장이 리스크 온으로 전환할 경우"
+      ],
+      "next_checks": [
+        "AI 관련 경쟁사들의 실적 발표 결과",
+        "시장 전반의 흐름"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.8,
+        "rationale": "현재 DigitalOcean의 주가는 중립적이고 최근 이슈가 없어 추가적인 움직임이 예상되지 않습니다.",
+        "key_drivers": [
+          "최근 실적 발표 후 주가 상승 및 안정화",
+          "긍정적인 가이던스"
+        ],
+        "key_risks": [
+          "AI 관련 경쟁사들의 실적이 시장에 미치는 영향",
+          "시장 전반의 리스크 오프 모드"
+        ],
+        "valuation_view": "현재 공정 가치 평가를 위한 데이터 부족",
+        "counterfactuals": [
+          "경쟁사들의 실적 발표 후 DigitalOcean 주가 하락 가능성",
+          "전체 시장이 리스크 온으로 전환할 경우"
+        ],
+        "next_checks": [
+          "AI 관련 경쟁사들의 실적 발표 결과",
+          "시장 전반의 흐름"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-27T23:52:34+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 DigitalOcean의 주가는 중립적이고 최근 이슈가 없어 추가적인 움직임이 예상되지 않습니다.",
+      "key_drivers": [
+        "Q4 실적 발표 이후 현재까지 긍정적이지만 큰 변화는 없음"
+      ],
+      "key_risks": [
+        "AI 관련 경쟁사들의 실적 발표에 따른 시장 변동성"
+      ],
+      "valuation_view": "현재 주가는 중립적이고 추가적인 정보가 필요함",
+      "counterfactuals": [
+        "경쟁사들의 실적이 좋지 않아 DigitalOcean의 주가도 하락할 수 있음"
+      ],
+      "next_checks": [
+        "Nvidia, Snowflake 등 경쟁사들의 Q4 실적 발표 및 시장 반응"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 DigitalOcean의 주가는 중립적이고 최근 이슈가 없어 추가적인 움직임이 예상되지 않습니다.",
+        "key_drivers": [
+          "Q4 실적 발표 이후 현재까지 긍정적이지만 큰 변화는 없음"
+        ],
+        "key_risks": [
+          "AI 관련 경쟁사들의 실적 발표에 따른 시장 변동성"
+        ],
+        "valuation_view": "현재 주가는 중립적이고 추가적인 정보가 필요함",
+        "counterfactuals": [
+          "경쟁사들의 실적이 좋지 않아 DigitalOcean의 주가도 하락할 수 있음"
+        ],
+        "next_checks": [
+          "Nvidia, Snowflake 등 경쟁사들의 Q4 실적 발표 및 시장 반응"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
     {
       "ts_kst": "2026-02-27T07:10:29+09:00",
       "action": "HOLD",
@@ -8706,1841 +10321,6 @@
         ],
         "position_plan": {
           "prefer_qty": 100,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:38:37+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "Recent earnings reports and product launches have shown strong financial performance and strategic growth initiatives for DigitalOcean (DOCN). The company's AI focus, revenue growth, and competitive positioning are key drivers.",
-      "key_drivers": [
-        "Strong Q4 2025 earnings with significant ARR growth",
-        "Positive outlook on expanding AI-related demand",
-        "Strategic collaboration with AMD to enhance AI offerings"
-      ],
-      "key_risks": [
-        "Potential competitive pressures from larger cloud providers",
-        "Market uncertainty in the broader tech sector"
-      ],
-      "valuation_view": "DOCN's valuation appears reasonable given its strong growth trajectory and strategic initiatives, but it is important to monitor market conditions.",
-      "counterfactuals": [
-        "A significant downturn in AI adoption or a competitive response from larger players could negatively impact DOCN’s stock price."
-      ],
-      "next_checks": [
-        "Quarterly earnings reports for continued performance",
-        "Competitor actions and their impact on the cloud market"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "Recent earnings reports and product launches have shown strong financial performance and strategic growth initiatives for DigitalOcean (DOCN). The company's AI focus, revenue growth, and competitive positioning are key drivers.",
-        "key_drivers": [
-          "Strong Q4 2025 earnings with significant ARR growth",
-          "Positive outlook on expanding AI-related demand",
-          "Strategic collaboration with AMD to enhance AI offerings"
-        ],
-        "key_risks": [
-          "Potential competitive pressures from larger cloud providers",
-          "Market uncertainty in the broader tech sector"
-        ],
-        "valuation_view": "DOCN's valuation appears reasonable given its strong growth trajectory and strategic initiatives, but it is important to monitor market conditions.",
-        "counterfactuals": [
-          "A significant downturn in AI adoption or a competitive response from larger players could negatively impact DOCN’s stock price."
-        ],
-        "next_checks": [
-          "Quarterly earnings reports for continued performance",
-          "Competitor actions and their impact on the cloud market"
-        ],
-        "position_plan": {
-          "prefer_qty": 10,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:36:54+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "DigitalOcean's recent earnings report and strong ARR growth have significantly boosted investor confidence in the company's future growth prospects. The stock has already seen a positive reaction, but there is potential for further upside as the market continues to digest the positive financials and expansion strategies.",
-      "key_drivers": [
-        "150% surge in annual recurring revenue (ARR)",
-        "Strong earnings beat expectations",
-        "Focus on AI-related demand growth"
-      ],
-      "key_risks": [
-        "Market competition could intensify, affecting profitability",
-        "Economic downturns may impact cloud computing spending"
-      ],
-      "valuation_view": "The current valuation appears attractive given the strong financial performance and positive outlook. However, it is important to monitor broader market conditions and competitor actions.",
-      "counterfactuals": [
-        "If DigitalOcean fails to maintain its AI customer base or sees a decline in ARR growth, this could negatively impact stock performance.",
-        "A significant downturn in the cloud computing sector could also pose risks."
-      ],
-      "next_checks": [
-        "Monitor upcoming earnings reports and guidance for any changes in financial outlook",
-        "Keep an eye on competitor actions and market conditions"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "DigitalOcean's recent earnings report and strong ARR growth have significantly boosted investor confidence in the company's future growth prospects. The stock has already seen a positive reaction, but there is potential for further upside as the market continues to digest the positive financials and expansion strategies.",
-        "key_drivers": [
-          "150% surge in annual recurring revenue (ARR)",
-          "Strong earnings beat expectations",
-          "Focus on AI-related demand growth"
-        ],
-        "key_risks": [
-          "Market competition could intensify, affecting profitability",
-          "Economic downturns may impact cloud computing spending"
-        ],
-        "valuation_view": "The current valuation appears attractive given the strong financial performance and positive outlook. However, it is important to monitor broader market conditions and competitor actions.",
-        "counterfactuals": [
-          "If DigitalOcean fails to maintain its AI customer base or sees a decline in ARR growth, this could negatively impact stock performance.",
-          "A significant downturn in the cloud computing sector could also pose risks."
-        ],
-        "next_checks": [
-          "Monitor upcoming earnings reports and guidance for any changes in financial outlook",
-          "Keep an eye on competitor actions and market conditions"
-        ],
-        "position_plan": {
-          "prefer_qty": 10,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:35:15+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "DigitalOcean's recent earnings report and strong ARR growth have significantly boosted investor confidence in the company's future growth prospects. The stock has already seen a positive reaction, but there is still room for further appreciation given the robust financial performance and strategic initiatives.",
-      "key_drivers": [
-        "Strong Q4 2025 earnings with 16.80% EPS beat and 1.99% revenue growth",
-        "Significant 150% ARR surge, indicating strong AI traction",
-        "Focus on expanding AI-related demand and data center capacity additions"
-      ],
-      "key_risks": [
-        "Market competition could intensify, affecting DigitalOcean's market share",
-        "Economic downturns may impact cloud computing spending",
-        "Technical issues or delays in new product launches (e.g., AMD-powered Droplets)"
-      ],
-      "valuation_view": "The current valuation appears attractive given the strong financial performance and strategic initiatives. However, it is crucial to monitor the company's ability to maintain its growth momentum.",
-      "counterfactuals": [
-        "If DigitalOcean fails to meet or exceed Q1 2026 earnings expectations, this could signal a slowdown in growth and negatively impact stock price.",
-        "A decline in AI-related demand could also lead to lower-than-expected revenue growth."
-      ],
-      "next_checks": [
-        "Monitor upcoming earnings reports for continued strong performance",
-        "Keep an eye on market competition and its impact on DigitalOcean's share of the cloud computing market"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "DigitalOcean's recent earnings report and strong ARR growth have significantly boosted investor confidence in the company's future growth prospects. The stock has already seen a positive reaction, but there is still room for further appreciation given the robust financial performance and strategic initiatives.",
-        "key_drivers": [
-          "Strong Q4 2025 earnings with 16.80% EPS beat and 1.99% revenue growth",
-          "Significant 150% ARR surge, indicating strong AI traction",
-          "Focus on expanding AI-related demand and data center capacity additions"
-        ],
-        "key_risks": [
-          "Market competition could intensify, affecting DigitalOcean's market share",
-          "Economic downturns may impact cloud computing spending",
-          "Technical issues or delays in new product launches (e.g., AMD-powered Droplets)"
-        ],
-        "valuation_view": "The current valuation appears attractive given the strong financial performance and strategic initiatives. However, it is crucial to monitor the company's ability to maintain its growth momentum.",
-        "counterfactuals": [
-          "If DigitalOcean fails to meet or exceed Q1 2026 earnings expectations, this could signal a slowdown in growth and negatively impact stock price.",
-          "A decline in AI-related demand could also lead to lower-than-expected revenue growth."
-        ],
-        "next_checks": [
-          "Monitor upcoming earnings reports for continued strong performance",
-          "Keep an eye on market competition and its impact on DigitalOcean's share of the cloud computing market"
-        ],
-        "position_plan": {
-          "prefer_qty": 10,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:33:24+09:00",
-      "action": "BUY",
-      "confidence": 0.85,
-      "rationale": "Recent earnings reports and positive financial performance from DigitalOcean (DOCN) have significantly boosted investor confidence. The company reported strong revenue growth, a significant increase in AI customer ARR, and raised its multi-year growth outlook. These factors, combined with the strategic product launches aimed at expanding its AI offerings, indicate robust future potential.",
-      "key_drivers": [
-        "Strong Q4 earnings beat expectations",
-        "Significant 150% ARR surge",
-        "Strategic product launch of AMD-powered AI Droplets",
-        "Positive outlook on accelerating growth and expanding demand for AI services"
-      ],
-      "key_risks": [
-        "Potential competitive pressures from larger cloud providers",
-        "Market uncertainty around the broader tech sector",
-        "Risks associated with infrastructure investments"
-      ],
-      "valuation_view": "DOCN's valuation appears attractive given its strong financial performance and strategic initiatives. However, it is crucial to monitor market conditions and competitor actions closely.",
-      "counterfactuals": [
-        "If Q1 earnings fail to meet expectations or if there are significant operational setbacks in infrastructure projects, this could negatively impact the stock price.",
-        "A downturn in the broader tech sector could also affect investor sentiment towards DOCN."
-      ],
-      "next_checks": [
-        "Monitor upcoming earnings reports for consistency and further growth indicators",
-        "Keep an eye on competitor actions and market trends affecting cloud computing services"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.85,
-        "rationale": "Recent earnings reports and positive financial performance from DigitalOcean (DOCN) have significantly boosted investor confidence. The company reported strong revenue growth, a significant increase in AI customer ARR, and raised its multi-year growth outlook. These factors, combined with the strategic product launches aimed at expanding its AI offerings, indicate robust future potential.",
-        "key_drivers": [
-          "Strong Q4 earnings beat expectations",
-          "Significant 150% ARR surge",
-          "Strategic product launch of AMD-powered AI Droplets",
-          "Positive outlook on accelerating growth and expanding demand for AI services"
-        ],
-        "key_risks": [
-          "Potential competitive pressures from larger cloud providers",
-          "Market uncertainty around the broader tech sector",
-          "Risks associated with infrastructure investments"
-        ],
-        "valuation_view": "DOCN's valuation appears attractive given its strong financial performance and strategic initiatives. However, it is crucial to monitor market conditions and competitor actions closely.",
-        "counterfactuals": [
-          "If Q1 earnings fail to meet expectations or if there are significant operational setbacks in infrastructure projects, this could negatively impact the stock price.",
-          "A downturn in the broader tech sector could also affect investor sentiment towards DOCN."
-        ],
-        "next_checks": [
-          "Monitor upcoming earnings reports for consistency and further growth indicators",
-          "Keep an eye on competitor actions and market trends affecting cloud computing services"
-        ],
-        "position_plan": {
-          "prefer_qty": 100,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:31:30+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "DigitalOcean's recent earnings report and strong performance in AI-related revenue growth have significantly boosted investor confidence. The company has reported a 150% surge in ARR, which is a key driver for future growth. Additionally, the strategic collaboration with AMD to enhance its Agentic Inference Cloud positions DigitalOcean well in the competitive cloud market.",
-      "key_drivers": [
-        "Strong AI-related revenue growth",
-        "Strategic partnership with AMD",
-        "Record revenue growth"
-      ],
-      "key_risks": [
-        "Potential competitive pressures from larger tech companies",
-        "Market volatility affecting overall stock performance"
-      ],
-      "valuation_view": "DigitalOcean's valuation appears justified given the strong financial performance and strategic initiatives. The company is well-positioned to capitalize on the growing demand for AI services.",
-      "counterfactuals": [
-        "A significant downturn in AI-related revenue growth",
-        "Negative earnings surprises in future quarters"
-      ],
-      "next_checks": [
-        "Quarterly earnings reports for continued performance tracking",
-        "Competitor actions and market share changes"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "DigitalOcean's recent earnings report and strong performance in AI-related revenue growth have significantly boosted investor confidence. The company has reported a 150% surge in ARR, which is a key driver for future growth. Additionally, the strategic collaboration with AMD to enhance its Agentic Inference Cloud positions DigitalOcean well in the competitive cloud market.",
-        "key_drivers": [
-          "Strong AI-related revenue growth",
-          "Strategic partnership with AMD",
-          "Record revenue growth"
-        ],
-        "key_risks": [
-          "Potential competitive pressures from larger tech companies",
-          "Market volatility affecting overall stock performance"
-        ],
-        "valuation_view": "DigitalOcean's valuation appears justified given the strong financial performance and strategic initiatives. The company is well-positioned to capitalize on the growing demand for AI services.",
-        "counterfactuals": [
-          "A significant downturn in AI-related revenue growth",
-          "Negative earnings surprises in future quarters"
-        ],
-        "next_checks": [
-          "Quarterly earnings reports for continued performance tracking",
-          "Competitor actions and market share changes"
-        ],
-        "position_plan": {
-          "prefer_qty": 100,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:29:35+09:00",
-      "action": "BUY",
-      "confidence": 0.85,
-      "rationale": "DigitalOcean's recent earnings report and strong financial performance have driven a bullish sentiment among investors. The company reported significant revenue growth, AI customer ARR surge, and raised its multi-year growth outlook. These positive indicators suggest continued strength in the cloud computing sector, particularly with an emphasis on AI-driven services.",
-      "key_drivers": [
-        "Strong Q4 earnings beat expectations",
-        "150% ARR surge",
-        "Record revenue growth",
-        "Focus on expanding AI-related demand"
-      ],
-      "key_risks": [
-        "Competitive pressures in the cloud computing market",
-        "Potential delays or cost overruns in data center capacity additions",
-        "Economic downturn affecting enterprise spending on technology"
-      ],
-      "valuation_view": "DigitalOcean's valuation appears reasonable given its strong growth trajectory and focus on high-demand AI services. However, it is important to monitor broader industry trends and macroeconomic factors that could impact the stock.",
-      "counterfactuals": [
-        "If DigitalOcean fails to maintain or accelerate its revenue growth in the next quarter",
-        "If there are significant delays or cost overruns in planned data center capacity additions"
-      ],
-      "next_checks": [
-        "Monitor Q1 earnings report for continued strong performance",
-        "Track industry trends and competitor actions",
-        "Assess broader economic conditions affecting enterprise IT spending"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.85,
-        "rationale": "DigitalOcean's recent earnings report and strong financial performance have driven a bullish sentiment among investors. The company reported significant revenue growth, AI customer ARR surge, and raised its multi-year growth outlook. These positive indicators suggest continued strength in the cloud computing sector, particularly with an emphasis on AI-driven services.",
-        "key_drivers": [
-          "Strong Q4 earnings beat expectations",
-          "150% ARR surge",
-          "Record revenue growth",
-          "Focus on expanding AI-related demand"
-        ],
-        "key_risks": [
-          "Competitive pressures in the cloud computing market",
-          "Potential delays or cost overruns in data center capacity additions",
-          "Economic downturn affecting enterprise spending on technology"
-        ],
-        "valuation_view": "DigitalOcean's valuation appears reasonable given its strong growth trajectory and focus on high-demand AI services. However, it is important to monitor broader industry trends and macroeconomic factors that could impact the stock.",
-        "counterfactuals": [
-          "If DigitalOcean fails to maintain or accelerate its revenue growth in the next quarter",
-          "If there are significant delays or cost overruns in planned data center capacity additions"
-        ],
-        "next_checks": [
-          "Monitor Q1 earnings report for continued strong performance",
-          "Track industry trends and competitor actions",
-          "Assess broader economic conditions affecting enterprise IT spending"
-        ],
-        "position_plan": {
-          "prefer_qty": 50,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:27:37+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "Recent earnings reports and strong financial performance have driven positive sentiment towards DigitalOcean (DOCN). The company reported significant revenue growth, AI customer ARR surges, and a broader investor update focused on accelerating growth and expanding demand for AI-related services. These factors indicate robust future prospects.",
-      "key_drivers": [
-        "18% Q4 revenue growth",
-        "Significant increase in AI customer ARR",
-        "Positive earnings call with focus on growth strategies"
-      ],
-      "key_risks": [
-        "Competitive pressures from larger cloud providers",
-        "Potential challenges in scaling data center capacity",
-        "Uncertainty in the broader tech market"
-      ],
-      "valuation_view": "DOCN's valuation appears justified given its strong revenue growth and expanding AI customer base. However, long-term assumptions on market share and competitive dynamics are critical.",
-      "counterfactuals": [
-        "If Q1 earnings fail to meet expectations or show signs of slowing growth",
-        "Significant competitor actions that erode DigitalOcean's market position"
-      ],
-      "next_checks": [
-        "Q1 earnings report for further validation",
-        "Competitor strategies and responses in the AI cloud space"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "Recent earnings reports and strong financial performance have driven positive sentiment towards DigitalOcean (DOCN). The company reported significant revenue growth, AI customer ARR surges, and a broader investor update focused on accelerating growth and expanding demand for AI-related services. These factors indicate robust future prospects.",
-        "key_drivers": [
-          "18% Q4 revenue growth",
-          "Significant increase in AI customer ARR",
-          "Positive earnings call with focus on growth strategies"
-        ],
-        "key_risks": [
-          "Competitive pressures from larger cloud providers",
-          "Potential challenges in scaling data center capacity",
-          "Uncertainty in the broader tech market"
-        ],
-        "valuation_view": "DOCN's valuation appears justified given its strong revenue growth and expanding AI customer base. However, long-term assumptions on market share and competitive dynamics are critical.",
-        "counterfactuals": [
-          "If Q1 earnings fail to meet expectations or show signs of slowing growth",
-          "Significant competitor actions that erode DigitalOcean's market position"
-        ],
-        "next_checks": [
-          "Q1 earnings report for further validation",
-          "Competitor strategies and responses in the AI cloud space"
-        ],
-        "position_plan": {
-          "prefer_qty": 50,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:25:42+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "Recent earnings reports and strong financial performance have significantly boosted investor confidence in DigitalOcean (DOCN). The company reported a 150% surge in ARR, beating EPS estimates by +16.80%, and raised its multi-year growth outlook. These positive indicators suggest continued robust growth potential.",
-      "key_drivers": [
-        "Strong financial performance with significant ARR growth",
-        "Positive earnings call highlighting growth strategies and expansion plans",
-        "Increasing focus on AI-related demand, which is a key driver in the cloud computing sector"
-      ],
-      "key_risks": [
-        "Potential competitive pressures from larger players in the cloud market",
-        "Uncertainty around future regulatory changes affecting tech companies",
-        "Market volatility could impact stock performance despite strong fundamentals"
-      ],
-      "valuation_view": "DOCN's valuation appears attractive given its robust financials and growth prospects. However, it is important to monitor the company’s ability to maintain its competitive edge in a rapidly evolving market.",
-      "counterfactuals": [
-        "If DigitalOcean fails to meet or exceed expectations in upcoming quarters, this could negatively impact stock performance.",
-        "A slowdown in AI-related demand could also pose risks to the company's growth trajectory."
-      ],
-      "next_checks": [
-        "Quarterly earnings reports and guidance for future periods",
-        "Competitor actions and market trends affecting cloud computing services"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "Recent earnings reports and strong financial performance have significantly boosted investor confidence in DigitalOcean (DOCN). The company reported a 150% surge in ARR, beating EPS estimates by +16.80%, and raised its multi-year growth outlook. These positive indicators suggest continued robust growth potential.",
-        "key_drivers": [
-          "Strong financial performance with significant ARR growth",
-          "Positive earnings call highlighting growth strategies and expansion plans",
-          "Increasing focus on AI-related demand, which is a key driver in the cloud computing sector"
-        ],
-        "key_risks": [
-          "Potential competitive pressures from larger players in the cloud market",
-          "Uncertainty around future regulatory changes affecting tech companies",
-          "Market volatility could impact stock performance despite strong fundamentals"
-        ],
-        "valuation_view": "DOCN's valuation appears attractive given its robust financials and growth prospects. However, it is important to monitor the company’s ability to maintain its competitive edge in a rapidly evolving market.",
-        "counterfactuals": [
-          "If DigitalOcean fails to meet or exceed expectations in upcoming quarters, this could negatively impact stock performance.",
-          "A slowdown in AI-related demand could also pose risks to the company's growth trajectory."
-        ],
-        "next_checks": [
-          "Quarterly earnings reports and guidance for future periods",
-          "Competitor actions and market trends affecting cloud computing services"
-        ],
-        "position_plan": {
-          "prefer_qty": 10,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:23:58+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "Recent earnings reports and product launches have shown strong financial performance and strategic growth initiatives for DigitalOcean (DOCN). The company's AI focus, revenue growth, and competitive positioning are key drivers.",
-      "key_drivers": [
-        "Strong Q4 2025 earnings with significant ARR growth",
-        "Positive outlook on expanding AI-related demand",
-        "Strategic collaboration with AMD to enhance AI offerings"
-      ],
-      "key_risks": [
-        "Potential competitive pressures from larger cloud providers",
-        "Market uncertainty around broader economic conditions"
-      ],
-      "valuation_view": "DOCN's valuation appears reasonable given the strong growth trajectory and strategic initiatives, but assumptions on long-term market share and AI demand are critical.",
-      "counterfactuals": [
-        "A weaker-than-expected earnings report in the next quarter could reverse sentiment",
-        "Significant competition from established cloud players could impact market share gains"
-      ],
-      "next_checks": [
-        "Monitor Q1 2026 earnings for continued growth and strategic execution",
-        "Assess competitive landscape and any new product developments by key rivals"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "Recent earnings reports and product launches have shown strong financial performance and strategic growth initiatives for DigitalOcean (DOCN). The company's AI focus, revenue growth, and competitive positioning are key drivers.",
-        "key_drivers": [
-          "Strong Q4 2025 earnings with significant ARR growth",
-          "Positive outlook on expanding AI-related demand",
-          "Strategic collaboration with AMD to enhance AI offerings"
-        ],
-        "key_risks": [
-          "Potential competitive pressures from larger cloud providers",
-          "Market uncertainty around broader economic conditions"
-        ],
-        "valuation_view": "DOCN's valuation appears reasonable given the strong growth trajectory and strategic initiatives, but assumptions on long-term market share and AI demand are critical.",
-        "counterfactuals": [
-          "A weaker-than-expected earnings report in the next quarter could reverse sentiment",
-          "Significant competition from established cloud players could impact market share gains"
-        ],
-        "next_checks": [
-          "Monitor Q1 2026 earnings for continued growth and strategic execution",
-          "Assess competitive landscape and any new product developments by key rivals"
-        ],
-        "position_plan": {
-          "prefer_qty": 50,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:22:11+09:00",
-      "action": "BUY",
-      "confidence": 0.85,
-      "rationale": "Recent earnings reports and product launches have shown strong financial performance and strategic growth initiatives for DigitalOcean (DOCN). The company's AI focus, record revenue growth, and significant increase in AI customer ARR are key drivers of positive sentiment.",
-      "key_drivers": [
-        "Strong Q4 2025 earnings with +16.80% EPS beat and +1.99% revenue surprise",
-        "Record revenue growth and a significant increase in AI customer ARR",
-        "Strategic product launches, such as AMD-powered AI Droplets, to enhance competitive positioning"
-      ],
-      "key_risks": [
-        "Potential competitive pressures from larger cloud providers",
-        "Market uncertainty around the broader economic environment affecting tech stocks"
-      ],
-      "valuation_view": "DOCN's valuation appears reasonable given its strong growth trajectory and strategic initiatives. However, investors should monitor market conditions and competition.",
-      "counterfactuals": [
-        "If DOCN fails to maintain or increase its AI customer base, it could negatively impact future earnings.",
-        "A downturn in the broader tech sector could affect investor sentiment towards DOCN."
-      ],
-      "next_checks": [
-        "Quarterly earnings reports for continued performance tracking",
-        "Competitor actions and market share changes"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.85,
-        "rationale": "Recent earnings reports and product launches have shown strong financial performance and strategic growth initiatives for DigitalOcean (DOCN). The company's AI focus, record revenue growth, and significant increase in AI customer ARR are key drivers of positive sentiment.",
-        "key_drivers": [
-          "Strong Q4 2025 earnings with +16.80% EPS beat and +1.99% revenue surprise",
-          "Record revenue growth and a significant increase in AI customer ARR",
-          "Strategic product launches, such as AMD-powered AI Droplets, to enhance competitive positioning"
-        ],
-        "key_risks": [
-          "Potential competitive pressures from larger cloud providers",
-          "Market uncertainty around the broader economic environment affecting tech stocks"
-        ],
-        "valuation_view": "DOCN's valuation appears reasonable given its strong growth trajectory and strategic initiatives. However, investors should monitor market conditions and competition.",
-        "counterfactuals": [
-          "If DOCN fails to maintain or increase its AI customer base, it could negatively impact future earnings.",
-          "A downturn in the broader tech sector could affect investor sentiment towards DOCN."
-        ],
-        "next_checks": [
-          "Quarterly earnings reports for continued performance tracking",
-          "Competitor actions and market share changes"
-        ],
-        "position_plan": {
-          "prefer_qty": 10,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:20:19+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "Recent earnings reports from DigitalOcean (DOCN) have shown strong financial performance and a significant increase in AI-related customer ARR, which has boosted investor confidence. The company's focus on expanding its AI offerings and data center capacity adds to its long-term growth prospects.",
-      "key_drivers": [
-        "Strong Q4 2025 earnings with revenue growth of 18% and a 150% surge in AI ARR",
-        "Positive outlook for future growth, including planned data center expansions",
-        "Strategic collaboration with AMD to enhance AI inference capabilities"
-      ],
-      "key_risks": [
-        "Potential competitive pressures from larger cloud providers",
-        "Uncertainty around the pace of adoption of AI services by smaller enterprises",
-        "Market volatility affecting overall tech sector performance"
-      ],
-      "valuation_view": "DOCN's valuation appears reasonable given its strong financials and growth potential, but investors should monitor broader market conditions.",
-      "counterfactuals": [
-        "If Q1 earnings do not meet or exceed expectations, it could signal a slowdown in growth",
-        "A significant downturn in the tech sector could impact DOCN's stock price"
-      ],
-      "next_checks": [
-        "Monitor upcoming earnings reports for consistency with current trends",
-        "Keep an eye on competitor actions and market reactions to AI initiatives"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "Recent earnings reports from DigitalOcean (DOCN) have shown strong financial performance and a significant increase in AI-related customer ARR, which has boosted investor confidence. The company's focus on expanding its AI offerings and data center capacity adds to its long-term growth prospects.",
-        "key_drivers": [
-          "Strong Q4 2025 earnings with revenue growth of 18% and a 150% surge in AI ARR",
-          "Positive outlook for future growth, including planned data center expansions",
-          "Strategic collaboration with AMD to enhance AI inference capabilities"
-        ],
-        "key_risks": [
-          "Potential competitive pressures from larger cloud providers",
-          "Uncertainty around the pace of adoption of AI services by smaller enterprises",
-          "Market volatility affecting overall tech sector performance"
-        ],
-        "valuation_view": "DOCN's valuation appears reasonable given its strong financials and growth potential, but investors should monitor broader market conditions.",
-        "counterfactuals": [
-          "If Q1 earnings do not meet or exceed expectations, it could signal a slowdown in growth",
-          "A significant downturn in the tech sector could impact DOCN's stock price"
-        ],
-        "next_checks": [
-          "Monitor upcoming earnings reports for consistency with current trends",
-          "Keep an eye on competitor actions and market reactions to AI initiatives"
-        ],
-        "position_plan": {
-          "prefer_qty": 10,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:18:35+09:00",
-      "action": "BUY",
-      "confidence": 0.85,
-      "rationale": "DigitalOcean's recent earnings report and strong financial performance have significantly boosted investor confidence. The company reported a 16.80% earnings surprise, with a notable 150% increase in annual recurring revenue (ARR). This growth is driven by AI traction, which aligns with the broader market trend towards cloud-based artificial intelligence solutions. Additionally, DigitalOcean's strategic collaboration with AMD to enhance its Agentic Inference Cloud positions it well for future growth in the competitive cloud computing market.",
-      "key_drivers": [
-        "Strong earnings beat expectations",
-        "150% increase in annual recurring revenue (ARR)",
-        "Strategic partnership with AMD for AI-focused solutions"
-      ],
-      "key_risks": [
-        "Potential competitive pressures from larger tech companies",
-        "Market volatility affecting cloud computing stocks",
-        "Uncertainty around future growth projections"
-      ],
-      "valuation_view": "The current valuation appears reasonable given the strong financial performance and strategic initiatives. However, it is important to monitor market conditions and competitor actions closely.",
-      "counterfactuals": [
-        "If DigitalOcean fails to maintain or accelerate its ARR growth rate",
-        "If the collaboration with AMD does not yield expected results",
-        "If broader market trends in cloud computing weaken"
-      ],
-      "next_checks": [
-        "Quarterly earnings reports and guidance for future quarters",
-        "Competitor actions and their impact on DigitalOcean's market share",
-        "Market sentiment and overall tech sector performance"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.85,
-        "rationale": "DigitalOcean's recent earnings report and strong financial performance have significantly boosted investor confidence. The company reported a 16.80% earnings surprise, with a notable 150% increase in annual recurring revenue (ARR). This growth is driven by AI traction, which aligns with the broader market trend towards cloud-based artificial intelligence solutions. Additionally, DigitalOcean's strategic collaboration with AMD to enhance its Agentic Inference Cloud positions it well for future growth in the competitive cloud computing market.",
-        "key_drivers": [
-          "Strong earnings beat expectations",
-          "150% increase in annual recurring revenue (ARR)",
-          "Strategic partnership with AMD for AI-focused solutions"
-        ],
-        "key_risks": [
-          "Potential competitive pressures from larger tech companies",
-          "Market volatility affecting cloud computing stocks",
-          "Uncertainty around future growth projections"
-        ],
-        "valuation_view": "The current valuation appears reasonable given the strong financial performance and strategic initiatives. However, it is important to monitor market conditions and competitor actions closely.",
-        "counterfactuals": [
-          "If DigitalOcean fails to maintain or accelerate its ARR growth rate",
-          "If the collaboration with AMD does not yield expected results",
-          "If broader market trends in cloud computing weaken"
-        ],
-        "next_checks": [
-          "Quarterly earnings reports and guidance for future quarters",
-          "Competitor actions and their impact on DigitalOcean's market share",
-          "Market sentiment and overall tech sector performance"
-        ],
-        "position_plan": {
-          "prefer_qty": 10,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:16:51+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "Recent earnings reports and product launches have shown strong financial performance and strategic growth initiatives for DigitalOcean (DOCN). The company's AI focus, revenue growth, and positive guidance are key drivers. However, market competition remains a risk.",
-      "key_drivers": [
-        "Strong Q4 2025 earnings with significant ARR growth",
-        "Positive outlook on expanding AI-related demand",
-        "Strategic collaboration with AMD to enhance AI offerings"
-      ],
-      "key_risks": [
-        "Intensified competition in the cloud computing market",
-        "Uncertainty around broader economic conditions affecting tech stocks"
-      ],
-      "valuation_view": "DOCN's valuation appears reasonable given its strong growth trajectory and focus on high-demand AI services. However, long-term assumptions about market share and competitive positioning are critical.",
-      "counterfactuals": [
-        "A significant downturn in the cloud computing sector could negatively impact DOCN’s stock price",
-        "Failure to execute on planned data center capacity additions could undermine growth prospects"
-      ],
-      "next_checks": [
-        "Monitor Q1 2026 earnings for continued strong performance",
-        "Assess market reaction to upcoming product launches and strategic partnerships"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "Recent earnings reports and product launches have shown strong financial performance and strategic growth initiatives for DigitalOcean (DOCN). The company's AI focus, revenue growth, and positive guidance are key drivers. However, market competition remains a risk.",
-        "key_drivers": [
-          "Strong Q4 2025 earnings with significant ARR growth",
-          "Positive outlook on expanding AI-related demand",
-          "Strategic collaboration with AMD to enhance AI offerings"
-        ],
-        "key_risks": [
-          "Intensified competition in the cloud computing market",
-          "Uncertainty around broader economic conditions affecting tech stocks"
-        ],
-        "valuation_view": "DOCN's valuation appears reasonable given its strong growth trajectory and focus on high-demand AI services. However, long-term assumptions about market share and competitive positioning are critical.",
-        "counterfactuals": [
-          "A significant downturn in the cloud computing sector could negatively impact DOCN’s stock price",
-          "Failure to execute on planned data center capacity additions could undermine growth prospects"
-        ],
-        "next_checks": [
-          "Monitor Q1 2026 earnings for continued strong performance",
-          "Assess market reaction to upcoming product launches and strategic partnerships"
-        ],
-        "position_plan": {
-          "prefer_qty": 50,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:15:09+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "Recent earnings reports and strong financial performance have significantly boosted DigitalOcean's stock. The company reported a 150% surge in ARR, beating EPS estimates by +16.80%, and raised its multi-year growth outlook. These positive indicators suggest continued momentum and potential for future growth.",
-      "key_drivers": [
-        "Strong Q4 earnings with significant ARR growth",
-        "Positive guidance on AI-related demand and planned data center capacity additions"
-      ],
-      "key_risks": [
-        "Potential competitive pressures in the cloud computing market",
-        "Uncertainty around ongoing infrastructure investments"
-      ],
-      "valuation_view": "DigitalOcean's valuation appears justified given its strong financial performance and focus on high-growth AI segments. However, investors should monitor broader market conditions and competitor actions.",
-      "counterfactuals": [
-        "If DigitalOcean fails to meet or exceed Q1 earnings expectations, it could signal a slowdown in growth momentum.",
-        "A decline in AI-related demand could negatively impact the stock price."
-      ],
-      "next_checks": [
-        "Monitor upcoming Q1 earnings report for continued strong performance",
-        "Keep an eye on competitor actions and market conditions"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "Recent earnings reports and strong financial performance have significantly boosted DigitalOcean's stock. The company reported a 150% surge in ARR, beating EPS estimates by +16.80%, and raised its multi-year growth outlook. These positive indicators suggest continued momentum and potential for future growth.",
-        "key_drivers": [
-          "Strong Q4 earnings with significant ARR growth",
-          "Positive guidance on AI-related demand and planned data center capacity additions"
-        ],
-        "key_risks": [
-          "Potential competitive pressures in the cloud computing market",
-          "Uncertainty around ongoing infrastructure investments"
-        ],
-        "valuation_view": "DigitalOcean's valuation appears justified given its strong financial performance and focus on high-growth AI segments. However, investors should monitor broader market conditions and competitor actions.",
-        "counterfactuals": [
-          "If DigitalOcean fails to meet or exceed Q1 earnings expectations, it could signal a slowdown in growth momentum.",
-          "A decline in AI-related demand could negatively impact the stock price."
-        ],
-        "next_checks": [
-          "Monitor upcoming Q1 earnings report for continued strong performance",
-          "Keep an eye on competitor actions and market conditions"
-        ],
-        "position_plan": {
-          "prefer_qty": 50,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:13:28+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "Recent earnings reports and strong financial performance have driven positive sentiment towards DigitalOcean (DOCN). The company reported a significant increase in AI customer ARR, record revenue growth, and raised its multi-year growth outlook. These factors, combined with the launch of new GPU-powered Droplets, indicate robust future growth potential.",
-      "key_drivers": [
-        "Strong Q4 earnings beating expectations",
-        "Significant 150% ARR surge",
-        "Record revenue growth",
-        "Focus on AI-related demand and infrastructure investments"
-      ],
-      "key_risks": [
-        "Competitive pressures in the cloud computing market",
-        "Uncertainty around future guidance and growth projections"
-      ],
-      "valuation_view": "DOCN's valuation appears reasonable given its strong financial performance and focus on high-growth areas like AI. However, investors should monitor broader industry trends and potential regulatory changes.",
-      "counterfactuals": [
-        "If Q1 earnings do not meet or exceed expectations, sentiment could shift negatively.",
-        "A slowdown in the adoption of AI technologies could impact DigitalOcean's growth trajectory."
-      ],
-      "next_checks": [
-        "Monitor upcoming earnings reports for consistency with current trends",
-        "Keep an eye on competitor actions and market conditions"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "Recent earnings reports and strong financial performance have driven positive sentiment towards DigitalOcean (DOCN). The company reported a significant increase in AI customer ARR, record revenue growth, and raised its multi-year growth outlook. These factors, combined with the launch of new GPU-powered Droplets, indicate robust future growth potential.",
-        "key_drivers": [
-          "Strong Q4 earnings beating expectations",
-          "Significant 150% ARR surge",
-          "Record revenue growth",
-          "Focus on AI-related demand and infrastructure investments"
-        ],
-        "key_risks": [
-          "Competitive pressures in the cloud computing market",
-          "Uncertainty around future guidance and growth projections"
-        ],
-        "valuation_view": "DOCN's valuation appears reasonable given its strong financial performance and focus on high-growth areas like AI. However, investors should monitor broader industry trends and potential regulatory changes.",
-        "counterfactuals": [
-          "If Q1 earnings do not meet or exceed expectations, sentiment could shift negatively.",
-          "A slowdown in the adoption of AI technologies could impact DigitalOcean's growth trajectory."
-        ],
-        "next_checks": [
-          "Monitor upcoming earnings reports for consistency with current trends",
-          "Keep an eye on competitor actions and market conditions"
-        ],
-        "position_plan": {
-          "prefer_qty": 10,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:11:23+09:00",
-      "action": "BUY",
-      "confidence": 0.85,
-      "rationale": "DigitalOcean (DOCN) has reported strong earnings and revenue growth, with a significant increase in AI customer ARR. The company's focus on expanding its AI-related demand and planned data center capacity additions is likely to drive continued growth. These factors, combined with the positive sentiment from multiple bullish earnings reports, support a buy recommendation.",
-      "key_drivers": [
-        "Strong Q4 2025 earnings beat expectations",
-        "18% revenue growth and significant AI customer ARR increase",
-        "Focus on expanding AI-related demand and data center capacity additions"
-      ],
-      "key_risks": [
-        "Potential competitive pressures in the cloud computing market",
-        "Uncertainty around future guidance and performance"
-      ],
-      "valuation_view": "DOCN's valuation appears reasonable given its strong growth trajectory, but careful monitoring of P/E ratios and other metrics is advised.",
-      "counterfactuals": [
-        "If DOCN fails to maintain or increase AI customer ARR in the next quarter",
-        "If market conditions deteriorate significantly, impacting overall cloud computing demand"
-      ],
-      "next_checks": [
-        "Monitor Q1 2026 earnings for continued growth and guidance",
-        "Assess any changes in competitive landscape affecting DOCN's market position"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.85,
-        "rationale": "DigitalOcean (DOCN) has reported strong earnings and revenue growth, with a significant increase in AI customer ARR. The company's focus on expanding its AI-related demand and planned data center capacity additions is likely to drive continued growth. These factors, combined with the positive sentiment from multiple bullish earnings reports, support a buy recommendation.",
-        "key_drivers": [
-          "Strong Q4 2025 earnings beat expectations",
-          "18% revenue growth and significant AI customer ARR increase",
-          "Focus on expanding AI-related demand and data center capacity additions"
-        ],
-        "key_risks": [
-          "Potential competitive pressures in the cloud computing market",
-          "Uncertainty around future guidance and performance"
-        ],
-        "valuation_view": "DOCN's valuation appears reasonable given its strong growth trajectory, but careful monitoring of P/E ratios and other metrics is advised.",
-        "counterfactuals": [
-          "If DOCN fails to maintain or increase AI customer ARR in the next quarter",
-          "If market conditions deteriorate significantly, impacting overall cloud computing demand"
-        ],
-        "next_checks": [
-          "Monitor Q1 2026 earnings for continued growth and guidance",
-          "Assess any changes in competitive landscape affecting DOCN's market position"
-        ],
-        "position_plan": {
-          "prefer_qty": 50,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:09:31+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "Recent earnings reports and product launches indicate strong financial performance and strategic growth initiatives for DigitalOcean (DOCN). The company's AI focus, revenue growth, and positive guidance are key drivers supporting a bullish outlook.",
-      "key_drivers": [
-        "Strong Q4 2025 earnings with significant ARR growth",
-        "Positive guidance on future growth and expansion strategies",
-        "Strategic collaboration with AMD to enhance AI offerings"
-      ],
-      "key_risks": [
-        "Potential competitive pressures in the cloud computing market",
-        "Uncertainty around broader economic conditions affecting tech stocks"
-      ],
-      "valuation_view": "DOCN's valuation appears reasonable given its strong financial performance and strategic initiatives, but long-term growth assumptions are critical.",
-      "counterfactuals": [
-        "If Q1 earnings do not meet or exceed expectations, it could negatively impact the stock price",
-        "Any significant market downturn affecting tech stocks could also pose a risk"
-      ],
-      "next_checks": [
-        "Monitor upcoming earnings reports for consistency in growth trends",
-        "Keep an eye on competitor actions and their impact on DigitalOcean's market position"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "Recent earnings reports and product launches indicate strong financial performance and strategic growth initiatives for DigitalOcean (DOCN). The company's AI focus, revenue growth, and positive guidance are key drivers supporting a bullish outlook.",
-        "key_drivers": [
-          "Strong Q4 2025 earnings with significant ARR growth",
-          "Positive guidance on future growth and expansion strategies",
-          "Strategic collaboration with AMD to enhance AI offerings"
-        ],
-        "key_risks": [
-          "Potential competitive pressures in the cloud computing market",
-          "Uncertainty around broader economic conditions affecting tech stocks"
-        ],
-        "valuation_view": "DOCN's valuation appears reasonable given its strong financial performance and strategic initiatives, but long-term growth assumptions are critical.",
-        "counterfactuals": [
-          "If Q1 earnings do not meet or exceed expectations, it could negatively impact the stock price",
-          "Any significant market downturn affecting tech stocks could also pose a risk"
-        ],
-        "next_checks": [
-          "Monitor upcoming earnings reports for consistency in growth trends",
-          "Keep an eye on competitor actions and their impact on DigitalOcean's market position"
-        ],
-        "position_plan": {
-          "prefer_qty": 10,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:07:38+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "DigitalOcean's recent earnings report and strong ARR growth have significantly boosted investor confidence in the company's future growth prospects. The stock has already seen a positive reaction, but there is still potential for further upside as the market digests the full implications of the results.",
-      "key_drivers": [
-        "Strong Q4 revenue growth (+16.80%) and ARR surge (150%)",
-        "Positive earnings call with focus on AI-related demand and expansion strategies",
-        "Growing customer base and competitive positioning in the cloud computing market"
-      ],
-      "key_risks": [
-        "Marketwide concerns about economic slowdowns could impact tech stocks, including DigitalOcean.",
-        "Increased competition from larger players like AWS or Microsoft could pose a challenge."
-      ],
-      "valuation_view": "The current valuation appears attractive given the strong financial performance and growth outlook. However, it's important to monitor any changes in market conditions that might affect investor sentiment.",
-      "counterfactuals": [
-        "If DigitalOcean fails to meet its multi-year growth guidance or faces significant competitive pressures, this could lead to a reversal of recent gains.",
-        "A broader market downturn could negatively impact the stock price despite strong fundamentals."
-      ],
-      "next_checks": [
-        "Monitor upcoming earnings reports and guidance from competitors for any signs of weakening trends.",
-        "Keep an eye on macroeconomic indicators that might affect tech stocks in general."
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "DigitalOcean's recent earnings report and strong ARR growth have significantly boosted investor confidence in the company's future growth prospects. The stock has already seen a positive reaction, but there is still potential for further upside as the market digests the full implications of the results.",
-        "key_drivers": [
-          "Strong Q4 revenue growth (+16.80%) and ARR surge (150%)",
-          "Positive earnings call with focus on AI-related demand and expansion strategies",
-          "Growing customer base and competitive positioning in the cloud computing market"
-        ],
-        "key_risks": [
-          "Marketwide concerns about economic slowdowns could impact tech stocks, including DigitalOcean.",
-          "Increased competition from larger players like AWS or Microsoft could pose a challenge."
-        ],
-        "valuation_view": "The current valuation appears attractive given the strong financial performance and growth outlook. However, it's important to monitor any changes in market conditions that might affect investor sentiment.",
-        "counterfactuals": [
-          "If DigitalOcean fails to meet its multi-year growth guidance or faces significant competitive pressures, this could lead to a reversal of recent gains.",
-          "A broader market downturn could negatively impact the stock price despite strong fundamentals."
-        ],
-        "next_checks": [
-          "Monitor upcoming earnings reports and guidance from competitors for any signs of weakening trends.",
-          "Keep an eye on macroeconomic indicators that might affect tech stocks in general."
-        ],
-        "position_plan": {
-          "prefer_qty": 50,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:05:45+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "DigitalOcean's Q4 2025 earnings report and transcript indicate strong revenue growth, significant AI customer ARR, and a positive outlook on future expansion. The stock has already seen a boost from these results, but the underlying fundamentals suggest further upside potential.",
-      "key_drivers": [
-        "18% revenue growth",
-        "150% ARR surge",
-        "Focus on AI-related demand"
-      ],
-      "key_risks": [
-        "Competitive pressures in the cloud computing market",
-        "Uncertainty around data center capacity additions and infrastructure investments"
-      ],
-      "valuation_view": "The current valuation appears reasonable given the strong growth metrics, but a closer look at long-term profitability is warranted.",
-      "counterfactuals": [
-        "If revenue growth slows or AI demand does not materialize as expected",
-        "If data center capacity additions face significant delays or cost overruns"
-      ],
-      "next_checks": [
-        "Quarterly earnings reports for continued performance tracking",
-        "Market share and competitive landscape updates"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "DigitalOcean's Q4 2025 earnings report and transcript indicate strong revenue growth, significant AI customer ARR, and a positive outlook on future expansion. The stock has already seen a boost from these results, but the underlying fundamentals suggest further upside potential.",
-        "key_drivers": [
-          "18% revenue growth",
-          "150% ARR surge",
-          "Focus on AI-related demand"
-        ],
-        "key_risks": [
-          "Competitive pressures in the cloud computing market",
-          "Uncertainty around data center capacity additions and infrastructure investments"
-        ],
-        "valuation_view": "The current valuation appears reasonable given the strong growth metrics, but a closer look at long-term profitability is warranted.",
-        "counterfactuals": [
-          "If revenue growth slows or AI demand does not materialize as expected",
-          "If data center capacity additions face significant delays or cost overruns"
-        ],
-        "next_checks": [
-          "Quarterly earnings reports for continued performance tracking",
-          "Market share and competitive landscape updates"
-        ],
-        "position_plan": {
-          "prefer_qty": 10,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:03:49+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "DigitalOcean's recent earnings report and strong ARR growth have significantly boosted investor confidence in the company's future growth prospects. The stock has already seen a positive response, but there is potential for further appreciation as the market continues to digest the positive financial results and the strategic focus on AI-related demand.",
-      "key_drivers": [
-        "150% ARR surge",
-        "Strong revenue and profit beat expectations",
-        "Focus on expanding AI-related demand"
-      ],
-      "key_risks": [
-        "Market competition in the cloud computing space",
-        "Economic downturn affecting enterprise spending",
-        "Technological shifts impacting demand for specific services"
-      ],
-      "valuation_view": "The current valuation appears undervalued given the strong financial performance and strategic focus on high-growth areas like AI. However, it is important to monitor broader market conditions that could impact cloud computing stocks.",
-      "counterfactuals": [
-        "If DigitalOcean fails to maintain or accelerate its ARR growth in the next quarter",
-        "If there are significant competitive pressures leading to reduced margins"
-      ],
-      "next_checks": [
-        "Quarterly earnings reports and guidance for future quarters",
-        "Market trends in cloud computing and AI adoption",
-        "Competitor performance and market share changes"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "DigitalOcean's recent earnings report and strong ARR growth have significantly boosted investor confidence in the company's future growth prospects. The stock has already seen a positive response, but there is potential for further appreciation as the market continues to digest the positive financial results and the strategic focus on AI-related demand.",
-        "key_drivers": [
-          "150% ARR surge",
-          "Strong revenue and profit beat expectations",
-          "Focus on expanding AI-related demand"
-        ],
-        "key_risks": [
-          "Market competition in the cloud computing space",
-          "Economic downturn affecting enterprise spending",
-          "Technological shifts impacting demand for specific services"
-        ],
-        "valuation_view": "The current valuation appears undervalued given the strong financial performance and strategic focus on high-growth areas like AI. However, it is important to monitor broader market conditions that could impact cloud computing stocks.",
-        "counterfactuals": [
-          "If DigitalOcean fails to maintain or accelerate its ARR growth in the next quarter",
-          "If there are significant competitive pressures leading to reduced margins"
-        ],
-        "next_checks": [
-          "Quarterly earnings reports and guidance for future quarters",
-          "Market trends in cloud computing and AI adoption",
-          "Competitor performance and market share changes"
-        ],
-        "position_plan": {
-          "prefer_qty": 10,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:02:05+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "Recent earnings reports and product launches have shown strong financial performance and strategic growth initiatives for DigitalOcean (DOCN). The company's AI focus, record revenue growth, and significant increase in AI customer ARR are positive indicators. However, the market is competitive, and future guidance will be crucial.",
-      "key_drivers": [
-        "Strong Q4 2025 earnings with +16.80% EPS beat and +1.99% revenue beat",
-        "Significant 150% ARR surge in AI-related services",
-        "Strategic product launch of AMD-powered GPU Droplets to enhance AI inference capabilities"
-      ],
-      "key_risks": [
-        "Competitive pressures from larger cloud providers",
-        "Uncertainty around future guidance and growth projections",
-        "Market volatility affecting tech stocks generally"
-      ],
-      "valuation_view": "DOCN's valuation appears reasonable given the strong earnings and strategic initiatives, but long-term assumptions on AI market penetration are critical.",
-      "counterfactuals": [
-        "If Q1 2026 earnings fail to meet expectations or guidance is downbeat",
-        "Significant competitive moves by larger cloud providers could impact DOCN's growth trajectory"
-      ],
-      "next_checks": [
-        "Monitor upcoming Q1 2026 earnings report for signs of continued strength",
-        "Watch for any changes in market dynamics affecting cloud computing and AI sectors"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "Recent earnings reports and product launches have shown strong financial performance and strategic growth initiatives for DigitalOcean (DOCN). The company's AI focus, record revenue growth, and significant increase in AI customer ARR are positive indicators. However, the market is competitive, and future guidance will be crucial.",
-        "key_drivers": [
-          "Strong Q4 2025 earnings with +16.80% EPS beat and +1.99% revenue beat",
-          "Significant 150% ARR surge in AI-related services",
-          "Strategic product launch of AMD-powered GPU Droplets to enhance AI inference capabilities"
-        ],
-        "key_risks": [
-          "Competitive pressures from larger cloud providers",
-          "Uncertainty around future guidance and growth projections",
-          "Market volatility affecting tech stocks generally"
-        ],
-        "valuation_view": "DOCN's valuation appears reasonable given the strong earnings and strategic initiatives, but long-term assumptions on AI market penetration are critical.",
-        "counterfactuals": [
-          "If Q1 2026 earnings fail to meet expectations or guidance is downbeat",
-          "Significant competitive moves by larger cloud providers could impact DOCN's growth trajectory"
-        ],
-        "next_checks": [
-          "Monitor upcoming Q1 2026 earnings report for signs of continued strength",
-          "Watch for any changes in market dynamics affecting cloud computing and AI sectors"
-        ],
-        "position_plan": {
-          "prefer_qty": 50,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:00:10+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "Recent earnings reports and product launches have shown strong financial performance and strategic growth initiatives for DigitalOcean (DOCN). The company's AI focus, revenue growth, and competitive positioning are key drivers.",
-      "key_drivers": [
-        "Strong Q4 2025 earnings with significant ARR growth (+150%)",
-        "Positive guidance from management on future growth and expansion strategies",
-        "Strategic product launches like AMD-powered AI Droplets to enhance offerings in the cloud market"
-      ],
-      "key_risks": [
-        "Potential competitive pressures from larger cloud providers",
-        "Market uncertainty around AI adoption rates",
-        "Economic factors affecting overall demand for cloud services"
-      ],
-      "valuation_view": "DOCN's valuation appears reasonable given its strong financial performance and strategic initiatives, but careful monitoring of market trends is necessary.",
-      "counterfactuals": [
-        "If Q1 earnings do not meet or exceed expectations, it could signal a slowdown in growth",
-        "A decline in AI adoption rates could negatively impact DigitalOcean’s revenue streams"
-      ],
-      "next_checks": [
-        "Monitor upcoming earnings reports for consistency with current trends",
-        "Keep an eye on broader market conditions affecting cloud service demand"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "Recent earnings reports and product launches have shown strong financial performance and strategic growth initiatives for DigitalOcean (DOCN). The company's AI focus, revenue growth, and competitive positioning are key drivers.",
-        "key_drivers": [
-          "Strong Q4 2025 earnings with significant ARR growth (+150%)",
-          "Positive guidance from management on future growth and expansion strategies",
-          "Strategic product launches like AMD-powered AI Droplets to enhance offerings in the cloud market"
-        ],
-        "key_risks": [
-          "Potential competitive pressures from larger cloud providers",
-          "Market uncertainty around AI adoption rates",
-          "Economic factors affecting overall demand for cloud services"
-        ],
-        "valuation_view": "DOCN's valuation appears reasonable given its strong financial performance and strategic initiatives, but careful monitoring of market trends is necessary.",
-        "counterfactuals": [
-          "If Q1 earnings do not meet or exceed expectations, it could signal a slowdown in growth",
-          "A decline in AI adoption rates could negatively impact DigitalOcean’s revenue streams"
-        ],
-        "next_checks": [
-          "Monitor upcoming earnings reports for consistency with current trends",
-          "Keep an eye on broader market conditions affecting cloud service demand"
-        ],
-        "position_plan": {
-          "prefer_qty": 10,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:58:18+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "Recent earnings reports and product launches have shown strong financial performance and strategic growth initiatives for DigitalOcean (DOCN). The company's AI focus, revenue growth, and competitive positioning are key drivers supporting this recommendation.",
-      "key_drivers": [
-        "Strong Q4 2025 earnings with significant ARR growth (+150%)",
-        "Record revenue growth of 18%",
-        "Focus on expanding AI-related demand and data center capacity additions",
-        "Positive outlook for long-term growth"
-      ],
-      "key_risks": [
-        "Potential competitive pressures from larger cloud providers",
-        "Market uncertainty around AI adoption rates",
-        "Operational risks associated with new product launches"
-      ],
-      "valuation_view": "DOCN's valuation appears reasonable given the strong financial performance and strategic initiatives. However, careful monitoring of market conditions is advised.",
-      "counterfactuals": [
-        "If Q1 earnings do not meet expectations or show signs of slowing growth",
-        "Significant competitive moves from larger cloud providers that impact DOCN’s market share",
-        "Deterioration in AI adoption rates leading to lower-than-expected demand for AI-related services"
-      ],
-      "next_checks": [
-        "Monitor Q1 earnings and guidance for any signs of weakening momentum",
-        "Keep an eye on competitor actions and their impact on the cloud computing landscape",
-        "Assess market trends in AI adoption and its effect on DigitalOcean’s business model"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "Recent earnings reports and product launches have shown strong financial performance and strategic growth initiatives for DigitalOcean (DOCN). The company's AI focus, revenue growth, and competitive positioning are key drivers supporting this recommendation.",
-        "key_drivers": [
-          "Strong Q4 2025 earnings with significant ARR growth (+150%)",
-          "Record revenue growth of 18%",
-          "Focus on expanding AI-related demand and data center capacity additions",
-          "Positive outlook for long-term growth"
-        ],
-        "key_risks": [
-          "Potential competitive pressures from larger cloud providers",
-          "Market uncertainty around AI adoption rates",
-          "Operational risks associated with new product launches"
-        ],
-        "valuation_view": "DOCN's valuation appears reasonable given the strong financial performance and strategic initiatives. However, careful monitoring of market conditions is advised.",
-        "counterfactuals": [
-          "If Q1 earnings do not meet expectations or show signs of slowing growth",
-          "Significant competitive moves from larger cloud providers that impact DOCN’s market share",
-          "Deterioration in AI adoption rates leading to lower-than-expected demand for AI-related services"
-        ],
-        "next_checks": [
-          "Monitor Q1 earnings and guidance for any signs of weakening momentum",
-          "Keep an eye on competitor actions and their impact on the cloud computing landscape",
-          "Assess market trends in AI adoption and its effect on DigitalOcean’s business model"
-        ],
-        "position_plan": {
-          "prefer_qty": 50,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:56:17+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "The recent earnings report from DigitalOcean (DOCN) has shown strong financial performance and a significant increase in AI customer ARR, which is driving positive sentiment among investors. The company's focus on expanding its AI-related demand and planned data center capacity additions suggests a robust growth trajectory ahead.",
-      "key_drivers": [
-        "Strong Q4 revenue growth of 18%",
-        "Significant 150% surge in annual recurring revenue (ARR) for AI",
-        "Positive earnings call with focus on accelerating growth and expanding AI-related demand"
-      ],
-      "key_risks": [
-        "Potential competitive pressures from larger cloud providers",
-        "Uncertainty around the timing and execution of data center capacity additions"
-      ],
-      "valuation_view": "The current valuation appears attractive given the strong financial performance and positive outlook, but it is crucial to monitor market conditions and competitor actions.",
-      "counterfactuals": [
-        "If DigitalOcean fails to meet its growth targets or faces significant competitive challenges, this could negatively impact stock performance.",
-        "A slowdown in AI adoption rates could also pose a risk."
-      ],
-      "next_checks": [
-        "Quarterly earnings reports for continued financial performance",
-        "Competitor actions and market share changes"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "The recent earnings report from DigitalOcean (DOCN) has shown strong financial performance and a significant increase in AI customer ARR, which is driving positive sentiment among investors. The company's focus on expanding its AI-related demand and planned data center capacity additions suggests a robust growth trajectory ahead.",
-        "key_drivers": [
-          "Strong Q4 revenue growth of 18%",
-          "Significant 150% surge in annual recurring revenue (ARR) for AI",
-          "Positive earnings call with focus on accelerating growth and expanding AI-related demand"
-        ],
-        "key_risks": [
-          "Potential competitive pressures from larger cloud providers",
-          "Uncertainty around the timing and execution of data center capacity additions"
-        ],
-        "valuation_view": "The current valuation appears attractive given the strong financial performance and positive outlook, but it is crucial to monitor market conditions and competitor actions.",
-        "counterfactuals": [
-          "If DigitalOcean fails to meet its growth targets or faces significant competitive challenges, this could negatively impact stock performance.",
-          "A slowdown in AI adoption rates could also pose a risk."
-        ],
-        "next_checks": [
-          "Quarterly earnings reports for continued financial performance",
-          "Competitor actions and market share changes"
-        ],
-        "position_plan": {
-          "prefer_qty": 10,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:54:24+09:00",
-      "action": "BUY",
-      "confidence": 0.85,
-      "rationale": "Recent earnings reports and strong financial performance have driven positive sentiment towards DigitalOcean (DOCN). The company's AI-focused growth strategies, including significant ARR surges and record revenue growth, are expected to continue driving stock appreciation.",
-      "key_drivers": [
-        "Strong Q4 2025 earnings with 16.80% EPS beat and 1.99% revenue surprise",
-        "Record revenue growth of 18%",
-        "Significant increase in AI customer ARR",
-        "Positive outlook on expanding data center capacity"
-      ],
-      "key_risks": [
-        "Competitive pressures from larger cloud providers",
-        "Uncertainty around the adoption rate of AI services",
-        "Potential delays or cost overruns in infrastructure investments"
-      ],
-      "valuation_view": "DOCN's valuation appears reasonable given its strong growth trajectory and focus on high-growth AI markets. However, investors should monitor broader market conditions and competitor actions.",
-      "counterfactuals": [
-        "If Q1 earnings fall short of expectations, it could negatively impact the stock price",
-        "A slowdown in AI adoption rates could dampen investor enthusiasm"
-      ],
-      "next_checks": [
-        "Monitor upcoming earnings reports for consistency with current growth trends",
-        "Track competitor actions and market share changes",
-        "Assess broader macroeconomic conditions that may affect cloud computing demand"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.85,
-        "rationale": "Recent earnings reports and strong financial performance have driven positive sentiment towards DigitalOcean (DOCN). The company's AI-focused growth strategies, including significant ARR surges and record revenue growth, are expected to continue driving stock appreciation.",
-        "key_drivers": [
-          "Strong Q4 2025 earnings with 16.80% EPS beat and 1.99% revenue surprise",
-          "Record revenue growth of 18%",
-          "Significant increase in AI customer ARR",
-          "Positive outlook on expanding data center capacity"
-        ],
-        "key_risks": [
-          "Competitive pressures from larger cloud providers",
-          "Uncertainty around the adoption rate of AI services",
-          "Potential delays or cost overruns in infrastructure investments"
-        ],
-        "valuation_view": "DOCN's valuation appears reasonable given its strong growth trajectory and focus on high-growth AI markets. However, investors should monitor broader market conditions and competitor actions.",
-        "counterfactuals": [
-          "If Q1 earnings fall short of expectations, it could negatively impact the stock price",
-          "A slowdown in AI adoption rates could dampen investor enthusiasm"
-        ],
-        "next_checks": [
-          "Monitor upcoming earnings reports for consistency with current growth trends",
-          "Track competitor actions and market share changes",
-          "Assess broader macroeconomic conditions that may affect cloud computing demand"
-        ],
-        "position_plan": {
-          "prefer_qty": 10,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:52:28+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "Recent earnings reports and product launches have shown strong financial performance and strategic growth initiatives for DigitalOcean (DOCN). The company's AI focus, revenue growth, and competitive positioning are key drivers.",
-      "key_drivers": [
-        "Strong Q4 2025 earnings with significant ARR growth",
-        "Positive outlook on expanding AI-related demand",
-        "Strategic collaboration with AMD to enhance AI offerings"
-      ],
-      "key_risks": [
-        "Potential competitive pressures from larger cloud providers",
-        "Market uncertainty around broader economic conditions and technology trends"
-      ],
-      "valuation_view": "DOCN's valuation appears justified given its strong revenue growth, expanding customer base, and strategic initiatives. However, the stock may be sensitive to broader market movements.",
-      "counterfactuals": [
-        "A significant decline in AI-related demand could negatively impact DOCN’s growth prospects",
-        "Negative earnings surprises from competitors could affect investor sentiment"
-      ],
-      "next_checks": [
-        "Quarterly earnings reports for further insights into financial performance and strategic updates",
-        "Market trends in the cloud computing and AI sectors to gauge broader industry health"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "Recent earnings reports and product launches have shown strong financial performance and strategic growth initiatives for DigitalOcean (DOCN). The company's AI focus, revenue growth, and competitive positioning are key drivers.",
-        "key_drivers": [
-          "Strong Q4 2025 earnings with significant ARR growth",
-          "Positive outlook on expanding AI-related demand",
-          "Strategic collaboration with AMD to enhance AI offerings"
-        ],
-        "key_risks": [
-          "Potential competitive pressures from larger cloud providers",
-          "Market uncertainty around broader economic conditions and technology trends"
-        ],
-        "valuation_view": "DOCN's valuation appears justified given its strong revenue growth, expanding customer base, and strategic initiatives. However, the stock may be sensitive to broader market movements.",
-        "counterfactuals": [
-          "A significant decline in AI-related demand could negatively impact DOCN’s growth prospects",
-          "Negative earnings surprises from competitors could affect investor sentiment"
-        ],
-        "next_checks": [
-          "Quarterly earnings reports for further insights into financial performance and strategic updates",
-          "Market trends in the cloud computing and AI sectors to gauge broader industry health"
-        ],
-        "position_plan": {
-          "prefer_qty": 10,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:50:34+09:00",
-      "action": "BUY",
-      "confidence": 0.85,
-      "rationale": "DigitalOcean's recent earnings report and strong financial performance have significantly boosted investor confidence. The company reported a 16.80% earnings surprise, a 1.99% revenue surprise, and a 150% ARR surge, all of which are positive indicators for future growth. Additionally, the focus on AI-related demand and planned data center capacity additions suggests a robust long-term outlook.",
-      "key_drivers": [
-        "Strong Q4 earnings with significant revenue and ARR growth",
-        "Focus on expanding AI-related services and infrastructure investments",
-        "Positive sentiment from multiple bullish earnings reports"
-      ],
-      "key_risks": [
-        "Potential competitive pressures in the cloud computing market",
-        "Uncertainty around future guidance and expectations",
-        "Market volatility affecting overall stock performance"
-      ],
-      "valuation_view": "The current valuation appears undervalued given the strong financial performance and growth prospects. The company's focus on AI and expanding its service offerings could lead to higher long-term revenue and profitability.",
-      "counterfactuals": [
-        "If DigitalOcean fails to meet or exceed expectations in upcoming quarters, it could negatively impact investor sentiment and stock price.",
-        "A downturn in the broader tech sector could affect DigitalOcean's performance."
-      ],
-      "next_checks": [
-        "Monitor Q1 earnings report for continued strong performance",
-        "Assess market competition and its impact on DigitalOcean’s growth strategies"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.85,
-        "rationale": "DigitalOcean's recent earnings report and strong financial performance have significantly boosted investor confidence. The company reported a 16.80% earnings surprise, a 1.99% revenue surprise, and a 150% ARR surge, all of which are positive indicators for future growth. Additionally, the focus on AI-related demand and planned data center capacity additions suggests a robust long-term outlook.",
-        "key_drivers": [
-          "Strong Q4 earnings with significant revenue and ARR growth",
-          "Focus on expanding AI-related services and infrastructure investments",
-          "Positive sentiment from multiple bullish earnings reports"
-        ],
-        "key_risks": [
-          "Potential competitive pressures in the cloud computing market",
-          "Uncertainty around future guidance and expectations",
-          "Market volatility affecting overall stock performance"
-        ],
-        "valuation_view": "The current valuation appears undervalued given the strong financial performance and growth prospects. The company's focus on AI and expanding its service offerings could lead to higher long-term revenue and profitability.",
-        "counterfactuals": [
-          "If DigitalOcean fails to meet or exceed expectations in upcoming quarters, it could negatively impact investor sentiment and stock price.",
-          "A downturn in the broader tech sector could affect DigitalOcean's performance."
-        ],
-        "next_checks": [
-          "Monitor Q1 earnings report for continued strong performance",
-          "Assess market competition and its impact on DigitalOcean’s growth strategies"
-        ],
-        "position_plan": {
-          "prefer_qty": 50,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:48:45+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "Recent earnings reports and product launches indicate strong financial performance and growth prospects for DigitalOcean (DOCN). The company's AI focus, revenue growth, and strategic partnerships are key drivers of positive sentiment.",
-      "key_drivers": [
-        "Strong Q4 2025 earnings with significant ARR growth",
-        "Positive outlook on expanding AI-related demand",
-        "Strategic collaboration with AMD to enhance AI offerings"
-      ],
-      "key_risks": [
-        "Potential competitive pressures in the cloud computing market",
-        "Uncertainty around long-term growth expectations post-earnings call"
-      ],
-      "valuation_view": "DOCN's valuation appears reasonable given its strong financial performance and strategic initiatives. However, the stock may be overvalued if future growth does not meet current expectations.",
-      "counterfactuals": [
-        "If Q1 earnings fall short of expectations, it could lead to a sell-off in DOCN shares.",
-        "A slowdown in AI adoption or reduced collaboration with key partners could negatively impact stock performance."
-      ],
-      "next_checks": [
-        "Monitor upcoming Q1 earnings report for any signs of weakening growth",
-        "Keep an eye on competitor actions and market trends affecting cloud computing"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "Recent earnings reports and product launches indicate strong financial performance and growth prospects for DigitalOcean (DOCN). The company's AI focus, revenue growth, and strategic partnerships are key drivers of positive sentiment.",
-        "key_drivers": [
-          "Strong Q4 2025 earnings with significant ARR growth",
-          "Positive outlook on expanding AI-related demand",
-          "Strategic collaboration with AMD to enhance AI offerings"
-        ],
-        "key_risks": [
-          "Potential competitive pressures in the cloud computing market",
-          "Uncertainty around long-term growth expectations post-earnings call"
-        ],
-        "valuation_view": "DOCN's valuation appears reasonable given its strong financial performance and strategic initiatives. However, the stock may be overvalued if future growth does not meet current expectations.",
-        "counterfactuals": [
-          "If Q1 earnings fall short of expectations, it could lead to a sell-off in DOCN shares.",
-          "A slowdown in AI adoption or reduced collaboration with key partners could negatively impact stock performance."
-        ],
-        "next_checks": [
-          "Monitor upcoming Q1 earnings report for any signs of weakening growth",
-          "Keep an eye on competitor actions and market trends affecting cloud computing"
-        ],
-        "position_plan": {
-          "prefer_qty": 50,
-          "time_horizon": "swing_days|swing_weeks"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:46:52+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "Recent earnings reports and product launches have shown strong financial performance and strategic growth initiatives for DigitalOcean (DOCN). The company's AI focus, revenue growth, and competitive positioning are key drivers.",
-      "key_drivers": [
-        "Strong Q4 2025 earnings with significant ARR growth",
-        "Positive outlook on expanding AI-related demand",
-        "Strategic collaboration with AMD to enhance AI offerings"
-      ],
-      "key_risks": [
-        "Potential competitive pressures from larger cloud providers",
-        "Uncertainty in the broader tech market due to economic factors"
-      ],
-      "valuation_view": "DOCN's valuation appears reasonable given its strong financial performance and growth prospects, but long-term assumptions on AI adoption are critical.",
-      "counterfactuals": [
-        "A significant decline in AI-related demand could negatively impact DOCN’s growth trajectory",
-        "Negative earnings surprises in future quarters may lead to a revaluation of the stock"
-      ],
-      "next_checks": [
-        "Monitor Q1 2026 earnings for continued strong performance",
-        "Track market adoption and usage metrics for AI services",
-        "Assess any regulatory or competitive challenges that could impact cloud service providers"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "Recent earnings reports and product launches have shown strong financial performance and strategic growth initiatives for DigitalOcean (DOCN). The company's AI focus, revenue growth, and competitive positioning are key drivers.",
-        "key_drivers": [
-          "Strong Q4 2025 earnings with significant ARR growth",
-          "Positive outlook on expanding AI-related demand",
-          "Strategic collaboration with AMD to enhance AI offerings"
-        ],
-        "key_risks": [
-          "Potential competitive pressures from larger cloud providers",
-          "Uncertainty in the broader tech market due to economic factors"
-        ],
-        "valuation_view": "DOCN's valuation appears reasonable given its strong financial performance and growth prospects, but long-term assumptions on AI adoption are critical.",
-        "counterfactuals": [
-          "A significant decline in AI-related demand could negatively impact DOCN’s growth trajectory",
-          "Negative earnings surprises in future quarters may lead to a revaluation of the stock"
-        ],
-        "next_checks": [
-          "Monitor Q1 2026 earnings for continued strong performance",
-          "Track market adoption and usage metrics for AI services",
-          "Assess any regulatory or competitive challenges that could impact cloud service providers"
-        ],
-        "position_plan": {
-          "prefer_qty": 50,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:45:05+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "Recent earnings reports and strong financial performance indicate positive momentum for DigitalOcean (DOCN). The company's AI focus, record revenue growth, and significant increase in AI customer ARR are key drivers. However, the market remains competitive, and future guidance will be crucial.",
-      "key_drivers": [
-        "18% Q4 revenue growth",
-        "Significant 150% ARR surge",
-        "Strong earnings beat expectations"
-      ],
-      "key_risks": [
-        "Competitive pressures in the cloud computing market",
-        "Uncertainty around future guidance and expansion plans"
-      ],
-      "valuation_view": "DOCN's valuation appears justified given its strong financial performance and focus on AI, which is a growing trend. However, the stock may be overvalued if growth expectations are not met.",
-      "counterfactuals": [
-        "If Q1 earnings do not meet or exceed current expectations",
-        "Significant competitive setbacks in the cloud computing space"
-      ],
-      "next_checks": [
-        "Monitor upcoming Q1 earnings report for any changes in guidance",
-        "Keep an eye on market trends and competitor actions"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "Recent earnings reports and strong financial performance indicate positive momentum for DigitalOcean (DOCN). The company's AI focus, record revenue growth, and significant increase in AI customer ARR are key drivers. However, the market remains competitive, and future guidance will be crucial.",
-        "key_drivers": [
-          "18% Q4 revenue growth",
-          "Significant 150% ARR surge",
-          "Strong earnings beat expectations"
-        ],
-        "key_risks": [
-          "Competitive pressures in the cloud computing market",
-          "Uncertainty around future guidance and expansion plans"
-        ],
-        "valuation_view": "DOCN's valuation appears justified given its strong financial performance and focus on AI, which is a growing trend. However, the stock may be overvalued if growth expectations are not met.",
-        "counterfactuals": [
-          "If Q1 earnings do not meet or exceed current expectations",
-          "Significant competitive setbacks in the cloud computing space"
-        ],
-        "next_checks": [
-          "Monitor upcoming Q1 earnings report for any changes in guidance",
-          "Keep an eye on market trends and competitor actions"
-        ],
-        "position_plan": {
-          "prefer_qty": 50,
-          "time_horizon": "swing_weeks"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:43:13+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "Recent earnings reports and positive market reactions indicate strong financial performance and growth prospects for DigitalOcean (DOCN). The company's focus on AI-related demand and expansion strategies are likely to drive continued investor interest.",
-      "key_drivers": [
-        "Strong Q4 2025 earnings with significant ARR growth",
-        "Positive outlook on expanding AI-related demand",
-        "Collaboration with AMD for enhanced AI offerings"
-      ],
-      "key_risks": [
-        "Potential competitive pressures from larger cloud providers",
-        "Uncertainty in the broader tech market due to economic conditions"
-      ],
-      "valuation_view": "DOCN's valuation appears justified given its strong revenue growth and focus on high-growth segments like AI. However, long-term success depends on maintaining competitive edge and executing expansion plans.",
-      "counterfactuals": [
-        "A decline in AI-related demand could negatively impact DOCN’s growth trajectory",
-        "Missed earnings targets or negative market sentiment could reverse current trends"
-      ],
-      "next_checks": [
-        "Quarterly revenue and profit guidance for Q1 2026",
-        "Competitor actions and their impact on the cloud market"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "Recent earnings reports and positive market reactions indicate strong financial performance and growth prospects for DigitalOcean (DOCN). The company's focus on AI-related demand and expansion strategies are likely to drive continued investor interest.",
-        "key_drivers": [
-          "Strong Q4 2025 earnings with significant ARR growth",
-          "Positive outlook on expanding AI-related demand",
-          "Collaboration with AMD for enhanced AI offerings"
-        ],
-        "key_risks": [
-          "Potential competitive pressures from larger cloud providers",
-          "Uncertainty in the broader tech market due to economic conditions"
-        ],
-        "valuation_view": "DOCN's valuation appears justified given its strong revenue growth and focus on high-growth segments like AI. However, long-term success depends on maintaining competitive edge and executing expansion plans.",
-        "counterfactuals": [
-          "A decline in AI-related demand could negatively impact DOCN’s growth trajectory",
-          "Missed earnings targets or negative market sentiment could reverse current trends"
-        ],
-        "next_checks": [
-          "Quarterly revenue and profit guidance for Q1 2026",
-          "Competitor actions and their impact on the cloud market"
-        ],
-        "position_plan": {
-          "prefer_qty": 50,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:41:00+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "DigitalOcean's recent earnings report and strong ARR growth of 150% have significantly boosted investor confidence in the company's future growth prospects. The stock has already seen a positive reaction, but there is potential for further upside as the market continues to digest the positive guidance.",
-      "key_drivers": [
-        "Strong Q4 2025 earnings with +16.80% EPS beat and +1.99% revenue growth",
-        "Significant increase in AI customer ARR, indicating strong demand for cloud services",
-        "Positive outlook on expanding data center capacity and infrastructure investments"
-      ],
-      "key_risks": [
-        "Market uncertainty around broader economic conditions could impact tech stocks negatively",
-        "Competitive pressures from larger cloud providers may intensify"
-      ],
-      "valuation_view": "The current valuation appears attractive given the strong growth metrics, but it is important to monitor if these fundamentals are reflected in the stock price.",
-      "counterfactuals": [
-        "If DigitalOcean fails to meet or slightly misses its guidance in upcoming quarters, this could lead to a re-evaluation of its growth prospects and potentially cause a sell-off.",
-        "A slowdown in AI adoption or a shift away from cloud services could negatively impact the stock."
-      ],
-      "next_checks": [
-        "Monitor Q1 2026 earnings for continued strong performance",
-        "Keep an eye on competitor actions and market trends affecting cloud computing"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "DigitalOcean's recent earnings report and strong ARR growth of 150% have significantly boosted investor confidence in the company's future growth prospects. The stock has already seen a positive reaction, but there is potential for further upside as the market continues to digest the positive guidance.",
-        "key_drivers": [
-          "Strong Q4 2025 earnings with +16.80% EPS beat and +1.99% revenue growth",
-          "Significant increase in AI customer ARR, indicating strong demand for cloud services",
-          "Positive outlook on expanding data center capacity and infrastructure investments"
-        ],
-        "key_risks": [
-          "Market uncertainty around broader economic conditions could impact tech stocks negatively",
-          "Competitive pressures from larger cloud providers may intensify"
-        ],
-        "valuation_view": "The current valuation appears attractive given the strong growth metrics, but it is important to monitor if these fundamentals are reflected in the stock price.",
-        "counterfactuals": [
-          "If DigitalOcean fails to meet or slightly misses its guidance in upcoming quarters, this could lead to a re-evaluation of its growth prospects and potentially cause a sell-off.",
-          "A slowdown in AI adoption or a shift away from cloud services could negatively impact the stock."
-        ],
-        "next_checks": [
-          "Monitor Q1 2026 earnings for continued strong performance",
-          "Keep an eye on competitor actions and market trends affecting cloud computing"
-        ],
-        "position_plan": {
-          "prefer_qty": 50,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:38:04+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "DigitalOcean's recent earnings report and strong performance in AI-related revenue growth have driven positive sentiment among investors. The company's robust financial results, including a significant ARR surge of 150%, and its strategic focus on expanding AI capabilities are key drivers for continued growth.",
-      "key_drivers": [
-        "Strong Q4 2025 earnings with +16.80% EPS beat and +1.99% revenue growth",
-        "Significant increase in AI customer ARR, indicating strong demand for its cloud services",
-        "Strategic collaboration with AMD to enhance AI inference capabilities"
-      ],
-      "key_risks": [
-        "Potential competitive pressures from larger tech players",
-        "Market volatility affecting overall technology stocks",
-        "Uncertainty around future growth projections if guidance is not met"
-      ],
-      "valuation_view": "DigitalOcean's valuation appears reasonable given its strong financial performance and strategic focus on AI, which could drive long-term growth.",
-      "counterfactuals": [
-        "If the company fails to meet or exceed Q1 2026 earnings expectations, it could signal a slowdown in growth and negatively impact stock price.",
-        "A decline in demand for cloud services due to broader economic downturn could also pose risks."
-      ],
-      "next_checks": [
-        "Monitor upcoming earnings reports for consistency with current trends",
-        "Keep an eye on market conditions and their impact on tech stocks"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "DigitalOcean's recent earnings report and strong performance in AI-related revenue growth have driven positive sentiment among investors. The company's robust financial results, including a significant ARR surge of 150%, and its strategic focus on expanding AI capabilities are key drivers for continued growth.",
-        "key_drivers": [
-          "Strong Q4 2025 earnings with +16.80% EPS beat and +1.99% revenue growth",
-          "Significant increase in AI customer ARR, indicating strong demand for its cloud services",
-          "Strategic collaboration with AMD to enhance AI inference capabilities"
-        ],
-        "key_risks": [
-          "Potential competitive pressures from larger tech players",
-          "Market volatility affecting overall technology stocks",
-          "Uncertainty around future growth projections if guidance is not met"
-        ],
-        "valuation_view": "DigitalOcean's valuation appears reasonable given its strong financial performance and strategic focus on AI, which could drive long-term growth.",
-        "counterfactuals": [
-          "If the company fails to meet or exceed Q1 2026 earnings expectations, it could signal a slowdown in growth and negatively impact stock price.",
-          "A decline in demand for cloud services due to broader economic downturn could also pose risks."
-        ],
-        "next_checks": [
-          "Monitor upcoming earnings reports for consistency with current trends",
-          "Keep an eye on market conditions and their impact on tech stocks"
-        ],
-        "position_plan": {
-          "prefer_qty": 10,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:36:18+09:00",
-      "action": "BUY",
-      "confidence": 0.8,
-      "rationale": "Recent earnings reports and strong ARR growth have significantly boosted DigitalOcean's stock performance. The company continues to focus on AI-driven growth, which is a key driver in the cloud computing sector.",
-      "key_drivers": [
-        "150% ARR surge",
-        "Strong revenue and profit beats expectations",
-        "Focus on expanding AI-related demand"
-      ],
-      "key_risks": [
-        "Potential competitive pressures from larger cloud providers",
-        "Market volatility affecting tech stocks in general"
-      ],
-      "valuation_view": "The current valuation appears attractive given the strong growth trajectory, but long-term assumptions about market share and competition are critical.",
-      "counterfactuals": [
-        "A significant miss on future earnings could lead to a reversal of gains",
-        "Decreased demand for AI services could impact DigitalOcean's growth prospects"
-      ],
-      "next_checks": [
-        "Quarterly earnings reports for continued performance",
-        "Competitor actions and market share changes"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.8,
-        "rationale": "Recent earnings reports and strong ARR growth have significantly boosted DigitalOcean's stock performance. The company continues to focus on AI-driven growth, which is a key driver in the cloud computing sector.",
-        "key_drivers": [
-          "150% ARR surge",
-          "Strong revenue and profit beats expectations",
-          "Focus on expanding AI-related demand"
-        ],
-        "key_risks": [
-          "Potential competitive pressures from larger cloud providers",
-          "Market volatility affecting tech stocks in general"
-        ],
-        "valuation_view": "The current valuation appears attractive given the strong growth trajectory, but long-term assumptions about market share and competition are critical.",
-        "counterfactuals": [
-          "A significant miss on future earnings could lead to a reversal of gains",
-          "Decreased demand for AI services could impact DigitalOcean's growth prospects"
-        ],
-        "next_checks": [
-          "Quarterly earnings reports for continued performance",
-          "Competitor actions and market share changes"
-        ],
-        "position_plan": {
-          "prefer_qty": 10,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:34:30+09:00",
-      "action": "BUY",
-      "confidence": 0.85,
-      "rationale": "DigitalOcean's recent earnings report and strong ARR growth have significantly boosted investor confidence in the company's future growth prospects. The stock has shown resilience, with multiple positive earnings reports driving its performance.",
-      "key_drivers": [
-        "Strong Q4 2025 earnings with 16.8% EPS beat and 1.99% revenue beat",
-        "Significant 150% ARR surge driven by AI momentum",
-        "Positive outlook on expanding AI-related demand and data center capacity additions"
-      ],
-      "key_risks": [
-        "Potential competitive pressures from larger cloud providers",
-        "Uncertainty in the broader tech market, including regulatory changes and economic slowdowns"
-      ],
-      "valuation_view": "The current valuation appears reasonable given the strong growth drivers. However, investors should monitor key metrics such as revenue growth and margin expansion closely.",
-      "counterfactuals": [
-        "If DigitalOcean fails to maintain its AI momentum or sees a decline in customer acquisition rates, this could negatively impact stock performance.",
-        "A significant downturn in the broader tech market could affect investor sentiment and stock prices."
-      ],
-      "next_checks": [
-        "Monitor Q1 2026 earnings for continued growth trends",
-        "Watch for any changes in competitive landscape or regulatory environment"
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.85,
-        "rationale": "DigitalOcean's recent earnings report and strong ARR growth have significantly boosted investor confidence in the company's future growth prospects. The stock has shown resilience, with multiple positive earnings reports driving its performance.",
-        "key_drivers": [
-          "Strong Q4 2025 earnings with 16.8% EPS beat and 1.99% revenue beat",
-          "Significant 150% ARR surge driven by AI momentum",
-          "Positive outlook on expanding AI-related demand and data center capacity additions"
-        ],
-        "key_risks": [
-          "Potential competitive pressures from larger cloud providers",
-          "Uncertainty in the broader tech market, including regulatory changes and economic slowdowns"
-        ],
-        "valuation_view": "The current valuation appears reasonable given the strong growth drivers. However, investors should monitor key metrics such as revenue growth and margin expansion closely.",
-        "counterfactuals": [
-          "If DigitalOcean fails to maintain its AI momentum or sees a decline in customer acquisition rates, this could negatively impact stock performance.",
-          "A significant downturn in the broader tech market could affect investor sentiment and stock prices."
-        ],
-        "next_checks": [
-          "Monitor Q1 2026 earnings for continued growth trends",
-          "Watch for any changes in competitive landscape or regulatory environment"
-        ],
-        "position_plan": {
-          "prefer_qty": 50,
           "time_horizon": "swing_days"
         }
       }

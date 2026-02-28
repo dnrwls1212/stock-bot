@@ -1,6 +1,6 @@
 {
   "ticker": "TSLA",
-  "updated_at": "2026-02-27T07:10:00+09:00",
+  "updated_at": "2026-02-28T03:06:34+09:00",
   "thesis": "",
   "business_summary": "",
   "moat": "",
@@ -11,6 +11,90 @@
   "target_price": null,
   "fair_value_range": null,
   "evidence": [
+    {
+      "ts_kst": "2026-02-28T03:02:43+09:00",
+      "source": "news",
+      "title": "Why Is Tesla (TSLA) Down 1.9% Since Last Earnings Report?",
+      "summary": "Unclear impact / insufficient info",
+      "link": "https://finance.yahoo.com/news/why-tesla-tsla-down-1-163013092.html?.tsrc=rss",
+      "sentiment": "neutral",
+      "impact": 0,
+      "tags": [
+        "earnings"
+      ],
+      "raw": {
+        "tickers": [],
+        "event_type": "earnings",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [
+          "Tesla (TSLA) reported earnings 30 days ago.",
+          "Earnings estimates are being analyzed for future stock performance."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Unclear impact / insufficient info",
+        "kr_title": "테슬라(TSLA) 이전 실적 보고 이후 왜 1.9% 하락했을까요?"
+      }
+    },
+    {
+      "ts_kst": "2026-02-27T23:50:34+09:00",
+      "source": "news",
+      "title": "Tesla’s Robotaxi Promises Are Empty: Zero Miles Logged, No Permits, Now Suing Regulators",
+      "summary": "Legal conflicts and lack of progress on robotaxi initiatives could negatively impact investor sentiment and stock performance.",
+      "link": "https://247wallst.com/investing/2026/02/27/teslas-robotaxi-promises-are-empty-zero-miles-logged-no-permits-now-suing-regulators/?.tsrc=rss",
+      "sentiment": "bearish",
+      "impact": -1,
+      "tags": [
+        "litigation_investigation"
+      ],
+      "raw": {
+        "tickers": [
+          "TSLA"
+        ],
+        "event_type": "litigation_investigation",
+        "sentiment": "bearish",
+        "impact": -1,
+        "confidence": 0.8,
+        "key_points": [
+          "Tesla has no commercial robotaxi permits in any major U.S. market.",
+          "No meaningful revenue or miles-logged metrics from autonomous ride-hailing operations have been disclosed.",
+          "Tesla is now in legal conflict with regulators."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Legal conflicts and lack of progress on robotaxi initiatives could negatively impact investor sentiment and stock performance.",
+        "kr_title": "테슬라의 로봇택시 약속은 빈말: 마일리지 0, 허가 없이now 규제 당국과 소송"
+      }
+    },
+    {
+      "ts_kst": "2026-02-27T23:50:30+09:00",
+      "source": "news",
+      "title": "Nio Blitzes SUV Market: Flagship ES9, Onvo L80 Set For May Launch",
+      "summary": "New product launches can impact company stock performance as they signal future growth potential, but the exact impact depends on market reception and sales data.",
+      "link": "https://finance.yahoo.com/news/nio-blitzes-suv-market-flagship-143022105.html?.tsrc=rss",
+      "sentiment": "neutral",
+      "impact": 0,
+      "tags": [
+        "product_launch"
+      ],
+      "raw": {
+        "tickers": [
+          "NIO",
+          "TSLA"
+        ],
+        "event_type": "product_launch",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [
+          "Nio Inc. is launching new SUV models in the coming months.",
+          "Competing with Tesla and Li Auto in China's electric vehicle market."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "New product launches can impact company stock performance as they signal future growth potential, but the exact impact depends on market reception and sales data.",
+        "kr_title": "니오, SUV 시장 공략 본격화…ES9와 온보 L80 5월 출시 예정"
+      }
+    },
     {
       "ts_kst": "2026-02-27T00:50:26+09:00",
       "source": "news",
@@ -195,6 +279,1689 @@
     }
   ],
   "decisions": [
+    {
+      "ts_kst": "2026-02-28T03:06:34+09:00",
+      "action": "HOLD",
+      "confidence": 0.5499,
+      "rationale": "주가 하락과 부정적인 뉴스 영향으로 판매 신호 발생, 그러나 현재 포지션 없음.",
+      "key_drivers": [
+        "Tesla의 로보택시 프로젝트와 AI 전환에 대한 규제 리스크",
+        "Nio의 SUV 모델 출시 계획"
+      ],
+      "key_risks": [
+        "규제 리스크 증가 및 안전 문제",
+        "경쟁 업체들의 신제품 출시로 인한 시장 점유율 하락 가능성"
+      ],
+      "valuation_view": "공정 가치 평가 불가, 주가 하락에 따른 판매 신호 발생.",
+      "counterfactuals": [
+        "규제 리스크 완화 및 로보택시 프로젝트 진전",
+        "Cybertruck 판매 개선"
+      ],
+      "next_checks": [
+        "규제 동향과 로보택시 프로젝트 진행 상황",
+        "경쟁 업체들의 신제품 출시와 시장 반응"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5499,
+        "rationale": "주가 하락과 부정적인 뉴스 영향으로 판매 신호 발생, 그러나 현재 포지션 없음.",
+        "key_drivers": [
+          "Tesla의 로보택시 프로젝트와 AI 전환에 대한 규제 리스크",
+          "Nio의 SUV 모델 출시 계획"
+        ],
+        "key_risks": [
+          "규제 리스크 증가 및 안전 문제",
+          "경쟁 업체들의 신제품 출시로 인한 시장 점유율 하락 가능성"
+        ],
+        "valuation_view": "공정 가치 평가 불가, 주가 하락에 따른 판매 신호 발생.",
+        "counterfactuals": [
+          "규제 리스크 완화 및 로보택시 프로젝트 진전",
+          "Cybertruck 판매 개선"
+        ],
+        "next_checks": [
+          "규제 동향과 로보택시 프로젝트 진행 상황",
+          "경쟁 업체들의 신제품 출시와 시장 반응"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T03:03:26+09:00",
+      "action": "HOLD",
+      "confidence": 0.5499999999999999,
+      "rationale": "주가 하락과 함께 최근 뉴스는 주로 부정적인 내용을 담고 있어 투자 심리에 악영향을 미치고 있습니다.",
+      "key_drivers": [
+        "Tesla의 로보택시 프로젝트와 관련된 법적 분쟁",
+        "Nio가 새로운 SUV 모델 출시 계획 발표"
+      ],
+      "key_risks": [
+        "로보택시 사업의 진전이 없을 경우 투자자 신뢰도 하락",
+        "경쟁사들의 신제품 출시에 따른 시장 점유율 위협"
+      ],
+      "valuation_view": "최근 이슈들로 인해 주가가 하락했지만, 아직까지 구체적인 재평가 요인이 제기되지 않았습니다.",
+      "counterfactuals": [
+        "로보택시 사업에서 긍정적인 진전이 있을 경우",
+        "경쟁사들의 신제품 출시 효과가 예상보다 낮을 경우"
+      ],
+      "next_checks": [
+        "로보택시 프로젝트의 법적 분쟁 진행 상황",
+        "Nio의 새로운 SUV 모델 출시 후 시장 반응"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5499999999999999,
+        "rationale": "주가 하락과 함께 최근 뉴스는 주로 부정적인 내용을 담고 있어 투자 심리에 악영향을 미치고 있습니다.",
+        "key_drivers": [
+          "Tesla의 로보택시 프로젝트와 관련된 법적 분쟁",
+          "Nio가 새로운 SUV 모델 출시 계획 발표"
+        ],
+        "key_risks": [
+          "로보택시 사업의 진전이 없을 경우 투자자 신뢰도 하락",
+          "경쟁사들의 신제품 출시에 따른 시장 점유율 위협"
+        ],
+        "valuation_view": "최근 이슈들로 인해 주가가 하락했지만, 아직까지 구체적인 재평가 요인이 제기되지 않았습니다.",
+        "counterfactuals": [
+          "로보택시 사업에서 긍정적인 진전이 있을 경우",
+          "경쟁사들의 신제품 출시 효과가 예상보다 낮을 경우"
+        ],
+        "next_checks": [
+          "로보택시 프로젝트의 법적 분쟁 진행 상황",
+          "Nio의 새로운 SUV 모델 출시 후 시장 반응"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:44:07+09:00",
+      "action": "HOLD",
+      "confidence": 0.6,
+      "rationale": "주가 하락세와 부정적인 뉴스 영향으로 판매 신호 발생, 그러나 현재 포지션 없음.",
+      "key_drivers": [
+        "로보택시 관련 법적 분쟁",
+        "AI 전환 및 규제 리스크"
+      ],
+      "key_risks": [
+        "규제 리스크 확대",
+        "기술 개발 지연"
+      ],
+      "valuation_view": "공정가치 평가 불확실성 높음",
+      "counterfactuals": [
+        "규제 완화, 기술 진전"
+      ],
+      "next_checks": [
+        "로보택시 허가 동향",
+        "기술 개발 진행 상황"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.6,
+        "rationale": "주가 하락세와 부정적인 뉴스 영향으로 판매 신호 발생, 그러나 현재 포지션 없음.",
+        "key_drivers": [
+          "로보택시 관련 법적 분쟁",
+          "AI 전환 및 규제 리스크"
+        ],
+        "key_risks": [
+          "규제 리스크 확대",
+          "기술 개발 지연"
+        ],
+        "valuation_view": "공정가치 평가 불확실성 높음",
+        "counterfactuals": [
+          "규제 완화, 기술 진전"
+        ],
+        "next_checks": [
+          "로보택시 허가 동향",
+          "기술 개발 진행 상황"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:41:05+09:00",
+      "action": "HOLD",
+      "confidence": 0.56,
+      "rationale": "주가 하락 압력이 있지만 최근 뉴스의 영향으로 인해 추가적인 판매 신호는 부족하다.",
+      "key_drivers": [
+        "로보택시 관련 법적 분쟁",
+        "니오 SUV 모델 출시"
+      ],
+      "key_risks": [
+        "로보택시 프로그램의 지연 및 규제 위험",
+        "모델 S/X 생산 중단"
+      ],
+      "valuation_view": "공정가치 평가는 불명확하며, 현재 주가는 하락 압력에 노출되어 있다.",
+      "counterfactuals": [
+        "로보택시 프로그램의 긍정적인 진전이나 규제 완화",
+        "니오 SUV 모델들의 성공적인 출시"
+      ],
+      "next_checks": [
+        "로보택시 관련 법적 분쟁 진행 상황",
+        "니오의 신차 판매 실적"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.56,
+        "rationale": "주가 하락 압력이 있지만 최근 뉴스의 영향으로 인해 추가적인 판매 신호는 부족하다.",
+        "key_drivers": [
+          "로보택시 관련 법적 분쟁",
+          "니오 SUV 모델 출시"
+        ],
+        "key_risks": [
+          "로보택시 프로그램의 지연 및 규제 위험",
+          "모델 S/X 생산 중단"
+        ],
+        "valuation_view": "공정가치 평가는 불명확하며, 현재 주가는 하락 압력에 노출되어 있다.",
+        "counterfactuals": [
+          "로보택시 프로그램의 긍정적인 진전이나 규제 완화",
+          "니오 SUV 모델들의 성공적인 출시"
+        ],
+        "next_checks": [
+          "로보택시 관련 법적 분쟁 진행 상황",
+          "니오의 신차 판매 실적"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:38:08+09:00",
+      "action": "HOLD",
+      "confidence": 0.6,
+      "rationale": "현재 테슬라 주가는 하락세를 보이고 있으며, 최근 뉴스는 회사의 로보택시 사업과 관련한 부정적인 내용이 많아 주가에 악영향을 미칠 가능성이 있습니다.",
+      "key_drivers": [
+        "로보택시 사업의 진전 부족",
+        "규제 리스크 증가"
+      ],
+      "key_risks": [
+        "규제 당국과 법적 분쟁 지속",
+        "경쟁사(Nio 등)의 신제품 출시에 따른 시장 점유율 하락"
+      ],
+      "valuation_view": "현재 주가는 부정적인 뉴스 영향으로 하락했지만, 회사의 장기 전략과 기술력은 여전히 가치가 있습니다.",
+      "counterfactuals": [
+        "로보택시 사업에서 긍정적인 진전이 있을 경우",
+        "규제 리스크 완화"
+      ],
+      "next_checks": [
+        "로보택시 사업의 진행 상황",
+        "경쟁사 제품 출시와 시장 반응"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.6,
+        "rationale": "현재 테슬라 주가는 하락세를 보이고 있으며, 최근 뉴스는 회사의 로보택시 사업과 관련한 부정적인 내용이 많아 주가에 악영향을 미칠 가능성이 있습니다.",
+        "key_drivers": [
+          "로보택시 사업의 진전 부족",
+          "규제 리스크 증가"
+        ],
+        "key_risks": [
+          "규제 당국과 법적 분쟁 지속",
+          "경쟁사(Nio 등)의 신제품 출시에 따른 시장 점유율 하락"
+        ],
+        "valuation_view": "현재 주가는 부정적인 뉴스 영향으로 하락했지만, 회사의 장기 전략과 기술력은 여전히 가치가 있습니다.",
+        "counterfactuals": [
+          "로보택시 사업에서 긍정적인 진전이 있을 경우",
+          "규제 리스크 완화"
+        ],
+        "next_checks": [
+          "로보택시 사업의 진행 상황",
+          "경쟁사 제품 출시와 시장 반응"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:34:55+09:00",
+      "action": "HOLD",
+      "confidence": 0.56,
+      "rationale": "주가 하락과 함께 부정적인 뉴스가 이어지고 있으나, 현재 포지션 없음.",
+      "key_drivers": [
+        "로보택시 관련 법적 분쟁",
+        "NIO의 SUV 모델 출시"
+      ],
+      "key_risks": [
+        "안전성 문제와 규제 리스크 증가",
+        "Cybertruck 판매 부진"
+      ],
+      "valuation_view": "공정 가치 평가는 불확실성이 높음",
+      "counterfactuals": [
+        "로보택시 사업 진척, 안전성 개선"
+      ],
+      "next_checks": [
+        "로보택시 관련 법적 분쟁 진행 상황",
+        "Cybertruck 판매 동향"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.56,
+        "rationale": "주가 하락과 함께 부정적인 뉴스가 이어지고 있으나, 현재 포지션 없음.",
+        "key_drivers": [
+          "로보택시 관련 법적 분쟁",
+          "NIO의 SUV 모델 출시"
+        ],
+        "key_risks": [
+          "안전성 문제와 규제 리스크 증가",
+          "Cybertruck 판매 부진"
+        ],
+        "valuation_view": "공정 가치 평가는 불확실성이 높음",
+        "counterfactuals": [
+          "로보택시 사업 진척, 안전성 개선"
+        ],
+        "next_checks": [
+          "로보택시 관련 법적 분쟁 진행 상황",
+          "Cybertruck 판매 동향"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:15:57+09:00",
+      "action": "HOLD",
+      "confidence": 0.6,
+      "rationale": "주가 하락과 부정적인 뉴스 영향으로 판매 신호 발생, 그러나 현재 포지션 없음.",
+      "key_drivers": [
+        "로보택시 프로젝트의 실적 부진",
+        "규제 리스크 증가"
+      ],
+      "key_risks": [
+        "규제 리스크 확대 가능성",
+        "경쟁사(NIO)의 신제품 출시"
+      ],
+      "valuation_view": "공정 가치 평가 불확실성 높음",
+      "counterfactuals": [
+        "로보택시 프로젝트 진전, 규제 리스크 완화"
+      ],
+      "next_checks": [
+        "로보택시 관련 추가 뉴스",
+        "규제 동향"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.6,
+        "rationale": "주가 하락과 부정적인 뉴스 영향으로 판매 신호 발생, 그러나 현재 포지션 없음.",
+        "key_drivers": [
+          "로보택시 프로젝트의 실적 부진",
+          "규제 리스크 증가"
+        ],
+        "key_risks": [
+          "규제 리스크 확대 가능성",
+          "경쟁사(NIO)의 신제품 출시"
+        ],
+        "valuation_view": "공정 가치 평가 불확실성 높음",
+        "counterfactuals": [
+          "로보택시 프로젝트 진전, 규제 리스크 완화"
+        ],
+        "next_checks": [
+          "로보택시 관련 추가 뉴스",
+          "규제 동향"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:13:09+09:00",
+      "action": "HOLD",
+      "confidence": 0.6,
+      "rationale": "주가 하락 압력이 있는 가운데 추가적인 하락 요인 없음.",
+      "key_drivers": [
+        "로보택시 관련 소식 부정적 (법적 분쟁, 허가 미획득)",
+        "nio의 신제품 출시 중립적"
+      ],
+      "key_risks": [
+        "규제 리스크 확대",
+        "로보택시 사업 진전 없음"
+      ],
+      "valuation_view": "공정가치 평가 불확실성 높아, 주가 하락 가능성 고려",
+      "counterfactuals": [
+        "규제 완화 및 로보택시 사업 진척 시 반등 가능"
+      ],
+      "next_checks": [
+        "로보택시 관련 법적 분쟁 진행 상황",
+        "nio의 신제품 출시 후 시장 반응"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.6,
+        "rationale": "주가 하락 압력이 있는 가운데 추가적인 하락 요인 없음.",
+        "key_drivers": [
+          "로보택시 관련 소식 부정적 (법적 분쟁, 허가 미획득)",
+          "nio의 신제품 출시 중립적"
+        ],
+        "key_risks": [
+          "규제 리스크 확대",
+          "로보택시 사업 진전 없음"
+        ],
+        "valuation_view": "공정가치 평가 불확실성 높아, 주가 하락 가능성 고려",
+        "counterfactuals": [
+          "규제 완화 및 로보택시 사업 진척 시 반등 가능"
+        ],
+        "next_checks": [
+          "로보택시 관련 법적 분쟁 진행 상황",
+          "nio의 신제품 출시 후 시장 반응"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:10:03+09:00",
+      "action": "HOLD",
+      "confidence": 0.6,
+      "rationale": "주식 가격 하락과 부정적인 뉴스 영향으로 판매 신호가 발생했으나, 현재 포지션 없음.",
+      "key_drivers": [
+        "로보택시 관련 법적 분쟁",
+        "AI 전환 및 규제 리스크"
+      ],
+      "key_risks": [
+        "규제 리스크 확대",
+        "기술 진전 지연"
+      ],
+      "valuation_view": "공정가치 평가 불확실성 증가",
+      "counterfactuals": [
+        "로보택시 사업의 긍정적인 발전",
+        "규제 완화"
+      ],
+      "next_checks": [
+        "로보택시 관련 법적 분쟁 진행 상황",
+        "기술 진척도"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.6,
+        "rationale": "주식 가격 하락과 부정적인 뉴스 영향으로 판매 신호가 발생했으나, 현재 포지션 없음.",
+        "key_drivers": [
+          "로보택시 관련 법적 분쟁",
+          "AI 전환 및 규제 리스크"
+        ],
+        "key_risks": [
+          "규제 리스크 확대",
+          "기술 진전 지연"
+        ],
+        "valuation_view": "공정가치 평가 불확실성 증가",
+        "counterfactuals": [
+          "로보택시 사업의 긍정적인 발전",
+          "규제 완화"
+        ],
+        "next_checks": [
+          "로보택시 관련 법적 분쟁 진행 상황",
+          "기술 진척도"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:07:20+09:00",
+      "action": "HOLD",
+      "confidence": 0.6,
+      "rationale": "현재 테슬라 주가는 하락세를 보이고 있으며, 최근 뉴스는 회사의 로보택시 프로젝트와 관련된 부정적인 내용이 많아 투자심리가 악화되고 있습니다.",
+      "key_drivers": [
+        "로보택시 프로젝트의 실질적 진전 없음",
+        "규제당국과 법적 분쟁 증가"
+      ],
+      "key_risks": [
+        "규제 리스크 확대",
+        "경쟁사(NIO 등)의 신제품 출시에 따른 시장 점유율 하락 가능성"
+      ],
+      "valuation_view": "현재 테슬라 주가는 고평가 상태에서 조정을 받고 있으며, 실질적인 성과 없이 규제 리스크 증가로 인해 추가 하락 가능성이 있습니다.",
+      "counterfactuals": [
+        "규제당국의 유연한 대응으로 법적 분쟁 완화",
+        "로보택시 프로젝트에서 긍정적인 진전 보고"
+      ],
+      "next_checks": [
+        "로보택시 프로젝트 관련 추가 뉴스 및 업데이트",
+        "규제 리스크와 관련된 법적 분쟁 진행 상황"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.6,
+        "rationale": "현재 테슬라 주가는 하락세를 보이고 있으며, 최근 뉴스는 회사의 로보택시 프로젝트와 관련된 부정적인 내용이 많아 투자심리가 악화되고 있습니다.",
+        "key_drivers": [
+          "로보택시 프로젝트의 실질적 진전 없음",
+          "규제당국과 법적 분쟁 증가"
+        ],
+        "key_risks": [
+          "규제 리스크 확대",
+          "경쟁사(NIO 등)의 신제품 출시에 따른 시장 점유율 하락 가능성"
+        ],
+        "valuation_view": "현재 테슬라 주가는 고평가 상태에서 조정을 받고 있으며, 실질적인 성과 없이 규제 리스크 증가로 인해 추가 하락 가능성이 있습니다.",
+        "counterfactuals": [
+          "규제당국의 유연한 대응으로 법적 분쟁 완화",
+          "로보택시 프로젝트에서 긍정적인 진전 보고"
+        ],
+        "next_checks": [
+          "로보택시 프로젝트 관련 추가 뉴스 및 업데이트",
+          "규제 리스크와 관련된 법적 분쟁 진행 상황"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:04:23+09:00",
+      "action": "HOLD",
+      "confidence": 0.56,
+      "rationale": "현재 테슬라 주가는 하락세를 보이고 있으며, 최근 뉴스와 이벤트는 회사의 로보택시 프로젝트와 관련된 법적 분쟁 및 규제 리스크를 강조하고 있다.",
+      "key_drivers": [
+        "로보택시 프로젝트의 진전 부족과 법적 분쟁",
+        "규제 리스크 증가"
+      ],
+      "key_risks": [
+        "규제 리스크 확대",
+        "경쟁사(Nio 등)의 신제품 출시"
+      ],
+      "valuation_view": "현재 테슬라 주가는 고평가 상태이며, 규제 리스크와 경쟁 압력으로 인해 추가 하락 가능성이 있다.",
+      "counterfactuals": [
+        "규제 리스크 완화",
+        "로보택시 프로젝트의 긍정적인 진전"
+      ],
+      "next_checks": [
+        "로보택시 프로젝트 관련 법적 분쟁 진행 상황",
+        "경쟁사(Nio 등)의 신제품 출시 및 판매 성과"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.56,
+        "rationale": "현재 테슬라 주가는 하락세를 보이고 있으며, 최근 뉴스와 이벤트는 회사의 로보택시 프로젝트와 관련된 법적 분쟁 및 규제 리스크를 강조하고 있다.",
+        "key_drivers": [
+          "로보택시 프로젝트의 진전 부족과 법적 분쟁",
+          "규제 리스크 증가"
+        ],
+        "key_risks": [
+          "규제 리스크 확대",
+          "경쟁사(Nio 등)의 신제품 출시"
+        ],
+        "valuation_view": "현재 테슬라 주가는 고평가 상태이며, 규제 리스크와 경쟁 압력으로 인해 추가 하락 가능성이 있다.",
+        "counterfactuals": [
+          "규제 리스크 완화",
+          "로보택시 프로젝트의 긍정적인 진전"
+        ],
+        "next_checks": [
+          "로보택시 프로젝트 관련 법적 분쟁 진행 상황",
+          "경쟁사(Nio 등)의 신제품 출시 및 판매 성과"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:59:22+09:00",
+      "action": "HOLD",
+      "confidence": 0.56,
+      "rationale": "현재 테슬라 주가는 하락세를 보이고 있으며, 최근 뉴스는 회사의 로보택시 프로젝트와 관련한 부정적인 내용이 많아 투자심리가 위축되고 있습니다.",
+      "key_drivers": [
+        "로보택시 프로젝트의 진전 없음",
+        "규제 리스크 증가"
+      ],
+      "key_risks": [
+        "규제 리스크 확대",
+        "경쟁사의 신제품 출시"
+      ],
+      "valuation_view": "현재 주가는 하락세를 보이고 있으나, 회사의 장기적인 전략과 기술력에 대한 평가가 필요합니다.",
+      "counterfactuals": [
+        "규제 리스크 완화",
+        "로보택시 프로젝트 진전"
+      ],
+      "next_checks": [
+        "로보택시 프로젝트 관련 추가 뉴스",
+        "경쟁사의 신제품 출시 상황"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.56,
+        "rationale": "현재 테슬라 주가는 하락세를 보이고 있으며, 최근 뉴스는 회사의 로보택시 프로젝트와 관련한 부정적인 내용이 많아 투자심리가 위축되고 있습니다.",
+        "key_drivers": [
+          "로보택시 프로젝트의 진전 없음",
+          "규제 리스크 증가"
+        ],
+        "key_risks": [
+          "규제 리스크 확대",
+          "경쟁사의 신제품 출시"
+        ],
+        "valuation_view": "현재 주가는 하락세를 보이고 있으나, 회사의 장기적인 전략과 기술력에 대한 평가가 필요합니다.",
+        "counterfactuals": [
+          "규제 리스크 완화",
+          "로보택시 프로젝트 진전"
+        ],
+        "next_checks": [
+          "로보택시 프로젝트 관련 추가 뉴스",
+          "경쟁사의 신제품 출시 상황"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:56:27+09:00",
+      "action": "HOLD",
+      "confidence": 0.56,
+      "rationale": "주식 가격은 현재 402.47 달러이며, 최근 뉴스는 테슬라의 로보택시 프로젝트와 관련된 부정적인 소식과 NIO의 SUV 출시 계획 등이 있습니다.",
+      "key_drivers": [
+        "테슬라의 로보택시 프로젝트 진행 상황",
+        "NIO의 새로운 모델 출시"
+      ],
+      "key_risks": [
+        "로보택시 관련 법적 분쟁 및 규제 리스크",
+        "Cybertruck 판매 부진"
+      ],
+      "valuation_view": "현재 테슬라 주식 가격은 과거 1년 동안 상승했지만, 최근 뉴스와 기술 지표는 약세를 나타내고 있습니다.",
+      "counterfactuals": [
+        "로보택시 프로젝트의 긍정적인 진전",
+        "Cybertruck 판매 회복"
+      ],
+      "next_checks": [
+        "로보택시 관련 법적 분쟁 진행 상황",
+        "NIO의 SUV 모델 출시 및 반응"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.56,
+        "rationale": "주식 가격은 현재 402.47 달러이며, 최근 뉴스는 테슬라의 로보택시 프로젝트와 관련된 부정적인 소식과 NIO의 SUV 출시 계획 등이 있습니다.",
+        "key_drivers": [
+          "테슬라의 로보택시 프로젝트 진행 상황",
+          "NIO의 새로운 모델 출시"
+        ],
+        "key_risks": [
+          "로보택시 관련 법적 분쟁 및 규제 리스크",
+          "Cybertruck 판매 부진"
+        ],
+        "valuation_view": "현재 테슬라 주식 가격은 과거 1년 동안 상승했지만, 최근 뉴스와 기술 지표는 약세를 나타내고 있습니다.",
+        "counterfactuals": [
+          "로보택시 프로젝트의 긍정적인 진전",
+          "Cybertruck 판매 회복"
+        ],
+        "next_checks": [
+          "로보택시 관련 법적 분쟁 진행 상황",
+          "NIO의 SUV 모델 출시 및 반응"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:53:31+09:00",
+      "action": "HOLD",
+      "confidence": 0.6,
+      "rationale": "주가 하락과 부정적인 뉴스 영향으로 인해 추가 매수를 주저합니다.",
+      "key_drivers": [
+        "로보택시 프로젝트의 진전 부족",
+        "규제 리스크 증가"
+      ],
+      "key_risks": [
+        "규제 관련 소송 결과 불리하게 판정",
+        "경쟁사(NIO)의 신제품 출시에 따른 시장 점유율 하락"
+      ],
+      "valuation_view": "현재 주가는 부정적인 뉴스 영향으로 하락했으나, 향후 규제 리스크 해소 및 로보택시 프로젝트 진전 여부가 중요합니다.",
+      "counterfactuals": [
+        "규제 관련 소송에서 승소",
+        "로보택시 사업의 긍정적인 진전"
+      ],
+      "next_checks": [
+        "규제 관련 소송 진행 상황",
+        "로보택시 프로젝트의 구체적 계획 및 진척사항"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.6,
+        "rationale": "주가 하락과 부정적인 뉴스 영향으로 인해 추가 매수를 주저합니다.",
+        "key_drivers": [
+          "로보택시 프로젝트의 진전 부족",
+          "규제 리스크 증가"
+        ],
+        "key_risks": [
+          "규제 관련 소송 결과 불리하게 판정",
+          "경쟁사(NIO)의 신제품 출시에 따른 시장 점유율 하락"
+        ],
+        "valuation_view": "현재 주가는 부정적인 뉴스 영향으로 하락했으나, 향후 규제 리스크 해소 및 로보택시 프로젝트 진전 여부가 중요합니다.",
+        "counterfactuals": [
+          "규제 관련 소송에서 승소",
+          "로보택시 사업의 긍정적인 진전"
+        ],
+        "next_checks": [
+          "규제 관련 소송 진행 상황",
+          "로보택시 프로젝트의 구체적 계획 및 진척사항"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:27:04+09:00",
+      "action": "HOLD",
+      "confidence": 0.6,
+      "rationale": "주가 하락세 지속 및 리걸 이슈 확대로 인한 부정적 뉴스 영향이 크다.",
+      "key_drivers": [
+        "로보택시 관련 법규 위반 소송",
+        "모델 S/X 생산 중단"
+      ],
+      "key_risks": [
+        "규제 강화 가능성",
+        "소비자 신뢰도 하락"
+      ],
+      "valuation_view": "현재 주가는 부정적 뉴스 영향으로 과도하게 하락한 상태로 보인다.",
+      "counterfactuals": [
+        "규제 완화 및 로보택시 사업 진전",
+        "긍정적인 재무 실적 발표"
+      ],
+      "next_checks": [
+        "규제 동향 모니터링",
+        "로보택시 프로그램 진행 상황"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.6,
+        "rationale": "주가 하락세 지속 및 리걸 이슈 확대로 인한 부정적 뉴스 영향이 크다.",
+        "key_drivers": [
+          "로보택시 관련 법규 위반 소송",
+          "모델 S/X 생산 중단"
+        ],
+        "key_risks": [
+          "규제 강화 가능성",
+          "소비자 신뢰도 하락"
+        ],
+        "valuation_view": "현재 주가는 부정적 뉴스 영향으로 과도하게 하락한 상태로 보인다.",
+        "counterfactuals": [
+          "규제 완화 및 로보택시 사업 진전",
+          "긍정적인 재무 실적 발표"
+        ],
+        "next_checks": [
+          "규제 동향 모니터링",
+          "로보택시 프로그램 진행 상황"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:24:16+09:00",
+      "action": "HOLD",
+      "confidence": 0.6,
+      "rationale": "주식 가격이 하락세를 보이고 있으며, 리걸 및 규제 위험이 증가하고 있습니다.",
+      "key_drivers": [
+        "로보택시 프로젝트의 진척 상황 부족",
+        "규제 당국과 법적 분쟁"
+      ],
+      "key_risks": [
+        "로보택시 사업의 지연 및 실패 가능성",
+        "규제 리스크 확대"
+      ],
+      "valuation_view": "현재 주가 수준에서 투자 가치를 평가하기 어렵습니다. 규제 리스크와 사업 진척 상황을 고려해야 합니다.",
+      "counterfactuals": [
+        "로보택시 프로젝트의 긍정적인 진전",
+        "규제 리스크 완화"
+      ],
+      "next_checks": [
+        "로보택시 프로젝트의 최신 업데이트",
+        "규제 당국과의 법적 분쟁 진행 상황"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.6,
+        "rationale": "주식 가격이 하락세를 보이고 있으며, 리걸 및 규제 위험이 증가하고 있습니다.",
+        "key_drivers": [
+          "로보택시 프로젝트의 진척 상황 부족",
+          "규제 당국과 법적 분쟁"
+        ],
+        "key_risks": [
+          "로보택시 사업의 지연 및 실패 가능성",
+          "규제 리스크 확대"
+        ],
+        "valuation_view": "현재 주가 수준에서 투자 가치를 평가하기 어렵습니다. 규제 리스크와 사업 진척 상황을 고려해야 합니다.",
+        "counterfactuals": [
+          "로보택시 프로젝트의 긍정적인 진전",
+          "규제 리스크 완화"
+        ],
+        "next_checks": [
+          "로보택시 프로젝트의 최신 업데이트",
+          "규제 당국과의 법적 분쟁 진행 상황"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:21:23+09:00",
+      "action": "HOLD",
+      "confidence": 0.6,
+      "rationale": "현재 주가는 하락세를 보이고 있으며, 리걸 및 규제 관련 뉴스가 부정적인 영향을 미치고 있습니다.",
+      "key_drivers": [
+        "로보택시 프로모션의 실질적 성과 부족",
+        "규제 당국과 법적 분쟁"
+      ],
+      "key_risks": [
+        "규제 리스크 확대",
+        "기술적 지표 약세"
+      ],
+      "valuation_view": "공정가치 평가는 불확실성이 높아 현재는 보수적인 접근이 필요합니다.",
+      "counterfactuals": [
+        "로보택시 사업의 긍정적인 진전",
+        "규제 리스크 완화"
+      ],
+      "next_checks": [
+        "로보택시 프로그램의 진행 상황",
+        "규제 관련 뉴스 및 법적 분쟁 동향"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.6,
+        "rationale": "현재 주가는 하락세를 보이고 있으며, 리걸 및 규제 관련 뉴스가 부정적인 영향을 미치고 있습니다.",
+        "key_drivers": [
+          "로보택시 프로모션의 실질적 성과 부족",
+          "규제 당국과 법적 분쟁"
+        ],
+        "key_risks": [
+          "규제 리스크 확대",
+          "기술적 지표 약세"
+        ],
+        "valuation_view": "공정가치 평가는 불확실성이 높아 현재는 보수적인 접근이 필요합니다.",
+        "counterfactuals": [
+          "로보택시 사업의 긍정적인 진전",
+          "규제 리스크 완화"
+        ],
+        "next_checks": [
+          "로보택시 프로그램의 진행 상황",
+          "규제 관련 뉴스 및 법적 분쟁 동향"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:18:32+09:00",
+      "action": "HOLD",
+      "confidence": 0.6,
+      "rationale": "주가 하락세와 리스크 온 모드로 인해 판매 신호가 발생했으나, 현재 포지션 없음.",
+      "key_drivers": [
+        "Tesla의 로보택시 프로모션이 실현되지 않아 법적 분쟁이 일어남",
+        "Nio의 SUV 시장 공략으로 경쟁 심화"
+      ],
+      "key_risks": [
+        "Tesla의 자율주행 기술과 안전성에 대한 규제 리스크 증가",
+        "Cybertruck 판매 부진 지속 가능성"
+      ],
+      "valuation_view": "공정 가치 평가 불가, 주가 하락세 유지 전망",
+      "counterfactuals": [
+        "규제 리스크 완화 및 로보택시 사업 진전 시 주가 반등 가능"
+      ],
+      "next_checks": [
+        "Tesla의 법적 분쟁 진행 상황",
+        "Nio의 신차 모델 판매 실적"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.6,
+        "rationale": "주가 하락세와 리스크 온 모드로 인해 판매 신호가 발생했으나, 현재 포지션 없음.",
+        "key_drivers": [
+          "Tesla의 로보택시 프로모션이 실현되지 않아 법적 분쟁이 일어남",
+          "Nio의 SUV 시장 공략으로 경쟁 심화"
+        ],
+        "key_risks": [
+          "Tesla의 자율주행 기술과 안전성에 대한 규제 리스크 증가",
+          "Cybertruck 판매 부진 지속 가능성"
+        ],
+        "valuation_view": "공정 가치 평가 불가, 주가 하락세 유지 전망",
+        "counterfactuals": [
+          "규제 리스크 완화 및 로보택시 사업 진전 시 주가 반등 가능"
+        ],
+        "next_checks": [
+          "Tesla의 법적 분쟁 진행 상황",
+          "Nio의 신차 모델 판매 실적"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:15:28+09:00",
+      "action": "HOLD",
+      "confidence": 0.6,
+      "rationale": "주가 하락과 리스크 증가로 판매 신호 발생했으나, 현재 포지션 없음.",
+      "key_drivers": [
+        "Tesla의 로봇택시 프로모션이 실현되지 못함",
+        "규제 리스크 증가"
+      ],
+      "key_risks": [
+        "규제 리스크 확대",
+        "로봇택시 사업 부진 지속"
+      ],
+      "valuation_view": "공정가치 평가 불가, 시장 분위기 반영",
+      "counterfactuals": [
+        "규제 리스크 완화 또는 로봇택시 사업 진전"
+      ],
+      "next_checks": [
+        "규제 동향 및 로봇택시 프로그램 진행 상황 모니터링"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.6,
+        "rationale": "주가 하락과 리스크 증가로 판매 신호 발생했으나, 현재 포지션 없음.",
+        "key_drivers": [
+          "Tesla의 로봇택시 프로모션이 실현되지 못함",
+          "규제 리스크 증가"
+        ],
+        "key_risks": [
+          "규제 리스크 확대",
+          "로봇택시 사업 부진 지속"
+        ],
+        "valuation_view": "공정가치 평가 불가, 시장 분위기 반영",
+        "counterfactuals": [
+          "규제 리스크 완화 또는 로봇택시 사업 진전"
+        ],
+        "next_checks": [
+          "규제 동향 및 로봇택시 프로그램 진행 상황 모니터링"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:05:27+09:00",
+      "action": "HOLD",
+      "confidence": 0.6,
+      "rationale": "주가 하락세와 부정적인 뉴스 영향으로 판매 신호 발생, 그러나 현재 포지션 없음.",
+      "key_drivers": [
+        "로보택시 관련 법적 분쟁",
+        "AI 전환 및 규제 리스크"
+      ],
+      "key_risks": [
+        "규제 리스크 확대",
+        "기술 진전 지연"
+      ],
+      "valuation_view": "공정가치 평가는 불명확, 그러나 주가 하락세 유지",
+      "counterfactuals": [
+        "로보택시 사업 진척 및 규제 완화"
+      ],
+      "next_checks": [
+        "규제 동향",
+        "기술 개발 상황"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.6,
+        "rationale": "주가 하락세와 부정적인 뉴스 영향으로 판매 신호 발생, 그러나 현재 포지션 없음.",
+        "key_drivers": [
+          "로보택시 관련 법적 분쟁",
+          "AI 전환 및 규제 리스크"
+        ],
+        "key_risks": [
+          "규제 리스크 확대",
+          "기술 진전 지연"
+        ],
+        "valuation_view": "공정가치 평가는 불명확, 그러나 주가 하락세 유지",
+        "counterfactuals": [
+          "로보택시 사업 진척 및 규제 완화"
+        ],
+        "next_checks": [
+          "규제 동향",
+          "기술 개발 상황"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:56:13+09:00",
+      "action": "HOLD",
+      "confidence": 0.6,
+      "rationale": "주식 가격은 하락세를 이어가고 있으며, 리걸 및 규제 관련 뉴스가 부정적인 영향을 미치고 있습니다.",
+      "key_drivers": [
+        "로보택시 프로모션의 실질적 성과 부족",
+        "규제 당국과 법원에서의 분쟁"
+      ],
+      "key_risks": [
+        "규제 리스크 증가",
+        "기술 개발 지연"
+      ],
+      "valuation_view": "공정 가치 평가는 현재 시장 상황을 반영하여 하락세를 보이고 있습니다.",
+      "counterfactuals": [
+        "로보택시 프로젝트의 긍정적인 진전이나 규제 리스크 완화"
+      ],
+      "next_checks": [
+        "규제 관련 소송 진행 상황",
+        "로보택시 사업의 실질적 성과"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.6,
+        "rationale": "주식 가격은 하락세를 이어가고 있으며, 리걸 및 규제 관련 뉴스가 부정적인 영향을 미치고 있습니다.",
+        "key_drivers": [
+          "로보택시 프로모션의 실질적 성과 부족",
+          "규제 당국과 법원에서의 분쟁"
+        ],
+        "key_risks": [
+          "규제 리스크 증가",
+          "기술 개발 지연"
+        ],
+        "valuation_view": "공정 가치 평가는 현재 시장 상황을 반영하여 하락세를 보이고 있습니다.",
+        "counterfactuals": [
+          "로보택시 프로젝트의 긍정적인 진전이나 규제 리스크 완화"
+        ],
+        "next_checks": [
+          "규제 관련 소송 진행 상황",
+          "로보택시 사업의 실질적 성과"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:53:14+09:00",
+      "action": "HOLD",
+      "confidence": 0.6,
+      "rationale": "주식 가격이 하락세를 보이고 있으며, 리걸 및 규제 관련 뉴스가 부정적인 영향을 미치고 있습니다.",
+      "key_drivers": [
+        "로보택시 프로모션의 실질적 성과 부족",
+        "규제 당국과 법원에서의 분쟁"
+      ],
+      "key_risks": [
+        "규제 리스크 증가",
+        "기술적 지표 약세"
+      ],
+      "valuation_view": "공정 가치 평가는 현재 시장 상황을 반영하지 못하고 있어 불확실성 높음",
+      "counterfactuals": [
+        "로보택시 프로그램의 긍정적인 진전",
+        "규제 리스크 완화"
+      ],
+      "next_checks": [
+        "로보택시 프로그램의 진행 상황",
+        "규제 관련 소송 결과"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.6,
+        "rationale": "주식 가격이 하락세를 보이고 있으며, 리걸 및 규제 관련 뉴스가 부정적인 영향을 미치고 있습니다.",
+        "key_drivers": [
+          "로보택시 프로모션의 실질적 성과 부족",
+          "규제 당국과 법원에서의 분쟁"
+        ],
+        "key_risks": [
+          "규제 리스크 증가",
+          "기술적 지표 약세"
+        ],
+        "valuation_view": "공정 가치 평가는 현재 시장 상황을 반영하지 못하고 있어 불확실성 높음",
+        "counterfactuals": [
+          "로보택시 프로그램의 긍정적인 진전",
+          "규제 리스크 완화"
+        ],
+        "next_checks": [
+          "로보택시 프로그램의 진행 상황",
+          "규제 관련 소송 결과"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:50:12+09:00",
+      "action": "HOLD",
+      "confidence": 0.6,
+      "rationale": "현재 테슬라 주가는 하락세를 보이고 있으며, 리걸 및 규제 관련 뉴스가 부정적인 영향을 미치고 있습니다.",
+      "key_drivers": [
+        "로보택시 프로모션이 실현되지 않아 법적 분쟁이 발생하고 있어 투자자들의 신뢰도 하락",
+        "니오의 SUV 모델 출시가 경쟁 압박으로 작용할 가능성이 있습니다."
+      ],
+      "key_risks": [
+        "규제 리스크와 안전 문제로 인한 추가적인 법적 분쟁 가능성",
+        "사이버트럭 판매 부진이 지속될 경우 회사 실적이 악화될 수 있습니다."
+      ],
+      "valuation_view": "현재 주가는 하락세를 보이고 있으나, 향후 규제 리스크 해소 및 신제품 출시에 따른 긍정적인 변화가 있을 수 있습니다.",
+      "counterfactuals": [
+        "규제 리스크 완화 또는 로보택시 사업의 급격한 진전이 이루어질 경우 주가는 반등할 가능성이 있습니다."
+      ],
+      "next_checks": [
+        "로보택시 프로젝트와 관련된 추가 뉴스 및 법적 분쟁 진행 상황",
+        "니오의 SUV 모델 출시 후 시장 반응"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.6,
+        "rationale": "현재 테슬라 주가는 하락세를 보이고 있으며, 리걸 및 규제 관련 뉴스가 부정적인 영향을 미치고 있습니다.",
+        "key_drivers": [
+          "로보택시 프로모션이 실현되지 않아 법적 분쟁이 발생하고 있어 투자자들의 신뢰도 하락",
+          "니오의 SUV 모델 출시가 경쟁 압박으로 작용할 가능성이 있습니다."
+        ],
+        "key_risks": [
+          "규제 리스크와 안전 문제로 인한 추가적인 법적 분쟁 가능성",
+          "사이버트럭 판매 부진이 지속될 경우 회사 실적이 악화될 수 있습니다."
+        ],
+        "valuation_view": "현재 주가는 하락세를 보이고 있으나, 향후 규제 리스크 해소 및 신제품 출시에 따른 긍정적인 변화가 있을 수 있습니다.",
+        "counterfactuals": [
+          "규제 리스크 완화 또는 로보택시 사업의 급격한 진전이 이루어질 경우 주가는 반등할 가능성이 있습니다."
+        ],
+        "next_checks": [
+          "로보택시 프로젝트와 관련된 추가 뉴스 및 법적 분쟁 진행 상황",
+          "니오의 SUV 모델 출시 후 시장 반응"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:47:02+09:00",
+      "action": "HOLD",
+      "confidence": 0.6,
+      "rationale": "주가 하락세와 리걸 이슈로 인한 부정적 뉴스 영향이 크다. 그러나 아직 구체적인 판매 결정을 내릴 만큼 강력한 신호는 아니다.",
+      "key_drivers": [
+        "Tesla의 로보택시 프로모션과 관련된 법적 분쟁",
+        "NIO의 SUV 모델 출시"
+      ],
+      "key_risks": [
+        "규제 리스크 증가",
+        "투자자들의 부정적인 인식 강화"
+      ],
+      "valuation_view": "현재 가격은 과열에서 벗어나 있으나, 향후 규제 리스크로 인한 추가 하락 가능성 존재",
+      "counterfactuals": [
+        "규제 리스크 완화",
+        "로보택시 사업 진전"
+      ],
+      "next_checks": [
+        "법적 분쟁 진행 상황",
+        "NIO의 SUV 모델 판매 실적"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.6,
+        "rationale": "주가 하락세와 리걸 이슈로 인한 부정적 뉴스 영향이 크다. 그러나 아직 구체적인 판매 결정을 내릴 만큼 강력한 신호는 아니다.",
+        "key_drivers": [
+          "Tesla의 로보택시 프로모션과 관련된 법적 분쟁",
+          "NIO의 SUV 모델 출시"
+        ],
+        "key_risks": [
+          "규제 리스크 증가",
+          "투자자들의 부정적인 인식 강화"
+        ],
+        "valuation_view": "현재 가격은 과열에서 벗어나 있으나, 향후 규제 리스크로 인한 추가 하락 가능성 존재",
+        "counterfactuals": [
+          "규제 리스크 완화",
+          "로보택시 사업 진전"
+        ],
+        "next_checks": [
+          "법적 분쟁 진행 상황",
+          "NIO의 SUV 모델 판매 실적"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:44:49+09:00",
+      "action": "HOLD",
+      "confidence": 0.6,
+      "rationale": "주가 하락세와 리걸 이슈로 인한 부정적 뉴스 영향이 크다. 그러나 아직 구체적인 판매 결정을 내리기에는 시장 상황과 기업의 대응 전략을 더 지켜봐야 한다.",
+      "key_drivers": [
+        "Tesla의 로보택시 프로모션 실현 불가능성",
+        "AI 전환 및 로보택시 관련 규제 리스크 증가"
+      ],
+      "key_risks": [
+        "규제 리스크 확대",
+        "기술적 진전 부족으로 인한 투자자 신뢰도 하락"
+      ],
+      "valuation_view": "현재 주가는 부정적인 뉴스 영향을 반영하고 있으나, 기업의 대응 전략과 규제 리스크 해소 상황에 따라 변동 가능성이 있다.",
+      "counterfactuals": [
+        "규제 리스크 완화 및 기술적 진전",
+        "경쟁사 제품 출시 실패"
+      ],
+      "next_checks": [
+        "규제 관련 소송 진행 상황",
+        "기술적 진전과 신제품 출시 계획"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.6,
+        "rationale": "주가 하락세와 리걸 이슈로 인한 부정적 뉴스 영향이 크다. 그러나 아직 구체적인 판매 결정을 내리기에는 시장 상황과 기업의 대응 전략을 더 지켜봐야 한다.",
+        "key_drivers": [
+          "Tesla의 로보택시 프로모션 실현 불가능성",
+          "AI 전환 및 로보택시 관련 규제 리스크 증가"
+        ],
+        "key_risks": [
+          "규제 리스크 확대",
+          "기술적 진전 부족으로 인한 투자자 신뢰도 하락"
+        ],
+        "valuation_view": "현재 주가는 부정적인 뉴스 영향을 반영하고 있으나, 기업의 대응 전략과 규제 리스크 해소 상황에 따라 변동 가능성이 있다.",
+        "counterfactuals": [
+          "규제 리스크 완화 및 기술적 진전",
+          "경쟁사 제품 출시 실패"
+        ],
+        "next_checks": [
+          "규제 관련 소송 진행 상황",
+          "기술적 진전과 신제품 출시 계획"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:29:51+09:00",
+      "action": "HOLD",
+      "confidence": 0.8,
+      "rationale": "Tesla's recent news events indicate significant regulatory and legal challenges that could negatively impact investor sentiment and stock performance. The company is facing issues with its robotaxi program, including no commercial permits and ongoing litigation against regulators.",
+      "key_drivers": [
+        "Legal conflicts and lack of progress on robotaxi initiatives",
+        "Regulatory scrutiny over self-driving marketing claims"
+      ],
+      "key_risks": [
+        "Negative investor sentiment due to unresolved regulatory issues",
+        "Potential delays in product launches or revenue generation from new models"
+      ],
+      "valuation_view": "The fair value assessment is negatively impacted by the ongoing litigation and lack of concrete progress on key initiatives.",
+      "counterfactuals": [
+        "If Tesla resolves its legal conflicts with regulators and demonstrates meaningful progress on robotaxi operations, investor sentiment could improve."
+      ],
+      "next_checks": [
+        "Monitor regulatory updates and court proceedings related to Tesla's self-driving claims",
+        "Track any new developments or milestones in the robotaxi program"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.8,
+        "rationale": "Tesla's recent news events indicate significant regulatory and legal challenges that could negatively impact investor sentiment and stock performance. The company is facing issues with its robotaxi program, including no commercial permits and ongoing litigation against regulators.",
+        "key_drivers": [
+          "Legal conflicts and lack of progress on robotaxi initiatives",
+          "Regulatory scrutiny over self-driving marketing claims"
+        ],
+        "key_risks": [
+          "Negative investor sentiment due to unresolved regulatory issues",
+          "Potential delays in product launches or revenue generation from new models"
+        ],
+        "valuation_view": "The fair value assessment is negatively impacted by the ongoing litigation and lack of concrete progress on key initiatives.",
+        "counterfactuals": [
+          "If Tesla resolves its legal conflicts with regulators and demonstrates meaningful progress on robotaxi operations, investor sentiment could improve."
+        ],
+        "next_checks": [
+          "Monitor regulatory updates and court proceedings related to Tesla's self-driving claims",
+          "Track any new developments or milestones in the robotaxi program"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:26:51+09:00",
+      "action": "HOLD",
+      "confidence": 0.8,
+      "rationale": "주식 가격은 하락세를 보이고 있으며, 리스크 오프 모드에서 주요 이슈로 법적 분쟁과 규제 위험이 지속되고 있습니다.",
+      "key_drivers": [
+        "Tesla의 로보택시 프로젝트와 관련된 법적 분쟁",
+        "규제 위험 증가"
+      ],
+      "key_risks": [
+        "로보택시 사업의 성공 가능성에 대한 의문",
+        "경쟁사(NIO, Li Auto)의 신제품 출시"
+      ],
+      "valuation_view": "현재 주가는 하락세를 보이고 있으나, 향후 규제 리스크 해소 시 상승 가능성이 있습니다.",
+      "counterfactuals": [
+        "로보택시 사업이 성공적으로 진행되어 법적 분쟁이 해결되면 주가 상승"
+      ],
+      "next_checks": [
+        "법적 분쟁의 진행 상황",
+        "규제 관련 뉴스 및 발표"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.8,
+        "rationale": "주식 가격은 하락세를 보이고 있으며, 리스크 오프 모드에서 주요 이슈로 법적 분쟁과 규제 위험이 지속되고 있습니다.",
+        "key_drivers": [
+          "Tesla의 로보택시 프로젝트와 관련된 법적 분쟁",
+          "규제 위험 증가"
+        ],
+        "key_risks": [
+          "로보택시 사업의 성공 가능성에 대한 의문",
+          "경쟁사(NIO, Li Auto)의 신제품 출시"
+        ],
+        "valuation_view": "현재 주가는 하락세를 보이고 있으나, 향후 규제 리스크 해소 시 상승 가능성이 있습니다.",
+        "counterfactuals": [
+          "로보택시 사업이 성공적으로 진행되어 법적 분쟁이 해결되면 주가 상승"
+        ],
+        "next_checks": [
+          "법적 분쟁의 진행 상황",
+          "규제 관련 뉴스 및 발표"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:23:48+09:00",
+      "action": "HOLD",
+      "confidence": 0.8,
+      "rationale": "현재 테슬라 주가는 하락세를 보이고 있으며, 최근 뉴스와 이벤트는 회사의 로보택시 사업과 관련된 규제 위험을 강조하고 있습니다.",
+      "key_drivers": [
+        "로보택시 프로젝트에 대한 규제 문제",
+        "니오(NIO)의 신차 출시 계획"
+      ],
+      "key_risks": [
+        "로보택시 사업의 지연 및 규제 위반 소송",
+        "사이버트럭(Cybertruck) 판매 부진"
+      ],
+      "valuation_view": "현재 주가는 하락세를 보이고 있으나, 회사의 장기 전략과 신제품 출시에 대한 기대감이 있습니다.",
+      "counterfactuals": [
+        "로보택시 사업에서 규제 문제가 해결되고 실질적인 진전을 이룰 경우",
+        "사이버트럭 판매가 개선되거나 새로운 모델 출시 시"
+      ],
+      "next_checks": [
+        "로보택시 프로젝트의 법적 분쟁 진행 상황",
+        "니오(NIO)의 신차 출시 및 판매 실적"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.8,
+        "rationale": "현재 테슬라 주가는 하락세를 보이고 있으며, 최근 뉴스와 이벤트는 회사의 로보택시 사업과 관련된 규제 위험을 강조하고 있습니다.",
+        "key_drivers": [
+          "로보택시 프로젝트에 대한 규제 문제",
+          "니오(NIO)의 신차 출시 계획"
+        ],
+        "key_risks": [
+          "로보택시 사업의 지연 및 규제 위반 소송",
+          "사이버트럭(Cybertruck) 판매 부진"
+        ],
+        "valuation_view": "현재 주가는 하락세를 보이고 있으나, 회사의 장기 전략과 신제품 출시에 대한 기대감이 있습니다.",
+        "counterfactuals": [
+          "로보택시 사업에서 규제 문제가 해결되고 실질적인 진전을 이룰 경우",
+          "사이버트럭 판매가 개선되거나 새로운 모델 출시 시"
+        ],
+        "next_checks": [
+          "로보택시 프로젝트의 법적 분쟁 진행 상황",
+          "니오(NIO)의 신차 출시 및 판매 실적"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:20:49+09:00",
+      "action": "HOLD",
+      "confidence": 0.8,
+      "rationale": "주식 가격이 하락세를 보이고 있으며, 최근 뉴스와 이벤트가 주로 부정적인 내용을 담고 있어 투자자의 신뢰도를 저하시키는 경향이 있습니다.",
+      "key_drivers": [
+        "Tesla의 로보택시 프로모션이 실현되지 못한 상태",
+        "Nio의 SUV 시장 공략으로 인해 Tesla와의 경쟁 심화"
+      ],
+      "key_risks": [
+        "규제 위험과 안전 문제에 대한 지속적인 관심",
+        "Cybertruck 판매 부진 및 가격 조정 전략의 효과성 불확실성"
+      ],
+      "valuation_view": "현재 주가 수준에서 투자의견을 유지하되, 추가적인 하락 가능성에 대비해야 합니다.",
+      "counterfactuals": [
+        "규제 리스크 완화 또는 로보택시 사업의 긍정적 진전",
+        "Cybertruck 판매 부진이 개선되고 가격 전략 효과가 나타나는 경우"
+      ],
+      "next_checks": [
+        "로보택시 프로그램 및 규제 관련 소식",
+        "Nio와 Li Auto 등의 경쟁사 동향"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.8,
+        "rationale": "주식 가격이 하락세를 보이고 있으며, 최근 뉴스와 이벤트가 주로 부정적인 내용을 담고 있어 투자자의 신뢰도를 저하시키는 경향이 있습니다.",
+        "key_drivers": [
+          "Tesla의 로보택시 프로모션이 실현되지 못한 상태",
+          "Nio의 SUV 시장 공략으로 인해 Tesla와의 경쟁 심화"
+        ],
+        "key_risks": [
+          "규제 위험과 안전 문제에 대한 지속적인 관심",
+          "Cybertruck 판매 부진 및 가격 조정 전략의 효과성 불확실성"
+        ],
+        "valuation_view": "현재 주가 수준에서 투자의견을 유지하되, 추가적인 하락 가능성에 대비해야 합니다.",
+        "counterfactuals": [
+          "규제 리스크 완화 또는 로보택시 사업의 긍정적 진전",
+          "Cybertruck 판매 부진이 개선되고 가격 전략 효과가 나타나는 경우"
+        ],
+        "next_checks": [
+          "로보택시 프로그램 및 규제 관련 소식",
+          "Nio와 Li Auto 등의 경쟁사 동향"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:17:43+09:00",
+      "action": "HOLD",
+      "confidence": 0.8,
+      "rationale": "주식 가격은 하락 추세에 있으며, 최근 뉴스는 주로 회사의 로보택시 프로젝트와 관련된 법적 분쟁 및 규제 위험을 강조하고 있습니다.",
+      "key_drivers": [
+        "Tesla의 로보택시 프로젝트가 진행되지 않고 있으며, 이에 대한 규제 당국과의 법적 분쟁이 발생했습니다.",
+        "Nio는 SUV 시장에서 새로운 모델 출시를 계획하며 경쟁력을 강화하고 있습니다."
+      ],
+      "key_risks": [
+        "Tesla의 로보택시 프로젝트와 관련된 규제 위험 및 법적 분쟁",
+        "Cybertruck 판매 부진이 지속될 경우 회사 실적이 악영향을 미칠 수 있습니다."
+      ],
+      "valuation_view": "주가 하락 추세를 고려할 때, 현재 주가는 과도하게 낮아 보입니다. 그러나 규제 위험과 법적 분쟁의 영향으로 추가적인 하락 가능성이 있습니다.",
+      "counterfactuals": [
+        "로보택시 프로젝트에서 긍정적인 진전이 이루어져 규제 당국과의 갈등이 해결된다면 주가 상승 가능성",
+        "Cybertruck 판매가 회복되어 실적 개선에 기여할 경우"
+      ],
+      "next_checks": [
+        "Tesla의 로보택시 프로젝트와 관련된 법적 분쟁 진행 상황",
+        "Nio의 새로운 SUV 모델 출시 및 시장 반응"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.8,
+        "rationale": "주식 가격은 하락 추세에 있으며, 최근 뉴스는 주로 회사의 로보택시 프로젝트와 관련된 법적 분쟁 및 규제 위험을 강조하고 있습니다.",
+        "key_drivers": [
+          "Tesla의 로보택시 프로젝트가 진행되지 않고 있으며, 이에 대한 규제 당국과의 법적 분쟁이 발생했습니다.",
+          "Nio는 SUV 시장에서 새로운 모델 출시를 계획하며 경쟁력을 강화하고 있습니다."
+        ],
+        "key_risks": [
+          "Tesla의 로보택시 프로젝트와 관련된 규제 위험 및 법적 분쟁",
+          "Cybertruck 판매 부진이 지속될 경우 회사 실적이 악영향을 미칠 수 있습니다."
+        ],
+        "valuation_view": "주가 하락 추세를 고려할 때, 현재 주가는 과도하게 낮아 보입니다. 그러나 규제 위험과 법적 분쟁의 영향으로 추가적인 하락 가능성이 있습니다.",
+        "counterfactuals": [
+          "로보택시 프로젝트에서 긍정적인 진전이 이루어져 규제 당국과의 갈등이 해결된다면 주가 상승 가능성",
+          "Cybertruck 판매가 회복되어 실적 개선에 기여할 경우"
+        ],
+        "next_checks": [
+          "Tesla의 로보택시 프로젝트와 관련된 법적 분쟁 진행 상황",
+          "Nio의 새로운 SUV 모델 출시 및 시장 반응"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:12:06+09:00",
+      "action": "HOLD",
+      "confidence": 0.8,
+      "rationale": "주식 가격은 하락세를 보이고 있으며, 최근 뉴스와 이벤트는 주로 부정적인 내용을 담고 있어 투자자의 신뢰도가 떨어질 가능성이 있습니다.",
+      "key_drivers": [
+        "Tesla의 로봇택시 프로모션이 실현되지 못하고 있으며, 법적 분쟁이 발생했습니다.",
+        "Nio는 SUV 시장에서 새로운 모델을 출시할 계획입니다."
+      ],
+      "key_risks": [
+        "Tesla의 자율주행 기술에 대한 규제 리스크가 증가하고 있습니다.",
+        "Cybertruck 판매량이 예상보다 저조한 것으로 보입니다."
+      ],
+      "valuation_view": "현재 주가는 하락세를 보이고 있으며, 향후 실적 개선 가능성에 대한 의구심이 존재합니다.",
+      "counterfactuals": [
+        "Tesla가 로봇택시 프로젝트에서 긍정적인 성과를 내거나 규제 리스크를 완화할 경우 주가는 반등할 수 있습니다."
+      ],
+      "next_checks": [
+        "Tesla의 로봇택시 프로젝트 진행 상황",
+        "Nio의 신모델 출시와 판매 실적"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.8,
+        "rationale": "주식 가격은 하락세를 보이고 있으며, 최근 뉴스와 이벤트는 주로 부정적인 내용을 담고 있어 투자자의 신뢰도가 떨어질 가능성이 있습니다.",
+        "key_drivers": [
+          "Tesla의 로봇택시 프로모션이 실현되지 못하고 있으며, 법적 분쟁이 발생했습니다.",
+          "Nio는 SUV 시장에서 새로운 모델을 출시할 계획입니다."
+        ],
+        "key_risks": [
+          "Tesla의 자율주행 기술에 대한 규제 리스크가 증가하고 있습니다.",
+          "Cybertruck 판매량이 예상보다 저조한 것으로 보입니다."
+        ],
+        "valuation_view": "현재 주가는 하락세를 보이고 있으며, 향후 실적 개선 가능성에 대한 의구심이 존재합니다.",
+        "counterfactuals": [
+          "Tesla가 로봇택시 프로젝트에서 긍정적인 성과를 내거나 규제 리스크를 완화할 경우 주가는 반등할 수 있습니다."
+        ],
+        "next_checks": [
+          "Tesla의 로봇택시 프로젝트 진행 상황",
+          "Nio의 신모델 출시와 판매 실적"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:09:00+09:00",
+      "action": "HOLD",
+      "confidence": 0.8,
+      "rationale": "Tesla's recent news events indicate regulatory and legal challenges that could negatively impact investor sentiment, but the stock price is currently stable with no significant changes in valuation.",
+      "key_drivers": [
+        "Legal conflicts related to robotaxi initiatives and self-driving marketing claims",
+        "Lack of progress on robotaxi operations and commercial permits"
+      ],
+      "key_risks": [
+        "Regulatory scrutiny could lead to further legal actions or fines, impacting stock performance",
+        "Uncertainty around the success of new product launches and market competition"
+      ],
+      "valuation_view": "Current price is stable but there are significant risks that could affect valuation negatively in the near term.",
+      "counterfactuals": [
+        "If Tesla resolves its legal issues quickly and shows progress on robotaxi operations, stock performance may improve."
+      ],
+      "next_checks": [
+        "Monitor regulatory updates and legal proceedings related to Tesla's autonomous vehicle initiatives",
+        "Watch for any significant product launches or market developments that could impact competition"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.8,
+        "rationale": "Tesla's recent news events indicate regulatory and legal challenges that could negatively impact investor sentiment, but the stock price is currently stable with no significant changes in valuation.",
+        "key_drivers": [
+          "Legal conflicts related to robotaxi initiatives and self-driving marketing claims",
+          "Lack of progress on robotaxi operations and commercial permits"
+        ],
+        "key_risks": [
+          "Regulatory scrutiny could lead to further legal actions or fines, impacting stock performance",
+          "Uncertainty around the success of new product launches and market competition"
+        ],
+        "valuation_view": "Current price is stable but there are significant risks that could affect valuation negatively in the near term.",
+        "counterfactuals": [
+          "If Tesla resolves its legal issues quickly and shows progress on robotaxi operations, stock performance may improve."
+        ],
+        "next_checks": [
+          "Monitor regulatory updates and legal proceedings related to Tesla's autonomous vehicle initiatives",
+          "Watch for any significant product launches or market developments that could impact competition"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-27T23:57:50+09:00",
+      "action": "HOLD",
+      "confidence": 0.8,
+      "rationale": "주가 하락과 함께 리스크 오프 모드로 전환되었으며, 최근 법적 분쟁 및 규제 위험 증가로 인해 투자자들의 신뢰도가 떨어지고 있습니다.",
+      "key_drivers": [
+        "Tesla의 로보택시 프로젝트 관련 법적 분쟁",
+        "Nio의 SUV 모델 출시 계획"
+      ],
+      "key_risks": [
+        "규제 위험 및 안전 문제",
+        "Cybertruck 판매 부진 지속 가능성"
+      ],
+      "valuation_view": "현재 주가는 하락세를 보이고 있으며, 향후 규제 리스크 해소 여부가 주가에 큰 영향을 미칠 것으로 예상됩니다.",
+      "counterfactuals": [
+        "규제 위험이 완화되고 로보택시 사업이 성공적으로 진행될 경우"
+      ],
+      "next_checks": [
+        "로보택시 프로젝트 관련 법적 분쟁의 최신 동향",
+        "Cybertruck 판매 상황 및 전망"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.8,
+        "rationale": "주가 하락과 함께 리스크 오프 모드로 전환되었으며, 최근 법적 분쟁 및 규제 위험 증가로 인해 투자자들의 신뢰도가 떨어지고 있습니다.",
+        "key_drivers": [
+          "Tesla의 로보택시 프로젝트 관련 법적 분쟁",
+          "Nio의 SUV 모델 출시 계획"
+        ],
+        "key_risks": [
+          "규제 위험 및 안전 문제",
+          "Cybertruck 판매 부진 지속 가능성"
+        ],
+        "valuation_view": "현재 주가는 하락세를 보이고 있으며, 향후 규제 리스크 해소 여부가 주가에 큰 영향을 미칠 것으로 예상됩니다.",
+        "counterfactuals": [
+          "규제 위험이 완화되고 로보택시 사업이 성공적으로 진행될 경우"
+        ],
+        "next_checks": [
+          "로보택시 프로젝트 관련 법적 분쟁의 최신 동향",
+          "Cybertruck 판매 상황 및 전망"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-27T23:55:00+09:00",
+      "action": "HOLD",
+      "confidence": 0.8,
+      "rationale": "Tesla's recent news events indicate regulatory and legal challenges that could negatively impact investor sentiment, while product launches by competitors like Nio may affect market share.",
+      "key_drivers": [
+        "Legal conflicts with regulators over robotaxi operations",
+        "Lack of progress on commercial robotaxi permits and revenue metrics"
+      ],
+      "key_risks": [
+        "Negative regulatory outcomes affecting valuation",
+        "Increased competition from other EV manufacturers"
+      ],
+      "valuation_view": "Current market conditions suggest a risk-off sentiment, with potential downside risks outweighing upside catalysts.",
+      "counterfactuals": [
+        "Positive resolution of legal disputes could improve investor confidence and stock performance."
+      ],
+      "next_checks": [
+        "Monitor regulatory developments related to robotaxi operations",
+        "Track sales data for new product launches by competitors"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.8,
+        "rationale": "Tesla's recent news events indicate regulatory and legal challenges that could negatively impact investor sentiment, while product launches by competitors like Nio may affect market share.",
+        "key_drivers": [
+          "Legal conflicts with regulators over robotaxi operations",
+          "Lack of progress on commercial robotaxi permits and revenue metrics"
+        ],
+        "key_risks": [
+          "Negative regulatory outcomes affecting valuation",
+          "Increased competition from other EV manufacturers"
+        ],
+        "valuation_view": "Current market conditions suggest a risk-off sentiment, with potential downside risks outweighing upside catalysts.",
+        "counterfactuals": [
+          "Positive resolution of legal disputes could improve investor confidence and stock performance."
+        ],
+        "next_checks": [
+          "Monitor regulatory developments related to robotaxi operations",
+          "Track sales data for new product launches by competitors"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-27T23:52:03+09:00",
+      "action": "HOLD",
+      "confidence": 0.8,
+      "rationale": "Tesla faces significant legal and regulatory challenges that could negatively impact investor sentiment and stock performance.",
+      "key_drivers": [
+        "Legal conflicts with the California DMV over self-driving marketing allegations.",
+        "Lawsuit alleging anti-American bias in hiring practices."
+      ],
+      "key_risks": [
+        "Regulatory scrutiny on safety after multiple crashes involving Tesla's robotaxi fleet.",
+        "Uncertainty around the commercial viability of the Cybertruck and Optimus robot projects."
+      ],
+      "valuation_view": "Negative impact from legal risks could outweigh potential upside from AI and robotics initiatives.",
+      "counterfactuals": [
+        "Positive resolution of ongoing lawsuits could improve investor sentiment.",
+        "Successful product launches for Cybertruck and Optimus robots could boost valuation."
+      ],
+      "next_checks": [
+        "Progress on robotaxi permits and safety improvements.",
+        "Market reception to new product launches and pricing strategies."
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.8,
+        "rationale": "Tesla faces significant legal and regulatory challenges that could negatively impact investor sentiment and stock performance.",
+        "key_drivers": [
+          "Legal conflicts with the California DMV over self-driving marketing allegations.",
+          "Lawsuit alleging anti-American bias in hiring practices."
+        ],
+        "key_risks": [
+          "Regulatory scrutiny on safety after multiple crashes involving Tesla's robotaxi fleet.",
+          "Uncertainty around the commercial viability of the Cybertruck and Optimus robot projects."
+        ],
+        "valuation_view": "Negative impact from legal risks could outweigh potential upside from AI and robotics initiatives.",
+        "counterfactuals": [
+          "Positive resolution of ongoing lawsuits could improve investor sentiment.",
+          "Successful product launches for Cybertruck and Optimus robots could boost valuation."
+        ],
+        "next_checks": [
+          "Progress on robotaxi permits and safety improvements.",
+          "Market reception to new product launches and pricing strategies."
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
     {
       "ts_kst": "2026-02-27T07:10:00+09:00",
       "action": "HOLD",
@@ -8883,1725 +10650,6 @@
         "next_checks": [
           "Outcome of the hiring bias lawsuit",
           "Further developments in regulatory pressures on Autopilot"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:40:45+09:00",
-      "action": "SELL",
-      "confidence": 0.7,
-      "rationale": "Recent news events and market signals indicate significant legal and regulatory risks for Tesla, which could negatively impact investor sentiment and stock performance.",
-      "key_drivers": [
-        "Lawsuit alleging anti-American bias in hiring (bearish)",
-        "Regulatory pressure on Autopilot marketing (bearish)",
-        "Focus on AI and robotics at the expense of Model S and X production (neutral)"
-      ],
-      "key_risks": [
-        "Potential impact on investor confidence due to ongoing legal challenges",
-        "Negative effects on near-term operations from regulatory pressures"
-      ],
-      "valuation_view": "Fair value not explicitly defined, but recent events suggest a potential re-evaluation of Tesla's valuation is warranted.",
-      "counterfactuals": [
-        "A favorable resolution in the hiring bias lawsuit could change investor sentiment positively",
-        "Significant progress on AI and robotics projects could boost stock performance"
-      ],
-      "next_checks": [
-        "Outcome of the hiring bias lawsuit",
-        "Regulatory developments related to Autopilot marketing",
-        "Progress on Tesla's AI and robotics initiatives"
-      ],
-      "raw": {
-        "action": "SELL",
-        "confidence": 0.7,
-        "rationale": "Recent news events and market signals indicate significant legal and regulatory risks for Tesla, which could negatively impact investor sentiment and stock performance.",
-        "key_drivers": [
-          "Lawsuit alleging anti-American bias in hiring (bearish)",
-          "Regulatory pressure on Autopilot marketing (bearish)",
-          "Focus on AI and robotics at the expense of Model S and X production (neutral)"
-        ],
-        "key_risks": [
-          "Potential impact on investor confidence due to ongoing legal challenges",
-          "Negative effects on near-term operations from regulatory pressures"
-        ],
-        "valuation_view": "Fair value not explicitly defined, but recent events suggest a potential re-evaluation of Tesla's valuation is warranted.",
-        "counterfactuals": [
-          "A favorable resolution in the hiring bias lawsuit could change investor sentiment positively",
-          "Significant progress on AI and robotics projects could boost stock performance"
-        ],
-        "next_checks": [
-          "Outcome of the hiring bias lawsuit",
-          "Regulatory developments related to Autopilot marketing",
-          "Progress on Tesla's AI and robotics initiatives"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:38:56+09:00",
-      "action": "SELL",
-      "confidence": 0.8,
-      "rationale": "Recent news events and market signals indicate significant legal and regulatory risks for Tesla, which could negatively impact its operations and investor sentiment.",
-      "key_drivers": [
-        "Lawsuit alleging anti-American bias in hiring: Judge refused to dismiss the case against Tesla, raising concerns about potential long-term legal costs and negative publicity.",
-        "Regulatory pressure on Autopilot: Tesla is facing lawsuits related to Autopilot marketing, which could impact near-term operations."
-      ],
-      "key_risks": [
-        "Potential delays in Model S and Model X production due to focus on AI and robotics development.",
-        "Negative market reaction to legal challenges, potentially leading to a decline in stock price."
-      ],
-      "valuation_view": "Fair value not explicitly stated; however, recent news events suggest the current valuation may be overpriced given the increased risks.",
-      "counterfactuals": [
-        "If Tesla successfully resolves all legal issues and maintains its production schedules without delays, this could reverse the sell recommendation."
-      ],
-      "next_checks": [
-        "Monitor court proceedings related to the hiring lawsuit and Autopilot marketing cases.",
-        "Track any changes in Tesla's production plans for Model S and Model X."
-      ],
-      "raw": {
-        "action": "SELL",
-        "confidence": 0.8,
-        "rationale": "Recent news events and market signals indicate significant legal and regulatory risks for Tesla, which could negatively impact its operations and investor sentiment.",
-        "key_drivers": [
-          "Lawsuit alleging anti-American bias in hiring: Judge refused to dismiss the case against Tesla, raising concerns about potential long-term legal costs and negative publicity.",
-          "Regulatory pressure on Autopilot: Tesla is facing lawsuits related to Autopilot marketing, which could impact near-term operations."
-        ],
-        "key_risks": [
-          "Potential delays in Model S and Model X production due to focus on AI and robotics development.",
-          "Negative market reaction to legal challenges, potentially leading to a decline in stock price."
-        ],
-        "valuation_view": "Fair value not explicitly stated; however, recent news events suggest the current valuation may be overpriced given the increased risks.",
-        "counterfactuals": [
-          "If Tesla successfully resolves all legal issues and maintains its production schedules without delays, this could reverse the sell recommendation."
-        ],
-        "next_checks": [
-          "Monitor court proceedings related to the hiring lawsuit and Autopilot marketing cases.",
-          "Track any changes in Tesla's production plans for Model S and Model X."
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:37:11+09:00",
-      "action": "SELL",
-      "confidence": 0.575,
-      "rationale": "Recent news events indicate significant legal and regulatory pressures on Tesla, including a lawsuit alleging anti-American hiring bias and mounting concerns over Autopilot marketing. These factors are negatively impacting investor sentiment and near-term operations.",
-      "key_drivers": [
-        "Lawsuit challenging Tesla's hiring practices",
-        "Regulatory pressure related to Autopilot marketing"
-      ],
-      "key_risks": [
-        "Potential impact on investor confidence and stock performance",
-        "Disruption in Model S and Model X production schedules"
-      ],
-      "valuation_view": "Fair value not clearly defined, but recent legal challenges may depress valuation.",
-      "counterfactuals": [
-        "If Tesla successfully resolves the hiring bias lawsuit and regulatory pressures subside, sentiment could improve."
-      ],
-      "next_checks": [
-        "Outcome of ongoing legal proceedings",
-        "Impact on Model S and Model X production schedules"
-      ],
-      "raw": {
-        "action": "SELL",
-        "confidence": 0.575,
-        "rationale": "Recent news events indicate significant legal and regulatory pressures on Tesla, including a lawsuit alleging anti-American hiring bias and mounting concerns over Autopilot marketing. These factors are negatively impacting investor sentiment and near-term operations.",
-        "key_drivers": [
-          "Lawsuit challenging Tesla's hiring practices",
-          "Regulatory pressure related to Autopilot marketing"
-        ],
-        "key_risks": [
-          "Potential impact on investor confidence and stock performance",
-          "Disruption in Model S and Model X production schedules"
-        ],
-        "valuation_view": "Fair value not clearly defined, but recent legal challenges may depress valuation.",
-        "counterfactuals": [
-          "If Tesla successfully resolves the hiring bias lawsuit and regulatory pressures subside, sentiment could improve."
-        ],
-        "next_checks": [
-          "Outcome of ongoing legal proceedings",
-          "Impact on Model S and Model X production schedules"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:35:34+09:00",
-      "action": "HOLD",
-      "confidence": 0.575,
-      "rationale": "Current market conditions and recent news events suggest a neutral stance with slight bearish tendencies. The lawsuit against Tesla regarding hiring practices and regulatory pressures on Autopilot pose significant risks, but the recent price action and technical analysis do not provide strong enough signals to warrant a sell or buy decision.",
-      "key_drivers": [
-        "Lawsuit challenging Tesla's hiring practices",
-        "Regulatory pressure related to Autopilot marketing"
-      ],
-      "key_risks": [
-        "Potential impact on investor confidence due to ongoing legal issues",
-        "Negative effects on near-term operations from regulatory pressures"
-      ],
-      "valuation_view": "None",
-      "counterfactuals": [
-        "A positive resolution of the lawsuit or favorable regulatory developments could change the outlook positively.",
-        "Further negative news regarding legal or operational challenges could intensify bearish sentiment."
-      ],
-      "next_checks": [
-        "Outcome of ongoing lawsuits and regulatory proceedings",
-        "Tesla's financial performance in upcoming quarters"
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.575,
-        "rationale": "Current market conditions and recent news events suggest a neutral stance with slight bearish tendencies. The lawsuit against Tesla regarding hiring practices and regulatory pressures on Autopilot pose significant risks, but the recent price action and technical analysis do not provide strong enough signals to warrant a sell or buy decision.",
-        "key_drivers": [
-          "Lawsuit challenging Tesla's hiring practices",
-          "Regulatory pressure related to Autopilot marketing"
-        ],
-        "key_risks": [
-          "Potential impact on investor confidence due to ongoing legal issues",
-          "Negative effects on near-term operations from regulatory pressures"
-        ],
-        "valuation_view": null,
-        "counterfactuals": [
-          "A positive resolution of the lawsuit or favorable regulatory developments could change the outlook positively.",
-          "Further negative news regarding legal or operational challenges could intensify bearish sentiment."
-        ],
-        "next_checks": [
-          "Outcome of ongoing lawsuits and regulatory proceedings",
-          "Tesla's financial performance in upcoming quarters"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:33:48+09:00",
-      "action": "SELL",
-      "confidence": 0.8,
-      "rationale": "Recent news events and market signals indicate significant legal and regulatory risks for Tesla, which could negatively impact its stock price in the short term.",
-      "key_drivers": [
-        "Lawsuit alleging anti-American bias in hiring: The judge has refused to dismiss the case, indicating ongoing legal challenges that may affect investor confidence.",
-        "Regulatory pressure on Autopilot: Ongoing lawsuits and regulatory scrutiny could disrupt near-term operations."
-      ],
-      "key_risks": [
-        "Potential delays or disruptions in production of Model S and Model X due to focus on AI and robotics projects.",
-        "Negative market sentiment from criticism by short sellers, particularly regarding Elon Musk's orbital datacenter plans."
-      ],
-      "valuation_view": "The current valuation does not reflect the ongoing legal risks and regulatory pressures, which could lead to a reevaluation of Tesla's stock price.",
-      "counterfactuals": [
-        "If Tesla successfully resolves the legal challenges related to hiring practices and Autopilot marketing, investor sentiment may improve."
-      ],
-      "next_checks": [
-        "Monitor court updates on the ongoing lawsuit alleging anti-American bias in hiring.",
-        "Track regulatory developments and any new lawsuits related to Autopilot marketing."
-      ],
-      "raw": {
-        "action": "SELL",
-        "confidence": 0.8,
-        "rationale": "Recent news events and market signals indicate significant legal and regulatory risks for Tesla, which could negatively impact its stock price in the short term.",
-        "key_drivers": [
-          "Lawsuit alleging anti-American bias in hiring: The judge has refused to dismiss the case, indicating ongoing legal challenges that may affect investor confidence.",
-          "Regulatory pressure on Autopilot: Ongoing lawsuits and regulatory scrutiny could disrupt near-term operations."
-        ],
-        "key_risks": [
-          "Potential delays or disruptions in production of Model S and Model X due to focus on AI and robotics projects.",
-          "Negative market sentiment from criticism by short sellers, particularly regarding Elon Musk's orbital datacenter plans."
-        ],
-        "valuation_view": "The current valuation does not reflect the ongoing legal risks and regulatory pressures, which could lead to a reevaluation of Tesla's stock price.",
-        "counterfactuals": [
-          "If Tesla successfully resolves the legal challenges related to hiring practices and Autopilot marketing, investor sentiment may improve."
-        ],
-        "next_checks": [
-          "Monitor court updates on the ongoing lawsuit alleging anti-American bias in hiring.",
-          "Track regulatory developments and any new lawsuits related to Autopilot marketing."
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:31:51+09:00",
-      "action": "SELL",
-      "confidence": 0.8,
-      "rationale": "Recent news indicates significant legal and regulatory risks for Tesla, including a lawsuit alleging anti-American hiring bias and mounting pressures related to Autopilot marketing. These factors are likely to negatively impact investor sentiment and near-term operations.",
-      "key_drivers": [
-        "Lawsuit challenging Tesla's hiring practices",
-        "Regulatory pressure on Autopilot marketing"
-      ],
-      "key_risks": [
-        "Negative impact on investor confidence",
-        "Potential delays in AI and robotics projects"
-      ],
-      "valuation_view": "None",
-      "counterfactuals": [
-        "If Tesla successfully settles the hiring bias lawsuit or sees a reduction in regulatory pressure, sentiment could improve.",
-        "Positive developments in AI and robotics projects could also shift market perception."
-      ],
-      "next_checks": [
-        "Outcome of the hiring bias lawsuit",
-        "Any updates on regulatory actions related to Autopilot"
-      ],
-      "raw": {
-        "action": "SELL",
-        "confidence": 0.8,
-        "rationale": "Recent news indicates significant legal and regulatory risks for Tesla, including a lawsuit alleging anti-American hiring bias and mounting pressures related to Autopilot marketing. These factors are likely to negatively impact investor sentiment and near-term operations.",
-        "key_drivers": [
-          "Lawsuit challenging Tesla's hiring practices",
-          "Regulatory pressure on Autopilot marketing"
-        ],
-        "key_risks": [
-          "Negative impact on investor confidence",
-          "Potential delays in AI and robotics projects"
-        ],
-        "valuation_view": null,
-        "counterfactuals": [
-          "If Tesla successfully settles the hiring bias lawsuit or sees a reduction in regulatory pressure, sentiment could improve.",
-          "Positive developments in AI and robotics projects could also shift market perception."
-        ],
-        "next_checks": [
-          "Outcome of the hiring bias lawsuit",
-          "Any updates on regulatory actions related to Autopilot"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:30:01+09:00",
-      "action": "SELL",
-      "confidence": 0.7631,
-      "rationale": "Recent news events and market sentiment indicate significant legal and regulatory risks for Tesla, which are likely to negatively impact investor confidence and stock performance.",
-      "key_drivers": [
-        "Lawsuit alleging anti-American bias in hiring (bearish)",
-        "Regulatory pressure on Autopilot marketing (bearish)"
-      ],
-      "key_risks": [
-        "Potential negative impact on near-term operations",
-        "Dampened investor sentiment due to criticism from short sellers"
-      ],
-      "valuation_view": "None",
-      "counterfactuals": [
-        "If Tesla successfully resolves the legal issues related to Autopilot and hiring practices, this could positively affect stock performance.",
-        "If Elon Musk's orbital datacenter plans gain more traction and support, it might improve investor sentiment."
-      ],
-      "next_checks": [
-        "Outcome of ongoing legal proceedings",
-        "Tesla's response to regulatory challenges"
-      ],
-      "raw": {
-        "action": "SELL",
-        "confidence": 0.7631,
-        "rationale": "Recent news events and market sentiment indicate significant legal and regulatory risks for Tesla, which are likely to negatively impact investor confidence and stock performance.",
-        "key_drivers": [
-          "Lawsuit alleging anti-American bias in hiring (bearish)",
-          "Regulatory pressure on Autopilot marketing (bearish)"
-        ],
-        "key_risks": [
-          "Potential negative impact on near-term operations",
-          "Dampened investor sentiment due to criticism from short sellers"
-        ],
-        "valuation_view": null,
-        "counterfactuals": [
-          "If Tesla successfully resolves the legal issues related to Autopilot and hiring practices, this could positively affect stock performance.",
-          "If Elon Musk's orbital datacenter plans gain more traction and support, it might improve investor sentiment."
-        ],
-        "next_checks": [
-          "Outcome of ongoing legal proceedings",
-          "Tesla's response to regulatory challenges"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:27:58+09:00",
-      "action": "SELL",
-      "confidence": 0.575,
-      "rationale": "The recent news events and technical analysis indicate a bearish sentiment towards Tesla (TSLA). The lawsuit alleging anti-American bias in hiring, as well as regulatory pressures related to Autopilot marketing, have negatively impacted investor confidence and stock performance.",
-      "key_drivers": [
-        "Lawsuit challenging Tesla's hiring practices",
-        "Regulatory pressure on Autopilot marketing"
-      ],
-      "key_risks": [
-        "Negative impact on near-term operations",
-        "Potential for further legal challenges"
-      ],
-      "valuation_view": "None",
-      "counterfactuals": [
-        "Improvement in the lawsuit outcome or regulatory environment could reverse this trend."
-      ],
-      "next_checks": [
-        "Outcome of ongoing lawsuits and regulatory proceedings",
-        "Company's response to legal pressures and market reactions"
-      ],
-      "raw": {
-        "action": "SELL",
-        "confidence": 0.575,
-        "rationale": "The recent news events and technical analysis indicate a bearish sentiment towards Tesla (TSLA). The lawsuit alleging anti-American bias in hiring, as well as regulatory pressures related to Autopilot marketing, have negatively impacted investor confidence and stock performance.",
-        "key_drivers": [
-          "Lawsuit challenging Tesla's hiring practices",
-          "Regulatory pressure on Autopilot marketing"
-        ],
-        "key_risks": [
-          "Negative impact on near-term operations",
-          "Potential for further legal challenges"
-        ],
-        "valuation_view": null,
-        "counterfactuals": [
-          "Improvement in the lawsuit outcome or regulatory environment could reverse this trend."
-        ],
-        "next_checks": [
-          "Outcome of ongoing lawsuits and regulatory proceedings",
-          "Company's response to legal pressures and market reactions"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:26:04+09:00",
-      "action": "SELL",
-      "confidence": 0.8,
-      "rationale": "Recent news events and market signals indicate significant legal and regulatory risks for Tesla, which could negatively impact its operations and investor sentiment.",
-      "key_drivers": [
-        "Lawsuit alleging anti-American bias in hiring: Judge refused to dismiss the case, raising concerns about potential long-term legal costs and negative publicity.",
-        "Regulatory pressures on Autopilot: Facing lawsuits from California DMV and other regulatory bodies, impacting near-term operations."
-      ],
-      "key_risks": [
-        "Potential for increased legal expenses and delays in product development.",
-        "Negative impact on investor confidence due to ongoing litigation and operational challenges."
-      ],
-      "valuation_view": "Fair value not explicitly stated; however, recent news events suggest a potential downward pressure on the stock price.",
-      "counterfactuals": [
-        "If Tesla successfully resolves all legal issues within the next month, this could positively impact the stock price.",
-        "Positive regulatory developments or favorable court rulings could reverse current negative sentiment."
-      ],
-      "next_checks": [
-        "Outcome of ongoing litigation and regulatory proceedings related to Autopilot.",
-        "Tesla's financial performance in upcoming quarterly reports."
-      ],
-      "raw": {
-        "action": "SELL",
-        "confidence": 0.8,
-        "rationale": "Recent news events and market signals indicate significant legal and regulatory risks for Tesla, which could negatively impact its operations and investor sentiment.",
-        "key_drivers": [
-          "Lawsuit alleging anti-American bias in hiring: Judge refused to dismiss the case, raising concerns about potential long-term legal costs and negative publicity.",
-          "Regulatory pressures on Autopilot: Facing lawsuits from California DMV and other regulatory bodies, impacting near-term operations."
-        ],
-        "key_risks": [
-          "Potential for increased legal expenses and delays in product development.",
-          "Negative impact on investor confidence due to ongoing litigation and operational challenges."
-        ],
-        "valuation_view": "Fair value not explicitly stated; however, recent news events suggest a potential downward pressure on the stock price.",
-        "counterfactuals": [
-          "If Tesla successfully resolves all legal issues within the next month, this could positively impact the stock price.",
-          "Positive regulatory developments or favorable court rulings could reverse current negative sentiment."
-        ],
-        "next_checks": [
-          "Outcome of ongoing litigation and regulatory proceedings related to Autopilot.",
-          "Tesla's financial performance in upcoming quarterly reports."
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:24:15+09:00",
-      "action": "SELL",
-      "confidence": 0.8,
-      "rationale": "Recent news events and market sentiment indicate significant legal and regulatory risks for Tesla, which could negatively impact its operations and investor confidence.",
-      "key_drivers": [
-        "Lawsuit alleging anti-American bias in hiring (bearish)",
-        "Regulatory pressure on Autopilot marketing (bearish)"
-      ],
-      "key_risks": [
-        "Potential negative impact on investor sentiment",
-        "Operational disruptions due to legal challenges"
-      ],
-      "valuation_view": "None",
-      "counterfactuals": [
-        "If Tesla successfully resolves the hiring lawsuit and regulatory issues, sentiment could improve.",
-        "Positive developments in AI and robotics projects could boost stock price."
-      ],
-      "next_checks": [
-        "Outcome of ongoing legal proceedings",
-        "Company's progress on AI and robotics initiatives"
-      ],
-      "raw": {
-        "action": "SELL",
-        "confidence": 0.8,
-        "rationale": "Recent news events and market sentiment indicate significant legal and regulatory risks for Tesla, which could negatively impact its operations and investor confidence.",
-        "key_drivers": [
-          "Lawsuit alleging anti-American bias in hiring (bearish)",
-          "Regulatory pressure on Autopilot marketing (bearish)"
-        ],
-        "key_risks": [
-          "Potential negative impact on investor sentiment",
-          "Operational disruptions due to legal challenges"
-        ],
-        "valuation_view": null,
-        "counterfactuals": [
-          "If Tesla successfully resolves the hiring lawsuit and regulatory issues, sentiment could improve.",
-          "Positive developments in AI and robotics projects could boost stock price."
-        ],
-        "next_checks": [
-          "Outcome of ongoing legal proceedings",
-          "Company's progress on AI and robotics initiatives"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:22:30+09:00",
-      "action": "SELL",
-      "confidence": 0.75,
-      "rationale": "Recent news events and market sentiment indicate significant legal and regulatory risks for Tesla, which could negatively impact its stock price.",
-      "key_drivers": [
-        "Lawsuit alleging anti-American bias in hiring: The judge has refused to dismiss the case, indicating potential long-term negative impacts on investor confidence.",
-        "Regulatory pressure on Autopilot: Facing lawsuits from California’s DMV and other regulatory bodies could disrupt near-term operations."
-      ],
-      "key_risks": [
-        "Potential legal costs and delays in product launches or updates.",
-        "Negative public perception affecting brand value and customer trust."
-      ],
-      "valuation_view": "Fair value not clearly defined, but recent events suggest a downward pressure on the stock price.",
-      "counterfactuals": [
-        "If Tesla successfully resolves all current lawsuits within the next month, it could see a short-term rally in its stock price.",
-        "Positive regulatory developments or favorable court rulings could mitigate some of the negative sentiment."
-      ],
-      "next_checks": [
-        "Outcome of ongoing legal proceedings related to Autopilot and hiring practices.",
-        "Tesla's financial results for Q1 2026, particularly any mentions of legal expenses or operational disruptions."
-      ],
-      "raw": {
-        "action": "SELL",
-        "confidence": 0.75,
-        "rationale": "Recent news events and market sentiment indicate significant legal and regulatory risks for Tesla, which could negatively impact its stock price.",
-        "key_drivers": [
-          "Lawsuit alleging anti-American bias in hiring: The judge has refused to dismiss the case, indicating potential long-term negative impacts on investor confidence.",
-          "Regulatory pressure on Autopilot: Facing lawsuits from California’s DMV and other regulatory bodies could disrupt near-term operations."
-        ],
-        "key_risks": [
-          "Potential legal costs and delays in product launches or updates.",
-          "Negative public perception affecting brand value and customer trust."
-        ],
-        "valuation_view": "Fair value not clearly defined, but recent events suggest a downward pressure on the stock price.",
-        "counterfactuals": [
-          "If Tesla successfully resolves all current lawsuits within the next month, it could see a short-term rally in its stock price.",
-          "Positive regulatory developments or favorable court rulings could mitigate some of the negative sentiment."
-        ],
-        "next_checks": [
-          "Outcome of ongoing legal proceedings related to Autopilot and hiring practices.",
-          "Tesla's financial results for Q1 2026, particularly any mentions of legal expenses or operational disruptions."
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:20:41+09:00",
-      "action": "SELL",
-      "confidence": 0.7,
-      "rationale": "Recent news events and market signals indicate significant legal and regulatory risks for Tesla. The ongoing lawsuit alleging anti-American hiring bias, as well as the refocusing on AI and robotics amidst regulatory pressures on Autopilot, suggest a negative outlook.",
-      "key_drivers": [
-        "Ongoing lawsuit challenging Tesla's hiring practices",
-        "Regulatory pressure on Autopilot marketing"
-      ],
-      "key_risks": [
-        "Potential impact on investor confidence",
-        "Negative effect on near-term operations"
-      ],
-      "valuation_view": "Fair value is uncertain due to ongoing legal and regulatory uncertainties, making the current price of $416.28 appear overvalued.",
-      "counterfactuals": [
-        "If Tesla successfully resolves the hiring bias lawsuit and sees a positive resolution in Autopilot-related cases, this could reverse the sell recommendation."
-      ],
-      "next_checks": [
-        "Outcome of the hiring bias lawsuit",
-        "Resolution of regulatory issues surrounding Autopilot"
-      ],
-      "raw": {
-        "action": "SELL",
-        "confidence": 0.7,
-        "rationale": "Recent news events and market signals indicate significant legal and regulatory risks for Tesla. The ongoing lawsuit alleging anti-American hiring bias, as well as the refocusing on AI and robotics amidst regulatory pressures on Autopilot, suggest a negative outlook.",
-        "key_drivers": [
-          "Ongoing lawsuit challenging Tesla's hiring practices",
-          "Regulatory pressure on Autopilot marketing"
-        ],
-        "key_risks": [
-          "Potential impact on investor confidence",
-          "Negative effect on near-term operations"
-        ],
-        "valuation_view": "Fair value is uncertain due to ongoing legal and regulatory uncertainties, making the current price of $416.28 appear overvalued.",
-        "counterfactuals": [
-          "If Tesla successfully resolves the hiring bias lawsuit and sees a positive resolution in Autopilot-related cases, this could reverse the sell recommendation."
-        ],
-        "next_checks": [
-          "Outcome of the hiring bias lawsuit",
-          "Resolution of regulatory issues surrounding Autopilot"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:18:55+09:00",
-      "action": "SELL",
-      "confidence": 0.8,
-      "rationale": "Recent news events and market signals indicate significant legal and regulatory risks for Tesla, which could negatively impact its operations and investor sentiment.",
-      "key_drivers": [
-        "Lawsuit alleging anti-American bias in hiring (bearish)",
-        "Regulatory pressure on Autopilot marketing (bearish)"
-      ],
-      "key_risks": [
-        "Potential negative impact on near-term operations",
-        "Dampening of investor confidence"
-      ],
-      "valuation_view": "Fair value not explicitly stated, but recent news suggests downward pressure on stock price.",
-      "counterfactuals": [
-        "If Tesla successfully resolves the legal issues related to Autopilot and hiring practices within the next month, this could reverse the sell signal."
-      ],
-      "next_checks": [
-        "Outcome of ongoing legal proceedings",
-        "Company's response to regulatory challenges"
-      ],
-      "raw": {
-        "action": "SELL",
-        "confidence": 0.8,
-        "rationale": "Recent news events and market signals indicate significant legal and regulatory risks for Tesla, which could negatively impact its operations and investor sentiment.",
-        "key_drivers": [
-          "Lawsuit alleging anti-American bias in hiring (bearish)",
-          "Regulatory pressure on Autopilot marketing (bearish)"
-        ],
-        "key_risks": [
-          "Potential negative impact on near-term operations",
-          "Dampening of investor confidence"
-        ],
-        "valuation_view": "Fair value not explicitly stated, but recent news suggests downward pressure on stock price.",
-        "counterfactuals": [
-          "If Tesla successfully resolves the legal issues related to Autopilot and hiring practices within the next month, this could reverse the sell signal."
-        ],
-        "next_checks": [
-          "Outcome of ongoing legal proceedings",
-          "Company's response to regulatory challenges"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:17:09+09:00",
-      "action": "SELL",
-      "confidence": 0.8,
-      "rationale": "Recent news events and market sentiment indicate significant legal and regulatory risks for Tesla, which could negatively impact its operations and investor confidence.",
-      "key_drivers": [
-        "Lawsuit alleging anti-American bias in hiring: The judge has refused to dismiss the case, indicating ongoing legal challenges that may affect investor sentiment.",
-        "Regulatory pressure on Autopilot: Facing lawsuits and regulatory scrutiny related to Autopilot marketing could impact near-term operations."
-      ],
-      "key_risks": [
-        "Legal risks: Ongoing litigation could lead to financial penalties or operational disruptions.",
-        "Operational refocus: Wind-down of Model S and Model X production may delay revenue generation from these models."
-      ],
-      "valuation_view": "Fair value not explicitly stated, but recent news suggests potential downward pressure on stock price due to increased legal costs and operational uncertainties.",
-      "counterfactuals": [
-        "If Tesla successfully resolves the legal challenges related to hiring practices and Autopilot marketing within the next 1-4 weeks, this could positively impact investor sentiment."
-      ],
-      "next_checks": [
-        "Outcome of ongoing legal proceedings related to hiring practices and Autopilot marketing.",
-        "Tesla's progress in developing the Optimus humanoid robot and its potential market impact."
-      ],
-      "raw": {
-        "action": "SELL",
-        "confidence": 0.8,
-        "rationale": "Recent news events and market sentiment indicate significant legal and regulatory risks for Tesla, which could negatively impact its operations and investor confidence.",
-        "key_drivers": [
-          "Lawsuit alleging anti-American bias in hiring: The judge has refused to dismiss the case, indicating ongoing legal challenges that may affect investor sentiment.",
-          "Regulatory pressure on Autopilot: Facing lawsuits and regulatory scrutiny related to Autopilot marketing could impact near-term operations."
-        ],
-        "key_risks": [
-          "Legal risks: Ongoing litigation could lead to financial penalties or operational disruptions.",
-          "Operational refocus: Wind-down of Model S and Model X production may delay revenue generation from these models."
-        ],
-        "valuation_view": "Fair value not explicitly stated, but recent news suggests potential downward pressure on stock price due to increased legal costs and operational uncertainties.",
-        "counterfactuals": [
-          "If Tesla successfully resolves the legal challenges related to hiring practices and Autopilot marketing within the next 1-4 weeks, this could positively impact investor sentiment."
-        ],
-        "next_checks": [
-          "Outcome of ongoing legal proceedings related to hiring practices and Autopilot marketing.",
-          "Tesla's progress in developing the Optimus humanoid robot and its potential market impact."
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:15:27+09:00",
-      "action": "SELL",
-      "confidence": 0.8,
-      "rationale": "Recent news events and market signals indicate a bearish outlook for Tesla's stock. The lawsuit alleging anti-American hiring bias, coupled with regulatory pressures on Autopilot marketing, are significant risks that could negatively impact investor sentiment and operations in the near term.",
-      "key_drivers": [
-        "Lawsuit challenging Tesla's hiring practices",
-        "Regulatory pressure on Autopilot marketing"
-      ],
-      "key_risks": [
-        "Potential negative impact on investor confidence",
-        "Operational disruptions due to legal challenges"
-      ],
-      "valuation_view": "None",
-      "counterfactuals": [
-        "If the lawsuit against Tesla's hiring practices is dismissed or resolved favorably, it could positively affect stock performance.",
-        "A breakthrough in Autopilot marketing regulatory issues could improve investor sentiment."
-      ],
-      "next_checks": [
-        "Outcome of the ongoing lawsuit",
-        "Resolution of legal challenges related to Autopilot"
-      ],
-      "raw": {
-        "action": "SELL",
-        "confidence": 0.8,
-        "rationale": "Recent news events and market signals indicate a bearish outlook for Tesla's stock. The lawsuit alleging anti-American hiring bias, coupled with regulatory pressures on Autopilot marketing, are significant risks that could negatively impact investor sentiment and operations in the near term.",
-        "key_drivers": [
-          "Lawsuit challenging Tesla's hiring practices",
-          "Regulatory pressure on Autopilot marketing"
-        ],
-        "key_risks": [
-          "Potential negative impact on investor confidence",
-          "Operational disruptions due to legal challenges"
-        ],
-        "valuation_view": null,
-        "counterfactuals": [
-          "If the lawsuit against Tesla's hiring practices is dismissed or resolved favorably, it could positively affect stock performance.",
-          "A breakthrough in Autopilot marketing regulatory issues could improve investor sentiment."
-        ],
-        "next_checks": [
-          "Outcome of the ongoing lawsuit",
-          "Resolution of legal challenges related to Autopilot"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:13:49+09:00",
-      "action": "SELL",
-      "confidence": 0.9,
-      "rationale": "Recent news events indicate significant legal and regulatory challenges for Tesla, including a lawsuit alleging anti-American hiring bias and mounting pressures related to Autopilot marketing. These factors are negatively impacting investor sentiment and stock performance.",
-      "key_drivers": [
-        "Lawsuit challenging Tesla's hiring practices",
-        "Regulatory pressure on Autopilot marketing"
-      ],
-      "key_risks": [
-        "Negative impact on near-term operations",
-        "Dampened investor sentiment"
-      ],
-      "valuation_view": "Fair value not yet determined due to ongoing legal and regulatory uncertainties.",
-      "counterfactuals": [
-        "Tesla wins the lawsuit against hiring bias allegations",
-        "Regulatory issues around Autopilot are resolved positively"
-      ],
-      "next_checks": [
-        "Outcome of the hiring bias lawsuit",
-        "Resolution of regulatory pressures on Autopilot"
-      ],
-      "raw": {
-        "action": "SELL",
-        "confidence": 0.9,
-        "rationale": "Recent news events indicate significant legal and regulatory challenges for Tesla, including a lawsuit alleging anti-American hiring bias and mounting pressures related to Autopilot marketing. These factors are negatively impacting investor sentiment and stock performance.",
-        "key_drivers": [
-          "Lawsuit challenging Tesla's hiring practices",
-          "Regulatory pressure on Autopilot marketing"
-        ],
-        "key_risks": [
-          "Negative impact on near-term operations",
-          "Dampened investor sentiment"
-        ],
-        "valuation_view": "Fair value not yet determined due to ongoing legal and regulatory uncertainties.",
-        "counterfactuals": [
-          "Tesla wins the lawsuit against hiring bias allegations",
-          "Regulatory issues around Autopilot are resolved positively"
-        ],
-        "next_checks": [
-          "Outcome of the hiring bias lawsuit",
-          "Resolution of regulatory pressures on Autopilot"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:11:45+09:00",
-      "action": "SELL",
-      "confidence": 0.8,
-      "rationale": "Recent news events and market sentiment indicate significant legal and regulatory risks for Tesla, which could negatively impact its operations and investor confidence.",
-      "key_drivers": [
-        "Lawsuit alleging anti-American bias in hiring: The judge has refused to dismiss the case, adding uncertainty to Tesla's hiring practices.",
-        "Regulatory pressures on Autopilot: Facing lawsuits and regulatory pressure related to Autopilot marketing."
-      ],
-      "key_risks": [
-        "Potential impact on investor confidence due to ongoing legal challenges.",
-        "Resource reallocation from established products (Model S and Model X) to AI and robotics may delay product development timelines."
-      ],
-      "valuation_view": "Fair value not explicitly stated, but the current market sentiment suggests a potential overvaluation given the risks.",
-      "counterfactuals": [
-        "A positive resolution of the legal challenges could reverse this decision within 1-4 weeks.",
-        "Significant progress in AI and robotics development that positively impacts stock performance."
-      ],
-      "next_checks": [
-        "Outcome of ongoing legal proceedings related to Autopilot and hiring practices.",
-        "Tesla's financial results for Q1, which may provide insights into the impact of these challenges on its operations."
-      ],
-      "raw": {
-        "action": "SELL",
-        "confidence": 0.8,
-        "rationale": "Recent news events and market sentiment indicate significant legal and regulatory risks for Tesla, which could negatively impact its operations and investor confidence.",
-        "key_drivers": [
-          "Lawsuit alleging anti-American bias in hiring: The judge has refused to dismiss the case, adding uncertainty to Tesla's hiring practices.",
-          "Regulatory pressures on Autopilot: Facing lawsuits and regulatory pressure related to Autopilot marketing."
-        ],
-        "key_risks": [
-          "Potential impact on investor confidence due to ongoing legal challenges.",
-          "Resource reallocation from established products (Model S and Model X) to AI and robotics may delay product development timelines."
-        ],
-        "valuation_view": "Fair value not explicitly stated, but the current market sentiment suggests a potential overvaluation given the risks.",
-        "counterfactuals": [
-          "A positive resolution of the legal challenges could reverse this decision within 1-4 weeks.",
-          "Significant progress in AI and robotics development that positively impacts stock performance."
-        ],
-        "next_checks": [
-          "Outcome of ongoing legal proceedings related to Autopilot and hiring practices.",
-          "Tesla's financial results for Q1, which may provide insights into the impact of these challenges on its operations."
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:09:52+09:00",
-      "action": "SELL",
-      "confidence": 0.8,
-      "rationale": "Recent news events and market signals indicate significant legal and regulatory risks for Tesla, which could negatively impact its operations and investor sentiment.",
-      "key_drivers": [
-        "Lawsuit alleging anti-American bias in hiring (bearish)",
-        "Regulatory pressure on Autopilot marketing (bearish)"
-      ],
-      "key_risks": [
-        "Potential delays or disruptions to Model S and Model X production",
-        "Negative impact on investor confidence due to legal challenges"
-      ],
-      "valuation_view": "Fair value not explicitly stated, but recent events suggest potential overvaluation given current market conditions.",
-      "counterfactuals": [
-        "If Tesla successfully resolves the legal issues related to hiring practices and Autopilot marketing within the next month, this could reverse the sell recommendation."
-      ],
-      "next_checks": [
-        "Outcome of ongoing legal proceedings",
-        "Company's response to regulatory pressures on Autopilot"
-      ],
-      "raw": {
-        "action": "SELL",
-        "confidence": 0.8,
-        "rationale": "Recent news events and market signals indicate significant legal and regulatory risks for Tesla, which could negatively impact its operations and investor sentiment.",
-        "key_drivers": [
-          "Lawsuit alleging anti-American bias in hiring (bearish)",
-          "Regulatory pressure on Autopilot marketing (bearish)"
-        ],
-        "key_risks": [
-          "Potential delays or disruptions to Model S and Model X production",
-          "Negative impact on investor confidence due to legal challenges"
-        ],
-        "valuation_view": "Fair value not explicitly stated, but recent events suggest potential overvaluation given current market conditions.",
-        "counterfactuals": [
-          "If Tesla successfully resolves the legal issues related to hiring practices and Autopilot marketing within the next month, this could reverse the sell recommendation."
-        ],
-        "next_checks": [
-          "Outcome of ongoing legal proceedings",
-          "Company's response to regulatory pressures on Autopilot"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:08:00+09:00",
-      "action": "SELL",
-      "confidence": 0.618,
-      "rationale": "The recent news events and technical analysis indicate a bearish sentiment towards Tesla (TSLA). The lawsuit alleging anti-American hiring bias, along with regulatory pressures on Autopilot, have negatively impacted investor confidence and stock performance.",
-      "key_drivers": [
-        "Lawsuit challenging Tesla's hiring practices",
-        "Regulatory pressure related to Autopilot marketing"
-      ],
-      "key_risks": [
-        "Potential impact on near-term operations",
-        "Negative effect on investor sentiment"
-      ],
-      "valuation_view": "The current valuation does not support a bullish stance given the ongoing legal and regulatory challenges.",
-      "counterfactuals": [
-        "A favorable resolution to the hiring bias lawsuit",
-        "Positive developments in Autopilot marketing or regulatory environment"
-      ],
-      "next_checks": [
-        "Outcome of the hiring bias lawsuit",
-        "Any updates on regulatory actions related to Autopilot"
-      ],
-      "raw": {
-        "action": "SELL",
-        "confidence": 0.618,
-        "rationale": "The recent news events and technical analysis indicate a bearish sentiment towards Tesla (TSLA). The lawsuit alleging anti-American hiring bias, along with regulatory pressures on Autopilot, have negatively impacted investor confidence and stock performance.",
-        "key_drivers": [
-          "Lawsuit challenging Tesla's hiring practices",
-          "Regulatory pressure related to Autopilot marketing"
-        ],
-        "key_risks": [
-          "Potential impact on near-term operations",
-          "Negative effect on investor sentiment"
-        ],
-        "valuation_view": "The current valuation does not support a bullish stance given the ongoing legal and regulatory challenges.",
-        "counterfactuals": [
-          "A favorable resolution to the hiring bias lawsuit",
-          "Positive developments in Autopilot marketing or regulatory environment"
-        ],
-        "next_checks": [
-          "Outcome of the hiring bias lawsuit",
-          "Any updates on regulatory actions related to Autopilot"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:06:09+09:00",
-      "action": "SELL",
-      "confidence": 0.8,
-      "rationale": "Recent news events and market sentiment indicate significant legal and regulatory risks for Tesla, which could negatively impact its near-term operations and investor confidence.",
-      "key_drivers": [
-        "Lawsuit alleging anti-American bias in hiring: The judge has refused to dismiss the case, adding uncertainty to Tesla's hiring practices.",
-        "Refocus on AI and robotics: Winding down production of Model S and Model X, facing regulatory pressure related to Autopilot marketing."
-      ],
-      "key_risks": [
-        "Legal challenges could delay product launches or operations.",
-        "Regulatory actions may increase costs or limit business flexibility."
-      ],
-      "valuation_view": "Fair value is not currently calculable due to ongoing legal uncertainties and operational changes, but the stock appears overvalued given current market sentiment.",
-      "counterfactuals": [
-        "If Tesla successfully resolves all legal challenges quickly without significant financial impact, this could reverse the sell recommendation.",
-        "Positive regulatory developments or a successful product launch in AI and robotics could also change the outlook."
-      ],
-      "next_checks": [
-        "Outcome of ongoing lawsuits related to Autopilot marketing and hiring practices.",
-        "Tesla's progress on developing and launching its Optimus humanoid robot."
-      ],
-      "raw": {
-        "action": "SELL",
-        "confidence": 0.8,
-        "rationale": "Recent news events and market sentiment indicate significant legal and regulatory risks for Tesla, which could negatively impact its near-term operations and investor confidence.",
-        "key_drivers": [
-          "Lawsuit alleging anti-American bias in hiring: The judge has refused to dismiss the case, adding uncertainty to Tesla's hiring practices.",
-          "Refocus on AI and robotics: Winding down production of Model S and Model X, facing regulatory pressure related to Autopilot marketing."
-        ],
-        "key_risks": [
-          "Legal challenges could delay product launches or operations.",
-          "Regulatory actions may increase costs or limit business flexibility."
-        ],
-        "valuation_view": "Fair value is not currently calculable due to ongoing legal uncertainties and operational changes, but the stock appears overvalued given current market sentiment.",
-        "counterfactuals": [
-          "If Tesla successfully resolves all legal challenges quickly without significant financial impact, this could reverse the sell recommendation.",
-          "Positive regulatory developments or a successful product launch in AI and robotics could also change the outlook."
-        ],
-        "next_checks": [
-          "Outcome of ongoing lawsuits related to Autopilot marketing and hiring practices.",
-          "Tesla's progress on developing and launching its Optimus humanoid robot."
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:04:12+09:00",
-      "action": "SELL",
-      "confidence": 0.8,
-      "rationale": "Recent news events and market signals indicate a bearish outlook for Tesla (TSLA). The company is facing significant legal challenges related to hiring practices and Autopilot marketing, which could negatively impact its near-term operations and investor sentiment. Additionally, criticism from notable short sellers has dampened investor confidence in the company's ambitious projects.",
-      "key_drivers": [
-        "Lawsuit alleging anti-American bias in hiring",
-        "Regulatory pressure on Autopilot marketing",
-        "Criticism from a prominent short seller"
-      ],
-      "key_risks": [
-        "Potential impact on investor confidence and stock performance due to ongoing legal challenges",
-        "Negative effects on near-term operations if regulatory pressures persist"
-      ],
-      "valuation_view": "The current market sentiment suggests that the stock is overvalued given recent developments. The valuation metrics do not support a buy recommendation at this time.",
-      "counterfactuals": [
-        "A favorable resolution to the legal challenges could reverse the negative outlook and potentially lead to a buy signal",
-        "Positive statements from Elon Musk regarding Autopilot or other projects could improve investor sentiment"
-      ],
-      "next_checks": [
-        "Outcome of ongoing legal proceedings related to hiring practices and Autopilot marketing",
-        "Company's response to regulatory pressures and any potential changes in strategy"
-      ],
-      "raw": {
-        "action": "SELL",
-        "confidence": 0.8,
-        "rationale": "Recent news events and market signals indicate a bearish outlook for Tesla (TSLA). The company is facing significant legal challenges related to hiring practices and Autopilot marketing, which could negatively impact its near-term operations and investor sentiment. Additionally, criticism from notable short sellers has dampened investor confidence in the company's ambitious projects.",
-        "key_drivers": [
-          "Lawsuit alleging anti-American bias in hiring",
-          "Regulatory pressure on Autopilot marketing",
-          "Criticism from a prominent short seller"
-        ],
-        "key_risks": [
-          "Potential impact on investor confidence and stock performance due to ongoing legal challenges",
-          "Negative effects on near-term operations if regulatory pressures persist"
-        ],
-        "valuation_view": "The current market sentiment suggests that the stock is overvalued given recent developments. The valuation metrics do not support a buy recommendation at this time.",
-        "counterfactuals": [
-          "A favorable resolution to the legal challenges could reverse the negative outlook and potentially lead to a buy signal",
-          "Positive statements from Elon Musk regarding Autopilot or other projects could improve investor sentiment"
-        ],
-        "next_checks": [
-          "Outcome of ongoing legal proceedings related to hiring practices and Autopilot marketing",
-          "Company's response to regulatory pressures and any potential changes in strategy"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:02:24+09:00",
-      "action": "SELL",
-      "confidence": 0.8,
-      "rationale": "Recent news events indicate significant legal and regulatory pressures on Tesla, including a lawsuit alleging anti-American hiring bias and mounting risks related to Autopilot marketing. These factors are negatively impacting investor sentiment and near-term operations.",
-      "key_drivers": [
-        "Lawsuit challenging Tesla's hiring practices",
-        "Regulatory pressure linked to Autopilot marketing"
-      ],
-      "key_risks": [
-        "Legal challenges could impact financial performance",
-        "Refocusing on AI and robotics may disrupt existing product lines"
-      ],
-      "valuation_view": "Fair value not explicitly stated, but recent negative news suggests potential undervaluation risk.",
-      "counterfactuals": [
-        "Tesla successfully resolves the hiring bias lawsuit and sees a positive resolution in Autopilot legal challenges."
-      ],
-      "next_checks": [
-        "Outcome of the hiring bias lawsuit",
-        "Any updates on regulatory actions related to Autopilot"
-      ],
-      "raw": {
-        "action": "SELL",
-        "confidence": 0.8,
-        "rationale": "Recent news events indicate significant legal and regulatory pressures on Tesla, including a lawsuit alleging anti-American hiring bias and mounting risks related to Autopilot marketing. These factors are negatively impacting investor sentiment and near-term operations.",
-        "key_drivers": [
-          "Lawsuit challenging Tesla's hiring practices",
-          "Regulatory pressure linked to Autopilot marketing"
-        ],
-        "key_risks": [
-          "Legal challenges could impact financial performance",
-          "Refocusing on AI and robotics may disrupt existing product lines"
-        ],
-        "valuation_view": "Fair value not explicitly stated, but recent negative news suggests potential undervaluation risk.",
-        "counterfactuals": [
-          "Tesla successfully resolves the hiring bias lawsuit and sees a positive resolution in Autopilot legal challenges."
-        ],
-        "next_checks": [
-          "Outcome of the hiring bias lawsuit",
-          "Any updates on regulatory actions related to Autopilot"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:00:34+09:00",
-      "action": "SELL",
-      "confidence": 0.8,
-      "rationale": "Recent news events and market sentiment indicate significant legal and regulatory risks for Tesla, which could negatively impact its operations and investor confidence.",
-      "key_drivers": [
-        "Lawsuit alleging anti-American bias in hiring: The judge has refused to dismiss the case, indicating ongoing legal challenges that may affect investor sentiment.",
-        "Regulatory pressure on Autopilot marketing: Facing lawsuits from California’s DMV and other regulatory bodies, which could impact near-term operations."
-      ],
-      "key_risks": [
-        "Legal and regulatory risks: Ongoing litigation and regulatory scrutiny pose significant operational and financial risks for Tesla.",
-        "Shift in focus to AI and robotics: While this may be a strategic move, it diverts resources from core vehicle production, potentially affecting short-term profitability."
-      ],
-      "valuation_view": "The recent news events suggest that the stock price is overvalued given the current legal and regulatory challenges. Fair value cannot currently be determined due to lack of specific valuation data.",
-      "counterfactuals": [
-        "If Tesla successfully resolves all ongoing lawsuits and regulatory issues within the next month, this could positively impact investor sentiment and stock performance."
-      ],
-      "next_checks": [
-        "Monitor legal developments in the ongoing lawsuits against Tesla.",
-        "Assess any changes in regulatory stance towards Autopilot marketing."
-      ],
-      "raw": {
-        "action": "SELL",
-        "confidence": 0.8,
-        "rationale": "Recent news events and market sentiment indicate significant legal and regulatory risks for Tesla, which could negatively impact its operations and investor confidence.",
-        "key_drivers": [
-          "Lawsuit alleging anti-American bias in hiring: The judge has refused to dismiss the case, indicating ongoing legal challenges that may affect investor sentiment.",
-          "Regulatory pressure on Autopilot marketing: Facing lawsuits from California’s DMV and other regulatory bodies, which could impact near-term operations."
-        ],
-        "key_risks": [
-          "Legal and regulatory risks: Ongoing litigation and regulatory scrutiny pose significant operational and financial risks for Tesla.",
-          "Shift in focus to AI and robotics: While this may be a strategic move, it diverts resources from core vehicle production, potentially affecting short-term profitability."
-        ],
-        "valuation_view": "The recent news events suggest that the stock price is overvalued given the current legal and regulatory challenges. Fair value cannot currently be determined due to lack of specific valuation data.",
-        "counterfactuals": [
-          "If Tesla successfully resolves all ongoing lawsuits and regulatory issues within the next month, this could positively impact investor sentiment and stock performance."
-        ],
-        "next_checks": [
-          "Monitor legal developments in the ongoing lawsuits against Tesla.",
-          "Assess any changes in regulatory stance towards Autopilot marketing."
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:58:42+09:00",
-      "action": "SELL",
-      "confidence": 0.73,
-      "rationale": "The recent news events and technical analysis indicate a bearish sentiment towards Tesla (TSLA). Key drivers include ongoing legal challenges related to hiring practices and Autopilot, as well as regulatory pressures that could impact near-term operations. The market is currently neutral with no positions to sell, but the overall risk profile suggests a cautious sell stance.",
-      "key_drivers": [
-        "Lawsuit alleging anti-American bias in hiring",
-        "Regulatory pressure on Autopilot marketing",
-        "Refocus on AI and robotics at the expense of Model S and Model X production"
-      ],
-      "key_risks": [
-        "Potential negative impact on investor confidence due to legal challenges",
-        "Uncertainty around regulatory outcomes affecting near-term operations"
-      ],
-      "valuation_view": "The current valuation does not provide a clear fair value, but the market sentiment is bearish.",
-      "counterfactuals": [
-        "A positive resolution of the legal challenges could shift investor sentiment positively.",
-        "Significant progress in AI and robotics development that improves operational efficiency."
-      ],
-      "next_checks": [
-        "Outcome of ongoing legal cases",
-        "Regulatory developments related to Autopilot marketing"
-      ],
-      "raw": {
-        "action": "SELL",
-        "confidence": 0.73,
-        "rationale": "The recent news events and technical analysis indicate a bearish sentiment towards Tesla (TSLA). Key drivers include ongoing legal challenges related to hiring practices and Autopilot, as well as regulatory pressures that could impact near-term operations. The market is currently neutral with no positions to sell, but the overall risk profile suggests a cautious sell stance.",
-        "key_drivers": [
-          "Lawsuit alleging anti-American bias in hiring",
-          "Regulatory pressure on Autopilot marketing",
-          "Refocus on AI and robotics at the expense of Model S and Model X production"
-        ],
-        "key_risks": [
-          "Potential negative impact on investor confidence due to legal challenges",
-          "Uncertainty around regulatory outcomes affecting near-term operations"
-        ],
-        "valuation_view": "The current valuation does not provide a clear fair value, but the market sentiment is bearish.",
-        "counterfactuals": [
-          "A positive resolution of the legal challenges could shift investor sentiment positively.",
-          "Significant progress in AI and robotics development that improves operational efficiency."
-        ],
-        "next_checks": [
-          "Outcome of ongoing legal cases",
-          "Regulatory developments related to Autopilot marketing"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:56:42+09:00",
-      "action": "SELL",
-      "confidence": 0.75,
-      "rationale": "Recent news events indicate significant legal and regulatory risks for Tesla, which could negatively impact its near-term operations and investor sentiment.",
-      "key_drivers": [
-        "Lawsuit alleging anti-American bias in hiring: The judge has refused to dismiss the case, indicating potential long-term implications for Tesla's hiring practices and corporate image.",
-        "Refocus on AI and robotics: Winding down production of Model S and Model X to focus on AI and robotics could disrupt current product lines and revenue streams."
-      ],
-      "key_risks": [
-        "Legal risks associated with Autopilot marketing: Facing a lawsuit from California’s DMV, which could lead to regulatory penalties or changes in business practices.",
-        "Criticism from short sellers: Jim Chanos calls Elon Musk's orbital datacenter goals 'AI snake oil,' suggesting potential higher costs and skepticism about ambitious projects."
-      ],
-      "valuation_view": "Fair value is not explicitly stated but recent negative news events suggest a reevaluation of Tesla’s valuation may be warranted.",
-      "counterfactuals": [
-        "If Tesla successfully resolves the legal issues with Autopilot marketing, it could see a positive shift in investor sentiment and stock price.",
-        "If Tesla's AI and robotics projects gain significant traction and positive media coverage, this could offset current negative news."
-      ],
-      "next_checks": [
-        "Outcome of the lawsuit alleging anti-American bias in hiring",
-        "Tesla’s progress on resolving regulatory issues with Autopilot marketing",
-        "Public reaction to Tesla’s focus on AI and robotics"
-      ],
-      "raw": {
-        "action": "SELL",
-        "confidence": 0.75,
-        "rationale": "Recent news events indicate significant legal and regulatory risks for Tesla, which could negatively impact its near-term operations and investor sentiment.",
-        "key_drivers": [
-          "Lawsuit alleging anti-American bias in hiring: The judge has refused to dismiss the case, indicating potential long-term implications for Tesla's hiring practices and corporate image.",
-          "Refocus on AI and robotics: Winding down production of Model S and Model X to focus on AI and robotics could disrupt current product lines and revenue streams."
-        ],
-        "key_risks": [
-          "Legal risks associated with Autopilot marketing: Facing a lawsuit from California’s DMV, which could lead to regulatory penalties or changes in business practices.",
-          "Criticism from short sellers: Jim Chanos calls Elon Musk's orbital datacenter goals 'AI snake oil,' suggesting potential higher costs and skepticism about ambitious projects."
-        ],
-        "valuation_view": "Fair value is not explicitly stated but recent negative news events suggest a reevaluation of Tesla’s valuation may be warranted.",
-        "counterfactuals": [
-          "If Tesla successfully resolves the legal issues with Autopilot marketing, it could see a positive shift in investor sentiment and stock price.",
-          "If Tesla's AI and robotics projects gain significant traction and positive media coverage, this could offset current negative news."
-        ],
-        "next_checks": [
-          "Outcome of the lawsuit alleging anti-American bias in hiring",
-          "Tesla’s progress on resolving regulatory issues with Autopilot marketing",
-          "Public reaction to Tesla’s focus on AI and robotics"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:54:46+09:00",
-      "action": "SELL",
-      "confidence": 0.8,
-      "rationale": "Recent news events indicate significant legal and regulatory risks for Tesla, including a lawsuit challenging hiring practices and mounting pressures related to Autopilot marketing. These factors are likely to negatively impact investor sentiment and near-term operations.",
-      "key_drivers": [
-        "Lawsuit alleging anti-American bias in hiring",
-        "Regulatory pressure on Autopilot marketing"
-      ],
-      "key_risks": [
-        "Potential negative impact on investor confidence",
-        "Operational disruptions due to legal challenges"
-      ],
-      "valuation_view": "Fair value is not explicitly stated, but recent news suggests downward pressure on the stock price.",
-      "counterfactuals": [
-        "If Tesla successfully resolves all current legal issues and maintains positive public perception, sentiment could improve."
-      ],
-      "next_checks": [
-        "Outcome of ongoing legal proceedings",
-        "Company's response to regulatory challenges"
-      ],
-      "raw": {
-        "action": "SELL",
-        "confidence": 0.8,
-        "rationale": "Recent news events indicate significant legal and regulatory risks for Tesla, including a lawsuit challenging hiring practices and mounting pressures related to Autopilot marketing. These factors are likely to negatively impact investor sentiment and near-term operations.",
-        "key_drivers": [
-          "Lawsuit alleging anti-American bias in hiring",
-          "Regulatory pressure on Autopilot marketing"
-        ],
-        "key_risks": [
-          "Potential negative impact on investor confidence",
-          "Operational disruptions due to legal challenges"
-        ],
-        "valuation_view": "Fair value is not explicitly stated, but recent news suggests downward pressure on the stock price.",
-        "counterfactuals": [
-          "If Tesla successfully resolves all current legal issues and maintains positive public perception, sentiment could improve."
-        ],
-        "next_checks": [
-          "Outcome of ongoing legal proceedings",
-          "Company's response to regulatory challenges"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:52:50+09:00",
-      "action": "SELL",
-      "confidence": 0.8,
-      "rationale": "Recent news events indicate significant legal and regulatory risks for Tesla, including a lawsuit challenging hiring practices and mounting pressures related to Autopilot marketing. These factors could negatively impact near-term operations and investor sentiment.",
-      "key_drivers": [
-        "Lawsuit alleging anti-American bias in hiring",
-        "Regulatory pressure on Autopilot marketing"
-      ],
-      "key_risks": [
-        "Potential negative impact on stock performance due to ongoing legal challenges",
-        "Risk of reduced investor confidence as a result of regulatory pressures"
-      ],
-      "valuation_view": "Fair value not explicitly stated, but recent news suggests downward pressure on valuation.",
-      "counterfactuals": [
-        "If Tesla successfully resolves the hiring practices lawsuit and regulatory issues related to Autopilot marketing, sentiment could improve."
-      ],
-      "next_checks": [
-        "Outcome of ongoing legal proceedings",
-        "Regulatory developments regarding Autopilot"
-      ],
-      "raw": {
-        "action": "SELL",
-        "confidence": 0.8,
-        "rationale": "Recent news events indicate significant legal and regulatory risks for Tesla, including a lawsuit challenging hiring practices and mounting pressures related to Autopilot marketing. These factors could negatively impact near-term operations and investor sentiment.",
-        "key_drivers": [
-          "Lawsuit alleging anti-American bias in hiring",
-          "Regulatory pressure on Autopilot marketing"
-        ],
-        "key_risks": [
-          "Potential negative impact on stock performance due to ongoing legal challenges",
-          "Risk of reduced investor confidence as a result of regulatory pressures"
-        ],
-        "valuation_view": "Fair value not explicitly stated, but recent news suggests downward pressure on valuation.",
-        "counterfactuals": [
-          "If Tesla successfully resolves the hiring practices lawsuit and regulatory issues related to Autopilot marketing, sentiment could improve."
-        ],
-        "next_checks": [
-          "Outcome of ongoing legal proceedings",
-          "Regulatory developments regarding Autopilot"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:50:56+09:00",
-      "action": "SELL",
-      "confidence": 0.9,
-      "rationale": "Recent news and analysis indicate significant legal and regulatory risks for Tesla, particularly related to its Autopilot technology and hiring practices. These factors are likely to negatively impact investor sentiment and near-term operations.",
-      "key_drivers": [
-        "Lawsuit alleging anti-American bias in hiring",
-        "Regulatory pressure on Autopilot marketing",
-        "Focus shift from core vehicle production to AI and robotics, potentially disrupting existing product lines"
-      ],
-      "key_risks": [
-        "Legal challenges could delay or disrupt development of key technologies",
-        "Negative impact on investor confidence due to ongoing legal issues",
-        "Operational disruptions if regulatory pressure leads to changes in product strategy"
-      ],
-      "valuation_view": "Current valuation does not reflect the increased risks and potential delays in core business operations.",
-      "counterfactuals": [
-        "If Tesla successfully resolves all legal challenges within the next month, investor sentiment could improve significantly.",
-        "If Tesla's focus on AI and robotics leads to breakthroughs that enhance its core vehicle offerings, this could positively impact stock performance."
-      ],
-      "next_checks": [
-        "Outcome of ongoing legal proceedings related to Autopilot and hiring practices",
-        "Tesla's progress in developing the Optimus robot and integrating it into its business model"
-      ],
-      "raw": {
-        "action": "SELL",
-        "confidence": 0.9,
-        "rationale": "Recent news and analysis indicate significant legal and regulatory risks for Tesla, particularly related to its Autopilot technology and hiring practices. These factors are likely to negatively impact investor sentiment and near-term operations.",
-        "key_drivers": [
-          "Lawsuit alleging anti-American bias in hiring",
-          "Regulatory pressure on Autopilot marketing",
-          "Focus shift from core vehicle production to AI and robotics, potentially disrupting existing product lines"
-        ],
-        "key_risks": [
-          "Legal challenges could delay or disrupt development of key technologies",
-          "Negative impact on investor confidence due to ongoing legal issues",
-          "Operational disruptions if regulatory pressure leads to changes in product strategy"
-        ],
-        "valuation_view": "Current valuation does not reflect the increased risks and potential delays in core business operations.",
-        "counterfactuals": [
-          "If Tesla successfully resolves all legal challenges within the next month, investor sentiment could improve significantly.",
-          "If Tesla's focus on AI and robotics leads to breakthroughs that enhance its core vehicle offerings, this could positively impact stock performance."
-        ],
-        "next_checks": [
-          "Outcome of ongoing legal proceedings related to Autopilot and hiring practices",
-          "Tesla's progress in developing the Optimus robot and integrating it into its business model"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:49:07+09:00",
-      "action": "SELL",
-      "confidence": 0.67,
-      "rationale": "Current news and technical analysis indicate a bearish sentiment towards Tesla (TSLA). The recent lawsuits challenging hiring practices and regulatory pressures related to Autopilot are negatively impacting investor confidence. Additionally, the criticism from short sellers about Elon Musk's orbital data center plans further dampens optimism.",
-      "key_drivers": [
-        "Lawsuit alleging anti-American bias in hiring",
-        "Regulatory pressure on Autopilot marketing",
-        "Criticism from notable short seller Jim Chanos"
-      ],
-      "key_risks": [
-        "Negative impact on investor confidence and stock performance due to ongoing legal challenges",
-        "Potential delays or reduced focus on core vehicle production due to AI and robotics refocus",
-        "Higher costs associated with space-based data center plans"
-      ],
-      "valuation_view": "Fair value not explicitly stated, but recent news suggests a bearish outlook.",
-      "counterfactuals": [
-        "If Tesla successfully resolves the legal challenges related to hiring practices and Autopilot marketing, investor sentiment could improve.",
-        "Positive developments in the orbital data center plans could boost investor confidence."
-      ],
-      "next_checks": [
-        "Outcome of ongoing legal cases",
-        "Tesla's response to regulatory pressures on Autopilot",
-        "Progress on AI and robotics projects"
-      ],
-      "raw": {
-        "action": "SELL",
-        "confidence": 0.67,
-        "rationale": "Current news and technical analysis indicate a bearish sentiment towards Tesla (TSLA). The recent lawsuits challenging hiring practices and regulatory pressures related to Autopilot are negatively impacting investor confidence. Additionally, the criticism from short sellers about Elon Musk's orbital data center plans further dampens optimism.",
-        "key_drivers": [
-          "Lawsuit alleging anti-American bias in hiring",
-          "Regulatory pressure on Autopilot marketing",
-          "Criticism from notable short seller Jim Chanos"
-        ],
-        "key_risks": [
-          "Negative impact on investor confidence and stock performance due to ongoing legal challenges",
-          "Potential delays or reduced focus on core vehicle production due to AI and robotics refocus",
-          "Higher costs associated with space-based data center plans"
-        ],
-        "valuation_view": "Fair value not explicitly stated, but recent news suggests a bearish outlook.",
-        "counterfactuals": [
-          "If Tesla successfully resolves the legal challenges related to hiring practices and Autopilot marketing, investor sentiment could improve.",
-          "Positive developments in the orbital data center plans could boost investor confidence."
-        ],
-        "next_checks": [
-          "Outcome of ongoing legal cases",
-          "Tesla's response to regulatory pressures on Autopilot",
-          "Progress on AI and robotics projects"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:47:15+09:00",
-      "action": "SELL",
-      "confidence": 0.8,
-      "rationale": "Recent news events and market sentiment indicate significant legal and regulatory risks for Tesla, which could negatively impact its near-term operations and investor confidence.",
-      "key_drivers": [
-        "Lawsuit alleging anti-American bias in hiring: The judge has refused to dismiss the case, adding uncertainty and potential costs.",
-        "Regulatory pressure on Autopilot marketing: Facing lawsuits from California’s DMV, which could affect product development timelines and expenses."
-      ],
-      "key_risks": [
-        "Legal challenges could delay production of Model S and Model X, impacting revenue streams.",
-        "Negative investor sentiment due to ongoing legal issues may lead to stock price volatility."
-      ],
-      "valuation_view": "Fair value is not explicitly stated but recent news suggests a bearish outlook on Tesla's valuation.",
-      "counterfactuals": [
-        "A favorable resolution of the hiring bias lawsuit could improve investor confidence and stock performance.",
-        "No significant regulatory action against Autopilot marketing would reduce legal risks."
-      ],
-      "next_checks": [
-        "Outcome of the hiring bias lawsuit and any updates on the Autopilot marketing case.",
-        "Tesla's Q1 earnings report for any signs of operational or financial strain due to these issues."
-      ],
-      "raw": {
-        "action": "SELL",
-        "confidence": 0.8,
-        "rationale": "Recent news events and market sentiment indicate significant legal and regulatory risks for Tesla, which could negatively impact its near-term operations and investor confidence.",
-        "key_drivers": [
-          "Lawsuit alleging anti-American bias in hiring: The judge has refused to dismiss the case, adding uncertainty and potential costs.",
-          "Regulatory pressure on Autopilot marketing: Facing lawsuits from California’s DMV, which could affect product development timelines and expenses."
-        ],
-        "key_risks": [
-          "Legal challenges could delay production of Model S and Model X, impacting revenue streams.",
-          "Negative investor sentiment due to ongoing legal issues may lead to stock price volatility."
-        ],
-        "valuation_view": "Fair value is not explicitly stated but recent news suggests a bearish outlook on Tesla's valuation.",
-        "counterfactuals": [
-          "A favorable resolution of the hiring bias lawsuit could improve investor confidence and stock performance.",
-          "No significant regulatory action against Autopilot marketing would reduce legal risks."
-        ],
-        "next_checks": [
-          "Outcome of the hiring bias lawsuit and any updates on the Autopilot marketing case.",
-          "Tesla's Q1 earnings report for any signs of operational or financial strain due to these issues."
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:45:28+09:00",
-      "action": "SELL",
-      "confidence": 0.8,
-      "rationale": "Recent news events and market sentiment indicate significant legal and regulatory risks for Tesla, which could negatively impact its near-term operations and investor confidence.",
-      "key_drivers": [
-        "Lawsuit alleging anti-American bias in hiring: The judge has refused to dismiss the case, indicating potential long-term implications for Tesla's hiring practices and overall reputation.",
-        "Focus on AI and robotics: While this is a strategic move, it comes with regulatory pressures and legal risks related to Autopilot marketing, which could disrupt current operations."
-      ],
-      "key_risks": [
-        "Legal challenges: The ongoing lawsuit and potential future litigation could lead to significant financial and operational disruptions.",
-        "Regulatory scrutiny: Increased focus on Autopilot marketing may result in stricter regulations or penalties, affecting Tesla's ability to innovate and operate freely."
-      ],
-      "valuation_view": "Fair value is not explicitly stated but recent negative news events suggest a re-evaluation of the stock price. The current market sentiment does not support overvalued shares.",
-      "counterfactuals": [
-        "If Tesla successfully resolves all legal challenges and regulatory pressures, investor confidence could improve, potentially reversing this sell recommendation.",
-        "Positive developments in AI and robotics projects could also shift the market's perception positively."
-      ],
-      "next_checks": [
-        "Outcome of ongoing lawsuits related to hiring practices and Autopilot marketing.",
-        "Regulatory updates on Tesla’s AI and robotics initiatives and their impact on operations."
-      ],
-      "raw": {
-        "action": "SELL",
-        "confidence": 0.8,
-        "rationale": "Recent news events and market sentiment indicate significant legal and regulatory risks for Tesla, which could negatively impact its near-term operations and investor confidence.",
-        "key_drivers": [
-          "Lawsuit alleging anti-American bias in hiring: The judge has refused to dismiss the case, indicating potential long-term implications for Tesla's hiring practices and overall reputation.",
-          "Focus on AI and robotics: While this is a strategic move, it comes with regulatory pressures and legal risks related to Autopilot marketing, which could disrupt current operations."
-        ],
-        "key_risks": [
-          "Legal challenges: The ongoing lawsuit and potential future litigation could lead to significant financial and operational disruptions.",
-          "Regulatory scrutiny: Increased focus on Autopilot marketing may result in stricter regulations or penalties, affecting Tesla's ability to innovate and operate freely."
-        ],
-        "valuation_view": "Fair value is not explicitly stated but recent negative news events suggest a re-evaluation of the stock price. The current market sentiment does not support overvalued shares.",
-        "counterfactuals": [
-          "If Tesla successfully resolves all legal challenges and regulatory pressures, investor confidence could improve, potentially reversing this sell recommendation.",
-          "Positive developments in AI and robotics projects could also shift the market's perception positively."
-        ],
-        "next_checks": [
-          "Outcome of ongoing lawsuits related to hiring practices and Autopilot marketing.",
-          "Regulatory updates on Tesla’s AI and robotics initiatives and their impact on operations."
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:43:35+09:00",
-      "action": "SELL",
-      "confidence": 0.6,
-      "rationale": "Current market conditions and recent news events indicate significant legal and regulatory risks for Tesla, which could negatively impact its operations and investor sentiment.",
-      "key_drivers": [
-        "Lawsuit alleging anti-American bias in hiring: The judge has refused to dismiss the case, adding uncertainty to Tesla's hiring practices.",
-        "Focus on AI and robotics: Reducing production of Model S and Model X may divert resources from core business areas, potentially impacting profitability."
-      ],
-      "key_risks": [
-        "Legal challenges related to Autopilot marketing: Ongoing lawsuits could lead to regulatory penalties or changes in product offerings.",
-        "Negative investor sentiment: Criticism from short sellers and the potential for higher costs associated with orbital data centers may dampen investor confidence."
-      ],
-      "valuation_view": "Fair value is not explicitly stated, but recent events suggest a downward pressure on Tesla's stock price due to increased legal and operational risks.",
-      "counterfactuals": [
-        "If Tesla successfully resolves the hiring bias lawsuit and maintains strong performance in its core business areas, investor sentiment may improve.",
-        "If regulatory pressures related to Autopilot marketing ease or are resolved favorably, this could positively impact stock price."
-      ],
-      "next_checks": [
-        "Outcome of the hiring bias lawsuit: Any developments that clarify the legal standing will be crucial.",
-        "Regulatory updates on Autopilot: Changes in regulations or favorable rulings could mitigate current risks."
-      ],
-      "raw": {
-        "action": "SELL",
-        "confidence": 0.6,
-        "rationale": "Current market conditions and recent news events indicate significant legal and regulatory risks for Tesla, which could negatively impact its operations and investor sentiment.",
-        "key_drivers": [
-          "Lawsuit alleging anti-American bias in hiring: The judge has refused to dismiss the case, adding uncertainty to Tesla's hiring practices.",
-          "Focus on AI and robotics: Reducing production of Model S and Model X may divert resources from core business areas, potentially impacting profitability."
-        ],
-        "key_risks": [
-          "Legal challenges related to Autopilot marketing: Ongoing lawsuits could lead to regulatory penalties or changes in product offerings.",
-          "Negative investor sentiment: Criticism from short sellers and the potential for higher costs associated with orbital data centers may dampen investor confidence."
-        ],
-        "valuation_view": "Fair value is not explicitly stated, but recent events suggest a downward pressure on Tesla's stock price due to increased legal and operational risks.",
-        "counterfactuals": [
-          "If Tesla successfully resolves the hiring bias lawsuit and maintains strong performance in its core business areas, investor sentiment may improve.",
-          "If regulatory pressures related to Autopilot marketing ease or are resolved favorably, this could positively impact stock price."
-        ],
-        "next_checks": [
-          "Outcome of the hiring bias lawsuit: Any developments that clarify the legal standing will be crucial.",
-          "Regulatory updates on Autopilot: Changes in regulations or favorable rulings could mitigate current risks."
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:41:25+09:00",
-      "action": "SELL",
-      "confidence": 0.8,
-      "rationale": "Recent news events and market sentiment indicate significant legal and regulatory risks for Tesla, which could negatively impact its near-term operations and investor confidence.",
-      "key_drivers": [
-        "Lawsuit alleging anti-American bias in hiring: The judge has refused to dismiss the case, adding uncertainty to Tesla's hiring practices.",
-        "Regulatory pressure on Autopilot: Facing lawsuits from California’s DMV and other regulatory bodies, impacting near-term operations."
-      ],
-      "key_risks": [
-        "Legal challenges could delay or disrupt production of key models like Model S and Model X.",
-        "Negative investor sentiment due to criticism from short sellers and regulatory pressures."
-      ],
-      "valuation_view": "Fair value not explicitly stated; however, recent news suggests potential overvaluation given the legal and operational risks.",
-      "counterfactuals": [
-        "If Tesla successfully resolves all pending lawsuits and regulatory issues within the next month, this could reverse market sentiment.",
-        "Positive developments in AI and robotics projects could also shift investor confidence positively."
-      ],
-      "next_checks": [
-        "Outcome of ongoing legal proceedings against Tesla.",
-        "Tesla's response to regulatory challenges and any new product launches or updates."
-      ],
-      "raw": {
-        "action": "SELL",
-        "confidence": 0.8,
-        "rationale": "Recent news events and market sentiment indicate significant legal and regulatory risks for Tesla, which could negatively impact its near-term operations and investor confidence.",
-        "key_drivers": [
-          "Lawsuit alleging anti-American bias in hiring: The judge has refused to dismiss the case, adding uncertainty to Tesla's hiring practices.",
-          "Regulatory pressure on Autopilot: Facing lawsuits from California’s DMV and other regulatory bodies, impacting near-term operations."
-        ],
-        "key_risks": [
-          "Legal challenges could delay or disrupt production of key models like Model S and Model X.",
-          "Negative investor sentiment due to criticism from short sellers and regulatory pressures."
-        ],
-        "valuation_view": "Fair value not explicitly stated; however, recent news suggests potential overvaluation given the legal and operational risks.",
-        "counterfactuals": [
-          "If Tesla successfully resolves all pending lawsuits and regulatory issues within the next month, this could reverse market sentiment.",
-          "Positive developments in AI and robotics projects could also shift investor confidence positively."
-        ],
-        "next_checks": [
-          "Outcome of ongoing legal proceedings against Tesla.",
-          "Tesla's response to regulatory challenges and any new product launches or updates."
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:38:28+09:00",
-      "action": "SELL",
-      "confidence": 0.75,
-      "rationale": "Recent news events and market sentiment indicate significant legal and regulatory risks for Tesla, which could negatively impact its stock performance.",
-      "key_drivers": [
-        "Lawsuit alleging anti-American hiring bias: The judge has refused to dismiss the case, indicating potential long-term negative implications for investor confidence.",
-        "Regulatory pressure on Autopilot: Legal challenges related to Autopilot marketing are mounting, adding to operational uncertainties."
-      ],
-      "key_risks": [
-        "Potential legal costs and delays in product development could strain Tesla's financial resources.",
-        "Negative market sentiment from short sellers and critical media coverage may continue to affect stock prices."
-      ],
-      "valuation_view": "Fair value is not explicitly stated, but the current bearish technical analysis suggests undervaluation relative to recent performance.",
-      "counterfactuals": [
-        "A favorable resolution of legal challenges could reverse market sentiment and justify a buy recommendation.",
-        "Significant positive news regarding Autopilot or other product launches could also change investor perceptions."
-      ],
-      "next_checks": [
-        "Outcome of the ongoing lawsuit alleging anti-American hiring bias.",
-        "Tesla's response to regulatory pressures on Autopilot marketing.",
-        "Market reaction to any upcoming product announcements or financial reports."
-      ],
-      "raw": {
-        "action": "SELL",
-        "confidence": 0.75,
-        "rationale": "Recent news events and market sentiment indicate significant legal and regulatory risks for Tesla, which could negatively impact its stock performance.",
-        "key_drivers": [
-          "Lawsuit alleging anti-American hiring bias: The judge has refused to dismiss the case, indicating potential long-term negative implications for investor confidence.",
-          "Regulatory pressure on Autopilot: Legal challenges related to Autopilot marketing are mounting, adding to operational uncertainties."
-        ],
-        "key_risks": [
-          "Potential legal costs and delays in product development could strain Tesla's financial resources.",
-          "Negative market sentiment from short sellers and critical media coverage may continue to affect stock prices."
-        ],
-        "valuation_view": "Fair value is not explicitly stated, but the current bearish technical analysis suggests undervaluation relative to recent performance.",
-        "counterfactuals": [
-          "A favorable resolution of legal challenges could reverse market sentiment and justify a buy recommendation.",
-          "Significant positive news regarding Autopilot or other product launches could also change investor perceptions."
-        ],
-        "next_checks": [
-          "Outcome of the ongoing lawsuit alleging anti-American hiring bias.",
-          "Tesla's response to regulatory pressures on Autopilot marketing.",
-          "Market reaction to any upcoming product announcements or financial reports."
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:36:40+09:00",
-      "action": "SELL",
-      "confidence": 0.8,
-      "rationale": "Current market conditions and recent news events indicate a bearish sentiment towards Tesla (TSLA). Recent legal challenges, including the lawsuit alleging anti-American hiring bias and regulatory pressures related to Autopilot marketing, are negatively impacting investor confidence. Additionally, the company's refocus on AI and robotics may divert resources from its core business, potentially affecting near-term operations.",
-      "key_drivers": [
-        "Lawsuit challenging Tesla's hiring practices",
-        "Regulatory pressure linked to Autopilot marketing",
-        "Refocusing on AI and robotics at the expense of core business"
-      ],
-      "key_risks": [
-        "Potential negative impact on investor confidence due to legal challenges",
-        "Risk of reduced focus on core automotive operations",
-        "Uncertainty in achieving ambitious AI and robotics goals"
-      ],
-      "valuation_view": "Fair value is not explicitly stated, but recent market performance suggests the stock may be overvalued given current risks.",
-      "counterfactuals": [
-        "A favorable resolution to the hiring bias lawsuit could improve investor sentiment",
-        "Successful execution of AI and robotics projects without significant delays or cost overruns"
-      ],
-      "next_checks": [
-        "Outcome of the hiring bias lawsuit",
-        "Progress on AI and robotics projects",
-        "Impact of regulatory pressures on Autopilot marketing"
-      ],
-      "raw": {
-        "action": "SELL",
-        "confidence": 0.8,
-        "rationale": "Current market conditions and recent news events indicate a bearish sentiment towards Tesla (TSLA). Recent legal challenges, including the lawsuit alleging anti-American hiring bias and regulatory pressures related to Autopilot marketing, are negatively impacting investor confidence. Additionally, the company's refocus on AI and robotics may divert resources from its core business, potentially affecting near-term operations.",
-        "key_drivers": [
-          "Lawsuit challenging Tesla's hiring practices",
-          "Regulatory pressure linked to Autopilot marketing",
-          "Refocusing on AI and robotics at the expense of core business"
-        ],
-        "key_risks": [
-          "Potential negative impact on investor confidence due to legal challenges",
-          "Risk of reduced focus on core automotive operations",
-          "Uncertainty in achieving ambitious AI and robotics goals"
-        ],
-        "valuation_view": "Fair value is not explicitly stated, but recent market performance suggests the stock may be overvalued given current risks.",
-        "counterfactuals": [
-          "A favorable resolution to the hiring bias lawsuit could improve investor sentiment",
-          "Successful execution of AI and robotics projects without significant delays or cost overruns"
-        ],
-        "next_checks": [
-          "Outcome of the hiring bias lawsuit",
-          "Progress on AI and robotics projects",
-          "Impact of regulatory pressures on Autopilot marketing"
         ],
         "position_plan": {
           "prefer_qty": 0,

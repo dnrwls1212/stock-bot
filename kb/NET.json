@@ -1,6 +1,6 @@
 {
   "ticker": "NET",
-  "updated_at": "2026-02-27T07:09:25+09:00",
+  "updated_at": "2026-02-28T03:04:53+09:00",
   "thesis": "",
   "business_summary": "",
   "moat": "",
@@ -375,6 +375,948 @@
     }
   ],
   "decisions": [
+    {
+      "ts_kst": "2026-02-28T03:04:53+09:00",
+      "action": "HOLD",
+      "confidence": 0.56,
+      "rationale": "Current market conditions and recent news indicate a neutral to slightly bearish sentiment towards the stock, with no significant positive catalysts in sight.",
+      "key_drivers": [
+        "Bearish technical analysis score (-0.6)",
+        "Negative earnings report for Baidu impacting overall tech sector sentiment",
+        "Neutral partnership announcement between Intel and SambaNova"
+      ],
+      "key_risks": [
+        "Continued poor performance in the cybersecurity and AI sectors",
+        "Potential further declines if no positive news or catalysts emerge soon"
+      ],
+      "valuation_view": "Current fair value is not clearly defined, with recent events suggesting a need for caution.",
+      "counterfactuals": [
+        "Positive earnings report from major tech companies could shift sentiment positively",
+        "Significant product launches or partnerships that boost investor confidence"
+      ],
+      "next_checks": [
+        "Monitor upcoming earnings reports and news related to the cybersecurity and AI sectors",
+        "Watch for any significant changes in technical indicators or market trends"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.56,
+        "rationale": "Current market conditions and recent news indicate a neutral to slightly bearish sentiment towards the stock, with no significant positive catalysts in sight.",
+        "key_drivers": [
+          "Bearish technical analysis score (-0.6)",
+          "Negative earnings report for Baidu impacting overall tech sector sentiment",
+          "Neutral partnership announcement between Intel and SambaNova"
+        ],
+        "key_risks": [
+          "Continued poor performance in the cybersecurity and AI sectors",
+          "Potential further declines if no positive news or catalysts emerge soon"
+        ],
+        "valuation_view": "Current fair value is not clearly defined, with recent events suggesting a need for caution.",
+        "counterfactuals": [
+          "Positive earnings report from major tech companies could shift sentiment positively",
+          "Significant product launches or partnerships that boost investor confidence"
+        ],
+        "next_checks": [
+          "Monitor upcoming earnings reports and news related to the cybersecurity and AI sectors",
+          "Watch for any significant changes in technical indicators or market trends"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:45:43+09:00",
+      "action": "HOLD",
+      "confidence": 0.56,
+      "rationale": "Current market conditions and recent news indicate a neutral sentiment with no significant positive or negative drivers affecting the stock.",
+      "key_drivers": [
+        "Neutral sentiment from recent earnings reports and partnerships"
+      ],
+      "key_risks": [
+        "Negative impact from weak financial performance of related companies (e.g., Baidu)"
+      ],
+      "valuation_view": "No clear fair value estimate available; market conditions are neutral",
+      "counterfactuals": [
+        "Positive news or strong earnings report could change sentiment to bullish"
+      ],
+      "next_checks": [
+        "Monitor for any significant positive or negative news impacting the stock"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.56,
+        "rationale": "Current market conditions and recent news indicate a neutral sentiment with no significant positive or negative drivers affecting the stock.",
+        "key_drivers": [
+          "Neutral sentiment from recent earnings reports and partnerships"
+        ],
+        "key_risks": [
+          "Negative impact from weak financial performance of related companies (e.g., Baidu)"
+        ],
+        "valuation_view": "No clear fair value estimate available; market conditions are neutral",
+        "counterfactuals": [
+          "Positive news or strong earnings report could change sentiment to bullish"
+        ],
+        "next_checks": [
+          "Monitor for any significant positive or negative news impacting the stock"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:42:38+09:00",
+      "action": "HOLD",
+      "confidence": 0.56,
+      "rationale": "Current market conditions and recent news indicate a neutral to slightly bearish sentiment towards the stock, with no significant positive catalysts in sight.",
+      "key_drivers": [
+        "Bearish technical analysis",
+        "Limited impact from recent news"
+      ],
+      "key_risks": [
+        "Further negative earnings reports or economic downturn could exacerbate current trends"
+      ],
+      "valuation_view": "No clear fair value estimate available due to lack of specific valuation metrics",
+      "counterfactuals": [
+        "Positive earnings report or significant market rally could change sentiment"
+      ],
+      "next_checks": [
+        "Monitor for any major news events or changes in technical indicators over the next few days"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.56,
+        "rationale": "Current market conditions and recent news indicate a neutral to slightly bearish sentiment towards the stock, with no significant positive catalysts in sight.",
+        "key_drivers": [
+          "Bearish technical analysis",
+          "Limited impact from recent news"
+        ],
+        "key_risks": [
+          "Further negative earnings reports or economic downturn could exacerbate current trends"
+        ],
+        "valuation_view": "No clear fair value estimate available due to lack of specific valuation metrics",
+        "counterfactuals": [
+          "Positive earnings report or significant market rally could change sentiment"
+        ],
+        "next_checks": [
+          "Monitor for any major news events or changes in technical indicators over the next few days"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:39:36+09:00",
+      "action": "HOLD",
+      "confidence": 0.56,
+      "rationale": "Current market conditions and recent news indicate a neutral to slightly bearish sentiment towards the stock, with no significant positive catalysts in sight.",
+      "key_drivers": [
+        "Bearish technical analysis signals",
+        "Limited impact from recent partnership announcements"
+      ],
+      "key_risks": [
+        "Negative earnings reports or weak financial performance from peers",
+        "Increased competition in AI and cybersecurity sectors"
+      ],
+      "valuation_view": "No significant change in valuation assumptions; fair value remains uncertain.",
+      "counterfactuals": [
+        "Positive earnings surprises could shift sentiment to bullish",
+        "Major breakthroughs in AI technology by competitors may impact market share"
+      ],
+      "next_checks": [
+        "Monitor Q4 earnings reports and guidance from key players in the industry",
+        "Watch for any significant product launches or strategic partnerships that could alter competitive dynamics"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.56,
+        "rationale": "Current market conditions and recent news indicate a neutral to slightly bearish sentiment towards the stock, with no significant positive catalysts in sight.",
+        "key_drivers": [
+          "Bearish technical analysis signals",
+          "Limited impact from recent partnership announcements"
+        ],
+        "key_risks": [
+          "Negative earnings reports or weak financial performance from peers",
+          "Increased competition in AI and cybersecurity sectors"
+        ],
+        "valuation_view": "No significant change in valuation assumptions; fair value remains uncertain.",
+        "counterfactuals": [
+          "Positive earnings surprises could shift sentiment to bullish",
+          "Major breakthroughs in AI technology by competitors may impact market share"
+        ],
+        "next_checks": [
+          "Monitor Q4 earnings reports and guidance from key players in the industry",
+          "Watch for any significant product launches or strategic partnerships that could alter competitive dynamics"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:36:22+09:00",
+      "action": "HOLD",
+      "confidence": 0.56,
+      "rationale": "현재 주가와 기술적 분석은 약세를 나타내고 있으며, 최근 뉴스 이벤트는 중립적이거나 부정적인 영향을 미치고 있습니다.",
+      "key_drivers": [
+        "Baidu의 실적 부진",
+        "Intel과 SambaNova의 파트너십"
+      ],
+      "key_risks": [
+        "기술적 분석이 계속 약세를 나타낼 경우 추가 하락 가능성이 있음"
+      ],
+      "valuation_view": "현재 공정가치 평가는 제공되지 않았습니다.",
+      "counterfactuals": [
+        "Baidu와 같은 기업들의 실적이 개선될 경우 시장 전반적인 분위기가 개선될 수 있습니다."
+      ],
+      "next_checks": [
+        "Baidu 및 관련 기술주들의 주요 이벤트를 모니터링"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.56,
+        "rationale": "현재 주가와 기술적 분석은 약세를 나타내고 있으며, 최근 뉴스 이벤트는 중립적이거나 부정적인 영향을 미치고 있습니다.",
+        "key_drivers": [
+          "Baidu의 실적 부진",
+          "Intel과 SambaNova의 파트너십"
+        ],
+        "key_risks": [
+          "기술적 분석이 계속 약세를 나타낼 경우 추가 하락 가능성이 있음"
+        ],
+        "valuation_view": "현재 공정가치 평가는 제공되지 않았습니다.",
+        "counterfactuals": [
+          "Baidu와 같은 기업들의 실적이 개선될 경우 시장 전반적인 분위기가 개선될 수 있습니다."
+        ],
+        "next_checks": [
+          "Baidu 및 관련 기술주들의 주요 이벤트를 모니터링"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:14:40+09:00",
+      "action": "HOLD",
+      "confidence": 0.56,
+      "rationale": "현재 시장 상황은 위험온 모드이며, 기술적 분석과 뉴스 스코어가 약세를 나타내고 있습니다. 그러나 최근 뉴스 이벤트는 중립적이거나 부정적인 영향을 미치며 큰 변화는 없습니다.",
+      "key_drivers": [
+        "기술적 분석이 약세",
+        "최근 뉴스 이벤트의 부정적 영향"
+      ],
+      "key_risks": [
+        "시장 전반적인 악화 가능성",
+        "기업 실적 부진"
+      ],
+      "valuation_view": "현재 공정가치 평가는 제공되지 않았습니다.",
+      "counterfactuals": [
+        "긍정적인 기업 실적 발표나 시장 상황 개선"
+      ],
+      "next_checks": [
+        "기술적 지표의 변화",
+        "중요한 기업 뉴스 이벤트"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.56,
+        "rationale": "현재 시장 상황은 위험온 모드이며, 기술적 분석과 뉴스 스코어가 약세를 나타내고 있습니다. 그러나 최근 뉴스 이벤트는 중립적이거나 부정적인 영향을 미치며 큰 변화는 없습니다.",
+        "key_drivers": [
+          "기술적 분석이 약세",
+          "최근 뉴스 이벤트의 부정적 영향"
+        ],
+        "key_risks": [
+          "시장 전반적인 악화 가능성",
+          "기업 실적 부진"
+        ],
+        "valuation_view": "현재 공정가치 평가는 제공되지 않았습니다.",
+        "counterfactuals": [
+          "긍정적인 기업 실적 발표나 시장 상황 개선"
+        ],
+        "next_checks": [
+          "기술적 지표의 변화",
+          "중요한 기업 뉴스 이벤트"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:11:31+09:00",
+      "action": "HOLD",
+      "confidence": 0.56,
+      "rationale": "Current market regime is risk-on but technical analysis and recent news indicate a bearish trend, leading to a SELL signal. However, no position exists, so holding current stance.",
+      "key_drivers": [
+        "Bearish technical indicators",
+        "Limited positive news impact"
+      ],
+      "key_risks": [
+        "Further decline in stock price due to weak market sentiment",
+        "Potential negative earnings reports or economic downturns"
+      ],
+      "valuation_view": "No recent valuation update available, fair value not determined.",
+      "counterfactuals": [
+        "Positive earnings report could change technical analysis and news scores positively."
+      ],
+      "next_checks": [
+        "Monitor for any significant positive news events",
+        "Review technical indicators for potential bullish reversal"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.56,
+        "rationale": "Current market regime is risk-on but technical analysis and recent news indicate a bearish trend, leading to a SELL signal. However, no position exists, so holding current stance.",
+        "key_drivers": [
+          "Bearish technical indicators",
+          "Limited positive news impact"
+        ],
+        "key_risks": [
+          "Further decline in stock price due to weak market sentiment",
+          "Potential negative earnings reports or economic downturns"
+        ],
+        "valuation_view": "No recent valuation update available, fair value not determined.",
+        "counterfactuals": [
+          "Positive earnings report could change technical analysis and news scores positively."
+        ],
+        "next_checks": [
+          "Monitor for any significant positive news events",
+          "Review technical indicators for potential bullish reversal"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:05:52+09:00",
+      "action": "HOLD",
+      "confidence": 0.56,
+      "rationale": "현재 주가는 168.71원이며, 시장은 위험 선호 모드에 있습니다. 최근 뉴스와 기술적 분석을 종합하면 주식 가격의 움직임이 제한적입니다.",
+      "key_drivers": [
+        "Baidu의 약세",
+        "Intel과 SambaNova의 파트너십"
+      ],
+      "key_risks": [
+        "기술적 지표가 부정적",
+        "최근 뉴스 이벤트 없음"
+      ],
+      "valuation_view": "공정 가치 평가는 제공되지 않았습니다.",
+      "counterfactuals": [
+        "Baidu의 재무 성과 개선",
+        "AI 관련 수요 증가"
+      ],
+      "next_checks": [
+        "Baidu와 관련된 추가 뉴스",
+        "Cloudflare의 AI 관련 수익 동향"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.56,
+        "rationale": "현재 주가는 168.71원이며, 시장은 위험 선호 모드에 있습니다. 최근 뉴스와 기술적 분석을 종합하면 주식 가격의 움직임이 제한적입니다.",
+        "key_drivers": [
+          "Baidu의 약세",
+          "Intel과 SambaNova의 파트너십"
+        ],
+        "key_risks": [
+          "기술적 지표가 부정적",
+          "최근 뉴스 이벤트 없음"
+        ],
+        "valuation_view": "공정 가치 평가는 제공되지 않았습니다.",
+        "counterfactuals": [
+          "Baidu의 재무 성과 개선",
+          "AI 관련 수요 증가"
+        ],
+        "next_checks": [
+          "Baidu와 관련된 추가 뉴스",
+          "Cloudflare의 AI 관련 수익 동향"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:01:10+09:00",
+      "action": "HOLD",
+      "confidence": 0.56,
+      "rationale": "현재 주가는 안정적 수준에 있으며, 최근 뉴스 이벤트가 큰 영향을 미치지 않았다.",
+      "key_drivers": [
+        "Intel과 SambaNova의 파트너십",
+        "Fortinet의 고조된 현금 흐름"
+      ],
+      "key_risks": [
+        "Baidu의 약세 경향",
+        "중국 시장 불확실성"
+      ],
+      "valuation_view": "현재 주가는 공정가치 수준에 있으며, 추가적인 긍정적 이벤트 없이는 큰 변동성이 예상되지 않는다.",
+      "counterfactuals": [
+        "Baidu의 실적이 개선되거나 중국 경제 전망이 밝아질 경우"
+      ],
+      "next_checks": [
+        "Intel과 SambaNova 파트너십의 구체적인 성과",
+        "Fortinet의 재무 건전성 지속"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.56,
+        "rationale": "현재 주가는 안정적 수준에 있으며, 최근 뉴스 이벤트가 큰 영향을 미치지 않았다.",
+        "key_drivers": [
+          "Intel과 SambaNova의 파트너십",
+          "Fortinet의 고조된 현금 흐름"
+        ],
+        "key_risks": [
+          "Baidu의 약세 경향",
+          "중국 시장 불확실성"
+        ],
+        "valuation_view": "현재 주가는 공정가치 수준에 있으며, 추가적인 긍정적 이벤트 없이는 큰 변동성이 예상되지 않는다.",
+        "counterfactuals": [
+          "Baidu의 실적이 개선되거나 중국 경제 전망이 밝아질 경우"
+        ],
+        "next_checks": [
+          "Intel과 SambaNova 파트너십의 구체적인 성과",
+          "Fortinet의 재무 건전성 지속"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:58:10+09:00",
+      "action": "HOLD",
+      "confidence": 0.56,
+      "rationale": "현재 주가는 169.21원이며, 시장 여건은 위험 선호 모드(risk_on)로 판단됩니다. 그러나 최근 뉴스 및 기술적 분석(TA)을 종합하면 주가 움직임이 제한적입니다.",
+      "key_drivers": [
+        "클라우드리프의 AI 관련 수요 증가와 강력한 Q4 실적",
+        "중국 Baidu의 약세로 인해 투자 심리 위축"
+      ],
+      "key_risks": [
+        "Baidu의 악화된 재무 성과가 전체 시장에 부정적인 영향을 미칠 수 있음",
+        "클라우드리프의 주가는 아직 높은 평가를 받고 있어 조정 가능성이 존재"
+      ],
+      "valuation_view": "현재 주가는 고평가 상태로 판단되며, 실적 개선과 함께 추가적인 상승 여력이 제한적입니다.",
+      "counterfactuals": [
+        "Baidu의 재무 성적이 개선되고 중국 시장 전반적으로 긍정적인 신호가 나타나면 주식 시장 전체가 회복될 수 있음",
+        "클라우드리프의 AI 관련 수요 증가는 계속되지만, 고평가 상태에서 추가적인 상승은 제한적일 가능성이 높습니다."
+      ],
+      "next_checks": [
+        "Baidu와 중국 시장 전반의 재무 성과 및 경제 지표",
+        "클라우드리프의 AI 관련 수요 동향"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.56,
+        "rationale": "현재 주가는 169.21원이며, 시장 여건은 위험 선호 모드(risk_on)로 판단됩니다. 그러나 최근 뉴스 및 기술적 분석(TA)을 종합하면 주가 움직임이 제한적입니다.",
+        "key_drivers": [
+          "클라우드리프의 AI 관련 수요 증가와 강력한 Q4 실적",
+          "중국 Baidu의 약세로 인해 투자 심리 위축"
+        ],
+        "key_risks": [
+          "Baidu의 악화된 재무 성과가 전체 시장에 부정적인 영향을 미칠 수 있음",
+          "클라우드리프의 주가는 아직 높은 평가를 받고 있어 조정 가능성이 존재"
+        ],
+        "valuation_view": "현재 주가는 고평가 상태로 판단되며, 실적 개선과 함께 추가적인 상승 여력이 제한적입니다.",
+        "counterfactuals": [
+          "Baidu의 재무 성적이 개선되고 중국 시장 전반적으로 긍정적인 신호가 나타나면 주식 시장 전체가 회복될 수 있음",
+          "클라우드리프의 AI 관련 수요 증가는 계속되지만, 고평가 상태에서 추가적인 상승은 제한적일 가능성이 높습니다."
+        ],
+        "next_checks": [
+          "Baidu와 중국 시장 전반의 재무 성과 및 경제 지표",
+          "클라우드리프의 AI 관련 수요 동향"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:55:05+09:00",
+      "action": "HOLD",
+      "confidence": 0.56,
+      "rationale": "현재 주가는 상승세를 보이고 있으나, 최근 뉴스와 기술적 분석은 별다른 변화가 없어 추가적인 매수 또는 매도 신호는 없다.",
+      "key_drivers": [
+        "네이버의 광고 수익 증가 전망",
+        "인텔과 샌바노바의 파트너십"
+      ],
+      "key_risks": [
+        "바이두의 약세 경향",
+        "포트넷의 주가 하락"
+      ],
+      "valuation_view": "현재 공정가치 평가는 제공되지 않았다.",
+      "counterfactuals": [
+        "네이버의 광고 수익 성장이 예상보다 둔화될 경우, 주가 하락 가능성 있음"
+      ],
+      "next_checks": [
+        "네이버의 실적 발표 및 시장 반응",
+        "인텔과 샌바노바 파트너십의 구체적인 진행 상황"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.56,
+        "rationale": "현재 주가는 상승세를 보이고 있으나, 최근 뉴스와 기술적 분석은 별다른 변화가 없어 추가적인 매수 또는 매도 신호는 없다.",
+        "key_drivers": [
+          "네이버의 광고 수익 증가 전망",
+          "인텔과 샌바노바의 파트너십"
+        ],
+        "key_risks": [
+          "바이두의 약세 경향",
+          "포트넷의 주가 하락"
+        ],
+        "valuation_view": "현재 공정가치 평가는 제공되지 않았다.",
+        "counterfactuals": [
+          "네이버의 광고 수익 성장이 예상보다 둔화될 경우, 주가 하락 가능성 있음"
+        ],
+        "next_checks": [
+          "네이버의 실적 발표 및 시장 반응",
+          "인텔과 샌바노바 파트너십의 구체적인 진행 상황"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:28:12+09:00",
+      "action": "HOLD",
+      "confidence": 0.56,
+      "rationale": "Current market regime is risk-off with negative valuation score and bearish technical analysis. Recent news events are neutral to slightly negative, indicating no significant change in sentiment or fundamentals.",
+      "key_drivers": [
+        "Bearish technical signals",
+        "Risk-off market regime"
+      ],
+      "key_risks": [
+        "Further decline in stock price due to continued negative market conditions",
+        "Earnings disappointment if company reports weak financials"
+      ],
+      "valuation_view": "No recent changes in valuation assumptions, fair value not provided",
+      "counterfactuals": [
+        "Positive earnings report or unexpected positive news could change sentiment and technical signals"
+      ],
+      "next_checks": [
+        "Monitor for any significant earnings announcements or market regime shifts",
+        "Watch for any major developments in AI sector that may impact stock price"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.56,
+        "rationale": "Current market regime is risk-off with negative valuation score and bearish technical analysis. Recent news events are neutral to slightly negative, indicating no significant change in sentiment or fundamentals.",
+        "key_drivers": [
+          "Bearish technical signals",
+          "Risk-off market regime"
+        ],
+        "key_risks": [
+          "Further decline in stock price due to continued negative market conditions",
+          "Earnings disappointment if company reports weak financials"
+        ],
+        "valuation_view": "No recent changes in valuation assumptions, fair value not provided",
+        "counterfactuals": [
+          "Positive earnings report or unexpected positive news could change sentiment and technical signals"
+        ],
+        "next_checks": [
+          "Monitor for any significant earnings announcements or market regime shifts",
+          "Watch for any major developments in AI sector that may impact stock price"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:25:23+09:00",
+      "action": "HOLD",
+      "confidence": 0.56,
+      "rationale": "Current market regime is risk-off with a negative technical score and no recent impactful news events affecting the stock.",
+      "key_drivers": [
+        "Risk-off market conditions",
+        "Bearish technical analysis"
+      ],
+      "key_risks": [
+        "Negative sentiment from Baidu's earnings report could spill over to tech sector",
+        "Limited positive impact from Intel-SambaNova partnership"
+      ],
+      "valuation_view": "No fair value estimate available due to lack of recent valuation updates.",
+      "counterfactuals": [
+        "Positive market regime shift or strong company-specific news could change the outlook"
+      ],
+      "next_checks": [
+        "Monitor for any significant earnings reports or major announcements in the tech sector",
+        "Watch for changes in market sentiment and technical indicators"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.56,
+        "rationale": "Current market regime is risk-off with a negative technical score and no recent impactful news events affecting the stock.",
+        "key_drivers": [
+          "Risk-off market conditions",
+          "Bearish technical analysis"
+        ],
+        "key_risks": [
+          "Negative sentiment from Baidu's earnings report could spill over to tech sector",
+          "Limited positive impact from Intel-SambaNova partnership"
+        ],
+        "valuation_view": "No fair value estimate available due to lack of recent valuation updates.",
+        "counterfactuals": [
+          "Positive market regime shift or strong company-specific news could change the outlook"
+        ],
+        "next_checks": [
+          "Monitor for any significant earnings reports or major announcements in the tech sector",
+          "Watch for changes in market sentiment and technical indicators"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:22:33+09:00",
+      "action": "HOLD",
+      "confidence": 0.56,
+      "rationale": "Current market regime is risk-off with a bearish technical score and no recent impactful news events.",
+      "key_drivers": [
+        "Bearish technical analysis",
+        "No significant positive news"
+      ],
+      "key_risks": [
+        "Further negative sentiment from the broader market",
+        "Earnings reports or partnerships that could impact valuation"
+      ],
+      "valuation_view": "Fair value not calculated due to lack of recent data points and no position.",
+      "counterfactuals": [
+        "Positive earnings report or unexpected partnership announcements could change sentiment"
+      ],
+      "next_checks": [
+        "Monitor for any significant news events impacting the stock",
+        "Review technical indicators for potential reversals"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.56,
+        "rationale": "Current market regime is risk-off with a bearish technical score and no recent impactful news events.",
+        "key_drivers": [
+          "Bearish technical analysis",
+          "No significant positive news"
+        ],
+        "key_risks": [
+          "Further negative sentiment from the broader market",
+          "Earnings reports or partnerships that could impact valuation"
+        ],
+        "valuation_view": "Fair value not calculated due to lack of recent data points and no position.",
+        "counterfactuals": [
+          "Positive earnings report or unexpected partnership announcements could change sentiment"
+        ],
+        "next_checks": [
+          "Monitor for any significant news events impacting the stock",
+          "Review technical indicators for potential reversals"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:19:36+09:00",
+      "action": "HOLD",
+      "confidence": 0.56,
+      "rationale": "Current market regime is risk-off with a bearish technical score and no recent impactful news events affecting the stock.",
+      "key_drivers": [
+        "Bearish technical analysis",
+        "No significant positive news"
+      ],
+      "key_risks": [
+        "Negative earnings reports from peers (e.g., Baidu)",
+        "Market sentiment remains weak"
+      ],
+      "valuation_view": "Fair value not determined due to lack of recent valuation updates",
+      "counterfactuals": [
+        "Positive earnings report or major partnership announcement could change market sentiment"
+      ],
+      "next_checks": [
+        "Monitor for any significant news events impacting the stock",
+        "Watch technical indicators for potential trend changes"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.56,
+        "rationale": "Current market regime is risk-off with a bearish technical score and no recent impactful news events affecting the stock.",
+        "key_drivers": [
+          "Bearish technical analysis",
+          "No significant positive news"
+        ],
+        "key_risks": [
+          "Negative earnings reports from peers (e.g., Baidu)",
+          "Market sentiment remains weak"
+        ],
+        "valuation_view": "Fair value not determined due to lack of recent valuation updates",
+        "counterfactuals": [
+          "Positive earnings report or major partnership announcement could change market sentiment"
+        ],
+        "next_checks": [
+          "Monitor for any significant news events impacting the stock",
+          "Watch technical indicators for potential trend changes"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:16:32+09:00",
+      "action": "HOLD",
+      "confidence": 0.56,
+      "rationale": "Current market regime is risk-off with negative sentiment and technical indicators suggesting a bearish trend. Recent news events have had minimal impact on the stock price, maintaining neutral to slightly negative scores.",
+      "key_drivers": [
+        "Bearish technical analysis",
+        "No significant positive news impacting the stock"
+      ],
+      "key_risks": [
+        "Continued weak market sentiment",
+        "Potential for further downward pressure due to broader market conditions"
+      ],
+      "valuation_view": "Fair value not provided, but current price suggests no immediate undervaluation or overvaluation based on recent events.",
+      "counterfactuals": [
+        "Positive earnings report from major tech companies could shift market sentiment",
+        "Significant positive news related to AI and cybersecurity investments"
+      ],
+      "next_checks": [
+        "Monitor broader market trends for any shifts in risk-on/risk-off regimes",
+        "Watch for significant company-specific news or events that may impact stock price"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.56,
+        "rationale": "Current market regime is risk-off with negative sentiment and technical indicators suggesting a bearish trend. Recent news events have had minimal impact on the stock price, maintaining neutral to slightly negative scores.",
+        "key_drivers": [
+          "Bearish technical analysis",
+          "No significant positive news impacting the stock"
+        ],
+        "key_risks": [
+          "Continued weak market sentiment",
+          "Potential for further downward pressure due to broader market conditions"
+        ],
+        "valuation_view": "Fair value not provided, but current price suggests no immediate undervaluation or overvaluation based on recent events.",
+        "counterfactuals": [
+          "Positive earnings report from major tech companies could shift market sentiment",
+          "Significant positive news related to AI and cybersecurity investments"
+        ],
+        "next_checks": [
+          "Monitor broader market trends for any shifts in risk-on/risk-off regimes",
+          "Watch for significant company-specific news or events that may impact stock price"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:06:34+09:00",
+      "action": "HOLD",
+      "confidence": 0.56,
+      "rationale": "Current market regime is risk-off with a bearish technical score and negative valuation score, indicating overall weakness in the market.",
+      "key_drivers": [
+        "Bearish technical analysis (ta=bearish)",
+        "Negative recent news sentiment",
+        "No significant positive catalysts"
+      ],
+      "key_risks": [
+        "Further decline in market sentiment",
+        "Earnings disappointment from major tech companies",
+        "Continued weakness in AI-related stocks"
+      ],
+      "valuation_view": "Current fair value is not determined, and the risk-off regime suggests caution.",
+      "counterfactuals": [
+        "Positive earnings reports or unexpected positive news could change market sentiment."
+      ],
+      "next_checks": [
+        "Monitor for any significant changes in technical indicators",
+        "Watch for major company announcements or earnings reports"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.56,
+        "rationale": "Current market regime is risk-off with a bearish technical score and negative valuation score, indicating overall weakness in the market.",
+        "key_drivers": [
+          "Bearish technical analysis (ta=bearish)",
+          "Negative recent news sentiment",
+          "No significant positive catalysts"
+        ],
+        "key_risks": [
+          "Further decline in market sentiment",
+          "Earnings disappointment from major tech companies",
+          "Continued weakness in AI-related stocks"
+        ],
+        "valuation_view": "Current fair value is not determined, and the risk-off regime suggests caution.",
+        "counterfactuals": [
+          "Positive earnings reports or unexpected positive news could change market sentiment."
+        ],
+        "next_checks": [
+          "Monitor for any significant changes in technical indicators",
+          "Watch for major company announcements or earnings reports"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:55:06+09:00",
+      "action": "HOLD",
+      "confidence": 0.56,
+      "rationale": "Current market regime is risk-off and technical analysis indicates a bearish trend. Recent news events have not significantly impacted the stock, maintaining neutral sentiment.",
+      "key_drivers": [
+        "Risk-off market regime",
+        "Bearish technical signals"
+      ],
+      "key_risks": [
+        "Further negative earnings reports or economic downturn"
+      ],
+      "valuation_view": "No recent significant changes in valuation assumptions",
+      "counterfactuals": [
+        "Positive earnings report or shift to risk-on market regime could change stance"
+      ],
+      "next_checks": [
+        "Monitor for any major news events impacting the stock",
+        "Review technical indicators for potential trend reversal"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.56,
+        "rationale": "Current market regime is risk-off and technical analysis indicates a bearish trend. Recent news events have not significantly impacted the stock, maintaining neutral sentiment.",
+        "key_drivers": [
+          "Risk-off market regime",
+          "Bearish technical signals"
+        ],
+        "key_risks": [
+          "Further negative earnings reports or economic downturn"
+        ],
+        "valuation_view": "No recent significant changes in valuation assumptions",
+        "counterfactuals": [
+          "Positive earnings report or shift to risk-on market regime could change stance"
+        ],
+        "next_checks": [
+          "Monitor for any major news events impacting the stock",
+          "Review technical indicators for potential trend reversal"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:52:07+09:00",
+      "action": "HOLD",
+      "confidence": 0.56,
+      "rationale": "Current market regime is risk-off with negative sentiment and technical indicators bearish. Recent news events have mixed impact but no significant positive catalysts.",
+      "key_drivers": [
+        "Bearish technical analysis",
+        "Negative market regime"
+      ],
+      "key_risks": [
+        "Further decline in stock price due to continued weak market conditions",
+        "Earnings or revenue warnings from major companies"
+      ],
+      "valuation_view": "No clear fair value estimate available; current focus on risk management",
+      "counterfactuals": [
+        "Positive earnings report could change sentiment and technical indicators",
+        "Market regime shifting to risk-on"
+      ],
+      "next_checks": [
+        "Monitor market regime changes",
+        "Watch for any positive news or catalysts"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.56,
+        "rationale": "Current market regime is risk-off with negative sentiment and technical indicators bearish. Recent news events have mixed impact but no significant positive catalysts.",
+        "key_drivers": [
+          "Bearish technical analysis",
+          "Negative market regime"
+        ],
+        "key_risks": [
+          "Further decline in stock price due to continued weak market conditions",
+          "Earnings or revenue warnings from major companies"
+        ],
+        "valuation_view": "No clear fair value estimate available; current focus on risk management",
+        "counterfactuals": [
+          "Positive earnings report could change sentiment and technical indicators",
+          "Market regime shifting to risk-on"
+        ],
+        "next_checks": [
+          "Monitor market regime changes",
+          "Watch for any positive news or catalysts"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:48:52+09:00",
+      "action": "HOLD",
+      "confidence": 0.56,
+      "rationale": "Current market regime is risk-off with a bearish technical score and negative valuation score, leading to a sell signal but held due to no recent news impacting position.",
+      "key_drivers": [
+        "Bearish technical analysis",
+        "Negative market regime"
+      ],
+      "key_risks": [
+        "Further decline in stock price if market sentiment remains negative",
+        "Earnings or other major announcements that could change the outlook"
+      ],
+      "valuation_view": "No fair value estimate available, but current signals suggest undervaluation due to risk-off environment",
+      "counterfactuals": [
+        "Positive earnings report or unexpected positive news could reverse sell signal and turn into a buy opportunity"
+      ],
+      "next_checks": [
+        "Monitor for any significant company-specific news or announcements",
+        "Watch broader market trends for potential regime shift"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.56,
+        "rationale": "Current market regime is risk-off with a bearish technical score and negative valuation score, leading to a sell signal but held due to no recent news impacting position.",
+        "key_drivers": [
+          "Bearish technical analysis",
+          "Negative market regime"
+        ],
+        "key_risks": [
+          "Further decline in stock price if market sentiment remains negative",
+          "Earnings or other major announcements that could change the outlook"
+        ],
+        "valuation_view": "No fair value estimate available, but current signals suggest undervaluation due to risk-off environment",
+        "counterfactuals": [
+          "Positive earnings report or unexpected positive news could reverse sell signal and turn into a buy opportunity"
+        ],
+        "next_checks": [
+          "Monitor for any significant company-specific news or announcements",
+          "Watch broader market trends for potential regime shift"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
     {
       "ts_kst": "2026-02-27T07:09:25+09:00",
       "action": "HOLD",
@@ -9612,1040 +10554,6 @@
         "next_checks": [
           "Monitor for any updates on ControlMonkey's partnership with network vendors",
           "Keep an eye on GeneDx Holdings Corp.'s performance and any further earnings reports"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:01:10+09:00",
-      "action": "HOLD",
-      "confidence": 0.6,
-      "rationale": "The recent news events include Elon Musk's musings on aging and ControlMonkey's expansion into network vendors, which are neutral in impact. Bloom Energy Corporation's partnership with Brookfield is bullish but has a lower confidence score compared to GeneDx Holdings Corp.'s earnings surge. The overall market regime suggests a neutral stance, and the technical analysis indicates a bearish trend. Given these factors, the current position remains appropriate.",
-      "key_drivers": [
-        "Bloom Energy Corporation's $5B partnership with Brookfield is positive but less impactful compared to GeneDx Holdings Corp.'s strong earnings and improved guidance.",
-        "Elon Musk's comments on aging are speculative and have no immediate market impact.",
-        "ControlMonkey's expansion into network vendors is neutral in terms of market reaction."
-      ],
-      "key_risks": [
-        "Market sentiment could shift if more companies announce significant partnerships or earnings surprises.",
-        "Technical indicators suggest a bearish trend, which could pressure prices further."
-      ],
-      "valuation_view": "The valuation score remains negative, indicating that the stock may be overvalued based on current metrics. However, this is not a strong enough signal to warrant an immediate sell action given the recent positive news events.",
-      "counterfactuals": [
-        "If GeneDx Holdings Corp.'s earnings or guidance deteriorate in the next quarter, it could lead to a reevaluation of the stock's value and potentially trigger a sell-off.",
-        "A significant bearish event in the tech sector could exacerbate the current bearish trend."
-      ],
-      "next_checks": [
-        "Monitor GeneDx Holdings Corp.'s upcoming earnings reports for any signs of weakening financial health.",
-        "Keep an eye on broader market trends and sentiment to gauge potential shifts in the overall environment."
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.6,
-        "rationale": "The recent news events include Elon Musk's musings on aging and ControlMonkey's expansion into network vendors, which are neutral in impact. Bloom Energy Corporation's partnership with Brookfield is bullish but has a lower confidence score compared to GeneDx Holdings Corp.'s earnings surge. The overall market regime suggests a neutral stance, and the technical analysis indicates a bearish trend. Given these factors, the current position remains appropriate.",
-        "key_drivers": [
-          "Bloom Energy Corporation's $5B partnership with Brookfield is positive but less impactful compared to GeneDx Holdings Corp.'s strong earnings and improved guidance.",
-          "Elon Musk's comments on aging are speculative and have no immediate market impact.",
-          "ControlMonkey's expansion into network vendors is neutral in terms of market reaction."
-        ],
-        "key_risks": [
-          "Market sentiment could shift if more companies announce significant partnerships or earnings surprises.",
-          "Technical indicators suggest a bearish trend, which could pressure prices further."
-        ],
-        "valuation_view": "The valuation score remains negative, indicating that the stock may be overvalued based on current metrics. However, this is not a strong enough signal to warrant an immediate sell action given the recent positive news events.",
-        "counterfactuals": [
-          "If GeneDx Holdings Corp.'s earnings or guidance deteriorate in the next quarter, it could lead to a reevaluation of the stock's value and potentially trigger a sell-off.",
-          "A significant bearish event in the tech sector could exacerbate the current bearish trend."
-        ],
-        "next_checks": [
-          "Monitor GeneDx Holdings Corp.'s upcoming earnings reports for any signs of weakening financial health.",
-          "Keep an eye on broader market trends and sentiment to gauge potential shifts in the overall environment."
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:59:15+09:00",
-      "action": "HOLD",
-      "confidence": 0.7,
-      "rationale": "The current market regime is neutral with a score of 0.2, and the technical analysis indicates a bearish trend (score -0.6). Recent news events include Elon Musk's comments on aging and ControlMonkey's expansion into network vendors, both of which have minimal impact scores. The recent earnings from GeneDx Holdings Corp. provided positive sentiment but are outweighed by the overall bearish market conditions. Given the lack of significant catalysts in the near term, it is prudent to hold the position.",
-      "key_drivers": [
-        "Neutral market regime",
-        "Bullish technical analysis",
-        "Minimal impact from recent news events"
-      ],
-      "key_risks": [
-        "Continued bearish market sentiment",
-        "Lack of significant positive catalysts in the near term"
-      ],
-      "valuation_view": "The valuation score is -0.8, indicating that the stock may be undervalued, but this is not a strong driver given the overall market conditions.",
-      "counterfactuals": [
-        "A significant positive earnings report or partnership announcement from Cloudflare (NET) could change the sentiment and warrant a re-evaluation of the position."
-      ],
-      "next_checks": [
-        "Monitor for any upcoming announcements or news events that could impact Cloudflare's stock price.",
-        "Review Polen Capital’s next investor letter for insights on the small growth strategy portfolio performance."
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.7,
-        "rationale": "The current market regime is neutral with a score of 0.2, and the technical analysis indicates a bearish trend (score -0.6). Recent news events include Elon Musk's comments on aging and ControlMonkey's expansion into network vendors, both of which have minimal impact scores. The recent earnings from GeneDx Holdings Corp. provided positive sentiment but are outweighed by the overall bearish market conditions. Given the lack of significant catalysts in the near term, it is prudent to hold the position.",
-        "key_drivers": [
-          "Neutral market regime",
-          "Bullish technical analysis",
-          "Minimal impact from recent news events"
-        ],
-        "key_risks": [
-          "Continued bearish market sentiment",
-          "Lack of significant positive catalysts in the near term"
-        ],
-        "valuation_view": "The valuation score is -0.8, indicating that the stock may be undervalued, but this is not a strong driver given the overall market conditions.",
-        "counterfactuals": [
-          "A significant positive earnings report or partnership announcement from Cloudflare (NET) could change the sentiment and warrant a re-evaluation of the position."
-        ],
-        "next_checks": [
-          "Monitor for any upcoming announcements or news events that could impact Cloudflare's stock price.",
-          "Review Polen Capital’s next investor letter for insights on the small growth strategy portfolio performance."
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:57:12+09:00",
-      "action": "HOLD",
-      "confidence": 0.6,
-      "rationale": "The current market regime is neutral with a score of 0.2, and the signal suggests holding due to recent news events being mostly neutral or unclear in impact. The valuation view indicates no clear fair value range, and the technical analysis shows a bearish trend. Given the lack of significant positive catalysts in recent news, it's prudent to maintain a neutral position.",
-      "key_drivers": [
-        "Neutral market regime with low score",
-        "Unclear or neutral impact from recent news events"
-      ],
-      "key_risks": [
-        "Bearing on bearish technical analysis",
-        "Lack of clear positive catalysts in recent news"
-      ],
-      "valuation_view": "No clear fair value range, valuation drivers not significantly changed.",
-      "counterfactuals": [
-        "A significant positive earnings report or partnership announcement could change the hold stance to a buy.",
-        "Further deterioration in technical analysis signals might lead to a sell recommendation."
-      ],
-      "next_checks": [
-        "Monitor for any upcoming major announcements from Cloudflare, Mastercard, or other relevant companies.",
-        "Review Polen Capital's next quarterly investor letter for further insights into their portfolio performance and strategy."
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.6,
-        "rationale": "The current market regime is neutral with a score of 0.2, and the signal suggests holding due to recent news events being mostly neutral or unclear in impact. The valuation view indicates no clear fair value range, and the technical analysis shows a bearish trend. Given the lack of significant positive catalysts in recent news, it's prudent to maintain a neutral position.",
-        "key_drivers": [
-          "Neutral market regime with low score",
-          "Unclear or neutral impact from recent news events"
-        ],
-        "key_risks": [
-          "Bearing on bearish technical analysis",
-          "Lack of clear positive catalysts in recent news"
-        ],
-        "valuation_view": "No clear fair value range, valuation drivers not significantly changed.",
-        "counterfactuals": [
-          "A significant positive earnings report or partnership announcement could change the hold stance to a buy.",
-          "Further deterioration in technical analysis signals might lead to a sell recommendation."
-        ],
-        "next_checks": [
-          "Monitor for any upcoming major announcements from Cloudflare, Mastercard, or other relevant companies.",
-          "Review Polen Capital's next quarterly investor letter for further insights into their portfolio performance and strategy."
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:55:17+09:00",
-      "action": "HOLD",
-      "confidence": 0.7,
-      "rationale": "The current market regime is neutral with a slight bearish bias, and recent news events do not provide strong directional signals. The partnership between Cloudflare and Mastercard could potentially enhance Cloudflare's offerings, but the details are still unclear. Given the lack of significant positive or negative catalysts in the recent news, it is prudent to hold the position.",
-      "key_drivers": [
-        "Neutral market regime with a slight bearish bias",
-        "Unclear impact from recent partnership announcements"
-      ],
-      "key_risks": [
-        "Potential negative impact if aging research does not yield practical results",
-        "Risk of market correction given current bearish sentiment"
-      ],
-      "valuation_view": "The valuation score is -0.8, indicating the stock may be undervalued, but this needs to be confirmed with more detailed analysis.",
-      "counterfactuals": [
-        "If Elon Musk's aging research yields practical results and gains widespread acceptance, it could significantly boost Cloudflare’s stock price.",
-        "A negative market correction driven by broader economic factors could negatively impact the stock."
-      ],
-      "next_checks": [
-        "Monitor for any updates on the partnership between Cloudflare and Mastercard",
-        "Follow Elon Musk's progress in aging research and its potential implications for the company"
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.7,
-        "rationale": "The current market regime is neutral with a slight bearish bias, and recent news events do not provide strong directional signals. The partnership between Cloudflare and Mastercard could potentially enhance Cloudflare's offerings, but the details are still unclear. Given the lack of significant positive or negative catalysts in the recent news, it is prudent to hold the position.",
-        "key_drivers": [
-          "Neutral market regime with a slight bearish bias",
-          "Unclear impact from recent partnership announcements"
-        ],
-        "key_risks": [
-          "Potential negative impact if aging research does not yield practical results",
-          "Risk of market correction given current bearish sentiment"
-        ],
-        "valuation_view": "The valuation score is -0.8, indicating the stock may be undervalued, but this needs to be confirmed with more detailed analysis.",
-        "counterfactuals": [
-          "If Elon Musk's aging research yields practical results and gains widespread acceptance, it could significantly boost Cloudflare’s stock price.",
-          "A negative market correction driven by broader economic factors could negatively impact the stock."
-        ],
-        "next_checks": [
-          "Monitor for any updates on the partnership between Cloudflare and Mastercard",
-          "Follow Elon Musk's progress in aging research and its potential implications for the company"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:53:24+09:00",
-      "action": "HOLD",
-      "confidence": 0.6,
-      "rationale": "The current market regime is neutral with a slight bearish technical analysis score. Recent news events, while varied in content, do not significantly impact the stock price according to the news sentiment score. The recent partnership between Cloudflare and Mastercard could potentially enhance Cloudflare's offerings but remains unclear as to its immediate impact.",
-      "key_drivers": [
-        "Neutral market regime",
-        "Bullish earnings from GeneDx Holdings Corp.",
-        "Potential enhancement in Cloudflare's offerings through the strategic partnership with Mastercard"
-      ],
-      "key_risks": [
-        "Unclear impact of recent news events on stock price",
-        "Technical analysis indicating a bearish trend",
-        "Lack of substantial information regarding the strategic partnership between Cloudflare and Mastercard"
-      ],
-      "valuation_view": "The valuation score is negative, suggesting that the current price may be overvalued. However, without a fair value estimate, it's challenging to determine if this assessment is accurate.",
-      "counterfactuals": [
-        "If GeneDx Holdings Corp.'s earnings decline or guidance worsens in the next quarter, it could negatively impact the stock price.",
-        "If the strategic partnership between Cloudflare and Mastercard does not materialize as expected, it may lead to a decrease in Cloudflare's stock price."
-      ],
-      "next_checks": [
-        "Monitor GeneDx Holdings Corp.'s upcoming earnings reports for any changes in guidance or financial performance.",
-        "Observe the progress of the strategic partnership between Cloudflare and Mastercard for any updates on its implementation and benefits."
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.6,
-        "rationale": "The current market regime is neutral with a slight bearish technical analysis score. Recent news events, while varied in content, do not significantly impact the stock price according to the news sentiment score. The recent partnership between Cloudflare and Mastercard could potentially enhance Cloudflare's offerings but remains unclear as to its immediate impact.",
-        "key_drivers": [
-          "Neutral market regime",
-          "Bullish earnings from GeneDx Holdings Corp.",
-          "Potential enhancement in Cloudflare's offerings through the strategic partnership with Mastercard"
-        ],
-        "key_risks": [
-          "Unclear impact of recent news events on stock price",
-          "Technical analysis indicating a bearish trend",
-          "Lack of substantial information regarding the strategic partnership between Cloudflare and Mastercard"
-        ],
-        "valuation_view": "The valuation score is negative, suggesting that the current price may be overvalued. However, without a fair value estimate, it's challenging to determine if this assessment is accurate.",
-        "counterfactuals": [
-          "If GeneDx Holdings Corp.'s earnings decline or guidance worsens in the next quarter, it could negatively impact the stock price.",
-          "If the strategic partnership between Cloudflare and Mastercard does not materialize as expected, it may lead to a decrease in Cloudflare's stock price."
-        ],
-        "next_checks": [
-          "Monitor GeneDx Holdings Corp.'s upcoming earnings reports for any changes in guidance or financial performance.",
-          "Observe the progress of the strategic partnership between Cloudflare and Mastercard for any updates on its implementation and benefits."
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:51:29+09:00",
-      "action": "HOLD",
-      "confidence": 0.7,
-      "rationale": "The current market regime is neutral with a slight bearish bias, and recent news events do not provide strong directional signals. The partnership between Cloudflare (NET) and Mastercard could be positive but lacks clear details. Bloom Energy's significant partnership with Brookfield is bullish, but the overall market sentiment remains cautious.",
-      "key_drivers": [
-        "Cloudflare's potential for enhanced offerings through its strategic partnership",
-        "Bloom Energy's strong results from a $5B partnership"
-      ],
-      "key_risks": [
-        "Lack of clear details on Cloudflare's partnership with Mastercard",
-        "Overall market sentiment remains cautious and slightly bearish"
-      ],
-      "valuation_view": "The valuation score is negative, indicating that the stock may be overvalued. However, this is based on limited data.",
-      "counterfactuals": [
-        "If details of Cloudflare's partnership with Mastercard are not favorable, it could negatively impact the stock.",
-        "A downturn in market sentiment could affect all stocks, including Cloudflare and Bloom Energy."
-      ],
-      "next_checks": [
-        "Monitor for more details on Cloudflare's partnership with Mastercard",
-        "Keep an eye on broader market trends and economic indicators"
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.7,
-        "rationale": "The current market regime is neutral with a slight bearish bias, and recent news events do not provide strong directional signals. The partnership between Cloudflare (NET) and Mastercard could be positive but lacks clear details. Bloom Energy's significant partnership with Brookfield is bullish, but the overall market sentiment remains cautious.",
-        "key_drivers": [
-          "Cloudflare's potential for enhanced offerings through its strategic partnership",
-          "Bloom Energy's strong results from a $5B partnership"
-        ],
-        "key_risks": [
-          "Lack of clear details on Cloudflare's partnership with Mastercard",
-          "Overall market sentiment remains cautious and slightly bearish"
-        ],
-        "valuation_view": "The valuation score is negative, indicating that the stock may be overvalued. However, this is based on limited data.",
-        "counterfactuals": [
-          "If details of Cloudflare's partnership with Mastercard are not favorable, it could negatively impact the stock.",
-          "A downturn in market sentiment could affect all stocks, including Cloudflare and Bloom Energy."
-        ],
-        "next_checks": [
-          "Monitor for more details on Cloudflare's partnership with Mastercard",
-          "Keep an eye on broader market trends and economic indicators"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:49:42+09:00",
-      "action": "HOLD",
-      "confidence": 0.75,
-      "rationale": "The current market regime is neutral with a score of 0.2, and the technical analysis indicates a bearish trend with a score of -0.6. Recent news events include Elon Musk's comments on aging and ControlMonkey's expansion into network vendors, both of which have minimal impact (neutral sentiment). The valuation view suggests no clear fair value or range due to lack of recent earnings or partnership news. Key risks include the ongoing bearish trend and the uncertainty surrounding the new partnerships and technologies mentioned.",
-      "key_drivers": [
-        "Neutral market regime",
-        "Bullish earnings from GeneDx Holdings Corp.",
-        "Bearish technical analysis"
-      ],
-      "key_risks": [
-        "Ongoing bearish market sentiment",
-        "Uncertainty around new partnerships and technologies",
-        "Lack of significant news events impacting the stock price"
-      ],
-      "valuation_view": "No clear fair value or range due to limited recent news affecting valuation.",
-      "counterfactuals": [
-        "A significant positive earnings report from Cloudflare Inc. (NET) could change the sentiment and drive a buy signal.",
-        "Further developments in aging technology as discussed by Elon Musk might lead to increased interest and higher stock prices."
-      ],
-      "next_checks": [
-        "Monitor for any new partnership announcements or technological breakthroughs that could impact the company's growth prospects.",
-        "Keep an eye on market sentiment and technical indicators for potential shifts."
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.75,
-        "rationale": "The current market regime is neutral with a score of 0.2, and the technical analysis indicates a bearish trend with a score of -0.6. Recent news events include Elon Musk's comments on aging and ControlMonkey's expansion into network vendors, both of which have minimal impact (neutral sentiment). The valuation view suggests no clear fair value or range due to lack of recent earnings or partnership news. Key risks include the ongoing bearish trend and the uncertainty surrounding the new partnerships and technologies mentioned.",
-        "key_drivers": [
-          "Neutral market regime",
-          "Bullish earnings from GeneDx Holdings Corp.",
-          "Bearish technical analysis"
-        ],
-        "key_risks": [
-          "Ongoing bearish market sentiment",
-          "Uncertainty around new partnerships and technologies",
-          "Lack of significant news events impacting the stock price"
-        ],
-        "valuation_view": "No clear fair value or range due to limited recent news affecting valuation.",
-        "counterfactuals": [
-          "A significant positive earnings report from Cloudflare Inc. (NET) could change the sentiment and drive a buy signal.",
-          "Further developments in aging technology as discussed by Elon Musk might lead to increased interest and higher stock prices."
-        ],
-        "next_checks": [
-          "Monitor for any new partnership announcements or technological breakthroughs that could impact the company's growth prospects.",
-          "Keep an eye on market sentiment and technical indicators for potential shifts."
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:47:52+09:00",
-      "action": "HOLD",
-      "confidence": 0.7,
-      "rationale": "The recent news events are mixed but generally neutral to bullish with no significant catalysts driving a strong action. The market is currently in a neutral regime, and the technical analysis suggests a bearish trend. Given the lack of substantial positive or negative news, maintaining the current position seems prudent.",
-      "key_drivers": [
-        "Recent news on aging research by Elon Musk remains speculative with no immediate impact.",
-        "ControlMonkey's expansion into network vendors is neutral in terms of market reaction.",
-        "Bloom Energy Corporation’s partnership with Brookfield is bullish but has a lower confidence level due to the recent positive valuation.",
-        "GeneDx Holdings Corp. saw strong earnings and improved guidance, driving significant positive sentiment."
-      ],
-      "key_risks": [
-        "The aging research by Elon Musk could lead to breakthroughs in biotechnology, which might impact the market positively or negatively depending on regulatory and ethical considerations.",
-        "Bloom Energy Corporation’s partnership with Brookfield is still in its early stages, and the success of this collaboration remains uncertain."
-      ],
-      "valuation_view": "The valuation score suggests a bearish outlook. However, the recent earnings from GeneDx Holdings Corp. indicate strong fundamentals that could support higher valuations.",
-      "counterfactuals": [
-        "If Elon Musk’s aging research leads to significant breakthroughs in biotechnology, it could drive positive sentiment and re-evaluate the valuation of companies involved in this space.",
-        "A failure or delay in Bloom Energy Corporation’s partnership with Brookfield could negatively impact its stock price."
-      ],
-      "next_checks": [
-        "Monitor Elon Musk's future statements on aging research for any concrete developments.",
-        "Keep an eye on the progress and outcomes of Bloom Energy Corporation’s strategic partnership with Brookfield."
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.7,
-        "rationale": "The recent news events are mixed but generally neutral to bullish with no significant catalysts driving a strong action. The market is currently in a neutral regime, and the technical analysis suggests a bearish trend. Given the lack of substantial positive or negative news, maintaining the current position seems prudent.",
-        "key_drivers": [
-          "Recent news on aging research by Elon Musk remains speculative with no immediate impact.",
-          "ControlMonkey's expansion into network vendors is neutral in terms of market reaction.",
-          "Bloom Energy Corporation’s partnership with Brookfield is bullish but has a lower confidence level due to the recent positive valuation.",
-          "GeneDx Holdings Corp. saw strong earnings and improved guidance, driving significant positive sentiment."
-        ],
-        "key_risks": [
-          "The aging research by Elon Musk could lead to breakthroughs in biotechnology, which might impact the market positively or negatively depending on regulatory and ethical considerations.",
-          "Bloom Energy Corporation’s partnership with Brookfield is still in its early stages, and the success of this collaboration remains uncertain."
-        ],
-        "valuation_view": "The valuation score suggests a bearish outlook. However, the recent earnings from GeneDx Holdings Corp. indicate strong fundamentals that could support higher valuations.",
-        "counterfactuals": [
-          "If Elon Musk’s aging research leads to significant breakthroughs in biotechnology, it could drive positive sentiment and re-evaluate the valuation of companies involved in this space.",
-          "A failure or delay in Bloom Energy Corporation’s partnership with Brookfield could negatively impact its stock price."
-        ],
-        "next_checks": [
-          "Monitor Elon Musk's future statements on aging research for any concrete developments.",
-          "Keep an eye on the progress and outcomes of Bloom Energy Corporation’s strategic partnership with Brookfield."
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:45:59+09:00",
-      "action": "HOLD",
-      "confidence": 0.8,
-      "rationale": "The current market regime is neutral with a slight bearish bias, and recent news events do not provide clear directional signals. The partnership between Cloudflare (NET) and Mastercard could be positive but lacks detailed information on its impact. Meanwhile, the significant partnership for Bloom Energy Corporation (BE) suggests potential short-term optimism, yet the overall market sentiment remains cautious.",
-      "key_drivers": [
-        "Recent news about aging research by Elon Musk is intriguing but lacks concrete implications for the stock market.",
-        "ControlMonkey's expansion into network vendors could enhance its offerings and customer base, though details are limited."
-      ],
-      "key_risks": [
-        "The partnership between Cloudflare and Mastercard may not materialize as expected or deliver the anticipated benefits.",
-        "Market sentiment remains cautious with no strong positive or negative catalysts in recent news."
-      ],
-      "valuation_view": "The valuation score is -0.8, indicating that the stock may be undervalued based on current metrics, but this needs further analysis to confirm.",
-      "counterfactuals": [
-        "If Cloudflare's partnership with Mastercard does not lead to significant new products or services, it could negatively impact the stock price.",
-        "A shift in market sentiment towards more pessimistic views could pressure the stock prices."
-      ],
-      "next_checks": [
-        "Monitor updates on the Cloudflare-Mastercard partnership for any progress or setbacks.",
-        "Review quarterly earnings reports from key players like Cloudflare and Bloom Energy to gauge financial health."
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.8,
-        "rationale": "The current market regime is neutral with a slight bearish bias, and recent news events do not provide clear directional signals. The partnership between Cloudflare (NET) and Mastercard could be positive but lacks detailed information on its impact. Meanwhile, the significant partnership for Bloom Energy Corporation (BE) suggests potential short-term optimism, yet the overall market sentiment remains cautious.",
-        "key_drivers": [
-          "Recent news about aging research by Elon Musk is intriguing but lacks concrete implications for the stock market.",
-          "ControlMonkey's expansion into network vendors could enhance its offerings and customer base, though details are limited."
-        ],
-        "key_risks": [
-          "The partnership between Cloudflare and Mastercard may not materialize as expected or deliver the anticipated benefits.",
-          "Market sentiment remains cautious with no strong positive or negative catalysts in recent news."
-        ],
-        "valuation_view": "The valuation score is -0.8, indicating that the stock may be undervalued based on current metrics, but this needs further analysis to confirm.",
-        "counterfactuals": [
-          "If Cloudflare's partnership with Mastercard does not lead to significant new products or services, it could negatively impact the stock price.",
-          "A shift in market sentiment towards more pessimistic views could pressure the stock prices."
-        ],
-        "next_checks": [
-          "Monitor updates on the Cloudflare-Mastercard partnership for any progress or setbacks.",
-          "Review quarterly earnings reports from key players like Cloudflare and Bloom Energy to gauge financial health."
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:44:09+09:00",
-      "action": "HOLD",
-      "confidence": 0.6,
-      "rationale": "The current market regime and recent news events suggest a neutral stance with no significant positive or negative catalysts. The recent news on aging, while intriguing, lacks concrete implications for the stock price in the short term. The partnership between Cloudflare and Mastercard is promising but remains in its early stages, and the strong earnings from GeneDx are already reflected in the current valuation.",
-      "key_drivers": [
-        "Neutral market sentiment as indicated by the regime score",
-        "Recent news on aging lacks immediate impact",
-        "Strategic partnership with Mastercard is positive but nascent"
-      ],
-      "key_risks": [
-        "Uncertainty around the timeline and outcome of the Cloudflare-Mastercard collaboration",
-        "Market volatility could affect short-term performance"
-      ],
-      "valuation_view": "The stock's valuation remains bearish, suggesting potential for further decline if earnings expectations are not met.",
-      "counterfactuals": [
-        "If GeneDx's strong earnings and improved guidance lead to a sustained increase in revenue or margins, the stock could see upward pressure.",
-        "A delay or failure of the Cloudflare-Mastercard partnership could negatively impact Cloudflare’s growth prospects."
-      ],
-      "next_checks": [
-        "Monitor the progress of the Cloudflare-Mastercard collaboration for any updates on tools and customer adoption",
-        "Keep an eye on GeneDx's financial performance to ensure earnings expectations are met or exceeded"
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.6,
-        "rationale": "The current market regime and recent news events suggest a neutral stance with no significant positive or negative catalysts. The recent news on aging, while intriguing, lacks concrete implications for the stock price in the short term. The partnership between Cloudflare and Mastercard is promising but remains in its early stages, and the strong earnings from GeneDx are already reflected in the current valuation.",
-        "key_drivers": [
-          "Neutral market sentiment as indicated by the regime score",
-          "Recent news on aging lacks immediate impact",
-          "Strategic partnership with Mastercard is positive but nascent"
-        ],
-        "key_risks": [
-          "Uncertainty around the timeline and outcome of the Cloudflare-Mastercard collaboration",
-          "Market volatility could affect short-term performance"
-        ],
-        "valuation_view": "The stock's valuation remains bearish, suggesting potential for further decline if earnings expectations are not met.",
-        "counterfactuals": [
-          "If GeneDx's strong earnings and improved guidance lead to a sustained increase in revenue or margins, the stock could see upward pressure.",
-          "A delay or failure of the Cloudflare-Mastercard partnership could negatively impact Cloudflare’s growth prospects."
-        ],
-        "next_checks": [
-          "Monitor the progress of the Cloudflare-Mastercard collaboration for any updates on tools and customer adoption",
-          "Keep an eye on GeneDx's financial performance to ensure earnings expectations are met or exceeded"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:42:04+09:00",
-      "action": "HOLD",
-      "confidence": 0.6,
-      "rationale": "The current market regime is neutral with a slight bearish trend score (-0.6). Recent news events, including Elon Musk's comments on aging and ControlMonkey's expansion into network vendors, do not provide strong directional signals. The recent partnership between Cloudflare and Mastercard could be positive but lacks clear details. Bloom Energy's significant partnership with Brookfield is bullish, but the market's overall sentiment remains cautious.",
-      "key_drivers": [
-        "Neutral market regime",
-        "Unclear impact of Elon Musk's aging comments",
-        "ControlMonkey's expansion into network vendors has no strong directional signal",
-        "Potential positive impact from Cloudflare and Mastercard partnership"
-      ],
-      "key_risks": [
-        "Market sentiment remains cautious with a bearish trend score",
-        "Lack of clear details on the Cloudflare-Mastercard partnership limits its impact assessment"
-      ],
-      "valuation_view": "The valuation score is -0.8, indicating overvalued stocks in general, but specific fair value and range are not provided.",
-      "counterfactuals": [
-        "A clearer announcement from Cloudflare and Mastercard on their partnership could change the market sentiment",
-        "Further positive earnings reports or partnerships could shift the overall market trend"
-      ],
-      "next_checks": [
-        "Monitor for any updates on the Cloudflare-Mastercard partnership details",
-        "Keep an eye on broader market trends and news that could impact tech stocks"
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.6,
-        "rationale": "The current market regime is neutral with a slight bearish trend score (-0.6). Recent news events, including Elon Musk's comments on aging and ControlMonkey's expansion into network vendors, do not provide strong directional signals. The recent partnership between Cloudflare and Mastercard could be positive but lacks clear details. Bloom Energy's significant partnership with Brookfield is bullish, but the market's overall sentiment remains cautious.",
-        "key_drivers": [
-          "Neutral market regime",
-          "Unclear impact of Elon Musk's aging comments",
-          "ControlMonkey's expansion into network vendors has no strong directional signal",
-          "Potential positive impact from Cloudflare and Mastercard partnership"
-        ],
-        "key_risks": [
-          "Market sentiment remains cautious with a bearish trend score",
-          "Lack of clear details on the Cloudflare-Mastercard partnership limits its impact assessment"
-        ],
-        "valuation_view": "The valuation score is -0.8, indicating overvalued stocks in general, but specific fair value and range are not provided.",
-        "counterfactuals": [
-          "A clearer announcement from Cloudflare and Mastercard on their partnership could change the market sentiment",
-          "Further positive earnings reports or partnerships could shift the overall market trend"
-        ],
-        "next_checks": [
-          "Monitor for any updates on the Cloudflare-Mastercard partnership details",
-          "Keep an eye on broader market trends and news that could impact tech stocks"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:39:03+09:00",
-      "action": "HOLD",
-      "confidence": 0.7,
-      "rationale": "The current market regime is neutral with a score of 0.2, and the signal suggests holding due to the market being bearish (score -0.6). Recent news events include Elon Musk's comments on aging and ControlMonkey's expansion into network vendors, both of which have minimal impact as their scores are close to zero. The valuation view remains negative with a score of -0.8, indicating that the stock is overvalued based on current metrics.",
-      "key_drivers": [
-        "Neutral market regime",
-        "Bullish earnings and partnership for Bloom Energy",
-        "Unclear impact from recent news events"
-      ],
-      "key_risks": [
-        "Negative valuation view suggesting potential overvaluation",
-        "Market sentiment remains bearish, indicating overall negative trend"
-      ],
-      "valuation_view": "The stock is currently overvalued based on the -0.8 score, which suggests that current earnings and partnerships may not be sufficient to justify its price.",
-      "counterfactuals": [
-        "If Bloom Energy's partnership with Brookfield does not lead to increased revenue or market share, it could negatively impact the stock price.",
-        "A shift in market sentiment towards a more bullish outlook could cause a revaluation of the stock."
-      ],
-      "next_checks": [
-        "Monitor Bloom Energy's financial performance and any updates on its partnership with Brookfield.",
-        "Keep an eye on overall market trends to gauge potential shifts in investor sentiment."
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.7,
-        "rationale": "The current market regime is neutral with a score of 0.2, and the signal suggests holding due to the market being bearish (score -0.6). Recent news events include Elon Musk's comments on aging and ControlMonkey's expansion into network vendors, both of which have minimal impact as their scores are close to zero. The valuation view remains negative with a score of -0.8, indicating that the stock is overvalued based on current metrics.",
-        "key_drivers": [
-          "Neutral market regime",
-          "Bullish earnings and partnership for Bloom Energy",
-          "Unclear impact from recent news events"
-        ],
-        "key_risks": [
-          "Negative valuation view suggesting potential overvaluation",
-          "Market sentiment remains bearish, indicating overall negative trend"
-        ],
-        "valuation_view": "The stock is currently overvalued based on the -0.8 score, which suggests that current earnings and partnerships may not be sufficient to justify its price.",
-        "counterfactuals": [
-          "If Bloom Energy's partnership with Brookfield does not lead to increased revenue or market share, it could negatively impact the stock price.",
-          "A shift in market sentiment towards a more bullish outlook could cause a revaluation of the stock."
-        ],
-        "next_checks": [
-          "Monitor Bloom Energy's financial performance and any updates on its partnership with Brookfield.",
-          "Keep an eye on overall market trends to gauge potential shifts in investor sentiment."
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:37:11+09:00",
-      "action": "HOLD",
-      "confidence": 0.6,
-      "rationale": "The current market regime is neutral with a slight bearish trend score. Recent news events include Elon Musk's comments on aging and ControlMonkey expanding cloud disaster recovery, both of which have minimal impact scores. The Bloom Energy partnership and GeneDx earnings provided positive sentiment but are not recent enough to significantly alter the current position. Given the lack of strong bullish or bearish catalysts, maintaining a neutral stance is prudent.",
-      "key_drivers": [
-        "Neutral market regime",
-        "Elon Musk's aging comments (neutral impact)",
-        "ControlMonkey news on cloud disaster recovery (neutral impact)"
-      ],
-      "key_risks": [
-        "Potential negative sentiment from Elon Musk's speculative ideas",
-        "Unclear long-term benefits of ControlMonkey's network vendor support"
-      ],
-      "valuation_view": "The valuation score is -0.8, indicating undervaluation but no specific fair value range provided.",
-      "counterfactuals": [
-        "If Elon Musk announces concrete plans for aging research, it could shift the market sentiment positively.",
-        "A significant decline in network vendor support from ControlMonkey could negatively impact its stock."
-      ],
-      "next_checks": [
-        "Monitor for any follow-up news or developments on the Bloom Energy partnership and GeneDx earnings",
-        "Watch for changes in market trends that might indicate a shift towards bullish or bearish sentiment"
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.6,
-        "rationale": "The current market regime is neutral with a slight bearish trend score. Recent news events include Elon Musk's comments on aging and ControlMonkey expanding cloud disaster recovery, both of which have minimal impact scores. The Bloom Energy partnership and GeneDx earnings provided positive sentiment but are not recent enough to significantly alter the current position. Given the lack of strong bullish or bearish catalysts, maintaining a neutral stance is prudent.",
-        "key_drivers": [
-          "Neutral market regime",
-          "Elon Musk's aging comments (neutral impact)",
-          "ControlMonkey news on cloud disaster recovery (neutral impact)"
-        ],
-        "key_risks": [
-          "Potential negative sentiment from Elon Musk's speculative ideas",
-          "Unclear long-term benefits of ControlMonkey's network vendor support"
-        ],
-        "valuation_view": "The valuation score is -0.8, indicating undervaluation but no specific fair value range provided.",
-        "counterfactuals": [
-          "If Elon Musk announces concrete plans for aging research, it could shift the market sentiment positively.",
-          "A significant decline in network vendor support from ControlMonkey could negatively impact its stock."
-        ],
-        "next_checks": [
-          "Monitor for any follow-up news or developments on the Bloom Energy partnership and GeneDx earnings",
-          "Watch for changes in market trends that might indicate a shift towards bullish or bearish sentiment"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:35:25+09:00",
-      "action": "HOLD",
-      "confidence": 0.7,
-      "rationale": "The current market regime and recent news events suggest a neutral stance with no significant catalysts to alter the holding position. The valuation and technical analysis indicate bearish sentiment, but the recent positive earnings from GeneDx Holdings Corp. (WGS) provide some support.",
-      "key_drivers": [
-        "Recent positive earnings from GeneDx Holdings Corp. (WGS)",
-        "Neutral market regime with no strong bullish or bearish signals",
-        "Lack of significant news events that could impact the stock price"
-      ],
-      "key_risks": [
-        "Potential negative impact from aging research by Elon Musk, which may not have immediate financial implications but could affect long-term sentiment",
-        "Uncertain outcomes from the strategic partnership between Cloudflare and Mastercard, with limited details available"
-      ],
-      "valuation_view": "The stock is currently trading at a bearish valuation, suggesting potential upside if the market regime shifts. However, recent earnings and news events do not provide strong enough signals to justify a significant change in position.",
-      "counterfactuals": [
-        "If GeneDx Holdings Corp. (WGS) experiences another round of negative earnings or guidance, this could lead to a sell signal within the next 1-4 weeks.",
-        "A significant breakthrough in aging research by Elon Musk that garners widespread attention and investment interest could shift market sentiment positively."
-      ],
-      "next_checks": [
-        "Monitor GeneDx Holdings Corp. (WGS) for any further earnings reports or guidance updates",
-        "Follow up on the strategic partnership between Cloudflare and Mastercard to assess its impact on both companies' operations"
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.7,
-        "rationale": "The current market regime and recent news events suggest a neutral stance with no significant catalysts to alter the holding position. The valuation and technical analysis indicate bearish sentiment, but the recent positive earnings from GeneDx Holdings Corp. (WGS) provide some support.",
-        "key_drivers": [
-          "Recent positive earnings from GeneDx Holdings Corp. (WGS)",
-          "Neutral market regime with no strong bullish or bearish signals",
-          "Lack of significant news events that could impact the stock price"
-        ],
-        "key_risks": [
-          "Potential negative impact from aging research by Elon Musk, which may not have immediate financial implications but could affect long-term sentiment",
-          "Uncertain outcomes from the strategic partnership between Cloudflare and Mastercard, with limited details available"
-        ],
-        "valuation_view": "The stock is currently trading at a bearish valuation, suggesting potential upside if the market regime shifts. However, recent earnings and news events do not provide strong enough signals to justify a significant change in position.",
-        "counterfactuals": [
-          "If GeneDx Holdings Corp. (WGS) experiences another round of negative earnings or guidance, this could lead to a sell signal within the next 1-4 weeks.",
-          "A significant breakthrough in aging research by Elon Musk that garners widespread attention and investment interest could shift market sentiment positively."
-        ],
-        "next_checks": [
-          "Monitor GeneDx Holdings Corp. (WGS) for any further earnings reports or guidance updates",
-          "Follow up on the strategic partnership between Cloudflare and Mastercard to assess its impact on both companies' operations"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:33:31+09:00",
-      "action": "HOLD",
-      "confidence": 0.75,
-      "rationale": "The recent news events and technical analysis suggest a cautious stance. The market is currently in a bearish trend, and the latest news from Elon Musk about aging does not provide clear actionable insights. While there are positive developments like the strategic partnership between Cloudflare and Mastercard, which could be beneficial for Cloudflare's growth, the overall sentiment remains neutral to slightly bullish.",
-      "key_drivers": [
-        "Bearish technical indicators",
-        "Neutral news sentiment with unclear impact"
-      ],
-      "key_risks": [
-        "Potential negative market reaction due to bearish trends",
-        "Uncertainty around Elon Musk's claims on aging and their practical implications"
-      ],
-      "valuation_view": "The valuation score is -0.8, indicating a potentially undervalued stock, but the current position does not have enough clarity to justify an active buy or sell.",
-      "counterfactuals": [
-        "If Cloudflare's partnership with Mastercard leads to significant revenue growth and market share expansion, it could change the valuation outlook positively.",
-        "If Elon Musk's claims on aging gain traction and lead to breakthrough technologies, this could significantly impact the stock price."
-      ],
-      "next_checks": [
-        "Monitor the progress of the strategic partnership between Cloudflare and Mastercard for any updates or milestones.",
-        "Follow up on Elon Musk's ongoing comments about aging and their potential technological advancements."
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.75,
-        "rationale": "The recent news events and technical analysis suggest a cautious stance. The market is currently in a bearish trend, and the latest news from Elon Musk about aging does not provide clear actionable insights. While there are positive developments like the strategic partnership between Cloudflare and Mastercard, which could be beneficial for Cloudflare's growth, the overall sentiment remains neutral to slightly bullish.",
-        "key_drivers": [
-          "Bearish technical indicators",
-          "Neutral news sentiment with unclear impact"
-        ],
-        "key_risks": [
-          "Potential negative market reaction due to bearish trends",
-          "Uncertainty around Elon Musk's claims on aging and their practical implications"
-        ],
-        "valuation_view": "The valuation score is -0.8, indicating a potentially undervalued stock, but the current position does not have enough clarity to justify an active buy or sell.",
-        "counterfactuals": [
-          "If Cloudflare's partnership with Mastercard leads to significant revenue growth and market share expansion, it could change the valuation outlook positively.",
-          "If Elon Musk's claims on aging gain traction and lead to breakthrough technologies, this could significantly impact the stock price."
-        ],
-        "next_checks": [
-          "Monitor the progress of the strategic partnership between Cloudflare and Mastercard for any updates or milestones.",
-          "Follow up on Elon Musk's ongoing comments about aging and their potential technological advancements."
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:31:41+09:00",
-      "action": "HOLD",
-      "confidence": 0.7,
-      "rationale": "The recent news events include a mix of neutral and bullish sentiments with no significant bearish indicators. The market regime is currently neutral, and the technical analysis suggests a bearish trend. Given the lack of strong positive or negative catalysts in the recent news, the current position should remain unchanged.",
-      "key_drivers": [
-        "Neutral sentiment from Elon Musk's comments on aging",
-        "Expansion of disaster recovery services by ControlMonkey to network vendors",
-        "Strategic partnership between Cloudflare and Mastercard with potential benefits for Cloudflare",
-        "Bullish earnings and guidance from GeneDx Holdings Corp.",
-        "Positive partnership news for Bloom Energy Corporation"
-      ],
-      "key_risks": [
-        "Uncertainty around the strategic partnership's impact on Cloudflare",
-        "Potential market correction given the bearish technical analysis",
-        "Lack of strong positive catalysts to drive further gains in the near term"
-      ],
-      "valuation_view": "The valuation remains negative, with no clear fair value or range provided. The recent earnings and guidance from GeneDx Holdings Corp. suggest potential upside but do not significantly alter the overall bearish view.",
-      "counterfactuals": [
-        "If Cloudflare's partnership with Mastercard does not deliver expected benefits, it could lead to a reevaluation of the stock",
-        "A significant market correction or negative earnings report from any of the companies could shift sentiment negatively",
-        "Positive regulatory changes or technological breakthroughs in disaster recovery services could provide new upside potential"
-      ],
-      "next_checks": [
-        "Monitor Cloudflare's progress with its partnership and any updates on its offerings",
-        "Review GeneDx Holdings Corp.'s next earnings report for further guidance",
-        "Keep an eye on broader market trends and any regulatory changes that might impact disaster recovery services"
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.7,
-        "rationale": "The recent news events include a mix of neutral and bullish sentiments with no significant bearish indicators. The market regime is currently neutral, and the technical analysis suggests a bearish trend. Given the lack of strong positive or negative catalysts in the recent news, the current position should remain unchanged.",
-        "key_drivers": [
-          "Neutral sentiment from Elon Musk's comments on aging",
-          "Expansion of disaster recovery services by ControlMonkey to network vendors",
-          "Strategic partnership between Cloudflare and Mastercard with potential benefits for Cloudflare",
-          "Bullish earnings and guidance from GeneDx Holdings Corp.",
-          "Positive partnership news for Bloom Energy Corporation"
-        ],
-        "key_risks": [
-          "Uncertainty around the strategic partnership's impact on Cloudflare",
-          "Potential market correction given the bearish technical analysis",
-          "Lack of strong positive catalysts to drive further gains in the near term"
-        ],
-        "valuation_view": "The valuation remains negative, with no clear fair value or range provided. The recent earnings and guidance from GeneDx Holdings Corp. suggest potential upside but do not significantly alter the overall bearish view.",
-        "counterfactuals": [
-          "If Cloudflare's partnership with Mastercard does not deliver expected benefits, it could lead to a reevaluation of the stock",
-          "A significant market correction or negative earnings report from any of the companies could shift sentiment negatively",
-          "Positive regulatory changes or technological breakthroughs in disaster recovery services could provide new upside potential"
-        ],
-        "next_checks": [
-          "Monitor Cloudflare's progress with its partnership and any updates on its offerings",
-          "Review GeneDx Holdings Corp.'s next earnings report for further guidance",
-          "Keep an eye on broader market trends and any regulatory changes that might impact disaster recovery services"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:29:42+09:00",
-      "action": "HOLD",
-      "confidence": 0.7,
-      "rationale": "The current market regime is neutral with a slight bearish bias, and recent news events do not provide clear directional signals. The valuation and technical analysis suggest the stock is overvalued, but there are no significant catalysts to push the stock in either direction.",
-      "key_drivers": [
-        "Neutral market sentiment",
-        "Unclear impact of Elon Musk's comments on aging",
-        "Limited information on ControlMonkey's expansion into network vendors",
-        "Bullish partnership with Mastercard for Cloudflare, but details are not clear",
-        "Significant positive impact from Bloom Energy's $5B partnership"
-      ],
-      "key_risks": [
-        "Overvaluation of the stock based on current metrics",
-        "Lack of immediate catalysts to drive significant price movement",
-        "Uncertainty around the strategic partnership between Cloudflare and Mastercard",
-        "Potential for market-wide corrections given the bearish bias in technical analysis"
-      ],
-      "valuation_view": "The stock appears overvalued, with a fair value that is not clearly defined due to limited recent news events. The triple-digit earnings growth highlighted by Zacks.com suggests potential upside but does not provide a clear valuation range.",
-      "counterfactuals": [
-        "If Elon Musk's comments on aging lead to significant scientific breakthroughs, the stock could see substantial upward pressure.",
-        "A clearer understanding of ControlMonkey's partnership with network vendors could provide more clarity and potentially positive news for the stock.",
-        "Further details on the strategic partnership between Cloudflare and Mastercard could either enhance or detract from investor sentiment."
-      ],
-      "next_checks": [
-        "Monitor technical indicators for any signs of a trend reversal",
-        "Follow up on the progress of the strategic partnership between Cloudflare and Mastercard",
-        "Review earnings reports and updates from Bloom Energy to assess the impact of their $5B partnership"
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.7,
-        "rationale": "The current market regime is neutral with a slight bearish bias, and recent news events do not provide clear directional signals. The valuation and technical analysis suggest the stock is overvalued, but there are no significant catalysts to push the stock in either direction.",
-        "key_drivers": [
-          "Neutral market sentiment",
-          "Unclear impact of Elon Musk's comments on aging",
-          "Limited information on ControlMonkey's expansion into network vendors",
-          "Bullish partnership with Mastercard for Cloudflare, but details are not clear",
-          "Significant positive impact from Bloom Energy's $5B partnership"
-        ],
-        "key_risks": [
-          "Overvaluation of the stock based on current metrics",
-          "Lack of immediate catalysts to drive significant price movement",
-          "Uncertainty around the strategic partnership between Cloudflare and Mastercard",
-          "Potential for market-wide corrections given the bearish bias in technical analysis"
-        ],
-        "valuation_view": "The stock appears overvalued, with a fair value that is not clearly defined due to limited recent news events. The triple-digit earnings growth highlighted by Zacks.com suggests potential upside but does not provide a clear valuation range.",
-        "counterfactuals": [
-          "If Elon Musk's comments on aging lead to significant scientific breakthroughs, the stock could see substantial upward pressure.",
-          "A clearer understanding of ControlMonkey's partnership with network vendors could provide more clarity and potentially positive news for the stock.",
-          "Further details on the strategic partnership between Cloudflare and Mastercard could either enhance or detract from investor sentiment."
-        ],
-        "next_checks": [
-          "Monitor technical indicators for any signs of a trend reversal",
-          "Follow up on the progress of the strategic partnership between Cloudflare and Mastercard",
-          "Review earnings reports and updates from Bloom Energy to assess the impact of their $5B partnership"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:27:45+09:00",
-      "action": "HOLD",
-      "confidence": 0.75,
-      "rationale": "The current market regime is neutral with a score of 0.2, and the technical analysis indicates a bearish trend (score -0.6). Recent news events include Elon Musk's comments on aging and ControlMonkey's expansion into network vendors, both of which have minimal impact. The valuation view suggests no clear fair value or range due to lack of recent news affecting the stock price significantly.",
-      "key_drivers": [
-        "Bullish earnings and partnership for Bloom Energy",
-        "Neutral sentiment from recent news events"
-      ],
-      "key_risks": [
-        "Bearish technical analysis indicating potential downward pressure",
-        "Lack of significant positive news to support a buy signal"
-      ],
-      "valuation_view": "No clear valuation change due to minimal recent news impact.",
-      "counterfactuals": [
-        "If Bloom Energy's partnership with Brookfield were to face challenges, it could negatively impact the stock price.",
-        "A shift in market sentiment towards aging technology could drive significant interest in Cloudflare."
-      ],
-      "next_checks": [
-        "Monitor technical indicators for any signs of a trend reversal",
-        "Follow up on any upcoming news or events related to Bloom Energy's partnership"
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.75,
-        "rationale": "The current market regime is neutral with a score of 0.2, and the technical analysis indicates a bearish trend (score -0.6). Recent news events include Elon Musk's comments on aging and ControlMonkey's expansion into network vendors, both of which have minimal impact. The valuation view suggests no clear fair value or range due to lack of recent news affecting the stock price significantly.",
-        "key_drivers": [
-          "Bullish earnings and partnership for Bloom Energy",
-          "Neutral sentiment from recent news events"
-        ],
-        "key_risks": [
-          "Bearish technical analysis indicating potential downward pressure",
-          "Lack of significant positive news to support a buy signal"
-        ],
-        "valuation_view": "No clear valuation change due to minimal recent news impact.",
-        "counterfactuals": [
-          "If Bloom Energy's partnership with Brookfield were to face challenges, it could negatively impact the stock price.",
-          "A shift in market sentiment towards aging technology could drive significant interest in Cloudflare."
-        ],
-        "next_checks": [
-          "Monitor technical indicators for any signs of a trend reversal",
-          "Follow up on any upcoming news or events related to Bloom Energy's partnership"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:25:48+09:00",
-      "action": "HOLD",
-      "confidence": 0.6,
-      "rationale": "The recent news events include Elon Musk's comments on aging and ControlMonkey's expansion into network vendors, both of which have neutral impacts. Bloom Energy Corporation's partnership with Brookfield is bullish but has a lower confidence score compared to GeneDx Holdings Corp.'s earnings report. The overall market regime is neutral, and the technical analysis suggests a bearish trend. Given these factors, the current position remains appropriate for holding.",
-      "key_drivers": [
-        "Bloom Energy Corporation's $5B partnership with Brookfield",
-        "GeneDx Holdings Corp.'s strong earnings and improved guidance"
-      ],
-      "key_risks": [
-        "Uncertainty around Elon Musk's comments on aging technology",
-        "Neutral impact from ControlMonkey's expansion into network vendors"
-      ],
-      "valuation_view": "The valuation score is -0.8, indicating an undervalued stock compared to its fair value, but the recent news events do not significantly change this view.",
-      "counterfactuals": [
-        "A reversal of GeneDx Holdings Corp.'s earnings or guidance",
-        "Further negative developments in Bloom Energy Corporation's partnership with Brookfield"
-      ],
-      "next_checks": [
-        "Monitor GeneDx Holdings Corp. for any further news on earnings or guidance",
-        "Keep an eye on the technical indicators to confirm the bearish trend"
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.6,
-        "rationale": "The recent news events include Elon Musk's comments on aging and ControlMonkey's expansion into network vendors, both of which have neutral impacts. Bloom Energy Corporation's partnership with Brookfield is bullish but has a lower confidence score compared to GeneDx Holdings Corp.'s earnings report. The overall market regime is neutral, and the technical analysis suggests a bearish trend. Given these factors, the current position remains appropriate for holding.",
-        "key_drivers": [
-          "Bloom Energy Corporation's $5B partnership with Brookfield",
-          "GeneDx Holdings Corp.'s strong earnings and improved guidance"
-        ],
-        "key_risks": [
-          "Uncertainty around Elon Musk's comments on aging technology",
-          "Neutral impact from ControlMonkey's expansion into network vendors"
-        ],
-        "valuation_view": "The valuation score is -0.8, indicating an undervalued stock compared to its fair value, but the recent news events do not significantly change this view.",
-        "counterfactuals": [
-          "A reversal of GeneDx Holdings Corp.'s earnings or guidance",
-          "Further negative developments in Bloom Energy Corporation's partnership with Brookfield"
-        ],
-        "next_checks": [
-          "Monitor GeneDx Holdings Corp. for any further news on earnings or guidance",
-          "Keep an eye on the technical indicators to confirm the bearish trend"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:23:52+09:00",
-      "action": "HOLD",
-      "confidence": 0.7,
-      "rationale": "The current market regime is neutral with a slight bearish technical analysis. Recent news events include Elon Musk's comments on aging and ControlMonkey's expansion into network vendors, both of which have minimal impact scores. A significant positive event was the $5B partnership between Bloom Energy Corporation and Brookfield, but it has already been factored in. GeneDx Holdings Corp.'s strong earnings also had a high impact score but is now past its peak effect on the stock price.",
-      "key_drivers": [
-        "Neutral market regime",
-        "Slight bearish technical analysis",
-        "Minimal impact from recent news events"
-      ],
-      "key_risks": [
-        "Potential negative sentiment if Elon Musk's comments on aging are not well-received",
-        "Uncertainty around the new network vendor support by ControlMonkey"
-      ],
-      "valuation_view": "The valuation score is -0.8, indicating an overvalued stock based on current metrics.",
-      "counterfactuals": [
-        "If Elon Musk's comments on aging lead to significant scientific breakthroughs or controversies, it could impact the stock price significantly in the next 1-4 weeks.",
-        "A failure of ControlMonkey’s new network vendor support could dampen investor sentiment."
-      ],
-      "next_checks": [
-        "Monitor Elon Musk's future statements and their reception",
-        "Track the implementation and market reaction to ControlMonkey's new features"
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.7,
-        "rationale": "The current market regime is neutral with a slight bearish technical analysis. Recent news events include Elon Musk's comments on aging and ControlMonkey's expansion into network vendors, both of which have minimal impact scores. A significant positive event was the $5B partnership between Bloom Energy Corporation and Brookfield, but it has already been factored in. GeneDx Holdings Corp.'s strong earnings also had a high impact score but is now past its peak effect on the stock price.",
-        "key_drivers": [
-          "Neutral market regime",
-          "Slight bearish technical analysis",
-          "Minimal impact from recent news events"
-        ],
-        "key_risks": [
-          "Potential negative sentiment if Elon Musk's comments on aging are not well-received",
-          "Uncertainty around the new network vendor support by ControlMonkey"
-        ],
-        "valuation_view": "The valuation score is -0.8, indicating an overvalued stock based on current metrics.",
-        "counterfactuals": [
-          "If Elon Musk's comments on aging lead to significant scientific breakthroughs or controversies, it could impact the stock price significantly in the next 1-4 weeks.",
-          "A failure of ControlMonkey’s new network vendor support could dampen investor sentiment."
-        ],
-        "next_checks": [
-          "Monitor Elon Musk's future statements and their reception",
-          "Track the implementation and market reaction to ControlMonkey's new features"
         ],
         "position_plan": {
           "prefer_qty": 0,

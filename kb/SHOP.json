@@ -1,6 +1,6 @@
 {
   "ticker": "SHOP",
-  "updated_at": "2026-02-27T07:09:12+09:00",
+  "updated_at": "2026-02-28T03:07:13+09:00",
   "thesis": "",
   "business_summary": "",
   "moat": "",
@@ -231,6 +231,1422 @@
     }
   ],
   "decisions": [
+    {
+      "ts_kst": "2026-02-28T03:07:13+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "현재 가격은 중립적이고 기술적 분석이 약세를 나타내지만, 최근 뉴스가 없어 동향을 주시해야 합니다.",
+      "key_drivers": [
+        "AI 투자에 따른 운영 마진 영향",
+        "매출 성장 지속"
+      ],
+      "key_risks": [
+        "기술적 분석의 약세 신호",
+        "AI 투자의 부정적인 영향"
+      ],
+      "valuation_view": "공정가치 평가는 불확실성이 높아 현재는 적용하지 않음",
+      "counterfactuals": [
+        "AI 투자가 운영 마진에 더 큰 악영향을 미칠 경우",
+        "기술적 분석이 상승세로 전환될 경우"
+      ],
+      "next_checks": [
+        "AI 투자 관련 추가 뉴스 및 정보",
+        "기술적 지표의 변화"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "현재 가격은 중립적이고 기술적 분석이 약세를 나타내지만, 최근 뉴스가 없어 동향을 주시해야 합니다.",
+        "key_drivers": [
+          "AI 투자에 따른 운영 마진 영향",
+          "매출 성장 지속"
+        ],
+        "key_risks": [
+          "기술적 분석의 약세 신호",
+          "AI 투자의 부정적인 영향"
+        ],
+        "valuation_view": "공정가치 평가는 불확실성이 높아 현재는 적용하지 않음",
+        "counterfactuals": [
+          "AI 투자가 운영 마진에 더 큰 악영향을 미칠 경우",
+          "기술적 분석이 상승세로 전환될 경우"
+        ],
+        "next_checks": [
+          "AI 투자 관련 추가 뉴스 및 정보",
+          "기술적 지표의 변화"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T03:04:07+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "현재 가격은 119.42이며, 시장 제도는 중립적입니다. 최근 뉴스가 없어 동향을 확인할 필요성이 있습니다.",
+      "key_drivers": [
+        "AI 투자에 따른 운영 마진 압박",
+        "매출 성장률 유지"
+      ],
+      "key_risks": [
+        "AI 투자의 지속적인 영향",
+        "운영 마진 하락 우려"
+      ],
+      "valuation_view": "공정가치는 아직 결정되지 않았습니다.",
+      "counterfactuals": [
+        "AI 투자 효과 증명, 운영 마진 개선"
+      ],
+      "next_checks": [
+        "AI 투자의 영향 및 운영 마진 동향",
+        "최근 뉴스 및 분석 보고서"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "현재 가격은 119.42이며, 시장 제도는 중립적입니다. 최근 뉴스가 없어 동향을 확인할 필요성이 있습니다.",
+        "key_drivers": [
+          "AI 투자에 따른 운영 마진 압박",
+          "매출 성장률 유지"
+        ],
+        "key_risks": [
+          "AI 투자의 지속적인 영향",
+          "운영 마진 하락 우려"
+        ],
+        "valuation_view": "공정가치는 아직 결정되지 않았습니다.",
+        "counterfactuals": [
+          "AI 투자 효과 증명, 운영 마진 개선"
+        ],
+        "next_checks": [
+          "AI 투자의 영향 및 운영 마진 동향",
+          "최근 뉴스 및 분석 보고서"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:44:54+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "현재 가격은 중립적이고, 최근 뉴스가 없어 동향을 주시해야 합니다.",
+      "key_drivers": [
+        "AI 투자에 따른 운영 마진 압박",
+        "매출 성장률 유지"
+      ],
+      "key_risks": [
+        "운영 마진 개선 부진",
+        "기술적 분석이 하락세를 나타내고 있음"
+      ],
+      "valuation_view": "공정가치 평가는 불확실성이 높아 현재는 적용하지 않음",
+      "counterfactuals": [
+        "AI 투자 효과가 빠르게 나타나면 주가 상승 가능",
+        "운영 마진 개선이 이루어지지 않을 경우 하락"
+      ],
+      "next_checks": [
+        "Q4 실적 발표 이후 AI 투자의 영향을 지속 모니터링",
+        "기술적 분석의 변화를 주시"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "현재 가격은 중립적이고, 최근 뉴스가 없어 동향을 주시해야 합니다.",
+        "key_drivers": [
+          "AI 투자에 따른 운영 마진 압박",
+          "매출 성장률 유지"
+        ],
+        "key_risks": [
+          "운영 마진 개선 부진",
+          "기술적 분석이 하락세를 나타내고 있음"
+        ],
+        "valuation_view": "공정가치 평가는 불확실성이 높아 현재는 적용하지 않음",
+        "counterfactuals": [
+          "AI 투자 효과가 빠르게 나타나면 주가 상승 가능",
+          "운영 마진 개선이 이루어지지 않을 경우 하락"
+        ],
+        "next_checks": [
+          "Q4 실적 발표 이후 AI 투자의 영향을 지속 모니터링",
+          "기술적 분석의 변화를 주시"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:41:50+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "현재 가격은 중립적이고 기술적 분석이 약세를 나타내지만 최근 뉴스가 없어 결정을 미루기로 함.",
+      "key_drivers": [
+        "기술적 분석 약세",
+        "최근 뉴스 부재"
+      ],
+      "key_risks": [
+        "AI 투자에 따른 운영 마진 하락 우려"
+      ],
+      "valuation_view": "공정가치 평가는 불확실함",
+      "counterfactuals": [
+        "긍정적인 AI 투자 효과 발표",
+        "기술적 분석 상승 전환"
+      ],
+      "next_checks": [
+        "AI 투자 관련 추가 뉴스",
+        "기술적 지표 개선 여부"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "현재 가격은 중립적이고 기술적 분석이 약세를 나타내지만 최근 뉴스가 없어 결정을 미루기로 함.",
+        "key_drivers": [
+          "기술적 분석 약세",
+          "최근 뉴스 부재"
+        ],
+        "key_risks": [
+          "AI 투자에 따른 운영 마진 하락 우려"
+        ],
+        "valuation_view": "공정가치 평가는 불확실함",
+        "counterfactuals": [
+          "긍정적인 AI 투자 효과 발표",
+          "기술적 분석 상승 전환"
+        ],
+        "next_checks": [
+          "AI 투자 관련 추가 뉴스",
+          "기술적 지표 개선 여부"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:38:49+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "현재 가격은 119.66이며, 최근 뉴스가 없어 동적 분석이 불가능합니다.",
+      "key_drivers": [
+        "AI 투자로 인한 운영 마진 압박",
+        "매출 성장률 30% 이상 지속"
+      ],
+      "key_risks": [
+        "운영 마진 개선 부진",
+        "시장 전반적인 AI 우려"
+      ],
+      "valuation_view": "공정가치 미정, 공정 가치 점수 -0.8",
+      "counterfactuals": [
+        "AI 투자 효과 빠른 실현",
+        "운영 마진 개선"
+      ],
+      "next_checks": [
+        "AI 투자의 영향 분석",
+        "운영 마진 개선 상황"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "현재 가격은 119.66이며, 최근 뉴스가 없어 동적 분석이 불가능합니다.",
+        "key_drivers": [
+          "AI 투자로 인한 운영 마진 압박",
+          "매출 성장률 30% 이상 지속"
+        ],
+        "key_risks": [
+          "운영 마진 개선 부진",
+          "시장 전반적인 AI 우려"
+        ],
+        "valuation_view": "공정가치 미정, 공정 가치 점수 -0.8",
+        "counterfactuals": [
+          "AI 투자 효과 빠른 실현",
+          "운영 마진 개선"
+        ],
+        "next_checks": [
+          "AI 투자의 영향 분석",
+          "운영 마진 개선 상황"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:35:37+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "현재 가격이 119.72로 전반적으로 중립적 시장에서 거래되고 있으며, 최근 뉴스가 없어 동향을 주시하고 있습니다.",
+      "key_drivers": [
+        "AI 투자에 따른 운영 마진 압박",
+        "매출 성장률 30% 이상 지속"
+      ],
+      "key_risks": [
+        "운영 마진 개선 부진",
+        "AI 투자의 효과 미확보"
+      ],
+      "valuation_view": "공정가치 평가 모델 적용 불가",
+      "counterfactuals": [
+        "AI 투자 효과 빠른 실현, 운영 마진 개선"
+      ],
+      "next_checks": [
+        "Q4 실적 발표 후 분석 보고서 및 경영진의 AI 전략 설명"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "현재 가격이 119.72로 전반적으로 중립적 시장에서 거래되고 있으며, 최근 뉴스가 없어 동향을 주시하고 있습니다.",
+        "key_drivers": [
+          "AI 투자에 따른 운영 마진 압박",
+          "매출 성장률 30% 이상 지속"
+        ],
+        "key_risks": [
+          "운영 마진 개선 부진",
+          "AI 투자의 효과 미확보"
+        ],
+        "valuation_view": "공정가치 평가 모델 적용 불가",
+        "counterfactuals": [
+          "AI 투자 효과 빠른 실현, 운영 마진 개선"
+        ],
+        "next_checks": [
+          "Q4 실적 발표 후 분석 보고서 및 경영진의 AI 전략 설명"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:16:31+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "현재 가격은 119.45이며, 동향이 위험온 모드로 전환되었으나 최근 뉴스가 없어 결정적 신호 부족.",
+      "key_drivers": [
+        "3주 연속 SELL 신호",
+        "기술적 분석 비 Bearsish"
+      ],
+      "key_risks": [
+        "AI 투자에 따른 운영 마진 하락 우려",
+        "시장 전반적인 위험온 모드"
+      ],
+      "valuation_view": "공정가치 미정, 평가 점수 -0.8",
+      "counterfactuals": [
+        "긍정적 AI 관련 뉴스 또는 기술적 분석 개선"
+      ],
+      "next_checks": [
+        "Q4 실적 발표 후 시장 반응",
+        "AI 투자 효과 확인"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "현재 가격은 119.45이며, 동향이 위험온 모드로 전환되었으나 최근 뉴스가 없어 결정적 신호 부족.",
+        "key_drivers": [
+          "3주 연속 SELL 신호",
+          "기술적 분석 비 Bearsish"
+        ],
+        "key_risks": [
+          "AI 투자에 따른 운영 마진 하락 우려",
+          "시장 전반적인 위험온 모드"
+        ],
+        "valuation_view": "공정가치 미정, 평가 점수 -0.8",
+        "counterfactuals": [
+          "긍정적 AI 관련 뉴스 또는 기술적 분석 개선"
+        ],
+        "next_checks": [
+          "Q4 실적 발표 후 시장 반응",
+          "AI 투자 효과 확인"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:13:41+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "현재 가격은 하락세를 보이고 있으나 최근 뉴스가 없어 추가적인 정보가 필요하다.",
+      "key_drivers": [
+        "AI 투자에 따른 운영 마진 압박",
+        "매출 성장"
+      ],
+      "key_risks": [
+        "운영 마진 개선 부진",
+        "AI 투자의 효과 미지"
+      ],
+      "valuation_view": "공정가치 평가 불확실성",
+      "counterfactuals": [
+        "AI 투자 효과 빠른 실현, 운영 마진 개선"
+      ],
+      "next_checks": [
+        "Q4 이익 발표 이후의 AI 투자 영향 분석",
+        "운영 마진 개선 동향"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "현재 가격은 하락세를 보이고 있으나 최근 뉴스가 없어 추가적인 정보가 필요하다.",
+        "key_drivers": [
+          "AI 투자에 따른 운영 마진 압박",
+          "매출 성장"
+        ],
+        "key_risks": [
+          "운영 마진 개선 부진",
+          "AI 투자의 효과 미지"
+        ],
+        "valuation_view": "공정가치 평가 불확실성",
+        "counterfactuals": [
+          "AI 투자 효과 빠른 실현, 운영 마진 개선"
+        ],
+        "next_checks": [
+          "Q4 이익 발표 이후의 AI 투자 영향 분석",
+          "운영 마진 개선 동향"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:10:35+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "현재 가격은 120.19이며, 최근 이슈가 없어 동적 분석에 변화가 없다.",
+      "key_drivers": [
+        "AI 투자로 인한 운영 마진 하락 우려",
+        "매출 성장률 30% 이상 지속"
+      ],
+      "key_risks": [
+        "운영 마진 악화 가능성",
+        "AI 투자가 실적에 부정적인 영향을 미칠 수 있음"
+      ],
+      "valuation_view": "공정가치는 아직 결정되지 않았으며, 현재 시장 상황에서 공정가치를 평가하기 어렵다.",
+      "counterfactuals": [
+        "운영 마진 개선 소식",
+        "AI 투자 효과 증명"
+      ],
+      "next_checks": [
+        "Q1 실적 발표 및 운영 마진 동향",
+        "AI 투자의 실제 영향 확인"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "현재 가격은 120.19이며, 최근 이슈가 없어 동적 분석에 변화가 없다.",
+        "key_drivers": [
+          "AI 투자로 인한 운영 마진 하락 우려",
+          "매출 성장률 30% 이상 지속"
+        ],
+        "key_risks": [
+          "운영 마진 악화 가능성",
+          "AI 투자가 실적에 부정적인 영향을 미칠 수 있음"
+        ],
+        "valuation_view": "공정가치는 아직 결정되지 않았으며, 현재 시장 상황에서 공정가치를 평가하기 어렵다.",
+        "counterfactuals": [
+          "운영 마진 개선 소식",
+          "AI 투자 효과 증명"
+        ],
+        "next_checks": [
+          "Q1 실적 발표 및 운영 마진 동향",
+          "AI 투자의 실제 영향 확인"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:04:52+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "현재 가격은 공정가치보다 낮으나 AI 투자로 인한 운영마진 악화 우려가 있어 추가 상승 여력 제한적.",
+      "key_drivers": [
+        "AI 투자의 지속",
+        "매출 성장"
+      ],
+      "key_risks": [
+        "운영 마진 악화",
+        "AI 투자 부정적 영향"
+      ],
+      "valuation_view": "공정가치 미확정, AI 투자 효과 불투명",
+      "counterfactuals": [
+        "AI 투자가 운영 효율성 개선으로 이어질 경우 상승 가능"
+      ],
+      "next_checks": [
+        "Q4 실적 발표 후 분석",
+        "운영 마진 동향"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "현재 가격은 공정가치보다 낮으나 AI 투자로 인한 운영마진 악화 우려가 있어 추가 상승 여력 제한적.",
+        "key_drivers": [
+          "AI 투자의 지속",
+          "매출 성장"
+        ],
+        "key_risks": [
+          "운영 마진 악화",
+          "AI 투자 부정적 영향"
+        ],
+        "valuation_view": "공정가치 미확정, AI 투자 효과 불투명",
+        "counterfactuals": [
+          "AI 투자가 운영 효율성 개선으로 이어질 경우 상승 가능"
+        ],
+        "next_checks": [
+          "Q4 실적 발표 후 분석",
+          "운영 마진 동향"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:59:57+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "현재 가격은 공정가치보다 낮으나 AI 투자로 인한 운영 마진 압박이 지속되고 있어 추가적인 상승 여력에 대한 의문이 제기됩니다.",
+      "key_drivers": [
+        "AI 투자의 지속",
+        "매출 성장"
+      ],
+      "key_risks": [
+        "운영 마진 하락 우려",
+        "AI 투자 효과의 불확실성"
+      ],
+      "valuation_view": "공정가치 미정, 현재 가격은 공정가치보다 낮음",
+      "counterfactuals": [
+        "AI 투자의 운영 효율성 증대",
+        "운영 마진 개선"
+      ],
+      "next_checks": [
+        "AI 투자 효과 분석",
+        "운영 마진 동향"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "현재 가격은 공정가치보다 낮으나 AI 투자로 인한 운영 마진 압박이 지속되고 있어 추가적인 상승 여력에 대한 의문이 제기됩니다.",
+        "key_drivers": [
+          "AI 투자의 지속",
+          "매출 성장"
+        ],
+        "key_risks": [
+          "운영 마진 하락 우려",
+          "AI 투자 효과의 불확실성"
+        ],
+        "valuation_view": "공정가치 미정, 현재 가격은 공정가치보다 낮음",
+        "counterfactuals": [
+          "AI 투자의 운영 효율성 증대",
+          "운영 마진 개선"
+        ],
+        "next_checks": [
+          "AI 투자 효과 분석",
+          "운영 마진 동향"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:56:58+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "시장은 위험 선호 모드로 전환되었으나, Shopify의 AI 투자에 따른 운영 마진 하락 우려가 여전히 존재합니다.",
+      "key_drivers": [
+        "AI 투자의 지속적인 영향",
+        "31% 매출 성장"
+      ],
+      "key_risks": [
+        "운영 마진 악화 우려",
+        "AI 투자 효과의 불확실성"
+      ],
+      "valuation_view": "-0.8 점으로 고평가 판단",
+      "counterfactuals": [
+        "AI 투자가 운영 효율성을 크게 개선할 경우"
+      ],
+      "next_checks": [
+        "Q1 실적 발표",
+        "운영 마진 회복 여부"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "시장은 위험 선호 모드로 전환되었으나, Shopify의 AI 투자에 따른 운영 마진 하락 우려가 여전히 존재합니다.",
+        "key_drivers": [
+          "AI 투자의 지속적인 영향",
+          "31% 매출 성장"
+        ],
+        "key_risks": [
+          "운영 마진 악화 우려",
+          "AI 투자 효과의 불확실성"
+        ],
+        "valuation_view": "-0.8 점으로 고평가 판단",
+        "counterfactuals": [
+          "AI 투자가 운영 효율성을 크게 개선할 경우"
+        ],
+        "next_checks": [
+          "Q1 실적 발표",
+          "운영 마진 회복 여부"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:54:01+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "현재 가격은 공정가치보다 낮으나 AI 투자로 인한 운영 마진 하락 우려가 있어 추가 상승 여력 제한적입니다.",
+      "key_drivers": [
+        "AI 투자의 지속적인 영향",
+        "매출 성장률 유지"
+      ],
+      "key_risks": [
+        "운영 마진 개선 부진",
+        "AI 투자 비용 증가"
+      ],
+      "valuation_view": "-0.8 점으로 현재 가격이 공정가치보다 낮은 것으로 평가됨",
+      "counterfactuals": [
+        "AI 투자가 운영 효율성 향상에 기여할 경우, 주가 상승 가능"
+      ],
+      "next_checks": [
+        "Q1 실적 발표",
+        "AI 투자 효과 확인"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "현재 가격은 공정가치보다 낮으나 AI 투자로 인한 운영 마진 하락 우려가 있어 추가 상승 여력 제한적입니다.",
+        "key_drivers": [
+          "AI 투자의 지속적인 영향",
+          "매출 성장률 유지"
+        ],
+        "key_risks": [
+          "운영 마진 개선 부진",
+          "AI 투자 비용 증가"
+        ],
+        "valuation_view": "-0.8 점으로 현재 가격이 공정가치보다 낮은 것으로 평가됨",
+        "counterfactuals": [
+          "AI 투자가 운영 효율성 향상에 기여할 경우, 주가 상승 가능"
+        ],
+        "next_checks": [
+          "Q1 실적 발표",
+          "AI 투자 효과 확인"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:27:37+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "시장은 위험회피 모드로 AI 투자에 따른 운영이익률 하락 우려가 지속되고 있다.",
+      "key_drivers": [
+        "AI 투자의 영향으로 인한 운영이익률 하락",
+        "위험회피 시장 분위기"
+      ],
+      "key_risks": [
+        "AI 투자가 계속해서 운영이익률을 악화시킬 가능성",
+        "시장의 위험회피 태도 지속"
+      ],
+      "valuation_view": "공정가치는 아직 결정되지 않았으나, 현재 가격은 하락 우려로 인해 부담스러워 보인다.",
+      "counterfactuals": [
+        "AI 투자의 효과적인 성과와 운영이익률 개선",
+        "시장의 위험회피 태도 완화"
+      ],
+      "next_checks": [
+        "Q4 실적 발표 이후 AI 투자에 대한 추가 정보",
+        "운영이익률 개선 여부"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "시장은 위험회피 모드로 AI 투자에 따른 운영이익률 하락 우려가 지속되고 있다.",
+        "key_drivers": [
+          "AI 투자의 영향으로 인한 운영이익률 하락",
+          "위험회피 시장 분위기"
+        ],
+        "key_risks": [
+          "AI 투자가 계속해서 운영이익률을 악화시킬 가능성",
+          "시장의 위험회피 태도 지속"
+        ],
+        "valuation_view": "공정가치는 아직 결정되지 않았으나, 현재 가격은 하락 우려로 인해 부담스러워 보인다.",
+        "counterfactuals": [
+          "AI 투자의 효과적인 성과와 운영이익률 개선",
+          "시장의 위험회피 태도 완화"
+        ],
+        "next_checks": [
+          "Q4 실적 발표 이후 AI 투자에 대한 추가 정보",
+          "운영이익률 개선 여부"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:24:52+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "시장은 위험회피 모드로 AI 투자에 따른 운영마진 악화 우려가 지속되고 있다.",
+      "key_drivers": [
+        "AI 투자의 영향으로 인한 운영마진 하락",
+        "위험회피 트렌드"
+      ],
+      "key_risks": [
+        "AI 투자가 수익성에 부정적 영향을 미칠 가능성",
+        "시장 전반적인 위험회피 심리 지속"
+      ],
+      "valuation_view": "-0.8 점으로 고평가 우려 존재",
+      "counterfactuals": [
+        "AI 투자 효과가 빠르게 나타나는 경우",
+        "시장이 위험 회피 모드에서 벗어나는 시점"
+      ],
+      "next_checks": [
+        "AI 투자의 실적 개선 여부",
+        "시장 전반적인 위험회피 심리 변화"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "시장은 위험회피 모드로 AI 투자에 따른 운영마진 악화 우려가 지속되고 있다.",
+        "key_drivers": [
+          "AI 투자의 영향으로 인한 운영마진 하락",
+          "위험회피 트렌드"
+        ],
+        "key_risks": [
+          "AI 투자가 수익성에 부정적 영향을 미칠 가능성",
+          "시장 전반적인 위험회피 심리 지속"
+        ],
+        "valuation_view": "-0.8 점으로 고평가 우려 존재",
+        "counterfactuals": [
+          "AI 투자 효과가 빠르게 나타나는 경우",
+          "시장이 위험 회피 모드에서 벗어나는 시점"
+        ],
+        "next_checks": [
+          "AI 투자의 실적 개선 여부",
+          "시장 전반적인 위험회피 심리 변화"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:21:58+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "시장은 위험회피 모드로 AI 투자에 따른 운영마진 악화 우려가 지속되고 있다.",
+      "key_drivers": [
+        "AI 투자의 영향으로 인한 운영마진 하락",
+        "위험회피 시장 분위기"
+      ],
+      "key_risks": [
+        "운영마진 개선 부진",
+        "AI 투자 효과 미흡"
+      ],
+      "valuation_view": "공정가치는 아직 결정되지 않았으나, 현재 가격은 위험회피 모드에서 적절하다고 판단.",
+      "counterfactuals": [
+        "AI 투자가 운영마진 개선으로 이어질 경우",
+        "시장 분위기의 급격한 변화"
+      ],
+      "next_checks": [
+        "Q4 실적 발표 후 AI 투자 효과 및 운영마진 동향",
+        "시장 전반적인 위험회피 모드 지속 여부"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "시장은 위험회피 모드로 AI 투자에 따른 운영마진 악화 우려가 지속되고 있다.",
+        "key_drivers": [
+          "AI 투자의 영향으로 인한 운영마진 하락",
+          "위험회피 시장 분위기"
+        ],
+        "key_risks": [
+          "운영마진 개선 부진",
+          "AI 투자 효과 미흡"
+        ],
+        "valuation_view": "공정가치는 아직 결정되지 않았으나, 현재 가격은 위험회피 모드에서 적절하다고 판단.",
+        "counterfactuals": [
+          "AI 투자가 운영마진 개선으로 이어질 경우",
+          "시장 분위기의 급격한 변화"
+        ],
+        "next_checks": [
+          "Q4 실적 발표 후 AI 투자 효과 및 운영마진 동향",
+          "시장 전반적인 위험회피 모드 지속 여부"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:19:04+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "시장은 위험회피 모드로, Shopify의 AI 투자에 따른 운영이익률 하락 우려가 지속되고 있다.",
+      "key_drivers": [
+        "AI 투자의 영향으로 인한 운영이익률 하락",
+        "위험회피 시장 분위기"
+      ],
+      "key_risks": [
+        "AI 투자가 수익성에 부정적 영향을 미칠 가능성",
+        "시장 변동성 증가"
+      ],
+      "valuation_view": "-0.8 점으로 고평가 우려",
+      "counterfactuals": [
+        "AI 투자 효과가 빠르게 나타나 운영이익률 개선 시"
+      ],
+      "next_checks": [
+        "Q1 실적 발표 및 AI 투자의 영향 평가",
+        "시장 전반적인 위험회피 분위기 변화"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "시장은 위험회피 모드로, Shopify의 AI 투자에 따른 운영이익률 하락 우려가 지속되고 있다.",
+        "key_drivers": [
+          "AI 투자의 영향으로 인한 운영이익률 하락",
+          "위험회피 시장 분위기"
+        ],
+        "key_risks": [
+          "AI 투자가 수익성에 부정적 영향을 미칠 가능성",
+          "시장 변동성 증가"
+        ],
+        "valuation_view": "-0.8 점으로 고평가 우려",
+        "counterfactuals": [
+          "AI 투자 효과가 빠르게 나타나 운영이익률 개선 시"
+        ],
+        "next_checks": [
+          "Q1 실적 발표 및 AI 투자의 영향 평가",
+          "시장 전반적인 위험회피 분위기 변화"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:16:01+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "시장은 위험회피 모드로, Shopify의 AI 투자에 따른 운영마진 하락 우려가 지속되고 있다.",
+      "key_drivers": [
+        "AI 투자의 영향으로 인한 운영마진 악화",
+        "위험회피 시장 분위기"
+      ],
+      "key_risks": [
+        "AI 투자가 수익성에 부정적 영향을 미칠 가능성",
+        "시장 변동성 증가"
+      ],
+      "valuation_view": "공정 가치 평가는 불확실성이 높아 현재는 정량화하기 어렵다.",
+      "counterfactuals": [
+        "AI 투자 효과가 빠르게 나타나 운영마진 개선이 이루어질 경우",
+        "시장 분위기가 위험 선호로 전환될 경우"
+      ],
+      "next_checks": [
+        "Q4 실적 발표 후 분석 리포트 및 시장 반응 모니터링",
+        "AI 투자 효과에 대한 추가 정보 공개"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "시장은 위험회피 모드로, Shopify의 AI 투자에 따른 운영마진 하락 우려가 지속되고 있다.",
+        "key_drivers": [
+          "AI 투자의 영향으로 인한 운영마진 악화",
+          "위험회피 시장 분위기"
+        ],
+        "key_risks": [
+          "AI 투자가 수익성에 부정적 영향을 미칠 가능성",
+          "시장 변동성 증가"
+        ],
+        "valuation_view": "공정 가치 평가는 불확실성이 높아 현재는 정량화하기 어렵다.",
+        "counterfactuals": [
+          "AI 투자 효과가 빠르게 나타나 운영마진 개선이 이루어질 경우",
+          "시장 분위기가 위험 선호로 전환될 경우"
+        ],
+        "next_checks": [
+          "Q4 실적 발표 후 분석 리포트 및 시장 반응 모니터링",
+          "AI 투자 효과에 대한 추가 정보 공개"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:06:13+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "시장은 위험회피 모드로 AI 투자의 영향으로 운영마진이 악화된 점이 우려됨.",
+      "key_drivers": [
+        "AI 투자에 따른 운영마진 하락",
+        "위험회피 시장"
+      ],
+      "key_risks": [
+        "운영마진 개선 부진",
+        "시장 리스크 증가"
+      ],
+      "valuation_view": "공정가치 미적정 (-0.8 점수)",
+      "counterfactuals": [
+        "AI 투자가 운영 효율성 향상으로 이어질 경우"
+      ],
+      "next_checks": [
+        "Q1 실적, AI 투자 효과 확인"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "시장은 위험회피 모드로 AI 투자의 영향으로 운영마진이 악화된 점이 우려됨.",
+        "key_drivers": [
+          "AI 투자에 따른 운영마진 하락",
+          "위험회피 시장"
+        ],
+        "key_risks": [
+          "운영마진 개선 부진",
+          "시장 리스크 증가"
+        ],
+        "valuation_view": "공정가치 미적정 (-0.8 점수)",
+        "counterfactuals": [
+          "AI 투자가 운영 효율성 향상으로 이어질 경우"
+        ],
+        "next_checks": [
+          "Q1 실적, AI 투자 효과 확인"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:54:37+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "시장은 위험회피 모드로 현재 가격이 공정가치보다 낮게 평가되고 있지만, 최근 뉴스 없음.",
+      "key_drivers": [
+        "위험회피 시장 조건",
+        "AI 투자에 따른 운영 마진 영향"
+      ],
+      "key_risks": [
+        "운영 마진 악화 우려",
+        "시장 리스크"
+      ],
+      "valuation_view": "-0.8 점으로 공정가치보다 낮게 평가",
+      "counterfactuals": [
+        "AI 투자가 운영 효율성 개선에 긍정적 영향을 미칠 경우"
+      ],
+      "next_checks": [
+        "Q4 실적 발표 후 분석",
+        "운영 마진 동향"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "시장은 위험회피 모드로 현재 가격이 공정가치보다 낮게 평가되고 있지만, 최근 뉴스 없음.",
+        "key_drivers": [
+          "위험회피 시장 조건",
+          "AI 투자에 따른 운영 마진 영향"
+        ],
+        "key_risks": [
+          "운영 마진 악화 우려",
+          "시장 리스크"
+        ],
+        "valuation_view": "-0.8 점으로 공정가치보다 낮게 평가",
+        "counterfactuals": [
+          "AI 투자가 운영 효율성 개선에 긍정적 영향을 미칠 경우"
+        ],
+        "next_checks": [
+          "Q4 실적 발표 후 분석",
+          "운영 마진 동향"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:51:38+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "시장은 위험회피 모드로, Shopify의 AI 투자에 따른 운영마진 하락 우려가 지속되고 있다.",
+      "key_drivers": [
+        "AI 투자의 영향으로 인한 운영마진 하락",
+        "위험회피 시장 분위기"
+      ],
+      "key_risks": [
+        "AI 투자가 수익성에 부정적 영향을 미칠 가능성",
+        "시장 변동성 증가"
+      ],
+      "valuation_view": "공정가치 평가 불가, 현재 위험회피 모드",
+      "counterfactuals": [
+        "AI 투자의 효과적인 성과로 운영마진 개선"
+      ],
+      "next_checks": [
+        "Q4 실적 발표 후 분석",
+        "AI 투자에 대한 추가 정보 공개"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "시장은 위험회피 모드로, Shopify의 AI 투자에 따른 운영마진 하락 우려가 지속되고 있다.",
+        "key_drivers": [
+          "AI 투자의 영향으로 인한 운영마진 하락",
+          "위험회피 시장 분위기"
+        ],
+        "key_risks": [
+          "AI 투자가 수익성에 부정적 영향을 미칠 가능성",
+          "시장 변동성 증가"
+        ],
+        "valuation_view": "공정가치 평가 불가, 현재 위험회피 모드",
+        "counterfactuals": [
+          "AI 투자의 효과적인 성과로 운영마진 개선"
+        ],
+        "next_checks": [
+          "Q4 실적 발표 후 분석",
+          "AI 투자에 대한 추가 정보 공개"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:48:22+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "현재 시장은 위험회피 모드로 AI 투자에 따른 영업이익률 하락 우려가 지속되고 있다.",
+      "key_drivers": [
+        "위험회피 모드",
+        "AI 투자의 영향"
+      ],
+      "key_risks": [
+        "영업이익률 하락",
+        "투자심리 악화"
+      ],
+      "valuation_view": "-0.8 점으로 고평가 우려",
+      "counterfactuals": [
+        "AI 투자가 효과를 보는 경우, 주가 상승 가능"
+      ],
+      "next_checks": [
+        "AI 투자의 영향 평가",
+        "영업이익률 개선 여부"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "현재 시장은 위험회피 모드로 AI 투자에 따른 영업이익률 하락 우려가 지속되고 있다.",
+        "key_drivers": [
+          "위험회피 모드",
+          "AI 투자의 영향"
+        ],
+        "key_risks": [
+          "영업이익률 하락",
+          "투자심리 악화"
+        ],
+        "valuation_view": "-0.8 점으로 고평가 우려",
+        "counterfactuals": [
+          "AI 투자가 효과를 보는 경우, 주가 상승 가능"
+        ],
+        "next_checks": [
+          "AI 투자의 영향 평가",
+          "영업이익률 개선 여부"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:28:15+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "시장은 위험회피 모드로, Shopify의 AI 투자에 따른 운영마진 압박 우려가 지속되고 있다.",
+      "key_drivers": [
+        "AI 투자의 영향으로 인한 운영마진 하락",
+        "위험회피 시장 분위기"
+      ],
+      "key_risks": [
+        "AI 투자가 수익성에 부정적 영향을 미칠 가능성",
+        "시장 변동성 증가"
+      ],
+      "valuation_view": "공정가치는 아직 명확하지 않으나, 현재 가격은 과열되지 않은 것으로 보인다.",
+      "counterfactuals": [
+        "AI 투자가 운영마진 개선으로 이어질 경우",
+        "시장 분위기가 위험온 모드로 전환"
+      ],
+      "next_checks": [
+        "Q1 실적 발표 및 AI 투자 효과 확인",
+        "시장 변동성 변화"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "시장은 위험회피 모드로, Shopify의 AI 투자에 따른 운영마진 압박 우려가 지속되고 있다.",
+        "key_drivers": [
+          "AI 투자의 영향으로 인한 운영마진 하락",
+          "위험회피 시장 분위기"
+        ],
+        "key_risks": [
+          "AI 투자가 수익성에 부정적 영향을 미칠 가능성",
+          "시장 변동성 증가"
+        ],
+        "valuation_view": "공정가치는 아직 명확하지 않으나, 현재 가격은 과열되지 않은 것으로 보인다.",
+        "counterfactuals": [
+          "AI 투자가 운영마진 개선으로 이어질 경우",
+          "시장 분위기가 위험온 모드로 전환"
+        ],
+        "next_checks": [
+          "Q1 실적 발표 및 AI 투자 효과 확인",
+          "시장 변동성 변화"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:25:12+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "시장은 위험회피 모드로, 최근 Shopify에 대한 뉴스나 이벤트가 없어 기존 판단 유지.",
+      "key_drivers": [
+        "위험회피 시장",
+        "AI 투자 영향"
+      ],
+      "key_risks": [
+        "운영 마진 악화 우려",
+        "AI 투자의 부정적 영향"
+      ],
+      "valuation_view": "-0.8 점으로 공격적인 포지션 유지 어려움",
+      "counterfactuals": [
+        "긍정적인 AI 관련 뉴스나 이벤트 발생 시 판단 변경 가능"
+      ],
+      "next_checks": [
+        "AI 투자 효과 및 운영 마진 동향",
+        "시장 전반적 위험회피 모드 지속 여부"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "시장은 위험회피 모드로, 최근 Shopify에 대한 뉴스나 이벤트가 없어 기존 판단 유지.",
+        "key_drivers": [
+          "위험회피 시장",
+          "AI 투자 영향"
+        ],
+        "key_risks": [
+          "운영 마진 악화 우려",
+          "AI 투자의 부정적 영향"
+        ],
+        "valuation_view": "-0.8 점으로 공격적인 포지션 유지 어려움",
+        "counterfactuals": [
+          "긍정적인 AI 관련 뉴스나 이벤트 발생 시 판단 변경 가능"
+        ],
+        "next_checks": [
+          "AI 투자 효과 및 운영 마진 동향",
+          "시장 전반적 위험회피 모드 지속 여부"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:22:10+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "시장은 위험회피 모드로 AI 투자에 대한 우려가 지속되고 있습니다.",
+      "key_drivers": [
+        "위험회피 시장 상황",
+        "AI 투자의 영향"
+      ],
+      "key_risks": [
+        "운영 마진 악화 가능성",
+        "시장 리스크 증가"
+      ],
+      "valuation_view": "-0.8 점으로 고평가 우려",
+      "counterfactuals": [
+        "AI 투자가 효과적으로 이루어져 운영 마진 개선"
+      ],
+      "next_checks": [
+        "Q4 실적 발표 후 분석",
+        "시장 리스크 변화"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "시장은 위험회피 모드로 AI 투자에 대한 우려가 지속되고 있습니다.",
+        "key_drivers": [
+          "위험회피 시장 상황",
+          "AI 투자의 영향"
+        ],
+        "key_risks": [
+          "운영 마진 악화 가능성",
+          "시장 리스크 증가"
+        ],
+        "valuation_view": "-0.8 점으로 고평가 우려",
+        "counterfactuals": [
+          "AI 투자가 효과적으로 이루어져 운영 마진 개선"
+        ],
+        "next_checks": [
+          "Q4 실적 발표 후 분석",
+          "시장 리스크 변화"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:18:56+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 시장은 위험회피 모드로, Shopify의 신호는 중립적입니다.",
+      "key_drivers": [
+        "위험회피 모드",
+        "최근 이슈 없음"
+      ],
+      "key_risks": [
+        "AI 투자에 따른 운영 마진 악화 우려"
+      ],
+      "valuation_view": "공정가치 평가는 불명확합니다.",
+      "counterfactuals": [
+        "긍정적인 AI 관련 뉴스나 기대감 증가"
+      ],
+      "next_checks": [
+        "Q4 실적 발표 후 분석",
+        "AI 투자에 따른 영향 점검"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 시장은 위험회피 모드로, Shopify의 신호는 중립적입니다.",
+        "key_drivers": [
+          "위험회피 모드",
+          "최근 이슈 없음"
+        ],
+        "key_risks": [
+          "AI 투자에 따른 운영 마진 악화 우려"
+        ],
+        "valuation_view": "공정가치 평가는 불명확합니다.",
+        "counterfactuals": [
+          "긍정적인 AI 관련 뉴스나 기대감 증가"
+        ],
+        "next_checks": [
+          "Q4 실적 발표 후 분석",
+          "AI 투자에 따른 영향 점검"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:13:29+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "현재 위험회피 모드로 시장이 조정 중이며, 최근 이슈가 없어 기존 판단 유지.",
+      "key_drivers": [
+        "위험회피 모드",
+        "최근 뉴스 없음"
+      ],
+      "key_risks": [
+        "AI 투자 부담 증가",
+        "시장 변동성"
+      ],
+      "valuation_view": "공정가치 미적시, 평가 점수 -0.8",
+      "counterfactuals": [
+        "긍정적인 AI 투자 효과 확인 시 매수 판단 가능"
+      ],
+      "next_checks": [
+        "Shopify Q4 실적 및 가이던스 발표",
+        "AI 관련 비용 변화"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "현재 위험회피 모드로 시장이 조정 중이며, 최근 이슈가 없어 기존 판단 유지.",
+        "key_drivers": [
+          "위험회피 모드",
+          "최근 뉴스 없음"
+        ],
+        "key_risks": [
+          "AI 투자 부담 증가",
+          "시장 변동성"
+        ],
+        "valuation_view": "공정가치 미적시, 평가 점수 -0.8",
+        "counterfactuals": [
+          "긍정적인 AI 투자 효과 확인 시 매수 판단 가능"
+        ],
+        "next_checks": [
+          "Shopify Q4 실적 및 가이던스 발표",
+          "AI 관련 비용 변화"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:10:18+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "현재 시장은 위험회피 모드로, Shopify의 주가는 안정적 수준을 유지하고 있습니다.",
+      "key_drivers": [
+        "위험회피 모드",
+        "최근 뉴스 없음"
+      ],
+      "key_risks": [
+        "AI 투자에 따른 운영 마진 부담"
+      ],
+      "valuation_view": "-0.8의 평가 점수로, 주가는 현재 과대평가되지 않은 것으로 판단됩니다.",
+      "counterfactuals": [
+        "긍정적인 AI 관련 뉴스나 기술적 분석 지표 개선"
+      ],
+      "next_checks": [
+        "AI 투자 영향 및 운영 마진 동향",
+        "시장 위험회피 모드 변화"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "현재 시장은 위험회피 모드로, Shopify의 주가는 안정적 수준을 유지하고 있습니다.",
+        "key_drivers": [
+          "위험회피 모드",
+          "최근 뉴스 없음"
+        ],
+        "key_risks": [
+          "AI 투자에 따른 운영 마진 부담"
+        ],
+        "valuation_view": "-0.8의 평가 점수로, 주가는 현재 과대평가되지 않은 것으로 판단됩니다.",
+        "counterfactuals": [
+          "긍정적인 AI 관련 뉴스나 기술적 분석 지표 개선"
+        ],
+        "next_checks": [
+          "AI 투자 영향 및 운영 마진 동향",
+          "시장 위험회피 모드 변화"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-27T23:56:06+09:00",
+      "action": "HOLD",
+      "confidence": 0.12,
+      "rationale": "현재 시장은 위험회피 모드로, Shopify의 주가 동향이 불확실합니다.",
+      "key_drivers": [
+        "위험회피 모드",
+        "최근 긍정적 뉴스 없음"
+      ],
+      "key_risks": [
+        "AI 투자에 따른 운영 마진 악화 우려",
+        "시장 전반적인 위험 회피 심리"
+      ],
+      "valuation_view": "현재 주가는 고평가 여부 판단 불가능",
+      "counterfactuals": [
+        "긍정적 이벤트나 뉴스 발생 시 매수 가능"
+      ],
+      "next_checks": [
+        "AI 투자 효과 확인",
+        "시장 전반적인 위험 회피 심리 변화"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.12,
+        "rationale": "현재 시장은 위험회피 모드로, Shopify의 주가 동향이 불확실합니다.",
+        "key_drivers": [
+          "위험회피 모드",
+          "최근 긍정적 뉴스 없음"
+        ],
+        "key_risks": [
+          "AI 투자에 따른 운영 마진 악화 우려",
+          "시장 전반적인 위험 회피 심리"
+        ],
+        "valuation_view": "현재 주가는 고평가 여부 판단 불가능",
+        "counterfactuals": [
+          "긍정적 이벤트나 뉴스 발생 시 매수 가능"
+        ],
+        "next_checks": [
+          "AI 투자 효과 확인",
+          "시장 전반적인 위험 회피 심리 변화"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-27T23:53:07+09:00",
+      "action": "HOLD",
+      "confidence": 0.12,
+      "rationale": "현재 시장은 위험회피 모드로, 신규 투자보다는 보수적인 접근이 필요하다.",
+      "key_drivers": [
+        "시장 리스크 점수가 -0.8으로 높게 나와 위험 회피 모드"
+      ],
+      "key_risks": [
+        "AI 투자가 영업 마진에 부정적 영향을 미칠 수 있음"
+      ],
+      "valuation_view": "평가 점수는 -0.8로 낮아, 현재 주가는 과대 평가되지 않은 것으로 보인다.",
+      "counterfactuals": [
+        "AI 투자가 효과적으로 이루어져 마진 개선이 예상될 경우 매수 가능"
+      ],
+      "next_checks": [
+        "Q4 실적 발표 후 분석 결과 및 AI 투자 영향 확인"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.12,
+        "rationale": "현재 시장은 위험회피 모드로, 신규 투자보다는 보수적인 접근이 필요하다.",
+        "key_drivers": [
+          "시장 리스크 점수가 -0.8으로 높게 나와 위험 회피 모드"
+        ],
+        "key_risks": [
+          "AI 투자가 영업 마진에 부정적 영향을 미칠 수 있음"
+        ],
+        "valuation_view": "평가 점수는 -0.8로 낮아, 현재 주가는 과대 평가되지 않은 것으로 보인다.",
+        "counterfactuals": [
+          "AI 투자가 효과적으로 이루어져 마진 개선이 예상될 경우 매수 가능"
+        ],
+        "next_checks": [
+          "Q4 실적 발표 후 분석 결과 및 AI 투자 영향 확인"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
     {
       "ts_kst": "2026-02-27T07:09:12+09:00",
       "action": "HOLD",
@@ -8864,1518 +10280,6 @@
         "next_checks": [
           "Monitor upcoming earnings reports for major software companies to gauge any shifts in investor sentiment.",
           "Keep an eye on broader market trends and economic indicators that may influence AI-related stocks."
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:24:29+09:00",
-      "action": "HOLD",
-      "confidence": 0.218,
-      "rationale": "The current market conditions and recent news events suggest a neutral stance with slight bearish sentiment, indicating that the stock price is not compelling enough for an active buy or sell decision at this moment.",
-      "key_drivers": [
-        "Technical analysis score of -0.6 indicates bearish sentiment.",
-        "Recent news on TxtCart's growth does not significantly impact broader market sentiment."
-      ],
-      "key_risks": [
-        "Widespread investor pessimism about AI’s impact on software growth continues to drag down the sector.",
-        "Lack of recent positive news events affecting the stock price."
-      ],
-      "valuation_view": "The valuation score of -0.8 suggests overvaluation, but without a specific fair value or range, this is less clear.",
-      "counterfactuals": [
-        "A significant positive earnings report from a major software company could change market sentiment and justify a buy recommendation.",
-        "Further negative news on AI’s impact on growth could intensify bearish sentiment."
-      ],
-      "next_checks": [
-        "Monitor upcoming earnings reports for major software companies to gauge broader market sentiment.",
-        "Track any significant developments in the AI sector that might affect investor perceptions."
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.218,
-        "rationale": "The current market conditions and recent news events suggest a neutral stance with slight bearish sentiment, indicating that the stock price is not compelling enough for an active buy or sell decision at this moment.",
-        "key_drivers": [
-          "Technical analysis score of -0.6 indicates bearish sentiment.",
-          "Recent news on TxtCart's growth does not significantly impact broader market sentiment."
-        ],
-        "key_risks": [
-          "Widespread investor pessimism about AI’s impact on software growth continues to drag down the sector.",
-          "Lack of recent positive news events affecting the stock price."
-        ],
-        "valuation_view": "The valuation score of -0.8 suggests overvaluation, but without a specific fair value or range, this is less clear.",
-        "counterfactuals": [
-          "A significant positive earnings report from a major software company could change market sentiment and justify a buy recommendation.",
-          "Further negative news on AI’s impact on growth could intensify bearish sentiment."
-        ],
-        "next_checks": [
-          "Monitor upcoming earnings reports for major software companies to gauge broader market sentiment.",
-          "Track any significant developments in the AI sector that might affect investor perceptions."
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:22:44+09:00",
-      "action": "HOLD",
-      "confidence": 0.6,
-      "rationale": "The current market sentiment and technical analysis suggest a neutral stance with slight bearish tendencies, making it prudent to hold the position for now.",
-      "key_drivers": [
-        "Market regime score of 0.2 indicates a neutral outlook.",
-        "Technical analysis shows a bearish trend with a score of -0.6."
-      ],
-      "key_risks": [
-        "Widespread investor pessimism regarding AI's impact on software growth remains prevalent, as highlighted in recent news.",
-        "Lack of significant positive news or developments to shift the current market sentiment."
-      ],
-      "valuation_view": "The valuation score of -0.8 suggests that the stock may be overvalued based on current metrics, but this is not a strong enough signal to trigger a sell action given the neutral regime.",
-      "counterfactuals": [
-        "A significant positive earnings report or news event from Shopify could change the market sentiment and warrant a buy recommendation.",
-        "If AI concerns subside and software stocks start showing stronger growth trends, it may be time to reassess the position."
-      ],
-      "next_checks": [
-        "Monitor upcoming earnings reports for major software companies to gauge broader market sentiment.",
-        "Keep an eye on any new developments or news related to AI's impact on e-commerce platforms."
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.6,
-        "rationale": "The current market sentiment and technical analysis suggest a neutral stance with slight bearish tendencies, making it prudent to hold the position for now.",
-        "key_drivers": [
-          "Market regime score of 0.2 indicates a neutral outlook.",
-          "Technical analysis shows a bearish trend with a score of -0.6."
-        ],
-        "key_risks": [
-          "Widespread investor pessimism regarding AI's impact on software growth remains prevalent, as highlighted in recent news.",
-          "Lack of significant positive news or developments to shift the current market sentiment."
-        ],
-        "valuation_view": "The valuation score of -0.8 suggests that the stock may be overvalued based on current metrics, but this is not a strong enough signal to trigger a sell action given the neutral regime.",
-        "counterfactuals": [
-          "A significant positive earnings report or news event from Shopify could change the market sentiment and warrant a buy recommendation.",
-          "If AI concerns subside and software stocks start showing stronger growth trends, it may be time to reassess the position."
-        ],
-        "next_checks": [
-          "Monitor upcoming earnings reports for major software companies to gauge broader market sentiment.",
-          "Keep an eye on any new developments or news related to AI's impact on e-commerce platforms."
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:20:56+09:00",
-      "action": "HOLD",
-      "confidence": 0.2184,
-      "rationale": "The current market conditions and recent news events suggest a neutral stance with slight bearish sentiment, indicating that holding the position is appropriate for now.",
-      "key_drivers": [
-        "Market regime score of 0.2 indicates a neutral market condition.",
-        "Technical analysis score of -0.6 suggests a bearish trend."
-      ],
-      "key_risks": [
-        "Widespread investor pessimism regarding AI's impact on software growth is prevalent, overshadowing positive earnings reports."
-      ],
-      "valuation_view": "The valuation score of -0.8 indicates that the stock may be undervalued, but recent news does not provide strong enough signals to justify a buy action.",
-      "counterfactuals": [
-        "If AI concerns subside and positive earnings reports start driving investor sentiment, this could change the market dynamics and warrant a re-evaluation of the position."
-      ],
-      "next_checks": [
-        "Monitor upcoming earnings reports from key software companies for any shifts in investor sentiment.",
-        "Track broader market trends related to AI and its impact on technology stocks."
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.2184,
-        "rationale": "The current market conditions and recent news events suggest a neutral stance with slight bearish sentiment, indicating that holding the position is appropriate for now.",
-        "key_drivers": [
-          "Market regime score of 0.2 indicates a neutral market condition.",
-          "Technical analysis score of -0.6 suggests a bearish trend."
-        ],
-        "key_risks": [
-          "Widespread investor pessimism regarding AI's impact on software growth is prevalent, overshadowing positive earnings reports."
-        ],
-        "valuation_view": "The valuation score of -0.8 indicates that the stock may be undervalued, but recent news does not provide strong enough signals to justify a buy action.",
-        "counterfactuals": [
-          "If AI concerns subside and positive earnings reports start driving investor sentiment, this could change the market dynamics and warrant a re-evaluation of the position."
-        ],
-        "next_checks": [
-          "Monitor upcoming earnings reports from key software companies for any shifts in investor sentiment.",
-          "Track broader market trends related to AI and its impact on technology stocks."
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:19:10+09:00",
-      "action": "HOLD",
-      "confidence": 0.2,
-      "rationale": "The current market regime is neutral with a slight bearish tilt, and recent news does not provide strong enough signals to change the position. The valuation score remains negative, indicating potential undervaluation but also caution due to ongoing AI concerns in the software sector.",
-      "key_drivers": [
-        "Neutral market regime (score: 0.2)",
-        "Bearish technical analysis (score: -0.6)",
-        "Mixed recent news with no significant positive or negative impact"
-      ],
-      "key_risks": [
-        "Ongoing AI concerns affecting software sector sentiment",
-        "Potential for further bearish market movements if AI fears persist"
-      ],
-      "valuation_view": "The valuation score of -0.8 suggests the stock may be undervalued, but this is offset by current negative market sentiment.",
-      "counterfactuals": [
-        "A significant positive earnings report from a major software company could shift market sentiment and justify a buy action.",
-        "Further deterioration in AI-related concerns could lead to stronger bearish signals."
-      ],
-      "next_checks": [
-        "Monitor upcoming earnings reports for major software companies",
-        "Track broader market sentiment on AI and its impact on technology stocks"
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.2,
-        "rationale": "The current market regime is neutral with a slight bearish tilt, and recent news does not provide strong enough signals to change the position. The valuation score remains negative, indicating potential undervaluation but also caution due to ongoing AI concerns in the software sector.",
-        "key_drivers": [
-          "Neutral market regime (score: 0.2)",
-          "Bearish technical analysis (score: -0.6)",
-          "Mixed recent news with no significant positive or negative impact"
-        ],
-        "key_risks": [
-          "Ongoing AI concerns affecting software sector sentiment",
-          "Potential for further bearish market movements if AI fears persist"
-        ],
-        "valuation_view": "The valuation score of -0.8 suggests the stock may be undervalued, but this is offset by current negative market sentiment.",
-        "counterfactuals": [
-          "A significant positive earnings report from a major software company could shift market sentiment and justify a buy action.",
-          "Further deterioration in AI-related concerns could lead to stronger bearish signals."
-        ],
-        "next_checks": [
-          "Monitor upcoming earnings reports for major software companies",
-          "Track broader market sentiment on AI and its impact on technology stocks"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:17:23+09:00",
-      "action": "HOLD",
-      "confidence": 0.2185,
-      "rationale": "The current market sentiment and technical analysis suggest a neutral stance with slight bearish tendencies, supported by recent news events that do not significantly alter the overall outlook.",
-      "key_drivers": [
-        "Market regime score of 0.2 indicates a neutral market condition.",
-        "Technical analysis score of -0.6 suggests a bearish trend.",
-        "Recent news on TxtCart's growth is neutral and does not provide strong bullish signals."
-      ],
-      "key_risks": [
-        "Widespread investor pessimism regarding AI’s impact on software growth remains a significant risk.",
-        "Lack of recent positive news events to shift the current market sentiment."
-      ],
-      "valuation_view": "The valuation score of -0.8 suggests overvaluation, but without specific fair value or range provided, this is a general concern.",
-      "counterfactuals": [
-        "A significant positive earnings report from a major software company could change the bearish trend.",
-        "Positive regulatory developments regarding AI in technology sectors might shift investor sentiment."
-      ],
-      "next_checks": [
-        "Monitor upcoming earnings reports and news events for any shifts in market sentiment.",
-        "Assess any changes in valuation metrics or fair value estimates."
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.2185,
-        "rationale": "The current market sentiment and technical analysis suggest a neutral stance with slight bearish tendencies, supported by recent news events that do not significantly alter the overall outlook.",
-        "key_drivers": [
-          "Market regime score of 0.2 indicates a neutral market condition.",
-          "Technical analysis score of -0.6 suggests a bearish trend.",
-          "Recent news on TxtCart's growth is neutral and does not provide strong bullish signals."
-        ],
-        "key_risks": [
-          "Widespread investor pessimism regarding AI’s impact on software growth remains a significant risk.",
-          "Lack of recent positive news events to shift the current market sentiment."
-        ],
-        "valuation_view": "The valuation score of -0.8 suggests overvaluation, but without specific fair value or range provided, this is a general concern.",
-        "counterfactuals": [
-          "A significant positive earnings report from a major software company could change the bearish trend.",
-          "Positive regulatory developments regarding AI in technology sectors might shift investor sentiment."
-        ],
-        "next_checks": [
-          "Monitor upcoming earnings reports and news events for any shifts in market sentiment.",
-          "Assess any changes in valuation metrics or fair value estimates."
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:15:40+09:00",
-      "action": "HOLD",
-      "confidence": 0.2,
-      "rationale": "The current market sentiment and technical analysis suggest a neutral stance with slight bearish tendencies, making it prudent to hold the position.",
-      "key_drivers": [
-        "Market regime score of 0.2 indicates a neutral outlook.",
-        "Technical analysis shows a bearish trend with a score of -0.6."
-      ],
-      "key_risks": [
-        "Widespread investor pessimism regarding AI's impact on growth in the software sector could continue to pressure prices.",
-        "Lack of significant recent news events affecting the stock price."
-      ],
-      "valuation_view": "The valuation score of -0.8 suggests that the current price may be overvalued compared to fair value, but this is not a strong driver given the overall market sentiment.",
-      "counterfactuals": [
-        "A positive earnings report from Shopify or other software companies could shift investor sentiment and potentially change the bearish trend.",
-        "Significant news events that highlight AI's benefits in the e-commerce sector might reverse current pessimism."
-      ],
-      "next_checks": [
-        "Monitor upcoming earnings reports for major software companies to gauge market reaction.",
-        "Track any developments in AI technology that could positively impact the sector."
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.2,
-        "rationale": "The current market sentiment and technical analysis suggest a neutral stance with slight bearish tendencies, making it prudent to hold the position.",
-        "key_drivers": [
-          "Market regime score of 0.2 indicates a neutral outlook.",
-          "Technical analysis shows a bearish trend with a score of -0.6."
-        ],
-        "key_risks": [
-          "Widespread investor pessimism regarding AI's impact on growth in the software sector could continue to pressure prices.",
-          "Lack of significant recent news events affecting the stock price."
-        ],
-        "valuation_view": "The valuation score of -0.8 suggests that the current price may be overvalued compared to fair value, but this is not a strong driver given the overall market sentiment.",
-        "counterfactuals": [
-          "A positive earnings report from Shopify or other software companies could shift investor sentiment and potentially change the bearish trend.",
-          "Significant news events that highlight AI's benefits in the e-commerce sector might reverse current pessimism."
-        ],
-        "next_checks": [
-          "Monitor upcoming earnings reports for major software companies to gauge market reaction.",
-          "Track any developments in AI technology that could positively impact the sector."
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:14:03+09:00",
-      "action": "HOLD",
-      "confidence": 0.2185,
-      "rationale": "The current market regime is neutral with a slight bearish trend signal (-0.22). Recent news events include positive growth milestones for TxtCart but are not significant enough to override the overall bearish technical analysis score of -0.6. Given the recent earnings reports indicating widespread investor pessimism about AI's impact on software stocks, it is prudent to maintain a neutral position.",
-      "key_drivers": [
-        "Neutral market regime (score: 0.2)",
-        "Bearish technical analysis (score: -0.6)"
-      ],
-      "key_risks": [
-        "Widespread investor pessimism about AI's impact on software stocks",
-        "Lack of significant positive news events to counter the bearish trend"
-      ],
-      "valuation_view": "The valuation score is -0.8, indicating that the stock may be undervalued, but this has not been a driving factor in recent decisions.",
-      "counterfactuals": [
-        "A strong earnings report from Shopify or other key software companies could change investor sentiment and lead to a buy signal.",
-        "Significant positive news events for AI integration in e-commerce could shift the technical analysis towards a bullish trend."
-      ],
-      "next_checks": [
-        "Earnings reports from key software companies",
-        "Further developments in AI's impact on e-commerce platforms"
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.2185,
-        "rationale": "The current market regime is neutral with a slight bearish trend signal (-0.22). Recent news events include positive growth milestones for TxtCart but are not significant enough to override the overall bearish technical analysis score of -0.6. Given the recent earnings reports indicating widespread investor pessimism about AI's impact on software stocks, it is prudent to maintain a neutral position.",
-        "key_drivers": [
-          "Neutral market regime (score: 0.2)",
-          "Bearish technical analysis (score: -0.6)"
-        ],
-        "key_risks": [
-          "Widespread investor pessimism about AI's impact on software stocks",
-          "Lack of significant positive news events to counter the bearish trend"
-        ],
-        "valuation_view": "The valuation score is -0.8, indicating that the stock may be undervalued, but this has not been a driving factor in recent decisions.",
-        "counterfactuals": [
-          "A strong earnings report from Shopify or other key software companies could change investor sentiment and lead to a buy signal.",
-          "Significant positive news events for AI integration in e-commerce could shift the technical analysis towards a bullish trend."
-        ],
-        "next_checks": [
-          "Earnings reports from key software companies",
-          "Further developments in AI's impact on e-commerce platforms"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:12:00+09:00",
-      "action": "HOLD",
-      "confidence": 0.2,
-      "rationale": "The current market regime is neutral with a slight bearish tilt from technical analysis. Recent news on TxtCart's growth, while positive, does not significantly alter the overall bearish sentiment driven by broader concerns about AI's impact on software stock valuations.",
-      "key_drivers": [
-        "Neutral market regime score of 0.2",
-        "Bearish technical analysis score of -0.6",
-        "Recent positive news on TxtCart growth (neutral impact)"
-      ],
-      "key_risks": [
-        "Widespread investor pessimism about AI's impact on software growth",
-        "No recent significant positive news to shift market sentiment"
-      ],
-      "valuation_view": "The valuation score of -0.8 suggests the stock is undervalued, but this has not been enough to overcome the bearish technical and broader market trends.",
-      "counterfactuals": [
-        "A significant positive earnings report from a major software company could shift investor sentiment",
-        "Positive regulatory developments or breakthroughs in AI technology that improve growth prospects for software firms"
-      ],
-      "next_checks": [
-        "Earnings reports from key software companies to gauge broader market sentiment",
-        "Further updates on AI's impact and its integration into business models"
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.2,
-        "rationale": "The current market regime is neutral with a slight bearish tilt from technical analysis. Recent news on TxtCart's growth, while positive, does not significantly alter the overall bearish sentiment driven by broader concerns about AI's impact on software stock valuations.",
-        "key_drivers": [
-          "Neutral market regime score of 0.2",
-          "Bearish technical analysis score of -0.6",
-          "Recent positive news on TxtCart growth (neutral impact)"
-        ],
-        "key_risks": [
-          "Widespread investor pessimism about AI's impact on software growth",
-          "No recent significant positive news to shift market sentiment"
-        ],
-        "valuation_view": "The valuation score of -0.8 suggests the stock is undervalued, but this has not been enough to overcome the bearish technical and broader market trends.",
-        "counterfactuals": [
-          "A significant positive earnings report from a major software company could shift investor sentiment",
-          "Positive regulatory developments or breakthroughs in AI technology that improve growth prospects for software firms"
-        ],
-        "next_checks": [
-          "Earnings reports from key software companies to gauge broader market sentiment",
-          "Further updates on AI's impact and its integration into business models"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:10:07+09:00",
-      "action": "HOLD",
-      "confidence": 0.218556,
-      "rationale": "The current market regime is neutral with a slight bearish technical analysis score, and recent news does not provide strong catalysts to change the holding stance.",
-      "key_drivers": [
-        "Neutral market regime (score: 0.2)",
-        "Bearish technical analysis (score: -0.6)",
-        "Recent news on TxtCart's growth is neutral and not market-moving",
-        "Widespread investor pessimism due to AI concerns"
-      ],
-      "key_risks": [
-        "Continued bearish sentiment towards software stocks due to AI concerns",
-        "Lack of significant recent positive news for the stock"
-      ],
-      "valuation_view": "The valuation score is -0.8, indicating overvalued relative to fair value.",
-      "counterfactuals": [
-        "A strong earnings report from Shopify or other key players in the software sector could change the sentiment.",
-        "Significant positive news on AI integration and growth for software companies might shift investor perception."
-      ],
-      "next_checks": [
-        "Earnings reports from major software companies",
-        "Further updates on AI technology and its impact on business operations"
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.218556,
-        "rationale": "The current market regime is neutral with a slight bearish technical analysis score, and recent news does not provide strong catalysts to change the holding stance.",
-        "key_drivers": [
-          "Neutral market regime (score: 0.2)",
-          "Bearish technical analysis (score: -0.6)",
-          "Recent news on TxtCart's growth is neutral and not market-moving",
-          "Widespread investor pessimism due to AI concerns"
-        ],
-        "key_risks": [
-          "Continued bearish sentiment towards software stocks due to AI concerns",
-          "Lack of significant recent positive news for the stock"
-        ],
-        "valuation_view": "The valuation score is -0.8, indicating overvalued relative to fair value.",
-        "counterfactuals": [
-          "A strong earnings report from Shopify or other key players in the software sector could change the sentiment.",
-          "Significant positive news on AI integration and growth for software companies might shift investor perception."
-        ],
-        "next_checks": [
-          "Earnings reports from major software companies",
-          "Further updates on AI technology and its impact on business operations"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:08:14+09:00",
-      "action": "HOLD",
-      "confidence": 0.2186,
-      "rationale": "The current market regime is neutral with a slight bearish technical analysis score, and recent news events do not provide strong catalysts to change the holding stance.",
-      "key_drivers": [
-        "Market regime score of 0.2 indicates a neutral outlook.",
-        "Technical analysis shows a bearish sentiment (-0.6).",
-        "Recent news on TxtCart's growth is neutral and does not significantly impact the overall market sentiment."
-      ],
-      "key_risks": [
-        "Widespread investor pessimism regarding AI’s impact on software company growth remains a key risk.",
-        "Lack of strong positive news to counteract bearish technical indicators."
-      ],
-      "valuation_view": "The valuation score is -0.8, indicating that the stock may be overvalued based on current metrics.",
-      "counterfactuals": [
-        "A significant positive earnings report from a major software company could shift investor sentiment and potentially change the recommendation to BUY.",
-        "Improvement in AI-related growth prospects for the sector might also warrant a re-evaluation of the holding stance."
-      ],
-      "next_checks": [
-        "Monitor upcoming earnings reports from key players in the software industry, particularly those with strong AI integration.",
-        "Track any changes in investor sentiment regarding the impact of AI on long-term growth."
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.2186,
-        "rationale": "The current market regime is neutral with a slight bearish technical analysis score, and recent news events do not provide strong catalysts to change the holding stance.",
-        "key_drivers": [
-          "Market regime score of 0.2 indicates a neutral outlook.",
-          "Technical analysis shows a bearish sentiment (-0.6).",
-          "Recent news on TxtCart's growth is neutral and does not significantly impact the overall market sentiment."
-        ],
-        "key_risks": [
-          "Widespread investor pessimism regarding AI’s impact on software company growth remains a key risk.",
-          "Lack of strong positive news to counteract bearish technical indicators."
-        ],
-        "valuation_view": "The valuation score is -0.8, indicating that the stock may be overvalued based on current metrics.",
-        "counterfactuals": [
-          "A significant positive earnings report from a major software company could shift investor sentiment and potentially change the recommendation to BUY.",
-          "Improvement in AI-related growth prospects for the sector might also warrant a re-evaluation of the holding stance."
-        ],
-        "next_checks": [
-          "Monitor upcoming earnings reports from key players in the software industry, particularly those with strong AI integration.",
-          "Track any changes in investor sentiment regarding the impact of AI on long-term growth."
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:06:23+09:00",
-      "action": "HOLD",
-      "confidence": 0.5625,
-      "rationale": "The current market conditions and recent news events suggest a cautious approach. The technical analysis indicates a bearish trend, while the lack of significant positive news for Shopify mitigates any strong buying signals.",
-      "key_drivers": [
-        "Technical Analysis (TA) Score: Bearish (-0.6)",
-        "Recent News Events: Mixed Sentiment",
-        "Market Regime: Neutral"
-      ],
-      "key_risks": [
-        "Bearish Technical Indicators",
-        "Widespread Investor Pessimism on AI's Impact on Growth"
-      ],
-      "valuation_view": "No significant change in valuation assumptions. The recent earnings reports provided mixed signals, with positive revenue growth but ongoing concerns about valuation.",
-      "counterfactuals": [
-        "A strong positive earnings report from Shopify or a major breakthrough in AI integration could reverse the bearish sentiment and prompt a buy signal.",
-        "Further deterioration of market conditions due to increased AI-related headwinds could intensify selling pressure."
-      ],
-      "next_checks": [
-        "Upcoming earnings reports for Shopify",
-        "Market reaction to any significant AI developments or regulatory changes"
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.5625,
-        "rationale": "The current market conditions and recent news events suggest a cautious approach. The technical analysis indicates a bearish trend, while the lack of significant positive news for Shopify mitigates any strong buying signals.",
-        "key_drivers": [
-          "Technical Analysis (TA) Score: Bearish (-0.6)",
-          "Recent News Events: Mixed Sentiment",
-          "Market Regime: Neutral"
-        ],
-        "key_risks": [
-          "Bearish Technical Indicators",
-          "Widespread Investor Pessimism on AI's Impact on Growth"
-        ],
-        "valuation_view": "No significant change in valuation assumptions. The recent earnings reports provided mixed signals, with positive revenue growth but ongoing concerns about valuation.",
-        "counterfactuals": [
-          "A strong positive earnings report from Shopify or a major breakthrough in AI integration could reverse the bearish sentiment and prompt a buy signal.",
-          "Further deterioration of market conditions due to increased AI-related headwinds could intensify selling pressure."
-        ],
-        "next_checks": [
-          "Upcoming earnings reports for Shopify",
-          "Market reaction to any significant AI developments or regulatory changes"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:04:27+09:00",
-      "action": "HOLD",
-      "confidence": 0.2186,
-      "rationale": "The current market regime is neutral, and the signal strength is between -0.40 to 0.40, indicating a hold position. Recent news events include TxtCart's growth milestones, which are positive but not significant enough to change the overall bearish technical analysis score.",
-      "key_drivers": [
-        "Neutral market regime with a score of 0.2",
-        "Bullish news on TxtCart's growth, but no recent significant news affecting the broader market"
-      ],
-      "key_risks": [
-        "Widespread investor pessimism due to concerns about AI’s impact on software company growth",
-        "Bearish technical analysis with a score of -0.6"
-      ],
-      "valuation_view": "The valuation score is -0.8, indicating potential undervaluation, but the current bearish sentiment may be suppressing this positive signal.",
-      "counterfactuals": [
-        "A significant positive earnings report from a major software company could shift investor sentiment and change the technical analysis to bullish.",
-        "Further negative news on AI's impact on growth could exacerbate the bearish trend."
-      ],
-      "next_checks": [
-        "Monitor upcoming earnings reports for major software companies",
-        "Track any developments in AI technology that might affect market perception"
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.2186,
-        "rationale": "The current market regime is neutral, and the signal strength is between -0.40 to 0.40, indicating a hold position. Recent news events include TxtCart's growth milestones, which are positive but not significant enough to change the overall bearish technical analysis score.",
-        "key_drivers": [
-          "Neutral market regime with a score of 0.2",
-          "Bullish news on TxtCart's growth, but no recent significant news affecting the broader market"
-        ],
-        "key_risks": [
-          "Widespread investor pessimism due to concerns about AI’s impact on software company growth",
-          "Bearish technical analysis with a score of -0.6"
-        ],
-        "valuation_view": "The valuation score is -0.8, indicating potential undervaluation, but the current bearish sentiment may be suppressing this positive signal.",
-        "counterfactuals": [
-          "A significant positive earnings report from a major software company could shift investor sentiment and change the technical analysis to bullish.",
-          "Further negative news on AI's impact on growth could exacerbate the bearish trend."
-        ],
-        "next_checks": [
-          "Monitor upcoming earnings reports for major software companies",
-          "Track any developments in AI technology that might affect market perception"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:02:38+09:00",
-      "action": "HOLD",
-      "confidence": 0.8,
-      "rationale": "The current market regime is neutral with a slight bearish tilt from technical analysis (TA). Recent news indicates positive growth for TxtCart, but the overall sentiment in the software sector remains bearish due to concerns over AI's impact on growth. Given these factors and the lack of recent significant news events, it is prudent to maintain a hold position.",
-      "key_drivers": [
-        "Neutral market regime",
-        "Bearish technical analysis (TA)",
-        "Positive growth for TxtCart",
-        "Widespread investor pessimism in software sector due to AI concerns"
-      ],
-      "key_risks": [
-        "Continued bearish sentiment in the software sector",
-        "Lack of significant positive news events"
-      ],
-      "valuation_view": "The valuation score is -0.8, indicating overvalued stocks. However, the recent growth reported by TxtCart suggests potential for value recovery.",
-      "counterfactuals": [
-        "A reversal in AI concerns leading to increased investor confidence",
-        "Significant positive earnings reports from major software companies"
-      ],
-      "next_checks": [
-        "Earnings reports from major software companies",
-        "Market sentiment on AI and its impact on growth"
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.8,
-        "rationale": "The current market regime is neutral with a slight bearish tilt from technical analysis (TA). Recent news indicates positive growth for TxtCart, but the overall sentiment in the software sector remains bearish due to concerns over AI's impact on growth. Given these factors and the lack of recent significant news events, it is prudent to maintain a hold position.",
-        "key_drivers": [
-          "Neutral market regime",
-          "Bearish technical analysis (TA)",
-          "Positive growth for TxtCart",
-          "Widespread investor pessimism in software sector due to AI concerns"
-        ],
-        "key_risks": [
-          "Continued bearish sentiment in the software sector",
-          "Lack of significant positive news events"
-        ],
-        "valuation_view": "The valuation score is -0.8, indicating overvalued stocks. However, the recent growth reported by TxtCart suggests potential for value recovery.",
-        "counterfactuals": [
-          "A reversal in AI concerns leading to increased investor confidence",
-          "Significant positive earnings reports from major software companies"
-        ],
-        "next_checks": [
-          "Earnings reports from major software companies",
-          "Market sentiment on AI and its impact on growth"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:00:49+09:00",
-      "action": "HOLD",
-      "confidence": 0.2187,
-      "rationale": "The current market conditions and recent news events suggest a neutral stance with slight bearish bias, making it prudent to hold the position.",
-      "key_drivers": [
-        "Market regime score of 0.2 indicates a neutral outlook but with a slight bearish tilt.",
-        "Recent news on software stocks showing widespread investor pessimism due to AI concerns."
-      ],
-      "key_risks": [
-        "Continued market sentiment against software companies due to ongoing AI growth concerns.",
-        "Lack of significant positive news events that could drive bullish action."
-      ],
-      "valuation_view": "The valuation score is -0.8, indicating overvalued stocks in the sector, which supports a hold strategy.",
-      "counterfactuals": [
-        "A strong earnings report from a major software company could shift sentiment and warrant a buy recommendation.",
-        "Significant positive news on AI integration or growth could reverse current market pessimism."
-      ],
-      "next_checks": [
-        "Monitor upcoming earnings reports for key players in the sector, particularly those with strong fundamentals but facing AI concerns.",
-        "Keep an eye on broader market trends and any shifts in investor sentiment towards AI technology."
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.2187,
-        "rationale": "The current market conditions and recent news events suggest a neutral stance with slight bearish bias, making it prudent to hold the position.",
-        "key_drivers": [
-          "Market regime score of 0.2 indicates a neutral outlook but with a slight bearish tilt.",
-          "Recent news on software stocks showing widespread investor pessimism due to AI concerns."
-        ],
-        "key_risks": [
-          "Continued market sentiment against software companies due to ongoing AI growth concerns.",
-          "Lack of significant positive news events that could drive bullish action."
-        ],
-        "valuation_view": "The valuation score is -0.8, indicating overvalued stocks in the sector, which supports a hold strategy.",
-        "counterfactuals": [
-          "A strong earnings report from a major software company could shift sentiment and warrant a buy recommendation.",
-          "Significant positive news on AI integration or growth could reverse current market pessimism."
-        ],
-        "next_checks": [
-          "Monitor upcoming earnings reports for key players in the sector, particularly those with strong fundamentals but facing AI concerns.",
-          "Keep an eye on broader market trends and any shifts in investor sentiment towards AI technology."
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:58:56+09:00",
-      "action": "HOLD",
-      "confidence": 0.2187,
-      "rationale": "The current market conditions and recent news events suggest a neutral stance with slight bearish sentiment, making it prudent to hold the position.",
-      "key_drivers": [
-        "Market regime score of 0.2 indicates a neutral market condition.",
-        "Technical analysis (TA) score of -0.6 is bearish, suggesting downward pressure on the stock price.",
-        "Recent news events show mixed signals with no significant positive or negative impact."
-      ],
-      "key_risks": [
-        "Widespread investor pessimism due to concerns about AI's impact on growth in the software sector.",
-        "Lack of recent news events that could significantly alter market sentiment."
-      ],
-      "valuation_view": "The valuation score is -0.8, indicating overvalued stock relative to its fair value, which may be a risk factor.",
-      "counterfactuals": [
-        "A significant positive earnings report or announcement from Shopify could change the current bearish technical analysis and sentiment.",
-        "Positive market trends or improvements in AI-related growth forecasts could shift investor sentiment."
-      ],
-      "next_checks": [
-        "Monitor upcoming earnings reports for major software companies to gauge overall sector performance.",
-        "Track any developments related to AI technology and its impact on e-commerce platforms."
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.2187,
-        "rationale": "The current market conditions and recent news events suggest a neutral stance with slight bearish sentiment, making it prudent to hold the position.",
-        "key_drivers": [
-          "Market regime score of 0.2 indicates a neutral market condition.",
-          "Technical analysis (TA) score of -0.6 is bearish, suggesting downward pressure on the stock price.",
-          "Recent news events show mixed signals with no significant positive or negative impact."
-        ],
-        "key_risks": [
-          "Widespread investor pessimism due to concerns about AI's impact on growth in the software sector.",
-          "Lack of recent news events that could significantly alter market sentiment."
-        ],
-        "valuation_view": "The valuation score is -0.8, indicating overvalued stock relative to its fair value, which may be a risk factor.",
-        "counterfactuals": [
-          "A significant positive earnings report or announcement from Shopify could change the current bearish technical analysis and sentiment.",
-          "Positive market trends or improvements in AI-related growth forecasts could shift investor sentiment."
-        ],
-        "next_checks": [
-          "Monitor upcoming earnings reports for major software companies to gauge overall sector performance.",
-          "Track any developments related to AI technology and its impact on e-commerce platforms."
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:56:56+09:00",
-      "action": "HOLD",
-      "confidence": 0.21873272986828718,
-      "rationale": "The current market regime is neutral, and the signal strength suggests a hold position. Recent news events include TxtCart's growth milestones, which are positive but not significant enough to override the bearish technical analysis. The valuation score remains bearish, indicating potential overvaluation.",
-      "key_drivers": [
-        "Neutral market regime",
-        "Bullish recent news on TxtCart",
-        "Bearish technical analysis"
-      ],
-      "key_risks": [
-        "Widespread investor pessimism due to AI concerns",
-        "Potential overvaluation as indicated by the valuation score"
-      ],
-      "valuation_view": "The current bearish technical analysis suggests potential overvaluation, which could be a risk if market sentiment does not improve.",
-      "counterfactuals": [
-        "A significant positive earnings report from Shopify or other software companies could change investor sentiment and warrant a buy signal.",
-        "Further deterioration in AI-related concerns could lead to a stronger bearish stance."
-      ],
-      "next_checks": [
-        "Monitor upcoming earnings reports for major software companies",
-        "Track market sentiment on AI and its impact on growth expectations"
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.21873272986828718,
-        "rationale": "The current market regime is neutral, and the signal strength suggests a hold position. Recent news events include TxtCart's growth milestones, which are positive but not significant enough to override the bearish technical analysis. The valuation score remains bearish, indicating potential overvaluation.",
-        "key_drivers": [
-          "Neutral market regime",
-          "Bullish recent news on TxtCart",
-          "Bearish technical analysis"
-        ],
-        "key_risks": [
-          "Widespread investor pessimism due to AI concerns",
-          "Potential overvaluation as indicated by the valuation score"
-        ],
-        "valuation_view": "The current bearish technical analysis suggests potential overvaluation, which could be a risk if market sentiment does not improve.",
-        "counterfactuals": [
-          "A significant positive earnings report from Shopify or other software companies could change investor sentiment and warrant a buy signal.",
-          "Further deterioration in AI-related concerns could lead to a stronger bearish stance."
-        ],
-        "next_checks": [
-          "Monitor upcoming earnings reports for major software companies",
-          "Track market sentiment on AI and its impact on growth expectations"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:55:01+09:00",
-      "action": "HOLD",
-      "confidence": 0.21875753759403055,
-      "rationale": "The current market regime is neutral, and the signal suggests a hold position due to a bearish technical analysis score. Recent news events include positive growth milestones for TxtCart but are not significant enough to override the overall bearish sentiment in the software sector.",
-      "key_drivers": [
-        "Neutral market regime (score: 0.2)",
-        "Bearish technical analysis score (-0.6)",
-        "Recent positive growth for TxtCart ($100M+ in SMS-attributed revenue, thousands of active e-commerce brands)"
-      ],
-      "key_risks": [
-        "Widespread investor pessimism due to AI's impact on software growth",
-        "Lack of significant recent news events to shift the overall bearish sentiment"
-      ],
-      "valuation_view": "The valuation score remains negative (-0.8), indicating potential undervaluation, but no specific fair value or range is provided.",
-      "counterfactuals": [
-        "A strong earnings report from a major software company could change investor sentiment and shift the market regime to bullish.",
-        "Significant positive news for Shopify or other key players in the e-commerce space could also alter the overall bearish trend."
-      ],
-      "next_checks": [
-        "Earnings reports from major software companies",
-        "Further developments in AI technology and its impact on business operations"
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.21875753759403055,
-        "rationale": "The current market regime is neutral, and the signal suggests a hold position due to a bearish technical analysis score. Recent news events include positive growth milestones for TxtCart but are not significant enough to override the overall bearish sentiment in the software sector.",
-        "key_drivers": [
-          "Neutral market regime (score: 0.2)",
-          "Bearish technical analysis score (-0.6)",
-          "Recent positive growth for TxtCart ($100M+ in SMS-attributed revenue, thousands of active e-commerce brands)"
-        ],
-        "key_risks": [
-          "Widespread investor pessimism due to AI's impact on software growth",
-          "Lack of significant recent news events to shift the overall bearish sentiment"
-        ],
-        "valuation_view": "The valuation score remains negative (-0.8), indicating potential undervaluation, but no specific fair value or range is provided.",
-        "counterfactuals": [
-          "A strong earnings report from a major software company could change investor sentiment and shift the market regime to bullish.",
-          "Significant positive news for Shopify or other key players in the e-commerce space could also alter the overall bearish trend."
-        ],
-        "next_checks": [
-          "Earnings reports from major software companies",
-          "Further developments in AI technology and its impact on business operations"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:53:05+09:00",
-      "action": "HOLD",
-      "confidence": 0.33,
-      "rationale": "The current market sentiment is bearish, and recent news does not provide significant positive momentum to justify a buy or sell action. The company's growth milestones are neutral and do not outweigh the broader market concerns about AI’s impact on software stock performance.",
-      "key_drivers": [
-        "Market regime score of 0.2 indicates a neutral stance but with a bearish technical analysis (TA) score of -0.6.",
-        "Recent news highlights company growth without significant market-moving events."
-      ],
-      "key_risks": [
-        "Widespread investor pessimism about AI’s impact on software stock performance is prevalent, overshadowing positive earnings reports from other companies.",
-        "No recent news events provide strong bullish signals to support a buy action."
-      ],
-      "valuation_view": "The valuation score of -0.8 suggests the stock may be undervalued, but without a clear fair value or range, this alone does not justify an active trading position.",
-      "counterfactuals": [
-        "A significant positive earnings report from a major software company could change market sentiment and warrant a buy action.",
-        "Positive regulatory developments regarding AI in the tech sector might shift investor perceptions."
-      ],
-      "next_checks": [
-        "Monitor upcoming earnings reports from other major software companies to gauge broader market sentiment.",
-        "Follow any regulatory updates or policy changes related to AI in the technology industry."
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.33,
-        "rationale": "The current market sentiment is bearish, and recent news does not provide significant positive momentum to justify a buy or sell action. The company's growth milestones are neutral and do not outweigh the broader market concerns about AI’s impact on software stock performance.",
-        "key_drivers": [
-          "Market regime score of 0.2 indicates a neutral stance but with a bearish technical analysis (TA) score of -0.6.",
-          "Recent news highlights company growth without significant market-moving events."
-        ],
-        "key_risks": [
-          "Widespread investor pessimism about AI’s impact on software stock performance is prevalent, overshadowing positive earnings reports from other companies.",
-          "No recent news events provide strong bullish signals to support a buy action."
-        ],
-        "valuation_view": "The valuation score of -0.8 suggests the stock may be undervalued, but without a clear fair value or range, this alone does not justify an active trading position.",
-        "counterfactuals": [
-          "A significant positive earnings report from a major software company could change market sentiment and warrant a buy action.",
-          "Positive regulatory developments regarding AI in the tech sector might shift investor perceptions."
-        ],
-        "next_checks": [
-          "Monitor upcoming earnings reports from other major software companies to gauge broader market sentiment.",
-          "Follow any regulatory updates or policy changes related to AI in the technology industry."
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:51:11+09:00",
-      "action": "HOLD",
-      "confidence": 0.2188,
-      "rationale": "The current market regime is neutral with a slight bearish technical analysis score, and recent news does not provide significant positive momentum to override the existing hold position.",
-      "key_drivers": [
-        "Neutral market regime (score: 0.2)",
-        "Bearish technical analysis (score: -0.6)",
-        "No significant recent positive news events"
-      ],
-      "key_risks": [
-        "Widespread investor pessimism due to concerns about AI's impact on growth",
-        "Lack of strong positive news to support a buy decision"
-      ],
-      "valuation_view": "The valuation score remains bearish at -0.8, indicating the stock is overvalued based on current metrics.",
-      "counterfactuals": [
-        "A significant positive earnings report from Shopify or other key players in the tech sector could change this stance.",
-        "Positive news regarding AI integration and growth potential could shift investor sentiment."
-      ],
-      "next_checks": [
-        "Monitor upcoming earnings reports for major tech companies to gauge market reaction.",
-        "Watch for any shifts in AI-related policies or technologies that might impact growth expectations."
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.2188,
-        "rationale": "The current market regime is neutral with a slight bearish technical analysis score, and recent news does not provide significant positive momentum to override the existing hold position.",
-        "key_drivers": [
-          "Neutral market regime (score: 0.2)",
-          "Bearish technical analysis (score: -0.6)",
-          "No significant recent positive news events"
-        ],
-        "key_risks": [
-          "Widespread investor pessimism due to concerns about AI's impact on growth",
-          "Lack of strong positive news to support a buy decision"
-        ],
-        "valuation_view": "The valuation score remains bearish at -0.8, indicating the stock is overvalued based on current metrics.",
-        "counterfactuals": [
-          "A significant positive earnings report from Shopify or other key players in the tech sector could change this stance.",
-          "Positive news regarding AI integration and growth potential could shift investor sentiment."
-        ],
-        "next_checks": [
-          "Monitor upcoming earnings reports for major tech companies to gauge market reaction.",
-          "Watch for any shifts in AI-related policies or technologies that might impact growth expectations."
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:49:22+09:00",
-      "action": "HOLD",
-      "confidence": 0.2188331737979208,
-      "rationale": "The current market regime is neutral, and the signal strength suggests a hold position. Recent news indicates mixed sentiment with some positive growth for specific platforms but overall investor pessimism due to AI concerns. The technical analysis shows a bearish trend, which aligns with the recent news events.",
-      "key_drivers": [
-        "Market regime score of 0.2 (neutral)",
-        "Technical analysis score of -0.6 (bearish)",
-        "Recent news indicating mixed sentiment"
-      ],
-      "key_risks": [
-        "Widespread investor pessimism due to AI concerns",
-        "No significant recent positive news for Shopify"
-      ],
-      "valuation_view": "The valuation score is -0.8, suggesting overvalued relative to fair value, but the lack of specific recent news makes it challenging to adjust the position.",
-      "counterfactuals": [
-        "A strong earnings report from Shopify or other major players could change the sentiment and warrant a buy signal.",
-        "Significant positive news regarding AI integration in e-commerce could shift investor confidence."
-      ],
-      "next_checks": [
-        "Monitor upcoming earnings reports for major software companies, especially Shopify",
-        "Track any developments in AI technology that might impact e-commerce platforms"
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.2188331737979208,
-        "rationale": "The current market regime is neutral, and the signal strength suggests a hold position. Recent news indicates mixed sentiment with some positive growth for specific platforms but overall investor pessimism due to AI concerns. The technical analysis shows a bearish trend, which aligns with the recent news events.",
-        "key_drivers": [
-          "Market regime score of 0.2 (neutral)",
-          "Technical analysis score of -0.6 (bearish)",
-          "Recent news indicating mixed sentiment"
-        ],
-        "key_risks": [
-          "Widespread investor pessimism due to AI concerns",
-          "No significant recent positive news for Shopify"
-        ],
-        "valuation_view": "The valuation score is -0.8, suggesting overvalued relative to fair value, but the lack of specific recent news makes it challenging to adjust the position.",
-        "counterfactuals": [
-          "A strong earnings report from Shopify or other major players could change the sentiment and warrant a buy signal.",
-          "Significant positive news regarding AI integration in e-commerce could shift investor confidence."
-        ],
-        "next_checks": [
-          "Monitor upcoming earnings reports for major software companies, especially Shopify",
-          "Track any developments in AI technology that might impact e-commerce platforms"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:47:30+09:00",
-      "action": "HOLD",
-      "confidence": 0.8,
-      "rationale": "The current market conditions and recent news events indicate a neutral to slightly bearish sentiment, with no significant catalysts for immediate action. The company's position is already risk-averse due to the bearish technical analysis score.",
-      "key_drivers": [
-        "Technical Analysis Score: -0.6 (bearish)",
-        "Recent News Events: Neutral growth milestones without major market impact",
-        "Market Sentiment: Widespread investor pessimism regarding AI's impact on software growth"
-      ],
-      "key_risks": [
-        "Continued bearish sentiment could pressure the stock further.",
-        "Lack of significant positive news to justify a buy action."
-      ],
-      "valuation_view": "The valuation score is -0.8, indicating overvalued relative to fair value, but recent events have not provided clear evidence of this overvaluation impacting current market behavior.",
-      "counterfactuals": [
-        "A strong earnings report from Shopify or a significant positive news event could change the sentiment and warrant a buy action.",
-        "Further deterioration in market sentiment towards AI's impact on software growth could lead to a sell recommendation."
-      ],
-      "next_checks": [
-        "Monitor upcoming earnings reports for any significant changes in management guidance or financial performance.",
-        "Watch for any new developments in AI technology that might affect the company’s competitive landscape."
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.8,
-        "rationale": "The current market conditions and recent news events indicate a neutral to slightly bearish sentiment, with no significant catalysts for immediate action. The company's position is already risk-averse due to the bearish technical analysis score.",
-        "key_drivers": [
-          "Technical Analysis Score: -0.6 (bearish)",
-          "Recent News Events: Neutral growth milestones without major market impact",
-          "Market Sentiment: Widespread investor pessimism regarding AI's impact on software growth"
-        ],
-        "key_risks": [
-          "Continued bearish sentiment could pressure the stock further.",
-          "Lack of significant positive news to justify a buy action."
-        ],
-        "valuation_view": "The valuation score is -0.8, indicating overvalued relative to fair value, but recent events have not provided clear evidence of this overvaluation impacting current market behavior.",
-        "counterfactuals": [
-          "A strong earnings report from Shopify or a significant positive news event could change the sentiment and warrant a buy action.",
-          "Further deterioration in market sentiment towards AI's impact on software growth could lead to a sell recommendation."
-        ],
-        "next_checks": [
-          "Monitor upcoming earnings reports for any significant changes in management guidance or financial performance.",
-          "Watch for any new developments in AI technology that might affect the company’s competitive landscape."
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:45:43+09:00",
-      "action": "HOLD",
-      "confidence": 0.2189,
-      "rationale": "The current market regime is neutral with a slight bearish technical analysis score, and recent news events do not provide strong momentum for action. The company's growth milestones are positive but not significant enough to override the overall bearish sentiment in the software sector.",
-      "key_drivers": [
-        "Market regime score of 0.2 (neutral)",
-        "Bearish technical analysis score (-0.6)",
-        "Recent news on TxtCart's growth is neutral and does not provide strong bullish signals",
-        "Widespread investor pessimism about AI’s impact on software sector growth"
-      ],
-      "key_risks": [
-        "Continued bearish sentiment in the software sector due to concerns over AI’s impact on growth",
-        "Lack of significant recent news events that could shift market dynamics positively for the company"
-      ],
-      "valuation_view": "The valuation score remains at -0.8, indicating a potential undervaluation but no clear fair value or range provided.",
-      "counterfactuals": [
-        "A strong earnings report from Shopify or another major player in the sector could change investor sentiment and justify a buy action.",
-        "Significant positive news events for TxtCart that demonstrate substantial growth or new partnerships could shift the market dynamics."
-      ],
-      "next_checks": [
-        "Earnings reports from other software companies to gauge overall sector performance",
-        "Further developments in AI technology and its impact on e-commerce platforms"
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.2189,
-        "rationale": "The current market regime is neutral with a slight bearish technical analysis score, and recent news events do not provide strong momentum for action. The company's growth milestones are positive but not significant enough to override the overall bearish sentiment in the software sector.",
-        "key_drivers": [
-          "Market regime score of 0.2 (neutral)",
-          "Bearish technical analysis score (-0.6)",
-          "Recent news on TxtCart's growth is neutral and does not provide strong bullish signals",
-          "Widespread investor pessimism about AI’s impact on software sector growth"
-        ],
-        "key_risks": [
-          "Continued bearish sentiment in the software sector due to concerns over AI’s impact on growth",
-          "Lack of significant recent news events that could shift market dynamics positively for the company"
-        ],
-        "valuation_view": "The valuation score remains at -0.8, indicating a potential undervaluation but no clear fair value or range provided.",
-        "counterfactuals": [
-          "A strong earnings report from Shopify or another major player in the sector could change investor sentiment and justify a buy action.",
-          "Significant positive news events for TxtCart that demonstrate substantial growth or new partnerships could shift the market dynamics."
-        ],
-        "next_checks": [
-          "Earnings reports from other software companies to gauge overall sector performance",
-          "Further developments in AI technology and its impact on e-commerce platforms"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:43:50+09:00",
-      "action": "HOLD",
-      "confidence": 0.2,
-      "rationale": "The current market regime is neutral, and the technical analysis indicates a bearish trend. Recent news on TxtCart's growth does not significantly alter the overall negative sentiment in the software sector due to concerns about AI’s impact on growth.",
-      "key_drivers": [
-        "Neutral market regime",
-        "Bearish technical indicators",
-        "Negative sentiment towards software stocks due to AI concerns"
-      ],
-      "key_risks": [
-        "Continued bearish trend in the tech sector",
-        "Potential negative earnings reports from other tech companies"
-      ],
-      "valuation_view": "The valuation score is -0.8, indicating an overvalued stock based on current market conditions.",
-      "counterfactuals": [
-        "Significant positive earnings report from a major software company could shift investor sentiment",
-        "Improvement in AI growth concerns leading to increased investor confidence"
-      ],
-      "next_checks": [
-        "Earnings reports from other tech companies this week",
-        "Market reaction to any potential positive news regarding AI and its impact on growth"
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.2,
-        "rationale": "The current market regime is neutral, and the technical analysis indicates a bearish trend. Recent news on TxtCart's growth does not significantly alter the overall negative sentiment in the software sector due to concerns about AI’s impact on growth.",
-        "key_drivers": [
-          "Neutral market regime",
-          "Bearish technical indicators",
-          "Negative sentiment towards software stocks due to AI concerns"
-        ],
-        "key_risks": [
-          "Continued bearish trend in the tech sector",
-          "Potential negative earnings reports from other tech companies"
-        ],
-        "valuation_view": "The valuation score is -0.8, indicating an overvalued stock based on current market conditions.",
-        "counterfactuals": [
-          "Significant positive earnings report from a major software company could shift investor sentiment",
-          "Improvement in AI growth concerns leading to increased investor confidence"
-        ],
-        "next_checks": [
-          "Earnings reports from other tech companies this week",
-          "Market reaction to any potential positive news regarding AI and its impact on growth"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:41:41+09:00",
-      "action": "HOLD",
-      "confidence": 0.218955,
-      "rationale": "The current market regime is neutral with a slight bearish technical analysis score, and recent news events do not provide strong positive or negative signals to alter the existing position.",
-      "key_drivers": [
-        "Market regime score of 0.2 indicates a neutral stance",
-        "Technical analysis shows a bearish trend (-0.6)",
-        "Recent news on software stocks is generally bearish, but specific positive events for Shopify are limited"
-      ],
-      "key_risks": [
-        "Widespread investor pessimism due to concerns about AI's impact on growth",
-        "Lack of strong recent news events that could significantly alter the market sentiment"
-      ],
-      "valuation_view": "The valuation score is -0.8, indicating overvalued stock relative to its fair value, which supports a hold position.",
-      "counterfactuals": [
-        "A significant positive earnings report or announcement from Shopify could change this stance",
-        "A reversal in the bearish technical trend (e.g., crossing above key support levels) might prompt a buy signal"
-      ],
-      "next_checks": [
-        "Upcoming earnings reports for Shopify and other software companies to gauge market sentiment further",
-        "Any major developments or announcements from Shopify that could impact its growth trajectory"
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.218955,
-        "rationale": "The current market regime is neutral with a slight bearish technical analysis score, and recent news events do not provide strong positive or negative signals to alter the existing position.",
-        "key_drivers": [
-          "Market regime score of 0.2 indicates a neutral stance",
-          "Technical analysis shows a bearish trend (-0.6)",
-          "Recent news on software stocks is generally bearish, but specific positive events for Shopify are limited"
-        ],
-        "key_risks": [
-          "Widespread investor pessimism due to concerns about AI's impact on growth",
-          "Lack of strong recent news events that could significantly alter the market sentiment"
-        ],
-        "valuation_view": "The valuation score is -0.8, indicating overvalued stock relative to its fair value, which supports a hold position.",
-        "counterfactuals": [
-          "A significant positive earnings report or announcement from Shopify could change this stance",
-          "A reversal in the bearish technical trend (e.g., crossing above key support levels) might prompt a buy signal"
-        ],
-        "next_checks": [
-          "Upcoming earnings reports for Shopify and other software companies to gauge market sentiment further",
-          "Any major developments or announcements from Shopify that could impact its growth trajectory"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:38:42+09:00",
-      "action": "HOLD",
-      "confidence": 0.21898085828883374,
-      "rationale": "The current market regime is neutral, and the signal suggests a hold position due to a bearish technical analysis score within a threshold range.",
-      "key_drivers": [
-        "Market regime: Neutral (score = 0.2)",
-        "Technical Analysis Score: Bearish (-0.6)"
-      ],
-      "key_risks": [
-        "Widespread investor pessimism regarding AI's impact on growth in the software sector",
-        "Lack of significant recent news events to influence the market"
-      ],
-      "valuation_view": "The valuation score is -0.8, indicating an overvalued position relative to fair value, but no specific range or fair value was provided.",
-      "counterfactuals": [
-        "A positive earnings report from a major software company could shift investor sentiment and potentially change the hold recommendation.",
-        "Significant news events related to AI advancements or regulatory changes could impact market dynamics."
-      ],
-      "next_checks": [
-        "Monitor upcoming earnings reports for major software companies",
-        "Track any developments in AI technology and its integration into business operations"
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.21898085828883374,
-        "rationale": "The current market regime is neutral, and the signal suggests a hold position due to a bearish technical analysis score within a threshold range.",
-        "key_drivers": [
-          "Market regime: Neutral (score = 0.2)",
-          "Technical Analysis Score: Bearish (-0.6)"
-        ],
-        "key_risks": [
-          "Widespread investor pessimism regarding AI's impact on growth in the software sector",
-          "Lack of significant recent news events to influence the market"
-        ],
-        "valuation_view": "The valuation score is -0.8, indicating an overvalued position relative to fair value, but no specific range or fair value was provided.",
-        "counterfactuals": [
-          "A positive earnings report from a major software company could shift investor sentiment and potentially change the hold recommendation.",
-          "Significant news events related to AI advancements or regulatory changes could impact market dynamics."
-        ],
-        "next_checks": [
-          "Monitor upcoming earnings reports for major software companies",
-          "Track any developments in AI technology and its integration into business operations"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:36:56+09:00",
-      "action": "HOLD",
-      "confidence": 0.219,
-      "rationale": "The current market regime is neutral with a slight bearish tilt from technical analysis, and recent news does not provide strong catalysts to change the status quo. The company's growth milestones are positive but not significant enough to outweigh broader market concerns over AI’s impact on software stocks.",
-      "key_drivers": [
-        "Market regime score of 0.2 (neutral)",
-        "Technical analysis score of -0.6 (bearish)",
-        "Recent news events showing mixed signals with no strong positive or negative impacts"
-      ],
-      "key_risks": [
-        "Widespread investor pessimism over AI’s impact on software growth",
-        "Lack of significant recent news to drive a change in sentiment"
-      ],
-      "valuation_view": "The valuation score remains at -0.8, indicating an undervalued stock but without a clear fair value range.",
-      "counterfactuals": [
-        "A strong positive earnings report from Shopify or other key players could shift the market sentiment and action to BUY.",
-        "Further negative news on AI’s impact on software growth could push the market towards SELL."
-      ],
-      "next_checks": [
-        "Upcoming earnings reports for key software companies",
-        "Market reaction to any significant developments in AI technology or its applications"
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.219,
-        "rationale": "The current market regime is neutral with a slight bearish tilt from technical analysis, and recent news does not provide strong catalysts to change the status quo. The company's growth milestones are positive but not significant enough to outweigh broader market concerns over AI’s impact on software stocks.",
-        "key_drivers": [
-          "Market regime score of 0.2 (neutral)",
-          "Technical analysis score of -0.6 (bearish)",
-          "Recent news events showing mixed signals with no strong positive or negative impacts"
-        ],
-        "key_risks": [
-          "Widespread investor pessimism over AI’s impact on software growth",
-          "Lack of significant recent news to drive a change in sentiment"
-        ],
-        "valuation_view": "The valuation score remains at -0.8, indicating an undervalued stock but without a clear fair value range.",
-        "counterfactuals": [
-          "A strong positive earnings report from Shopify or other key players could shift the market sentiment and action to BUY.",
-          "Further negative news on AI’s impact on software growth could push the market towards SELL."
-        ],
-        "next_checks": [
-          "Upcoming earnings reports for key software companies",
-          "Market reaction to any significant developments in AI technology or its applications"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:35:04+09:00",
-      "action": "HOLD",
-      "confidence": 0.6,
-      "rationale": "The current market regime is neutral with a slight bearish technical analysis score. Recent news highlights the growth of TxtCart but does not significantly impact the overall sentiment due to its limited relevance to broader market trends. Given the existing hold position and no strong signals for action, maintaining the status quo is prudent.",
-      "key_drivers": [
-        "Neutral market regime",
-        "Bullish recent growth in TxtCart (limited market impact)",
-        "Bearish technical analysis score"
-      ],
-      "key_risks": [
-        "Widespread investor pessimism towards AI's impact on software stocks",
-        "No significant positive news to justify a buy action"
-      ],
-      "valuation_view": "The valuation remains bearish, with no clear indication of a change in fair value or range.",
-      "counterfactuals": [
-        "A strong earnings report from a major tech company could shift sentiment positively.",
-        "Significant growth or positive news directly impacting broader market trends could prompt a re-evaluation."
-      ],
-      "next_checks": [
-        "Monitor upcoming earnings reports and economic indicators for any shifts in investor sentiment.",
-        "Track the performance of TxtCart and its impact on the broader SMS marketing platform space."
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.6,
-        "rationale": "The current market regime is neutral with a slight bearish technical analysis score. Recent news highlights the growth of TxtCart but does not significantly impact the overall sentiment due to its limited relevance to broader market trends. Given the existing hold position and no strong signals for action, maintaining the status quo is prudent.",
-        "key_drivers": [
-          "Neutral market regime",
-          "Bullish recent growth in TxtCart (limited market impact)",
-          "Bearish technical analysis score"
-        ],
-        "key_risks": [
-          "Widespread investor pessimism towards AI's impact on software stocks",
-          "No significant positive news to justify a buy action"
-        ],
-        "valuation_view": "The valuation remains bearish, with no clear indication of a change in fair value or range.",
-        "counterfactuals": [
-          "A strong earnings report from a major tech company could shift sentiment positively.",
-          "Significant growth or positive news directly impacting broader market trends could prompt a re-evaluation."
-        ],
-        "next_checks": [
-          "Monitor upcoming earnings reports and economic indicators for any shifts in investor sentiment.",
-          "Track the performance of TxtCart and its impact on the broader SMS marketing platform space."
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:33:12+09:00",
-      "action": "HOLD",
-      "confidence": 0.219,
-      "rationale": "The current market conditions and recent news events suggest a neutral stance with slight bearish tendencies, making it prudent to hold the position.",
-      "key_drivers": [
-        "Market regime score of 0.2 indicates a neutral market condition.",
-        "Technical analysis (TA) score of -0.6 suggests a bearish trend.",
-        "News sentiment score of -0.05 reflects mixed signals with no significant positive or negative impact."
-      ],
-      "key_risks": [
-        "Widespread investor pessimism regarding AI's impact on growth in the software sector.",
-        "Lack of recent news events to drive a clear bullish or bearish direction."
-      ],
-      "valuation_view": "The valuation score of -0.8 suggests that the stock is overvalued based on current metrics, which could be a risk factor if this assumption changes.",
-      "counterfactuals": [
-        "A significant positive earnings report from Shopify or other key players in the software sector could change the sentiment and potentially lead to a buy recommendation.",
-        "An improvement in AI-related growth expectations could shift investor sentiment positively."
-      ],
-      "next_checks": [
-        "Monitor upcoming earnings reports for major software companies, especially Shopify.",
-        "Track any changes in AI-related growth expectations or regulatory developments that might impact the sector."
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.219,
-        "rationale": "The current market conditions and recent news events suggest a neutral stance with slight bearish tendencies, making it prudent to hold the position.",
-        "key_drivers": [
-          "Market regime score of 0.2 indicates a neutral market condition.",
-          "Technical analysis (TA) score of -0.6 suggests a bearish trend.",
-          "News sentiment score of -0.05 reflects mixed signals with no significant positive or negative impact."
-        ],
-        "key_risks": [
-          "Widespread investor pessimism regarding AI's impact on growth in the software sector.",
-          "Lack of recent news events to drive a clear bullish or bearish direction."
-        ],
-        "valuation_view": "The valuation score of -0.8 suggests that the stock is overvalued based on current metrics, which could be a risk factor if this assumption changes.",
-        "counterfactuals": [
-          "A significant positive earnings report from Shopify or other key players in the software sector could change the sentiment and potentially lead to a buy recommendation.",
-          "An improvement in AI-related growth expectations could shift investor sentiment positively."
-        ],
-        "next_checks": [
-          "Monitor upcoming earnings reports for major software companies, especially Shopify.",
-          "Track any changes in AI-related growth expectations or regulatory developments that might impact the sector."
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:31:18+09:00",
-      "action": "HOLD",
-      "confidence": 0.219,
-      "rationale": "The current market sentiment and technical analysis suggest a neutral to slightly bearish outlook for Shopify (SHOP). Recent news indicates some positive growth for related platforms but is not strong enough to outweigh broader concerns about AI's impact on software stocks. The valuation score remains negative, indicating potential overvaluation relative to intrinsic value.",
-      "key_drivers": [
-        "Bearish technical analysis with a score of -0.6",
-        "Negative news sentiment (-0.050278) reflecting widespread investor pessimism towards AI's impact on growth"
-      ],
-      "key_risks": [
-        "Continued negative market sentiment regarding the broader software sector due to concerns over AI's impact on growth",
-        "Potential valuation risks given the score of -0.8, suggesting the stock may be overvalued relative to its intrinsic value"
-      ],
-      "valuation_view": "The negative valuation score (-0.8) suggests that Shopify might be overvalued based on current market conditions and expectations.",
-      "counterfactuals": [
-        "A significant positive earnings report or news event from Shopify could change the sentiment and potentially lead to a buy recommendation in the next 1-4 weeks.",
-        "Improvement in broader market sentiment regarding AI's impact on growth could also shift the outlook positively."
-      ],
-      "next_checks": [
-        "Earnings reports from Shopify",
-        "Further developments in AI technology and its adoption by businesses"
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.219,
-        "rationale": "The current market sentiment and technical analysis suggest a neutral to slightly bearish outlook for Shopify (SHOP). Recent news indicates some positive growth for related platforms but is not strong enough to outweigh broader concerns about AI's impact on software stocks. The valuation score remains negative, indicating potential overvaluation relative to intrinsic value.",
-        "key_drivers": [
-          "Bearish technical analysis with a score of -0.6",
-          "Negative news sentiment (-0.050278) reflecting widespread investor pessimism towards AI's impact on growth"
-        ],
-        "key_risks": [
-          "Continued negative market sentiment regarding the broader software sector due to concerns over AI's impact on growth",
-          "Potential valuation risks given the score of -0.8, suggesting the stock may be overvalued relative to its intrinsic value"
-        ],
-        "valuation_view": "The negative valuation score (-0.8) suggests that Shopify might be overvalued based on current market conditions and expectations.",
-        "counterfactuals": [
-          "A significant positive earnings report or news event from Shopify could change the sentiment and potentially lead to a buy recommendation in the next 1-4 weeks.",
-          "Improvement in broader market sentiment regarding AI's impact on growth could also shift the outlook positively."
-        ],
-        "next_checks": [
-          "Earnings reports from Shopify",
-          "Further developments in AI technology and its adoption by businesses"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:29:18+09:00",
-      "action": "HOLD",
-      "confidence": 0.219,
-      "rationale": "The current market regime is neutral with a slight bearish trend score. Recent news indicates mixed signals, with positive growth for TxtCart but overall investor pessimism towards software stocks due to AI concerns. Given the recent hold signal and no significant recent news events that would change this stance, it remains prudent to maintain the current position.",
-      "key_drivers": [
-        "Neutral market regime score of 0.2",
-        "Bearish technical analysis score of -0.6",
-        "Mixed sentiment from recent news: positive for TxtCart but bearish overall for software stocks"
-      ],
-      "key_risks": [
-        "Persistent investor pessimism towards AI's impact on growth in the software sector",
-        "Lack of significant positive catalysts to reverse current market trends"
-      ],
-      "valuation_view": "The valuation score remains at -0.8, indicating overvalued stocks. However, without a specific fair value range, it is challenging to make a definitive buy or sell decision.",
-      "counterfactuals": [
-        "A significant positive earnings report from a major software company could shift investor sentiment and warrant a re-evaluation of the position.",
-        "Positive regulatory developments regarding AI in technology sectors might improve market outlook."
-      ],
-      "next_checks": [
-        "Monitor upcoming earnings reports for major software companies to gauge overall sector performance.",
-        "Track any regulatory or policy changes related to AI that could impact the tech industry."
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.219,
-        "rationale": "The current market regime is neutral with a slight bearish trend score. Recent news indicates mixed signals, with positive growth for TxtCart but overall investor pessimism towards software stocks due to AI concerns. Given the recent hold signal and no significant recent news events that would change this stance, it remains prudent to maintain the current position.",
-        "key_drivers": [
-          "Neutral market regime score of 0.2",
-          "Bearish technical analysis score of -0.6",
-          "Mixed sentiment from recent news: positive for TxtCart but bearish overall for software stocks"
-        ],
-        "key_risks": [
-          "Persistent investor pessimism towards AI's impact on growth in the software sector",
-          "Lack of significant positive catalysts to reverse current market trends"
-        ],
-        "valuation_view": "The valuation score remains at -0.8, indicating overvalued stocks. However, without a specific fair value range, it is challenging to make a definitive buy or sell decision.",
-        "counterfactuals": [
-          "A significant positive earnings report from a major software company could shift investor sentiment and warrant a re-evaluation of the position.",
-          "Positive regulatory developments regarding AI in technology sectors might improve market outlook."
-        ],
-        "next_checks": [
-          "Monitor upcoming earnings reports for major software companies to gauge overall sector performance.",
-          "Track any regulatory or policy changes related to AI that could impact the tech industry."
         ],
         "position_plan": {
           "prefer_qty": 0,

@@ -1,0 +1,1239 @@
+{
+  "ticker": "SQQQ",
+  "updated_at": "2026-02-28T03:05:09+09:00",
+  "thesis": "",
+  "business_summary": "",
+  "moat": "",
+  "key_drivers": [],
+  "key_risks": [],
+  "valuation_method": "simple",
+  "valuation_assumptions": {},
+  "target_price": null,
+  "fair_value_range": null,
+  "evidence": [],
+  "decisions": [
+    {
+      "ts_kst": "2026-02-28T03:05:09+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "시장은 위험 선호 모드로 전환했으나 SQQQ에 대한 최근 뉴스가 부재하고 기술적 분석 지표의 신호 강도는 여전히 약함.",
+      "key_drivers": [
+        "기술적 분석 상승세",
+        "시장 제도적 위험 선호"
+      ],
+      "key_risks": [
+        "약한 신호 강도",
+        "최근 뉴스 부재"
+      ],
+      "valuation_view": "평가 가격 및 범위 미정, 간단 평가 방법 적용",
+      "counterfactuals": [
+        "시장이 위험 회피 모드로 전환하거나 SQQQ에 긍정적인 뉴스 발생"
+      ],
+      "next_checks": [
+        "SQQQ 관련 최근 뉴스 동향 확인",
+        "기술적 분석 지표 강도 변화"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "시장은 위험 선호 모드로 전환했으나 SQQQ에 대한 최근 뉴스가 부재하고 기술적 분석 지표의 신호 강도는 여전히 약함.",
+        "key_drivers": [
+          "기술적 분석 상승세",
+          "시장 제도적 위험 선호"
+        ],
+        "key_risks": [
+          "약한 신호 강도",
+          "최근 뉴스 부재"
+        ],
+        "valuation_view": "평가 가격 및 범위 미정, 간단 평가 방법 적용",
+        "counterfactuals": [
+          "시장이 위험 회피 모드로 전환하거나 SQQQ에 긍정적인 뉴스 발생"
+        ],
+        "next_checks": [
+          "SQQQ 관련 최근 뉴스 동향 확인",
+          "기술적 분석 지표 강도 변화"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:46:01+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "시장은 위험 선호 모드로 전환했으나 SQQQ에 대한 최근 뉴스가 부재하고 기술적 분석 지표의 신호 강도는 여전히 약함.",
+      "key_drivers": [
+        "기술적 분석 상승세",
+        "시장 제도적 위험 선호"
+      ],
+      "key_risks": [
+        "약한 신호 강도",
+        "최근 뉴스 부재"
+      ],
+      "valuation_view": "평가 가격 및 범위 미정, 간단 평가 방법 적용",
+      "counterfactuals": [
+        "시장이 위험 회피 모드로 전환하거나 SQQQ에 긍정적인 뉴스 발생"
+      ],
+      "next_checks": [
+        "SQQQ 관련 최근 뉴스 동향 확인",
+        "기술적 분석 지표 강도 변화"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "시장은 위험 선호 모드로 전환했으나 SQQQ에 대한 최근 뉴스가 부재하고 기술적 분석 지표의 신호 강도는 여전히 약함.",
+        "key_drivers": [
+          "기술적 분석 상승세",
+          "시장 제도적 위험 선호"
+        ],
+        "key_risks": [
+          "약한 신호 강도",
+          "최근 뉴스 부재"
+        ],
+        "valuation_view": "평가 가격 및 범위 미정, 간단 평가 방법 적용",
+        "counterfactuals": [
+          "시장이 위험 회피 모드로 전환하거나 SQQQ에 긍정적인 뉴스 발생"
+        ],
+        "next_checks": [
+          "SQQQ 관련 최근 뉴스 동향 확인",
+          "기술적 분석 지표 강도 변화"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:42:56+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "시장은 위험 선호 모드로 전환했으나 SQQQ에 대한 최근 뉴스가 부재하고 기술적 분석 지표의 신호 강도는 여전히 약함.",
+      "key_drivers": [
+        "기술적 분석 상승세",
+        "시장 제도적 위험 선호"
+      ],
+      "key_risks": [
+        "약한 신호 강도",
+        "최근 뉴스 부재"
+      ],
+      "valuation_view": "평가 가격 및 범위 미정, 간단 평가 방법 적용",
+      "counterfactuals": [
+        "시장이 위험 회피 모드로 전환하거나 SQQQ에 긍정적인 뉴스 발생"
+      ],
+      "next_checks": [
+        "SQQQ 관련 최근 뉴스 동향 확인",
+        "기술적 분석 지표 강도 변화"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "시장은 위험 선호 모드로 전환했으나 SQQQ에 대한 최근 뉴스가 부재하고 기술적 분석 지표의 신호 강도는 여전히 약함.",
+        "key_drivers": [
+          "기술적 분석 상승세",
+          "시장 제도적 위험 선호"
+        ],
+        "key_risks": [
+          "약한 신호 강도",
+          "최근 뉴스 부재"
+        ],
+        "valuation_view": "평가 가격 및 범위 미정, 간단 평가 방법 적용",
+        "counterfactuals": [
+          "시장이 위험 회피 모드로 전환하거나 SQQQ에 긍정적인 뉴스 발생"
+        ],
+        "next_checks": [
+          "SQQQ 관련 최근 뉴스 동향 확인",
+          "기술적 분석 지표 강도 변화"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:39:53+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "시장은 위험 선호 모드로 전환했으나 SQQQ에 대한 최근 뉴스가 부재하고 기술적 분석 지표의 신호 강도는 여전히 약함.",
+      "key_drivers": [
+        "기술적 분석 상승세",
+        "시장 제도적 위험 선호"
+      ],
+      "key_risks": [
+        "약한 신호 강도",
+        "최근 뉴스 부재"
+      ],
+      "valuation_view": "평가 가격 및 범위 미정, 간단 평가 방법 적용",
+      "counterfactuals": [
+        "시장이 위험 회피 모드로 전환하거나 SQQQ에 긍정적인 뉴스 발생"
+      ],
+      "next_checks": [
+        "SQQQ 관련 최근 뉴스 동향 확인",
+        "기술적 분석 지표 강도 변화"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "시장은 위험 선호 모드로 전환했으나 SQQQ에 대한 최근 뉴스가 부재하고 기술적 분석 지표의 신호 강도는 여전히 약함.",
+        "key_drivers": [
+          "기술적 분석 상승세",
+          "시장 제도적 위험 선호"
+        ],
+        "key_risks": [
+          "약한 신호 강도",
+          "최근 뉴스 부재"
+        ],
+        "valuation_view": "평가 가격 및 범위 미정, 간단 평가 방법 적용",
+        "counterfactuals": [
+          "시장이 위험 회피 모드로 전환하거나 SQQQ에 긍정적인 뉴스 발생"
+        ],
+        "next_checks": [
+          "SQQQ 관련 최근 뉴스 동향 확인",
+          "기술적 분석 지표 강도 변화"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:36:38+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "시장은 위험 선호 모드로 전환했으나 SQQQ에 대한 최근 뉴스가 부재하고 기술적 분석 지표의 신호 강도는 여전히 약함.",
+      "key_drivers": [
+        "기술적 분석 상승세",
+        "시장 제도적 위험 선호"
+      ],
+      "key_risks": [
+        "약한 신호 강도",
+        "최근 뉴스 부재"
+      ],
+      "valuation_view": "평가 가격 및 범위 미정, 간단 평가 방법 적용",
+      "counterfactuals": [
+        "시장이 위험 회피 모드로 전환하거나 SQQQ에 긍정적인 뉴스 발생"
+      ],
+      "next_checks": [
+        "SQQQ 관련 최근 뉴스 동향 확인",
+        "기술적 분석 지표 강도 변화"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "시장은 위험 선호 모드로 전환했으나 SQQQ에 대한 최근 뉴스가 부재하고 기술적 분석 지표의 신호 강도는 여전히 약함.",
+        "key_drivers": [
+          "기술적 분석 상승세",
+          "시장 제도적 위험 선호"
+        ],
+        "key_risks": [
+          "약한 신호 강도",
+          "최근 뉴스 부재"
+        ],
+        "valuation_view": "평가 가격 및 범위 미정, 간단 평가 방법 적용",
+        "counterfactuals": [
+          "시장이 위험 회피 모드로 전환하거나 SQQQ에 긍정적인 뉴스 발생"
+        ],
+        "next_checks": [
+          "SQQQ 관련 최근 뉴스 동향 확인",
+          "기술적 분석 지표 강도 변화"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:14:57+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "시장은 위험 선호 모드로 전환했으나 SQQQ에 대한 최근 뉴스가 부재하고 기술적 분석 지표의 신호 강도는 여전히 약함.",
+      "key_drivers": [
+        "기술적 분석 상승세",
+        "시장 제도적 위험 선호"
+      ],
+      "key_risks": [
+        "약한 신호 강도",
+        "최근 뉴스 부재"
+      ],
+      "valuation_view": "평가 가격 및 범위 미정, 간단 평가 방법 적용",
+      "counterfactuals": [
+        "시장이 위험 회피 모드로 전환하거나 SQQQ에 긍정적인 뉴스 발생"
+      ],
+      "next_checks": [
+        "SQQQ 관련 최근 뉴스 동향 확인",
+        "기술적 분석 지표 강도 변화"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "시장은 위험 선호 모드로 전환했으나 SQQQ에 대한 최근 뉴스가 부재하고 기술적 분석 지표의 신호 강도는 여전히 약함.",
+        "key_drivers": [
+          "기술적 분석 상승세",
+          "시장 제도적 위험 선호"
+        ],
+        "key_risks": [
+          "약한 신호 강도",
+          "최근 뉴스 부재"
+        ],
+        "valuation_view": "평가 가격 및 범위 미정, 간단 평가 방법 적용",
+        "counterfactuals": [
+          "시장이 위험 회피 모드로 전환하거나 SQQQ에 긍정적인 뉴스 발생"
+        ],
+        "next_checks": [
+          "SQQQ 관련 최근 뉴스 동향 확인",
+          "기술적 분석 지표 강도 변화"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:11:48+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "시장은 위험 선호 모드로 전환했으나 SQQQ에 대한 최근 뉴스가 부재하고 기술적 분석 지표의 신호 강도는 여전히 약함.",
+      "key_drivers": [
+        "기술적 분석 상승세",
+        "시장 제도적 위험 선호"
+      ],
+      "key_risks": [
+        "약한 신호 강도",
+        "최근 뉴스 부재"
+      ],
+      "valuation_view": "평가 가격 및 범위 미정, 간단 평가 방법 적용",
+      "counterfactuals": [
+        "시장이 위험 회피 모드로 전환하거나 SQQQ에 긍정적인 뉴스 발생"
+      ],
+      "next_checks": [
+        "SQQQ 관련 최근 뉴스 동향 확인",
+        "기술적 분석 지표 강도 변화"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "시장은 위험 선호 모드로 전환했으나 SQQQ에 대한 최근 뉴스가 부재하고 기술적 분석 지표의 신호 강도는 여전히 약함.",
+        "key_drivers": [
+          "기술적 분석 상승세",
+          "시장 제도적 위험 선호"
+        ],
+        "key_risks": [
+          "약한 신호 강도",
+          "최근 뉴스 부재"
+        ],
+        "valuation_view": "평가 가격 및 범위 미정, 간단 평가 방법 적용",
+        "counterfactuals": [
+          "시장이 위험 회피 모드로 전환하거나 SQQQ에 긍정적인 뉴스 발생"
+        ],
+        "next_checks": [
+          "SQQQ 관련 최근 뉴스 동향 확인",
+          "기술적 분석 지표 강도 변화"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:06:01+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "시장은 위험 선호 모드로 전환했으나 SQQQ에 대한 최근 뉴스가 부재하고 기술적 분석 지표의 신호 강도는 여전히 약함.",
+      "key_drivers": [
+        "기술적 분석 상승세",
+        "시장 제도적 위험 선호"
+      ],
+      "key_risks": [
+        "약한 신호 강도",
+        "최근 뉴스 부재"
+      ],
+      "valuation_view": "평가 가격 및 범위 미정, 간단 평가 방법 적용",
+      "counterfactuals": [
+        "시장이 위험 회피 모드로 전환하거나 SQQQ에 긍정적인 뉴스 발생"
+      ],
+      "next_checks": [
+        "SQQQ 관련 최근 뉴스 동향 확인",
+        "기술적 분석 지표 강도 변화"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "시장은 위험 선호 모드로 전환했으나 SQQQ에 대한 최근 뉴스가 부재하고 기술적 분석 지표의 신호 강도는 여전히 약함.",
+        "key_drivers": [
+          "기술적 분석 상승세",
+          "시장 제도적 위험 선호"
+        ],
+        "key_risks": [
+          "약한 신호 강도",
+          "최근 뉴스 부재"
+        ],
+        "valuation_view": "평가 가격 및 범위 미정, 간단 평가 방법 적용",
+        "counterfactuals": [
+          "시장이 위험 회피 모드로 전환하거나 SQQQ에 긍정적인 뉴스 발생"
+        ],
+        "next_checks": [
+          "SQQQ 관련 최근 뉴스 동향 확인",
+          "기술적 분석 지표 강도 변화"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:01:20+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "시장은 위험 선호 모드로 전환했으나 SQQQ에 대한 최근 뉴스가 부재하고 기술적 분석 지표의 신호 강도는 여전히 약함.",
+      "key_drivers": [
+        "기술적 분석 상승세",
+        "시장 제도적 위험 선호"
+      ],
+      "key_risks": [
+        "약한 신호 강도",
+        "최근 뉴스 부재"
+      ],
+      "valuation_view": "평가 가격 및 범위 미정, 간단 평가 방법 적용",
+      "counterfactuals": [
+        "시장이 위험 회피 모드로 전환하거나 SQQQ에 긍정적인 뉴스 발생"
+      ],
+      "next_checks": [
+        "SQQQ 관련 최근 뉴스 동향 확인",
+        "기술적 분석 지표 강도 변화"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "시장은 위험 선호 모드로 전환했으나 SQQQ에 대한 최근 뉴스가 부재하고 기술적 분석 지표의 신호 강도는 여전히 약함.",
+        "key_drivers": [
+          "기술적 분석 상승세",
+          "시장 제도적 위험 선호"
+        ],
+        "key_risks": [
+          "약한 신호 강도",
+          "최근 뉴스 부재"
+        ],
+        "valuation_view": "평가 가격 및 범위 미정, 간단 평가 방법 적용",
+        "counterfactuals": [
+          "시장이 위험 회피 모드로 전환하거나 SQQQ에 긍정적인 뉴스 발생"
+        ],
+        "next_checks": [
+          "SQQQ 관련 최근 뉴스 동향 확인",
+          "기술적 분석 지표 강도 변화"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:58:20+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "시장은 위험 선호 모드로 전환했으나 SQQQ에 대한 최근 뉴스가 부재하고 기술적 분석 지표의 신호 강도는 여전히 약함.",
+      "key_drivers": [
+        "기술적 분석 상승세",
+        "시장 제도적 위험 선호"
+      ],
+      "key_risks": [
+        "약한 신호 강도",
+        "최근 뉴스 부재"
+      ],
+      "valuation_view": "평가 가격 및 범위 미정, 간단 평가 방법 적용",
+      "counterfactuals": [
+        "시장이 위험 회피 모드로 전환하거나 SQQQ에 긍정적인 뉴스 발생"
+      ],
+      "next_checks": [
+        "SQQQ 관련 최근 뉴스 동향 확인",
+        "기술적 분석 지표 강도 변화"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "시장은 위험 선호 모드로 전환했으나 SQQQ에 대한 최근 뉴스가 부재하고 기술적 분석 지표의 신호 강도는 여전히 약함.",
+        "key_drivers": [
+          "기술적 분석 상승세",
+          "시장 제도적 위험 선호"
+        ],
+        "key_risks": [
+          "약한 신호 강도",
+          "최근 뉴스 부재"
+        ],
+        "valuation_view": "평가 가격 및 범위 미정, 간단 평가 방법 적용",
+        "counterfactuals": [
+          "시장이 위험 회피 모드로 전환하거나 SQQQ에 긍정적인 뉴스 발생"
+        ],
+        "next_checks": [
+          "SQQQ 관련 최근 뉴스 동향 확인",
+          "기술적 분석 지표 강도 변화"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:55:14+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "시장은 위험 선호 모드로 전환했으나 SQQQ에 대한 최근 뉴스가 부재하고 기술적 분석 지표의 신호 강도는 여전히 약함.",
+      "key_drivers": [
+        "기술적 분석 상승세",
+        "시장 제도적 위험 선호"
+      ],
+      "key_risks": [
+        "약한 신호 강도",
+        "최근 뉴스 부재"
+      ],
+      "valuation_view": "평가 가격 및 범위 미정, 간단 평가 방법 적용",
+      "counterfactuals": [
+        "시장이 위험 회피 모드로 전환하거나 SQQQ에 긍정적인 뉴스 발생"
+      ],
+      "next_checks": [
+        "SQQQ 관련 최근 뉴스 동향 확인",
+        "기술적 분석 지표 강도 변화"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "시장은 위험 선호 모드로 전환했으나 SQQQ에 대한 최근 뉴스가 부재하고 기술적 분석 지표의 신호 강도는 여전히 약함.",
+        "key_drivers": [
+          "기술적 분석 상승세",
+          "시장 제도적 위험 선호"
+        ],
+        "key_risks": [
+          "약한 신호 강도",
+          "최근 뉴스 부재"
+        ],
+        "valuation_view": "평가 가격 및 범위 미정, 간단 평가 방법 적용",
+        "counterfactuals": [
+          "시장이 위험 회피 모드로 전환하거나 SQQQ에 긍정적인 뉴스 발생"
+        ],
+        "next_checks": [
+          "SQQQ 관련 최근 뉴스 동향 확인",
+          "기술적 분석 지표 강도 변화"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:26:03+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "시장은 위험회피 모드로 SQQQ의 기술적 분석은 상승세를 나타내지만 신호 강도는 약함.",
+      "key_drivers": [
+        "기술적 분석 상승세",
+        "시장 제도적 위험 회피"
+      ],
+      "key_risks": [
+        "약한 신호 강도",
+        "최근 뉴스 부재"
+      ],
+      "valuation_view": "평가 가격 및 범위 미정, 간단 평가 방법 적용",
+      "counterfactuals": [
+        "시장이 위험 선호 모드로 전환하거나 SQQQ에 긍정적인 뉴스 발생"
+      ],
+      "next_checks": [
+        "SQQQ 관련 최근 뉴스 동향 확인",
+        "기술적 분석 지표 강도 변화"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "시장은 위험회피 모드로 SQQQ의 기술적 분석은 상승세를 나타내지만 신호 강도는 약함.",
+        "key_drivers": [
+          "기술적 분석 상승세",
+          "시장 제도적 위험 회피"
+        ],
+        "key_risks": [
+          "약한 신호 강도",
+          "최근 뉴스 부재"
+        ],
+        "valuation_view": "평가 가격 및 범위 미정, 간단 평가 방법 적용",
+        "counterfactuals": [
+          "시장이 위험 선호 모드로 전환하거나 SQQQ에 긍정적인 뉴스 발생"
+        ],
+        "next_checks": [
+          "SQQQ 관련 최근 뉴스 동향 확인",
+          "기술적 분석 지표 강도 변화"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:23:15+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "시장은 위험회피 모드로 SQQQ의 기술적 분석은 상승세를 나타내지만 신호 강도는 약함.",
+      "key_drivers": [
+        "기술적 분석 상승세",
+        "시장 제도적 위험 회피"
+      ],
+      "key_risks": [
+        "약한 신호 강도",
+        "최근 뉴스 부재"
+      ],
+      "valuation_view": "평가 가격 및 범위 미정, 간단 평가 방법 적용",
+      "counterfactuals": [
+        "시장이 위험 선호 모드로 전환하거나 SQQQ에 긍정적인 뉴스 발생"
+      ],
+      "next_checks": [
+        "SQQQ 관련 최근 뉴스 동향 확인",
+        "기술적 분석 지표 강도 변화"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "시장은 위험회피 모드로 SQQQ의 기술적 분석은 상승세를 나타내지만 신호 강도는 약함.",
+        "key_drivers": [
+          "기술적 분석 상승세",
+          "시장 제도적 위험 회피"
+        ],
+        "key_risks": [
+          "약한 신호 강도",
+          "최근 뉴스 부재"
+        ],
+        "valuation_view": "평가 가격 및 범위 미정, 간단 평가 방법 적용",
+        "counterfactuals": [
+          "시장이 위험 선호 모드로 전환하거나 SQQQ에 긍정적인 뉴스 발생"
+        ],
+        "next_checks": [
+          "SQQQ 관련 최근 뉴스 동향 확인",
+          "기술적 분석 지표 강도 변화"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:20:20+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "시장은 위험회피 모드로 SQQQ의 기술적 분석은 상승세를 나타내지만 신호 강도는 약함.",
+      "key_drivers": [
+        "기술적 분석 상승세",
+        "시장 제도적 위험 회피"
+      ],
+      "key_risks": [
+        "약한 신호 강도",
+        "최근 뉴스 부재"
+      ],
+      "valuation_view": "평가 가격 및 범위 미정, 간단 평가 방법 적용",
+      "counterfactuals": [
+        "시장이 위험 선호 모드로 전환하거나 SQQQ에 긍정적인 뉴스 발생"
+      ],
+      "next_checks": [
+        "SQQQ 관련 최근 뉴스 동향 확인",
+        "기술적 분석 지표 강도 변화"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "시장은 위험회피 모드로 SQQQ의 기술적 분석은 상승세를 나타내지만 신호 강도는 약함.",
+        "key_drivers": [
+          "기술적 분석 상승세",
+          "시장 제도적 위험 회피"
+        ],
+        "key_risks": [
+          "약한 신호 강도",
+          "최근 뉴스 부재"
+        ],
+        "valuation_view": "평가 가격 및 범위 미정, 간단 평가 방법 적용",
+        "counterfactuals": [
+          "시장이 위험 선호 모드로 전환하거나 SQQQ에 긍정적인 뉴스 발생"
+        ],
+        "next_checks": [
+          "SQQQ 관련 최근 뉴스 동향 확인",
+          "기술적 분석 지표 강도 변화"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:17:12+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "시장은 위험회피 모드로 SQQQ의 기술적 분석은 상승세를 나타내지만 신호 강도는 약함.",
+      "key_drivers": [
+        "기술적 분석 상승세",
+        "시장 제도적 위험 회피"
+      ],
+      "key_risks": [
+        "약한 신호 강도",
+        "최근 뉴스 부재"
+      ],
+      "valuation_view": "평가 가격 및 범위 미정, 간단 평가 방법 적용",
+      "counterfactuals": [
+        "시장이 위험 선호 모드로 전환하거나 SQQQ에 긍정적인 뉴스 발생"
+      ],
+      "next_checks": [
+        "SQQQ 관련 최근 뉴스 동향 확인",
+        "기술적 분석 지표 강도 변화"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "시장은 위험회피 모드로 SQQQ의 기술적 분석은 상승세를 나타내지만 신호 강도는 약함.",
+        "key_drivers": [
+          "기술적 분석 상승세",
+          "시장 제도적 위험 회피"
+        ],
+        "key_risks": [
+          "약한 신호 강도",
+          "최근 뉴스 부재"
+        ],
+        "valuation_view": "평가 가격 및 범위 미정, 간단 평가 방법 적용",
+        "counterfactuals": [
+          "시장이 위험 선호 모드로 전환하거나 SQQQ에 긍정적인 뉴스 발생"
+        ],
+        "next_checks": [
+          "SQQQ 관련 최근 뉴스 동향 확인",
+          "기술적 분석 지표 강도 변화"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:55:15+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "시장은 위험회피 모드로 SQQQ의 기술적 분석은 상승세를 나타내지만 신호 강도는 약함.",
+      "key_drivers": [
+        "기술적 분석 상승세",
+        "시장 제도적 위험 회피"
+      ],
+      "key_risks": [
+        "약한 신호 강도",
+        "최근 뉴스 부재"
+      ],
+      "valuation_view": "평가 가격 및 범위 미정, 간단 평가 방법 적용",
+      "counterfactuals": [
+        "시장이 위험 선호 모드로 전환하거나 SQQQ에 긍정적인 뉴스 발생"
+      ],
+      "next_checks": [
+        "SQQQ 관련 최근 뉴스 동향 확인",
+        "기술적 분석 지표 강도 변화"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "시장은 위험회피 모드로 SQQQ의 기술적 분석은 상승세를 나타내지만 신호 강도는 약함.",
+        "key_drivers": [
+          "기술적 분석 상승세",
+          "시장 제도적 위험 회피"
+        ],
+        "key_risks": [
+          "약한 신호 강도",
+          "최근 뉴스 부재"
+        ],
+        "valuation_view": "평가 가격 및 범위 미정, 간단 평가 방법 적용",
+        "counterfactuals": [
+          "시장이 위험 선호 모드로 전환하거나 SQQQ에 긍정적인 뉴스 발생"
+        ],
+        "next_checks": [
+          "SQQQ 관련 최근 뉴스 동향 확인",
+          "기술적 분석 지표 강도 변화"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:52:16+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "시장은 위험회피 모드로 SQQQ의 기술적 분석은 상승세를 나타내지만 신호 강도는 약함.",
+      "key_drivers": [
+        "기술적 분석 상승세",
+        "시장 제도적 위험 회피"
+      ],
+      "key_risks": [
+        "약한 신호 강도",
+        "최근 뉴스 부재"
+      ],
+      "valuation_view": "평가 가격 및 범위 미정, 간단 평가 방법 적용",
+      "counterfactuals": [
+        "시장이 위험 선호 모드로 전환하거나 SQQQ에 긍정적인 뉴스 발생"
+      ],
+      "next_checks": [
+        "SQQQ 관련 최근 뉴스 동향 확인",
+        "기술적 분석 지표 강도 변화"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "시장은 위험회피 모드로 SQQQ의 기술적 분석은 상승세를 나타내지만 신호 강도는 약함.",
+        "key_drivers": [
+          "기술적 분석 상승세",
+          "시장 제도적 위험 회피"
+        ],
+        "key_risks": [
+          "약한 신호 강도",
+          "최근 뉴스 부재"
+        ],
+        "valuation_view": "평가 가격 및 범위 미정, 간단 평가 방법 적용",
+        "counterfactuals": [
+          "시장이 위험 선호 모드로 전환하거나 SQQQ에 긍정적인 뉴스 발생"
+        ],
+        "next_checks": [
+          "SQQQ 관련 최근 뉴스 동향 확인",
+          "기술적 분석 지표 강도 변화"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:49:02+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "시장은 위험회피 모드로 SQQQ의 기술적 분석은 상승세를 나타내지만 신호 강도는 약함.",
+      "key_drivers": [
+        "기술적 분석 상승세",
+        "시장 제도적 위험 회피"
+      ],
+      "key_risks": [
+        "약한 신호 강도",
+        "최근 뉴스 부재"
+      ],
+      "valuation_view": "평가 가격 및 범위 미정, 간단 평가 방법 적용",
+      "counterfactuals": [
+        "시장이 위험 선호 모드로 전환하거나 SQQQ에 긍정적인 뉴스 발생"
+      ],
+      "next_checks": [
+        "SQQQ 관련 최근 뉴스 동향 확인",
+        "기술적 분석 지표 강도 변화"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "시장은 위험회피 모드로 SQQQ의 기술적 분석은 상승세를 나타내지만 신호 강도는 약함.",
+        "key_drivers": [
+          "기술적 분석 상승세",
+          "시장 제도적 위험 회피"
+        ],
+        "key_risks": [
+          "약한 신호 강도",
+          "최근 뉴스 부재"
+        ],
+        "valuation_view": "평가 가격 및 범위 미정, 간단 평가 방법 적용",
+        "counterfactuals": [
+          "시장이 위험 선호 모드로 전환하거나 SQQQ에 긍정적인 뉴스 발생"
+        ],
+        "next_checks": [
+          "SQQQ 관련 최근 뉴스 동향 확인",
+          "기술적 분석 지표 강도 변화"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:28:58+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "시장은 위험회피 모드로 SQQQ의 기술적 분석은 상승세를 나타내지만 신호 강도는 약함.",
+      "key_drivers": [
+        "기술적 분석 상승세",
+        "시장 제도적 위험 회피"
+      ],
+      "key_risks": [
+        "약한 신호 강도",
+        "최근 뉴스 부재"
+      ],
+      "valuation_view": "평가 가격 및 범위 미정, 간단 평가 방법 적용",
+      "counterfactuals": [
+        "시장이 위험 선호 모드로 전환하거나 SQQQ에 긍정적인 뉴스 발생"
+      ],
+      "next_checks": [
+        "SQQQ 관련 최근 뉴스 동향 확인",
+        "기술적 분석 지표 강도 변화"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "시장은 위험회피 모드로 SQQQ의 기술적 분석은 상승세를 나타내지만 신호 강도는 약함.",
+        "key_drivers": [
+          "기술적 분석 상승세",
+          "시장 제도적 위험 회피"
+        ],
+        "key_risks": [
+          "약한 신호 강도",
+          "최근 뉴스 부재"
+        ],
+        "valuation_view": "평가 가격 및 범위 미정, 간단 평가 방법 적용",
+        "counterfactuals": [
+          "시장이 위험 선호 모드로 전환하거나 SQQQ에 긍정적인 뉴스 발생"
+        ],
+        "next_checks": [
+          "SQQQ 관련 최근 뉴스 동향 확인",
+          "기술적 분석 지표 강도 변화"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:25:58+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "시장은 위험회피 모드로 SQQQ의 기술적 분석은 상승세를 나타내지만 신호 강도는 약함.",
+      "key_drivers": [
+        "기술적 분석 상승세",
+        "시장 제도적 위험 회피"
+      ],
+      "key_risks": [
+        "약한 신호 강도",
+        "최근 뉴스 부재"
+      ],
+      "valuation_view": "평가 가격 및 범위 미정, 간단 평가 방법 적용",
+      "counterfactuals": [
+        "시장이 위험 선호 모드로 전환하거나 SQQQ에 긍정적인 뉴스 발생"
+      ],
+      "next_checks": [
+        "SQQQ 관련 최근 뉴스 동향 확인",
+        "기술적 분석 지표 강도 변화"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "시장은 위험회피 모드로 SQQQ의 기술적 분석은 상승세를 나타내지만 신호 강도는 약함.",
+        "key_drivers": [
+          "기술적 분석 상승세",
+          "시장 제도적 위험 회피"
+        ],
+        "key_risks": [
+          "약한 신호 강도",
+          "최근 뉴스 부재"
+        ],
+        "valuation_view": "평가 가격 및 범위 미정, 간단 평가 방법 적용",
+        "counterfactuals": [
+          "시장이 위험 선호 모드로 전환하거나 SQQQ에 긍정적인 뉴스 발생"
+        ],
+        "next_checks": [
+          "SQQQ 관련 최근 뉴스 동향 확인",
+          "기술적 분석 지표 강도 변화"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:22:52+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "시장은 위험회피 모드로 SQQQ의 기술적 분석은 상승세를 나타내지만 신호 강도는 약함.",
+      "key_drivers": [
+        "기술적 분석 상승세",
+        "시장 제도적 위험 회피"
+      ],
+      "key_risks": [
+        "약한 신호 강도",
+        "최근 뉴스 부재"
+      ],
+      "valuation_view": "평가 가격 및 범위 미정, 간단 평가 방법 적용",
+      "counterfactuals": [
+        "시장이 위험 선호 모드로 전환하거나 SQQQ에 긍정적인 뉴스 발생"
+      ],
+      "next_checks": [
+        "SQQQ 관련 최근 뉴스 동향 확인",
+        "기술적 분석 지표 강도 변화"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "시장은 위험회피 모드로 SQQQ의 기술적 분석은 상승세를 나타내지만 신호 강도는 약함.",
+        "key_drivers": [
+          "기술적 분석 상승세",
+          "시장 제도적 위험 회피"
+        ],
+        "key_risks": [
+          "약한 신호 강도",
+          "최근 뉴스 부재"
+        ],
+        "valuation_view": "평가 가격 및 범위 미정, 간단 평가 방법 적용",
+        "counterfactuals": [
+          "시장이 위험 선호 모드로 전환하거나 SQQQ에 긍정적인 뉴스 발생"
+        ],
+        "next_checks": [
+          "SQQQ 관련 최근 뉴스 동향 확인",
+          "기술적 분석 지표 강도 변화"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:19:38+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "시장은 위험회피 모드로 SQQQ의 기술적 분석은 상승세를 나타내지만 신호 강도는 약함.",
+      "key_drivers": [
+        "기술적 분석 상승세",
+        "시장 제도적 위험 회피"
+      ],
+      "key_risks": [
+        "약한 신호 강도",
+        "최근 뉴스 부재"
+      ],
+      "valuation_view": "평가 가격 및 범위 미정, 간단 평가 방법 적용",
+      "counterfactuals": [
+        "시장이 위험 선호 모드로 전환하거나 SQQQ에 긍정적인 뉴스 발생"
+      ],
+      "next_checks": [
+        "SQQQ 관련 최근 뉴스 동향 확인",
+        "기술적 분석 지표 강도 변화"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "시장은 위험회피 모드로 SQQQ의 기술적 분석은 상승세를 나타내지만 신호 강도는 약함.",
+        "key_drivers": [
+          "기술적 분석 상승세",
+          "시장 제도적 위험 회피"
+        ],
+        "key_risks": [
+          "약한 신호 강도",
+          "최근 뉴스 부재"
+        ],
+        "valuation_view": "평가 가격 및 범위 미정, 간단 평가 방법 적용",
+        "counterfactuals": [
+          "시장이 위험 선호 모드로 전환하거나 SQQQ에 긍정적인 뉴스 발생"
+        ],
+        "next_checks": [
+          "SQQQ 관련 최근 뉴스 동향 확인",
+          "기술적 분석 지표 강도 변화"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:14:10+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "시장은 위험회피 모드로 SQQQ의 기술적 분석은 상승세를 나타내지만 신호 강도는 약함.",
+      "key_drivers": [
+        "기술적 분석 상승세",
+        "시장 제도적 위험 회피"
+      ],
+      "key_risks": [
+        "약한 신호 강도",
+        "최근 뉴스 부재"
+      ],
+      "valuation_view": "평가 가격 및 범위 미정, 간단 평가 방법 적용",
+      "counterfactuals": [
+        "시장이 위험 선호 모드로 전환하거나 SQQQ에 긍정적인 뉴스 발생"
+      ],
+      "next_checks": [
+        "SQQQ 관련 최근 뉴스 동향 확인",
+        "기술적 분석 지표 강도 변화"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "시장은 위험회피 모드로 SQQQ의 기술적 분석은 상승세를 나타내지만 신호 강도는 약함.",
+        "key_drivers": [
+          "기술적 분석 상승세",
+          "시장 제도적 위험 회피"
+        ],
+        "key_risks": [
+          "약한 신호 강도",
+          "최근 뉴스 부재"
+        ],
+        "valuation_view": "평가 가격 및 범위 미정, 간단 평가 방법 적용",
+        "counterfactuals": [
+          "시장이 위험 선호 모드로 전환하거나 SQQQ에 긍정적인 뉴스 발생"
+        ],
+        "next_checks": [
+          "SQQQ 관련 최근 뉴스 동향 확인",
+          "기술적 분석 지표 강도 변화"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:10:56+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "시장은 위험회피 모드로 SQQQ의 기술적 분석은 상승세를 나타내지만 신호 강도는 약함.",
+      "key_drivers": [
+        "기술적 분석 상승세",
+        "시장 제도적 위험 회피"
+      ],
+      "key_risks": [
+        "약한 신호 강도",
+        "최근 뉴스 부재"
+      ],
+      "valuation_view": "평가 가격 및 범위 미정, 간단 평가 방법 적용",
+      "counterfactuals": [
+        "시장이 위험 선호 모드로 전환하거나 SQQQ에 긍정적인 뉴스 발생"
+      ],
+      "next_checks": [
+        "SQQQ 관련 최근 뉴스 동향 확인",
+        "기술적 분석 지표 강도 변화"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "시장은 위험회피 모드로 SQQQ의 기술적 분석은 상승세를 나타내지만 신호 강도는 약함.",
+        "key_drivers": [
+          "기술적 분석 상승세",
+          "시장 제도적 위험 회피"
+        ],
+        "key_risks": [
+          "약한 신호 강도",
+          "최근 뉴스 부재"
+        ],
+        "valuation_view": "평가 가격 및 범위 미정, 간단 평가 방법 적용",
+        "counterfactuals": [
+          "시장이 위험 선호 모드로 전환하거나 SQQQ에 긍정적인 뉴스 발생"
+        ],
+        "next_checks": [
+          "SQQQ 관련 최근 뉴스 동향 확인",
+          "기술적 분석 지표 강도 변화"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-27T23:57:09+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "시장은 위험회피 모드로 SQQQ의 기술적 분석은 상승세를 나타내지만 신호 강도는 약함.",
+      "key_drivers": [
+        "기술적 분석 상승세",
+        "시장 제도적 위험 회피"
+      ],
+      "key_risks": [
+        "약한 신호 강도",
+        "최근 뉴스 부재"
+      ],
+      "valuation_view": "평가 가격 및 범위 미정, 간단 평가 방법 적용",
+      "counterfactuals": [
+        "시장이 위험 선호 모드로 전환하거나 SQQQ에 긍정적인 뉴스 발생"
+      ],
+      "next_checks": [
+        "SQQQ 관련 최근 뉴스 동향 확인",
+        "기술적 분석 지표 강도 변화"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "시장은 위험회피 모드로 SQQQ의 기술적 분석은 상승세를 나타내지만 신호 강도는 약함.",
+        "key_drivers": [
+          "기술적 분석 상승세",
+          "시장 제도적 위험 회피"
+        ],
+        "key_risks": [
+          "약한 신호 강도",
+          "최근 뉴스 부재"
+        ],
+        "valuation_view": "평가 가격 및 범위 미정, 간단 평가 방법 적용",
+        "counterfactuals": [
+          "시장이 위험 선호 모드로 전환하거나 SQQQ에 긍정적인 뉴스 발생"
+        ],
+        "next_checks": [
+          "SQQQ 관련 최근 뉴스 동향 확인",
+          "기술적 분석 지표 강도 변화"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-27T23:54:07+09:00",
+      "action": "HOLD",
+      "confidence": 0.55,
+      "rationale": "현재 시장은 위험회피 모드로, SQQQ의 가격 동향과 기술적 분석은 상승세를 나타내지만 신호 강도는 약함.",
+      "key_drivers": [
+        "기술적 분석 상승세",
+        "시장 제도적 위험 회피"
+      ],
+      "key_risks": [
+        "약한 신호 강도",
+        "최근 뉴스 부재"
+      ],
+      "valuation_view": "평가 가격 및 범위 미정, 간단 평가 방법 적용",
+      "counterfactuals": [
+        "시장이 위험 선호 모드로 전환하거나 SQQQ에 긍정적인 뉴스 발생"
+      ],
+      "next_checks": [
+        "SQQQ 관련 최근 뉴스 동향 확인",
+        "기술적 분석 지표 강도 변화"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.55,
+        "rationale": "현재 시장은 위험회피 모드로, SQQQ의 가격 동향과 기술적 분석은 상승세를 나타내지만 신호 강도는 약함.",
+        "key_drivers": [
+          "기술적 분석 상승세",
+          "시장 제도적 위험 회피"
+        ],
+        "key_risks": [
+          "약한 신호 강도",
+          "최근 뉴스 부재"
+        ],
+        "valuation_view": "평가 가격 및 범위 미정, 간단 평가 방법 적용",
+        "counterfactuals": [
+          "시장이 위험 선호 모드로 전환하거나 SQQQ에 긍정적인 뉴스 발생"
+        ],
+        "next_checks": [
+          "SQQQ 관련 최근 뉴스 동향 확인",
+          "기술적 분석 지표 강도 변화"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    }
+  ],
+  "tags": []
+}

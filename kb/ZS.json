@@ -1,0 +1,1928 @@
+{
+  "ticker": "ZS",
+  "updated_at": "2026-02-28T03:06:14+09:00",
+  "thesis": "",
+  "business_summary": "",
+  "moat": "",
+  "key_drivers": [],
+  "key_risks": [],
+  "valuation_method": "simple",
+  "valuation_assumptions": {},
+  "target_price": null,
+  "fair_value_range": null,
+  "evidence": [
+    {
+      "ts_kst": "2026-02-28T02:37:36+09:00",
+      "source": "news",
+      "title": "Why Zscaler Shares Are Tumbling Despite Earnings Beat",
+      "summary": "Investor sentiment may be influenced by factors not reflected in the earnings report, leading to a sharp decline in share price.",
+      "link": "https://finance.yahoo.com/news/why-zscaler-shares-tumbling-despite-172333373.html?.tsrc=rss",
+      "sentiment": "neutral",
+      "impact": 0,
+      "tags": [
+        "earnings"
+      ],
+      "raw": {
+        "tickers": [
+          "ZS"
+        ],
+        "event_type": "earnings",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [
+          "Zscaler shares fell sharply despite beating EPS and revenue estimates.",
+          "Market reaction suggests investor concerns beyond financial performance."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Investor sentiment may be influenced by factors not reflected in the earnings report, leading to a sharp decline in share price.",
+        "kr_title": "Zscaler 주식이 실적 초과에도 불구하고 급락하는 이유"
+      }
+    },
+    {
+      "ts_kst": "2026-02-27T23:51:17+09:00",
+      "source": "news",
+      "title": "Zscaler (ZS) Tops Q2 Earnings and Revenue Estimates",
+      "summary": "Strong earnings beat expectations, signaling positive momentum for the stock.",
+      "link": "https://finance.yahoo.com/news/zscaler-zs-tops-q2-earnings-223005859.html?.tsrc=rss",
+      "sentiment": "bullish",
+      "impact": 1,
+      "tags": [
+        "earnings"
+      ],
+      "raw": {
+        "tickers": [
+          "ZS"
+        ],
+        "event_type": "earnings",
+        "sentiment": "bullish",
+        "impact": 1,
+        "confidence": 0.8,
+        "key_points": [
+          "Q2 earnings and revenue exceeded estimates by +12.94% and +2.22%",
+          "Positive performance may indicate strong market position and future growth potential"
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Strong earnings beat expectations, signaling positive momentum for the stock.",
+        "kr_title": "Zscaler (ZS) Q2 수익과 매출 예상치를 상회"
+      }
+    },
+    {
+      "ts_kst": "2026-02-27T23:51:14+09:00",
+      "source": "news",
+      "title": "Zscaler (ZS) Q2 2026 Earnings Call Transcript",
+      "summary": "Earnings call details provide insight into company performance but no significant positive or negative news was reported.",
+      "link": "https://www.fool.com/earnings/call-transcripts/2026/02/26/zscaler-zs-q2-2026-earnings-call-transcript/?.tsrc=rss",
+      "sentiment": "neutral",
+      "impact": 0,
+      "tags": [
+        "earnings"
+      ],
+      "raw": {
+        "tickers": [
+          "ZS"
+        ],
+        "event_type": "earnings",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [
+          "Q2 2026 earnings call held with Jay Chaudhry and Kevin Rubin participating.",
+          "Zscaler's Zero Trust architecture highlighted as key to minimizing attack surface."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Earnings call details provide insight into company performance but no significant positive or negative news was reported.",
+        "kr_title": "Zscaler (ZS) 2026年第2季度收益电话会议纪要"
+      }
+    },
+    {
+      "ts_kst": "2026-02-27T23:51:10+09:00",
+      "source": "news",
+      "title": "Zscaler Inc (ZS) Q2 2026 Earnings Call Highlights: Strong ARR Growth and AI Security Expansion ...",
+      "summary": "Robust earnings and growth in AI security solutions positively impact Zscaler's stock.",
+      "link": "https://finance.yahoo.com/news/zscaler-inc-zs-q2-2026-050547249.html?.tsrc=rss",
+      "sentiment": "bullish",
+      "impact": 1,
+      "tags": [
+        "earnings"
+      ],
+      "raw": {
+        "tickers": [
+          "ZS"
+        ],
+        "event_type": "earnings",
+        "sentiment": "bullish",
+        "impact": 1,
+        "confidence": 0.8,
+        "key_points": [
+          "Strong ARR growth reported",
+          "Expansion in AI security solutions"
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Robust earnings and growth in AI security solutions positively impact Zscaler's stock.",
+        "kr_title": "Z스케일러 인코포레이티드 (ZS) Q2 2026 이익电话会议亮点：强劲的ARR增长和AI安全扩展"
+      }
+    },
+    {
+      "ts_kst": "2026-02-27T23:51:07+09:00",
+      "source": "news",
+      "title": "Zscaler Airtel AI Cyber Center Opens As Shares Trade Below Targets",
+      "summary": "Unclear impact / insufficient info",
+      "link": "https://finance.yahoo.com/news/zscaler-airtel-ai-cyber-center-070536424.html?.tsrc=rss",
+      "sentiment": "neutral",
+      "impact": 0,
+      "tags": [
+        "other"
+      ],
+      "raw": {
+        "tickers": [
+          "ZS"
+        ],
+        "event_type": "other",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [
+          "Zscaler launches AI & Cyber Threat Research Center in India with Bharti Airtel.",
+          "Focus on cybersecurity research and expanding local talent."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Unclear impact / insufficient info",
+        "kr_title": "Zscaler, 아리텔 인공지능 및 사이버 보안 연구 센터 오픈"
+      }
+    },
+    {
+      "ts_kst": "2026-02-27T23:51:05+09:00",
+      "source": "news",
+      "title": "Zscaler Falls Sharply After Solid Earnings. Software Stocks Are Wild Right Now.",
+      "summary": "Earnings beat expectations, but the stock fell sharply initially, indicating mixed market reaction.",
+      "link": "https://finance.yahoo.com/m/0f9e1ef1-f255-30b6-91e3-557cb1500559/zscaler-falls-sharply-after.html?.tsrc=rss",
+      "sentiment": "neutral",
+      "impact": 0,
+      "tags": [
+        "earnings"
+      ],
+      "raw": {
+        "tickers": [
+          "ZS"
+        ],
+        "event_type": "earnings",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [
+          "Zscaler reported solid earnings with adjusted earnings of $1.01 per share beating estimates.",
+          "Full-year guidance was also ahead of consensus at between $3.99 and $4.02 per share."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Earnings beat expectations, but the stock fell sharply initially, indicating mixed market reaction.",
+        "kr_title": "Zscaler의 실적 발표 후 주가 급락... 소프트웨어 투자자들에게는 어떤가?"
+      }
+    },
+    {
+      "ts_kst": "2026-02-27T23:51:01+09:00",
+      "source": "news",
+      "title": "Zscaler Q2 Earnings Surpass Estimates, Revenues Increase Y/Y",
+      "summary": "Strong financial performance and positive guidance boost investor confidence.",
+      "link": "https://finance.yahoo.com/news/zscaler-q2-earnings-surpass-estimates-125500541.html?.tsrc=rss",
+      "sentiment": "bullish",
+      "impact": 1,
+      "tags": [
+        "earnings"
+      ],
+      "raw": {
+        "tickers": [
+          "ZS"
+        ],
+        "event_type": "earnings",
+        "sentiment": "bullish",
+        "impact": 1,
+        "confidence": 0.8,
+        "key_points": [
+          "Q2 earnings surpass estimates with 26% revenue growth",
+          "Strong customer momentum and lifted full-year outlook"
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Strong financial performance and positive guidance boost investor confidence.",
+        "kr_title": "Zscaler, Q2 실적 예상 초과, 매출 26% 증가"
+      }
+    },
+    {
+      "ts_kst": "2026-02-27T23:50:58+09:00",
+      "source": "news",
+      "title": "Zscaler Stock Falls On Q4 Earnings, Outlook For Key Sales Growth Metric",
+      "summary": "Earnings exceeded expectations, but concerns over future growth metrics led to stock decline.",
+      "link": "https://finance.yahoo.com/m/33800aac-ca52-3d52-b799-6bb2d91b1ffe/zscaler-stock-falls-on-q4.html?.tsrc=rss",
+      "sentiment": "bearish",
+      "impact": -1,
+      "tags": [
+        "earnings"
+      ],
+      "raw": {
+        "tickers": [
+          "ZS"
+        ],
+        "event_type": "earnings",
+        "sentiment": "bearish",
+        "impact": -1,
+        "confidence": 0.8,
+        "key_points": [
+          "Q4 earnings topped estimates.",
+          "Analysts focused on a key growth metric."
+        ],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "Earnings exceeded expectations, but concerns over future growth metrics led to stock decline.",
+        "kr_title": "Zscaler 주식, 제기준 성장 지표에 따른 4분기 이익 발표 후 하락"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "ts_kst": "2026-02-28T03:06:14+09:00",
+      "action": "BUY",
+      "confidence": 0.65,
+      "rationale": "Zscaler's recent earnings report showed strong financial performance and positive guidance, despite a sharp decline in share price due to mixed market reaction.",
+      "key_drivers": [
+        "Earnings beat expectations with +12.94% EPS surprise and +2.22% revenue growth",
+        "Robust demand for AI security solutions"
+      ],
+      "key_risks": [
+        "Concerns over future sales growth metrics",
+        "Mixed market reaction to positive earnings report"
+      ],
+      "valuation_view": "Current price may reflect short-term pessimism, offering a potential buying opportunity.",
+      "counterfactuals": [
+        "If Zscaler's guidance is downgraded or if there are significant competitive pressures in the AI security space."
+      ],
+      "next_checks": [
+        "Monitor Q2 earnings call transcript for additional insights",
+        "Watch for any updates on key sales growth metrics"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.65,
+        "rationale": "Zscaler's recent earnings report showed strong financial performance and positive guidance, despite a sharp decline in share price due to mixed market reaction.",
+        "key_drivers": [
+          "Earnings beat expectations with +12.94% EPS surprise and +2.22% revenue growth",
+          "Robust demand for AI security solutions"
+        ],
+        "key_risks": [
+          "Concerns over future sales growth metrics",
+          "Mixed market reaction to positive earnings report"
+        ],
+        "valuation_view": "Current price may reflect short-term pessimism, offering a potential buying opportunity.",
+        "counterfactuals": [
+          "If Zscaler's guidance is downgraded or if there are significant competitive pressures in the AI security space."
+        ],
+        "next_checks": [
+          "Monitor Q2 earnings call transcript for additional insights",
+          "Watch for any updates on key sales growth metrics"
+        ],
+        "position_plan": {
+          "prefer_qty": 1,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T03:03:04+09:00",
+      "action": "BUY",
+      "confidence": 0.65,
+      "rationale": "Zscaler's recent earnings report showed strong financial performance and positive guidance, despite a sharp decline in share price due to market sentiment.",
+      "key_drivers": [
+        "Earnings beat expectations with +12.94% EPS surprise and +2.22% revenue growth",
+        "Robust demand for AI security solutions"
+      ],
+      "key_risks": [
+        "Market sentiment may remain negative in the short term",
+        "Concerns over future sales growth metrics"
+      ],
+      "valuation_view": "Current price undervalued relative to strong earnings and positive outlook",
+      "counterfactuals": [
+        "If Zscaler's guidance is revised downward due to unforeseen challenges or market conditions deteriorate further"
+      ],
+      "next_checks": [
+        "Monitor Q2 financial results for any changes in revenue growth or margin trends",
+        "Watch for updates on AI security expansion and competitive landscape"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.65,
+        "rationale": "Zscaler's recent earnings report showed strong financial performance and positive guidance, despite a sharp decline in share price due to market sentiment.",
+        "key_drivers": [
+          "Earnings beat expectations with +12.94% EPS surprise and +2.22% revenue growth",
+          "Robust demand for AI security solutions"
+        ],
+        "key_risks": [
+          "Market sentiment may remain negative in the short term",
+          "Concerns over future sales growth metrics"
+        ],
+        "valuation_view": "Current price undervalued relative to strong earnings and positive outlook",
+        "counterfactuals": [
+          "If Zscaler's guidance is revised downward due to unforeseen challenges or market conditions deteriorate further"
+        ],
+        "next_checks": [
+          "Monitor Q2 financial results for any changes in revenue growth or margin trends",
+          "Watch for updates on AI security expansion and competitive landscape"
+        ],
+        "position_plan": {
+          "prefer_qty": 1,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:43:48+09:00",
+      "action": "BUY",
+      "confidence": 0.65,
+      "rationale": "Zscaler's recent earnings report showed strong financial performance and positive guidance, despite a sharp decline in share price due to mixed market reaction.",
+      "key_drivers": [
+        "Earnings beat expectations with +12.94% EPS surprise and +2.22% revenue growth",
+        "Robust demand for AI security solutions"
+      ],
+      "key_risks": [
+        "Concerns over future sales growth metrics",
+        "Mixed market reaction to positive earnings report"
+      ],
+      "valuation_view": "Current price undervalued given strong financial performance and positive outlook.",
+      "counterfactuals": [
+        "If Zscaler's Q3 earnings miss expectations or if there are significant negative developments in the cybersecurity sector."
+      ],
+      "next_checks": [
+        "Q3 earnings report",
+        "Market reaction to any new product launches or acquisitions"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.65,
+        "rationale": "Zscaler's recent earnings report showed strong financial performance and positive guidance, despite a sharp decline in share price due to mixed market reaction.",
+        "key_drivers": [
+          "Earnings beat expectations with +12.94% EPS surprise and +2.22% revenue growth",
+          "Robust demand for AI security solutions"
+        ],
+        "key_risks": [
+          "Concerns over future sales growth metrics",
+          "Mixed market reaction to positive earnings report"
+        ],
+        "valuation_view": "Current price undervalued given strong financial performance and positive outlook.",
+        "counterfactuals": [
+          "If Zscaler's Q3 earnings miss expectations or if there are significant negative developments in the cybersecurity sector."
+        ],
+        "next_checks": [
+          "Q3 earnings report",
+          "Market reaction to any new product launches or acquisitions"
+        ],
+        "position_plan": {
+          "prefer_qty": 50,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:40:46+09:00",
+      "action": "BUY",
+      "confidence": 0.65,
+      "rationale": "Zscaler's Q2 earnings and revenue beat expectations, indicating strong financial performance and positive guidance. Despite initial sharp declines due to market sentiment, the underlying fundamentals remain robust.",
+      "key_drivers": [
+        "Earnings and revenue surprises of +12.94% and +2.22%, respectively",
+        "Strong ARR growth and AI security expansion"
+      ],
+      "key_risks": [
+        "Mixed market reaction to earnings report, leading to sharp declines",
+        "Concerns over future growth metrics highlighted by analysts"
+      ],
+      "valuation_view": "Current price may undervalue the strong financial performance and positive outlook.",
+      "counterfactuals": [
+        "If Zscaler fails to meet Q3 guidance or faces significant competitive pressures."
+      ],
+      "next_checks": [
+        "Q3 earnings report for further validation of growth trends",
+        "Market sentiment towards cybersecurity stocks"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.65,
+        "rationale": "Zscaler's Q2 earnings and revenue beat expectations, indicating strong financial performance and positive guidance. Despite initial sharp declines due to market sentiment, the underlying fundamentals remain robust.",
+        "key_drivers": [
+          "Earnings and revenue surprises of +12.94% and +2.22%, respectively",
+          "Strong ARR growth and AI security expansion"
+        ],
+        "key_risks": [
+          "Mixed market reaction to earnings report, leading to sharp declines",
+          "Concerns over future growth metrics highlighted by analysts"
+        ],
+        "valuation_view": "Current price may undervalue the strong financial performance and positive outlook.",
+        "counterfactuals": [
+          "If Zscaler fails to meet Q3 guidance or faces significant competitive pressures."
+        ],
+        "next_checks": [
+          "Q3 earnings report for further validation of growth trends",
+          "Market sentiment towards cybersecurity stocks"
+        ],
+        "position_plan": {
+          "prefer_qty": 50,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:37:48+09:00",
+      "action": "BUY",
+      "confidence": 0.65,
+      "rationale": "Zscaler's recent earnings report showed strong financial performance and positive guidance, despite a sharp decline in share price due to market sentiment.",
+      "key_drivers": [
+        "Earnings beat expectations with +12.94% EPS surprise and +2.22% revenue growth",
+        "Strong ARR growth and expansion of AI security solutions"
+      ],
+      "key_risks": [
+        "Mixed investor reaction despite positive earnings, indicating potential concerns about future growth metrics",
+        "Unclear impact of new research center in India on overall business performance"
+      ],
+      "valuation_view": "Current price may not fully reflect the strong financial results and positive outlook for Zscaler's platform and AI solutions.",
+      "counterfactuals": [
+        "If market sentiment remains negative despite continued strong earnings, share price could remain depressed",
+        "If competitors introduce significant innovations or partnerships that erode Zscaler’s competitive advantage"
+      ],
+      "next_checks": [
+        "Monitor Q3 guidance for any changes in outlook",
+        "Watch for updates on the impact of new initiatives like the AI Cyber Center in India"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.65,
+        "rationale": "Zscaler's recent earnings report showed strong financial performance and positive guidance, despite a sharp decline in share price due to market sentiment.",
+        "key_drivers": [
+          "Earnings beat expectations with +12.94% EPS surprise and +2.22% revenue growth",
+          "Strong ARR growth and expansion of AI security solutions"
+        ],
+        "key_risks": [
+          "Mixed investor reaction despite positive earnings, indicating potential concerns about future growth metrics",
+          "Unclear impact of new research center in India on overall business performance"
+        ],
+        "valuation_view": "Current price may not fully reflect the strong financial results and positive outlook for Zscaler's platform and AI solutions.",
+        "counterfactuals": [
+          "If market sentiment remains negative despite continued strong earnings, share price could remain depressed",
+          "If competitors introduce significant innovations or partnerships that erode Zscaler’s competitive advantage"
+        ],
+        "next_checks": [
+          "Monitor Q3 guidance for any changes in outlook",
+          "Watch for updates on the impact of new initiatives like the AI Cyber Center in India"
+        ],
+        "position_plan": {
+          "prefer_qty": 50,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:34:37+09:00",
+      "action": "BUY",
+      "confidence": 0.67,
+      "rationale": "Zscaler delivered strong Q2 earnings and revenue surprises, indicating positive momentum despite mixed market reaction.",
+      "key_drivers": [
+        "Robust demand for platform and AI solutions",
+        "Strong ARR growth"
+      ],
+      "key_risks": [
+        "Concerns over future sales growth metrics",
+        "Market volatility in software stocks"
+      ],
+      "valuation_view": "Positive near-term outlook based on strong financial performance",
+      "counterfactuals": [
+        "Negative Q3 earnings guidance",
+        "Significant competitive pressures"
+      ],
+      "next_checks": [
+        "Q3 earnings announcement and guidance",
+        "Competitor performance"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.67,
+        "rationale": "Zscaler delivered strong Q2 earnings and revenue surprises, indicating positive momentum despite mixed market reaction.",
+        "key_drivers": [
+          "Robust demand for platform and AI solutions",
+          "Strong ARR growth"
+        ],
+        "key_risks": [
+          "Concerns over future sales growth metrics",
+          "Market volatility in software stocks"
+        ],
+        "valuation_view": "Positive near-term outlook based on strong financial performance",
+        "counterfactuals": [
+          "Negative Q3 earnings guidance",
+          "Significant competitive pressures"
+        ],
+        "next_checks": [
+          "Q3 earnings announcement and guidance",
+          "Competitor performance"
+        ],
+        "position_plan": {
+          "prefer_qty": 50,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:15:38+09:00",
+      "action": "BUY",
+      "confidence": 0.6714285714285715,
+      "rationale": "Zscaler delivered strong Q2 earnings and revenue surprises, indicating positive momentum despite mixed market reaction.",
+      "key_drivers": [
+        "Robust demand for Zscaler's platform and AI solutions",
+        "Strong ARR growth and expansion in key markets like India"
+      ],
+      "key_risks": [
+        "Concerns over future sales growth metrics",
+        "Mixed market reaction to earnings announcement"
+      ],
+      "valuation_view": "Positive momentum from strong Q2 results supports current valuation.",
+      "counterfactuals": [
+        "Negative guidance or unexpected slowdown in AI security expansion could impact stock negatively."
+      ],
+      "next_checks": [
+        "Q3 earnings and revenue growth",
+        "Competitive landscape updates"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.6714285714285715,
+        "rationale": "Zscaler delivered strong Q2 earnings and revenue surprises, indicating positive momentum despite mixed market reaction.",
+        "key_drivers": [
+          "Robust demand for Zscaler's platform and AI solutions",
+          "Strong ARR growth and expansion in key markets like India"
+        ],
+        "key_risks": [
+          "Concerns over future sales growth metrics",
+          "Mixed market reaction to earnings announcement"
+        ],
+        "valuation_view": "Positive momentum from strong Q2 results supports current valuation.",
+        "counterfactuals": [
+          "Negative guidance or unexpected slowdown in AI security expansion could impact stock negatively."
+        ],
+        "next_checks": [
+          "Q3 earnings and revenue growth",
+          "Competitive landscape updates"
+        ],
+        "position_plan": {
+          "prefer_qty": 50,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:12:48+09:00",
+      "action": "BUY",
+      "confidence": 0.6714285714285715,
+      "rationale": "Zscaler delivered strong Q2 earnings and revenue, beating estimates by +12.94% and +2.22%, respectively. The company reported robust demand for its platform and AI solutions, driving positive momentum.",
+      "key_drivers": [
+        "Strong financial performance with 26% YoY revenue growth",
+        "Positive guidance from the management"
+      ],
+      "key_risks": [
+        "Mixed market reaction to earnings announcement",
+        "Concerns over future growth metrics highlighted by analysts"
+      ],
+      "valuation_view": "The stock's strong earnings beat and positive outlook suggest a favorable valuation, but recent price action indicates caution is warranted.",
+      "counterfactuals": [
+        "If the stock fails to maintain its upward trajectory or if negative news emerges regarding Q3 guidance",
+        "Increased competition in AI security solutions"
+      ],
+      "next_checks": [
+        "Q3 earnings and revenue growth",
+        "Market reaction to any new product launches or strategic partnerships"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.6714285714285715,
+        "rationale": "Zscaler delivered strong Q2 earnings and revenue, beating estimates by +12.94% and +2.22%, respectively. The company reported robust demand for its platform and AI solutions, driving positive momentum.",
+        "key_drivers": [
+          "Strong financial performance with 26% YoY revenue growth",
+          "Positive guidance from the management"
+        ],
+        "key_risks": [
+          "Mixed market reaction to earnings announcement",
+          "Concerns over future growth metrics highlighted by analysts"
+        ],
+        "valuation_view": "The stock's strong earnings beat and positive outlook suggest a favorable valuation, but recent price action indicates caution is warranted.",
+        "counterfactuals": [
+          "If the stock fails to maintain its upward trajectory or if negative news emerges regarding Q3 guidance",
+          "Increased competition in AI security solutions"
+        ],
+        "next_checks": [
+          "Q3 earnings and revenue growth",
+          "Market reaction to any new product launches or strategic partnerships"
+        ],
+        "position_plan": {
+          "prefer_qty": 50,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:09:45+09:00",
+      "action": "BUY",
+      "confidence": 0.67,
+      "rationale": "Zscaler delivered strong Q2 earnings and revenue beats, indicating positive momentum despite mixed market reaction.",
+      "key_drivers": [
+        "Strong financial performance",
+        "Robust demand for AI security solutions"
+      ],
+      "key_risks": [
+        "Concerns over future growth metrics",
+        "Competitive pressures"
+      ],
+      "valuation_view": "Current price undervalued relative to strong earnings and revenue growth",
+      "counterfactuals": [
+        "Negative guidance or unexpected competitive threats could impact stock performance"
+      ],
+      "next_checks": [
+        "Q3 earnings report",
+        "Market reaction to new AI security initiatives"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.67,
+        "rationale": "Zscaler delivered strong Q2 earnings and revenue beats, indicating positive momentum despite mixed market reaction.",
+        "key_drivers": [
+          "Strong financial performance",
+          "Robust demand for AI security solutions"
+        ],
+        "key_risks": [
+          "Concerns over future growth metrics",
+          "Competitive pressures"
+        ],
+        "valuation_view": "Current price undervalued relative to strong earnings and revenue growth",
+        "counterfactuals": [
+          "Negative guidance or unexpected competitive threats could impact stock performance"
+        ],
+        "next_checks": [
+          "Q3 earnings report",
+          "Market reaction to new AI security initiatives"
+        ],
+        "position_plan": {
+          "prefer_qty": 50,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:06:58+09:00",
+      "action": "HOLD",
+      "confidence": 0.67,
+      "rationale": "현재 주가는 강한 하락세를 보이고 있으며, 이익 실현과 함께 시장의 반응이 혼조적입니다.",
+      "key_drivers": [
+        "Q2 실적 발표에서 매출 및 수익이 예상치를 상회했음",
+        "AI 보안 솔루션에 대한 강한 수요"
+      ],
+      "key_risks": [
+        "향후 성장 지표에 대한 우려감",
+        "경쟁 압력 증가로 인해 가입자 유지 문제가 발생할 가능성"
+      ],
+      "valuation_view": "현재 주가는 고평가 상태이며, 향후 실적 개선이 필요함.",
+      "counterfactuals": [
+        "향후 성장 지표가 악화될 경우 주가 하락 가능성이 높음",
+        "경쟁사의 신제품 출시로 인한 시장 점유율 감소 가능성"
+      ],
+      "next_checks": [
+        "Q2 실적 발표 이후의 재무 상황 및 전망 확인",
+        "AI 보안 솔루션 분야에서의 경쟁 동향 모니터링"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.67,
+        "rationale": "현재 주가는 강한 하락세를 보이고 있으며, 이익 실현과 함께 시장의 반응이 혼조적입니다.",
+        "key_drivers": [
+          "Q2 실적 발표에서 매출 및 수익이 예상치를 상회했음",
+          "AI 보안 솔루션에 대한 강한 수요"
+        ],
+        "key_risks": [
+          "향후 성장 지표에 대한 우려감",
+          "경쟁 압력 증가로 인해 가입자 유지 문제가 발생할 가능성"
+        ],
+        "valuation_view": "현재 주가는 고평가 상태이며, 향후 실적 개선이 필요함.",
+        "counterfactuals": [
+          "향후 성장 지표가 악화될 경우 주가 하락 가능성이 높음",
+          "경쟁사의 신제품 출시로 인한 시장 점유율 감소 가능성"
+        ],
+        "next_checks": [
+          "Q2 실적 발표 이후의 재무 상황 및 전망 확인",
+          "AI 보안 솔루션 분야에서의 경쟁 동향 모니터링"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:04:01+09:00",
+      "action": "HOLD",
+      "confidence": 0.67,
+      "rationale": "주가 동향과 기술적 분석은 약세를 나타내지만, 최근 실적이 양호하고 긍정적인 뉴스가 많아 매수와 매도 모두 신중해야 합니다.",
+      "key_drivers": [
+        "Q2 실적 상회",
+        "AI 보안 솔루션 성장"
+      ],
+      "key_risks": [
+        "향후 성장 지표 우려",
+        "시장 변동성"
+      ],
+      "valuation_view": "현재 가격은 공정가치를 반영하고 있으며, 향후 실적과 시장 상황에 따라 조정될 수 있습니다.",
+      "counterfactuals": [
+        "Q3 실적이 예상 이하로 나올 경우 매도",
+        "시장이 위험 선호 분위기로 전환할 경우 매수"
+      ],
+      "next_checks": [],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.67,
+        "rationale": "주가 동향과 기술적 분석은 약세를 나타내지만, 최근 실적이 양호하고 긍정적인 뉴스가 많아 매수와 매도 모두 신중해야 합니다.",
+        "key_drivers": [
+          "Q2 실적 상회",
+          "AI 보안 솔루션 성장"
+        ],
+        "key_risks": [
+          "향후 성장 지표 우려",
+          "시장 변동성"
+        ],
+        "valuation_view": "현재 가격은 공정가치를 반영하고 있으며, 향후 실적과 시장 상황에 따라 조정될 수 있습니다.",
+        "counterfactuals": [
+          "Q3 실적이 예상 이하로 나올 경우 매도",
+          "시장이 위험 선호 분위기로 전환할 경우 매수"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        },
+        "next_checks": []
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:59:03+09:00",
+      "action": "HOLD",
+      "confidence": 0.6714285714285715,
+      "rationale": "최근 실적 발표로 인해 주가 변동성이 높아졌으나, 현재 가격은 공정가치를 반영하고 있어 추가적인 매수/매도는 적절하지 않음.",
+      "key_drivers": [
+        "Q2 실적 발표에서 수익과 매출이 예상치를 상회함",
+        "AI 보안 솔루션에 대한 강한 수요"
+      ],
+      "key_risks": [
+        "경쟁 압력 증가",
+        "매수자들의 과도한 기대감으로 인한 실망 리스크"
+      ],
+      "valuation_view": "현재 가격은 실적 발표를 반영하고 있으나, 추가적인 상승 여지는 제한적임.",
+      "counterfactuals": [
+        "실적이 예상치 미달로 발표될 경우 주가 하락 가능성",
+        "경쟁사들의 신제품 출시로 인해 시장 점유율 감소 가능"
+      ],
+      "next_checks": [
+        "Q3 실적 전망 및 가이던스",
+        "주요 경쟁사의 동향 및 제품 출시 상황"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.6714285714285715,
+        "rationale": "최근 실적 발표로 인해 주가 변동성이 높아졌으나, 현재 가격은 공정가치를 반영하고 있어 추가적인 매수/매도는 적절하지 않음.",
+        "key_drivers": [
+          "Q2 실적 발표에서 수익과 매출이 예상치를 상회함",
+          "AI 보안 솔루션에 대한 강한 수요"
+        ],
+        "key_risks": [
+          "경쟁 압력 증가",
+          "매수자들의 과도한 기대감으로 인한 실망 리스크"
+        ],
+        "valuation_view": "현재 가격은 실적 발표를 반영하고 있으나, 추가적인 상승 여지는 제한적임.",
+        "counterfactuals": [
+          "실적이 예상치 미달로 발표될 경우 주가 하락 가능성",
+          "경쟁사들의 신제품 출시로 인해 시장 점유율 감소 가능"
+        ],
+        "next_checks": [
+          "Q3 실적 전망 및 가이던스",
+          "주요 경쟁사의 동향 및 제품 출시 상황"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:56:07+09:00",
+      "action": "HOLD",
+      "confidence": 0.67,
+      "rationale": "최근 실적 발표에서 매출과 이익이 예상치를 상회했으나, 주가는 혼조세를 보이고 있어 추가적인 움직임을 기다려야 합니다.",
+      "key_drivers": [
+        "Q2 실적 상회",
+        "AI 보안 솔루션 수요 증가"
+      ],
+      "key_risks": [
+        "향후 성장률 우려",
+        "경쟁 압력"
+      ],
+      "valuation_view": "실적이 양호하나 주가는 혼조세로 공격적인 포지션은 적절하지 않음",
+      "counterfactuals": [
+        "주가 상승이 지속되지 않을 경우"
+      ],
+      "next_checks": [
+        "다음 분기 실적 발표",
+        "경쟁사 동향"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.67,
+        "rationale": "최근 실적 발표에서 매출과 이익이 예상치를 상회했으나, 주가는 혼조세를 보이고 있어 추가적인 움직임을 기다려야 합니다.",
+        "key_drivers": [
+          "Q2 실적 상회",
+          "AI 보안 솔루션 수요 증가"
+        ],
+        "key_risks": [
+          "향후 성장률 우려",
+          "경쟁 압력"
+        ],
+        "valuation_view": "실적이 양호하나 주가는 혼조세로 공격적인 포지션은 적절하지 않음",
+        "counterfactuals": [
+          "주가 상승이 지속되지 않을 경우"
+        ],
+        "next_checks": [
+          "다음 분기 실적 발표",
+          "경쟁사 동향"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:53:11+09:00",
+      "action": "HOLD",
+      "confidence": 0.6714285714285715,
+      "rationale": "최근 실적 발표로 인해 주가 변동성이 높아졌으나, 현재 가격은 공정가치를 반영하고 있어 추가적인 매수 또는 매도는 적절하지 않다.",
+      "key_drivers": [
+        "Q2 실적 상회",
+        "AI 보안 솔루션 강세"
+      ],
+      "key_risks": [
+        "향후 성장률 우려",
+        "경쟁 압력"
+      ],
+      "valuation_view": "현재 가격은 최근 실적 발표를 반영하고 있으나, 향후 성장률에 대한 불확실성이 존재한다.",
+      "counterfactuals": [
+        "Q3 실적이 예상보다 낮을 경우 주가 하락 가능",
+        "경쟁사의 신제품 출시로 인한 시장 점유율 감소"
+      ],
+      "next_checks": [
+        "Q3 실적 발표",
+        "경쟁사 동향"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.6714285714285715,
+        "rationale": "최근 실적 발표로 인해 주가 변동성이 높아졌으나, 현재 가격은 공정가치를 반영하고 있어 추가적인 매수 또는 매도는 적절하지 않다.",
+        "key_drivers": [
+          "Q2 실적 상회",
+          "AI 보안 솔루션 강세"
+        ],
+        "key_risks": [
+          "향후 성장률 우려",
+          "경쟁 압력"
+        ],
+        "valuation_view": "현재 가격은 최근 실적 발표를 반영하고 있으나, 향후 성장률에 대한 불확실성이 존재한다.",
+        "counterfactuals": [
+          "Q3 실적이 예상보다 낮을 경우 주가 하락 가능",
+          "경쟁사의 신제품 출시로 인한 시장 점유율 감소"
+        ],
+        "next_checks": [
+          "Q3 실적 발표",
+          "경쟁사 동향"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:26:44+09:00",
+      "action": "HOLD",
+      "confidence": 0.67,
+      "rationale": "현재 Zscaler의 주가는 위험회피 모드에서 HOLD를 추천합니다. 최근 실적 발표는 양호했으나, 시장 반응은 혼조세입니다.",
+      "key_drivers": [
+        "Q2 실적 상회",
+        "AI 보안 솔루션 강화"
+      ],
+      "key_risks": [
+        "향후 성장 지표 우려",
+        "시장 변동성 증가"
+      ],
+      "valuation_view": "현재 가격 대비 향후 실적 개선 여부에 따라 재평가 필요",
+      "counterfactuals": [
+        "향후 성장 지표 부진 시 주가 하락 가능성 높아질 수 있음"
+      ],
+      "next_checks": [
+        "Q3 실적 발표",
+        "시장 전반적인 리스크 상황"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.67,
+        "rationale": "현재 Zscaler의 주가는 위험회피 모드에서 HOLD를 추천합니다. 최근 실적 발표는 양호했으나, 시장 반응은 혼조세입니다.",
+        "key_drivers": [
+          "Q2 실적 상회",
+          "AI 보안 솔루션 강화"
+        ],
+        "key_risks": [
+          "향후 성장 지표 우려",
+          "시장 변동성 증가"
+        ],
+        "valuation_view": "현재 가격 대비 향후 실적 개선 여부에 따라 재평가 필요",
+        "counterfactuals": [
+          "향후 성장 지표 부진 시 주가 하락 가능성 높아질 수 있음"
+        ],
+        "next_checks": [
+          "Q3 실적 발표",
+          "시장 전반적인 리스크 상황"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:23:56+09:00",
+      "action": "HOLD",
+      "confidence": 0.67,
+      "rationale": "현재 주가는 매수 기회를 제공하지만, 시장 리스크가 높아 HOLD로 판단.",
+      "key_drivers": [
+        "Q2 실적 우려에도 불구하고 수익성 개선",
+        "AI 보안 솔루션 강화"
+      ],
+      "key_risks": [
+        "향후 성장률에 대한 불확실성",
+        "시장 전반적인 위험 심리"
+      ],
+      "valuation_view": "현재 주가는 공정가치를 반영하고 있어 추가적인 가격 상승 여지 제한적",
+      "counterfactuals": [
+        "Q3 실적이 예상보다 우수할 경우 매수 시점으로 변경 가능"
+      ],
+      "next_checks": [
+        "Q3 실적 발표",
+        "시장 전반의 리스크 심리 변화"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.67,
+        "rationale": "현재 주가는 매수 기회를 제공하지만, 시장 리스크가 높아 HOLD로 판단.",
+        "key_drivers": [
+          "Q2 실적 우려에도 불구하고 수익성 개선",
+          "AI 보안 솔루션 강화"
+        ],
+        "key_risks": [
+          "향후 성장률에 대한 불확실성",
+          "시장 전반적인 위험 심리"
+        ],
+        "valuation_view": "현재 주가는 공정가치를 반영하고 있어 추가적인 가격 상승 여지 제한적",
+        "counterfactuals": [
+          "Q3 실적이 예상보다 우수할 경우 매수 시점으로 변경 가능"
+        ],
+        "next_checks": [
+          "Q3 실적 발표",
+          "시장 전반의 리스크 심리 변화"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:21:04+09:00",
+      "action": "HOLD",
+      "confidence": 0.67,
+      "rationale": "현재 Zscaler의 주가는 양호한 실적을 발표했음에도 불구하고 혼조세를 보이고 있습니다. 시장은 장기적인 성장 전망에 대해 아직 확신이 없는 것으로 판단됩니다.",
+      "key_drivers": [
+        "Q2 실적 발표 후 긍정적인 이슈가 있음",
+        "AI 보안 솔루션의 강한 수요"
+      ],
+      "key_risks": [
+        "향후 성장 지표에 대한 불확실성",
+        "경쟁 압력과 인수 통합 관련 churn"
+      ],
+      "valuation_view": "현재 실적 발표로 인해 주가가 혼조세를 보이고 있으나, 장기적인 전망은 여전히 긍정적입니다.",
+      "counterfactuals": [
+        "향후 성장 지표가 부진할 경우 주가는 하락할 수 있음",
+        "경쟁 압력이 더욱 심화될 경우"
+      ],
+      "next_checks": [
+        "Q3 실적 발표 및 분기별 성장률 추이",
+        "주요 경쟁사의 동향과 시장 점유율 변화"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.67,
+        "rationale": "현재 Zscaler의 주가는 양호한 실적을 발표했음에도 불구하고 혼조세를 보이고 있습니다. 시장은 장기적인 성장 전망에 대해 아직 확신이 없는 것으로 판단됩니다.",
+        "key_drivers": [
+          "Q2 실적 발표 후 긍정적인 이슈가 있음",
+          "AI 보안 솔루션의 강한 수요"
+        ],
+        "key_risks": [
+          "향후 성장 지표에 대한 불확실성",
+          "경쟁 압력과 인수 통합 관련 churn"
+        ],
+        "valuation_view": "현재 실적 발표로 인해 주가가 혼조세를 보이고 있으나, 장기적인 전망은 여전히 긍정적입니다.",
+        "counterfactuals": [
+          "향후 성장 지표가 부진할 경우 주가는 하락할 수 있음",
+          "경쟁 압력이 더욱 심화될 경우"
+        ],
+        "next_checks": [
+          "Q3 실적 발표 및 분기별 성장률 추이",
+          "주요 경쟁사의 동향과 시장 점유율 변화"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:18:12+09:00",
+      "action": "HOLD",
+      "confidence": 0.67,
+      "rationale": "현재 시장은 위험회피 모드로 Zscaler의 주가도 약세를 보이고 있습니다. 최근 실적 발표는 양호했지만, 시장 반응이 혼조적이어서 매수 타이밍으로 보기 어렵습니다.",
+      "key_drivers": [
+        "Q2 실적 상회",
+        "AI 보안 솔루션 성장"
+      ],
+      "key_risks": [
+        "향후 성장 지표 우려",
+        "시장 변동성"
+      ],
+      "valuation_view": "현재 시장 조건에서 공격적인 포지션은 위험하다고 판단됩니다.",
+      "counterfactuals": [
+        "실적 발표 후 주가 상승이 지속될 경우 매수 타이밍으로 볼 수 있습니다."
+      ],
+      "next_checks": [
+        "향후 실적 예측 및 시장 반응",
+        "경쟁사 동향"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.67,
+        "rationale": "현재 시장은 위험회피 모드로 Zscaler의 주가도 약세를 보이고 있습니다. 최근 실적 발표는 양호했지만, 시장 반응이 혼조적이어서 매수 타이밍으로 보기 어렵습니다.",
+        "key_drivers": [
+          "Q2 실적 상회",
+          "AI 보안 솔루션 성장"
+        ],
+        "key_risks": [
+          "향후 성장 지표 우려",
+          "시장 변동성"
+        ],
+        "valuation_view": "현재 시장 조건에서 공격적인 포지션은 위험하다고 판단됩니다.",
+        "counterfactuals": [
+          "실적 발표 후 주가 상승이 지속될 경우 매수 타이밍으로 볼 수 있습니다."
+        ],
+        "next_checks": [
+          "향후 실적 예측 및 시장 반응",
+          "경쟁사 동향"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:15:08+09:00",
+      "action": "HOLD",
+      "confidence": 0.67,
+      "rationale": "현재 주가는 강한 하락세를 보이고 있으며, 이익 실현을 위한 매도 신호가 나왔으나, 최근 발표된 Q2 실적은 양호하다. 그러나 시장 반응은 혼조 상태로, 추가적인 확인이 필요하다.",
+      "key_drivers": [
+        "Q2 실적 호전",
+        "AI 보안 솔루션 수요 증가"
+      ],
+      "key_risks": [
+        "향후 성장 지표에 대한 우려",
+        "경쟁 압력"
+      ],
+      "valuation_view": "현재 주가는 과열 상태에서 조정을 받고 있으며, 실적 호전에도 불구하고 추가적인 하락 가능성 존재",
+      "counterfactuals": [
+        "Q2 이후 성장 지표가 개선될 경우 매수 시점이 될 수 있음"
+      ],
+      "next_checks": [
+        "Q3 실적 발표",
+        "경쟁사 동향"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.67,
+        "rationale": "현재 주가는 강한 하락세를 보이고 있으며, 이익 실현을 위한 매도 신호가 나왔으나, 최근 발표된 Q2 실적은 양호하다. 그러나 시장 반응은 혼조 상태로, 추가적인 확인이 필요하다.",
+        "key_drivers": [
+          "Q2 실적 호전",
+          "AI 보안 솔루션 수요 증가"
+        ],
+        "key_risks": [
+          "향후 성장 지표에 대한 우려",
+          "경쟁 압력"
+        ],
+        "valuation_view": "현재 주가는 과열 상태에서 조정을 받고 있으며, 실적 호전에도 불구하고 추가적인 하락 가능성 존재",
+        "counterfactuals": [
+          "Q2 이후 성장 지표가 개선될 경우 매수 시점이 될 수 있음"
+        ],
+        "next_checks": [
+          "Q3 실적 발표",
+          "경쟁사 동향"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:09:14+09:00",
+      "action": "HOLD",
+      "confidence": 0.67,
+      "rationale": "현재 주가는 강한 하락세를 보이고 있으며, 시장 전체가 위험회피 모드에 있습니다. 최근 실적 발표는 양호했지만, 주가는 긍정적인 요인을 반영하지 못하고 있습니다.",
+      "key_drivers": [
+        "긍정적인 실적 발표",
+        "AI 보안 솔루션의 강한 수요"
+      ],
+      "key_risks": [
+        "미래 성장 지표에 대한 우려",
+        "시장 전체적인 위험회피 분위기"
+      ],
+      "valuation_view": "현재 주가는 실적 발표를 반영하지 못하고 있어, 추가적인 하락 가능성 존재",
+      "counterfactuals": [
+        "실적 개선이 계속될 경우, 주가 상승 가능성이 있음"
+      ],
+      "next_checks": [
+        "다음 분기 실적 발표",
+        "시장 전체 흐름"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.67,
+        "rationale": "현재 주가는 강한 하락세를 보이고 있으며, 시장 전체가 위험회피 모드에 있습니다. 최근 실적 발표는 양호했지만, 주가는 긍정적인 요인을 반영하지 못하고 있습니다.",
+        "key_drivers": [
+          "긍정적인 실적 발표",
+          "AI 보안 솔루션의 강한 수요"
+        ],
+        "key_risks": [
+          "미래 성장 지표에 대한 우려",
+          "시장 전체적인 위험회피 분위기"
+        ],
+        "valuation_view": "현재 주가는 실적 발표를 반영하지 못하고 있어, 추가적인 하락 가능성 존재",
+        "counterfactuals": [
+          "실적 개선이 계속될 경우, 주가 상승 가능성이 있음"
+        ],
+        "next_checks": [
+          "다음 분기 실적 발표",
+          "시장 전체 흐름"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:05:07+09:00",
+      "action": "HOLD",
+      "confidence": 0.6714285714285715,
+      "rationale": "현재 Zscaler의 주가는 양호한 실적과 함께 긍정적인 흐름을 보이고 있으나, 시장 전체가 위험회피 모드로 전환되면서 추가 상승 여력이 제한적입니다.",
+      "key_drivers": [
+        "Q2 실적 발표에서 매출 및 이익 모두 예상치를 상회하며 긍정적인 신호를 보냈습니다."
+      ],
+      "key_risks": [
+        "시장 전체가 위험회피 모드로 전환되면서 추가 상승이 어려울 수 있습니다.",
+        "향후 실적 지표에 대한 시장의 기대치 조정 가능성"
+      ],
+      "valuation_view": "현재 주가는 양호한 실적을 반영하고 있으나, 추가적인 긍정적인 이벤트가 발생하지 않는 한 상승 여력은 제한적입니다.",
+      "counterfactuals": [
+        "향후 실적이 예상치를 밑돌거나 시장 전반의 위험회피 모드가 지속될 경우 주가는 하락할 수 있습니다."
+      ],
+      "next_checks": [
+        "Q2 이후의 실적 발표와 관련된 추가 정보",
+        "시장 전체의 위험회피 모드 유지 여부"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.6714285714285715,
+        "rationale": "현재 Zscaler의 주가는 양호한 실적과 함께 긍정적인 흐름을 보이고 있으나, 시장 전체가 위험회피 모드로 전환되면서 추가 상승 여력이 제한적입니다.",
+        "key_drivers": [
+          "Q2 실적 발표에서 매출 및 이익 모두 예상치를 상회하며 긍정적인 신호를 보냈습니다."
+        ],
+        "key_risks": [
+          "시장 전체가 위험회피 모드로 전환되면서 추가 상승이 어려울 수 있습니다.",
+          "향후 실적 지표에 대한 시장의 기대치 조정 가능성"
+        ],
+        "valuation_view": "현재 주가는 양호한 실적을 반영하고 있으나, 추가적인 긍정적인 이벤트가 발생하지 않는 한 상승 여력은 제한적입니다.",
+        "counterfactuals": [
+          "향후 실적이 예상치를 밑돌거나 시장 전반의 위험회피 모드가 지속될 경우 주가는 하락할 수 있습니다."
+        ],
+        "next_checks": [
+          "Q2 이후의 실적 발표와 관련된 추가 정보",
+          "시장 전체의 위험회피 모드 유지 여부"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:56:03+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "",
+      "key_drivers": [],
+      "key_risks": [],
+      "valuation_view": "",
+      "counterfactuals": [],
+      "next_checks": [],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "",
+        "key_drivers": [],
+        "key_risks": [],
+        "valuation_view": "",
+        "counterfactuals": [],
+        "next_checks": [],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:53:04+09:00",
+      "action": "HOLD",
+      "confidence": 0.67,
+      "rationale": "현재 Zscaler의 주가는 강한 하락세를 보이고 있으며, 시장 전체가 위험 회피 모드에 있습니다. 최근 실적 발표는 양호했지만, 주가는 예상치 못하게 하락하고 있어 추가적인 조정이 필요합니다.",
+      "key_drivers": [
+        "Q2 실적 상회",
+        "AI 보안 솔루션 성장"
+      ],
+      "key_risks": [
+        "향후 성장 지표 우려",
+        "시장 변동성 증가"
+      ],
+      "valuation_view": "현재 주가는 과도하게 하락한 것으로 판단되지만, 추가적인 실적 발표나 시장 상황 변화를 기다리는 것이 좋습니다.",
+      "counterfactuals": [
+        "향후 성장 지표 개선",
+        "시장 위험 회피 모드 해소"
+      ],
+      "next_checks": [
+        "Q3 실적 예상치 및 발표일",
+        "시장 전반적인 분위기"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.67,
+        "rationale": "현재 Zscaler의 주가는 강한 하락세를 보이고 있으며, 시장 전체가 위험 회피 모드에 있습니다. 최근 실적 발표는 양호했지만, 주가는 예상치 못하게 하락하고 있어 추가적인 조정이 필요합니다.",
+        "key_drivers": [
+          "Q2 실적 상회",
+          "AI 보안 솔루션 성장"
+        ],
+        "key_risks": [
+          "향후 성장 지표 우려",
+          "시장 변동성 증가"
+        ],
+        "valuation_view": "현재 주가는 과도하게 하락한 것으로 판단되지만, 추가적인 실적 발표나 시장 상황 변화를 기다리는 것이 좋습니다.",
+        "counterfactuals": [
+          "향후 성장 지표 개선",
+          "시장 위험 회피 모드 해소"
+        ],
+        "next_checks": [
+          "Q3 실적 예상치 및 발표일",
+          "시장 전반적인 분위기"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:49:58+09:00",
+      "action": "HOLD",
+      "confidence": 0.67,
+      "rationale": "현재 Zscaler의 주가는 위험회피 모드에서 HOLD를 추천합니다. 최근 실적 발표는 양호했으나, 시장 반응은 혼조세입니다.",
+      "key_drivers": [
+        "Q2 실적 발표: 매출 및 이익 모두 예상치 상회",
+        "AI 보안 솔루션의 강한 수요"
+      ],
+      "key_risks": [
+        "향후 성장 지표에 대한 우려",
+        "시장 반응 혼조세"
+      ],
+      "valuation_view": "현재 실적 발표로 인해 공급과잉이 완화되었으나, 향후 성장 지표가 중요한 변수입니다.",
+      "counterfactuals": [
+        "향후 성장 지표 부진 시 주가는 하락할 수 있습니다."
+      ],
+      "next_checks": [
+        "Q2 실적 발표 이후의 재무상태 및 전망",
+        "경쟁사 동향"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.67,
+        "rationale": "현재 Zscaler의 주가는 위험회피 모드에서 HOLD를 추천합니다. 최근 실적 발표는 양호했으나, 시장 반응은 혼조세입니다.",
+        "key_drivers": [
+          "Q2 실적 발표: 매출 및 이익 모두 예상치 상회",
+          "AI 보안 솔루션의 강한 수요"
+        ],
+        "key_risks": [
+          "향후 성장 지표에 대한 우려",
+          "시장 반응 혼조세"
+        ],
+        "valuation_view": "현재 실적 발표로 인해 공급과잉이 완화되었으나, 향후 성장 지표가 중요한 변수입니다.",
+        "counterfactuals": [
+          "향후 성장 지표 부진 시 주가는 하락할 수 있습니다."
+        ],
+        "next_checks": [
+          "Q2 실적 발표 이후의 재무상태 및 전망",
+          "경쟁사 동향"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:46:52+09:00",
+      "action": "HOLD",
+      "confidence": 0.67,
+      "rationale": "현재 Zscaler의 주가는 양호한 실적 발표에도 불구하고 혼조세를 보이고 있습니다. 강한 하락 압력이 있는 시장 상황에서 추가적인 매수는 위험합니다.",
+      "key_drivers": [
+        "Q2 실적 우려",
+        "시장 리스크 오프"
+      ],
+      "key_risks": [
+        "향후 성장 지표 부진",
+        "기술주 전반적인 약세"
+      ],
+      "valuation_view": "현재 가격은 공정가치를 반영하고 있으며, 추가적인 상승 요인 없이는 매수 시점이 아닙니다.",
+      "counterfactuals": [
+        "향후 실적 개선 소식",
+        "기술주 강세 전환"
+      ],
+      "next_checks": [
+        "Q3 실적 발표",
+        "시장 리스크 오프 상태 지속 여부"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.67,
+        "rationale": "현재 Zscaler의 주가는 양호한 실적 발표에도 불구하고 혼조세를 보이고 있습니다. 강한 하락 압력이 있는 시장 상황에서 추가적인 매수는 위험합니다.",
+        "key_drivers": [
+          "Q2 실적 우려",
+          "시장 리스크 오프"
+        ],
+        "key_risks": [
+          "향후 성장 지표 부진",
+          "기술주 전반적인 약세"
+        ],
+        "valuation_view": "현재 가격은 공정가치를 반영하고 있으며, 추가적인 상승 요인 없이는 매수 시점이 아닙니다.",
+        "counterfactuals": [
+          "향후 실적 개선 소식",
+          "기술주 강세 전환"
+        ],
+        "next_checks": [
+          "Q3 실적 발표",
+          "시장 리스크 오프 상태 지속 여부"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:44:36+09:00",
+      "action": "HOLD",
+      "confidence": 0.67,
+      "rationale": "현재 주가는 강한 하락세를 보이고 있으며, 이익 실현과 관련된 다양한 뉴스가 혼합되어 있어 추가적인 추세 변화를 기다리는 것이 좋습니다.",
+      "key_drivers": [
+        "Zscaler의 Q2 이익이 예상치를 상회했음에도 불구하고 주가는 하락세를 보이고 있습니다.",
+        "AI 보안 솔루션에 대한 강한 수요와 ARR 성장이 긍정적인 신호로 작용하고 있지만, 향후 성장률에 대한 우려가 존재합니다."
+      ],
+      "key_risks": [
+        "향후 성장률 감소 가능성",
+        "경쟁사의 경쟁 압력"
+      ],
+      "valuation_view": "현재 시점에서 공정 가치를 정확히 평가하기 어렵습니다. 주가는 이익 실현과 관련된 다양한 요인에 영향을 받고 있습니다.",
+      "counterfactuals": [
+        "주가가 상승세로 전환될 경우, 추가적인 매수 기회를 놓칠 수 있음",
+        "경쟁사의 경쟁 압력이 더욱 심해질 경우, 주가는 더 큰 하락을 겪을 수 있음"
+      ],
+      "next_checks": [
+        "Zscaler의 향후 성장률 전망",
+        "경쟁사 동향 및 시장 점유율 변화"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.67,
+        "rationale": "현재 주가는 강한 하락세를 보이고 있으며, 이익 실현과 관련된 다양한 뉴스가 혼합되어 있어 추가적인 추세 변화를 기다리는 것이 좋습니다.",
+        "key_drivers": [
+          "Zscaler의 Q2 이익이 예상치를 상회했음에도 불구하고 주가는 하락세를 보이고 있습니다.",
+          "AI 보안 솔루션에 대한 강한 수요와 ARR 성장이 긍정적인 신호로 작용하고 있지만, 향후 성장률에 대한 우려가 존재합니다."
+        ],
+        "key_risks": [
+          "향후 성장률 감소 가능성",
+          "경쟁사의 경쟁 압력"
+        ],
+        "valuation_view": "현재 시점에서 공정 가치를 정확히 평가하기 어렵습니다. 주가는 이익 실현과 관련된 다양한 요인에 영향을 받고 있습니다.",
+        "counterfactuals": [
+          "주가가 상승세로 전환될 경우, 추가적인 매수 기회를 놓칠 수 있음",
+          "경쟁사의 경쟁 압력이 더욱 심해질 경우, 주가는 더 큰 하락을 겪을 수 있음"
+        ],
+        "next_checks": [
+          "Zscaler의 향후 성장률 전망",
+          "경쟁사 동향 및 시장 점유율 변화"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:29:40+09:00",
+      "action": "HOLD",
+      "confidence": 0.67,
+      "rationale": "현재 주가는 양호한 실적 발표에도 불구하고 혼조세를 보이고 있어 추가적인 상승 여력이 제한적입니다.",
+      "key_drivers": [
+        "Q2 실적 발표 및 수익성 개선",
+        "AI 보안 솔루션 확장"
+      ],
+      "key_risks": [
+        "향후 성장률 우려",
+        "경쟁 압력 증가"
+      ],
+      "valuation_view": "현재 주가는 실적 개선을 반영한 수준으로 추가적인 상승 요인이 제한적입니다.",
+      "counterfactuals": [
+        "향후 실적이 예상보다 부진할 경우 주가 하락 가능성",
+        "경쟁사의 신제품 출시로 인한 시장 점유율 감소"
+      ],
+      "next_checks": [
+        "Q3 실적 발표 및 가이던스",
+        "주요 경쟁사 동향"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.67,
+        "rationale": "현재 주가는 양호한 실적 발표에도 불구하고 혼조세를 보이고 있어 추가적인 상승 여력이 제한적입니다.",
+        "key_drivers": [
+          "Q2 실적 발표 및 수익성 개선",
+          "AI 보안 솔루션 확장"
+        ],
+        "key_risks": [
+          "향후 성장률 우려",
+          "경쟁 압력 증가"
+        ],
+        "valuation_view": "현재 주가는 실적 개선을 반영한 수준으로 추가적인 상승 요인이 제한적입니다.",
+        "counterfactuals": [
+          "향후 실적이 예상보다 부진할 경우 주가 하락 가능성",
+          "경쟁사의 신제품 출시로 인한 시장 점유율 감소"
+        ],
+        "next_checks": [
+          "Q3 실적 발표 및 가이던스",
+          "주요 경쟁사 동향"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:26:40+09:00",
+      "action": "HOLD",
+      "confidence": 0.67,
+      "rationale": "현재 Zscaler의 주가는 양호한 실적 발표에도 불구하고 혼조세를 보이고 있어 추가적인 상승 여력이 제한적입니다.",
+      "key_drivers": [
+        "Q2 실적 발표에서 매출과 이익 모두 예상치를 상회",
+        "AI 보안 솔루션의 강력한 수요"
+      ],
+      "key_risks": [
+        "향후 성장률에 대한 우려감이 시장 참여자들 사이에서 지속되고 있음",
+        "경쟁 압박과 인수합병 관련 churn 문제"
+      ],
+      "valuation_view": "현재 주가는 실적 발표 이후 혼조세로 인해 고평가 여부를 판단하기 어려움",
+      "counterfactuals": [
+        "향후 성장률이 예상보다 낮게 나타날 경우 주가 하락 가능성 높음"
+      ],
+      "next_checks": [
+        "Q3 실적 발표와 관련된 정보 및 시장 반응 모니터링",
+        "경쟁사 동향과 시장 전반의 흐름 파악"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.67,
+        "rationale": "현재 Zscaler의 주가는 양호한 실적 발표에도 불구하고 혼조세를 보이고 있어 추가적인 상승 여력이 제한적입니다.",
+        "key_drivers": [
+          "Q2 실적 발표에서 매출과 이익 모두 예상치를 상회",
+          "AI 보안 솔루션의 강력한 수요"
+        ],
+        "key_risks": [
+          "향후 성장률에 대한 우려감이 시장 참여자들 사이에서 지속되고 있음",
+          "경쟁 압박과 인수합병 관련 churn 문제"
+        ],
+        "valuation_view": "현재 주가는 실적 발표 이후 혼조세로 인해 고평가 여부를 판단하기 어려움",
+        "counterfactuals": [
+          "향후 성장률이 예상보다 낮게 나타날 경우 주가 하락 가능성 높음"
+        ],
+        "next_checks": [
+          "Q3 실적 발표와 관련된 정보 및 시장 반응 모니터링",
+          "경쟁사 동향과 시장 전반의 흐름 파악"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:23:34+09:00",
+      "action": "HOLD",
+      "confidence": 0.67,
+      "rationale": "현재 주가는 양호한 실적 발표에도 불구하고 혼조세를 보이고 있어 추가적인 움직임이 필요하지 않음.",
+      "key_drivers": [
+        "Q2 실적 발표에서 매출과 이익 모두 예상치를 상회함",
+        "AI 보안 솔루션에 대한 강한 수요"
+      ],
+      "key_risks": [
+        "향후 성장률에 대한 우려가 지속될 경우 주가 하락 가능성이 있음",
+        "경쟁사의 신제품 출시로 인한 시장 점유율 위협"
+      ],
+      "valuation_view": "현재 실적 발표를 반영하여 재평가 필요, 그러나 추가적인 움직임은 추후 실적 및 경쟁 상황을 지켜보며 판단",
+      "counterfactuals": [
+        "향후 성장률이 예상치보다 낮게 나타날 경우 주가 하락 가능성이 있음"
+      ],
+      "next_checks": [
+        "Q3 실적 발표 전까지의 재무 건전성 및 경쟁 상황 모니터링",
+        "주요 고객사들의 구매 패턴 변화 확인"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.67,
+        "rationale": "현재 주가는 양호한 실적 발표에도 불구하고 혼조세를 보이고 있어 추가적인 움직임이 필요하지 않음.",
+        "key_drivers": [
+          "Q2 실적 발표에서 매출과 이익 모두 예상치를 상회함",
+          "AI 보안 솔루션에 대한 강한 수요"
+        ],
+        "key_risks": [
+          "향후 성장률에 대한 우려가 지속될 경우 주가 하락 가능성이 있음",
+          "경쟁사의 신제품 출시로 인한 시장 점유율 위협"
+        ],
+        "valuation_view": "현재 실적 발표를 반영하여 재평가 필요, 그러나 추가적인 움직임은 추후 실적 및 경쟁 상황을 지켜보며 판단",
+        "counterfactuals": [
+          "향후 성장률이 예상치보다 낮게 나타날 경우 주가 하락 가능성이 있음"
+        ],
+        "next_checks": [
+          "Q3 실적 발표 전까지의 재무 건전성 및 경쟁 상황 모니터링",
+          "주요 고객사들의 구매 패턴 변화 확인"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:20:37+09:00",
+      "action": "HOLD",
+      "confidence": 0.67,
+      "rationale": "현재 Zscaler의 주가는 양호한 실적 발표에도 불구하고 혼조세를 보이고 있어 추가적인 움직임을 기다려야 합니다.",
+      "key_drivers": [
+        "Q2 실적 상회",
+        "AI 보안 솔루션 강화"
+      ],
+      "key_risks": [
+        "향후 성장 지표 우려",
+        "시장 변동성 증가"
+      ],
+      "valuation_view": "현재 주가는 양호한 실적을 반영하고 있으나, 향후 성장 전망에 대한 불확실성이 존재합니다.",
+      "counterfactuals": [
+        "향후 성장 지표 부진 시 주가 하락 가능성",
+        "시장 변동성 증가로 인한 주가 조정"
+      ],
+      "next_checks": [
+        "Q2 실적 발표 이후의 재무상태 및 전망 공시",
+        "경쟁사 동향 및 시장 환경 변화"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.67,
+        "rationale": "현재 Zscaler의 주가는 양호한 실적 발표에도 불구하고 혼조세를 보이고 있어 추가적인 움직임을 기다려야 합니다.",
+        "key_drivers": [
+          "Q2 실적 상회",
+          "AI 보안 솔루션 강화"
+        ],
+        "key_risks": [
+          "향후 성장 지표 우려",
+          "시장 변동성 증가"
+        ],
+        "valuation_view": "현재 주가는 양호한 실적을 반영하고 있으나, 향후 성장 전망에 대한 불확실성이 존재합니다.",
+        "counterfactuals": [
+          "향후 성장 지표 부진 시 주가 하락 가능성",
+          "시장 변동성 증가로 인한 주가 조정"
+        ],
+        "next_checks": [
+          "Q2 실적 발표 이후의 재무상태 및 전망 공시",
+          "경쟁사 동향 및 시장 환경 변화"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:17:28+09:00",
+      "action": "HOLD",
+      "confidence": 0.67,
+      "rationale": "최근 실적 발표에서 Zscaler는 수익과 매출이 예상치를 상회했지만, 주가는 혼조세를 보이고 있어 추가적인 움직임을 기다려야 합니다.",
+      "key_drivers": [
+        "Q2 실적 상회",
+        "AI 보안 솔루션 성장"
+      ],
+      "key_risks": [
+        "향후 성장 지표 우려",
+        "주가 변동성"
+      ],
+      "valuation_view": "현재 주가는 실적 발표 후 혼조세로, 추가적인 움직임을 기다리는 것이 좋습니다.",
+      "counterfactuals": [
+        "향후 성장 지표 부진 시 주가 하락 가능성"
+      ],
+      "next_checks": [
+        "Q2 이후의 성장 지표 동향",
+        "경쟁사 동향"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.67,
+        "rationale": "최근 실적 발표에서 Zscaler는 수익과 매출이 예상치를 상회했지만, 주가는 혼조세를 보이고 있어 추가적인 움직임을 기다려야 합니다.",
+        "key_drivers": [
+          "Q2 실적 상회",
+          "AI 보안 솔루션 성장"
+        ],
+        "key_risks": [
+          "향후 성장 지표 우려",
+          "주가 변동성"
+        ],
+        "valuation_view": "현재 주가는 실적 발표 후 혼조세로, 추가적인 움직임을 기다리는 것이 좋습니다.",
+        "counterfactuals": [
+          "향후 성장 지표 부진 시 주가 하락 가능성"
+        ],
+        "next_checks": [
+          "Q2 이후의 성장 지표 동향",
+          "경쟁사 동향"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:11:52+09:00",
+      "action": "HOLD",
+      "confidence": 0.67,
+      "rationale": "Zscaler delivered strong Q2 earnings and revenue beats, but the stock fell sharply initially due to concerns over future growth metrics.",
+      "key_drivers": [
+        "Robust demand for Zscaler's platform and AI solutions",
+        "Strong ARR growth and expansion in AI security"
+      ],
+      "key_risks": [
+        "Concerns over future sales growth metrics",
+        "Mixed market reaction despite positive earnings"
+      ],
+      "valuation_view": "Current price reflects mixed sentiment; fair value uncertain without clearer guidance on future growth.",
+      "counterfactuals": [
+        "If Zscaler provides more clarity on future growth prospects, the stock could rebound."
+      ],
+      "next_checks": [
+        "Monitor Q3 earnings for further insights into revenue and growth trends",
+        "Watch for any updates or developments in AI security expansion"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.67,
+        "rationale": "Zscaler delivered strong Q2 earnings and revenue beats, but the stock fell sharply initially due to concerns over future growth metrics.",
+        "key_drivers": [
+          "Robust demand for Zscaler's platform and AI solutions",
+          "Strong ARR growth and expansion in AI security"
+        ],
+        "key_risks": [
+          "Concerns over future sales growth metrics",
+          "Mixed market reaction despite positive earnings"
+        ],
+        "valuation_view": "Current price reflects mixed sentiment; fair value uncertain without clearer guidance on future growth.",
+        "counterfactuals": [
+          "If Zscaler provides more clarity on future growth prospects, the stock could rebound."
+        ],
+        "next_checks": [
+          "Monitor Q3 earnings for further insights into revenue and growth trends",
+          "Watch for any updates or developments in AI security expansion"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:08:49+09:00",
+      "action": "HOLD",
+      "confidence": 0.67,
+      "rationale": "현재 주가 동향과 기업 실적 발표를 종합적으로 고려할 때, 매수 또는 매도의 명확한 신호는 없다.",
+      "key_drivers": [
+        "Q2 실적 발표 후 양호한 수익률 및 매출 성장",
+        "AI 보안 솔루션에 대한 강력한 수요"
+      ],
+      "key_risks": [
+        "향후 성장 지표에 대한 우려",
+        "시장 전반적인 불확실성"
+      ],
+      "valuation_view": "현재 실적 발표로 인해 기업 가치 평가 절차를 재검토해야 하지만, 아직 명확한 가격 대비 가치 판단은 어렵다.",
+      "counterfactuals": [
+        "향후 성장 지표 개선 없이 주가 하락 가능성",
+        "경쟁 업체의 경쟁력 강화"
+      ],
+      "next_checks": [
+        "Q3 실적 발표 및 시장 반응",
+        "주요 고객사와 계약 상황"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.67,
+        "rationale": "현재 주가 동향과 기업 실적 발표를 종합적으로 고려할 때, 매수 또는 매도의 명확한 신호는 없다.",
+        "key_drivers": [
+          "Q2 실적 발표 후 양호한 수익률 및 매출 성장",
+          "AI 보안 솔루션에 대한 강력한 수요"
+        ],
+        "key_risks": [
+          "향후 성장 지표에 대한 우려",
+          "시장 전반적인 불확실성"
+        ],
+        "valuation_view": "현재 실적 발표로 인해 기업 가치 평가 절차를 재검토해야 하지만, 아직 명확한 가격 대비 가치 판단은 어렵다.",
+        "counterfactuals": [
+          "향후 성장 지표 개선 없이 주가 하락 가능성",
+          "경쟁 업체의 경쟁력 강화"
+        ],
+        "next_checks": [
+          "Q3 실적 발표 및 시장 반응",
+          "주요 고객사와 계약 상황"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:00:15+09:00",
+      "action": "HOLD",
+      "confidence": 0.67,
+      "rationale": "최근 Zscaler의 Q2 실적 발표는 양호했으나, 주가 반응은 혼합적이었다. 실적이 예상보다 좋았음에도 불구하고, 향후 성장률에 대한 우려로 인해 주가가 하락했다.",
+      "key_drivers": [
+        "Q2 실적 상회",
+        "AI 보안 솔루션 강세"
+      ],
+      "key_risks": [
+        "향후 성장률 우려",
+        "경쟁 압력"
+      ],
+      "valuation_view": "현재 가격은 양호한 실적과 AI 분야의 전망을 반영하고 있으나, 향후 성장률에 대한 불확실성이 주가 하락 요인으로 작용할 수 있다.",
+      "counterfactuals": [
+        "향후 성장률이 예상보다 높아질 경우",
+        "경쟁 압력 완화"
+      ],
+      "next_checks": [
+        "Q3 실적 발표 및 시장 반응",
+        "AI 보안 분야의 경쟁 동향"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.67,
+        "rationale": "최근 Zscaler의 Q2 실적 발표는 양호했으나, 주가 반응은 혼합적이었다. 실적이 예상보다 좋았음에도 불구하고, 향후 성장률에 대한 우려로 인해 주가가 하락했다.",
+        "key_drivers": [
+          "Q2 실적 상회",
+          "AI 보안 솔루션 강세"
+        ],
+        "key_risks": [
+          "향후 성장률 우려",
+          "경쟁 압력"
+        ],
+        "valuation_view": "현재 가격은 양호한 실적과 AI 분야의 전망을 반영하고 있으나, 향후 성장률에 대한 불확실성이 주가 하락 요인으로 작용할 수 있다.",
+        "counterfactuals": [
+          "향후 성장률이 예상보다 높아질 경우",
+          "경쟁 압력 완화"
+        ],
+        "next_checks": [
+          "Q3 실적 발표 및 시장 반응",
+          "AI 보안 분야의 경쟁 동향"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-27T23:56:54+09:00",
+      "action": "HOLD",
+      "confidence": 0.67,
+      "rationale": "주가 동향이 혼조세를 보이고 있으며, 긍정적인 이벤트와 부정적인 이벤트가 공존합니다.",
+      "key_drivers": [
+        "Zscaler의 Q2 실적은 예상치를 상회했으나, 주가는 초기에 하락했습니다."
+      ],
+      "key_risks": [
+        "향후 성장 지표에 대한 우려가 계속될 경우 주가 압박이 있을 수 있습니다."
+      ],
+      "valuation_view": "현재 시점에서 공시된 정보만으로는 투자의견을 변경하기 어렵습니다.",
+      "counterfactuals": [
+        "향후 성장 지표 개선 소식이 나올 경우 주가 상승 가능성 있음"
+      ],
+      "next_checks": [
+        "Zscaler의 Q2 실적 발표 이후의 재무상태 및 경영진의 전략 변화를 모니터링합니다."
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.67,
+        "rationale": "주가 동향이 혼조세를 보이고 있으며, 긍정적인 이벤트와 부정적인 이벤트가 공존합니다.",
+        "key_drivers": [
+          "Zscaler의 Q2 실적은 예상치를 상회했으나, 주가는 초기에 하락했습니다."
+        ],
+        "key_risks": [
+          "향후 성장 지표에 대한 우려가 계속될 경우 주가 압박이 있을 수 있습니다."
+        ],
+        "valuation_view": "현재 시점에서 공시된 정보만으로는 투자의견을 변경하기 어렵습니다.",
+        "counterfactuals": [
+          "향후 성장 지표 개선 소식이 나올 경우 주가 상승 가능성 있음"
+        ],
+        "next_checks": [
+          "Zscaler의 Q2 실적 발표 이후의 재무상태 및 경영진의 전략 변화를 모니터링합니다."
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-27T23:53:53+09:00",
+      "action": "HOLD",
+      "confidence": 0.67,
+      "rationale": "주가 움직임은 혼합적입니다. 실적이 양호하지만, 투자자들의 반응이 부정적이어서 주가는 하락했습니다.",
+      "key_drivers": [
+        "Q2 실적 상회",
+        "AI 보안 솔루션 성장"
+      ],
+      "key_risks": [
+        "향후 성장 지표 우려",
+        "경쟁 압력"
+      ],
+      "valuation_view": "현재 가격 대비 향후 실적 전망이 불확실합니다.",
+      "counterfactuals": [
+        "향후 분기 실적이 예상치를 하회할 경우"
+      ],
+      "next_checks": [
+        "Q3 실적 발표 및 시장 반응",
+        "경쟁사 동향"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.67,
+        "rationale": "주가 움직임은 혼합적입니다. 실적이 양호하지만, 투자자들의 반응이 부정적이어서 주가는 하락했습니다.",
+        "key_drivers": [
+          "Q2 실적 상회",
+          "AI 보안 솔루션 성장"
+        ],
+        "key_risks": [
+          "향후 성장 지표 우려",
+          "경쟁 압력"
+        ],
+        "valuation_view": "현재 가격 대비 향후 실적 전망이 불확실합니다.",
+        "counterfactuals": [
+          "향후 분기 실적이 예상치를 하회할 경우"
+        ],
+        "next_checks": [
+          "Q3 실적 발표 및 시장 반응",
+          "경쟁사 동향"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    }
+  ],
+  "tags": []
+}

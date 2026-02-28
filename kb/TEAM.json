@@ -1,6 +1,6 @@
 {
   "ticker": "TEAM",
-  "updated_at": "2026-02-27T07:10:59+09:00",
+  "updated_at": "2026-02-28T03:07:02+09:00",
   "thesis": "",
   "business_summary": "",
   "moat": "",
@@ -11,6 +11,29 @@
   "target_price": null,
   "fair_value_range": null,
   "evidence": [
+    {
+      "ts_kst": "2026-02-27T23:51:25+09:00",
+      "source": "news",
+      "title": "BetaPro by Global X Investments Canada Inc. Opens the Market",
+      "summary": "Toronto, Ontario--(Newsfile Corp. - July 30, 2025) - Chris McHaney, Executive Vice President, Head of Investment Management and Strategy, Global X Investments Canada Inc. (\"Global X\"), and his team, joined Graham MacKenzie, Managing Director, Exchange Traded Products, Toronto Stock Exchange (TSX), to open the market to celebrate the upcoming launch of their new BetaPro ETFs on August 7, 2025:BetaPro 3X S&amp;P 500 Daily Leveraged Bull Alternative ETF - TSPX BetaPro -3X S&amp;P 500 Daily ...",
+      "link": "https://finance.yahoo.com/news/betapro-global-x-investments-canada-144100123.html?.tsrc=rss",
+      "sentiment": "neutral",
+      "impact": 0,
+      "tags": [
+        "other"
+      ],
+      "raw": {
+        "tickers": [],
+        "event_type": "other",
+        "sentiment": "neutral",
+        "impact": 0,
+        "confidence": 0.5,
+        "key_points": [],
+        "trade_horizon": "swing_days",
+        "why_it_moves": "",
+        "kr_title": "글로벌 X 투자신탁 캐나다 본사가 시장 개막"
+      }
+    },
     {
       "ts_kst": "2026-02-27T06:11:35+09:00",
       "source": "news",
@@ -467,6 +490,1681 @@
     }
   ],
   "decisions": [
+    {
+      "ts_kst": "2026-02-28T03:07:02+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "Atlassian's recent product launch of 'agents in Jira' has driven significant positive market reaction, enhancing the company's AI integration capabilities and expected to boost productivity and innovation.",
+      "key_drivers": [
+        "Introduction of AI agents in Jira",
+        "Enhanced collaboration software features"
+      ],
+      "key_risks": [
+        "Potential competition from other tech giants",
+        "Investor scrutiny on AI ambitions"
+      ],
+      "valuation_view": "The recent product launch positively impacts fair value assumptions, suggesting potential upside.",
+      "counterfactuals": [
+        "Negative market reaction to new product feature",
+        "Increased competition in collaboration software space"
+      ],
+      "next_checks": [
+        "Market reception of upcoming AI integrations",
+        "Investor sentiment towards Atlassian's AI strategy"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "Atlassian's recent product launch of 'agents in Jira' has driven significant positive market reaction, enhancing the company's AI integration capabilities and expected to boost productivity and innovation.",
+        "key_drivers": [
+          "Introduction of AI agents in Jira",
+          "Enhanced collaboration software features"
+        ],
+        "key_risks": [
+          "Potential competition from other tech giants",
+          "Investor scrutiny on AI ambitions"
+        ],
+        "valuation_view": "The recent product launch positively impacts fair value assumptions, suggesting potential upside.",
+        "counterfactuals": [
+          "Negative market reaction to new product feature",
+          "Increased competition in collaboration software space"
+        ],
+        "next_checks": [
+          "Market reception of upcoming AI integrations",
+          "Investor sentiment towards Atlassian's AI strategy"
+        ],
+        "position_plan": {
+          "prefer_qty": 10,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T03:03:57+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "Atlassian's recent product launch of 'agents in Jira' has driven significant positive market reaction, enhancing productivity and innovation expectations.",
+      "key_drivers": [
+        "Introduction of AI agents in Jira",
+        "Positive market sentiment towards AI integration"
+      ],
+      "key_risks": [
+        "Potential competition from other collaboration software providers",
+        "Uncertainty around adoption rate of new feature"
+      ],
+      "valuation_view": "Fair value not explicitly provided, but positive news suggests upward revision",
+      "counterfactuals": [
+        "Negative reception to the new Jira feature",
+        "Increased competitive pressure in the market"
+      ],
+      "next_checks": [
+        "Monitoring adoption and feedback on 'agents in Jira'",
+        "Tracking competitor responses"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "Atlassian's recent product launch of 'agents in Jira' has driven significant positive market reaction, enhancing productivity and innovation expectations.",
+        "key_drivers": [
+          "Introduction of AI agents in Jira",
+          "Positive market sentiment towards AI integration"
+        ],
+        "key_risks": [
+          "Potential competition from other collaboration software providers",
+          "Uncertainty around adoption rate of new feature"
+        ],
+        "valuation_view": "Fair value not explicitly provided, but positive news suggests upward revision",
+        "counterfactuals": [
+          "Negative reception to the new Jira feature",
+          "Increased competitive pressure in the market"
+        ],
+        "next_checks": [
+          "Monitoring adoption and feedback on 'agents in Jira'",
+          "Tracking competitor responses"
+        ],
+        "position_plan": {
+          "prefer_qty": 10,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:44:28+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "Atlassian's recent product launch of 'agents in Jira' has driven significant positive market reaction, enhancing productivity and innovation expectations.",
+      "key_drivers": [
+        "Introduction of AI agents in Jira",
+        "Positive market sentiment"
+      ],
+      "key_risks": [
+        "Potential competition from other collaboration software providers",
+        "Uncertainty around adoption rate of new feature"
+      ],
+      "valuation_view": "The recent product launch could drive long-term growth, positively impacting fair value.",
+      "counterfactuals": [
+        "If the AI integration does not meet user expectations or faces significant technical issues"
+      ],
+      "next_checks": [
+        "Monitor market reaction to upcoming product updates and customer feedback on 'agents in Jira'"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "Atlassian's recent product launch of 'agents in Jira' has driven significant positive market reaction, enhancing productivity and innovation expectations.",
+        "key_drivers": [
+          "Introduction of AI agents in Jira",
+          "Positive market sentiment"
+        ],
+        "key_risks": [
+          "Potential competition from other collaboration software providers",
+          "Uncertainty around adoption rate of new feature"
+        ],
+        "valuation_view": "The recent product launch could drive long-term growth, positively impacting fair value.",
+        "counterfactuals": [
+          "If the AI integration does not meet user expectations or faces significant technical issues"
+        ],
+        "next_checks": [
+          "Monitor market reaction to upcoming product updates and customer feedback on 'agents in Jira'"
+        ],
+        "position_plan": {
+          "prefer_qty": 10,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:41:26+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "Atlassian's recent product launch of 'agents in Jira' has driven significant positive market reaction, enhancing productivity and innovation expectations.",
+      "key_drivers": [
+        "Introduction of AI agents in Jira",
+        "Positive market sentiment"
+      ],
+      "key_risks": [
+        "Potential competition from other collaboration software providers",
+        "Uncertainty around investor scrutiny"
+      ],
+      "valuation_view": "The recent product launch supports a higher valuation due to enhanced growth prospects and innovation.",
+      "counterfactuals": [
+        "Negative reaction if competitors release similar AI features faster",
+        "Investor investigation leading to negative sentiment"
+      ],
+      "next_checks": [
+        "Atlassian's Q4 earnings report for further insights on product adoption and revenue impact"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "Atlassian's recent product launch of 'agents in Jira' has driven significant positive market reaction, enhancing productivity and innovation expectations.",
+        "key_drivers": [
+          "Introduction of AI agents in Jira",
+          "Positive market sentiment"
+        ],
+        "key_risks": [
+          "Potential competition from other collaboration software providers",
+          "Uncertainty around investor scrutiny"
+        ],
+        "valuation_view": "The recent product launch supports a higher valuation due to enhanced growth prospects and innovation.",
+        "counterfactuals": [
+          "Negative reaction if competitors release similar AI features faster",
+          "Investor investigation leading to negative sentiment"
+        ],
+        "next_checks": [
+          "Atlassian's Q4 earnings report for further insights on product adoption and revenue impact"
+        ],
+        "position_plan": {
+          "prefer_qty": 10,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:38:28+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "Atlassian's recent product launch of 'agents in Jira' has driven significant positive market reaction, enhancing productivity and innovation.",
+      "key_drivers": [
+        "Introduction of AI agents in Jira",
+        "Positive market sentiment"
+      ],
+      "key_risks": [
+        "Potential competition from other collaboration software providers",
+        "Uncertainty around adoption rate of new feature"
+      ],
+      "valuation_view": "Fair value is likely to increase due to the innovative product launch and positive market reception.",
+      "counterfactuals": [
+        "If competitors quickly release similar AI features, market reaction could be muted.",
+        "Negative investor sentiment if adoption rates are lower than expected."
+      ],
+      "next_checks": [
+        "Monitor adoption rate of 'agents in Jira'",
+        "Track competitor responses to Atlassian's product launch"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "Atlassian's recent product launch of 'agents in Jira' has driven significant positive market reaction, enhancing productivity and innovation.",
+        "key_drivers": [
+          "Introduction of AI agents in Jira",
+          "Positive market sentiment"
+        ],
+        "key_risks": [
+          "Potential competition from other collaboration software providers",
+          "Uncertainty around adoption rate of new feature"
+        ],
+        "valuation_view": "Fair value is likely to increase due to the innovative product launch and positive market reception.",
+        "counterfactuals": [
+          "If competitors quickly release similar AI features, market reaction could be muted.",
+          "Negative investor sentiment if adoption rates are lower than expected."
+        ],
+        "next_checks": [
+          "Monitor adoption rate of 'agents in Jira'",
+          "Track competitor responses to Atlassian's product launch"
+        ],
+        "position_plan": {
+          "prefer_qty": 100,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:35:14+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "Atlassian's recent product launch of 'agents in Jira' has driven significant positive market reaction, enhancing the company's AI integration and productivity potential.",
+      "key_drivers": [
+        "Introduction of AI agents in Jira",
+        "Positive investor sentiment towards AI advancements"
+      ],
+      "key_risks": [
+        "Potential competition from other collaboration software providers",
+        "Uncertainty around adoption rates of new features"
+      ],
+      "valuation_view": "The recent product launch has positively impacted the stock price, suggesting a strong market perception of Atlassian's innovation and growth potential.",
+      "counterfactuals": [
+        "If investor sentiment towards AI integration weakens or if competitors release similar products quickly",
+        "Negative news regarding adoption rates or customer feedback"
+      ],
+      "next_checks": [
+        "Monitoring adoption rates of 'agents in Jira'",
+        "Tracking competitor responses to the new feature"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "Atlassian's recent product launch of 'agents in Jira' has driven significant positive market reaction, enhancing the company's AI integration and productivity potential.",
+        "key_drivers": [
+          "Introduction of AI agents in Jira",
+          "Positive investor sentiment towards AI advancements"
+        ],
+        "key_risks": [
+          "Potential competition from other collaboration software providers",
+          "Uncertainty around adoption rates of new features"
+        ],
+        "valuation_view": "The recent product launch has positively impacted the stock price, suggesting a strong market perception of Atlassian's innovation and growth potential.",
+        "counterfactuals": [
+          "If investor sentiment towards AI integration weakens or if competitors release similar products quickly",
+          "Negative news regarding adoption rates or customer feedback"
+        ],
+        "next_checks": [
+          "Monitoring adoption rates of 'agents in Jira'",
+          "Tracking competitor responses to the new feature"
+        ],
+        "position_plan": {
+          "prefer_qty": 10,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:16:07+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "Atlassian's recent product launch of 'agents in Jira' has driven significant positive market reaction, indicating potential for sustained growth.",
+      "key_drivers": [
+        "Introduction of AI agents in Jira",
+        "Enhanced productivity and innovation"
+      ],
+      "key_risks": [
+        "Competition from other collaboration software providers",
+        "Potential delays or issues with product integration"
+      ],
+      "valuation_view": "The recent news event positively impacts the fair value assessment, suggesting a higher potential for future growth.",
+      "counterfactuals": [
+        "If competitors release similar AI-integrated products quickly",
+        "Negative market reaction to Atlassian's financial performance"
+      ],
+      "next_checks": [
+        "Atlassian's Q1 earnings report",
+        "Market reception of new product features"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "Atlassian's recent product launch of 'agents in Jira' has driven significant positive market reaction, indicating potential for sustained growth.",
+        "key_drivers": [
+          "Introduction of AI agents in Jira",
+          "Enhanced productivity and innovation"
+        ],
+        "key_risks": [
+          "Competition from other collaboration software providers",
+          "Potential delays or issues with product integration"
+        ],
+        "valuation_view": "The recent news event positively impacts the fair value assessment, suggesting a higher potential for future growth.",
+        "counterfactuals": [
+          "If competitors release similar AI-integrated products quickly",
+          "Negative market reaction to Atlassian's financial performance"
+        ],
+        "next_checks": [
+          "Atlassian's Q1 earnings report",
+          "Market reception of new product features"
+        ],
+        "position_plan": {
+          "prefer_qty": 5,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:13:19+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "Atlassian's (TEAM) recent product launch of 'agents in Jira' has driven significant market reaction, indicating strong potential for AI integration to enhance productivity and innovation.",
+      "key_drivers": [
+        "Introduction of AI agents in Jira",
+        "Positive market sentiment towards AI-driven collaboration tools"
+      ],
+      "key_risks": [
+        "Potential competition from other tech giants in the AI space",
+        "Uncertainty regarding investor scrutiny and ongoing investigations"
+      ],
+      "valuation_view": "The recent product launch is expected to drive significant growth, supporting a positive valuation view.",
+      "counterfactuals": [
+        "Negative market reaction if competitors release similar products quickly",
+        "Adverse impact from ongoing legal investigations or regulatory actions"
+      ],
+      "next_checks": [
+        "Monitor the adoption rate of 'agents in Jira'",
+        "Track any updates on investor scrutiny and legal proceedings"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "Atlassian's (TEAM) recent product launch of 'agents in Jira' has driven significant market reaction, indicating strong potential for AI integration to enhance productivity and innovation.",
+        "key_drivers": [
+          "Introduction of AI agents in Jira",
+          "Positive market sentiment towards AI-driven collaboration tools"
+        ],
+        "key_risks": [
+          "Potential competition from other tech giants in the AI space",
+          "Uncertainty regarding investor scrutiny and ongoing investigations"
+        ],
+        "valuation_view": "The recent product launch is expected to drive significant growth, supporting a positive valuation view.",
+        "counterfactuals": [
+          "Negative market reaction if competitors release similar products quickly",
+          "Adverse impact from ongoing legal investigations or regulatory actions"
+        ],
+        "next_checks": [
+          "Monitor the adoption rate of 'agents in Jira'",
+          "Track any updates on investor scrutiny and legal proceedings"
+        ],
+        "position_plan": {
+          "prefer_qty": 10,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:10:13+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "Atlassian (TEAM) stock is experiencing a significant positive movement due to the introduction of AI agents in Jira, which is expected to enhance productivity and innovation.",
+      "key_drivers": [
+        "The open beta release of 'agents in Jira' feature",
+        "Positive market reaction to AI integration"
+      ],
+      "key_risks": [
+        "Potential delays or issues with the new product launch",
+        "Increased competition from other collaboration software providers"
+      ],
+      "valuation_view": "Fair value is likely higher due to the innovative product release and positive market sentiment.",
+      "counterfactuals": [
+        "If there are significant technical difficulties or negative feedback regarding the new feature, it could negatively impact stock performance."
+      ],
+      "next_checks": [
+        "Monitor user adoption rates of 'agents in Jira'",
+        "Track any competitor reactions to this product release"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "Atlassian (TEAM) stock is experiencing a significant positive movement due to the introduction of AI agents in Jira, which is expected to enhance productivity and innovation.",
+        "key_drivers": [
+          "The open beta release of 'agents in Jira' feature",
+          "Positive market reaction to AI integration"
+        ],
+        "key_risks": [
+          "Potential delays or issues with the new product launch",
+          "Increased competition from other collaboration software providers"
+        ],
+        "valuation_view": "Fair value is likely higher due to the innovative product release and positive market sentiment.",
+        "counterfactuals": [
+          "If there are significant technical difficulties or negative feedback regarding the new feature, it could negatively impact stock performance."
+        ],
+        "next_checks": [
+          "Monitor user adoption rates of 'agents in Jira'",
+          "Track any competitor reactions to this product release"
+        ],
+        "position_plan": {
+          "prefer_qty": 10,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:07:30+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "Atlassian's recent product launch of 'agents in Jira' has driven significant positive market reaction, indicating strong potential for future growth.",
+      "key_drivers": [
+        "Introduction of AI agents in Jira",
+        "Enhanced productivity and innovation"
+      ],
+      "key_risks": [
+        "Intense competition in collaboration software",
+        "Potential delays or issues with AI integration"
+      ],
+      "valuation_view": "The recent product launch suggests a positive shift in the company's growth trajectory, potentially increasing fair value.",
+      "counterfactuals": [
+        "Negative market reaction to future product updates",
+        "Increased regulatory scrutiny on AI usage"
+      ],
+      "next_checks": [
+        "Market reception of upcoming Jira agent features",
+        "Company earnings and guidance"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "Atlassian's recent product launch of 'agents in Jira' has driven significant positive market reaction, indicating strong potential for future growth.",
+        "key_drivers": [
+          "Introduction of AI agents in Jira",
+          "Enhanced productivity and innovation"
+        ],
+        "key_risks": [
+          "Intense competition in collaboration software",
+          "Potential delays or issues with AI integration"
+        ],
+        "valuation_view": "The recent product launch suggests a positive shift in the company's growth trajectory, potentially increasing fair value.",
+        "counterfactuals": [
+          "Negative market reaction to future product updates",
+          "Increased regulatory scrutiny on AI usage"
+        ],
+        "next_checks": [
+          "Market reception of upcoming Jira agent features",
+          "Company earnings and guidance"
+        ],
+        "position_plan": {
+          "prefer_qty": 10,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T02:04:32+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "Atlassian's recent product launch of 'agents in Jira' has driven significant positive market reaction, indicating potential for sustained growth.",
+      "key_drivers": [
+        "Introduction of AI agents in Jira",
+        "Enhanced productivity and innovation"
+      ],
+      "key_risks": [
+        "Competition from other collaboration software providers",
+        "Potential delays or issues with AI integration"
+      ],
+      "valuation_view": "The product launch suggests a positive shift in market perception, potentially increasing the fair value estimate.",
+      "counterfactuals": [
+        "Negative reception to new Jira feature",
+        "Increased competition impacting market share"
+      ],
+      "next_checks": [
+        "Market reaction to upcoming product updates",
+        "Competitor announcements and developments"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "Atlassian's recent product launch of 'agents in Jira' has driven significant positive market reaction, indicating potential for sustained growth.",
+        "key_drivers": [
+          "Introduction of AI agents in Jira",
+          "Enhanced productivity and innovation"
+        ],
+        "key_risks": [
+          "Competition from other collaboration software providers",
+          "Potential delays or issues with AI integration"
+        ],
+        "valuation_view": "The product launch suggests a positive shift in market perception, potentially increasing the fair value estimate.",
+        "counterfactuals": [
+          "Negative reception to new Jira feature",
+          "Increased competition impacting market share"
+        ],
+        "next_checks": [
+          "Market reaction to upcoming product updates",
+          "Competitor announcements and developments"
+        ],
+        "position_plan": {
+          "prefer_qty": 10,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:59:32+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "Atlassian's (TEAM) stock is experiencing a significant positive movement due to the announcement of 'agents in Jira', which integrates AI into its collaboration software, enhancing productivity and innovation.",
+      "key_drivers": [
+        "Introduction of AI agents in Jira",
+        "Positive market reaction to new product feature"
+      ],
+      "key_risks": [
+        "Potential competition from other tech companies",
+        "Uncertainty regarding adoption rate by users"
+      ],
+      "valuation_view": "The fair value assessment is positive due to the innovative product launch, which could drive long-term growth.",
+      "counterfactuals": [
+        "If competitors quickly release similar AI features",
+        "Negative market reaction if user adoption falls short of expectations"
+      ],
+      "next_checks": [
+        "Monitor user feedback and adoption rates for Jira agents",
+        "Track competitor responses and new product launches in the collaboration software space"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "Atlassian's (TEAM) stock is experiencing a significant positive movement due to the announcement of 'agents in Jira', which integrates AI into its collaboration software, enhancing productivity and innovation.",
+        "key_drivers": [
+          "Introduction of AI agents in Jira",
+          "Positive market reaction to new product feature"
+        ],
+        "key_risks": [
+          "Potential competition from other tech companies",
+          "Uncertainty regarding adoption rate by users"
+        ],
+        "valuation_view": "The fair value assessment is positive due to the innovative product launch, which could drive long-term growth.",
+        "counterfactuals": [
+          "If competitors quickly release similar AI features",
+          "Negative market reaction if user adoption falls short of expectations"
+        ],
+        "next_checks": [
+          "Monitor user feedback and adoption rates for Jira agents",
+          "Track competitor responses and new product launches in the collaboration software space"
+        ],
+        "position_plan": {
+          "prefer_qty": 10,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:56:37+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "Atlassian's recent product launch of 'agents in Jira' has driven significant positive market reaction, indicating strong potential for future growth.",
+      "key_drivers": [
+        "Introduction of AI agents in Jira",
+        "Enhanced productivity and innovation"
+      ],
+      "key_risks": [
+        "Potential competition from other collaboration software providers",
+        "Uncertainty around adoption rate by customers"
+      ],
+      "valuation_view": "The recent news event has positively impacted the stock price, suggesting a bullish sentiment. However, fair value remains uncertain without further financial data.",
+      "counterfactuals": [
+        "If AI integration does not meet market expectations or faces significant competition, stock could decline"
+      ],
+      "next_checks": [
+        "Monitor adoption rate of new feature",
+        "Track competitor responses and market reactions"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "Atlassian's recent product launch of 'agents in Jira' has driven significant positive market reaction, indicating strong potential for future growth.",
+        "key_drivers": [
+          "Introduction of AI agents in Jira",
+          "Enhanced productivity and innovation"
+        ],
+        "key_risks": [
+          "Potential competition from other collaboration software providers",
+          "Uncertainty around adoption rate by customers"
+        ],
+        "valuation_view": "The recent news event has positively impacted the stock price, suggesting a bullish sentiment. However, fair value remains uncertain without further financial data.",
+        "counterfactuals": [
+          "If AI integration does not meet market expectations or faces significant competition, stock could decline"
+        ],
+        "next_checks": [
+          "Monitor adoption rate of new feature",
+          "Track competitor responses and market reactions"
+        ],
+        "position_plan": {
+          "prefer_qty": 10,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:53:40+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "Atlassian's recent product launch of 'agents in Jira' has driven significant positive market reaction, indicating strong potential for future growth.",
+      "key_drivers": [
+        "Introduction of AI agents in Jira",
+        "Enhanced productivity and innovation"
+      ],
+      "key_risks": [
+        "Market saturation in collaboration software",
+        "Increased competition from tech giants"
+      ],
+      "valuation_view": "The recent product launch supports a positive valuation view, suggesting the stock could continue to appreciate.",
+      "counterfactuals": [
+        "Negative market reaction if AI integration fails to meet expectations",
+        "Intense competition leading to loss of market share"
+      ],
+      "next_checks": [
+        "Product adoption rates for 'agents in Jira'",
+        "Market response to upcoming product updates"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "Atlassian's recent product launch of 'agents in Jira' has driven significant positive market reaction, indicating strong potential for future growth.",
+        "key_drivers": [
+          "Introduction of AI agents in Jira",
+          "Enhanced productivity and innovation"
+        ],
+        "key_risks": [
+          "Market saturation in collaboration software",
+          "Increased competition from tech giants"
+        ],
+        "valuation_view": "The recent product launch supports a positive valuation view, suggesting the stock could continue to appreciate.",
+        "counterfactuals": [
+          "Negative market reaction if AI integration fails to meet expectations",
+          "Intense competition leading to loss of market share"
+        ],
+        "next_checks": [
+          "Product adoption rates for 'agents in Jira'",
+          "Market response to upcoming product updates"
+        ],
+        "position_plan": {
+          "prefer_qty": 10,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:27:14+09:00",
+      "action": "HOLD",
+      "confidence": 0.56,
+      "rationale": "Atlassian's product launch has positively impacted the stock price, but overall market sentiment remains bearish due to broader risk-off conditions.",
+      "key_drivers": [
+        "Positive news on Atlassian's AI integration in Jira",
+        "Market-wide risk-off regime"
+      ],
+      "key_risks": [
+        "Potential negative impact from ongoing investor scrutiny and legal issues at Atlassian",
+        "Broader market downturn affecting tech stocks"
+      ],
+      "valuation_view": "Current price is driven by recent positive developments, but fair value remains uncertain due to mixed signals.",
+      "counterfactuals": [
+        "If broader market sentiment shifts to risk-on, TEAM could see further gains.",
+        "Negative news on legal issues or product delays could lead to a downturn."
+      ],
+      "next_checks": [
+        "Monitor Atlassian's investor investigation progress",
+        "Watch for any updates on broader market conditions"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.56,
+        "rationale": "Atlassian's product launch has positively impacted the stock price, but overall market sentiment remains bearish due to broader risk-off conditions.",
+        "key_drivers": [
+          "Positive news on Atlassian's AI integration in Jira",
+          "Market-wide risk-off regime"
+        ],
+        "key_risks": [
+          "Potential negative impact from ongoing investor scrutiny and legal issues at Atlassian",
+          "Broader market downturn affecting tech stocks"
+        ],
+        "valuation_view": "Current price is driven by recent positive developments, but fair value remains uncertain due to mixed signals.",
+        "counterfactuals": [
+          "If broader market sentiment shifts to risk-on, TEAM could see further gains.",
+          "Negative news on legal issues or product delays could lead to a downturn."
+        ],
+        "next_checks": [
+          "Monitor Atlassian's investor investigation progress",
+          "Watch for any updates on broader market conditions"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:24:26+09:00",
+      "action": "HOLD",
+      "confidence": 0.56,
+      "rationale": "Atlassian's product launch has positively impacted the stock price, but overall market sentiment remains bearish due to broader risk-off conditions.",
+      "key_drivers": [
+        "Positive news on Atlassian's AI integration in Jira",
+        "Market-wide risk-off regime"
+      ],
+      "key_risks": [
+        "Potential further declines in the market",
+        "Uncertainty around Atlassian's product adoption and impact"
+      ],
+      "valuation_view": "Current price is driven by recent positive news, but fair value remains uncertain due to broader market conditions.",
+      "counterfactuals": [
+        "If market sentiment shifts positively, TEAM could see further gains.",
+        "Negative developments in the tech sector could lead to a decline in TEAM's stock price."
+      ],
+      "next_checks": [
+        "Monitor Atlassian's product adoption and user feedback",
+        "Watch for any changes in broader market sentiment"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.56,
+        "rationale": "Atlassian's product launch has positively impacted the stock price, but overall market sentiment remains bearish due to broader risk-off conditions.",
+        "key_drivers": [
+          "Positive news on Atlassian's AI integration in Jira",
+          "Market-wide risk-off regime"
+        ],
+        "key_risks": [
+          "Potential further declines in the market",
+          "Uncertainty around Atlassian's product adoption and impact"
+        ],
+        "valuation_view": "Current price is driven by recent positive news, but fair value remains uncertain due to broader market conditions.",
+        "counterfactuals": [
+          "If market sentiment shifts positively, TEAM could see further gains.",
+          "Negative developments in the tech sector could lead to a decline in TEAM's stock price."
+        ],
+        "next_checks": [
+          "Monitor Atlassian's product adoption and user feedback",
+          "Watch for any changes in broader market sentiment"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:21:35+09:00",
+      "action": "HOLD",
+      "confidence": 0.56,
+      "rationale": "The stock is currently in a risk-off regime with strong bearish technical indicators, and recent news events have had mixed impacts on the market sentiment.",
+      "key_drivers": [
+        "Atlassian's product launch of 'agents in Jira' has positively impacted TEAM's stock price.",
+        "Netflix's expected surge in ad revenue is neutral to positive for the broader market but not directly relevant to TEAM."
+      ],
+      "key_risks": [
+        "Technical analysis shows strong bearish signals, indicating potential further declines.",
+        "Unclear impact of Lam Research's partnership and expansion plans on the overall market sentiment."
+      ],
+      "valuation_view": "Current price is within fair value range but technical indicators suggest caution.",
+      "counterfactuals": [
+        "If Atlassian's AI integration proves successful and drives significant adoption, it could positively influence stock performance.",
+        "A shift in risk-on regime could mitigate current bearish signals."
+      ],
+      "next_checks": [
+        "Monitor the impact of Atlassian's product launch on user adoption and market sentiment.",
+        "Watch for any changes in technical indicators that may signal a reversal in trend."
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.56,
+        "rationale": "The stock is currently in a risk-off regime with strong bearish technical indicators, and recent news events have had mixed impacts on the market sentiment.",
+        "key_drivers": [
+          "Atlassian's product launch of 'agents in Jira' has positively impacted TEAM's stock price.",
+          "Netflix's expected surge in ad revenue is neutral to positive for the broader market but not directly relevant to TEAM."
+        ],
+        "key_risks": [
+          "Technical analysis shows strong bearish signals, indicating potential further declines.",
+          "Unclear impact of Lam Research's partnership and expansion plans on the overall market sentiment."
+        ],
+        "valuation_view": "Current price is within fair value range but technical indicators suggest caution.",
+        "counterfactuals": [
+          "If Atlassian's AI integration proves successful and drives significant adoption, it could positively influence stock performance.",
+          "A shift in risk-on regime could mitigate current bearish signals."
+        ],
+        "next_checks": [
+          "Monitor the impact of Atlassian's product launch on user adoption and market sentiment.",
+          "Watch for any changes in technical indicators that may signal a reversal in trend."
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:18:42+09:00",
+      "action": "HOLD",
+      "confidence": 0.56,
+      "rationale": "Atlassian's product launch has positively impacted the stock price, but overall market sentiment remains bearish due to risk-off conditions and lack of significant positive catalysts.",
+      "key_drivers": [
+        "Positive news on Atlassian's AI integration in Jira",
+        "Market-wide risk-off sentiment"
+      ],
+      "key_risks": [
+        "Potential negative impact from broader market trends",
+        "Uncertainty around future product launches and adoption rates"
+      ],
+      "valuation_view": "Current price is within expected range, but fair value assessment is inconclusive due to mixed news events.",
+      "counterfactuals": [
+        "If Atlassian announces additional AI integrations or partnerships, stock could see further gains.",
+        "A broader market rally could positively impact TEAM's performance."
+      ],
+      "next_checks": [
+        "Monitor Atlassian's product adoption and user feedback",
+        "Watch for any significant changes in overall market sentiment"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.56,
+        "rationale": "Atlassian's product launch has positively impacted the stock price, but overall market sentiment remains bearish due to risk-off conditions and lack of significant positive catalysts.",
+        "key_drivers": [
+          "Positive news on Atlassian's AI integration in Jira",
+          "Market-wide risk-off sentiment"
+        ],
+        "key_risks": [
+          "Potential negative impact from broader market trends",
+          "Uncertainty around future product launches and adoption rates"
+        ],
+        "valuation_view": "Current price is within expected range, but fair value assessment is inconclusive due to mixed news events.",
+        "counterfactuals": [
+          "If Atlassian announces additional AI integrations or partnerships, stock could see further gains.",
+          "A broader market rally could positively impact TEAM's performance."
+        ],
+        "next_checks": [
+          "Monitor Atlassian's product adoption and user feedback",
+          "Watch for any significant changes in overall market sentiment"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:15:38+09:00",
+      "action": "HOLD",
+      "confidence": 0.56,
+      "rationale": "현재 주가는 상승세를 보이고 있으나, 기술적 분석은 약세를 나타내고 있어 모호한 시장 상황입니다.",
+      "key_drivers": [
+        "Atlassian의 새로운 AI 기능 출시로 인해 주가 상승"
+      ],
+      "key_risks": [
+        "AI 경쟁 업체들의 영향으로 AMD의 데이터 센터 목표 달성에 대한 우려"
+      ],
+      "valuation_view": "현재 공정 가치 평가는 제공되지 않았으나, 시장 상황이 불확실한 상태입니다.",
+      "counterfactuals": [
+        "AI 관련 뉴스가 부정적으로 전환될 경우 주가 하락 가능성이 있습니다."
+      ],
+      "next_checks": [
+        "Atlassian의 AI 기능 출시 후 사용자 피드백 및 시장 반응 모니터링"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.56,
+        "rationale": "현재 주가는 상승세를 보이고 있으나, 기술적 분석은 약세를 나타내고 있어 모호한 시장 상황입니다.",
+        "key_drivers": [
+          "Atlassian의 새로운 AI 기능 출시로 인해 주가 상승"
+        ],
+        "key_risks": [
+          "AI 경쟁 업체들의 영향으로 AMD의 데이터 센터 목표 달성에 대한 우려"
+        ],
+        "valuation_view": "현재 공정 가치 평가는 제공되지 않았으나, 시장 상황이 불확실한 상태입니다.",
+        "counterfactuals": [
+          "AI 관련 뉴스가 부정적으로 전환될 경우 주가 하락 가능성이 있습니다."
+        ],
+        "next_checks": [
+          "Atlassian의 AI 기능 출시 후 사용자 피드백 및 시장 반응 모니터링"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T01:05:39+09:00",
+      "action": "HOLD",
+      "confidence": 0.56,
+      "rationale": "현재 주가는 상승세를 보이고 있으나, 기술적 분석은 약세를 나타내고 있어 추가적인 양호한 이벤트가 필요하다.",
+      "key_drivers": [
+        "Atlassian의 새로운 AI 기능 출시",
+        "Netflix의 광고 수익 증가"
+      ],
+      "key_risks": [
+        "AMD와 같은 경쟁사들의 영향력",
+        "Lam Research의 파트너십 효과 미지수"
+      ],
+      "valuation_view": "현재 주가는 상승세를 보이고 있으나, 향후 이벤트에 대한 불확실성이 존재한다.",
+      "counterfactuals": [
+        "AI 기능이 예상대로 성공하지 못할 경우",
+        "경쟁사들의 영향력으로 인한 수익 감소"
+      ],
+      "next_checks": [
+        "Atlassian의 AI 기능 출시 후 반응",
+        "AMD와 Meta 간 계약 진행 상황"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.56,
+        "rationale": "현재 주가는 상승세를 보이고 있으나, 기술적 분석은 약세를 나타내고 있어 추가적인 양호한 이벤트가 필요하다.",
+        "key_drivers": [
+          "Atlassian의 새로운 AI 기능 출시",
+          "Netflix의 광고 수익 증가"
+        ],
+        "key_risks": [
+          "AMD와 같은 경쟁사들의 영향력",
+          "Lam Research의 파트너십 효과 미지수"
+        ],
+        "valuation_view": "현재 주가는 상승세를 보이고 있으나, 향후 이벤트에 대한 불확실성이 존재한다.",
+        "counterfactuals": [
+          "AI 기능이 예상대로 성공하지 못할 경우",
+          "경쟁사들의 영향력으로 인한 수익 감소"
+        ],
+        "next_checks": [
+          "Atlassian의 AI 기능 출시 후 반응",
+          "AMD와 Meta 간 계약 진행 상황"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:56:40+09:00",
+      "action": "HOLD",
+      "confidence": 0.56,
+      "rationale": "현재 주가는 상승세를 보이고 있으나, 기술적 분석은 강한 하락세를 나타내고 있어 모호함이 있다. 최근 애플리케이션의 AI 통합 소식으로 인해 긍정적인 반응을 얻었지만, 전체적으로 위험회피 모드에 있는 시장 상황을 고려해야 한다.",
+      "key_drivers": [
+        "Atlassian의 새로운 AI 기능 출시로 인한 주가 상승",
+        "기술적 분석에서 강한 하락세를 나타내고 있음"
+      ],
+      "key_risks": [
+        "시장이 위험회피 모드에 있어 추가적인 하락 가능성이 존재함",
+        "경쟁사들의 경쟁력 증대로 인한 영향 가능성"
+      ],
+      "valuation_view": "현재 주가는 상승세를 보이고 있으나, 향후 시장 조건과 기술적 분석을 고려할 필요가 있다.",
+      "counterfactuals": [
+        "시장이 위험회피 모드에서 벗어나지 않을 경우 추가적인 하락 가능성이 있음",
+        "경쟁사들의 경쟁력 증대로 인해 주가 상승세가 둔화될 수 있음"
+      ],
+      "next_checks": [
+        "시장 전반의 위험회피 모드 지속 여부 확인",
+        "Atlassian의 AI 통합 기능에 대한 시장 반응 추적"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.56,
+        "rationale": "현재 주가는 상승세를 보이고 있으나, 기술적 분석은 강한 하락세를 나타내고 있어 모호함이 있다. 최근 애플리케이션의 AI 통합 소식으로 인해 긍정적인 반응을 얻었지만, 전체적으로 위험회피 모드에 있는 시장 상황을 고려해야 한다.",
+        "key_drivers": [
+          "Atlassian의 새로운 AI 기능 출시로 인한 주가 상승",
+          "기술적 분석에서 강한 하락세를 나타내고 있음"
+        ],
+        "key_risks": [
+          "시장이 위험회피 모드에 있어 추가적인 하락 가능성이 존재함",
+          "경쟁사들의 경쟁력 증대로 인한 영향 가능성"
+        ],
+        "valuation_view": "현재 주가는 상승세를 보이고 있으나, 향후 시장 조건과 기술적 분석을 고려할 필요가 있다.",
+        "counterfactuals": [
+          "시장이 위험회피 모드에서 벗어나지 않을 경우 추가적인 하락 가능성이 있음",
+          "경쟁사들의 경쟁력 증대로 인해 주가 상승세가 둔화될 수 있음"
+        ],
+        "next_checks": [
+          "시장 전반의 위험회피 모드 지속 여부 확인",
+          "Atlassian의 AI 통합 기능에 대한 시장 반응 추적"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:53:36+09:00",
+      "action": "HOLD",
+      "confidence": 0.56,
+      "rationale": "현재 주가는 상승세를 보이고 있으나, 기술적 분석은 약세를 나타내고 있어 추가적인 추세 확인이 필요합니다.",
+      "key_drivers": [
+        "Atlassian의 새로운 AI 기능 출시로 인한 주가 상승",
+        "Netflix의 광고 수익 증가 전망"
+      ],
+      "key_risks": [
+        "AMD와 Meta 간 계약으로 인한 경쟁사들의 영향력",
+        "Lam Research의 새로운 파트너십과 투자에 대한 불확실성"
+      ],
+      "valuation_view": "현재 주가는 상승세를 보이고 있으나, 기술적 지표는 약세를 나타내므로 추가적인 추세 확인이 필요합니다.",
+      "counterfactuals": [
+        "Atlassian의 AI 기능이 실제 시장에서 성공하지 못할 경우",
+        "경쟁사들의 경쟁력 강화로 인한 AMD와 Lam Research의 사업 부진"
+      ],
+      "next_checks": [
+        "Atlassian의 새로운 제품 출시 후 반응 확인",
+        "기술적 지표의 추세 변화 모니터링"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.56,
+        "rationale": "현재 주가는 상승세를 보이고 있으나, 기술적 분석은 약세를 나타내고 있어 추가적인 추세 확인이 필요합니다.",
+        "key_drivers": [
+          "Atlassian의 새로운 AI 기능 출시로 인한 주가 상승",
+          "Netflix의 광고 수익 증가 전망"
+        ],
+        "key_risks": [
+          "AMD와 Meta 간 계약으로 인한 경쟁사들의 영향력",
+          "Lam Research의 새로운 파트너십과 투자에 대한 불확실성"
+        ],
+        "valuation_view": "현재 주가는 상승세를 보이고 있으나, 기술적 지표는 약세를 나타내므로 추가적인 추세 확인이 필요합니다.",
+        "counterfactuals": [
+          "Atlassian의 AI 기능이 실제 시장에서 성공하지 못할 경우",
+          "경쟁사들의 경쟁력 강화로 인한 AMD와 Lam Research의 사업 부진"
+        ],
+        "next_checks": [
+          "Atlassian의 새로운 제품 출시 후 반응 확인",
+          "기술적 지표의 추세 변화 모니터링"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:50:31+09:00",
+      "action": "HOLD",
+      "confidence": 0.56,
+      "rationale": "Atlassian's product launch has driven a positive market reaction, but overall sentiment remains neutral due to mixed news and technical indicators suggesting a bearish trend.",
+      "key_drivers": [
+        "Positive impact from Atlassian's AI integration in Jira",
+        "Neutral sentiment on Netflix's ad revenue growth"
+      ],
+      "key_risks": [
+        "Technical analysis indicates strong bearish signals",
+        "Unclear impact of Lam Research's partnership and expansion plans"
+      ],
+      "valuation_view": "Current price is within fair value range, but technical indicators suggest potential for further decline.",
+      "counterfactuals": [
+        "Positive market reaction to Atlassian could be short-lived if product adoption fails to meet expectations",
+        "Technical signals turning bullish could indicate a reversal in trend"
+      ],
+      "next_checks": [
+        "Monitor Atlassian's stock performance and user feedback on new AI feature",
+        "Watch for any significant changes in technical indicators or market sentiment"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.56,
+        "rationale": "Atlassian's product launch has driven a positive market reaction, but overall sentiment remains neutral due to mixed news and technical indicators suggesting a bearish trend.",
+        "key_drivers": [
+          "Positive impact from Atlassian's AI integration in Jira",
+          "Neutral sentiment on Netflix's ad revenue growth"
+        ],
+        "key_risks": [
+          "Technical analysis indicates strong bearish signals",
+          "Unclear impact of Lam Research's partnership and expansion plans"
+        ],
+        "valuation_view": "Current price is within fair value range, but technical indicators suggest potential for further decline.",
+        "counterfactuals": [
+          "Positive market reaction to Atlassian could be short-lived if product adoption fails to meet expectations",
+          "Technical signals turning bullish could indicate a reversal in trend"
+        ],
+        "next_checks": [
+          "Monitor Atlassian's stock performance and user feedback on new AI feature",
+          "Watch for any significant changes in technical indicators or market sentiment"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:47:24+09:00",
+      "action": "HOLD",
+      "confidence": 0.56,
+      "rationale": "The stock is currently in a risk-off regime with strong bearish technical analysis, and recent news events have had mixed impacts on the market sentiment.",
+      "key_drivers": [
+        "Atlassian's product launch of 'agents in Jira' has positively impacted TEAM stock.",
+        "Netflix's expected surge in ad revenue could influence broader market trends."
+      ],
+      "key_risks": [
+        "AMD faces competition from NVIDIA and Broadcom, which may limit its growth potential.",
+        "Lam Research's new partnerships have unclear immediate impacts on the company's valuation."
+      ],
+      "valuation_view": "The current fair value is not explicitly defined, but market sentiment suggests a cautious approach due to technical indicators.",
+      "counterfactuals": [
+        "If Atlassian's AI integration proves successful and widely adopted, it could drive further stock appreciation.",
+        "Negative developments in the semiconductor industry or broader tech sector could exacerbate bearish trends."
+      ],
+      "next_checks": [
+        "Monitor Atlassian's product adoption rates for 'agents in Jira'.",
+        "Watch for any significant changes in AMD's competitive landscape and market share."
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.56,
+        "rationale": "The stock is currently in a risk-off regime with strong bearish technical analysis, and recent news events have had mixed impacts on the market sentiment.",
+        "key_drivers": [
+          "Atlassian's product launch of 'agents in Jira' has positively impacted TEAM stock.",
+          "Netflix's expected surge in ad revenue could influence broader market trends."
+        ],
+        "key_risks": [
+          "AMD faces competition from NVIDIA and Broadcom, which may limit its growth potential.",
+          "Lam Research's new partnerships have unclear immediate impacts on the company's valuation."
+        ],
+        "valuation_view": "The current fair value is not explicitly defined, but market sentiment suggests a cautious approach due to technical indicators.",
+        "counterfactuals": [
+          "If Atlassian's AI integration proves successful and widely adopted, it could drive further stock appreciation.",
+          "Negative developments in the semiconductor industry or broader tech sector could exacerbate bearish trends."
+        ],
+        "next_checks": [
+          "Monitor Atlassian's product adoption rates for 'agents in Jira'.",
+          "Watch for any significant changes in AMD's competitive landscape and market share."
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:45:09+09:00",
+      "action": "HOLD",
+      "confidence": 0.56,
+      "rationale": "현재 주가는 상승세를 보이고 있으나, 기술적 분석은 약간의 하락을 예측하고 있어 중립적인 입장이 필요하다.",
+      "key_drivers": [
+        "Atlassian의 AI 통합 제품 출시",
+        "Netflix의 광고 수익 증가"
+      ],
+      "key_risks": [
+        "AMD와 같은 기업들의 경쟁 압력",
+        "기술적 분석에서 강한 하락세 예측"
+      ],
+      "valuation_view": "현재 주가는 상승 중이나, 향후 경쟁사의 영향과 기술적 지표를 고려해야 한다.",
+      "counterfactuals": [
+        "Atlassian의 AI 통합 제품이 시장 반응을 얻지 못하거나, 경쟁사들의 경쟁 압력이 심화될 경우"
+      ],
+      "next_checks": [
+        "Atlassian의 AI 통합 제품에 대한 사용자 피드백",
+        "경쟁사들의 동향 및 전략"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.56,
+        "rationale": "현재 주가는 상승세를 보이고 있으나, 기술적 분석은 약간의 하락을 예측하고 있어 중립적인 입장이 필요하다.",
+        "key_drivers": [
+          "Atlassian의 AI 통합 제품 출시",
+          "Netflix의 광고 수익 증가"
+        ],
+        "key_risks": [
+          "AMD와 같은 기업들의 경쟁 압력",
+          "기술적 분석에서 강한 하락세 예측"
+        ],
+        "valuation_view": "현재 주가는 상승 중이나, 향후 경쟁사의 영향과 기술적 지표를 고려해야 한다.",
+        "counterfactuals": [
+          "Atlassian의 AI 통합 제품이 시장 반응을 얻지 못하거나, 경쟁사들의 경쟁 압력이 심화될 경우"
+        ],
+        "next_checks": [
+          "Atlassian의 AI 통합 제품에 대한 사용자 피드백",
+          "경쟁사들의 동향 및 전략"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:30:12+09:00",
+      "action": "HOLD",
+      "confidence": 0.56,
+      "rationale": "The stock is currently in a risk-off regime with strong bearish technical indicators, and recent news events have not significantly impacted the overall sentiment or valuation.",
+      "key_drivers": [
+        "Atlassian's product launch of 'agents in Jira' (bullish), but limited impact on TEAM"
+      ],
+      "key_risks": [
+        "Bearish market conditions, ongoing investor scrutiny, potential competition from other tech giants"
+      ],
+      "valuation_view": "No significant change in fair value assumptions or range",
+      "counterfactuals": [
+        "Positive market sentiment shift, strong product adoption for 'agents in Jira' could alter the outlook"
+      ],
+      "next_checks": [
+        "Market regime changes, Atlassian's financial results and updates on investor investigation"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.56,
+        "rationale": "The stock is currently in a risk-off regime with strong bearish technical indicators, and recent news events have not significantly impacted the overall sentiment or valuation.",
+        "key_drivers": [
+          "Atlassian's product launch of 'agents in Jira' (bullish), but limited impact on TEAM"
+        ],
+        "key_risks": [
+          "Bearish market conditions, ongoing investor scrutiny, potential competition from other tech giants"
+        ],
+        "valuation_view": "No significant change in fair value assumptions or range",
+        "counterfactuals": [
+          "Positive market sentiment shift, strong product adoption for 'agents in Jira' could alter the outlook"
+        ],
+        "next_checks": [
+          "Market regime changes, Atlassian's financial results and updates on investor investigation"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:27:11+09:00",
+      "action": "HOLD",
+      "confidence": 0.56,
+      "rationale": "The stock is currently in a risk-off regime with strong bearish technical indicators, and recent news events have had mixed impacts on the market sentiment.",
+      "key_drivers": [
+        "Positive impact from Atlassian's product launch",
+        "Neutral to slightly positive impact from AMD-META deal"
+      ],
+      "key_risks": [
+        "Strong bearish technical analysis",
+        "Unclear impact of Lam Research's partnership with CEA Leti"
+      ],
+      "valuation_view": "Current valuation score is neutral, fair value not provided.",
+      "counterfactuals": [
+        "Positive market sentiment could change if Atlassian continues to innovate and gain traction with AI integration.",
+        "Negative sentiment may persist if technical indicators remain bearish or worsen."
+      ],
+      "next_checks": [
+        "Monitor for any significant changes in technical analysis",
+        "Watch for further developments from key partnerships and product launches"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.56,
+        "rationale": "The stock is currently in a risk-off regime with strong bearish technical indicators, and recent news events have had mixed impacts on the market sentiment.",
+        "key_drivers": [
+          "Positive impact from Atlassian's product launch",
+          "Neutral to slightly positive impact from AMD-META deal"
+        ],
+        "key_risks": [
+          "Strong bearish technical analysis",
+          "Unclear impact of Lam Research's partnership with CEA Leti"
+        ],
+        "valuation_view": "Current valuation score is neutral, fair value not provided.",
+        "counterfactuals": [
+          "Positive market sentiment could change if Atlassian continues to innovate and gain traction with AI integration.",
+          "Negative sentiment may persist if technical indicators remain bearish or worsen."
+        ],
+        "next_checks": [
+          "Monitor for any significant changes in technical analysis",
+          "Watch for further developments from key partnerships and product launches"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:24:07+09:00",
+      "action": "BUY",
+      "confidence": 0.8,
+      "rationale": "Atlassian's recent product launch of 'agents in Jira' has driven significant positive market reaction, indicating strong potential for future growth.",
+      "key_drivers": [
+        "Introduction of AI agents in Jira",
+        "Enhanced productivity and innovation"
+      ],
+      "key_risks": [
+        "Potential competition from other collaboration software providers",
+        "Uncertainty around investor scrutiny"
+      ],
+      "valuation_view": "The product launch suggests a positive shift in the company's valuation, driven by technological advancements.",
+      "counterfactuals": [
+        "Negative market reaction if competitors release similar products quickly",
+        "Investor concerns over legal investigations intensifying"
+      ],
+      "next_checks": [
+        "Monitoring Atlassian’s financial performance and user adoption of new AI features",
+        "Tracking competitor product releases"
+      ],
+      "raw": {
+        "action": "BUY",
+        "confidence": 0.8,
+        "rationale": "Atlassian's recent product launch of 'agents in Jira' has driven significant positive market reaction, indicating strong potential for future growth.",
+        "key_drivers": [
+          "Introduction of AI agents in Jira",
+          "Enhanced productivity and innovation"
+        ],
+        "key_risks": [
+          "Potential competition from other collaboration software providers",
+          "Uncertainty around investor scrutiny"
+        ],
+        "valuation_view": "The product launch suggests a positive shift in the company's valuation, driven by technological advancements.",
+        "counterfactuals": [
+          "Negative market reaction if competitors release similar products quickly",
+          "Investor concerns over legal investigations intensifying"
+        ],
+        "next_checks": [
+          "Monitoring Atlassian’s financial performance and user adoption of new AI features",
+          "Tracking competitor product releases"
+        ],
+        "position_plan": {
+          "prefer_qty": 10,
+          "time_horizon": "swing_weeks"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:21:10+09:00",
+      "action": "HOLD",
+      "confidence": 0.56,
+      "rationale": "현재 주가는 안정적 수준이며, 최근 AI 관련 소식이 긍정적인 영향을 미쳤으나, 전체적으로 시장은 위험회피 모드에 있습니다.",
+      "key_drivers": [
+        "Atlassian의 새로운 AI 기능 출시",
+        "Netflix의 광고 매출 증가 전망"
+      ],
+      "key_risks": [
+        "기술주 경쟁 심화",
+        "시장 변동성 증가"
+      ],
+      "valuation_view": "현재 주가는 공정가치 수준으로 판단되며, 추가적인 긍정적 이벤트 없이는 상승 여지가 제한적입니다.",
+      "counterfactuals": [
+        "기술주에 대한 시장 관심이 냉각될 경우",
+        "AI 관련 제품 출시 효과가 예상보다 미미할 경우"
+      ],
+      "next_checks": [
+        "Atlassian의 AI 기능 활용도 및 고객 반응",
+        "시장 전반적인 위험회피 모드 지속 여부"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.56,
+        "rationale": "현재 주가는 안정적 수준이며, 최근 AI 관련 소식이 긍정적인 영향을 미쳤으나, 전체적으로 시장은 위험회피 모드에 있습니다.",
+        "key_drivers": [
+          "Atlassian의 새로운 AI 기능 출시",
+          "Netflix의 광고 매출 증가 전망"
+        ],
+        "key_risks": [
+          "기술주 경쟁 심화",
+          "시장 변동성 증가"
+        ],
+        "valuation_view": "현재 주가는 공정가치 수준으로 판단되며, 추가적인 긍정적 이벤트 없이는 상승 여지가 제한적입니다.",
+        "counterfactuals": [
+          "기술주에 대한 시장 관심이 냉각될 경우",
+          "AI 관련 제품 출시 효과가 예상보다 미미할 경우"
+        ],
+        "next_checks": [
+          "Atlassian의 AI 기능 활용도 및 고객 반응",
+          "시장 전반적인 위험회피 모드 지속 여부"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:18:01+09:00",
+      "action": "HOLD",
+      "confidence": 0.56,
+      "rationale": "Atlassian's product launch has driven a positive market reaction, but overall sentiment and technical indicators suggest a risk-off environment.",
+      "key_drivers": [
+        "Positive news on Atlassian's AI integration",
+        "Market opening by BetaPro ETFs"
+      ],
+      "key_risks": [
+        "Bearish technical analysis",
+        "Unclear impact of other recent events"
+      ],
+      "valuation_view": "Current price is within fair value range, but no specific valuation metrics provided.",
+      "counterfactuals": [
+        "If Atlassian's product launch leads to sustained growth in user adoption and revenue.",
+        "If broader market sentiment shifts from risk-off to risk-on."
+      ],
+      "next_checks": [
+        "Monitor Atlassian's stock performance post-product launch",
+        "Watch for any significant changes in technical indicators"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.56,
+        "rationale": "Atlassian's product launch has driven a positive market reaction, but overall sentiment and technical indicators suggest a risk-off environment.",
+        "key_drivers": [
+          "Positive news on Atlassian's AI integration",
+          "Market opening by BetaPro ETFs"
+        ],
+        "key_risks": [
+          "Bearish technical analysis",
+          "Unclear impact of other recent events"
+        ],
+        "valuation_view": "Current price is within fair value range, but no specific valuation metrics provided.",
+        "counterfactuals": [
+          "If Atlassian's product launch leads to sustained growth in user adoption and revenue.",
+          "If broader market sentiment shifts from risk-off to risk-on."
+        ],
+        "next_checks": [
+          "Monitor Atlassian's stock performance post-product launch",
+          "Watch for any significant changes in technical indicators"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:12:25+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "Current market regime is risk-off with a strong bearish technical score (-0.85). Recent news events are neutral or slightly positive, but not significant enough to change the overall sentiment.",
+      "key_drivers": [
+        "Strong bearish technical signals",
+        "Neutral recent news"
+      ],
+      "key_risks": [
+        "Potential negative impact from broader market trends",
+        "Lack of strong positive catalysts"
+      ],
+      "valuation_view": "No specific valuation assumptions provided; fair value is not determined",
+      "counterfactuals": [
+        "Positive earnings reports or significant product launches could change sentiment"
+      ],
+      "next_checks": [
+        "Monitor for any major news events or changes in technical indicators"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "Current market regime is risk-off with a strong bearish technical score (-0.85). Recent news events are neutral or slightly positive, but not significant enough to change the overall sentiment.",
+        "key_drivers": [
+          "Strong bearish technical signals",
+          "Neutral recent news"
+        ],
+        "key_risks": [
+          "Potential negative impact from broader market trends",
+          "Lack of strong positive catalysts"
+        ],
+        "valuation_view": "No specific valuation assumptions provided; fair value is not determined",
+        "counterfactuals": [
+          "Positive earnings reports or significant product launches could change sentiment"
+        ],
+        "next_checks": [
+          "Monitor for any major news events or changes in technical indicators"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-28T00:09:21+09:00",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "현재 주가는 75.37원이며, 시장은 위험회피 모드에 있습니다. 기술적 분석은 약세를 나타내고 있으며, 뉴스 스코어는 중립적입니다.",
+      "key_drivers": [
+        "Atlassian의 새로운 AI 기능 발표",
+        "AMD와 Meta 간 거래"
+      ],
+      "key_risks": [
+        "AI 관련 회사들의 실적이 예상보다 부진할 경우",
+        "기술 파트너십이 실제 성과로 이어지지 않을 가능성"
+      ],
+      "valuation_view": "현재 공정가치 평가는 제공되지 않았습니다.",
+      "counterfactuals": [
+        "Atlassian의 AI 기능이 시장 반응을 얻지 못할 경우",
+        "AMD와 Meta 간 거래가 예상보다 낮은 수익을 가져올 경우"
+      ],
+      "next_checks": [
+        "AI 관련 회사들의 실적 발표 결과",
+        "기술 파트너십의 구체적인 진행 상황"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5,
+        "rationale": "현재 주가는 75.37원이며, 시장은 위험회피 모드에 있습니다. 기술적 분석은 약세를 나타내고 있으며, 뉴스 스코어는 중립적입니다.",
+        "key_drivers": [
+          "Atlassian의 새로운 AI 기능 발표",
+          "AMD와 Meta 간 거래"
+        ],
+        "key_risks": [
+          "AI 관련 회사들의 실적이 예상보다 부진할 경우",
+          "기술 파트너십이 실제 성과로 이어지지 않을 가능성"
+        ],
+        "valuation_view": "현재 공정가치 평가는 제공되지 않았습니다.",
+        "counterfactuals": [
+          "Atlassian의 AI 기능이 시장 반응을 얻지 못할 경우",
+          "AMD와 Meta 간 거래가 예상보다 낮은 수익을 가져올 경우"
+        ],
+        "next_checks": [
+          "AI 관련 회사들의 실적 발표 결과",
+          "기술 파트너십의 구체적인 진행 상황"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-27T23:58:02+09:00",
+      "action": "HOLD",
+      "confidence": 0.5499999999999999,
+      "rationale": "현재 주가는 75.78원이며, 시장 상황은 위험회피 모드입니다. 기술적 분석(TA)은 강한 하락세를 보이고 있으며, 뉴스 스코어는 중립적이지만 일부 긍정적인 요인이 있습니다.",
+      "key_drivers": [
+        "Atlassian의 새로운 AI 기능 출시로 주가 상승",
+        "AMD와 Meta 간 계약으로 인한 AMD 주식 전망"
+      ],
+      "key_risks": [
+        "AI 관련 회사들의 실적 발표에 따른 변동성",
+        "기술 파트너십과 Boise 확장이 Lam Research의 주가에 미치는 영향 불확실"
+      ],
+      "valuation_view": "현재 공정 가치 평가는 제공되지 않았습니다. 추가적인 정보나 분석 필요.",
+      "counterfactuals": [
+        "AI 관련 회사들의 실적이 부진할 경우, 전체 AI 주식 시장이 하락할 수 있습니다."
+      ],
+      "next_checks": [
+        "Atlassian의 새로운 제품 출시 후 반응",
+        "Nvidia, Snowflake 등 AI 기업들의 실적 발표"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5499999999999999,
+        "rationale": "현재 주가는 75.78원이며, 시장 상황은 위험회피 모드입니다. 기술적 분석(TA)은 강한 하락세를 보이고 있으며, 뉴스 스코어는 중립적이지만 일부 긍정적인 요인이 있습니다.",
+        "key_drivers": [
+          "Atlassian의 새로운 AI 기능 출시로 주가 상승",
+          "AMD와 Meta 간 계약으로 인한 AMD 주식 전망"
+        ],
+        "key_risks": [
+          "AI 관련 회사들의 실적 발표에 따른 변동성",
+          "기술 파트너십과 Boise 확장이 Lam Research의 주가에 미치는 영향 불확실"
+        ],
+        "valuation_view": "현재 공정 가치 평가는 제공되지 않았습니다. 추가적인 정보나 분석 필요.",
+        "counterfactuals": [
+          "AI 관련 회사들의 실적이 부진할 경우, 전체 AI 주식 시장이 하락할 수 있습니다."
+        ],
+        "next_checks": [
+          "Atlassian의 새로운 제품 출시 후 반응",
+          "Nvidia, Snowflake 등 AI 기업들의 실적 발표"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-27T23:55:11+09:00",
+      "action": "HOLD",
+      "confidence": 0.5499,
+      "rationale": "Current market regime is risk-off and technical analysis indicates strong bearish sentiment, while recent news events have mixed impact on stock price.",
+      "key_drivers": [
+        "Atlassian's product launch of 'agents in Jira' has positive sentiment but limited immediate impact due to overall market conditions."
+      ],
+      "key_risks": [
+        "Risk-off regime and strong bearish technical signals suggest potential for further declines.",
+        "Uncertainty around earnings reports from AI-focused companies could cause volatility."
+      ],
+      "valuation_view": "No significant change in valuation assumptions or fair value estimates.",
+      "counterfactuals": [
+        "A shift to risk-on market conditions would likely improve sentiment and drive stock prices higher."
+      ],
+      "next_checks": [
+        "Monitor earnings reports from AI-focused companies for any unexpected developments.",
+        "Watch for changes in overall market regime that could impact stock performance."
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5499,
+        "rationale": "Current market regime is risk-off and technical analysis indicates strong bearish sentiment, while recent news events have mixed impact on stock price.",
+        "key_drivers": [
+          "Atlassian's product launch of 'agents in Jira' has positive sentiment but limited immediate impact due to overall market conditions."
+        ],
+        "key_risks": [
+          "Risk-off regime and strong bearish technical signals suggest potential for further declines.",
+          "Uncertainty around earnings reports from AI-focused companies could cause volatility."
+        ],
+        "valuation_view": "No significant change in valuation assumptions or fair value estimates.",
+        "counterfactuals": [
+          "A shift to risk-on market conditions would likely improve sentiment and drive stock prices higher."
+        ],
+        "next_checks": [
+          "Monitor earnings reports from AI-focused companies for any unexpected developments.",
+          "Watch for changes in overall market regime that could impact stock performance."
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
+    {
+      "ts_kst": "2026-02-27T23:52:14+09:00",
+      "action": "HOLD",
+      "confidence": 0.5499999999999999,
+      "rationale": "현재 시장 상황은 위험회피 모드로, 기술적 분석 지표는 약세를 나타내고 있습니다. 최근 뉴스 이벤트 중 Atlassian의 AI 통합 소식이 긍정적인 영향을 미쳤지만, 전체적으로 주가 움직임은 제한적입니다.",
+      "key_drivers": [
+        "Atlassian의 'agents in Jira' 출시",
+        "AMD와 Meta 간 계약"
+      ],
+      "key_risks": [
+        "AI 관련 기업들의 실적 발표 결과",
+        "기술적 지표 약세"
+      ],
+      "valuation_view": "공정가치 평가는 제공되지 않았습니다.",
+      "counterfactuals": [
+        "AI 기업들의 실적이 예상보다 좋을 경우 주가 상승 가능성이 있음"
+      ],
+      "next_checks": [
+        "AI 관련 기업들의 실적 발표 결과",
+        "시장 전반적인 위험회피 모드 지속 여부"
+      ],
+      "raw": {
+        "action": "HOLD",
+        "confidence": 0.5499999999999999,
+        "rationale": "현재 시장 상황은 위험회피 모드로, 기술적 분석 지표는 약세를 나타내고 있습니다. 최근 뉴스 이벤트 중 Atlassian의 AI 통합 소식이 긍정적인 영향을 미쳤지만, 전체적으로 주가 움직임은 제한적입니다.",
+        "key_drivers": [
+          "Atlassian의 'agents in Jira' 출시",
+          "AMD와 Meta 간 계약"
+        ],
+        "key_risks": [
+          "AI 관련 기업들의 실적 발표 결과",
+          "기술적 지표 약세"
+        ],
+        "valuation_view": "공정가치 평가는 제공되지 않았습니다.",
+        "counterfactuals": [
+          "AI 기업들의 실적이 예상보다 좋을 경우 주가 상승 가능성이 있음"
+        ],
+        "next_checks": [
+          "AI 관련 기업들의 실적 발표 결과",
+          "시장 전반적인 위험회피 모드 지속 여부"
+        ],
+        "position_plan": {
+          "prefer_qty": 0,
+          "time_horizon": "swing_days"
+        }
+      }
+    },
     {
       "ts_kst": "2026-02-27T07:10:59+09:00",
       "action": "BUY",
@@ -8770,1775 +10468,6 @@
         ],
         "position_plan": {
           "prefer_qty": 20,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:37:05+09:00",
-      "action": "HOLD",
-      "confidence": 0.5,
-      "rationale": "The current market regime is neutral with a slight bearish bias due to ongoing concerns about AI's impact on growth. Recent news events, including earnings reports from multiple software and cybersecurity companies, have not provided clear directional signals. The lack of significant recent news and the neutral valuation score suggest maintaining the current position.",
-      "key_drivers": [
-        "Neutral market regime with a slight bearish bias",
-        "Ongoing concerns about AI's impact on growth",
-        "Mixed earnings reports from key software companies"
-      ],
-      "key_risks": [
-        "Potential for further negative sentiment if more companies report weak earnings due to AI concerns",
-        "Uncertainty around the impact of new AI products and services"
-      ],
-      "valuation_view": "The valuation score is neutral, with no significant changes in assumptions that would alter the fair value estimate.",
-      "counterfactuals": [
-        "If multiple software companies report strong earnings despite AI concerns, it could shift market sentiment positively",
-        "If Anthropic's new security tool gains widespread adoption and significantly impacts cybersecurity stocks, it could lead to further volatility"
-      ],
-      "next_checks": [
-        "Monitor upcoming earnings reports from key software and cybersecurity companies for any shifts in investor sentiment",
-        "Keep an eye on the broader AI landscape and its potential impact on various sectors"
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.5,
-        "rationale": "The current market regime is neutral with a slight bearish bias due to ongoing concerns about AI's impact on growth. Recent news events, including earnings reports from multiple software and cybersecurity companies, have not provided clear directional signals. The lack of significant recent news and the neutral valuation score suggest maintaining the current position.",
-        "key_drivers": [
-          "Neutral market regime with a slight bearish bias",
-          "Ongoing concerns about AI's impact on growth",
-          "Mixed earnings reports from key software companies"
-        ],
-        "key_risks": [
-          "Potential for further negative sentiment if more companies report weak earnings due to AI concerns",
-          "Uncertainty around the impact of new AI products and services"
-        ],
-        "valuation_view": "The valuation score is neutral, with no significant changes in assumptions that would alter the fair value estimate.",
-        "counterfactuals": [
-          "If multiple software companies report strong earnings despite AI concerns, it could shift market sentiment positively",
-          "If Anthropic's new security tool gains widespread adoption and significantly impacts cybersecurity stocks, it could lead to further volatility"
-        ],
-        "next_checks": [
-          "Monitor upcoming earnings reports from key software and cybersecurity companies for any shifts in investor sentiment",
-          "Keep an eye on the broader AI landscape and its potential impact on various sectors"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:35:27+09:00",
-      "action": "BUY",
-      "confidence": 0.65,
-      "rationale": "The recent news events and market sentiment suggest a potential buying opportunity for Atlassian (TEAM). The AI-focused earnings reports from key players like Nvidia, CoreWeave, Snowflake, and Salesforce could drive volatility in the sector. While there is bearish sentiment around AI's impact on growth, Atlassian’s new product launch with Agents in Jira could provide long-term benefits. Additionally, the current market regime and technical analysis support a bullish stance.",
-      "key_drivers": [
-        "Potential earnings-driven volatility in the AI sector",
-        "New product launch by Atlassian that could drive future growth"
-      ],
-      "key_risks": [
-        "Widespread investor pessimism about AI's impact on growth",
-        "Negative reaction to upcoming earnings reports from key players"
-      ],
-      "valuation_view": "The recent fair value reset indicates a more conservative valuation, but the current price suggests undervaluation relative to potential long-term benefits.",
-      "counterfactuals": [
-        "If multiple AI-focused companies report negative earnings or guidance, it could reverse market sentiment and impact Atlassian's stock negatively.",
-        "A significant decline in AI-related stocks could drag down Atlassian’s share price."
-      ],
-      "next_checks": [
-        "Monitor upcoming earnings reports from key players like Nvidia, CoreWeave, Snowflake, and Salesforce for any negative surprises.",
-        "Track the market reaction to Atlassian's new product launch and its impact on user adoption and revenue growth."
-      ],
-      "raw": {
-        "action": "BUY",
-        "confidence": 0.65,
-        "rationale": "The recent news events and market sentiment suggest a potential buying opportunity for Atlassian (TEAM). The AI-focused earnings reports from key players like Nvidia, CoreWeave, Snowflake, and Salesforce could drive volatility in the sector. While there is bearish sentiment around AI's impact on growth, Atlassian’s new product launch with Agents in Jira could provide long-term benefits. Additionally, the current market regime and technical analysis support a bullish stance.",
-        "key_drivers": [
-          "Potential earnings-driven volatility in the AI sector",
-          "New product launch by Atlassian that could drive future growth"
-        ],
-        "key_risks": [
-          "Widespread investor pessimism about AI's impact on growth",
-          "Negative reaction to upcoming earnings reports from key players"
-        ],
-        "valuation_view": "The recent fair value reset indicates a more conservative valuation, but the current price suggests undervaluation relative to potential long-term benefits.",
-        "counterfactuals": [
-          "If multiple AI-focused companies report negative earnings or guidance, it could reverse market sentiment and impact Atlassian's stock negatively.",
-          "A significant decline in AI-related stocks could drag down Atlassian’s share price."
-        ],
-        "next_checks": [
-          "Monitor upcoming earnings reports from key players like Nvidia, CoreWeave, Snowflake, and Salesforce for any negative surprises.",
-          "Track the market reaction to Atlassian's new product launch and its impact on user adoption and revenue growth."
-        ],
-        "position_plan": {
-          "prefer_qty": 20,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:33:41+09:00",
-      "action": "HOLD",
-      "confidence": 0.7,
-      "rationale": "The current market sentiment remains neutral with no significant positive catalysts to justify a buy signal. Recent news events, including AI-focused earnings reports and product launches, do not provide strong enough bullish signals to override the bearish trend driven by concerns over AI's impact on growth.",
-      "key_drivers": [
-        "Neutral market regime score of 0.2",
-        "Recent news events with mixed sentiment (neutral or slightly bearish)",
-        "Bearish technical analysis score of -0.85"
-      ],
-      "key_risks": [
-        "Continued investor pessimism towards AI's impact on software growth",
-        "Upcoming earnings reports from key players like Nvidia, CoreWeave, Snowflake and Salesforce may exacerbate market volatility",
-        "Leadership changes at Atlassian could have long-term implications but are currently neutral"
-      ],
-      "valuation_view": "The recent fair value reset to $177.85 reflects more conservative revenue growth assumptions, which align with the current bearish sentiment.",
-      "counterfactuals": [
-        "A strong positive earnings report from Nvidia or Salesforce could shift market sentiment and warrant a re-evaluation of this position.",
-        "Significant product adoption by AI agents in Jira could provide a bullish signal for Atlassian's stock."
-      ],
-      "next_checks": [
-        "Monitor upcoming earnings reports for key players to gauge the impact on overall market sentiment",
-        "Track the reception of new AI products and their integration into enterprise workflows"
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.7,
-        "rationale": "The current market sentiment remains neutral with no significant positive catalysts to justify a buy signal. Recent news events, including AI-focused earnings reports and product launches, do not provide strong enough bullish signals to override the bearish trend driven by concerns over AI's impact on growth.",
-        "key_drivers": [
-          "Neutral market regime score of 0.2",
-          "Recent news events with mixed sentiment (neutral or slightly bearish)",
-          "Bearish technical analysis score of -0.85"
-        ],
-        "key_risks": [
-          "Continued investor pessimism towards AI's impact on software growth",
-          "Upcoming earnings reports from key players like Nvidia, CoreWeave, Snowflake and Salesforce may exacerbate market volatility",
-          "Leadership changes at Atlassian could have long-term implications but are currently neutral"
-        ],
-        "valuation_view": "The recent fair value reset to $177.85 reflects more conservative revenue growth assumptions, which align with the current bearish sentiment.",
-        "counterfactuals": [
-          "A strong positive earnings report from Nvidia or Salesforce could shift market sentiment and warrant a re-evaluation of this position.",
-          "Significant product adoption by AI agents in Jira could provide a bullish signal for Atlassian's stock."
-        ],
-        "next_checks": [
-          "Monitor upcoming earnings reports for key players to gauge the impact on overall market sentiment",
-          "Track the reception of new AI products and their integration into enterprise workflows"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:31:46+09:00",
-      "action": "HOLD",
-      "confidence": 0.8,
-      "rationale": "The recent news events and technical analysis suggest a neutral to slightly bearish market for Atlassian (TEAM). The upcoming earnings reports from key AI-focused companies may further impact sentiment, but the current market regime is neutral with no strong directional bias.",
-      "key_drivers": [
-        "Neutral market regime",
-        "Upcoming earnings reports from multiple AI-focused companies",
-        "Widespread investor pessimism regarding AI's impact on growth"
-      ],
-      "key_risks": [
-        "Negative earnings surprises or guidance cuts from key players",
-        "Further negative sentiment towards cybersecurity stocks due to new AI security tools"
-      ],
-      "valuation_view": "The current valuation remains high, with no significant changes in assumptions that would alter the fair value estimate.",
-      "counterfactuals": [
-        "If multiple AI-focused companies report strong earnings and positive guidance, it could shift market sentiment positively.",
-        "If there are further negative developments related to AI's impact on growth, it could lead to a more bearish outlook."
-      ],
-      "next_checks": [
-        "Earnings reports from Nvidia, CoreWeave, Snowflake, and Salesforce",
-        "Market reaction to Atlassian's new product launch in Jira"
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.8,
-        "rationale": "The recent news events and technical analysis suggest a neutral to slightly bearish market for Atlassian (TEAM). The upcoming earnings reports from key AI-focused companies may further impact sentiment, but the current market regime is neutral with no strong directional bias.",
-        "key_drivers": [
-          "Neutral market regime",
-          "Upcoming earnings reports from multiple AI-focused companies",
-          "Widespread investor pessimism regarding AI's impact on growth"
-        ],
-        "key_risks": [
-          "Negative earnings surprises or guidance cuts from key players",
-          "Further negative sentiment towards cybersecurity stocks due to new AI security tools"
-        ],
-        "valuation_view": "The current valuation remains high, with no significant changes in assumptions that would alter the fair value estimate.",
-        "counterfactuals": [
-          "If multiple AI-focused companies report strong earnings and positive guidance, it could shift market sentiment positively.",
-          "If there are further negative developments related to AI's impact on growth, it could lead to a more bearish outlook."
-        ],
-        "next_checks": [
-          "Earnings reports from Nvidia, CoreWeave, Snowflake, and Salesforce",
-          "Market reaction to Atlassian's new product launch in Jira"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:29:51+09:00",
-      "action": "HOLD",
-      "confidence": 0.8,
-      "rationale": "The current market sentiment is neutral with no strong directional bias, and recent news events do not provide clear catalysts for significant price movement in the short term.",
-      "key_drivers": [
-        "Neutral market regime score (0.2)",
-        "Recent earnings reports from key AI-focused companies are expected to be mixed but may not significantly alter investor sentiment",
-        "Atlassian's product launch is neutral on immediate impact"
-      ],
-      "key_risks": [
-        "Continued AI growth concerns could persist and negatively impact software stocks",
-        "Market volatility due to upcoming earnings reports from major players like Nvidia, Snowflake, CoreWeave, and Salesforce"
-      ],
-      "valuation_view": "The valuation remains strong with a fair value reset, but the recent market conditions suggest caution.",
-      "counterfactuals": [
-        "If AI growth concerns ease significantly in the next week, consider selling",
-        "If any of the upcoming earnings reports from key players show unexpected strength or weakness, reassess position"
-      ],
-      "next_checks": [
-        "Monitor upcoming earnings reports for Nvidia, Snowflake, CoreWeave, and Salesforce to gauge market reaction",
-        "Keep an eye on Atlassian's product launch impact in Jira"
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.8,
-        "rationale": "The current market sentiment is neutral with no strong directional bias, and recent news events do not provide clear catalysts for significant price movement in the short term.",
-        "key_drivers": [
-          "Neutral market regime score (0.2)",
-          "Recent earnings reports from key AI-focused companies are expected to be mixed but may not significantly alter investor sentiment",
-          "Atlassian's product launch is neutral on immediate impact"
-        ],
-        "key_risks": [
-          "Continued AI growth concerns could persist and negatively impact software stocks",
-          "Market volatility due to upcoming earnings reports from major players like Nvidia, Snowflake, CoreWeave, and Salesforce"
-        ],
-        "valuation_view": "The valuation remains strong with a fair value reset, but the recent market conditions suggest caution.",
-        "counterfactuals": [
-          "If AI growth concerns ease significantly in the next week, consider selling",
-          "If any of the upcoming earnings reports from key players show unexpected strength or weakness, reassess position"
-        ],
-        "next_checks": [
-          "Monitor upcoming earnings reports for Nvidia, Snowflake, CoreWeave, and Salesforce to gauge market reaction",
-          "Keep an eye on Atlassian's product launch impact in Jira"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:27:52+09:00",
-      "action": "HOLD",
-      "confidence": 0.374,
-      "rationale": "The current market regime is neutral with a slight bearish bias due to ongoing concerns about AI's impact on growth, as evidenced by recent news events and technical analysis. Recent product launches and earnings reports from key players in the sector have not significantly altered this outlook.",
-      "key_drivers": [
-        "Ongoing investor pessimism regarding AI’s impact on software company growth",
-        "Mixed leadership changes with no clear directional bias"
-      ],
-      "key_risks": [
-        "Potential negative reaction to upcoming earnings reports from major tech companies",
-        "Market sentiment could shift if there are significant breakthroughs or setbacks in AI technology"
-      ],
-      "valuation_view": "The valuation remains strong, but recent guidance adjustments and market dynamics suggest a cautious approach.",
-      "counterfactuals": [
-        "A positive earnings report from a key software company that significantly outperforms expectations",
-        "Significant regulatory changes affecting the AI industry"
-      ],
-      "next_checks": [
-        "Earnings reports from Nvidia, Snowflake, CoreWeave, and Salesforce in the upcoming week",
-        "Market reaction to Atlassian's new product launch and leadership change"
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.374,
-        "rationale": "The current market regime is neutral with a slight bearish bias due to ongoing concerns about AI's impact on growth, as evidenced by recent news events and technical analysis. Recent product launches and earnings reports from key players in the sector have not significantly altered this outlook.",
-        "key_drivers": [
-          "Ongoing investor pessimism regarding AI’s impact on software company growth",
-          "Mixed leadership changes with no clear directional bias"
-        ],
-        "key_risks": [
-          "Potential negative reaction to upcoming earnings reports from major tech companies",
-          "Market sentiment could shift if there are significant breakthroughs or setbacks in AI technology"
-        ],
-        "valuation_view": "The valuation remains strong, but recent guidance adjustments and market dynamics suggest a cautious approach.",
-        "counterfactuals": [
-          "A positive earnings report from a key software company that significantly outperforms expectations",
-          "Significant regulatory changes affecting the AI industry"
-        ],
-        "next_checks": [
-          "Earnings reports from Nvidia, Snowflake, CoreWeave, and Salesforce in the upcoming week",
-          "Market reaction to Atlassian's new product launch and leadership change"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:25:57+09:00",
-      "action": "HOLD",
-      "confidence": 0.8,
-      "rationale": "The current market regime is neutral with a slight bearish tilt due to ongoing concerns about AI's impact on growth. Recent news events, including multiple earnings reports and product launches, do not provide clear directional signals for Atlassian (TEAM). The recent price action and technical analysis suggest a strong bearish sentiment, but the lack of significant news events in the last few days supports holding the current position.",
-      "key_drivers": [
-        "Ongoing AI growth concerns overshadowing positive earnings reports",
-        "Mixed market reaction to product launches without clear immediate impact"
-      ],
-      "key_risks": [
-        "Potential sell-off if AI-related fears intensify further",
-        "Negative earnings surprises from key players in the software sector"
-      ],
-      "valuation_view": "The recent valuation update suggests a tighter narrative around Atlassian's future prospects, but fair value is not yet clear.",
-      "counterfactuals": [
-        "A positive earnings report or product launch that significantly boosts investor sentiment",
-        "A reversal of AI-related fears leading to increased optimism in the tech sector"
-      ],
-      "next_checks": [
-        "Earnings reports from key players like Nvidia, Snowflake, and Salesforce",
-        "Market reaction to Atlassian's new Jira agents feature"
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.8,
-        "rationale": "The current market regime is neutral with a slight bearish tilt due to ongoing concerns about AI's impact on growth. Recent news events, including multiple earnings reports and product launches, do not provide clear directional signals for Atlassian (TEAM). The recent price action and technical analysis suggest a strong bearish sentiment, but the lack of significant news events in the last few days supports holding the current position.",
-        "key_drivers": [
-          "Ongoing AI growth concerns overshadowing positive earnings reports",
-          "Mixed market reaction to product launches without clear immediate impact"
-        ],
-        "key_risks": [
-          "Potential sell-off if AI-related fears intensify further",
-          "Negative earnings surprises from key players in the software sector"
-        ],
-        "valuation_view": "The recent valuation update suggests a tighter narrative around Atlassian's future prospects, but fair value is not yet clear.",
-        "counterfactuals": [
-          "A positive earnings report or product launch that significantly boosts investor sentiment",
-          "A reversal of AI-related fears leading to increased optimism in the tech sector"
-        ],
-        "next_checks": [
-          "Earnings reports from key players like Nvidia, Snowflake, and Salesforce",
-          "Market reaction to Atlassian's new Jira agents feature"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:24:10+09:00",
-      "action": "HOLD",
-      "confidence": 0.7,
-      "rationale": "The recent news events and market sentiment suggest a neutral to slightly bearish outlook for Atlassian (TEAM). While there are no strong catalysts driving an immediate buy or sell, the ongoing concerns about AI's impact on growth and earnings continue to weigh on software stocks. The appointment of a new CFO with LinkedIn experience may provide some stability but does not significantly alter the current market dynamics.",
-      "key_drivers": [
-        "Ongoing investor pessimism regarding AI’s impact on growth",
-        "Mixed news events with no strong positive or negative catalysts"
-      ],
-      "key_risks": [
-        "Continued market volatility due to upcoming earnings reports from key players in the tech sector",
-        "Potential regulatory or competitive challenges that could affect software companies"
-      ],
-      "valuation_view": "The valuation remains high, but recent news events suggest a cautious approach. The fair value reset indicates more conservative revenue growth assumptions.",
-      "counterfactuals": [
-        "If AI concerns ease and positive earnings reports from key tech players improve sentiment, consider a buy recommendation.",
-        "If regulatory or competitive challenges intensify, reconsider the holding stance."
-      ],
-      "next_checks": [
-        "Monitor upcoming earnings reports for Nvidia, Snowflake, CoreWeave, Salesforce to gauge market reaction",
-        "Keep an eye on any regulatory developments that could impact software companies"
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.7,
-        "rationale": "The recent news events and market sentiment suggest a neutral to slightly bearish outlook for Atlassian (TEAM). While there are no strong catalysts driving an immediate buy or sell, the ongoing concerns about AI's impact on growth and earnings continue to weigh on software stocks. The appointment of a new CFO with LinkedIn experience may provide some stability but does not significantly alter the current market dynamics.",
-        "key_drivers": [
-          "Ongoing investor pessimism regarding AI’s impact on growth",
-          "Mixed news events with no strong positive or negative catalysts"
-        ],
-        "key_risks": [
-          "Continued market volatility due to upcoming earnings reports from key players in the tech sector",
-          "Potential regulatory or competitive challenges that could affect software companies"
-        ],
-        "valuation_view": "The valuation remains high, but recent news events suggest a cautious approach. The fair value reset indicates more conservative revenue growth assumptions.",
-        "counterfactuals": [
-          "If AI concerns ease and positive earnings reports from key tech players improve sentiment, consider a buy recommendation.",
-          "If regulatory or competitive challenges intensify, reconsider the holding stance."
-        ],
-        "next_checks": [
-          "Monitor upcoming earnings reports for Nvidia, Snowflake, CoreWeave, Salesforce to gauge market reaction",
-          "Keep an eye on any regulatory developments that could impact software companies"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:22:23+09:00",
-      "action": "HOLD",
-      "confidence": 0.5,
-      "rationale": "The current market regime is neutral with a slight bearish tilt due to ongoing concerns about AI's impact on growth. Recent news events include earnings reports from multiple AI-focused companies, which could lead to volatility but no clear directional bias. The lack of strong positive or negative catalysts in the recent news suggests maintaining the current position.",
-      "key_drivers": [
-        "Neutral market sentiment",
-        "Ongoing concerns about AI's impact on growth",
-        "Mixed earnings reports from key players"
-      ],
-      "key_risks": [
-        "Potential for significant volatility due to upcoming earnings reports",
-        "Uncertainty around new product launches and their long-term impacts"
-      ],
-      "valuation_view": "The valuation remains strong, but recent news events have not provided clear signals to adjust the position.",
-      "counterfactuals": [
-        "If AI growth concerns ease significantly in the next week, consider a buy signal.",
-        "If multiple positive earnings reports from key players lead to a market rally, reassess and potentially increase exposure."
-      ],
-      "next_checks": [
-        "Monitor upcoming earnings reports for Nvidia, Snowflake, CoreWeave, Salesforce",
-        "Evaluate the impact of Atlassian's new product launch on its stock price"
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.5,
-        "rationale": "The current market regime is neutral with a slight bearish tilt due to ongoing concerns about AI's impact on growth. Recent news events include earnings reports from multiple AI-focused companies, which could lead to volatility but no clear directional bias. The lack of strong positive or negative catalysts in the recent news suggests maintaining the current position.",
-        "key_drivers": [
-          "Neutral market sentiment",
-          "Ongoing concerns about AI's impact on growth",
-          "Mixed earnings reports from key players"
-        ],
-        "key_risks": [
-          "Potential for significant volatility due to upcoming earnings reports",
-          "Uncertainty around new product launches and their long-term impacts"
-        ],
-        "valuation_view": "The valuation remains strong, but recent news events have not provided clear signals to adjust the position.",
-        "counterfactuals": [
-          "If AI growth concerns ease significantly in the next week, consider a buy signal.",
-          "If multiple positive earnings reports from key players lead to a market rally, reassess and potentially increase exposure."
-        ],
-        "next_checks": [
-          "Monitor upcoming earnings reports for Nvidia, Snowflake, CoreWeave, Salesforce",
-          "Evaluate the impact of Atlassian's new product launch on its stock price"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:20:35+09:00",
-      "action": "HOLD",
-      "confidence": 0.7,
-      "rationale": "The recent news events and market sentiment indicate a neutral to bearish outlook for software stocks, particularly due to concerns about AI's impact on growth. The lack of strong positive catalysts in the near term supports a hold position.",
-      "key_drivers": [
-        "Widespread investor pessimism regarding AI’s impact on software company growth",
-        "Multiple earnings reports from key players like Nvidia and Salesforce are expected, which could provide more clarity but may not reverse current market sentiment"
-      ],
-      "key_risks": [
-        "Potential negative reaction to earnings reports if they do not meet expectations in the context of ongoing AI concerns",
-        "New product launches by Atlassian might have long-term benefits but immediate impact is uncertain"
-      ],
-      "valuation_view": "The valuation remains strong, with no significant changes in assumptions that would alter the fair value estimate.",
-      "counterfactuals": [
-        "If earnings reports from key players like Nvidia and Salesforce show resilience despite AI concerns, it could shift market sentiment positively",
-        "Positive regulatory developments or breakthroughs in AI technology could also change current pessimism"
-      ],
-      "next_checks": [
-        "Earnings reports from Nvidia, Snowflake, CoreWeave, and Salesforce to gauge the impact of AI on growth expectations",
-        "Further product launch details from Atlassian to assess long-term potential"
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.7,
-        "rationale": "The recent news events and market sentiment indicate a neutral to bearish outlook for software stocks, particularly due to concerns about AI's impact on growth. The lack of strong positive catalysts in the near term supports a hold position.",
-        "key_drivers": [
-          "Widespread investor pessimism regarding AI’s impact on software company growth",
-          "Multiple earnings reports from key players like Nvidia and Salesforce are expected, which could provide more clarity but may not reverse current market sentiment"
-        ],
-        "key_risks": [
-          "Potential negative reaction to earnings reports if they do not meet expectations in the context of ongoing AI concerns",
-          "New product launches by Atlassian might have long-term benefits but immediate impact is uncertain"
-        ],
-        "valuation_view": "The valuation remains strong, with no significant changes in assumptions that would alter the fair value estimate.",
-        "counterfactuals": [
-          "If earnings reports from key players like Nvidia and Salesforce show resilience despite AI concerns, it could shift market sentiment positively",
-          "Positive regulatory developments or breakthroughs in AI technology could also change current pessimism"
-        ],
-        "next_checks": [
-          "Earnings reports from Nvidia, Snowflake, CoreWeave, and Salesforce to gauge the impact of AI on growth expectations",
-          "Further product launch details from Atlassian to assess long-term potential"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:18:49+09:00",
-      "action": "HOLD",
-      "confidence": 0.85,
-      "rationale": "The current market regime is neutral with a slight bearish tilt due to ongoing concerns about AI's impact on growth across the tech sector. Recent news events, including earnings reports from key players like Nvidia and Salesforce, do not provide clear directional signals. The recent price action and valuation metrics suggest that the stock is fairly valued at its current level.",
-      "key_drivers": [
-        "Neutral market sentiment",
-        "Ongoing AI growth concerns",
-        "Mixed earnings reports"
-      ],
-      "key_risks": [
-        "Potential negative impact from upcoming earnings reports",
-        "Increased volatility in tech stocks due to AI developments"
-      ],
-      "valuation_view": "The stock is currently fairly valued, with recent guidance and product launches not significantly altering the valuation outlook.",
-      "counterfactuals": [
-        "A strong positive earnings report from Nvidia or Salesforce could shift sentiment positively.",
-        "Significant regulatory changes impacting AI technology could lead to a market-wide sell-off."
-      ],
-      "next_checks": [
-        "Earnings reports from key tech companies",
-        "Further developments in the AI sector"
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.85,
-        "rationale": "The current market regime is neutral with a slight bearish tilt due to ongoing concerns about AI's impact on growth across the tech sector. Recent news events, including earnings reports from key players like Nvidia and Salesforce, do not provide clear directional signals. The recent price action and valuation metrics suggest that the stock is fairly valued at its current level.",
-        "key_drivers": [
-          "Neutral market sentiment",
-          "Ongoing AI growth concerns",
-          "Mixed earnings reports"
-        ],
-        "key_risks": [
-          "Potential negative impact from upcoming earnings reports",
-          "Increased volatility in tech stocks due to AI developments"
-        ],
-        "valuation_view": "The stock is currently fairly valued, with recent guidance and product launches not significantly altering the valuation outlook.",
-        "counterfactuals": [
-          "A strong positive earnings report from Nvidia or Salesforce could shift sentiment positively.",
-          "Significant regulatory changes impacting AI technology could lead to a market-wide sell-off."
-        ],
-        "next_checks": [
-          "Earnings reports from key tech companies",
-          "Further developments in the AI sector"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:17:02+09:00",
-      "action": "HOLD",
-      "confidence": 0.7,
-      "rationale": "The current market regime is neutral with a slight bearish bias due to ongoing concerns about AI's impact on growth, which overshadow positive earnings reports from software companies. Recent news events include multiple AI-focused companies reporting earnings and Atlassian introducing new agents in Jira, but the immediate market reaction remains uncertain.",
-      "key_drivers": [
-        "Ongoing investor pessimism regarding AI’s impact on growth",
-        "Mixed sentiment around upcoming earnings reports for Nvidia, Snowflake, CoreWeave, Salesforce"
-      ],
-      "key_risks": [
-        "Potential negative reactions to earnings from key software companies like Workday and Salesforce",
-        "Uncertainty surrounding the market reception of Atlassian's new product launch"
-      ],
-      "valuation_view": "The valuation remains strong with a fair value reset, but the current market sentiment is bearish.",
-      "counterfactuals": [
-        "A positive earnings report from a major software company could shift market sentiment",
-        "Positive reactions to AI-focused products like Atlassian's new agents in Jira"
-      ],
-      "next_checks": [
-        "Earnings reports from Nvidia, Snowflake, CoreWeave, and Salesforce",
-        "Market reaction to Atlassian’s new product launch"
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.7,
-        "rationale": "The current market regime is neutral with a slight bearish bias due to ongoing concerns about AI's impact on growth, which overshadow positive earnings reports from software companies. Recent news events include multiple AI-focused companies reporting earnings and Atlassian introducing new agents in Jira, but the immediate market reaction remains uncertain.",
-        "key_drivers": [
-          "Ongoing investor pessimism regarding AI’s impact on growth",
-          "Mixed sentiment around upcoming earnings reports for Nvidia, Snowflake, CoreWeave, Salesforce"
-        ],
-        "key_risks": [
-          "Potential negative reactions to earnings from key software companies like Workday and Salesforce",
-          "Uncertainty surrounding the market reception of Atlassian's new product launch"
-        ],
-        "valuation_view": "The valuation remains strong with a fair value reset, but the current market sentiment is bearish.",
-        "counterfactuals": [
-          "A positive earnings report from a major software company could shift market sentiment",
-          "Positive reactions to AI-focused products like Atlassian's new agents in Jira"
-        ],
-        "next_checks": [
-          "Earnings reports from Nvidia, Snowflake, CoreWeave, and Salesforce",
-          "Market reaction to Atlassian’s new product launch"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:15:20+09:00",
-      "action": "HOLD",
-      "confidence": 0.7,
-      "rationale": "The recent news and market sentiment indicate a strong bearish trend in the software sector, particularly due to concerns about AI's impact on growth. Atlassian’s new CFO appointment is neutral for now, but the overall market environment remains challenging.",
-      "key_drivers": [
-        "AI's persistent drag on growth",
-        "Negative earnings reports from multiple software companies"
-      ],
-      "key_risks": [
-        "Potential regulatory or technological challenges in AI integration",
-        "Market sentiment could remain negative despite positive product launches"
-      ],
-      "valuation_view": "The valuation remains high, with no clear assumptions that have changed significantly. The fair value is not yet available.",
-      "counterfactuals": [
-        "A strong earnings report from a major software company could shift market sentiment positively",
-        "Significant regulatory approval or breakthrough in AI technology could improve the outlook"
-      ],
-      "next_checks": [
-        "Earnings reports from Nvidia, CoreWeave, Snowflake and Salesforce to gauge market reaction",
-        "Further developments on AI integration and its impact on enterprise software"
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.7,
-        "rationale": "The recent news and market sentiment indicate a strong bearish trend in the software sector, particularly due to concerns about AI's impact on growth. Atlassian’s new CFO appointment is neutral for now, but the overall market environment remains challenging.",
-        "key_drivers": [
-          "AI's persistent drag on growth",
-          "Negative earnings reports from multiple software companies"
-        ],
-        "key_risks": [
-          "Potential regulatory or technological challenges in AI integration",
-          "Market sentiment could remain negative despite positive product launches"
-        ],
-        "valuation_view": "The valuation remains high, with no clear assumptions that have changed significantly. The fair value is not yet available.",
-        "counterfactuals": [
-          "A strong earnings report from a major software company could shift market sentiment positively",
-          "Significant regulatory approval or breakthrough in AI technology could improve the outlook"
-        ],
-        "next_checks": [
-          "Earnings reports from Nvidia, CoreWeave, Snowflake and Salesforce to gauge market reaction",
-          "Further developments on AI integration and its impact on enterprise software"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:13:43+09:00",
-      "action": "HOLD",
-      "confidence": 0.8,
-      "rationale": "The current market sentiment remains neutral with a slight bearish bias due to ongoing concerns about AI's impact on growth. Recent news events, including earnings reports from multiple software companies and the introduction of new products by Atlassian, do not provide strong directional signals. The recent price action suggests that investors are cautious, aligning with the current market regime.",
-      "key_drivers": [
-        "Ongoing concerns about AI's impact on growth",
-        "Mixed news events without clear directional signals"
-      ],
-      "key_risks": [
-        "Potential negative earnings reports from key software companies",
-        "Further developments in AI technology and its implications for the industry"
-      ],
-      "valuation_view": "The valuation remains high, with no significant changes in assumptions that would alter the current fair value estimate.",
-      "counterfactuals": [
-        "If positive earnings reports from key software companies significantly boost investor sentiment, it could shift to a buy signal.",
-        "If AI technology developments lead to widespread adoption or regulatory concerns, it could further impact market sentiment."
-      ],
-      "next_checks": [
-        "Earnings reports from Nvidia, CoreWeave, Snowflake and Salesforce",
-        "Further product launches by Atlassian and their reception in the market"
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.8,
-        "rationale": "The current market sentiment remains neutral with a slight bearish bias due to ongoing concerns about AI's impact on growth. Recent news events, including earnings reports from multiple software companies and the introduction of new products by Atlassian, do not provide strong directional signals. The recent price action suggests that investors are cautious, aligning with the current market regime.",
-        "key_drivers": [
-          "Ongoing concerns about AI's impact on growth",
-          "Mixed news events without clear directional signals"
-        ],
-        "key_risks": [
-          "Potential negative earnings reports from key software companies",
-          "Further developments in AI technology and its implications for the industry"
-        ],
-        "valuation_view": "The valuation remains high, with no significant changes in assumptions that would alter the current fair value estimate.",
-        "counterfactuals": [
-          "If positive earnings reports from key software companies significantly boost investor sentiment, it could shift to a buy signal.",
-          "If AI technology developments lead to widespread adoption or regulatory concerns, it could further impact market sentiment."
-        ],
-        "next_checks": [
-          "Earnings reports from Nvidia, CoreWeave, Snowflake and Salesforce",
-          "Further product launches by Atlassian and their reception in the market"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:11:38+09:00",
-      "action": "HOLD",
-      "confidence": 0.8,
-      "rationale": "The current market regime is neutral with a slight bearish bias due to ongoing concerns about AI's impact on growth. Recent news events, including earnings reports and product launches, have not significantly altered the market sentiment towards Atlassian (TEAM). The recent price action and technical analysis suggest a strong bearish trend, but the lack of significant catalysts in the near term supports a hold strategy.",
-      "key_drivers": [
-        "Ongoing AI concerns dampening investor sentiment",
-        "Mixed earnings reports from key tech companies",
-        "New product launches with uncertain market impact"
-      ],
-      "key_risks": [
-        "Further negative earnings surprises from major tech firms",
-        "Increased regulatory scrutiny on AI technologies",
-        "Market-wide sell-off due to broader economic concerns"
-      ],
-      "valuation_view": "The recent fair value reset by Atlassian suggests a more conservative outlook, but the current price is still within a reasonable range given the market conditions.",
-      "counterfactuals": [
-        "A strong positive earnings report from a major tech company could shift sentiment",
-        "Significant regulatory action on AI technologies could exacerbate market concerns"
-      ],
-      "next_checks": [
-        "Earnings reports from Nvidia, CoreWeave, Snowflake and Salesforce",
-        "Regulatory updates related to AI technologies",
-        "Market-wide economic indicators for signs of broader sell-off"
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.8,
-        "rationale": "The current market regime is neutral with a slight bearish bias due to ongoing concerns about AI's impact on growth. Recent news events, including earnings reports and product launches, have not significantly altered the market sentiment towards Atlassian (TEAM). The recent price action and technical analysis suggest a strong bearish trend, but the lack of significant catalysts in the near term supports a hold strategy.",
-        "key_drivers": [
-          "Ongoing AI concerns dampening investor sentiment",
-          "Mixed earnings reports from key tech companies",
-          "New product launches with uncertain market impact"
-        ],
-        "key_risks": [
-          "Further negative earnings surprises from major tech firms",
-          "Increased regulatory scrutiny on AI technologies",
-          "Market-wide sell-off due to broader economic concerns"
-        ],
-        "valuation_view": "The recent fair value reset by Atlassian suggests a more conservative outlook, but the current price is still within a reasonable range given the market conditions.",
-        "counterfactuals": [
-          "A strong positive earnings report from a major tech company could shift sentiment",
-          "Significant regulatory action on AI technologies could exacerbate market concerns"
-        ],
-        "next_checks": [
-          "Earnings reports from Nvidia, CoreWeave, Snowflake and Salesforce",
-          "Regulatory updates related to AI technologies",
-          "Market-wide economic indicators for signs of broader sell-off"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:09:46+09:00",
-      "action": "HOLD",
-      "confidence": 0.8,
-      "rationale": "The current market regime is neutral with a slight bearish bias due to ongoing concerns about AI's impact on growth. Recent news events, including earnings reports from key players in the AI space and leadership changes at Atlassian, have not provided clear directional signals. The recent price action suggests that investors are cautious, but there are no significant catalysts expected in the near term.",
-      "key_drivers": [
-        "Ongoing concerns about AI's impact on growth",
-        "Mixed earnings reports from key players in the AI space",
-        "Leadership change at Atlassian with potential long-term benefits"
-      ],
-      "key_risks": [
-        "Negative earnings surprises from major tech companies",
-        "Further deterioration of market sentiment towards AI-focused stocks",
-        "Uncertainty around new product launches and their market reception"
-      ],
-      "valuation_view": "The valuation remains high, but recent news events have not provided clear signals to adjust the fair value estimate. The current price reflects a cautious investor sentiment.",
-      "counterfactuals": [
-        "If AI growth concerns ease significantly in the next few weeks, leading to positive earnings reports from key players, this could signal a shift towards a bullish market regime.",
-        "A strong product launch by Atlassian that gains immediate market traction could provide a buying opportunity."
-      ],
-      "next_checks": [
-        "Earnings reports and guidance from Nvidia, Snowflake, CoreWeave, and Salesforce",
-        "Market reaction to new AI products launched by key players in the space"
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.8,
-        "rationale": "The current market regime is neutral with a slight bearish bias due to ongoing concerns about AI's impact on growth. Recent news events, including earnings reports from key players in the AI space and leadership changes at Atlassian, have not provided clear directional signals. The recent price action suggests that investors are cautious, but there are no significant catalysts expected in the near term.",
-        "key_drivers": [
-          "Ongoing concerns about AI's impact on growth",
-          "Mixed earnings reports from key players in the AI space",
-          "Leadership change at Atlassian with potential long-term benefits"
-        ],
-        "key_risks": [
-          "Negative earnings surprises from major tech companies",
-          "Further deterioration of market sentiment towards AI-focused stocks",
-          "Uncertainty around new product launches and their market reception"
-        ],
-        "valuation_view": "The valuation remains high, but recent news events have not provided clear signals to adjust the fair value estimate. The current price reflects a cautious investor sentiment.",
-        "counterfactuals": [
-          "If AI growth concerns ease significantly in the next few weeks, leading to positive earnings reports from key players, this could signal a shift towards a bullish market regime.",
-          "A strong product launch by Atlassian that gains immediate market traction could provide a buying opportunity."
-        ],
-        "next_checks": [
-          "Earnings reports and guidance from Nvidia, Snowflake, CoreWeave, and Salesforce",
-          "Market reaction to new AI products launched by key players in the space"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:07:54+09:00",
-      "action": "HOLD",
-      "confidence": 0.7,
-      "rationale": "The recent news events suggest a mixed but generally bearish sentiment towards AI and software stocks, with no strong catalysts for significant price movement in the short term. The market is currently experiencing volatility due to earnings reports from multiple companies, including Nvidia, Snowflake, and Salesforce. Atlassian's product launch may have long-term benefits but lacks immediate market impact.",
-      "key_drivers": [
-        "Mixed sentiment on AI-focused stocks",
-        "Earnings reports from key players like Nvidia, Snowflake, and Salesforce",
-        "Atlassian's product launch with uncertain short-term impact"
-      ],
-      "key_risks": [
-        "Continued bearish sentiment due to concerns about AI’s impact on growth",
-        "Potential negative earnings surprises from upcoming reports",
-        "Market-wide volatility affecting all tech stocks"
-      ],
-      "valuation_view": "The current valuation does not provide a clear signal, with the recent fair value reset reflecting more conservative revenue growth assumptions.",
-      "counterfactuals": [
-        "A strong positive earnings report from Nvidia or Snowflake could shift sentiment",
-        "Significant regulatory changes affecting AI technology",
-        "A major breakthrough in AI that alters market dynamics"
-      ],
-      "next_checks": [
-        "Earnings reports from key tech companies (Nvidia, Snowflake, Salesforce)",
-        "Market-wide reaction to Atlassian's product launch and leadership change",
-        "Further developments in the AI sector and their impact on related stocks"
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.7,
-        "rationale": "The recent news events suggest a mixed but generally bearish sentiment towards AI and software stocks, with no strong catalysts for significant price movement in the short term. The market is currently experiencing volatility due to earnings reports from multiple companies, including Nvidia, Snowflake, and Salesforce. Atlassian's product launch may have long-term benefits but lacks immediate market impact.",
-        "key_drivers": [
-          "Mixed sentiment on AI-focused stocks",
-          "Earnings reports from key players like Nvidia, Snowflake, and Salesforce",
-          "Atlassian's product launch with uncertain short-term impact"
-        ],
-        "key_risks": [
-          "Continued bearish sentiment due to concerns about AI’s impact on growth",
-          "Potential negative earnings surprises from upcoming reports",
-          "Market-wide volatility affecting all tech stocks"
-        ],
-        "valuation_view": "The current valuation does not provide a clear signal, with the recent fair value reset reflecting more conservative revenue growth assumptions.",
-        "counterfactuals": [
-          "A strong positive earnings report from Nvidia or Snowflake could shift sentiment",
-          "Significant regulatory changes affecting AI technology",
-          "A major breakthrough in AI that alters market dynamics"
-        ],
-        "next_checks": [
-          "Earnings reports from key tech companies (Nvidia, Snowflake, Salesforce)",
-          "Market-wide reaction to Atlassian's product launch and leadership change",
-          "Further developments in the AI sector and their impact on related stocks"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:06:01+09:00",
-      "action": "HOLD",
-      "confidence": 0.8,
-      "rationale": "The current market regime is neutral with a slight bearish bias due to ongoing concerns about AI's impact on growth. Recent news events, including earnings reports from key players in the AI space and leadership changes at Atlassian, do not provide clear directional signals. The recent price action suggests that investors are cautious, aligning with the current trading plan.",
-      "key_drivers": [
-        "Ongoing concerns about AI's impact on growth",
-        "Mixed sentiment around earnings reports from key players in the AI space",
-        "Leadership change at Atlassian without clear directional bias"
-      ],
-      "key_risks": [
-        "Potential negative reaction to upcoming earnings reports from Nvidia, CoreWeave, Snowflake and Salesforce",
-        "Market-wide concerns about AI's impact on software stocks could continue to pressure prices"
-      ],
-      "valuation_view": "The valuation remains high with no recent changes in key assumptions. The fair value is not currently calculable due to the lack of updated data.",
-      "counterfactuals": [
-        "A strong positive earnings report from Nvidia or Snowflake could shift sentiment",
-        "Significant regulatory developments related to AI could impact market perceptions"
-      ],
-      "next_checks": [
-        "Earnings reports from key players in the AI space (Nvidia, CoreWeave, Snowflake and Salesforce)",
-        "Further leadership changes at major tech companies that may affect investor sentiment"
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.8,
-        "rationale": "The current market regime is neutral with a slight bearish bias due to ongoing concerns about AI's impact on growth. Recent news events, including earnings reports from key players in the AI space and leadership changes at Atlassian, do not provide clear directional signals. The recent price action suggests that investors are cautious, aligning with the current trading plan.",
-        "key_drivers": [
-          "Ongoing concerns about AI's impact on growth",
-          "Mixed sentiment around earnings reports from key players in the AI space",
-          "Leadership change at Atlassian without clear directional bias"
-        ],
-        "key_risks": [
-          "Potential negative reaction to upcoming earnings reports from Nvidia, CoreWeave, Snowflake and Salesforce",
-          "Market-wide concerns about AI's impact on software stocks could continue to pressure prices"
-        ],
-        "valuation_view": "The valuation remains high with no recent changes in key assumptions. The fair value is not currently calculable due to the lack of updated data.",
-        "counterfactuals": [
-          "A strong positive earnings report from Nvidia or Snowflake could shift sentiment",
-          "Significant regulatory developments related to AI could impact market perceptions"
-        ],
-        "next_checks": [
-          "Earnings reports from key players in the AI space (Nvidia, CoreWeave, Snowflake and Salesforce)",
-          "Further leadership changes at major tech companies that may affect investor sentiment"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:04:05+09:00",
-      "action": "HOLD",
-      "confidence": 0.6,
-      "rationale": "The recent news events indicate a mixed sentiment with no strong directional bias. The market is currently experiencing volatility due to AI-related earnings reports and product launches, but the overall trend remains bearish as concerns about AI's impact on growth persist.",
-      "key_drivers": [
-        "Mixed news events with neutral to slightly bearish sentiments",
-        "No significant positive catalysts in recent news"
-      ],
-      "key_risks": [
-        "Potential negative impact from upcoming earnings reports, particularly for AI-focused companies like Nvidia and Snowflake",
-        "Continued market pessimism regarding AI's effect on growth"
-      ],
-      "valuation_view": "The current valuation remains strong, but the market sentiment is bearish. The recent fair value reset to $177.85 reflects more conservative assumptions.",
-      "counterfactuals": [
-        "A positive earnings report from a major AI company could shift market sentiment",
-        "Significant regulatory or policy changes related to AI could impact stock prices"
-      ],
-      "next_checks": [
-        "Earnings reports from Nvidia, Snowflake, and other key players in the AI space",
-        "Market reaction to Atlassian's new product launch and leadership change"
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.6,
-        "rationale": "The recent news events indicate a mixed sentiment with no strong directional bias. The market is currently experiencing volatility due to AI-related earnings reports and product launches, but the overall trend remains bearish as concerns about AI's impact on growth persist.",
-        "key_drivers": [
-          "Mixed news events with neutral to slightly bearish sentiments",
-          "No significant positive catalysts in recent news"
-        ],
-        "key_risks": [
-          "Potential negative impact from upcoming earnings reports, particularly for AI-focused companies like Nvidia and Snowflake",
-          "Continued market pessimism regarding AI's effect on growth"
-        ],
-        "valuation_view": "The current valuation remains strong, but the market sentiment is bearish. The recent fair value reset to $177.85 reflects more conservative assumptions.",
-        "counterfactuals": [
-          "A positive earnings report from a major AI company could shift market sentiment",
-          "Significant regulatory or policy changes related to AI could impact stock prices"
-        ],
-        "next_checks": [
-          "Earnings reports from Nvidia, Snowflake, and other key players in the AI space",
-          "Market reaction to Atlassian's new product launch and leadership change"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:02:18+09:00",
-      "action": "HOLD",
-      "confidence": 0.7,
-      "rationale": "The recent news events and market regime suggest a neutral stance with no strong bullish or bearish signals. The AI sector remains volatile, with earnings reports from key players like Nvidia and Salesforce due soon, which could impact share prices. Atlassian's new CFO appointment is neutral in sentiment but lacks clear directional bias. The overall market regime indicates a slight bearish trend, but the recent price action suggests a holding position.",
-      "key_drivers": [
-        "Earnings reports from key AI-focused companies like Nvidia and Salesforce",
-        "Atlassian's product launch with potential long-term benefits",
-        "Widespread investor pessimism due to AI’s impact on growth"
-      ],
-      "key_risks": [
-        "Upcoming earnings results could lead to significant price volatility",
-        "Market sentiment towards AI stocks remains bearish",
-        "Leadership changes in key companies may have unpredictable impacts"
-      ],
-      "valuation_view": "The recent valuation update did not provide a clear fair value, indicating that the current market dynamics are complex and require further analysis.",
-      "counterfactuals": [
-        "If Nvidia or Salesforce reports strong earnings with positive guidance on AI integration, it could shift sentiment positively",
-        "A significant regulatory change in the AI sector could alter the landscape for all companies involved"
-      ],
-      "next_checks": [
-        "Monitor upcoming earnings reports from key players like Nvidia and Salesforce",
-        "Assess market reaction to Atlassian's product launch and leadership changes",
-        "Evaluate broader market trends and sentiment towards AI stocks"
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.7,
-        "rationale": "The recent news events and market regime suggest a neutral stance with no strong bullish or bearish signals. The AI sector remains volatile, with earnings reports from key players like Nvidia and Salesforce due soon, which could impact share prices. Atlassian's new CFO appointment is neutral in sentiment but lacks clear directional bias. The overall market regime indicates a slight bearish trend, but the recent price action suggests a holding position.",
-        "key_drivers": [
-          "Earnings reports from key AI-focused companies like Nvidia and Salesforce",
-          "Atlassian's product launch with potential long-term benefits",
-          "Widespread investor pessimism due to AI’s impact on growth"
-        ],
-        "key_risks": [
-          "Upcoming earnings results could lead to significant price volatility",
-          "Market sentiment towards AI stocks remains bearish",
-          "Leadership changes in key companies may have unpredictable impacts"
-        ],
-        "valuation_view": "The recent valuation update did not provide a clear fair value, indicating that the current market dynamics are complex and require further analysis.",
-        "counterfactuals": [
-          "If Nvidia or Salesforce reports strong earnings with positive guidance on AI integration, it could shift sentiment positively",
-          "A significant regulatory change in the AI sector could alter the landscape for all companies involved"
-        ],
-        "next_checks": [
-          "Monitor upcoming earnings reports from key players like Nvidia and Salesforce",
-          "Assess market reaction to Atlassian's product launch and leadership changes",
-          "Evaluate broader market trends and sentiment towards AI stocks"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T04:00:26+09:00",
-      "action": "HOLD",
-      "confidence": 0.8,
-      "rationale": "The current market regime is neutral with a slight bearish bias due to ongoing concerns about AI's impact on growth. Recent news events, including earnings reports from key players in the AI and software sectors, are expected to have mixed but generally negative sentiment. The lack of strong bullish catalysts and the presence of significant bearish factors suggest maintaining the current position.",
-      "key_drivers": [
-        "Ongoing concerns about AI's impact on growth",
-        "Mixed earnings reports from key players in the AI and software sectors",
-        "Leadership changes with limited clear directional bias"
-      ],
-      "key_risks": [
-        "Negative earnings surprises from major tech companies",
-        "Further deterioration of market sentiment towards AI-focused stocks",
-        "Emergence of strong bearish news events"
-      ],
-      "valuation_view": "The valuation remains high, but recent guidance adjustments suggest a more conservative outlook. The fair value is not yet clear due to the lack of specific metrics.",
-      "counterfactuals": [
-        "A positive earnings report from a major tech company could shift market sentiment",
-        "Significant regulatory or policy changes impacting AI development and adoption"
-      ],
-      "next_checks": [
-        "Earnings reports from Nvidia, Snowflake, CoreWeave, Salesforce, and other key players in the AI sector",
-        "Further developments in AI regulations and policies",
-        "Leadership announcements or strategic moves by Atlassian"
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.8,
-        "rationale": "The current market regime is neutral with a slight bearish bias due to ongoing concerns about AI's impact on growth. Recent news events, including earnings reports from key players in the AI and software sectors, are expected to have mixed but generally negative sentiment. The lack of strong bullish catalysts and the presence of significant bearish factors suggest maintaining the current position.",
-        "key_drivers": [
-          "Ongoing concerns about AI's impact on growth",
-          "Mixed earnings reports from key players in the AI and software sectors",
-          "Leadership changes with limited clear directional bias"
-        ],
-        "key_risks": [
-          "Negative earnings surprises from major tech companies",
-          "Further deterioration of market sentiment towards AI-focused stocks",
-          "Emergence of strong bearish news events"
-        ],
-        "valuation_view": "The valuation remains high, but recent guidance adjustments suggest a more conservative outlook. The fair value is not yet clear due to the lack of specific metrics.",
-        "counterfactuals": [
-          "A positive earnings report from a major tech company could shift market sentiment",
-          "Significant regulatory or policy changes impacting AI development and adoption"
-        ],
-        "next_checks": [
-          "Earnings reports from Nvidia, Snowflake, CoreWeave, Salesforce, and other key players in the AI sector",
-          "Further developments in AI regulations and policies",
-          "Leadership announcements or strategic moves by Atlassian"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:58:34+09:00",
-      "action": "HOLD",
-      "confidence": 0.8,
-      "rationale": "The current market regime is neutral with a slight bearish bias, and recent news events suggest mixed sentiments without strong directional signals. The lack of significant positive catalysts, coupled with ongoing concerns about AI's impact on growth, suggests maintaining the current position.",
-      "key_drivers": [
-        "Neutral market sentiment",
-        "Mixed earnings reports from key players in the AI sector",
-        "Ongoing investor pessimism regarding AI's impact on software growth"
-      ],
-      "key_risks": [
-        "Potential negative reaction to upcoming earnings reports from major tech companies",
-        "Increased regulatory scrutiny or policy changes affecting AI technologies"
-      ],
-      "valuation_view": "The valuation remains high, but recent guidance adjustments indicate a more conservative outlook. The fair value is not explicitly provided due to the lack of specific financial data.",
-      "counterfactuals": [
-        "A strong positive earnings report from a major tech company could shift sentiment and warrant a re-evaluation",
-        "Significant policy changes or regulatory actions affecting AI technologies could alter market dynamics"
-      ],
-      "next_checks": [
-        "Earnings reports from Nvidia, Snowflake, CoreWeave, Salesforce, and other key players in the AI sector",
-        "Regulatory updates on AI technology and its impact on the industry"
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.8,
-        "rationale": "The current market regime is neutral with a slight bearish bias, and recent news events suggest mixed sentiments without strong directional signals. The lack of significant positive catalysts, coupled with ongoing concerns about AI's impact on growth, suggests maintaining the current position.",
-        "key_drivers": [
-          "Neutral market sentiment",
-          "Mixed earnings reports from key players in the AI sector",
-          "Ongoing investor pessimism regarding AI's impact on software growth"
-        ],
-        "key_risks": [
-          "Potential negative reaction to upcoming earnings reports from major tech companies",
-          "Increased regulatory scrutiny or policy changes affecting AI technologies"
-        ],
-        "valuation_view": "The valuation remains high, but recent guidance adjustments indicate a more conservative outlook. The fair value is not explicitly provided due to the lack of specific financial data.",
-        "counterfactuals": [
-          "A strong positive earnings report from a major tech company could shift sentiment and warrant a re-evaluation",
-          "Significant policy changes or regulatory actions affecting AI technologies could alter market dynamics"
-        ],
-        "next_checks": [
-          "Earnings reports from Nvidia, Snowflake, CoreWeave, Salesforce, and other key players in the AI sector",
-          "Regulatory updates on AI technology and its impact on the industry"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:56:29+09:00",
-      "action": "HOLD",
-      "confidence": 0.7,
-      "rationale": "The current market sentiment remains neutral with no strong directional bias. Recent news events include earnings reports from multiple AI-focused companies, which could impact share prices but are currently balanced. The recent price action and technical analysis suggest a bearish trend, but the lack of significant news events in the past few days supports maintaining a neutral position.",
-      "key_drivers": [
-        "Neutral market sentiment with no strong directional bias",
-        "Balanced earnings reports from AI-focused companies"
-      ],
-      "key_risks": [
-        "Potential impact from upcoming earnings reports and product launches",
-        "Widespread investor pessimism regarding AI's impact on growth"
-      ],
-      "valuation_view": "The valuation remains high, with no significant changes in assumptions that would alter the fair value estimate.",
-      "counterfactuals": [
-        "A strong positive earnings report from a major company could shift sentiment and warrant a buy signal",
-        "Significant news events or product launches with clear market impact could change the current neutral stance"
-      ],
-      "next_checks": [
-        "Earnings reports from Nvidia, CoreWeave, Snowflake, and Salesforce in the coming days",
-        "Market reaction to Atlassian's new product launch and leadership changes"
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.7,
-        "rationale": "The current market sentiment remains neutral with no strong directional bias. Recent news events include earnings reports from multiple AI-focused companies, which could impact share prices but are currently balanced. The recent price action and technical analysis suggest a bearish trend, but the lack of significant news events in the past few days supports maintaining a neutral position.",
-        "key_drivers": [
-          "Neutral market sentiment with no strong directional bias",
-          "Balanced earnings reports from AI-focused companies"
-        ],
-        "key_risks": [
-          "Potential impact from upcoming earnings reports and product launches",
-          "Widespread investor pessimism regarding AI's impact on growth"
-        ],
-        "valuation_view": "The valuation remains high, with no significant changes in assumptions that would alter the fair value estimate.",
-        "counterfactuals": [
-          "A strong positive earnings report from a major company could shift sentiment and warrant a buy signal",
-          "Significant news events or product launches with clear market impact could change the current neutral stance"
-        ],
-        "next_checks": [
-          "Earnings reports from Nvidia, CoreWeave, Snowflake, and Salesforce in the coming days",
-          "Market reaction to Atlassian's new product launch and leadership changes"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:54:40+09:00",
-      "action": "HOLD",
-      "confidence": 0.8,
-      "rationale": "The current market regime and recent news events suggest a neutral stance with no strong directional bias. The recent volatility in AI stocks, driven by earnings reports and product launches, indicates that the market is sensitive to both positive and negative developments. However, the overall sentiment remains bearish due to ongoing concerns about AI's impact on growth. Given the lack of significant catalysts and the existing bearish sentiment, a hold position appears prudent.",
-      "key_drivers": [
-        "Neutral market regime with no recent strong news events",
-        "Bearing in mind the ongoing concerns about AI’s impact on growth",
-        "Earnings reports from key players like Nvidia, Snowflake, CoreWeave, and Salesforce are due, which could provide clearer direction"
-      ],
-      "key_risks": [
-        "Potential for significant market movement based on upcoming earnings reports",
-        "Uncertainty around the long-term implications of AI on various sectors"
-      ],
-      "valuation_view": "The valuation remains strong but is currently under pressure from broader market sentiment. The recent fair value reset to $177.85 reflects more conservative growth assumptions, which aligns with current market conditions.",
-      "counterfactuals": [
-        "If AI-related earnings reports show significant positive surprises, this could shift the market sentiment and warrant a re-evaluation of the position.",
-        "A substantial decline in AI-focused stocks could indicate broader market concerns that might require a more cautious approach."
-      ],
-      "next_checks": [
-        "Monitor upcoming earnings reports from key players like Nvidia, Snowflake, CoreWeave, and Salesforce for any significant shifts in sentiment or performance.",
-        "Keep an eye on broader market trends and how they may impact the AI sector."
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.8,
-        "rationale": "The current market regime and recent news events suggest a neutral stance with no strong directional bias. The recent volatility in AI stocks, driven by earnings reports and product launches, indicates that the market is sensitive to both positive and negative developments. However, the overall sentiment remains bearish due to ongoing concerns about AI's impact on growth. Given the lack of significant catalysts and the existing bearish sentiment, a hold position appears prudent.",
-        "key_drivers": [
-          "Neutral market regime with no recent strong news events",
-          "Bearing in mind the ongoing concerns about AI’s impact on growth",
-          "Earnings reports from key players like Nvidia, Snowflake, CoreWeave, and Salesforce are due, which could provide clearer direction"
-        ],
-        "key_risks": [
-          "Potential for significant market movement based on upcoming earnings reports",
-          "Uncertainty around the long-term implications of AI on various sectors"
-        ],
-        "valuation_view": "The valuation remains strong but is currently under pressure from broader market sentiment. The recent fair value reset to $177.85 reflects more conservative growth assumptions, which aligns with current market conditions.",
-        "counterfactuals": [
-          "If AI-related earnings reports show significant positive surprises, this could shift the market sentiment and warrant a re-evaluation of the position.",
-          "A substantial decline in AI-focused stocks could indicate broader market concerns that might require a more cautious approach."
-        ],
-        "next_checks": [
-          "Monitor upcoming earnings reports from key players like Nvidia, Snowflake, CoreWeave, and Salesforce for any significant shifts in sentiment or performance.",
-          "Keep an eye on broader market trends and how they may impact the AI sector."
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:52:43+09:00",
-      "action": "HOLD",
-      "confidence": 0.7,
-      "rationale": "The recent news and market sentiment suggest a neutral to slightly bearish outlook for Atlassian (TEAM) shares, with key factors including ongoing concerns about AI's impact on growth and mixed leadership changes in the company. The current valuation and technical analysis also support a hold strategy.",
-      "key_drivers": [
-        "Ongoing investor pessimism regarding AI’s drag on software growth",
-        "Mixed market reaction to leadership changes at Atlassian"
-      ],
-      "key_risks": [
-        "Potential negative earnings reports from key tech companies this week",
-        "Market-wide concerns about the long-term impact of AI on various industries"
-      ],
-      "valuation_view": "The recent fair value reset reflects more conservative growth assumptions, but current market conditions suggest a neutral valuation.",
-      "counterfactuals": [
-        "A strong positive earnings report from Atlassian or other key tech companies could shift sentiment positively.",
-        "Significant regulatory changes impacting AI development and adoption could alter the market outlook."
-      ],
-      "next_checks": [
-        "Earnings reports from Nvidia, Snowflake, CoreWeave, Salesforce, and other major tech firms",
-        "Further developments in AI technology and its impact on various industries"
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.7,
-        "rationale": "The recent news and market sentiment suggest a neutral to slightly bearish outlook for Atlassian (TEAM) shares, with key factors including ongoing concerns about AI's impact on growth and mixed leadership changes in the company. The current valuation and technical analysis also support a hold strategy.",
-        "key_drivers": [
-          "Ongoing investor pessimism regarding AI’s drag on software growth",
-          "Mixed market reaction to leadership changes at Atlassian"
-        ],
-        "key_risks": [
-          "Potential negative earnings reports from key tech companies this week",
-          "Market-wide concerns about the long-term impact of AI on various industries"
-        ],
-        "valuation_view": "The recent fair value reset reflects more conservative growth assumptions, but current market conditions suggest a neutral valuation.",
-        "counterfactuals": [
-          "A strong positive earnings report from Atlassian or other key tech companies could shift sentiment positively.",
-          "Significant regulatory changes impacting AI development and adoption could alter the market outlook."
-        ],
-        "next_checks": [
-          "Earnings reports from Nvidia, Snowflake, CoreWeave, Salesforce, and other major tech firms",
-          "Further developments in AI technology and its impact on various industries"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:50:50+09:00",
-      "action": "HOLD",
-      "confidence": 0.8,
-      "rationale": "The current market sentiment is neutral with no strong directional bias. Recent news events include earnings reports from AI-focused companies, which could impact share prices but are not expected to significantly alter the existing market dynamics. The recent price action and technical analysis suggest a bearish trend, aligning with the current market regime.",
-      "key_drivers": [
-        "Neutral market sentiment",
-        "Earnings reports due from multiple AI-focused companies",
-        "Bearish technical indicators"
-      ],
-      "key_risks": [
-        "Potential negative impact of earnings reports on software and cybersecurity stocks",
-        "Continued investor pessimism towards the impact of AI on growth"
-      ],
-      "valuation_view": "The valuation remains high, with no significant changes in assumptions that would justify a buy or sell action.",
-      "counterfactuals": [
-        "If multiple positive earnings reports from key players in the AI space significantly outperform expectations, it could shift market sentiment and warrant a re-evaluation of this position.",
-        "A sudden improvement in macroeconomic conditions related to AI adoption could also change the valuation landscape."
-      ],
-      "next_checks": [
-        "Monitor upcoming earnings reports for Nvidia, Snowflake, CoreWeave, Salesforce, and other key players in the AI space",
-        "Assess any changes in investor sentiment towards AI's impact on growth"
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.8,
-        "rationale": "The current market sentiment is neutral with no strong directional bias. Recent news events include earnings reports from AI-focused companies, which could impact share prices but are not expected to significantly alter the existing market dynamics. The recent price action and technical analysis suggest a bearish trend, aligning with the current market regime.",
-        "key_drivers": [
-          "Neutral market sentiment",
-          "Earnings reports due from multiple AI-focused companies",
-          "Bearish technical indicators"
-        ],
-        "key_risks": [
-          "Potential negative impact of earnings reports on software and cybersecurity stocks",
-          "Continued investor pessimism towards the impact of AI on growth"
-        ],
-        "valuation_view": "The valuation remains high, with no significant changes in assumptions that would justify a buy or sell action.",
-        "counterfactuals": [
-          "If multiple positive earnings reports from key players in the AI space significantly outperform expectations, it could shift market sentiment and warrant a re-evaluation of this position.",
-          "A sudden improvement in macroeconomic conditions related to AI adoption could also change the valuation landscape."
-        ],
-        "next_checks": [
-          "Monitor upcoming earnings reports for Nvidia, Snowflake, CoreWeave, Salesforce, and other key players in the AI space",
-          "Assess any changes in investor sentiment towards AI's impact on growth"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:49:00+09:00",
-      "action": "HOLD",
-      "confidence": 0.8,
-      "rationale": "The current market sentiment is neutral with no strong directional bias. Recent news events include earnings reports from multiple AI-focused companies, which are expected to be volatile but do not provide a clear buying or selling signal. The recent price action and technical analysis indicate a strong bearish trend, but the lack of significant news suggests that holding may be prudent until clearer signals emerge.",
-      "key_drivers": [
-        "Neutral market sentiment with no strong directional bias",
-        "Earnings reports from multiple AI-focused companies expected to be volatile",
-        "Strong bearish technical indicators"
-      ],
-      "key_risks": [
-        "Potential for significant volatility in earnings reports",
-        "Continued negative market sentiment towards AI growth concerns"
-      ],
-      "valuation_view": "The recent fair value reset by Atlassian does not provide a clear buy or sell signal, as the valuation remains strong but conservative.",
-      "counterfactuals": [
-        "If multiple positive earnings reports from key players in the AI space are released and positively received, it could shift market sentiment towards buying."
-      ],
-      "next_checks": [
-        "Monitor upcoming earnings reports for key AI-focused companies",
-        "Assess any changes in broader market sentiment towards AI growth"
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.8,
-        "rationale": "The current market sentiment is neutral with no strong directional bias. Recent news events include earnings reports from multiple AI-focused companies, which are expected to be volatile but do not provide a clear buying or selling signal. The recent price action and technical analysis indicate a strong bearish trend, but the lack of significant news suggests that holding may be prudent until clearer signals emerge.",
-        "key_drivers": [
-          "Neutral market sentiment with no strong directional bias",
-          "Earnings reports from multiple AI-focused companies expected to be volatile",
-          "Strong bearish technical indicators"
-        ],
-        "key_risks": [
-          "Potential for significant volatility in earnings reports",
-          "Continued negative market sentiment towards AI growth concerns"
-        ],
-        "valuation_view": "The recent fair value reset by Atlassian does not provide a clear buy or sell signal, as the valuation remains strong but conservative.",
-        "counterfactuals": [
-          "If multiple positive earnings reports from key players in the AI space are released and positively received, it could shift market sentiment towards buying."
-        ],
-        "next_checks": [
-          "Monitor upcoming earnings reports for key AI-focused companies",
-          "Assess any changes in broader market sentiment towards AI growth"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:47:08+09:00",
-      "action": "HOLD",
-      "confidence": 0.8,
-      "rationale": "The current market sentiment remains neutral with recent news events showing mixed signals but leaning towards bearishness due to ongoing concerns about AI's impact on growth. The lack of strong positive catalysts and the presence of potential negative factors, such as earnings reports from key players in the AI sector, suggest a cautious approach.",
-      "key_drivers": [
-        "Neutral market sentiment",
-        "Mixed news events with some bearish signals",
-        "Ongoing concerns about AI's impact on growth"
-      ],
-      "key_risks": [
-        "Earnings reports from key AI-focused companies may lead to further volatility",
-        "Potential negative reactions to new product launches and leadership changes in the industry"
-      ],
-      "valuation_view": "The valuation remains strong, but recent news events suggest a cautious approach is warranted given the current market dynamics.",
-      "counterfactuals": [
-        "If AI-focused companies report positive earnings and address growth concerns effectively, this could shift sentiment positively.",
-        "A significant product launch that gains widespread adoption could also change the narrative."
-      ],
-      "next_checks": [
-        "Monitor upcoming earnings reports from key players in the AI sector",
-        "Watch for any major product launches or leadership changes that could impact market perception"
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.8,
-        "rationale": "The current market sentiment remains neutral with recent news events showing mixed signals but leaning towards bearishness due to ongoing concerns about AI's impact on growth. The lack of strong positive catalysts and the presence of potential negative factors, such as earnings reports from key players in the AI sector, suggest a cautious approach.",
-        "key_drivers": [
-          "Neutral market sentiment",
-          "Mixed news events with some bearish signals",
-          "Ongoing concerns about AI's impact on growth"
-        ],
-        "key_risks": [
-          "Earnings reports from key AI-focused companies may lead to further volatility",
-          "Potential negative reactions to new product launches and leadership changes in the industry"
-        ],
-        "valuation_view": "The valuation remains strong, but recent news events suggest a cautious approach is warranted given the current market dynamics.",
-        "counterfactuals": [
-          "If AI-focused companies report positive earnings and address growth concerns effectively, this could shift sentiment positively.",
-          "A significant product launch that gains widespread adoption could also change the narrative."
-        ],
-        "next_checks": [
-          "Monitor upcoming earnings reports from key players in the AI sector",
-          "Watch for any major product launches or leadership changes that could impact market perception"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:45:20+09:00",
-      "action": "HOLD",
-      "confidence": 0.7,
-      "rationale": "The current market sentiment remains bearish due to ongoing concerns about AI's impact on growth, as evidenced by recent news and technical analysis. The company's recent product launch may have long-term benefits but does not currently justify a change in position.",
-      "key_drivers": [
-        "Bearish market sentiment regarding AI’s impact on software growth",
-        "No significant positive catalysts from recent news events"
-      ],
-      "key_risks": [
-        "Potential negative earnings reports from key players in the sector",
-        "Further product launch impacts not yet fully reflected in share price"
-      ],
-      "valuation_view": "The valuation remains high, with no clear change in assumptions that would significantly alter the fair value.",
-      "counterfactuals": [
-        "A strong positive earnings report from a major software company could shift market sentiment",
-        "Significant improvements or new features announced by Atlassian could boost investor confidence"
-      ],
-      "next_checks": [
-        "Monitor upcoming earnings reports for key players in the sector",
-        "Assess any changes in product launch timelines and their potential impact on the market"
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.7,
-        "rationale": "The current market sentiment remains bearish due to ongoing concerns about AI's impact on growth, as evidenced by recent news and technical analysis. The company's recent product launch may have long-term benefits but does not currently justify a change in position.",
-        "key_drivers": [
-          "Bearish market sentiment regarding AI’s impact on software growth",
-          "No significant positive catalysts from recent news events"
-        ],
-        "key_risks": [
-          "Potential negative earnings reports from key players in the sector",
-          "Further product launch impacts not yet fully reflected in share price"
-        ],
-        "valuation_view": "The valuation remains high, with no clear change in assumptions that would significantly alter the fair value.",
-        "counterfactuals": [
-          "A strong positive earnings report from a major software company could shift market sentiment",
-          "Significant improvements or new features announced by Atlassian could boost investor confidence"
-        ],
-        "next_checks": [
-          "Monitor upcoming earnings reports for key players in the sector",
-          "Assess any changes in product launch timelines and their potential impact on the market"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:43:28+09:00",
-      "action": "HOLD",
-      "confidence": 0.8,
-      "rationale": "The current market sentiment is neutral with no strong directional bias. Recent news events include AI-focused earnings reports and product launches, but the overall market remains bearish due to concerns about AI's impact on growth. The recent price action suggests a lack of significant catalysts for immediate movement.",
-      "key_drivers": [
-        "Neutral market sentiment",
-        "Bearish outlook on AI's impact on software stocks",
-        "No strong directional news events"
-      ],
-      "key_risks": [
-        "Earnings reports from key players like Nvidia, Snowflake, and Salesforce could shift the market sentiment.",
-        "Further product launches by Atlassian might not have immediate market impact."
-      ],
-      "valuation_view": "The valuation remains high with no significant changes in assumptions. The recent fair value reset to $177.85 reflects more conservative growth expectations.",
-      "counterfactuals": [
-        "If AI-related earnings reports show strong resilience, the market sentiment could shift positively.",
-        "A major product launch by Atlassian that gains traction could drive stock price."
-      ],
-      "next_checks": [
-        "Monitor upcoming earnings reports from key players like Nvidia and Snowflake for any shifts in market sentiment.",
-        "Watch for further developments in AI technology and its impact on the software industry."
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.8,
-        "rationale": "The current market sentiment is neutral with no strong directional bias. Recent news events include AI-focused earnings reports and product launches, but the overall market remains bearish due to concerns about AI's impact on growth. The recent price action suggests a lack of significant catalysts for immediate movement.",
-        "key_drivers": [
-          "Neutral market sentiment",
-          "Bearish outlook on AI's impact on software stocks",
-          "No strong directional news events"
-        ],
-        "key_risks": [
-          "Earnings reports from key players like Nvidia, Snowflake, and Salesforce could shift the market sentiment.",
-          "Further product launches by Atlassian might not have immediate market impact."
-        ],
-        "valuation_view": "The valuation remains high with no significant changes in assumptions. The recent fair value reset to $177.85 reflects more conservative growth expectations.",
-        "counterfactuals": [
-          "If AI-related earnings reports show strong resilience, the market sentiment could shift positively.",
-          "A major product launch by Atlassian that gains traction could drive stock price."
-        ],
-        "next_checks": [
-          "Monitor upcoming earnings reports from key players like Nvidia and Snowflake for any shifts in market sentiment.",
-          "Watch for further developments in AI technology and its impact on the software industry."
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:41:17+09:00",
-      "action": "HOLD",
-      "confidence": 0.8,
-      "rationale": "The current market regime is neutral with a slight bearish trend, and recent news events suggest mixed signals but no strong catalysts for immediate action. The company's recent product launch may have long-term benefits, but the overall market sentiment towards AI-focused companies remains bearish due to concerns about growth drag from AI.",
-      "key_drivers": [
-        "Neutral market regime with a slight bearish trend",
-        "Mixed news events with no strong catalysts for immediate action"
-      ],
-      "key_risks": [
-        "Continued bearish sentiment towards AI-focused companies",
-        "Uncertain impact of recent product launch on short-term performance"
-      ],
-      "valuation_view": "The valuation remains high, but the recent fair value reset suggests more conservative revenue growth assumptions. The current price is below the previous fair value, indicating potential undervaluation.",
-      "counterfactuals": [
-        "If AI-related earnings reports from key players like Nvidia and Snowflake show significant positive surprises, it could shift market sentiment."
-      ],
-      "next_checks": [
-        "Monitor upcoming earnings reports for key AI-focused companies to gauge market reaction",
-        "Watch for any regulatory or policy changes that might impact the AI industry"
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.8,
-        "rationale": "The current market regime is neutral with a slight bearish trend, and recent news events suggest mixed signals but no strong catalysts for immediate action. The company's recent product launch may have long-term benefits, but the overall market sentiment towards AI-focused companies remains bearish due to concerns about growth drag from AI.",
-        "key_drivers": [
-          "Neutral market regime with a slight bearish trend",
-          "Mixed news events with no strong catalysts for immediate action"
-        ],
-        "key_risks": [
-          "Continued bearish sentiment towards AI-focused companies",
-          "Uncertain impact of recent product launch on short-term performance"
-        ],
-        "valuation_view": "The valuation remains high, but the recent fair value reset suggests more conservative revenue growth assumptions. The current price is below the previous fair value, indicating potential undervaluation.",
-        "counterfactuals": [
-          "If AI-related earnings reports from key players like Nvidia and Snowflake show significant positive surprises, it could shift market sentiment."
-        ],
-        "next_checks": [
-          "Monitor upcoming earnings reports for key AI-focused companies to gauge market reaction",
-          "Watch for any regulatory or policy changes that might impact the AI industry"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:38:20+09:00",
-      "action": "HOLD",
-      "confidence": 0.5,
-      "rationale": "The current market sentiment is neutral with recent news events showing mixed signals but leaning towards bearish due to ongoing concerns about AI's impact on growth. The lack of strong positive catalysts and the presence of multiple earnings reports from key players in the tech sector suggest a cautious approach.",
-      "key_drivers": [
-        "Mixed market sentiment: Neutral overall, with recent news events showing both neutral and bearish sentiments.",
-        "Ongoing concerns about AI's impact on growth: This is causing widespread investor pessimism, overshadowing positive earnings reports."
-      ],
-      "key_risks": [
-        "Multiple upcoming earnings reports from key tech companies may lead to further volatility in the market.",
-        "The introduction of new AI products by Atlassian and other companies could have long-term implications but immediate impact is unclear."
-      ],
-      "valuation_view": "Current valuation metrics do not provide strong signals for a significant change in position. The recent fair value reset reflects more conservative assumptions, which align with current market sentiment.",
-      "counterfactuals": [
-        "If AI growth concerns ease and positive earnings reports from key tech companies lead to increased investor confidence, this could shift the market towards a bullish stance."
-      ],
-      "next_checks": [
-        "Monitor upcoming earnings reports for key tech companies such as Nvidia, Snowflake, CoreWeave, and Salesforce.",
-        "Watch for any significant developments in AI technology that might impact growth expectations."
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.5,
-        "rationale": "The current market sentiment is neutral with recent news events showing mixed signals but leaning towards bearish due to ongoing concerns about AI's impact on growth. The lack of strong positive catalysts and the presence of multiple earnings reports from key players in the tech sector suggest a cautious approach.",
-        "key_drivers": [
-          "Mixed market sentiment: Neutral overall, with recent news events showing both neutral and bearish sentiments.",
-          "Ongoing concerns about AI's impact on growth: This is causing widespread investor pessimism, overshadowing positive earnings reports."
-        ],
-        "key_risks": [
-          "Multiple upcoming earnings reports from key tech companies may lead to further volatility in the market.",
-          "The introduction of new AI products by Atlassian and other companies could have long-term implications but immediate impact is unclear."
-        ],
-        "valuation_view": "Current valuation metrics do not provide strong signals for a significant change in position. The recent fair value reset reflects more conservative assumptions, which align with current market sentiment.",
-        "counterfactuals": [
-          "If AI growth concerns ease and positive earnings reports from key tech companies lead to increased investor confidence, this could shift the market towards a bullish stance."
-        ],
-        "next_checks": [
-          "Monitor upcoming earnings reports for key tech companies such as Nvidia, Snowflake, CoreWeave, and Salesforce.",
-          "Watch for any significant developments in AI technology that might impact growth expectations."
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:36:32+09:00",
-      "action": "HOLD",
-      "confidence": 0.7,
-      "rationale": "The current market regime is neutral with a slight bearish bias, and recent news events indicate mixed sentiments but no strong catalysts for action. The valuation remains high without clear drivers to change the outlook.",
-      "key_drivers": [
-        "Recent earnings reports from software companies have shown negative sentiment due to AI's impact on growth expectations.",
-        "Atlassian's new CFO brings experience in AI and capital decisions, potentially positive but not immediately impactful."
-      ],
-      "key_risks": [
-        "Continued negative market sentiment towards AI-affected sectors could pressure prices further.",
-        "Uncertainty around upcoming earnings reports from key players like Nvidia, Snowflake, CoreWeave, and Salesforce."
-      ],
-      "valuation_view": "The valuation remains high with no clear drivers to change the outlook. The recent fair value reset reflects more conservative growth assumptions but does not significantly alter the current position.",
-      "counterfactuals": [
-        "A strong positive earnings report from a major software company could shift sentiment and justify a buy action.",
-        "Significant regulatory or policy changes affecting AI in enterprise software could alter market dynamics."
-      ],
-      "next_checks": [
-        "Monitor upcoming earnings reports for key players like Nvidia, Snowflake, CoreWeave, and Salesforce to gauge market reaction.",
-        "Track any regulatory developments that may impact the AI sector."
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.7,
-        "rationale": "The current market regime is neutral with a slight bearish bias, and recent news events indicate mixed sentiments but no strong catalysts for action. The valuation remains high without clear drivers to change the outlook.",
-        "key_drivers": [
-          "Recent earnings reports from software companies have shown negative sentiment due to AI's impact on growth expectations.",
-          "Atlassian's new CFO brings experience in AI and capital decisions, potentially positive but not immediately impactful."
-        ],
-        "key_risks": [
-          "Continued negative market sentiment towards AI-affected sectors could pressure prices further.",
-          "Uncertainty around upcoming earnings reports from key players like Nvidia, Snowflake, CoreWeave, and Salesforce."
-        ],
-        "valuation_view": "The valuation remains high with no clear drivers to change the outlook. The recent fair value reset reflects more conservative growth assumptions but does not significantly alter the current position.",
-        "counterfactuals": [
-          "A strong positive earnings report from a major software company could shift sentiment and justify a buy action.",
-          "Significant regulatory or policy changes affecting AI in enterprise software could alter market dynamics."
-        ],
-        "next_checks": [
-          "Monitor upcoming earnings reports for key players like Nvidia, Snowflake, CoreWeave, and Salesforce to gauge market reaction.",
-          "Track any regulatory developments that may impact the AI sector."
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:34:42+09:00",
-      "action": "HOLD",
-      "confidence": 0.7,
-      "rationale": "The current market regime is neutral with a slight bearish tilt due to ongoing concerns about AI's impact on growth, which overshadow positive earnings reports from software companies. Recent news events include multiple AI-focused company earnings and product launches, but the overall sentiment remains cautious.",
-      "key_drivers": [
-        "Neutral market regime",
-        "Ongoing AI-related concerns impacting investor sentiment",
-        "Mixed earnings reports with no significant positive surprises"
-      ],
-      "key_risks": [
-        "Potential negative impact from upcoming earnings reports of Nvidia, Snowflake, CoreWeave, and Salesforce",
-        "Uncertainty around the new product launch by Atlassian (Jira agents)"
-      ],
-      "valuation_view": "The valuation remains strong, but recent news events suggest a cautious approach given the current market dynamics.",
-      "counterfactuals": [
-        "If positive earnings reports from Nvidia, Snowflake, CoreWeave, and Salesforce significantly outperform expectations, it could shift the market sentiment towards bullish.",
-        "If Atlassian's new product launch (Jira agents) gains traction and positively impacts user adoption, it could provide a catalyst for share price appreciation."
-      ],
-      "next_checks": [
-        "Monitor earnings reports from Nvidia, Snowflake, CoreWeave, and Salesforce for any significant deviations from expectations",
-        "Assess the market reaction to Atlassian's new Jira agents product launch"
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.7,
-        "rationale": "The current market regime is neutral with a slight bearish tilt due to ongoing concerns about AI's impact on growth, which overshadow positive earnings reports from software companies. Recent news events include multiple AI-focused company earnings and product launches, but the overall sentiment remains cautious.",
-        "key_drivers": [
-          "Neutral market regime",
-          "Ongoing AI-related concerns impacting investor sentiment",
-          "Mixed earnings reports with no significant positive surprises"
-        ],
-        "key_risks": [
-          "Potential negative impact from upcoming earnings reports of Nvidia, Snowflake, CoreWeave, and Salesforce",
-          "Uncertainty around the new product launch by Atlassian (Jira agents)"
-        ],
-        "valuation_view": "The valuation remains strong, but recent news events suggest a cautious approach given the current market dynamics.",
-        "counterfactuals": [
-          "If positive earnings reports from Nvidia, Snowflake, CoreWeave, and Salesforce significantly outperform expectations, it could shift the market sentiment towards bullish.",
-          "If Atlassian's new product launch (Jira agents) gains traction and positively impacts user adoption, it could provide a catalyst for share price appreciation."
-        ],
-        "next_checks": [
-          "Monitor earnings reports from Nvidia, Snowflake, CoreWeave, and Salesforce for any significant deviations from expectations",
-          "Assess the market reaction to Atlassian's new Jira agents product launch"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
-          "time_horizon": "swing_days"
-        }
-      }
-    },
-    {
-      "ts_kst": "2026-02-26T03:32:50+09:00",
-      "action": "HOLD",
-      "confidence": 0.8,
-      "rationale": "The current market sentiment remains bearish due to ongoing concerns about AI's impact on growth, as evidenced by recent news events and the valuation of software stocks. Atlassian’s recent CFO shift is neutral in its immediate impact but does not significantly alter the overall market dynamics.",
-      "key_drivers": [
-        "Widespread investor pessimism regarding AI's effect on growth",
-        "Earnings reports from key software companies are expected to continue showing mixed results, with little ability to reverse current market sentiment"
-      ],
-      "key_risks": [
-        "Potential for significant volatility if any major earnings report significantly deviates from expectations",
-        "Further leadership changes or strategic shifts in the industry could impact investor confidence"
-      ],
-      "valuation_view": "The recent valuation adjustments reflect a more conservative outlook, but the fair value remains uncertain given the current market conditions.",
-      "counterfactuals": [
-        "If AI's impact on growth is less severe than currently perceived, leading to improved earnings reports from key software companies",
-        "A significant positive event in the cybersecurity sector that mitigates concerns over new AI security tools"
-      ],
-      "next_checks": [
-        "Earnings reports from Nvidia, CoreWeave, Snowflake and Salesforce as they release this week",
-        "Further developments in leadership changes or strategic shifts within Atlassian and its competitors"
-      ],
-      "raw": {
-        "action": "HOLD",
-        "confidence": 0.8,
-        "rationale": "The current market sentiment remains bearish due to ongoing concerns about AI's impact on growth, as evidenced by recent news events and the valuation of software stocks. Atlassian’s recent CFO shift is neutral in its immediate impact but does not significantly alter the overall market dynamics.",
-        "key_drivers": [
-          "Widespread investor pessimism regarding AI's effect on growth",
-          "Earnings reports from key software companies are expected to continue showing mixed results, with little ability to reverse current market sentiment"
-        ],
-        "key_risks": [
-          "Potential for significant volatility if any major earnings report significantly deviates from expectations",
-          "Further leadership changes or strategic shifts in the industry could impact investor confidence"
-        ],
-        "valuation_view": "The recent valuation adjustments reflect a more conservative outlook, but the fair value remains uncertain given the current market conditions.",
-        "counterfactuals": [
-          "If AI's impact on growth is less severe than currently perceived, leading to improved earnings reports from key software companies",
-          "A significant positive event in the cybersecurity sector that mitigates concerns over new AI security tools"
-        ],
-        "next_checks": [
-          "Earnings reports from Nvidia, CoreWeave, Snowflake and Salesforce as they release this week",
-          "Further developments in leadership changes or strategic shifts within Atlassian and its competitors"
-        ],
-        "position_plan": {
-          "prefer_qty": 0,
           "time_horizon": "swing_days"
         }
       }
