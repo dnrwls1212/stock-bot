@@ -983,6 +983,23 @@ def main() -> None:
                 except Exception as e:
                     print(f"[ORDER_CLEANUP_ERR] {e!r}")
 
+            # ==================================================
+            # 🚨 [추가] 장 마감 전 전량 매도 시간 체크 (나스닥 기준)
+            # ==================================================
+            sell_all_before_close = _env_bool("SELL_ALL_BEFORE_CLOSE", False)
+            sell_all_minutes = _env_int("SELL_ALL_BEFORE_CLOSE_MINUTES", 10)
+            
+            is_force_close_time = False
+            if sell_all_before_close and market_open:
+                ny_time = now_kst.astimezone(ZoneInfo("America/New_York"))
+                cur_min = ny_time.hour * 60 + ny_time.minute
+                close_min = 16 * 60  # 미국 정규장 마감 시간 (16:00 ET)
+                
+                # 장 마감 N분 전 ~ 장 마감 시간 사이인지 확인 (예: 15:50 ~ 15:59)
+                if cur_min >= (close_min - sell_all_minutes) and cur_min < close_min:
+                    is_force_close_time = True
+            # ==================================================
+
             # ---------- 1) RSS 뉴스 수집 ----------
             try:
                 news_items = fetch_rss_news(rss_urls=rss_urls)
@@ -1776,6 +1793,23 @@ def main() -> None:
                             f"COST_BLOCK edge={exp_edge_bps:.2f}bps < cost={total_cost_bps:.2f}bps*{edge_min_mult:.2f}"
                             f" | {plan_reason}"
                         )
+
+
+                # ==================================================
+                # 🚨 [추가] 미국장 마감 전 전량 매도 덮어쓰기
+                # ==================================================
+                if is_force_close_time and float(pos.qty) > 0:
+                    # 진행 중인 미체결 주문(pending)이 없다면 전량 매도 (중복 매도 주문 방지)
+                    if not pending_store.has_open_order(ticker):
+                        plan_action = "SELL"
+                        plan_qty = int(float(pos.qty))
+                        plan_reason = f"FORCE_SELL_CLOSE: 미국장 마감 {sell_all_minutes}분 전 전량 매도 트리거"
+                    else:
+                        # 이미 다른 이유로 매도 주문이 들어갔거나, 기존 주문이 대기 중일 때
+                        plan_action = "HOLD"
+                        plan_qty = 0
+                        plan_reason = f"FORCE_SELL_CLOSE_WAIT: 장 마감 매도 조건 충족이나, 미체결 주문 존재하여 대기"
+                # ==================================================
 
                 # 6) order
                 order_msg = ""
