@@ -64,6 +64,9 @@ from src.trading.watchlist_auto import build_watchlist_v1
 from src.trading.watchlist_loader import load_watchlist
 from src.trading.universe_builder import build_universe
 
+# 👇 [신규 추가] AI 자가 학습(Self-Reflection) 모듈
+from src.eval.self_reflection import SelfReflectionEngine
+
 load_dotenv()
 
 WATCHLIST: List[str] = []
@@ -228,7 +231,8 @@ def kb_add_decision(ticker: str, *, action: str, confidence: float, rationale: s
     kb["decisions"] = decs[:max_items]
     kb_save(kb)
 
-def build_decision_prompt(*, ticker: str, kb: Dict[str, Any], snapshot: Dict[str, Any], recent_news_events: List[Dict[str, Any]]) -> str:
+# 👇 [수정] AI 자가학습에서 도출된 교훈(lessons)을 프롬프트에 주입!
+def build_decision_prompt(*, ticker: str, kb: Dict[str, Any], snapshot: Dict[str, Any], recent_news_events: List[Dict[str, Any]], lessons: str = "") -> str:
     kb_light = {
         "thesis": kb.get("thesis", ""), "business_summary": kb.get("business_summary", ""), "moat": kb.get("moat", ""),
         "key_drivers": kb.get("key_drivers", []) or [], "key_risks": kb.get("key_risks", []) or [], "valuation_method": kb.get("valuation_method", "simple"),
@@ -236,7 +240,23 @@ def build_decision_prompt(*, ticker: str, kb: Dict[str, Any], snapshot: Dict[str
         "tags": kb.get("tags", []) or [], "recent_decisions": (kb.get("decisions", []) or [])[:5], "recent_evidence": (kb.get("evidence", []) or [])[:12],
     }
     schema = {"action": "BUY|SELL|HOLD", "confidence": 0.0, "rationale": "Korean, concise, factual", "key_drivers": ["..."], "key_risks": ["..."], "valuation_view": "what assumption matters / changed", "counterfactuals": ["what would make you wrong next 1-4 weeks"], "next_checks": ["what to check next"], "position_plan": {"prefer_qty": 0, "time_horizon": "swing_days|swing_weeks|long_months"}}
-    return f"""너는 '누적 지식 기반' 투자 의사결정 에이전트다. 목표: 단기/스윙 수익을 내되, 기업 방향성과 근거 축적을 최우선으로 한다. 규칙: - 제공된 KB/스냅샷/최근 이벤트만 근거로 사용. - 출력은 반드시 JSON 하나만. \n[TICKER]\n{ticker}\n[KB]\n{json.dumps(kb_light, ensure_ascii=False)}\n[SNAPSHOT]\n{json.dumps(snapshot, ensure_ascii=False)}\n[RECENT_NEWS_EVENTS]\n{json.dumps(recent_news_events[:10], ensure_ascii=False)}\n[OUTPUT_JSON_SCHEMA]\n{json.dumps(schema, ensure_ascii=False)}""".strip()
+    
+    return f"""너는 '누적 지식 기반' 및 '스스로 진화하는' 투자 의사결정 에이전트다. 
+목표: 단기/스윙 수익을 내되, 유연한 상황 판단을 최우선으로 한다.
+
+[과거 매매를 통해 네가 스스로 깨달은 투자 원칙 (이 교훈을 상황에 맞게 유연하게 적용해!)]
+{lessons}
+
+[TICKER]
+{ticker}
+[KB]
+{json.dumps(kb_light, ensure_ascii=False)}
+[SNAPSHOT]
+{json.dumps(snapshot, ensure_ascii=False)}
+[RECENT_NEWS_EVENTS]
+{json.dumps(recent_news_events[:10], ensure_ascii=False)}
+[OUTPUT_JSON_SCHEMA]
+{json.dumps(schema, ensure_ascii=False)}""".strip()
 
 def parse_decision(text: str) -> Dict[str, Any]:
     d = try_parse_json(text) or {}
@@ -310,13 +330,9 @@ def _maybe_build_universe_and_watchlist_once(notifier: Notifier) -> Optional[Lis
         notifier.send(f"⚠️ [자동 종목선정 에러] 기존 WATCHLIST 사용\nerr={e!r}")
         return None
 
-# =====================================================================
-# 🚨 [신규 추가] 장 시작 전 AI 전략 브리핑 생성 함수
-# =====================================================================
 def _generate_and_send_briefing(watchlist: List[str], news_store: NewsStore, model: str, notifier: Notifier, session_name: str):
     notifier.send(f"📊 [AI 분석 중] {session_name} 대비 전략 브리핑을 작성하고 있습니다...")
     lines = []
-    # 각 종목별로 가장 파급력이 컸던 최근 3일치 뉴스 2개씩만 추출 (LLM Context 오버플로우 방지)
     for t in watchlist:
         evs = news_store.get_recent_events(t, days=3, limit=2)
         if evs:
@@ -343,11 +359,7 @@ def _generate_and_send_briefing(watchlist: List[str], news_store: NewsStore, mod
     except Exception as e:
         notifier.send(f"⚠️ 브리핑 생성 실패: {e}")
 
-# =====================================================================
-# 🚨 [신규 추가] AI 매크로(시장 전체) 리스크 진단 함수
-# =====================================================================
 def _evaluate_macro_risk(news_store: NewsStore, model: str) -> tuple[int, str]:
-    # 시장 대장주인 SPY, QQQ의 최근 3일치 뉴스를 집중 분석
     events = news_store.get_recent_events("SPY", days=3, limit=10) + news_store.get_recent_events("QQQ", days=3, limit=10)
     
     if not events:
@@ -379,21 +391,18 @@ def _evaluate_macro_risk(news_store: NewsStore, model: str) -> tuple[int, str]:
         if isinstance(res_json, dict):
             level = int(res_json.get("risk_level", 1))
             reason = str(res_json.get("reason", "분석 완료"))
-            level = max(0, min(3, level)) # 0~3 사이 보정
+            level = max(0, min(3, level))
             return level, reason
     except Exception as e:
         print(f"[MACRO_RISK_ERR] {e}")
         
     return 1, "AI 분석 에러로 인해 기본 방어선(Level 1)을 유지합니다."
 
-# =====================================================================
-# 🚨 [신규 추가] AI 기반 기회비용 계산 및 포트폴리오 스왑(교체) 진단
-# =====================================================================
 def _evaluate_portfolio_swap(new_ticker: str, new_score: float, new_reason: str, positions: dict, current_prices: dict, news_store: NewsStore, model: str, fee_est: float = 0.5) -> dict:
     pos_lines = []
     for t, p in positions.items():
         qty = float(p.qty)
-        if qty > 0 and t != new_ticker and t not in ["SQQQ", "SOXS", "PSQ"]: # 인버스는 스왑 대상에서 제외
+        if qty > 0 and t != new_ticker and t not in ["SQQQ", "SOXS", "PSQ"]:
             avg_px = float(p.avg_price)
             cur_px = current_prices.get(t, avg_px)
             ret_pct = ((cur_px - avg_px) / avg_px * 100.0) if avg_px > 0 else 0.0
@@ -571,9 +580,6 @@ def main() -> None:
             broker = None
             notifier.send(f"[INIT] KIS disabled (init error): {e}")
 
-    # =====================================================================
-    # 🚨 [신규 추가] 시간대별 모드 및 브리핑 상태 변수 초기화
-    # =====================================================================
     briefing_enabled = _env_bool("BRIEFING_ENABLED", True)
     briefing_pre_et = _env_str("BRIEFING_PRE_ET", "03:50")
     briefing_reg_et = _env_str("BRIEFING_REG_ET", "09:20")
@@ -602,6 +608,11 @@ def main() -> None:
         )
     )
     auto_reporter = AutoReporter.from_env()
+    
+    # 👇👇👇 [신규 추가] AI 자가 진화 엔진 초기화
+    reflection_engine = SelfReflectionEngine(model=decision_model)
+    ai_lessons = reflection_engine.load_lessons() # 시작할 때 한 번 읽어옴
+    last_reflection_date = ""
 
     pos_sync_on_start = _env_bool("POS_SYNC_ON_START", True)
     pos_sync_every_ticks = _env_int("POS_SYNC_EVERY_TICKS", 15)
@@ -620,26 +631,29 @@ def main() -> None:
             loop_ts = now_kst.isoformat(timespec="seconds")
             market_open = is_us_regular_market_open(now_kst)
 
-            # =====================================================================
-            # 🚨 [신규 추가] 서머타임 자동대응 뉴욕 시간(ET) 판별
-            # =====================================================================
             ny_time = now_kst.astimezone(ZoneInfo("America/New_York"))
             ny_hm = ny_time.strftime("%H:%M")
             ny_date = ny_time.strftime("%Y-%m-%d")
 
-            # 1. AI 전략 브리핑 발송 (설정된 시간에 하루 1회씩)
             if briefing_enabled:
                 if briefing_pre_et <= ny_hm < trade_start_et and last_pre_brief_date != ny_date:
                     _generate_and_send_briefing(WATCHLIST, news_store, ai_gate_model, notifier, "프리마켓")
                     last_pre_brief_date = ny_date
+                    
+                    # 👇👇👇 [신규 추가] 매일 프리마켓 브리핑을 할 때, 과거 매매 복기도 같이 수행!
+                    if last_reflection_date != ny_date:
+                        print("🧘 [SYSTEM] AI가 어제까지의 매매 기록을 바탕으로 자가 학습(Self-Reflection)을 진행합니다...")
+                        ref_res = reflection_engine.run_reflection()
+                        if ref_res.get("status") == "success":
+                            ai_lessons = "\n".join(ref_res["data"].get("lessons", []))
+                            notifier.send(f"🧠 [AI 자가 진화 완료]\n봇이 새로운 매매 교훈을 터득했습니다!\n\n{ai_lessons}")
+                        last_reflection_date = ny_date
                 
                 if briefing_reg_et <= ny_hm < "09:30" and last_reg_brief_date != ny_date:
                     _generate_and_send_briefing(WATCHLIST, news_store, ai_gate_model, notifier, "정규장")
                     last_reg_brief_date = ny_date
 
-            # 2. 거래 모드(Combat Mode) 판별 (월~금 평일에만 전투 모드 켜짐)
             is_combat_mode = (trade_start_et <= ny_hm < trade_end_et) and (ny_time.weekday() < 5)
-            # =====================================================================
 
             if watchlist_refresh_min > 0 and next_watchlist_refresh is not None and now_kst >= next_watchlist_refresh:
                 _maybe_build_universe_and_watchlist_once(notifier)
@@ -679,8 +693,6 @@ def main() -> None:
                     is_force_close_time = True
 
             current_rss_tickers = list(WATCHLIST)
-            
-            # 🚨 [추가] 리스크 평가를 위해 SPY, QQQ는 무조건 1분마다 뉴스 수집 대상에 포함
             for mt in ["SPY", "QQQ"]:
                 if mt not in current_rss_tickers:
                     current_rss_tickers.append(mt)
@@ -707,25 +719,22 @@ def main() -> None:
                             bg_count += 1
             except Exception: pass
 
-            # 1. 야후 파이낸스 글로벌 거시경제(Top Stories) 뉴스 RSS 강제 추가
             loop_rss_urls = build_rss_urls(current_rss_tickers)
             loop_rss_urls.append("https://finance.yahoo.com/news/rss")
             try: news_items = fetch_rss_news(limit=20, rss_urls=loop_rss_urls)
             except Exception: news_items = []
 
-            # 2. 한국투자증권 실시간 해외속보(제목) 연동
             if quote_provider is not None and not quote_provider.kis.cfg.paper:
                 try:
                     kis_news_raw = quote_provider.get_breaking_news()
                     for kn in kis_news_raw:
                         title = kn.get("hts_pbnt_titl_cntt", "")
                         if title:
-                            # link에 'kis_brk_'를 붙여 나중에 거시(Macro) 뉴스로 식별되게 꼬리표를 답니다.
                             news_items.insert(0, { "title": title, "summary": "한국투자증권 실시간 속보", "link": f"kis_brk_{kn.get('cntt_usiq_srno', '')}", "published": f"{kn.get('data_dt', '')}{kn.get('data_tm', '')}" })
                 except Exception: pass
 
-            # 👇 [추가] 이번 1분 동안 새로운 매크로(지수) 뉴스가 들어왔는지 체크하는 깃발
             macro_news_added = False 
+            macro_news_processed = 0 
 
             analyzed_links, skipped_seen, skipped_low_signal, skipped_no_candidate, llm_fail = 0, 0, 0, 0, 0
 
@@ -739,11 +748,13 @@ def main() -> None:
 
                 candidates = _candidate_tickers(title, summary, current_rss_tickers)
                 
-                # 👇👇👇 [핵심 마법] 티커가 없어도 글로벌 속보라면 SPY, QQQ에 강제 할당! 👇👇👇
                 is_macro_news = ("finance.yahoo.com/news/rss" in link) or ("kis_brk_" in link)
                 if is_macro_news and not candidates:
+                    if macro_news_processed >= 3:
+                        skipped_no_candidate += 1
+                        continue 
                     candidates = ["SPY", "QQQ"]
-                # 👆👆👆 -------------------------------------------------------- 👆👆👆
+                    macro_news_processed += 1
 
                 if not candidates:
                     skipped_no_candidate += 1; continue
@@ -764,7 +775,6 @@ def main() -> None:
                 for t in assigned:
                     t_upper = str(t).upper()
                     
-                    # 👇 [추가] 방금 들어온 뉴스가 시장 전체(SPY, QQQ) 뉴스라면 깃발을 번쩍 듭니다!
                     if t_upper in ["SPY", "QQQ"]:
                         macro_news_added = True
 
@@ -797,27 +807,18 @@ def main() -> None:
                 try: mark_seen(link)
                 except Exception: pass
 
-            # ==================================================
-            # 🚨 [이벤트 기반 즉각 대응] 새 매크로 뉴스가 들어온 그 순간(1분 이내)에만 평가!
-            # ==================================================
-            # 처음 시작할 때(None) 또는 새로운 SPY/QQQ 뉴스가 수집되었을 때만 AI 평가 진행
             if last_macro_eval_time is None or macro_news_added:
                 new_macro_level, new_macro_reason = _evaluate_macro_risk(news_store, ai_gate_model)
                 
-                # 처음 시작이거나, 위험 레벨이 이전과 '다르게' 변경되었을 때만 텔레그램 알림! (스팸 방지)
                 if last_macro_eval_time is None or new_macro_level != macro_risk_level:
                     if new_macro_level >= 2:
                         notifier.send(f"🚨 [매크로 리스크 비상 경보!]\n새로운 주요 뉴스 감지! 위험 단계가 Risk Level {new_macro_level}로 변경되었습니다!\n진단: {new_macro_reason}")
                     else:
                         notifier.send(f"🌍 [AI 매크로 리스크 진단]\n위험 단계: Risk Level {new_macro_level}\n진단: {new_macro_reason}")
-                elif macro_news_added:
-                    # 위험 단계는 안 변했지만, AI가 새 뉴스를 읽고 "이상 없음" 판정을 내렸다는 내부 로그
-                    print(f"[MACRO] 새 지수 뉴스 확인됨 -> 기존 위험단계 유지 (Lv {new_macro_level})")
                 
                 macro_risk_level = new_macro_level
                 macro_risk_reason = new_macro_reason
                 last_macro_eval_time = now_kst
-            # ==================================================
 
             for t in WATCHLIST:
                 try:
@@ -841,24 +842,19 @@ def main() -> None:
                         th_mult, scalp_w_mult, size_mult, buy_block = float(regime_th_mult), float(regime_scalp_w_mult), float(regime_size_mult), bool(regime_buy_block)
                 except Exception: pass
 
-            # ==================================================
-            # 🚨 [수정] AI 매크로 연동 '가변형 서킷브레이커'
-            # ==================================================
             if quote_provider is not None and not quote_provider.kis.cfg.paper:
                 try:
                     qqq_quote = quote_provider.get_quote(regime_symbol) 
                     qqq_out = qqq_quote.raw.get("output") or qqq_quote.raw
-                    # "rate" 또는 KIS 기본 이름인 "prdy_ctrt"를 둘 다 확인합니다.
                     raw_rate = qqq_out.get("rate") or qqq_out.get("prdy_ctrt") or 0.0
                     qqq_rate = float(raw_rate)
                     
-                    # AI가 평가한 Risk Level에 따라 폭락 트리거 기준을 동적으로 조정!
                     if macro_risk_level >= 3:
-                        cb_threshold = -0.3 # 전시 상황 (극도 민감): -0.3%만 빠져도 즉시 방어
+                        cb_threshold = -0.3 
                     elif macro_risk_level == 2:
-                        cb_threshold = -0.8 # 악재 상황 (경계): -0.8% 하락 시 방어
+                        cb_threshold = -0.8 
                     else:
-                        cb_threshold = -1.5 # 평온한 시장 (기본): -1.5% 대폭락 시에만 방어
+                        cb_threshold = -1.5 
                     
                     if qqq_rate <= cb_threshold:
                         buy_block = True
@@ -873,9 +869,7 @@ def main() -> None:
                         regime.analysis = f"🚨 매크로 위험(Lv{macro_risk_level})! 방어선({cb_threshold}%) 붕괴 감지 (현재 {qqq_rate:.2f}%) - 매수 전면 차단 및 인버스 가동"
                 except Exception as e:
                     pass
-            # ==================================================
 
-            # 🚨 [복구] 15분마다 시장 판단(Regime) 텔레그램 알림 전송 (전투 모드일 때만)
             if regime is not None and is_combat_mode:
                 if last_regime_noti_time is None or (now_kst - last_regime_noti_time).total_seconds() >= 15 * 60:
                     r_score = float(getattr(regime, "score", 0.0))
@@ -887,14 +881,12 @@ def main() -> None:
                     notifier.send(f"🤖 [AI 시장 판단]\n상태: {kr_label} ({r_label})\n점수: {r_score:.2f}\n분석: {r_ai_text}\n봇 대응: {inv_status}")
                     last_regime_noti_time = now_kst
 
-            # 👇👇👇 [여기에 추가] 실시간 계좌 현금 비중 파악
             cash_usd, total_usd = 1000.0, 10000.0
             if broker is not None and not broker.kis.cfg.paper:
                 cash_usd, total_usd = broker.get_account_summary()
             
-            cash_ratio = cash_usd / max(1.0, total_usd) # 현재 현금 비중 (예: 0.30 = 30%)
-            current_prices = {} # 스왑 평가를 위한 실시간 가격 저장소
-            # 👆👆👆 ------------------------------------------
+            cash_ratio = cash_usd / max(1.0, total_usd) 
+            current_prices = {} 
 
             # ---------- 2) ticker loop ----------
             for ticker in WATCHLIST:
@@ -969,14 +961,11 @@ def main() -> None:
                 dyn_rules_obj = dyn_rules.apply(news_store=news_store, ticker=ticker, now_kst=now_kst, base_buy_th=base_buy_th_eff, base_sell_th=base_sell_th_eff, base_conf_th=conf_th, base_confirm_ticks=confirm_ticks, max_scan=30)
                 buy_th_eff, sell_th_eff, conf_th_eff, confirm_ticks_eff, strength_boost = dyn_rules_obj.buy_th, dyn_rules_obj.sell_th, dyn_rules_obj.conf_th, dyn_rules_obj.confirm_ticks, dyn_rules_obj.strength_boost
 
-                # 👇👇👇 [환경 변수 로드 및 비상금 방어 룰 적용]
                 reserve_cash_ratio = _env_float("RESERVE_CASH_RATIO", 0.30)
                 reserve_buy_min_score = _env_float("RESERVE_BUY_MIN_SCORE", 0.80)
                 
-                # 현금이 RESERVE_CASH_RATIO 미만으로 떨어졌다면 비상금 모드 발동 (낙폭과대가 아니면 매수 기준을 높임)
                 if cash_ratio < reserve_cash_ratio and not is_value_dip and not is_inverse:
                     buy_th_eff = max(float(buy_th_eff), reserve_buy_min_score) 
-                # 👆👆👆 ------------------------------------------
 
                 block_reason, force_sell, force_sell_frac, risk_reason, rd = "", False, 0.0, "", None
                 if not is_inverse:
@@ -1025,9 +1014,6 @@ def main() -> None:
                 else:
                     eff_sl1, eff_sl2, eff_tp1 = stop_loss_1, stop_loss_2, take_profit_1
 
-                # =====================================================================
-                # 🚨 [신규 추가] 전투 모드(is_combat_mode)가 아닐 경우 주문 전면 차단 (리서치 모드)
-                # =====================================================================
                 if not is_combat_mode and sig.action in ("BUY", "SELL"):
                     plan_action, plan_qty, plan_reason = "HOLD", 0, f"RESEARCH_MODE (Trade window {trade_start_et}-{trade_end_et} ET) | raw={sig.action}"
                     if not block_reason: block_reason = "RESEARCH_MODE"
@@ -1104,7 +1090,9 @@ def main() -> None:
                             recent_events = news_store.get_recent_events(ticker, days=news_window_days, limit=12) or []
                             recent_light = [{"ts_kst": e.get("ts_kst"), "title": e.get("title"), "summary": e.get("summary"), "event_type": e.get("event_type"), "sentiment": e.get("sentiment"), "impact": e.get("impact"), "why_it_moves": e.get("why_it_moves"), "link": e.get("link"), "event_score": e.get("event_score"), "confidence": e.get("confidence")} for e in recent_events if isinstance(e, dict)]
                             snapshot = {"ts_kst": loop_ts, "price": price_f, "market_open": market_open, "regime": {"enabled": bool(regime_engine is not None), "score": getattr(regime, "score", None), "label": getattr(regime, "label", None)}, "signal": {"total": total, "raw_action": sig.action, "strength": sig.strength, "reason": sig.reason}, "plan": {"action": plan_action, "qty": int(plan_qty), "reason": plan_reason}, "position": {"qty": float(pos.qty), "avg": float(pos.avg_price)}, "news": {"news_score": news_used, "raw_n": cnt, "raw_sum": raw_news, "conf": conf_avg}, "valuation": {"score": vscore, "fair_value": fair_value, "range": fair_range}, "ta": {"score": tscore, "label": tlabel}}
-                            prompt = build_decision_prompt(ticker=ticker, kb=kb, snapshot=snapshot, recent_news_events=recent_light)
+                            
+                            # 👇 [수정] 매수 판단 프롬프트에 AI 자가학습 오답노트(ai_lessons) 주입
+                            prompt = build_decision_prompt(ticker=ticker, kb=kb, snapshot=snapshot, recent_news_events=recent_light, lessons=ai_lessons)
                             llm_text = ollama_generate(prompt=prompt, model=decision_model, temperature=0.2, timeout=float(os.environ.get("OLLAMA_TIMEOUT", "120") or "120"))
                             decision = parse_decision(llm_text)
                             decision_action, decision_conf = str(decision.get("action", "HOLD")).upper(), float(decision.get("confidence", 0.5))
@@ -1195,14 +1183,12 @@ def main() -> None:
 
                 order_msg = ""
                 
-                # 👇👇👇 [환경 변수 로드 및 기회비용 스와핑 실행 로직] 👇👇👇
                 swap_cash_ratio = _env_float("SWAP_CASH_RATIO", 0.10)
                 swap_buy_min_score = _env_float("SWAP_BUY_MIN_SCORE", 0.80)
                 swap_sell_slippage_pct = _env_float("SWAP_SELL_SLIPPAGE_PCT", 0.10)
                 swap_fee_slippage_est = _env_float("SWAP_FEE_SLIPPAGE_EST", 0.5)
                 
                 current_prices[ticker] = price_f
-                # 매수 신호가 떴는데(BUY), 엄청난 호재이며, 현금이 기준치 미만으로 부족할 때 발동!
                 if plan_action == "BUY" and cash_ratio < swap_cash_ratio and total >= swap_buy_min_score and not is_inverse and broker is not None:
                     swap_res = _evaluate_portfolio_swap(ticker, total, plan_reason, positions, current_prices, news_store, ai_gate_model, swap_fee_slippage_est)
                     if swap_res.get("swap_approved") and swap_res.get("sell_ticker"):
@@ -1211,27 +1197,38 @@ def main() -> None:
                         if p_qty > 0:
                             notifier.send(f"🔄 [AI 기회비용 스왑 발동!]\n📉 매도(버림): {sell_t} ({p_qty}주)\n📈 매수(갈아탐): {ticker}\n💡 사유: {swap_res.get('reason')}")
                             try:
-                                # 설정된 슬리피지(기본 10%)만큼 낮춘 시장가 흉내 지정가로 던짐
                                 exec_px = current_prices.get(sell_t, price_f) * (1.0 - swap_sell_slippage_pct)
                                 broker.sell_market(sell_t, int(p_qty), last_price=exec_px)
-                                cash_ratio += 1.0 # 팔아서 현금이 생겼으므로, 현재 루프 안에서는 스왑 연속 발동을 막기 위해 펌핑
+                                cash_ratio += 1.0 
                                 plan_reason = f"[스왑 성공] {sell_t} 손절 후 교체 | {plan_reason}"
                             except Exception as e:
                                 plan_reason = f"[스왑 실패] {e} | {plan_reason}"
-                # 👆👆👆 ------------------------------------------------------------------- 👆👆👆
 
                 if broker is not None and plan_action in ("BUY", "SELL") and plan_qty > 0:
                     try:
-                        # 긴급 상황 조건: 강제매도(force_sell), 장마감 청산, 손절(STOP_LOSS), 폭락장(BLACK_SWAN) 발생
                         is_urgent_fill = force_sell or is_force_close_time or ("STOP_LOSS" in plan_reason) or ("BLACK_SWAN" in str(getattr(regime, "label", "")))
+                        
+                        # 👇👇👇 [신규 추가] 강력한 호재 뉴스(news_score >= 0.40)로 인한 매수인지 판별
+                        is_news_buy = (plan_action == "BUY" and float(news_used) >= 0.40)
+                        # 👆👆👆
                         
                         exec_price_f = price_f
                         if is_urgent_fill:
                             if plan_action == "BUY":
-                                exec_price_f = price_f * 1.10 # 현재가보다 10% 높게 매수 주문 (파는 사람 물량 즉시 싹쓸이 체결)
+                                exec_price_f = price_f * 1.10
                             elif plan_action == "SELL":
-                                exec_price_f = price_f * 0.90 # 현재가보다 10% 낮게 매도 주문 (사는 사람에게 즉시 던지기 체결)
-                            plan_reason = f"[긴급체결보장] {plan_reason}"
+                                exec_price_f = price_f * 0.90
+                            plan_reason = f"[긴급체결 10%] {plan_reason}"
+                            
+                        # 👇👇👇 [수정] 호재 뉴스 매수일 때만 1% 버퍼 적용
+                        elif is_news_buy:
+                            news_slip = _env_float("NEWS_BUY_SLIPPAGE_PCT", 0.01) 
+                            exec_price_f = price_f * (1.0 + news_slip)
+                            plan_reason = f"[호재추격버퍼 {news_slip*100}%] {plan_reason}"
+                        else:
+                            # 그 외 일반 매수(낙폭과대 등) 및 매도(익절 등)는 버퍼 없이 현재가(지정가)
+                            exec_price_f = price_f
+                        # 👆👆👆 -------------------------------------------------------------
 
                         res = broker.buy_market(ticker, int(plan_qty), last_price=exec_price_f) if plan_action == "BUY" else broker.sell_market(ticker, int(plan_qty), last_price=exec_price_f)
                         ok, dry = bool(res.ok), bool(res.raw.get("dry_run", False))
@@ -1250,7 +1247,6 @@ def main() -> None:
 
                 reg_msg = f" regime={getattr(regime, 'label', None)}({float(getattr(regime, 'score', 0.0)):.2f})" if regime is not None else ""
                 
-                # 전투모드가 아니면 로그 앞부분에 [RESEARCH]를 붙여 출력
                 mode_prefix = "[TICK]" if is_combat_mode else "[RESEARCH]"
                 print(f"{mode_prefix} {ticker} price={price_f} total={total:.2f} conf={conf_avg:.2f} news={news_used:.2f}(raw={raw_news:.2f},n={cnt}) val={vscore:.2f} ta={tscore:.2f}({tlabel}) raw_sig={sig.action} strength={sig.strength:.3f} pos_qty={pos.qty:.0f} pos_avg={pos.avg_price:.2f} plan={plan_action} qty={plan_qty} market_open={market_open}{reg_msg}{decision_msg}{ai_msg}{order_msg}{' block=' + block_reason if block_reason else ''} plan_reason={plan_reason[:120]}")
 
