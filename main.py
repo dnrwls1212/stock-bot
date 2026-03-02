@@ -386,6 +386,42 @@ def _evaluate_macro_risk(news_store: NewsStore, model: str) -> tuple[int, str]:
         
     return 1, "AI 분석 에러로 인해 기본 방어선(Level 1)을 유지합니다."
 
+# =====================================================================
+# 🚨 [신규 추가] AI 기반 기회비용 계산 및 포트폴리오 스왑(교체) 진단
+# =====================================================================
+def _evaluate_portfolio_swap(new_ticker: str, new_score: float, new_reason: str, positions: dict, current_prices: dict, news_store: NewsStore, model: str, fee_est: float = 0.5) -> dict:
+    pos_lines = []
+    for t, p in positions.items():
+        qty = float(p.qty)
+        if qty > 0 and t != new_ticker and t not in ["SQQQ", "SOXS", "PSQ"]: # 인버스는 스왑 대상에서 제외
+            avg_px = float(p.avg_price)
+            cur_px = current_prices.get(t, avg_px)
+            ret_pct = ((cur_px - avg_px) / avg_px * 100.0) if avg_px > 0 else 0.0
+            
+            ns = news_store.compute_signal(ticker=t, now_kst=datetime.now(ZoneInfo("Asia/Seoul")), half_life_hours=48, window_days=14, max_items=10)
+            ns_score = ns.get("news_score", 0.0)
+            
+            pos_lines.append(f"- [{t}] 수익률: {ret_pct:.2f}%, 최근뉴스점수: {ns_score:.2f}")
+            
+    if not pos_lines:
+        return {"swap_approved": False}
+        
+    prompt = (
+        f"너는 냉혹한 최고투자책임자(CIO)야. 현재 계좌에 현금이 고갈되었는데 초강력 호재가 발생했어.\n"
+        f"[신규 매수 후보]\n- 티커: {new_ticker}\n- AI 모멘텀 점수: {new_score:.2f} (0.8 이상이면 강력매수)\n- 매수 근거: {new_reason}\n\n"
+        f"[현재 보유 종목 상태]\n" + "\n".join(pos_lines) + "\n\n"
+        f"질문: 수수료와 슬리피지(약 {fee_est}%)를 감안하고도, 위 보유 종목 중 하나를 전량 매도(손절 또는 익절)하고 [{new_ticker}]로 교체(Swap)하는 것이 포트폴리오 회전율과 수익 극대화에 유리한가?\n"
+        f"모멘텀이 꺾인 종목을 버리고 강한 종목으로 갈아타는 것이 핵심이야. 유리하지 않다면 승인하지 마.\n"
+        f"반드시 아래 JSON 형식으로만 응답해:\n"
+        f"{{\"swap_approved\": true/false, \"sell_ticker\": \"매도할티커(없으면 빈칸)\", \"reason\": \"교체해야 하는 이유 1문장\"}}"
+    )
+    try:
+        from src.utils.ollama_client import ollama_generate, try_parse_json
+        res_text = ollama_generate(prompt=prompt, model=model, temperature=0.1, timeout=120)
+        return try_parse_json(res_text) or {"swap_approved": False}
+    except Exception:
+        return {"swap_approved": False}
+
 # -----------------------------
 # main
 # -----------------------------
@@ -602,7 +638,6 @@ def main() -> None:
                     last_reg_brief_date = ny_date
 
             # 2. 거래 모드(Combat Mode) 판별 (월~금 평일에만 전투 모드 켜짐)
-            # ny_time.weekday()는 0(월)~4(금), 5(토), 6(일)을 반환합니다.
             is_combat_mode = (trade_start_et <= ny_hm < trade_end_et) and (ny_time.weekday() < 5)
             # =====================================================================
 
@@ -672,17 +707,21 @@ def main() -> None:
                             bg_count += 1
             except Exception: pass
 
+            # 1. 야후 파이낸스 글로벌 거시경제(Top Stories) 뉴스 RSS 강제 추가
             loop_rss_urls = build_rss_urls(current_rss_tickers)
+            loop_rss_urls.append("https://finance.yahoo.com/news/rss")
             try: news_items = fetch_rss_news(limit=20, rss_urls=loop_rss_urls)
             except Exception: news_items = []
 
+            # 2. 한국투자증권 실시간 해외속보(제목) 연동
             if quote_provider is not None and not quote_provider.kis.cfg.paper:
                 try:
                     kis_news_raw = quote_provider.get_breaking_news()
                     for kn in kis_news_raw:
                         title = kn.get("hts_pbnt_titl_cntt", "")
                         if title:
-                            news_items.insert(0, { "title": title, "summary": "한국투자증권 실시간 속보", "link": f"kis_news_{kn.get('cntt_usiq_srno', '')}", "published": f"{kn.get('data_dt', '')}{kn.get('data_tm', '')}" })
+                            # link에 'kis_brk_'를 붙여 나중에 거시(Macro) 뉴스로 식별되게 꼬리표를 답니다.
+                            news_items.insert(0, { "title": title, "summary": "한국투자증권 실시간 속보", "link": f"kis_brk_{kn.get('cntt_usiq_srno', '')}", "published": f"{kn.get('data_dt', '')}{kn.get('data_tm', '')}" })
                 except Exception: pass
 
             # 👇 [추가] 이번 1분 동안 새로운 매크로(지수) 뉴스가 들어왔는지 체크하는 깃발
@@ -699,6 +738,13 @@ def main() -> None:
                     skipped_low_signal += 1; continue
 
                 candidates = _candidate_tickers(title, summary, current_rss_tickers)
+                
+                # 👇👇👇 [핵심 마법] 티커가 없어도 글로벌 속보라면 SPY, QQQ에 강제 할당! 👇👇👇
+                is_macro_news = ("finance.yahoo.com/news/rss" in link) or ("kis_brk_" in link)
+                if is_macro_news and not candidates:
+                    candidates = ["SPY", "QQQ"]
+                # 👆👆👆 -------------------------------------------------------- 👆👆👆
+
                 if not candidates:
                     skipped_no_candidate += 1; continue
 
@@ -802,7 +848,9 @@ def main() -> None:
                 try:
                     qqq_quote = quote_provider.get_quote(regime_symbol) 
                     qqq_out = qqq_quote.raw.get("output") or qqq_quote.raw
-                    qqq_rate = float(qqq_out.get("rate", 0.0))
+                    # "rate" 또는 KIS 기본 이름인 "prdy_ctrt"를 둘 다 확인합니다.
+                    raw_rate = qqq_out.get("rate") or qqq_out.get("prdy_ctrt") or 0.0
+                    qqq_rate = float(raw_rate)
                     
                     # AI가 평가한 Risk Level에 따라 폭락 트리거 기준을 동적으로 조정!
                     if macro_risk_level >= 3:
@@ -838,6 +886,15 @@ def main() -> None:
                     else: kr_label, inv_status = "⚖️ 횡보/중립장 (Neutral)", "기본 매매 진행"
                     notifier.send(f"🤖 [AI 시장 판단]\n상태: {kr_label} ({r_label})\n점수: {r_score:.2f}\n분석: {r_ai_text}\n봇 대응: {inv_status}")
                     last_regime_noti_time = now_kst
+
+            # 👇👇👇 [여기에 추가] 실시간 계좌 현금 비중 파악
+            cash_usd, total_usd = 1000.0, 10000.0
+            if broker is not None and not broker.kis.cfg.paper:
+                cash_usd, total_usd = broker.get_account_summary()
+            
+            cash_ratio = cash_usd / max(1.0, total_usd) # 현재 현금 비중 (예: 0.30 = 30%)
+            current_prices = {} # 스왑 평가를 위한 실시간 가격 저장소
+            # 👆👆👆 ------------------------------------------
 
             # ---------- 2) ticker loop ----------
             for ticker in WATCHLIST:
@@ -912,6 +969,15 @@ def main() -> None:
                 dyn_rules_obj = dyn_rules.apply(news_store=news_store, ticker=ticker, now_kst=now_kst, base_buy_th=base_buy_th_eff, base_sell_th=base_sell_th_eff, base_conf_th=conf_th, base_confirm_ticks=confirm_ticks, max_scan=30)
                 buy_th_eff, sell_th_eff, conf_th_eff, confirm_ticks_eff, strength_boost = dyn_rules_obj.buy_th, dyn_rules_obj.sell_th, dyn_rules_obj.conf_th, dyn_rules_obj.confirm_ticks, dyn_rules_obj.strength_boost
 
+                # 👇👇👇 [환경 변수 로드 및 비상금 방어 룰 적용]
+                reserve_cash_ratio = _env_float("RESERVE_CASH_RATIO", 0.30)
+                reserve_buy_min_score = _env_float("RESERVE_BUY_MIN_SCORE", 0.80)
+                
+                # 현금이 RESERVE_CASH_RATIO 미만으로 떨어졌다면 비상금 모드 발동 (낙폭과대가 아니면 매수 기준을 높임)
+                if cash_ratio < reserve_cash_ratio and not is_value_dip and not is_inverse:
+                    buy_th_eff = max(float(buy_th_eff), reserve_buy_min_score) 
+                # 👆👆👆 ------------------------------------------
+
                 block_reason, force_sell, force_sell_frac, risk_reason, rd = "", False, 0.0, "", None
                 if not is_inverse:
                     try:
@@ -939,6 +1005,16 @@ def main() -> None:
                     try: sig = type(sig)("HOLD", float(sig.strength), sig.reason + " | " + risk_reason + " | BUY_BLOCKED")
                     except Exception: sig.action = "HOLD"
                     block_reason = "RISK_OVERRIDE_BLOCK_BUY"
+
+                if is_inverse and float(pos.qty) > 0 and not buy_block:
+                    force_sell = True
+                    force_sell_frac = 1.0
+                    risk_reason = "MACRO_RECOVERY_INVERSE_DUMP (매크로 악재 해소로 인한 인버스 즉각 청산)"
+
+                if not is_inverse and float(pos.qty) > 0 and buy_block:
+                    force_sell = True
+                    force_sell_frac = 1.0
+                    risk_reason = "MACRO_CRISIS_DUMP (매크로 위험 및 지수폭락 감지로 인한 일반 주식 전량 대피)"
 
                 pos.update_streak(sig.action)
 
@@ -1077,8 +1153,6 @@ def main() -> None:
 
                 if chase_ban_enabled and plan_action == "BUY" and plan_qty > 0:
                     hot, hot_reason = False, ""
-                    if scalp_engine is not None:
-                        pass # 스캘핑 로직 생략
                     dq2 = _recent_px.get(ticker)
                     if dq2 is not None and len(dq2) >= chase_ban_spike_window:
                         base_px = float(dq2[-chase_ban_spike_window])
@@ -1120,9 +1194,46 @@ def main() -> None:
                             plan_action, plan_qty, plan_reason = "HOLD", 0, f"FORCE_SELL_CLOSE_WAIT: 장 마감 강제청산 시간이나 미체결 주문 대기 중"
 
                 order_msg = ""
+                
+                # 👇👇👇 [환경 변수 로드 및 기회비용 스와핑 실행 로직] 👇👇👇
+                swap_cash_ratio = _env_float("SWAP_CASH_RATIO", 0.10)
+                swap_buy_min_score = _env_float("SWAP_BUY_MIN_SCORE", 0.80)
+                swap_sell_slippage_pct = _env_float("SWAP_SELL_SLIPPAGE_PCT", 0.10)
+                swap_fee_slippage_est = _env_float("SWAP_FEE_SLIPPAGE_EST", 0.5)
+                
+                current_prices[ticker] = price_f
+                # 매수 신호가 떴는데(BUY), 엄청난 호재이며, 현금이 기준치 미만으로 부족할 때 발동!
+                if plan_action == "BUY" and cash_ratio < swap_cash_ratio and total >= swap_buy_min_score and not is_inverse and broker is not None:
+                    swap_res = _evaluate_portfolio_swap(ticker, total, plan_reason, positions, current_prices, news_store, ai_gate_model, swap_fee_slippage_est)
+                    if swap_res.get("swap_approved") and swap_res.get("sell_ticker"):
+                        sell_t = swap_res.get("sell_ticker")
+                        p_qty = float(get_position(positions, sell_t).qty)
+                        if p_qty > 0:
+                            notifier.send(f"🔄 [AI 기회비용 스왑 발동!]\n📉 매도(버림): {sell_t} ({p_qty}주)\n📈 매수(갈아탐): {ticker}\n💡 사유: {swap_res.get('reason')}")
+                            try:
+                                # 설정된 슬리피지(기본 10%)만큼 낮춘 시장가 흉내 지정가로 던짐
+                                exec_px = current_prices.get(sell_t, price_f) * (1.0 - swap_sell_slippage_pct)
+                                broker.sell_market(sell_t, int(p_qty), last_price=exec_px)
+                                cash_ratio += 1.0 # 팔아서 현금이 생겼으므로, 현재 루프 안에서는 스왑 연속 발동을 막기 위해 펌핑
+                                plan_reason = f"[스왑 성공] {sell_t} 손절 후 교체 | {plan_reason}"
+                            except Exception as e:
+                                plan_reason = f"[스왑 실패] {e} | {plan_reason}"
+                # 👆👆👆 ------------------------------------------------------------------- 👆👆👆
+
                 if broker is not None and plan_action in ("BUY", "SELL") and plan_qty > 0:
                     try:
-                        res = broker.buy_market(ticker, int(plan_qty), last_price=price_f) if plan_action == "BUY" else broker.sell_market(ticker, int(plan_qty), last_price=price_f)
+                        # 긴급 상황 조건: 강제매도(force_sell), 장마감 청산, 손절(STOP_LOSS), 폭락장(BLACK_SWAN) 발생
+                        is_urgent_fill = force_sell or is_force_close_time or ("STOP_LOSS" in plan_reason) or ("BLACK_SWAN" in str(getattr(regime, "label", "")))
+                        
+                        exec_price_f = price_f
+                        if is_urgent_fill:
+                            if plan_action == "BUY":
+                                exec_price_f = price_f * 1.10 # 현재가보다 10% 높게 매수 주문 (파는 사람 물량 즉시 싹쓸이 체결)
+                            elif plan_action == "SELL":
+                                exec_price_f = price_f * 0.90 # 현재가보다 10% 낮게 매도 주문 (사는 사람에게 즉시 던지기 체결)
+                            plan_reason = f"[긴급체결보장] {plan_reason}"
+
+                        res = broker.buy_market(ticker, int(plan_qty), last_price=exec_price_f) if plan_action == "BUY" else broker.sell_market(ticker, int(plan_qty), last_price=exec_price_f)
                         ok, dry = bool(res.ok), bool(res.raw.get("dry_run", False))
                         order_msg = f" order_ok={ok} dry_run={dry} order_no={getattr(res, 'order_no', None)}"
                         if ok:
