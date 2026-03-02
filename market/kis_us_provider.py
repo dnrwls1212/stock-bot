@@ -61,15 +61,33 @@ class KisUsQuoteProvider:
         return UsQuote(ticker=ticker, price=price, raw=j)
 
     # 🚨 [실전 API] 실시간 해외속보 조회
-    def get_breaking_news(self) -> list:
-        if self.kis.cfg.paper: return []
-        path = "/uapi/overseas-price/v1/quotations/brknews-title"
+    # src/market/kis_us_provider.py
+    def get_breaking_news(self, limit: int = 20) -> list:
+        """
+        [해외주식] 해외속보(제목) API 연동 (TR_ID: FHKST01011801)
+        - 글로벌 거시경제 및 시장 전체의 실시간 속보를 조회합니다.
+        """
+        if self.kis.cfg.paper:
+            return []
+            
         tr_id = "FHKST01011801"
+        params = {
+            "AUTH": "",
+            "EXCD": "000", # 000: 전체시장
+            "PDNO": "",
+            "GUBN": "0",   # 0: 전체속보
+            "TITL": "",
+            "NREC": str(limit),
+            "DTD": "",
+            "TM": ""
+        }
+        
         try:
-            res = self.kis.request("GET", path, tr_id=tr_id, params={})
-            if isinstance(res, dict) and str(res.get("rt_cd", "")) == "0":
-                return res.get("output") or []
-        except Exception: pass
+            resp = self.kis.request("GET", "/uapi/overseas-price/v1/quotations/brknews-title", tr_id=tr_id, params=params)
+            if isinstance(resp, dict) and str(resp.get("rt_cd", "")) == "0":
+                return resp.get("output") or []
+        except Exception as e:
+            print(f"[KIS_NEWS_ERR] 해외속보 조회 실패: {e}")
         return []
 
     # 🚨 [실전 API] 거래량 급증 종목 탐색
