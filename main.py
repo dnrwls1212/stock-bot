@@ -343,6 +343,49 @@ def _generate_and_send_briefing(watchlist: List[str], news_store: NewsStore, mod
     except Exception as e:
         notifier.send(f"⚠️ 브리핑 생성 실패: {e}")
 
+# =====================================================================
+# 🚨 [신규 추가] AI 매크로(시장 전체) 리스크 진단 함수
+# =====================================================================
+def _evaluate_macro_risk(news_store: NewsStore, model: str) -> tuple[int, str]:
+    # 시장 대장주인 SPY, QQQ의 최근 3일치 뉴스를 집중 분석
+    events = news_store.get_recent_events("SPY", days=3, limit=10) + news_store.get_recent_events("QQQ", days=3, limit=10)
+    
+    if not events:
+        return 1, "최근 거시경제 주요 뉴스가 부족하여 기본 경계(Level 1) 상태를 유지합니다."
+        
+    lines = []
+    for e in events:
+        if isinstance(e, dict) and e.get("title"):
+            lines.append(f"- {e.get('title')}")
+            
+    prompt = (
+        "너는 월스트리트 수석 거시경제(Macro) 리스크 애널리스트야.\n"
+        "최근 3일간의 시장 지수(SPY, QQQ) 뉴스를 바탕으로 현재 시장의 '시스템적 리스크 레벨'을 0에서 3까지 평가해줘.\n"
+        "[Risk Level 기준]\n"
+        "0: 평온한 시장 또는 강세장\n"
+        "1: 일반적인 조정 또는 경계감 (기본)\n"
+        "2: 뚜렷한 악재 발생 (예: 금리 인상 쇼크, 큰 지정학적 긴장, 무역 분쟁)\n"
+        "3: 극도 위험 / 시스템적 위기 (예: 전쟁 발발, 전염병 확산, 대형 금융위기)\n\n"
+        "[최근 뉴스]\n" + "\n".join(lines[:15]) + "\n\n"
+        "반드시 아래 JSON 형식으로만 응답해 (다른 말은 절대 금지):\n"
+        "{\"risk_level\": 0, \"reason\": \"한국어로 아주 간결한 평가 이유 1문장\"}"
+    )
+    
+    try:
+        from src.utils.ollama_client import ollama_generate, try_parse_json
+        res_text = ollama_generate(prompt=prompt, model=model, temperature=0.1, timeout=120)
+        res_json = try_parse_json(res_text)
+        
+        if isinstance(res_json, dict):
+            level = int(res_json.get("risk_level", 1))
+            reason = str(res_json.get("reason", "분석 완료"))
+            level = max(0, min(3, level)) # 0~3 사이 보정
+            return level, reason
+    except Exception as e:
+        print(f"[MACRO_RISK_ERR] {e}")
+        
+    return 1, "AI 분석 에러로 인해 기본 방어선(Level 1)을 유지합니다."
+
 # -----------------------------
 # main
 # -----------------------------
@@ -530,6 +573,10 @@ def main() -> None:
     bg_idx = 0  
     last_regime_noti_time = None
 
+    last_macro_eval_time = None
+    macro_risk_level = 1
+    macro_risk_reason = "초기화 대기중"
+
     try:
         while True:
             now_kst = datetime.now(ZoneInfo("Asia/Seoul"))
@@ -597,6 +644,11 @@ def main() -> None:
                     is_force_close_time = True
 
             current_rss_tickers = list(WATCHLIST)
+            
+            # 🚨 [추가] 리스크 평가를 위해 SPY, QQQ는 무조건 1분마다 뉴스 수집 대상에 포함
+            for mt in ["SPY", "QQQ"]:
+                if mt not in current_rss_tickers:
+                    current_rss_tickers.append(mt)
 
             if quote_provider is not None and not quote_provider.kis.cfg.paper:
                 try:
@@ -633,6 +685,9 @@ def main() -> None:
                             news_items.insert(0, { "title": title, "summary": "한국투자증권 실시간 속보", "link": f"kis_news_{kn.get('cntt_usiq_srno', '')}", "published": f"{kn.get('data_dt', '')}{kn.get('data_tm', '')}" })
                 except Exception: pass
 
+            # 👇 [추가] 이번 1분 동안 새로운 매크로(지수) 뉴스가 들어왔는지 체크하는 깃발
+            macro_news_added = False 
+
             analyzed_links, skipped_seen, skipped_low_signal, skipped_no_candidate, llm_fail = 0, 0, 0, 0, 0
 
             for item in news_items:
@@ -662,6 +717,11 @@ def main() -> None:
 
                 for t in assigned:
                     t_upper = str(t).upper()
+                    
+                    # 👇 [추가] 방금 들어온 뉴스가 시장 전체(SPY, QQQ) 뉴스라면 깃발을 번쩍 듭니다!
+                    if t_upper in ["SPY", "QQQ"]:
+                        macro_news_added = True
+
                     if t_upper not in WATCHLIST and (t_upper in universe_all or t_upper in current_rss_tickers):
                         is_urgent = (escore >= 0.8) or (int(evt.get("impact", 0)) >= 2)
                         if is_urgent:
@@ -691,6 +751,28 @@ def main() -> None:
                 try: mark_seen(link)
                 except Exception: pass
 
+            # ==================================================
+            # 🚨 [이벤트 기반 즉각 대응] 새 매크로 뉴스가 들어온 그 순간(1분 이내)에만 평가!
+            # ==================================================
+            # 처음 시작할 때(None) 또는 새로운 SPY/QQQ 뉴스가 수집되었을 때만 AI 평가 진행
+            if last_macro_eval_time is None or macro_news_added:
+                new_macro_level, new_macro_reason = _evaluate_macro_risk(news_store, ai_gate_model)
+                
+                # 처음 시작이거나, 위험 레벨이 이전과 '다르게' 변경되었을 때만 텔레그램 알림! (스팸 방지)
+                if last_macro_eval_time is None or new_macro_level != macro_risk_level:
+                    if new_macro_level >= 2:
+                        notifier.send(f"🚨 [매크로 리스크 비상 경보!]\n새로운 주요 뉴스 감지! 위험 단계가 Risk Level {new_macro_level}로 변경되었습니다!\n진단: {new_macro_reason}")
+                    else:
+                        notifier.send(f"🌍 [AI 매크로 리스크 진단]\n위험 단계: Risk Level {new_macro_level}\n진단: {new_macro_reason}")
+                elif macro_news_added:
+                    # 위험 단계는 안 변했지만, AI가 새 뉴스를 읽고 "이상 없음" 판정을 내렸다는 내부 로그
+                    print(f"[MACRO] 새 지수 뉴스 확인됨 -> 기존 위험단계 유지 (Lv {new_macro_level})")
+                
+                macro_risk_level = new_macro_level
+                macro_risk_reason = new_macro_reason
+                last_macro_eval_time = now_kst
+            # ==================================================
+
             for t in WATCHLIST:
                 try:
                     new_n = news_store.pop_new_event_count(t)
@@ -713,7 +795,40 @@ def main() -> None:
                         th_mult, scalp_w_mult, size_mult, buy_block = float(regime_th_mult), float(regime_scalp_w_mult), float(regime_size_mult), bool(regime_buy_block)
                 except Exception: pass
 
-            if regime is not None and market_open:
+            # ==================================================
+            # 🚨 [수정] AI 매크로 연동 '가변형 서킷브레이커'
+            # ==================================================
+            if quote_provider is not None and not quote_provider.kis.cfg.paper:
+                try:
+                    qqq_quote = quote_provider.get_quote(regime_symbol) 
+                    qqq_out = qqq_quote.raw.get("output") or qqq_quote.raw
+                    qqq_rate = float(qqq_out.get("rate", 0.0))
+                    
+                    # AI가 평가한 Risk Level에 따라 폭락 트리거 기준을 동적으로 조정!
+                    if macro_risk_level >= 3:
+                        cb_threshold = -0.3 # 전시 상황 (극도 민감): -0.3%만 빠져도 즉시 방어
+                    elif macro_risk_level == 2:
+                        cb_threshold = -0.8 # 악재 상황 (경계): -0.8% 하락 시 방어
+                    else:
+                        cb_threshold = -1.5 # 평온한 시장 (기본): -1.5% 대폭락 시에만 방어
+                    
+                    if qqq_rate <= cb_threshold:
+                        buy_block = True
+                        th_mult = float(regime_th_mult) if regime_enabled else 1.50
+                        
+                        if regime is None:
+                            class TempRegime: pass
+                            regime = TempRegime()
+                        
+                        regime.score = -1.0
+                        regime.label = f"BLACK_SWAN(Lv{macro_risk_level})"
+                        regime.analysis = f"🚨 매크로 위험(Lv{macro_risk_level})! 방어선({cb_threshold}%) 붕괴 감지 (현재 {qqq_rate:.2f}%) - 매수 전면 차단 및 인버스 가동"
+                except Exception as e:
+                    pass
+            # ==================================================
+
+            # 🚨 [복구] 15분마다 시장 판단(Regime) 텔레그램 알림 전송 (전투 모드일 때만)
+            if regime is not None and is_combat_mode:
                 if last_regime_noti_time is None or (now_kst - last_regime_noti_time).total_seconds() >= 15 * 60:
                     r_score = float(getattr(regime, "score", 0.0))
                     r_label = str(getattr(regime, "label", "unknown"))
