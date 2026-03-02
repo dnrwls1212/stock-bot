@@ -156,9 +156,9 @@ def _clamp(x: float, lo: float, hi: float) -> float:
     return max(lo, min(hi, x))
 
 def _total_score(news_s: float, val_s: float, ta_s: float) -> float:
-    w_news = _env_float("W_NEWS", 0.55)
-    w_val = _env_float("W_VAL", 0.55)
-    w_daily = _env_float("W_DAILY", 0.60)
+    w_news = _env_float("W_NEWS", 0.50)
+    w_val = _env_float("W_VAL", 0.40)
+    w_daily = _env_float("W_DAILY", 0.40)
     denom = (w_news + w_val + w_daily) or 1.0
     return (w_news * news_s + w_val * val_s + w_daily * ta_s) / denom
 
@@ -287,7 +287,7 @@ def _maybe_build_universe_and_watchlist_once(notifier: Notifier) -> Optional[Lis
 
     if not watch_on: return None
     out_path = _env_str("WATCHLIST_AUTO_PATH", "data/watchlist_auto.txt")
-    top_n = _env_int("WATCHLIST_TOP_N", 12)
+    top_n = _env_int("WATCHLIST_TOP_N", 20)
 
     try:
         r = build_watchlist_v1(
@@ -310,6 +310,38 @@ def _maybe_build_universe_and_watchlist_once(notifier: Notifier) -> Optional[Lis
         notifier.send(f"⚠️ [자동 종목선정 에러] 기존 WATCHLIST 사용\nerr={e!r}")
         return None
 
+# =====================================================================
+# 🚨 [신규 추가] 장 시작 전 AI 전략 브리핑 생성 함수
+# =====================================================================
+def _generate_and_send_briefing(watchlist: List[str], news_store: NewsStore, model: str, notifier: Notifier, session_name: str):
+    notifier.send(f"📊 [AI 분석 중] {session_name} 대비 전략 브리핑을 작성하고 있습니다...")
+    lines = []
+    # 각 종목별로 가장 파급력이 컸던 최근 3일치 뉴스 2개씩만 추출 (LLM Context 오버플로우 방지)
+    for t in watchlist:
+        evs = news_store.get_recent_events(t, days=3, limit=2)
+        if evs:
+            lines.append(f"[{t}]")
+            for e in evs:
+                if isinstance(e, dict) and e.get('title'):
+                    lines.append(f"- {e.get('title')} (AI점수: {e.get('event_score', 0):.2f})")
+    
+    if not lines:
+        notifier.send(f"📢 [{session_name} 브리핑]\n수집된 주요 호재/악재 뉴스가 없습니다. 보수적 관망을 권장합니다.")
+        return
+
+    prompt = (
+        f"너는 월스트리트 수석 퀀트 애널리스트야. 곧 {session_name}이 시작돼.\n"
+        "우리가 감시 중인 종목들에 대해 수집된 아래의 최신 뉴스를 바탕으로, "
+        "오늘 장에서 어떤 종목이 크게 상승할 모멘텀을 가졌는지(매수 추천), "
+        "어떤 종목을 조심해야 할지(리스크 경고) 3~4문단으로 아주 간결하고 명확하게 브리핑해줘.\n\n"
+        + "\n".join(lines)
+    )
+
+    try:
+        res = ollama_generate(prompt=prompt, model=model, temperature=0.3, timeout=180)
+        notifier.send(f"🎯 [AI {session_name} 전략 보고서]\n\n{res}")
+    except Exception as e:
+        notifier.send(f"⚠️ 브리핑 생성 실패: {e}")
 
 # -----------------------------
 # main
@@ -324,7 +356,6 @@ def main() -> None:
     _maybe_build_universe_and_watchlist_once(notifier)
     WATCHLIST = load_watchlist()
     
-    # 🚨 하락장 대비 인버스 종목 강제 주입
     inverse_env = os.environ.get("INVERSE_TICKERS", "SQQQ,SOXS,PSQ")
     inverse_tickers = [t.strip().upper() for t in inverse_env.split(",") if t.strip()]
     for inv_t in inverse_tickers:
@@ -335,20 +366,20 @@ def main() -> None:
 
     tick_seconds = _env_int("TICK_SECONDS", 60)
     cooldown_minutes = _env_int("COOLDOWN_MINUTES", 15)
-    max_trades_per_day = _env_int("MAX_TRADES_PER_DAY", 6)
-    max_position_qty = _env_int("MAX_POSITION_QTY", 10)
+    max_trades_per_day = _env_int("MAX_TRADES_PER_DAY", 15)
+    max_position_qty = _env_int("MAX_POSITION_QTY", 500)
     base_qty = _env_int("BASE_QTY", 1)
-    confirm_ticks = _env_int("CONFIRM_TICKS", 2)
+    confirm_ticks = _env_int("CONFIRM_TICKS", 1)
     fast_track_strength = _env_float("FAST_TRACK_STRENGTH", 0.90)
 
     stop_loss_1 = _env_float("STOP_LOSS_1", -0.03)
-    stop_loss_2 = _env_float("STOP_LOSS_2", -0.06)
-    take_profit_1 = _env_float("TAKE_PROFIT_1", 0.04)
+    stop_loss_2 = _env_float("STOP_LOSS_2", -0.05)
+    take_profit_1 = _env_float("TAKE_PROFIT_1", 0.05)
     stop_sell_frac = _env_float("STOP_SELL_FRAC", 0.50)
-    tp_sell_frac = _env_float("TP_SELL_FRAC", 0.33)
+    tp_sell_frac = _env_float("TP_SELL_FRAC", 0.50)
 
-    buy_th = _env_float("BUY_TH", 0.70)
-    sell_th = _env_float("SELL_TH", -0.70)
+    buy_th = _env_float("BUY_TH", 0.35)
+    sell_th = _env_float("SELL_TH", -0.40)
     conf_th = _env_float("CONF_TH", 0.55)
 
     buy_t1, buy_t2, buy_t3 = _env_float("BUY_T1", 0.15), _env_float("BUY_T2", 0.40), _env_float("BUY_T3", 0.70)
@@ -356,40 +387,27 @@ def main() -> None:
     sell_t1, sell_t2, sell_t3 = _env_float("SELL_T1", 0.20), _env_float("SELL_T2", 0.50), _env_float("SELL_T3", 0.80)
     sell_f1, sell_f2, sell_f3 = _env_float("SELL_F1", 0.25), _env_float("SELL_F2", 0.50), _env_float("SELL_F3", 1.00)
 
-    allow_outside_market = _env_bool("ALLOW_OUTSIDE_MARKET", False)
-
-    paper_scalp_mode = _env_bool("PAPER_SCALP_MODE", False)
-    scalp_enabled = _env_bool("SCALP_ENABLED", False) or paper_scalp_mode
-    scalp_weight = _env_float("SCALP_WEIGHT", 0.55)
-    scalp_engine: Optional[ScalpSignalEngine] = None
-    if scalp_enabled:
-        scalp_engine = ScalpSignalEngine(
-            window=_env_int("SCALP_WINDOW", 60), warmup=_env_int("SCALP_WARMUP", 25),
-            k=_env_float("SCALP_K", 0.90), min_move_pct=_env_float("SCALP_MIN_MOV_PCT", 0.0006),
-            cooldown_ticks=_env_int("SCALP_COOLDOWN_TICKS", 2),
-        )
-
-    chase_ban_enabled = _env_bool("CHASE_BAN_ENABLED", False)
-    chase_ban_pct = _env_float("CHASE_BAN_PCT", 0.0025)
+    chase_ban_enabled = _env_bool("CHASE_BAN_ENABLED", True)
+    chase_ban_pct = _env_float("CHASE_BAN_PCT", 0.015)
     chase_ban_z = _env_float("CHASE_BAN_Z", 1.20)
-    chase_ban_after_spike_pct = _env_float("CHASE_BAN_AFTER_SPIKE_PCT", 0.006)
+    chase_ban_after_spike_pct = _env_float("CHASE_BAN_AFTER_SPIKE_PCT", 0.025)
     chase_ban_spike_window = _env_int("CHASE_BAN_SPIKE_WINDOW", 12)
     _recent_px: Dict[str, deque] = {}
 
-    cost_gate_enabled = _env_bool("COST_GATE_ENABLED", False)
-    cost_fee_bps = _env_float("COST_FEE_BPS", 1.0)
-    cost_spread_bps = _env_float("COST_SPREAD_BPS", 3.0)
-    cost_slip_bps = _env_float("COST_SLIPPAGE_BPS", 2.0)
-    edge_per_score = _env_float("EDGE_PER_SCORE", 0.008)
+    cost_gate_enabled = _env_bool("COST_GATE_ENABLED", True)
+    cost_fee_bps = _env_float("COST_FEE_BPS", 25.0)
+    cost_spread_bps = _env_float("COST_SPREAD_BPS", 5.0)
+    cost_slip_bps = _env_float("COST_SLIPPAGE_BPS", 3.0)
+    edge_per_score = _env_float("EDGE_PER_SCORE", 0.015)
     edge_min_mult = _env_float("EDGE_MIN_MULT", 1.1)
 
-    regime_enabled = _env_bool("REGIME_ENABLED", False)
+    regime_enabled = _env_bool("REGIME_ENABLED", True)
     regime_symbol = _env_str("REGIME_SYMBOL", "QQQ")
-    regime_risk_off = _env_float("REGIME_RISK_OFF", -0.20)
+    regime_risk_off = _env_float("REGIME_RISK_OFF", -0.50)
     regime_buy_block = _env_bool("REGIME_BUY_BLOCK", True)
-    regime_th_mult = _env_float("REGIME_TH_MULT", 1.35)
+    regime_th_mult = _env_float("REGIME_TH_MULT", 1.50)
     regime_scalp_w_mult = _env_float("REGIME_SCALP_WEIGHT_MULT", 0.70)
-    regime_size_mult = _env_float("REGIME_SIZE_MULT", 0.60)
+    regime_size_mult = _env_float("REGIME_SIZE_MULT", 0.30)
 
     regime_engine: Optional[RegimeFilter] = None
     if regime_enabled: regime_engine = RegimeFilter(regime_symbol)
@@ -399,7 +417,7 @@ def main() -> None:
     session_guard_end_min = _env_int("SESSION_GUARD_END_MIN", 3)
 
     whipsaw_guard_enabled = _env_bool("WHIPSAW_GUARD_ENABLED", True)
-    whipsaw_cooldown_ticks = _env_int("WHIPSAW_COOLDOWN_TICKS", 1)
+    whipsaw_cooldown_ticks = _env_int("WHIPSAW_COOLDOWN_TICKS", 5)
 
     _whipsaw_last_action: Dict[str, str] = {t: "HOLD" for t in WATCHLIST}
     _whipsaw_last_tick: Dict[str, int] = {t: -10**9 for t in WATCHLIST}
@@ -409,13 +427,13 @@ def main() -> None:
     news_dup_mult = _env_float("NEWS_DUP_MULT", 0.70)
 
     ai_gate_enabled = _env_bool("AI_GATE_ENABLED", True)
-    ai_gate_model = os.environ.get("AI_GATE_MODEL", "qwen2.5:7b-instruct")
-    ai_gate_min_conf = _env_float("AI_GATE_MIN_CONF", 0.55)
+    ai_gate_model = os.environ.get("AI_GATE_MODEL", "qwen2.5:14b-instruct")
+    ai_gate_min_conf = _env_float("AI_GATE_MIN_CONF", 0.60)
 
     decision_enabled = _env_bool("DECISION_AGENT_ENABLED", True)
-    decision_model = os.environ.get("DECISION_MODEL", os.environ.get("OLLAMA_MODEL", "qwen2.5:7b-instruct"))
+    decision_model = os.environ.get("DECISION_MODEL", os.environ.get("OLLAMA_MODEL", "qwen2.5:14b-instruct"))
     decision_min_conf = _env_float("DECISION_MIN_CONF", 0.60)
-    decision_every_ticks = _env_int("DECISION_EVERY_TICKS", 1)
+    decision_every_ticks = _env_int("DECISION_EVERY_TICKS", 60)
     decision_compare_only = not _env_bool("DECISION_OVERRIDE_TRADING", False)
     decision_tick_counter: Dict[str, int] = {t: 0 for t in WATCHLIST}
 
@@ -443,11 +461,11 @@ def main() -> None:
     NEWS_MEMORY_DIR = os.environ.get("NEWS_MEMORY_DIR", "data/news_memory")
     news_store = NewsStore(NEWS_STORE_PATH, memory_dir=NEWS_MEMORY_DIR)
 
-    news_half_life_h = _env_float("NEWS_HALF_LIFE_H", 24.0)
-    news_window_days = _env_int("NEWS_WINDOW_DAYS", 7)
+    news_half_life_h = _env_float("NEWS_HALF_LIFE_H", 48.0)
+    news_window_days = _env_int("NEWS_WINDOW_DAYS", 14)
     news_mem_max_items = _env_int("NEWS_MEM_MAX_ITEMS", 20)
     news_mem_update_every = _env_int("NEWS_MEM_UPDATE_EVERY", 3)
-    news_mem_model = os.environ.get("NEWS_MEM_MODEL", os.environ.get("OLLAMA_MODEL", "qwen2.5:7b-instruct"))
+    news_mem_model = os.environ.get("NEWS_MEM_MODEL", os.environ.get("OLLAMA_MODEL", "qwen2.5:14b-instruct"))
 
     dyn_rules = DynamicNewsRules()
     risk_override = NewsRiskOverride()
@@ -455,7 +473,7 @@ def main() -> None:
     LIMITS_PATH = os.environ.get("LIMITS_PATH", "data/limits.json")
     limit_store = TradeLimitStore(LIMITS_PATH)
     ticker_cooldown_sec = _env_int("TICKER_COOLDOWN_SEC", 300)
-    max_orders_per_ticker_day = _env_int("MAX_ORDERS_PER_TICKER_DAY", 2)
+    max_orders_per_ticker_day = _env_int("MAX_ORDERS_PER_TICKER_DAY", 3)
 
     acc_risk = AccountRiskManager.from_env()
 
@@ -474,11 +492,23 @@ def main() -> None:
             broker = None
             notifier.send(f"[INIT] KIS disabled (init error): {e}")
 
+    # =====================================================================
+    # 🚨 [신규 추가] 시간대별 모드 및 브리핑 상태 변수 초기화
+    # =====================================================================
+    briefing_enabled = _env_bool("BRIEFING_ENABLED", True)
+    briefing_pre_et = _env_str("BRIEFING_PRE_ET", "03:50")
+    briefing_reg_et = _env_str("BRIEFING_REG_ET", "09:20")
+    trade_start_et = _env_str("TRADE_START_ET", "04:00")
+    trade_end_et = _env_str("TRADE_END_ET", "16:00")
+    
+    last_pre_brief_date = ""
+    last_reg_brief_date = ""
+
     notifier.send(
         fmt_start(
             watchlist=WATCHLIST, tick_seconds=tick_seconds, execute_orders=os.environ.get("EXECUTE_ORDERS", "0"),
             ai_gate_enabled=ai_gate_enabled, decision_enabled=decision_enabled, decision_override=(not decision_compare_only),
-        )
+        ) + f"\n\n🕒 [운영 모드]\n전투(매매) 모드: {trade_start_et} ~ {trade_end_et} (뉴욕시간)\n그 외 시간은 리서치 모드(주문 차단)로 동작합니다."
     )
 
     auto_labeler = DecisionAutoLabeler(
@@ -487,15 +517,15 @@ def main() -> None:
             summary_path=os.environ.get("DECISION_SUMMARY_PATH", "data/decisions_summary.json"),
             cursor_path=os.environ.get("LABEL_CURSOR_PATH", "data/label_cursor.json"),
             cache_dir=os.environ.get("PRICE_CACHE_DIR", "data/price_cache"),
-            horizons=[h.strip() for h in os.environ.get("LABEL_HORIZONS", "1h,1d,3d,7d").split(",") if h.strip()],
+            horizons=[h.strip() for h in os.environ.get("LABEL_HORIZONS", "1h,1d").split(",") if h.strip()],
             min_abs_ret=float(os.environ.get("LABEL_MIN_ABS_RET", "0.002")), min_conf=float(os.environ.get("LABEL_MIN_CONF", "0.0")),
-            every_minutes=int(os.environ.get("LABEL_EVERY_MIN", "30")), telegram_enabled=bool(int(os.environ.get("LABEL_TELEGRAM", "0"))),
+            every_minutes=int(os.environ.get("LABEL_EVERY_MIN", "15")), telegram_enabled=bool(int(os.environ.get("LABEL_TELEGRAM", "1"))),
         )
     )
     auto_reporter = AutoReporter.from_env()
 
     pos_sync_on_start = _env_bool("POS_SYNC_ON_START", True)
-    pos_sync_every_ticks = _env_int("POS_SYNC_EVERY_TICKS", 5)
+    pos_sync_every_ticks = _env_int("POS_SYNC_EVERY_TICKS", 15)
     _pos_sync_tick = 0
     bg_idx = 0  
     last_regime_noti_time = None
@@ -506,6 +536,28 @@ def main() -> None:
             _global_tick += 1
             loop_ts = now_kst.isoformat(timespec="seconds")
             market_open = is_us_regular_market_open(now_kst)
+
+            # =====================================================================
+            # 🚨 [신규 추가] 서머타임 자동대응 뉴욕 시간(ET) 판별
+            # =====================================================================
+            ny_time = now_kst.astimezone(ZoneInfo("America/New_York"))
+            ny_hm = ny_time.strftime("%H:%M")
+            ny_date = ny_time.strftime("%Y-%m-%d")
+
+            # 1. AI 전략 브리핑 발송 (설정된 시간에 하루 1회씩)
+            if briefing_enabled:
+                if briefing_pre_et <= ny_hm < trade_start_et and last_pre_brief_date != ny_date:
+                    _generate_and_send_briefing(WATCHLIST, news_store, ai_gate_model, notifier, "프리마켓")
+                    last_pre_brief_date = ny_date
+                
+                if briefing_reg_et <= ny_hm < "09:30" and last_reg_brief_date != ny_date:
+                    _generate_and_send_briefing(WATCHLIST, news_store, ai_gate_model, notifier, "정규장")
+                    last_reg_brief_date = ny_date
+
+            # 2. 거래 모드(Combat Mode) 판별 (월~금 평일에만 전투 모드 켜짐)
+            # ny_time.weekday()는 0(월)~4(금), 5(토), 6(일)을 반환합니다.
+            is_combat_mode = (trade_start_et <= ny_hm < trade_end_et) and (ny_time.weekday() < 5)
+            # =====================================================================
 
             if watchlist_refresh_min > 0 and next_watchlist_refresh is not None and now_kst >= next_watchlist_refresh:
                 _maybe_build_universe_and_watchlist_once(notifier)
@@ -534,20 +586,15 @@ def main() -> None:
                 try: pending_store.purge_stale_open(max_age_sec=_env_int("PENDING_PURGE_SEC", 7200))
                 except Exception: pass
 
-            # ==================================================
-            # 🚨 [인버스 포함] 장 마감 전 전량 매도 시간 체크 (나스닥 기준)
-            # ==================================================
             sell_all_before_close = _env_bool("SELL_ALL_BEFORE_CLOSE", False)
             sell_all_minutes = _env_int("SELL_ALL_BEFORE_CLOSE_MINUTES", 10)
             
             is_force_close_time = False
             if market_open:
-                ny_time = now_kst.astimezone(ZoneInfo("America/New_York"))
                 cur_min = ny_time.hour * 60 + ny_time.minute
                 close_min = 16 * 60  
                 if cur_min >= (close_min - sell_all_minutes) and cur_min < close_min:
                     is_force_close_time = True
-            # ==================================================
 
             current_rss_tickers = list(WATCHLIST)
 
@@ -618,7 +665,7 @@ def main() -> None:
                     if t_upper not in WATCHLIST and (t_upper in universe_all or t_upper in current_rss_tickers):
                         is_urgent = (escore >= 0.8) or (int(evt.get("impact", 0)) >= 2)
                         if is_urgent:
-                            max_wl_size = 15
+                            max_wl_size = 20
                             if len(WATCHLIST) >= max_wl_size:
                                 removable = [wt for wt in WATCHLIST if float(get_position(positions, wt).qty) == 0 and wt not in inverse_tickers]
                                 if removable:
@@ -682,7 +729,6 @@ def main() -> None:
                 pos = get_position(positions, ticker)
                 pos.reset_if_new_day(now_kst)
                 
-                # 🚨 [추가] 인버스 여부 판별 (인버스는 특별 룰 적용)
                 is_inverse = ticker in inverse_tickers
 
                 try: snap = fetch_snapshot(ticker)
@@ -702,15 +748,8 @@ def main() -> None:
                     _recent_px[ticker] = dq
                 dq.append(price_f)
 
-                scalp_score, scalp_label = 0.0, "scalp_hold"
-                if scalp_engine is not None:
-                    try:
-                        so = scalp_engine.update(ticker, price_f)
-                        scalp_score, scalp_label = float(so.score), str(so.label)
-                    except Exception: scalp_label = "scalp_err"
-
                 fair_value, fair_range, vscore = None, None, 0.0
-                if not is_inverse: # 인버스는 가치평가 스킵
+                if not is_inverse: 
                     try:
                         fv = compute_fair_value_snapshot(snap)
                         vscore = float(fv.get("value_score", 0.0))
@@ -725,7 +764,7 @@ def main() -> None:
                 except Exception: pass
 
                 raw_news, cnt, news_used, conf_avg = 0.0, 0, 0.0, 0.55
-                if not is_inverse: # 인버스는 개별 뉴스 스킵
+                if not is_inverse:
                     ns = news_store.compute_signal(ticker=ticker, now_kst=now_kst, half_life_hours=news_half_life_h, window_days=news_window_days, max_items=200)
                     raw_news, cnt = float(ns.get("raw_sum", 0.0)), int(ns.get("raw_n", 0))
                     news_used = _clamp(float(ns.get("news_score", 0.0)), -2.0, 2.0)
@@ -737,20 +776,20 @@ def main() -> None:
                             if len(titles) >= 2 and titles[0] == titles[1]: news_used *= float(news_dup_mult)
                         except Exception: pass
 
-                # ==================================================
-                # 🚨 [추가] 인버스 vs 일반종목 점수 산출 로직 분리
-                # ==================================================
+                is_value_dip = False 
                 if is_inverse:
-                    # 인버스는 폭락장(buy_block)일 때 시장 점수를 그대로 매수 점수에 합산
                     if buy_block and regime is not None:
                         total_base = float(tscore) + abs(float(getattr(regime, "score", 0.0)))
                     else:
-                        total_base = -1.0 # 폭락장이 아니면 인버스는 무조건 관망/매도
+                        total_base = -1.0 
                 else:
                     total_base = _total_score(news_used, vscore, tscore)
+                    if vscore >= 0.60 and tscore <= -0.30:
+                        total_base = float(buy_th) + 0.15 
+                        tlabel = f"ValueDip({tlabel})"    
+                        is_value_dip = True               
 
-                w = _clamp(float(scalp_weight) * float(scalp_w_mult), 0.0, 1.0) if scalp_engine is not None else 0.0
-                total = (1.0 - w) * float(total_base) + w * float(scalp_score) if w > 0 else float(total_base)
+                total = float(total_base)
 
                 base_buy_th_eff = float(buy_th) * float(th_mult)
                 base_sell_th_eff = float(sell_th) * float(th_mult)
@@ -788,19 +827,19 @@ def main() -> None:
 
                 pos.update_streak(sig.action)
 
-                # ==================================================
-                # 🚨 [추가] 인버스 vs 일반종목 손익비 환경변수 분리
-                # ==================================================
                 if is_inverse:
-                    eff_sl1 = _env_float("INV_STOP_LOSS_1", -0.015)
-                    eff_sl2 = _env_float("INV_STOP_LOSS_2", -0.025)
+                    eff_sl1 = _env_float("INV_STOP_LOSS_1", -0.020)
+                    eff_sl2 = _env_float("INV_STOP_LOSS_2", -0.030)
                     eff_tp1 = _env_float("INV_TAKE_PROFIT_1", 0.030)
                 else:
                     eff_sl1, eff_sl2, eff_tp1 = stop_loss_1, stop_loss_2, take_profit_1
 
-                if (not market_open) and (not allow_outside_market) and sig.action in ("BUY", "SELL"):
-                    plan_action, plan_qty, plan_reason = "HOLD", 0, f"market closed (US regular) | raw={sig.action}"
-                    if not block_reason: block_reason = "MARKET_CLOSED"
+                # =====================================================================
+                # 🚨 [신규 추가] 전투 모드(is_combat_mode)가 아닐 경우 주문 전면 차단 (리서치 모드)
+                # =====================================================================
+                if not is_combat_mode and sig.action in ("BUY", "SELL"):
+                    plan_action, plan_qty, plan_reason = "HOLD", 0, f"RESEARCH_MODE (Trade window {trade_start_et}-{trade_end_et} ET) | raw={sig.action}"
+                    if not block_reason: block_reason = "RESEARCH_MODE"
                 else:
                     plan = compute_position_plan(
                         pos=pos, raw_action=sig.action, strength=sig.strength, price=price_f, confirm_ticks=confirm_ticks_eff,
@@ -865,7 +904,6 @@ def main() -> None:
 
                 decision_msg, decision_action, decision_conf = "", None, None
                 
-                # 🚨 [추가] 인버스는 의사결정 에이전트 분석 제외
                 if decision_enabled and not is_inverse:
                     decision_tick_counter[ticker] = decision_tick_counter.get(ticker, 0) + 1
                     if decision_tick_counter[ticker] >= max(1, decision_every_ticks):
@@ -884,7 +922,7 @@ def main() -> None:
                             _append_jsonl(DECISION_LOG_PATH, {"ts": loop_ts, "ticker": ticker, "decision": decision, "snapshot": snapshot})
                             decision_msg = f" decision={decision_action} dconf={decision_conf:.2f}"
 
-                            if (not decision_compare_only) and market_open and decision_conf >= decision_min_conf and decision_action in ("BUY", "SELL", "HOLD"):
+                            if (not decision_compare_only) and is_combat_mode and decision_conf >= decision_min_conf and decision_action in ("BUY", "SELL", "HOLD"):
                                 if decision_action == "HOLD": plan_action, plan_qty, plan_reason = "HOLD", 0, f"DECISION_OVERRIDE: HOLD | {plan_reason}"
                                 else:
                                     prefer_qty = int(decision.get("position_plan", {}).get("prefer_qty", 0) or 0)
@@ -893,8 +931,7 @@ def main() -> None:
                         except Exception as e: decision_msg = f" decision_err={e!r}"
 
                 ai_msg = ""
-                # 🚨 [추가] 인버스는 AI Gate 분석 제외
-                if ai_gate_enabled and not is_inverse and plan_action in ("BUY", "SELL") and plan_qty > 0:
+                if ai_gate_enabled and not is_inverse and not is_value_dip and plan_action in ("BUY", "SELL") and plan_qty > 0:
                     try:
                         gate = ai_gate_check_local_ollama(ticker=ticker, action=plan_action, qty=int(plan_qty), price=price_f, total=total, news_used=news_used, val_score=vscore, ta_score=tscore, ta_label=tlabel, signal_reason=sig.reason, plan_reason=plan_reason, market_open=market_open, memory_summary=news_store.load_memory(ticker), recent_events=news_store.get_recent_events(ticker, days=news_window_days, limit=20), model=ai_gate_model, min_conf=ai_gate_min_conf)
                         if not gate.allow or gate.qty_mult <= 0.0:
@@ -926,15 +963,7 @@ def main() -> None:
                 if chase_ban_enabled and plan_action == "BUY" and plan_qty > 0:
                     hot, hot_reason = False, ""
                     if scalp_engine is not None:
-                        try:
-                            st = scalp_engine.get_stats(ticker)
-                            if st is not None:
-                                mean, std, last_px, pct_from_mean = st
-                                z = (last_px - mean) / max(1e-9, std)
-                                if pct_from_mean >= chase_ban_pct: hot, hot_reason = True, f"CHASE pct_from_mean={pct_from_mean:.4f} >= {chase_ban_pct:.4f}"
-                                if z >= chase_ban_z: hot, hot_reason = True, f"CHASE z={z:.2f} >= {chase_ban_z:.2f}"
-                        except Exception: pass
-
+                        pass # 스캘핑 로직 생략
                     dq2 = _recent_px.get(ticker)
                     if dq2 is not None and len(dq2) >= chase_ban_spike_window:
                         base_px = float(dq2[-chase_ban_spike_window])
@@ -967,9 +996,6 @@ def main() -> None:
                     if exp_edge_bps < total_cost_bps * float(edge_min_mult):
                         plan_action, plan_qty, plan_reason = "HOLD", 0, f"COST_BLOCK edge={exp_edge_bps:.2f}bps < cost={total_cost_bps:.2f}bps*{edge_min_mult:.2f} | {plan_reason}"
 
-                # ==================================================
-                # 🚨 [추가] 인버스는 오버나잇 금지 (SELL_ALL_BEFORE_CLOSE 옵션 무시하고 당일 강제 매도)
-                # ==================================================
                 if is_force_close_time and float(pos.qty) > 0:
                     if sell_all_before_close or is_inverse:
                         if not pending_store.has_open_order(ticker):
@@ -977,7 +1003,6 @@ def main() -> None:
                             plan_reason = f"FORCE_SELL_CLOSE: {'인버스 강제 당일청산' if is_inverse else '장 마감 매도 옵션 작동'}"
                         else:
                             plan_action, plan_qty, plan_reason = "HOLD", 0, f"FORCE_SELL_CLOSE_WAIT: 장 마감 강제청산 시간이나 미체결 주문 대기 중"
-                # ==================================================
 
                 order_msg = ""
                 if broker is not None and plan_action in ("BUY", "SELL") and plan_qty > 0:
@@ -998,12 +1023,13 @@ def main() -> None:
                         order_msg = f" order_err={e!r}" + (f" resp={resp_text[:500]}" if resp_text else "")
 
                 reg_msg = f" regime={getattr(regime, 'label', None)}({float(getattr(regime, 'score', 0.0)):.2f})" if regime is not None else ""
-                print(f"[TICK {loop_ts}] {ticker} price={price_f} total={total:.2f} conf={conf_avg:.2f} news={news_used:.2f}(raw={raw_news:.2f},n={cnt}) val={vscore:.2f} ta={tscore:.2f}({tlabel}) raw_sig={sig.action} strength={sig.strength:.3f} pos_qty={pos.qty:.0f} pos_avg={pos.avg_price:.2f} plan={plan_action} qty={plan_qty} market_open={market_open}{reg_msg}{decision_msg}{ai_msg}{order_msg}{' block=' + block_reason if block_reason else ''} plan_reason={plan_reason[:120]}")
+                
+                # 전투모드가 아니면 로그 앞부분에 [RESEARCH]를 붙여 출력
+                mode_prefix = "[TICK]" if is_combat_mode else "[RESEARCH]"
+                print(f"{mode_prefix} {ticker} price={price_f} total={total:.2f} conf={conf_avg:.2f} news={news_used:.2f}(raw={raw_news:.2f},n={cnt}) val={vscore:.2f} ta={tscore:.2f}({tlabel}) raw_sig={sig.action} strength={sig.strength:.3f} pos_qty={pos.qty:.0f} pos_avg={pos.avg_price:.2f} plan={plan_action} qty={plan_qty} market_open={market_open}{reg_msg}{decision_msg}{ai_msg}{order_msg}{' block=' + block_reason if block_reason else ''} plan_reason={plan_reason[:120]}")
 
             try: save_state(positions, POS_PATH)
             except Exception as e: print(f"[WARN] save positions failed: {e!r}")
-
-            print(f"[TICK_SUM {loop_ts}] analyzed_links={analyzed_links} skip_seen={skipped_seen} skip_low_signal={skipped_low_signal} skip_no_candidate={skipped_no_candidate} llm_fail={llm_fail}")
 
             try:
                 lab = auto_labeler.run_if_due(now_kst)
@@ -1011,22 +1037,19 @@ def main() -> None:
                     h, s = "1d", lab.get("summary") or {}
                     bh = (s.get("by_horizon") or {}).get(h) or {}
                     msg = f"새로 채점한 판단: {lab.get('n_new',0)}건\n⏱️ 기준 시간: {h} 뒤\n✅ 평가된 건수: {bh.get('n_eval',0)}건\n🎯 승률: {bh.get('win_rate',0)*100:.1f}%\n💰 평균 수익률: {bh.get('avg_ret',0)*100:.2f}%"
-                    print(msg)
                     if auto_labeler.s.telegram_enabled: notifier.send(fmt_label_summary(msg))
-            except Exception as e: print(f"[LABEL_ERR] {e!r}")
+            except Exception: pass
 
             try:
                 rep_run = auto_reporter.run_if_due(now_kst)
                 if rep_run.get("ran"):
                     report = rep_run.get("report") or {}
                     msg_1h = PerformanceReporter.format_telegram_summary(report, horizon=os.environ.get("PERF_TELEGRAM_HORIZON", "1h"))
-                    print(msg_1h)
                     if auto_reporter.s.telegram_enabled: notifier.send(fmt_perf_summary(msg_1h))
                     if auto_reporter.s.also_send_1d:
                         msg_1d = PerformanceReporter.format_telegram_summary(report, horizon="1d")
-                        print(msg_1d)
                         if auto_reporter.s.telegram_enabled: notifier.send(fmt_perf_summary(msg_1d))
-            except Exception as e: print(f"[PERF_ERR] {e!r}")
+            except Exception: pass
 
             time.sleep(max(1, tick_seconds))
 
