@@ -6,7 +6,7 @@ from src.utils.yf_silent import ticker_info_silent
 
 def fetch_snapshot(ticker: str) -> Dict[str, Any]:
     """
-    yfinance에서 펀더멘털 및 월가 애널리스트 컨센서스 데이터를 가져옵니다.
+    yfinance에서 펀더멘털, 월가 컨센서스, EPS 추정치 및 섹터 데이터를 가져옵니다.
     """
     info = ticker_info_silent(ticker)
 
@@ -16,8 +16,16 @@ def fetch_snapshot(ticker: str) -> Dict[str, Any]:
     # 가치 평가 지표
     trailing_pe = info.get("trailingPE")
     forward_pe = info.get("forwardPE")
-    peg = info.get("pegRatio") # 🚀 가장 중요한 고성장주 평가 지표
+    peg = info.get("pegRatio")
     market_cap = info.get("marketCap")
+
+    # 🚀 [추가] EPS 추정치 (EPS Revision 파악용)
+    trailing_eps = info.get("trailingEps")
+    forward_eps = info.get("forwardEps")
+
+    # 🚀 [추가] 동종업계 상대평가용 섹터 정보
+    sector = info.get("sector", "Unknown")
+    industry = info.get("industry", "Unknown")
 
     # 성장성 지표
     earnings_growth = info.get("earningsGrowth")  # YOY 이익성장률
@@ -25,7 +33,6 @@ def fetch_snapshot(ticker: str) -> Dict[str, Any]:
 
     # 월가 컨센서스 (목표가 및 투자의견)
     target_price = info.get("targetMeanPrice") or info.get("targetMedianPrice")
-    # recommendationMean: 1.0(강력매수) ~ 5.0(매도)
     recommendation_mean = info.get("recommendationMean") 
     recommendation_key = info.get("recommendationKey")
 
@@ -36,6 +43,10 @@ def fetch_snapshot(ticker: str) -> Dict[str, Any]:
         "forward_pe": forward_pe,
         "peg": peg,
         "market_cap": market_cap,
+        "trailing_eps": trailing_eps,
+        "forward_eps": forward_eps,
+        "sector": sector,
+        "industry": industry,
         "earnings_growth": earnings_growth,
         "revenue_growth": revenue_growth,
         "target_price": target_price,

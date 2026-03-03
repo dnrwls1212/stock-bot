@@ -22,7 +22,8 @@ from src.analysis.local_llm_event import analyze_news_local_ollama
 from src.strategy.scoring import event_score
 from src.valuation.market_data import fetch_snapshot
 from src.valuation.fair_value import compute_fair_value_snapshot
-from src.ta.indicators import fetch_daily_ta, ta_score
+from src.ta.indicators import fetch_daily_ta, ta_score, mtf_score
+from src.ta.intraday import fetch_intraday_ta
 
 # dedupe
 from src.utils.dedupe import load_seen, mark_seen
@@ -231,29 +232,50 @@ def kb_add_decision(ticker: str, *, action: str, confidence: float, rationale: s
     kb["decisions"] = decs[:max_items]
     kb_save(kb)
 
-# 👇 [수정] AI 자가학습에서 도출된 교훈(lessons)을 프롬프트에 주입!
+# [수정된 함수 1] 과거의 치명적인 이벤트를 인출하는 가벼운 RAG 함수
+def _extract_critical_memory(kb: Dict[str, Any]) -> List[Dict[str, Any]]:
+    evidences = kb.get("evidence", [])
+    critical = []
+    for e in evidences:
+        try:
+            impact = int(e.get("impact", 0))
+            score = abs(float(e.get("event_score", 0.0)))
+            # 과거의 치명적 리스크나 초강력 호재 (임팩트 2 이상 or 스코어 0.8 이상)
+            if impact >= 2 or score >= 0.8:
+                critical.append(e)
+        except Exception: pass
+    # 최신순 정렬된 상태에서 가장 강력했던 기억 3개만 인출
+    return critical[:3]
+
+# [수정된 함수 2] 의사결정 프롬프트 생성 (RAG 기억 주입)
 def build_decision_prompt(*, ticker: str, kb: Dict[str, Any], snapshot: Dict[str, Any], recent_news_events: List[Dict[str, Any]], lessons: str = "") -> str:
     kb_light = {
         "thesis": kb.get("thesis", ""), "business_summary": kb.get("business_summary", ""), "moat": kb.get("moat", ""),
         "key_drivers": kb.get("key_drivers", []) or [], "key_risks": kb.get("key_risks", []) or [], "valuation_method": kb.get("valuation_method", "simple"),
         "valuation_assumptions": kb.get("valuation_assumptions", {}) or {}, "target_price": kb.get("target_price", None), "fair_value_range": kb.get("fair_value_range", None),
-        "tags": kb.get("tags", []) or [], "recent_decisions": (kb.get("decisions", []) or [])[:5], "recent_evidence": (kb.get("evidence", []) or [])[:12],
+        "tags": kb.get("tags", []) or [], "recent_decisions": (kb.get("decisions", []) or [])[:5],
     }
+    
+    # RAG 기반의 치명적 과거 기억 인출
+    critical_past_memory = _extract_critical_memory(kb)
+    
     schema = {"action": "BUY|SELL|HOLD", "confidence": 0.0, "rationale": "Korean, concise, factual", "key_drivers": ["..."], "key_risks": ["..."], "valuation_view": "what assumption matters / changed", "counterfactuals": ["what would make you wrong next 1-4 weeks"], "next_checks": ["what to check next"], "position_plan": {"prefer_qty": 0, "time_horizon": "swing_days|swing_weeks|long_months"}}
     
     return f"""너는 '누적 지식 기반' 및 '스스로 진화하는' 투자 의사결정 에이전트다. 
 목표: 단기/스윙 수익을 내되, 유연한 상황 판단을 최우선으로 한다.
 
-[과거 매매를 통해 네가 스스로 깨달은 투자 원칙 (이 교훈을 상황에 맞게 유연하게 적용해!)]
+[과거 매매를 통해 네가 스스로 깨달은 투자 원칙 (상황에 맞게 유연하게 적용할 것)]
 {lessons}
 
 [TICKER]
 {ticker}
-[KB]
+[현재 KB (스스로 갱신한 핵심 아이디어)]
 {json.dumps(kb_light, ensure_ascii=False)}
-[SNAPSHOT]
+[CRITICAL_PAST_MEMORY (과거 치명적 이벤트 - RAG 인출됨. 현재 상황과 대조해볼 것!)]
+{json.dumps(critical_past_memory, ensure_ascii=False)}
+[SNAPSHOT (현재 가격 및 보조지표)]
 {json.dumps(snapshot, ensure_ascii=False)}
-[RECENT_NEWS_EVENTS]
+[RECENT_NEWS_EVENTS (최신 트리거 뉴스)]
 {json.dumps(recent_news_events[:10], ensure_ascii=False)}
 [OUTPUT_JSON_SCHEMA]
 {json.dumps(schema, ensure_ascii=False)}""".strip()
@@ -688,7 +710,24 @@ def main() -> None:
                     notifier.send(msg)
                     
                     # 다음 매매에 쓰일 글로벌 변수 업데이트
-                    ai_lessons = ai_lessons_text 
+                    ai_lessons = ai_lessons_text
+
+                    print("📚 [SYSTEM] 전체 감시 종목의 Knowledge Base(KB) 자동 정제(Auto-Refinement)를 시작합니다...")
+                    from src.knowledge.kb_agent import refine_ticker_kb
+                    for t in WATCHLIST:
+                        try:
+                            old_kb = kb_load(t)
+                            # 최근 수집된 뉴스 중 상위 15개를 추출하여 전달
+                            recent_ev = old_kb.get("evidence", [])[:15]
+                            if recent_ev:
+                                new_kb = refine_ticker_kb(t, old_kb, recent_ev, decision_model)
+                                kb_save(new_kb)
+                                print(f"   [+] {t} KB Thesis & Risks 업데이트 완료.")
+                        except Exception as e:
+                            print(f"   [-] {t} KB 업데이트 에러: {e}")
+                    
+                    notifier.send("📚 [AI 종목 KB 정제 완료]\n모든 감시 종목의 핵심 투자 포인트(Thesis)와 리스크가 최근 뉴스를 반영하여 새롭게(Rewrite) 업데이트되었습니다.")
+
                 elif ref_res.get("status") == "not_enough_data":
                     notifier.send("🧘 [AI 자가 진화 대기]\n새로운 매매 기록이 없어 기존의 투자 원칙을 유지합니다.")
                 else:
@@ -975,10 +1014,29 @@ def main() -> None:
 
                 tscore, tlabel = 0.0, "unknown"
                 try:
+                    # 1. 일봉 데이터 수집 및 기존 점수 계산
                     daily = fetch_daily_ta(ticker)
                     ta_out = ta_score(daily)
-                    tscore, tlabel = float(ta_out.get("ta_score", 0.0)), str(ta_out.get("ta_label", "unknown"))
-                except Exception: pass
+                    
+                    # 2. [신규] 1시간봉 및 15분봉(VWAP) 데이터 수집
+                    hourly_ta = fetch_intraday_ta(ticker, interval="60m")
+                    min15_ta = fetch_intraday_ta(ticker, interval="15m")
+                    
+                    # 3. [신규] 다중 시간대(MTF) 종합 평가
+                    mtf_result = mtf_score(daily, hourly_ta, min15_ta)
+                    
+                    # 4. 기존 단일 일봉 점수 대신, 더 정교한 MTF 점수를 최종 TA 점수로 사용
+                    if mtf_result.get("mtf_score") != 0.0:
+                        tscore = float(mtf_result.get("mtf_score", 0.0))
+                        # tlabel에 이유(VWAP 돌파 등)를 함께 기록하여 텔레그램/로그에서 볼 수 있게 함
+                        reason_str = mtf_result.get('reason', '')
+                        tlabel = f"{mtf_result.get('mtf_label', 'unknown')} ({reason_str})"
+                    else:
+                        # 통신 실패 등으로 MTF 점수가 없으면 기존 일봉 점수로 Fallback
+                        tscore = float(ta_out.get("ta_score", 0.0))
+                        tlabel = str(ta_out.get("ta_label", "unknown"))
+                except Exception as e: 
+                    print(f"[TA_ERR] {ticker} TA 점수 계산 실패: {e}")
 
                 raw_news, cnt, news_used, conf_avg = 0.0, 0, 0.0, 0.55
                 if not is_inverse:
