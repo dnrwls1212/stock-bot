@@ -2,34 +2,32 @@
 from __future__ import annotations
 
 from typing import Dict, Any
-
 from src.utils.yf_silent import ticker_info_silent
 
 def fetch_snapshot(ticker: str) -> Dict[str, Any]:
     """
-    yfinance에서 가능한 범위의 스냅샷을 가져옴.
-    (무료 데이터라 일부 항목은 None일 수 있음)
-
-    ⚠️ yfinance는 간헐적으로 stdout/stderr에 경고 문구를 출력하는 경우가 있어
-    ticker_info_silent()로 감싸서 노이즈를 차단한다.
+    yfinance에서 펀더멘털 및 월가 애널리스트 컨센서스 데이터를 가져옵니다.
     """
     info = ticker_info_silent(ticker)
 
-    # price
+    # 가격 정보
     price = info.get("regularMarketPrice") or info.get("currentPrice")
 
-    # valuation-ish fields (availability varies)
+    # 가치 평가 지표
     trailing_pe = info.get("trailingPE")
     forward_pe = info.get("forwardPE")
-    peg = info.get("pegRatio")
+    peg = info.get("pegRatio") # 🚀 가장 중요한 고성장주 평가 지표
     market_cap = info.get("marketCap")
 
-    # growth-ish fields (sometimes missing)
+    # 성장성 지표
     earnings_growth = info.get("earningsGrowth")  # YOY 이익성장률
     revenue_growth = info.get("revenueGrowth")    # YOY 매출성장률
 
-    # 👇 [신규 추가] 월가 애널리스트 목표가 (Target Price)
+    # 월가 컨센서스 (목표가 및 투자의견)
     target_price = info.get("targetMeanPrice") or info.get("targetMedianPrice")
+    # recommendationMean: 1.0(강력매수) ~ 5.0(매도)
+    recommendation_mean = info.get("recommendationMean") 
+    recommendation_key = info.get("recommendationKey")
 
     return {
         "ticker": ticker,
@@ -40,5 +38,7 @@ def fetch_snapshot(ticker: str) -> Dict[str, Any]:
         "market_cap": market_cap,
         "earnings_growth": earnings_growth,
         "revenue_growth": revenue_growth,
-        "target_price": target_price, # 👈 추가됨
+        "target_price": target_price,
+        "recommendation_mean": recommendation_mean,
+        "recommendation_key": recommendation_key,
     }
