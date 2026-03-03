@@ -1,7 +1,5 @@
 import os
 import json
-from datetime import datetime
-from zoneinfo import ZoneInfo
 from src.utils.ollama_client import ollama_generate, try_parse_json
 
 class SelfReflectionEngine:
@@ -20,28 +18,34 @@ class SelfReflectionEngine:
         except:
             return "아직 누적된 학습 데이터가 없습니다."
 
-    def run_reflection(self) -> dict:
+    def run_reflection(self, market_condition: str, account_status: str) -> dict:
         if not os.path.exists(self.trades_path):
-            return {"status": "no_data"}
+            return {"status": "not_enough_data"}
 
-        # 최근 매매 기록 최대 30개 읽어오기
         trades = []
         try:
             with open(self.trades_path, "r", encoding="utf-8") as f:
                 lines = f.readlines()
-                for line in lines[-30:]: # 최근 30건
+                for line in lines[-30:]: # 최근 30건 가져오기
                     trades.append(json.loads(line.strip()))
         except Exception as e:
             return {"status": "error", "message": str(e)}
 
-        if len(trades) < 5:
-            return {"status": "not_enough_data"} # 데이터가 적으면 아직 학습 안함
+        # 👇 [수정] 거래가 1건만 있어도(>=1) 무조건 학습 진행!
+        if len(trades) < 1:
+            return {"status": "not_enough_data"} 
 
-        # 기존 교훈 불러오기
         current_lessons = self.load_lessons()
 
+        # 👇 [수정] 시황과 계좌 상태를 포함하여 펀드매니저의 일기를 쓰게 하는 프롬프트
         prompt = f"""너는 세계 최고의 퀀트 헤지펀드 트레이딩 봇의 '자가 학습(Self-Reflection) 엔진'이야.
-아래는 최근 우리 봇이 실행한 매매(BUY/SELL) 기록들이야.
+오늘 정규장이 마감되었어. 네가 스스로 판단하여 내린 매매 결정들을 복기할 시간이야.
+
+[오늘 마감 기준 시황 (Market Condition)]
+{market_condition}
+
+[현재 계좌 상태 (Account Status)]
+{account_status}
 
 [최근 매매 기록 요약]
 {json.dumps(trades[-10:], ensure_ascii=False, indent=2)}
@@ -50,18 +54,17 @@ class SelfReflectionEngine:
 {current_lessons}
 
 [임무]
-최근 매매 기록을 보고, 손실이 났거나 수익이 났던 패턴을 분석해서 봇이 진화할 수 있도록 '투자 교훈(Lessons)'을 업데이트해줘.
-단, 절대 지켜야 할 아주 중요한 규칙이 있어.
-1. "절대 사지 마라", "무조건 팔아라" 같은 극단적이고 제약이 심한 룰은 만들지 마. 봇의 매매 기회를 빼앗게 돼.
-2. 손실이 났더라도 종목 자체가 문제라기보다, "당시 매크로(시장) 상황이 안 좋았다", "뉴스 점수 대비 차트가 너무 과매수 상태였다" 등 복합적이고 확률적인 원인을 분석해.
-3. "이런 상황에서는 비중을 줄이자", "이런 상황에서는 뉴스 신뢰도를 평소보다 더 보수적으로(0.8 이상) 요구하자"처럼 유연하고 확률적인 대안을 제시해.
+오늘 진행된 거래 내역과 시황, 그리고 계좌 상태(잔고 및 평가금액)를 종합적으로 분석해줘.
+1. "오늘 시황은 어떠했고, 어떠한 이유로 이런 거래들을 진행하여 현재 계좌 수익률/상태가 이러하다."라는 종합 분석을 'reflection_analysis'에 아주 논리적으로 작성해.
+2. 손실/수익 패턴을 파악하여 앞으로 봇이 지켜야 할 유연한 '투자 교훈(Lessons)'을 도출해.
+3. "절대 사지 마라" 같은 극단적 제약은 피하고, 확률적이고 조건적인 룰(예: "시황이 하락장일 때는 확실한 실적 호재가 있을 때만 진입하자")을 제시해.
 
-반드시 아래 JSON 형식으로만 응답해:
+반드시 아래 JSON 형식으로만 응답해 (다른 텍스트 절대 금지):
 {{
-  "reflection_analysis": "최근 매매에 대한 너의 종합적인 확률적 분석 (한국어)",
+  "reflection_analysis": "오늘 시황과 매매에 대한 너의 종합적인 복기 및 분석 (한국어)",
   "lessons": [
-    "유연한 교훈 1 (예: 하락장에서는 단순 낙폭과대보다 강력한 실적 뉴스가 동반될 때만 진입하는 것이 승률이 높다)",
-    "유연한 교훈 2"
+    "상황에 맞게 적용할 수 있는 유연한 투자 교훈 1",
+    "상황에 맞게 적용할 수 있는 유연한 투자 교훈 2"
   ]
 }}"""
 

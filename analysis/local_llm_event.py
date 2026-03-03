@@ -69,6 +69,7 @@ def analyze_news_local_ollama(
     watch = ", ".join(watchlist or [])
     schema_text = json.dumps(SCHEMA_TEMPLATE, ensure_ascii=False)
 
+    # 👇 [수정됨] 프롬프트에 한국어 번역 및 고유명사 처리 관련 강력한 규칙(STRICT RULES) 추가
     prompt = f"""
 Return ONLY valid JSON. No markdown. No extra keys. No trailing text.
 
@@ -84,11 +85,16 @@ IMPORTANT RULES:
   - "Oracle" -> "ORCL"
 - key_points must contain 2~5 concrete bullets (short).
 - why_it_moves must be a non-empty 1~2 sentence explanation. If you truly cannot explain, set impact=0 and write why_it_moves="Unclear impact / insufficient info".
-- kr_title MUST be the Korean translation of the original English title. Do not summarize, just translate it naturally into Korean.
 - Only set impact != 0 if key_points and why_it_moves justify it.
 - If uncertain, keep impact = 0 and confidence around 0.5.
 - Heuristic: litigation/investigation usually has negative sentiment unless clearly dismissed or a favorable ruling is mentioned.
 - STRICT: Only include tickers if the article is primarily about a watchlist company. If it is primarily about a different company (e.g., TSMC), set tickers=[] even if watchlist companies are mentioned.
+
+[TRANSLATION STRICT RULES for kr_title]
+1. kr_title MUST be the exact Korean translation of the original English title.
+2. ABSOLUTELY NO CHINESE CHARACTERS (Hanzi). Use 100% pure, natural Korean.
+3. NEVER translate or transliterate proper nouns strangely. Keep company names (e.g., NVIDIA, Tesla, Apple, AMD) in original English OR use standard Korean market names (e.g., 엔비디아, 테슬라, 애플). 
+4. DO NOT invent phonetic spellings like '나VIDIA' or '엔비디아스'. 
 
 Allowed values:
 - event_type: {",".join(ALLOWED_EVENT_TYPES)}
@@ -114,9 +120,9 @@ NEWS:
         try:
             raw = ollama_generate(
                 prompt=prompt,
-                model=model,              # ✅ still accepts per-call override
+                model=model,              
                 temperature=0.2,
-                timeout=180.0,            # ✅ uses OLLAMA_TIMEOUT if you pass None; here we keep explicit
+                timeout=180.0,            
             )
             js = _extract_json(raw)
             data = json.loads(js)
@@ -127,7 +133,6 @@ NEWS:
     raise RuntimeError(f"Local LLM JSON parse failed after retries: {last_err}")
 
 
-# ✅ main.py 호환 래퍼
 def analyze_news_with_local_llm(
     title: str,
     summary: str,
