@@ -1,9 +1,9 @@
+# src/valuation/market_data.py
 from __future__ import annotations
 
 from typing import Dict, Any
 
 from src.utils.yf_silent import ticker_info_silent
-
 
 def fetch_snapshot(ticker: str) -> Dict[str, Any]:
     """
@@ -25,8 +25,11 @@ def fetch_snapshot(ticker: str) -> Dict[str, Any]:
     market_cap = info.get("marketCap")
 
     # growth-ish fields (sometimes missing)
-    earnings_growth = info.get("earningsGrowth")  # YOY
-    revenue_growth = info.get("revenueGrowth")    # YOY
+    earnings_growth = info.get("earningsGrowth")  # YOY 이익성장률
+    revenue_growth = info.get("revenueGrowth")    # YOY 매출성장률
+
+    # 👇 [신규 추가] 월가 애널리스트 목표가 (Target Price)
+    target_price = info.get("targetMeanPrice") or info.get("targetMedianPrice")
 
     return {
         "ticker": ticker,
@@ -37,4 +40,5 @@ def fetch_snapshot(ticker: str) -> Dict[str, Any]:
         "market_cap": market_cap,
         "earnings_growth": earnings_growth,
         "revenue_growth": revenue_growth,
+        "target_price": target_price, # 👈 추가됨
     }

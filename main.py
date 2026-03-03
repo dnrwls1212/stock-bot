@@ -359,16 +359,18 @@ def _generate_and_send_briefing(watchlist: List[str], news_store: NewsStore, mod
     except Exception as e:
         notifier.send(f"⚠️ 브리핑 생성 실패: {e}")
 
-def _evaluate_macro_risk(news_store: NewsStore, model: str) -> tuple[int, str]:
+def _evaluate_macro_risk(news_store: NewsStore, model: str) -> tuple[int, str, str]:
     events = news_store.get_recent_events("SPY", days=3, limit=10) + news_store.get_recent_events("QQQ", days=3, limit=10)
     
     if not events:
-        return 1, "최근 거시경제 주요 뉴스가 부족하여 기본 경계(Level 1) 상태를 유지합니다."
+        return 1, "최근 거시경제 주요 뉴스가 부족하여 기본 경계(Level 1) 상태를 유지합니다.", "수집된 지수(SPY, QQQ) 뉴스 없음"
         
     lines = []
     for e in events:
         if isinstance(e, dict) and e.get("title"):
             lines.append(f"- {e.get('title')}")
+            
+    used_news_text = "\n".join(lines[:15])
             
     prompt = (
         "너는 월스트리트 수석 거시경제(Macro) 리스크 애널리스트야.\n"
@@ -378,7 +380,7 @@ def _evaluate_macro_risk(news_store: NewsStore, model: str) -> tuple[int, str]:
         "1: 일반적인 조정 또는 경계감 (기본)\n"
         "2: 뚜렷한 악재 발생 (예: 금리 인상 쇼크, 큰 지정학적 긴장, 무역 분쟁)\n"
         "3: 극도 위험 / 시스템적 위기 (예: 전쟁 발발, 전염병 확산, 대형 금융위기)\n\n"
-        "[최근 뉴스]\n" + "\n".join(lines[:15]) + "\n\n"
+        f"[최근 뉴스]\n{used_news_text}\n\n"
         "반드시 아래 JSON 형식으로만 응답해 (다른 말은 절대 금지):\n"
         "{\"risk_level\": 0, \"reason\": \"한국어로 아주 간결한 평가 이유 1문장\"}"
     )
@@ -392,11 +394,11 @@ def _evaluate_macro_risk(news_store: NewsStore, model: str) -> tuple[int, str]:
             level = int(res_json.get("risk_level", 1))
             reason = str(res_json.get("reason", "분석 완료"))
             level = max(0, min(3, level))
-            return level, reason
+            return level, reason, used_news_text
     except Exception as e:
         print(f"[MACRO_RISK_ERR] {e}")
         
-    return 1, "AI 분석 에러로 인해 기본 방어선(Level 1)을 유지합니다."
+    return 1, "AI 분석 에러로 인해 기본 방어선(Level 1)을 유지합니다.", used_news_text
 
 def _evaluate_portfolio_swap(new_ticker: str, new_score: float, new_reason: str, positions: dict, current_prices: dict, news_store: NewsStore, model: str, fee_est: float = 0.5) -> dict:
     pos_lines = []
@@ -623,6 +625,7 @@ def main() -> None:
     last_macro_eval_time = None
     macro_risk_level = 1
     macro_risk_reason = "초기화 대기중"
+    regime = None
 
     try:
         while True:
@@ -639,19 +642,60 @@ def main() -> None:
                 if briefing_pre_et <= ny_hm < trade_start_et and last_pre_brief_date != ny_date:
                     _generate_and_send_briefing(WATCHLIST, news_store, ai_gate_model, notifier, "프리마켓")
                     last_pre_brief_date = ny_date
-                    
-                    # 👇👇👇 [신규 추가] 매일 프리마켓 브리핑을 할 때, 과거 매매 복기도 같이 수행!
-                    if last_reflection_date != ny_date:
-                        print("🧘 [SYSTEM] AI가 어제까지의 매매 기록을 바탕으로 자가 학습(Self-Reflection)을 진행합니다...")
-                        ref_res = reflection_engine.run_reflection()
-                        if ref_res.get("status") == "success":
-                            ai_lessons = "\n".join(ref_res["data"].get("lessons", []))
-                            notifier.send(f"🧠 [AI 자가 진화 완료]\n봇이 새로운 매매 교훈을 터득했습니다!\n\n{ai_lessons}")
-                        last_reflection_date = ny_date
                 
                 if briefing_reg_et <= ny_hm < "09:30" and last_reg_brief_date != ny_date:
                     _generate_and_send_briefing(WATCHLIST, news_store, ai_gate_model, notifier, "정규장")
                     last_reg_brief_date = ny_date
+
+            # 👇👇👇 [수정] 장 마감 직후 (16:05 ET) AI 자가 학습 및 텔레그램 발송
+            reflection_et = "16:05" 
+            if ny_hm >= reflection_et and last_reflection_date != ny_date:
+                print("🧘 [SYSTEM] 장 마감! AI가 오늘의 매매 기록과 시황을 바탕으로 자가 학습(Self-Reflection)을 진행합니다...")
+                
+                # AI에게 줄 현재 자산 상태 파악
+                _cash_usd, _total_usd = 1000.0, 10000.0
+                if broker is not None and not broker.kis.cfg.paper:
+                    try:
+                        _cash_usd, _total_usd = broker.get_account_summary()
+                    except Exception:
+                        pass
+                    
+                _cash_ratio = _cash_usd / max(1.0, _total_usd)
+                account_stat = f"총 자산(USD): ${_total_usd:.2f} (현금 잔고: ${_cash_usd:.2f}, 보유 현금 비중: {_cash_ratio*100:.1f}%)"
+                
+                # AI에게 줄 현재 시황 파악
+                market_cond = f"최근 매크로 리스크 레벨: {macro_risk_level} ({macro_risk_reason})\n"
+                try:
+                    current_regime_label = getattr(regime, 'label', 'unknown') if 'regime' in locals() and regime is not None else "분석 대기중"
+                    current_regime_score = getattr(regime, 'score', 0.0) if 'regime' in locals() and regime is not None else 0.0
+                    market_cond += f"오늘의 기술적 추세(QQQ): {current_regime_label} (점수: {current_regime_score:.2f})\n"
+                except Exception:
+                    market_cond += "오늘의 기술적 추세(QQQ): 분석 대기중\n"
+                
+                # 학습 엔진 호출
+                ref_res = reflection_engine.run_reflection(market_condition=market_cond, account_status=account_stat)
+                
+                if ref_res.get("status") == "success":
+                    analysis = ref_res["data"].get("reflection_analysis", "")
+                    lessons = ref_res["data"].get("lessons", [])
+                    
+                    # 텔레그램용 텍스트 조립
+                    ai_lessons_text = "\n".join(f"- {l}" for l in lessons)
+                    
+                    msg = f"🧠 [AI 정규장 마감 자가 진화 완료]\n\n"
+                    msg += f"📊 [오늘의 마감 복기]\n{analysis}\n\n"
+                    msg += f"💡 [새로 터득한 교훈]\n{ai_lessons_text}"
+                    notifier.send(msg)
+                    
+                    # 다음 매매에 쓰일 글로벌 변수 업데이트
+                    ai_lessons = ai_lessons_text 
+                elif ref_res.get("status") == "not_enough_data":
+                    notifier.send("🧘 [AI 자가 진화 대기]\n새로운 매매 기록이 없어 기존의 투자 원칙을 유지합니다.")
+                else:
+                    print(f"[SYSTEM] 자가 학습 에러: {ref_res}")
+                
+                last_reflection_date = ny_date
+            # 👆👆👆 -------------------------------------------------------------
 
             is_combat_mode = (trade_start_et <= ny_hm < trade_end_et) and (ny_time.weekday() < 5)
 
@@ -808,13 +852,22 @@ def main() -> None:
                 except Exception: pass
 
             if last_macro_eval_time is None or macro_news_added:
-                new_macro_level, new_macro_reason = _evaluate_macro_risk(news_store, ai_gate_model)
+                # 👇 [수정] used_news_text도 함께 반환받도록 변경
+                new_macro_level, new_macro_reason, used_news_text = _evaluate_macro_risk(news_store, ai_gate_model)
                 
                 if last_macro_eval_time is None or new_macro_level != macro_risk_level:
+                    # 텔레그램 스팸 방지를 위해 주요 뉴스 상위 7개까지만 잘라서 보여줌
+                    display_news = "\n".join(used_news_text.split('\n')[:7])
+                    msg_body = f"진단: {new_macro_reason}\n\n📰 [AI가 판단에 참고한 주요 뉴스]\n{display_news}"
+                    
                     if new_macro_level >= 2:
-                        notifier.send(f"🚨 [매크로 리스크 비상 경보!]\n새로운 주요 뉴스 감지! 위험 단계가 Risk Level {new_macro_level}로 변경되었습니다!\n진단: {new_macro_reason}")
+                        notifier.send(f"🚨 [매크로 리스크 비상 경보!]\n새로운 주요 뉴스 감지! 위험 단계가 Risk Level {new_macro_level}로 변경되었습니다!\n{msg_body}")
                     else:
-                        notifier.send(f"🌍 [AI 매크로 리스크 진단]\n위험 단계: Risk Level {new_macro_level}\n진단: {new_macro_reason}")
+                        notifier.send(f"🌍 [AI 매크로 리스크 진단]\n위험 단계: Risk Level {new_macro_level}\n{msg_body}")
+                    
+                    # 콘솔 로그에는 참고한 전체 뉴스를 모두 출력
+                    print(f"\n🌍 [MACRO_EVAL] Level: {new_macro_level} | Reason: {new_macro_reason}")
+                    print(f"[AI 판단 근거 뉴스]\n{used_news_text}\n")
                 
                 macro_risk_level = new_macro_level
                 macro_risk_reason = new_macro_reason
@@ -1091,7 +1144,6 @@ def main() -> None:
                             recent_light = [{"ts_kst": e.get("ts_kst"), "title": e.get("title"), "summary": e.get("summary"), "event_type": e.get("event_type"), "sentiment": e.get("sentiment"), "impact": e.get("impact"), "why_it_moves": e.get("why_it_moves"), "link": e.get("link"), "event_score": e.get("event_score"), "confidence": e.get("confidence")} for e in recent_events if isinstance(e, dict)]
                             snapshot = {"ts_kst": loop_ts, "price": price_f, "market_open": market_open, "regime": {"enabled": bool(regime_engine is not None), "score": getattr(regime, "score", None), "label": getattr(regime, "label", None)}, "signal": {"total": total, "raw_action": sig.action, "strength": sig.strength, "reason": sig.reason}, "plan": {"action": plan_action, "qty": int(plan_qty), "reason": plan_reason}, "position": {"qty": float(pos.qty), "avg": float(pos.avg_price)}, "news": {"news_score": news_used, "raw_n": cnt, "raw_sum": raw_news, "conf": conf_avg}, "valuation": {"score": vscore, "fair_value": fair_value, "range": fair_range}, "ta": {"score": tscore, "label": tlabel}}
                             
-                            # 👇 [수정] 매수 판단 프롬프트에 AI 자가학습 오답노트(ai_lessons) 주입
                             prompt = build_decision_prompt(ticker=ticker, kb=kb, snapshot=snapshot, recent_news_events=recent_light, lessons=ai_lessons)
                             llm_text = ollama_generate(prompt=prompt, model=decision_model, temperature=0.2, timeout=float(os.environ.get("OLLAMA_TIMEOUT", "120") or "120"))
                             decision = parse_decision(llm_text)
@@ -1208,9 +1260,7 @@ def main() -> None:
                     try:
                         is_urgent_fill = force_sell or is_force_close_time or ("STOP_LOSS" in plan_reason) or ("BLACK_SWAN" in str(getattr(regime, "label", "")))
                         
-                        # 👇👇👇 [신규 추가] 강력한 호재 뉴스(news_score >= 0.40)로 인한 매수인지 판별
                         is_news_buy = (plan_action == "BUY" and float(news_used) >= 0.40)
-                        # 👆👆👆
                         
                         exec_price_f = price_f
                         if is_urgent_fill:
@@ -1220,15 +1270,12 @@ def main() -> None:
                                 exec_price_f = price_f * 0.90
                             plan_reason = f"[긴급체결 10%] {plan_reason}"
                             
-                        # 👇👇👇 [수정] 호재 뉴스 매수일 때만 1% 버퍼 적용
                         elif is_news_buy:
                             news_slip = _env_float("NEWS_BUY_SLIPPAGE_PCT", 0.01) 
                             exec_price_f = price_f * (1.0 + news_slip)
                             plan_reason = f"[호재추격버퍼 {news_slip*100}%] {plan_reason}"
                         else:
-                            # 그 외 일반 매수(낙폭과대 등) 및 매도(익절 등)는 버퍼 없이 현재가(지정가)
                             exec_price_f = price_f
-                        # 👆👆👆 -------------------------------------------------------------
 
                         res = broker.buy_market(ticker, int(plan_qty), last_price=exec_price_f) if plan_action == "BUY" else broker.sell_market(ticker, int(plan_qty), last_price=exec_price_f)
                         ok, dry = bool(res.ok), bool(res.raw.get("dry_run", False))
