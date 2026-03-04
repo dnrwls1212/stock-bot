@@ -50,6 +50,7 @@ def fetch_intraday_ta(
         auto_adjust=False,
         progress=False,
         threads=True,
+        prepost=True,  # 🚀 [추가] 프리마켓(Pre) 및 애프터마켓(Post) 실시간 캔들을 포함시키는 핵심 옵션!
     )
     if not r.get("ok"):
         return {"ok": False, "ticker": t, "interval": interval, "error": r.get("error")}

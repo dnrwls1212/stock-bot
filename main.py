@@ -399,9 +399,10 @@ def _evaluate_macro_risk(news_store: NewsStore, model: str) -> tuple[int, str, s
         "최근 3일간의 시장 지수(SPY, QQQ) 뉴스를 바탕으로 현재 시장의 '시스템적 리스크 레벨'을 0에서 3까지 평가해줘.\n"
         "[Risk Level 기준]\n"
         "0: 평온한 시장 또는 강세장\n"
-        "1: 일반적인 조정 또는 경계감 (기본)\n"
+        "1: 악재가 존재하나 협상/휴전/저가매수 등 반등 기대감이 혼재된 상태 (일반적 관망장)\n"
         "2: 뚜렷한 악재 발생 (예: 금리 인상 쇼크, 큰 지정학적 긴장, 무역 분쟁)\n"
         "3: 극도 위험 / 시스템적 위기 (예: 전쟁 발발, 전염병 확산, 대형 금융위기)\n\n"
+        "🚨 주의: 전쟁/위기 관련 뉴스가 있더라도 '휴전, 협상, 선반영, 반등, 회복' 등의 내용이 다수 보인다면, 시장이 안도하고 있는 것이므로 Risk Level을 1 또는 0으로 낮춰서 평가할 것.\n\n"
         f"[최근 뉴스]\n{used_news_text}\n\n"
         "반드시 아래 JSON 형식으로만 응답해 (다른 말은 절대 금지):\n"
         "{\"risk_level\": 0, \"reason\": \"한국어로 아주 간결한 평가 이유 1문장\"}"
@@ -649,6 +650,75 @@ def main() -> None:
     macro_risk_reason = "초기화 대기중"
     regime = None
 
+    # 👇👇👇 [수정된 Phase 1: 오버나잇 시황 취합 및 NewsStore 주입 (Yahoo 보완)] 👇👇👇
+    print("🌅 [SYSTEM] 봇 기상! 간밤의 글로벌 속보를 취합하여 초기 시황을 파악합니다...")
+    init_news_titles = []
+    now_for_init = datetime.now(ZoneInfo("Asia/Seoul"))
+
+    # 1. KIS 속보 우선 취합
+    if quote_provider is not None and not quote_provider.kis.cfg.paper:
+        try:
+            init_news_raw = quote_provider.get_breaking_news(limit=40)
+            for kn in init_news_raw:
+                title = kn.get("hts_pbnt_titl_cntt", "")
+                if title: init_news_titles.append(title)
+        except Exception: pass
+
+    # 2. Yahoo 거시경제 RSS (KIS 속보가 비어있을 때를 대비한 안전장치)
+    try:
+        yh_news = fetch_rss_news(limit=30, rss_urls=["https://finance.yahoo.com/news/rss"])
+        for yn in yh_news:
+            title = yn.get("title", "")
+            if title and title not in init_news_titles:
+                init_news_titles.append(title)
+    except Exception: pass
+
+    # 3. 뉴스가 하나라도 있다면 AI 분석 및 시스템 강제 주입
+    if init_news_titles:
+        from src.trading.news_store import NewsEvent
+        for title in init_news_titles:
+            try:
+                # 메인 루프에서 AI가 놓치지 않게 SPY, QQQ 뉴스통에 쑤셔넣음
+                evt_spy = NewsEvent(ticker="SPY", ts_kst=now_for_init.isoformat(timespec="seconds"), published="", title=title, summary="초기 시황 취합", link="init_macro", event_score=0.0, confidence=0.5, event_type="macro", sentiment="neutral", impact=0, why_it_moves="", raw={})
+                evt_qqq = NewsEvent(ticker="QQQ", ts_kst=now_for_init.isoformat(timespec="seconds"), published="", title=title, summary="초기 시황 취합", link="init_macro", event_score=0.0, confidence=0.5, event_type="macro", sentiment="neutral", impact=0, why_it_moves="", raw={})
+                news_store.add_event(evt_spy)
+                news_store.add_event(evt_qqq)
+            except Exception: pass
+            
+        init_news_text = "\n".join([f"- {t}" for t in init_news_titles[:40]])
+        prompt = (
+            "너는 월스트리트 수석 매크로 애널리스트야. 내가 방금 트레이딩 봇을 켰어.\n"
+            "아래는 간밤에 발생한 글로벌 뉴스들의 '제목'이야. 비슷한 내용이 여러 번 반복되면 매우 중요한 팩트로 간주해.\n"
+            "이 제목들을 종합적으로 분석해서 현재 시장의 '시스템적 리스크 레벨(0~3)'을 평가해줘.\n"
+            "[Risk Level 기준]\n"
+            "0: 평온/강세장\n"
+            "1: 악재가 존재하나 협상/휴전/저가매수 등 반등 기대감이 혼재된 상태\n"
+            "2: 뚜렷한 악재/금리쇼크\n"
+            "3: 전쟁/대공황 등 시스템 위기\n\n"
+            "🚨 주의: 전쟁/위기 뉴스가 있더라도 '휴전, 협상, 선반영, 반등' 등의 키워드가 다수 보인다면 시장이 안도하고 있는 것이므로 Risk Level을 1 또는 0으로 낮춰서 평가할 것.\n\n"
+            f"[간밤의 속보 취합]\n{init_news_text}\n\n"
+            "응답은 반드시 아래 JSON 형식으로만 해 (다른 말은 절대 금지):\n"
+            "{\"risk_level\": 0, \"reason\": \"이유\"}"
+        )
+        from src.utils.ollama_client import ollama_generate, try_parse_json
+        res_text = ollama_generate(prompt=prompt, model=ai_gate_model, temperature=0.1, timeout=120)
+        res_json = try_parse_json(res_text)
+        
+        if isinstance(res_json, dict):
+            macro_risk_level = int(res_json.get("risk_level", 1))
+            macro_risk_reason = str(res_json.get("reason", "초기 시황 분석 완료"))
+            last_macro_eval_time = now_for_init
+            
+            msg = f"🌍 [AI 오버나잇 시황 분석 완료]\n위험 단계: Risk Level {macro_risk_level}\n진단: {macro_risk_reason}"
+            print(msg)
+            notifier.send(msg)
+    else:
+        print("   [SKIP] KIS 및 Yahoo에서 초기 뉴스를 가져오지 못했습니다.")
+
+    # 🚀 [Phase 2] 중복 뉴스(신뢰도 교차검증용)를 저장할 큐 생성
+    _recent_titles_for_cv = deque(maxlen=200)
+    # 👆👆👆 --------------------------------------------------
+
     try:
         while True:
             now_kst = datetime.now(ZoneInfo("Asia/Seoul"))
@@ -710,24 +780,40 @@ def main() -> None:
                     notifier.send(msg)
                     
                     # 다음 매매에 쓰일 글로벌 변수 업데이트
-                    ai_lessons = ai_lessons_text
+                    ai_lessons = ai_lessons_text 
 
                     print("📚 [SYSTEM] 전체 감시 종목의 Knowledge Base(KB) 자동 정제(Auto-Refinement)를 시작합니다...")
                     from src.knowledge.kb_agent import refine_ticker_kb
+                    updated_count = 0  # 텔레그램 알림용 카운터
+                    
                     for t in WATCHLIST:
                         try:
                             old_kb = kb_load(t)
                             # 최근 수집된 뉴스 중 상위 15개를 추출하여 전달
                             recent_ev = old_kb.get("evidence", [])[:15]
                             if recent_ev:
+                                # 💡 [추가된 로직] 가장 최근 뉴스의 시간과, 마지막으로 KB를 정제했던 시간을 비교
+                                latest_ev_ts = recent_ev[0].get("ts_kst", "")
+                                last_refined_ts = old_kb.get("last_refined_ev_ts", "")
+                                
+                                if latest_ev_ts == last_refined_ts:
+                                    print(f"   [SKIP] {t} 신규 뉴스가 없어 KB 정제를 생략합니다.")
+                                    continue # 다음 종목으로 넘어감 (AI 호출 안 함)
+                                
+                                # 신규 뉴스가 있으므로 AI 호출하여 정제 진행
                                 new_kb = refine_ticker_kb(t, old_kb, recent_ev, decision_model)
+                                new_kb["last_refined_ev_ts"] = latest_ev_ts # ✅ 정제 완료 마커 기록
                                 kb_save(new_kb)
                                 print(f"   [+] {t} KB Thesis & Risks 업데이트 완료.")
+                                updated_count += 1
                         except Exception as e:
                             print(f"   [-] {t} KB 업데이트 에러: {e}")
                     
-                    notifier.send("📚 [AI 종목 KB 정제 완료]\n모든 감시 종목의 핵심 투자 포인트(Thesis)와 리스크가 최근 뉴스를 반영하여 새롭게(Rewrite) 업데이트되었습니다.")
-
+                    if updated_count > 0:
+                        notifier.send(f"📚 [AI 종목 KB 정제 완료]\n총 {updated_count}개 종목의 핵심 투자 포인트(Thesis)와 리스크가 최근 뉴스를 반영하여 새롭게 업데이트되었습니다.")
+                    else:
+                        print("   [*] 모든 종목의 KB가 이미 최신 상태입니다. (텔레그램 알림 생략)")
+                        
                 elif ref_res.get("status") == "not_enough_data":
                     notifier.send("🧘 [AI 자가 진화 대기]\n새로운 매매 기록이 없어 기존의 투자 원칙을 유지합니다.")
                 else:
@@ -809,12 +895,28 @@ def main() -> None:
 
             if quote_provider is not None and not quote_provider.kis.cfg.paper:
                 try:
+                    # 1. KIS 글로벌 전체 속보 수집
                     kis_news_raw = quote_provider.get_breaking_news()
                     for kn in kis_news_raw:
                         title = kn.get("hts_pbnt_titl_cntt", "")
                         if title:
-                            news_items.insert(0, { "title": title, "summary": "한국투자증권 실시간 속보", "link": f"kis_brk_{kn.get('cntt_usiq_srno', '')}", "published": f"{kn.get('data_dt', '')}{kn.get('data_tm', '')}" })
-                except Exception: pass
+                            news_items.insert(0, { "title": title, "summary": "한국투자증권 글로벌 전체 속보", "link": f"kis_brk_{kn.get('cntt_usiq_srno', '')}", "published": f"{kn.get('data_dt', '')}{kn.get('data_tm', '')}" })
+                    
+                    # 🚀 2. [신규] KIS 종목별 심층 뉴스 (Watchlist 순회 핀포인트 수집)
+                    for t in current_rss_tickers:
+                        t_news = quote_provider.get_ticker_news(t)
+                        # API 과부하 방지 및 최신 뉴스 유지를 위해 티커당 상위 2개만 추출
+                        for tn in t_news[:2]: 
+                            t_title = tn.get("title", "")
+                            if t_title:
+                                news_items.insert(0, {
+                                    "title": f"[{t}] {t_title}", 
+                                    "summary": f"KIS 종목 심층 뉴스", 
+                                    "link": f"kis_tck_{tn.get('news_key', '')}", 
+                                    "published": f"{tn.get('data_dt', '')}{tn.get('data_tm', '')}"
+                                })
+                except Exception as e: 
+                    print(f"[KIS_NEWS_ERR] {e}")
 
             macro_news_added = False 
             macro_news_processed = 0 
@@ -828,6 +930,30 @@ def main() -> None:
                     skipped_seen += 1; continue
                 if not _is_high_signal(title, summary):
                     skipped_low_signal += 1; continue
+
+                # 👇👇👇 [Phase 3: 속보 프리패스(Bypass) 및 Phase 2: 중복 교차검증(CV)] 👇👇👇
+                is_kis_news = ("kis_brk_" in link) or ("kis_tck_" in link)
+                
+                # KIS 속보는 키워드 검사를 생략하고 무조건 AI에게 통과시킴
+                if not is_kis_news and not _is_high_signal(title, summary):
+                    skipped_low_signal += 1; continue
+
+                # [Phase 2] 유사 제목 중복 횟수 카운팅 (신뢰도 가중용)
+                words = set([w for w in title.split() if len(w) >= 2])
+                dup_count = 0
+                for rt in _recent_titles_for_cv:
+                    rt_words = set([w for w in rt.split() if len(w) >= 2])
+                    # 두 단어 이상 겹치면 동일한 속보가 여러 매체에서 퍼지고 있는 것으로 간주
+                    if len(words.intersection(rt_words)) >= 2:
+                        dup_count += 1
+                
+                _recent_titles_for_cv.append(title)
+                
+                # 중복 보도된 뉴스라면 AI가 읽을 Summary에 시스템 메타데이터 강제 삽입
+                cv_summary = summary
+                if dup_count >= 2:
+                    cv_summary += f"\n\n[💡시스템 메타데이터: 이 뉴스와 유사한 주제의 속보가 최근 {dup_count}건 중복 보도되었습니다. 여러 매체가 다루는 명확한 팩트이므로 신뢰도(confidence)와 파급력(impact)을 매우 높게 책정하세요.]"
+                # 👆👆👆 -------------------------------------------------------------    
 
                 candidates = _candidate_tickers(title, summary, current_rss_tickers)
                 
@@ -1069,7 +1195,24 @@ def main() -> None:
                 base_buy_th_eff = float(buy_th) * float(th_mult)
                 base_sell_th_eff = float(sell_th) * float(th_mult)
 
+                # 👇👇 [추가] 매크로 Risk Level에 따른 유동적 매수 난이도 상향
+                macro_penalty_reason = ""
+                if not is_inverse:
+                    if macro_risk_level == 1:
+                        # 반등 기대감은 있으나 불안한 장: 매수 기준점 +0.15 (엄격)
+                        base_buy_th_eff += 0.15 
+                        macro_penalty_reason = "MACRO_LV1(매수허들↑)"
+                    elif macro_risk_level >= 2:
+                        # 확실한 악재/전쟁 장: 매수 기준점 +0.35 (초강력 뉴스 아니면 절대 안 삼)
+                        base_buy_th_eff += 0.35 
+                        macro_penalty_reason = f"MACRO_LV{macro_risk_level}(매수극강통제)"
+
                 dyn_rules_obj = dyn_rules.apply(news_store=news_store, ticker=ticker, now_kst=now_kst, base_buy_th=base_buy_th_eff, base_sell_th=base_sell_th_eff, base_conf_th=conf_th, base_confirm_ticks=confirm_ticks, max_scan=30)
+
+                # 로그에 이유 추가
+                if macro_penalty_reason:
+                    dyn_rules_obj.reason = f"{macro_penalty_reason} | {dyn_rules_obj.reason}"
+
                 buy_th_eff, sell_th_eff, conf_th_eff, confirm_ticks_eff, strength_boost = dyn_rules_obj.buy_th, dyn_rules_obj.sell_th, dyn_rules_obj.conf_th, dyn_rules_obj.confirm_ticks, dyn_rules_obj.strength_boost
 
                 reserve_cash_ratio = _env_float("RESERVE_CASH_RATIO", 0.30)
@@ -1124,6 +1267,16 @@ def main() -> None:
                     eff_tp1 = _env_float("INV_TAKE_PROFIT_1", 0.030)
                 else:
                     eff_sl1, eff_sl2, eff_tp1 = stop_loss_1, stop_loss_2, take_profit_1
+                    
+                    # 👇👇 [추가] 매크로 Risk Level에 따른 유동적 칼손절(방어막) 적용
+                    if macro_risk_level == 1:
+                        # 1단계 불안장: -2.0%에서 절반 손절, -3.5%에서 전량 손절 (기존 -3%/-5%보다 타이트함)
+                        eff_sl1 = max(eff_sl1, -0.020)
+                        eff_sl2 = max(eff_sl2, -0.035)
+                    elif macro_risk_level >= 2:
+                        # 2~3단계 위험장: -1.5%에서 절반 도망, -2.5%에서 전량 도망 (떨어지는 칼날 완벽 방어)
+                        eff_sl1 = max(eff_sl1, -0.015)
+                        eff_sl2 = max(eff_sl2, -0.025)
 
                 if not is_combat_mode and sig.action in ("BUY", "SELL"):
                     plan_action, plan_qty, plan_reason = "HOLD", 0, f"RESEARCH_MODE (Trade window {trade_start_et}-{trade_end_et} ET) | raw={sig.action}"

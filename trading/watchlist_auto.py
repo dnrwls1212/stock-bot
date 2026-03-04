@@ -108,9 +108,9 @@ def build_watchlist_v1(
     *,
     universe_path: str = "data/universe.txt",
     out_path: str = "data/watchlist_auto.txt",
-    top_n: int = 20, # 🚨 [수정] 기본 20개로 확장
-    min_price: float = 5.0,
-    min_dollar_vol: float = 5_000_000.0,
+    top_n: int = 12, # 🚨 [수정] 20개 -> 12개로 축소 (통신 부하 최소화)
+    min_price: float = 10.0, # 🚨 [수정] 5.0 -> 10.0달러 (잡주 필터링)
+    min_dollar_vol: float = 15_000_000.0, # 🚨 [수정] 5백만 -> 1,500만 달러 (유동성 컷 상향)
     news_lookback_hours: int = 24,
     w_atr: float = 0.45,
     w_liq: float = 0.35,
@@ -193,30 +193,36 @@ def build_watchlist_v1(
         r["value_dip_score"] = float(r["vscore"]) + dip_bonus
 
     # =========================================================
-    # 🚨 투트랙(Two-Track) 와치리스트 선발 (모멘텀 절반 + 줍줍 절반)
+    # 🚨 투트랙(Two-Track) 와치리스트 선발 (정예 멤버 12개 압축)
     # =========================================================
     half_n = max(1, int(top_n) // 2)
     picked_set = set()
     picked_list = []
 
-    # 트랙 1: 모멘텀 상위 10개 선발
+    # 🚀 트랙 1: 모멘텀 상위 선발 (단, 하락 추세인 허수 종목 제외)
     rows_mom = sorted(rows, key=lambda x: x.get("momentum_score", 0.0), reverse=True)
-    for r in rows_mom[:half_n]:
-        picked_set.add(r["ticker"])
-        picked_list.append(r["ticker"])
+    mom_count = 0
+    for r in rows_mom:
+        # 하락 중이어서 변동성이 커진 종목은 봇이 어차피 안 사므로 제외 (tscore >= -0.1 이상만 허용)
+        if r["tscore"] >= -0.1:
+            picked_set.add(r["ticker"])
+            picked_list.append(r["ticker"])
+            mom_count += 1
+        if mom_count >= half_n:
+            break
 
-    # 트랙 2: 가치투자(Value Dip) 상위 10개 선발 (중복 제외)
+    # 🚀 트랙 2: 가치투자(Value Dip) 상위 선발 (기준 강화)
     rows_val = sorted(rows, key=lambda x: x.get("value_dip_score", 0.0), reverse=True)
     for r in rows_val:
         if r["ticker"] not in picked_set:
-            # vscore가 최소 0.4 이상인 튼튼한 종목만 줍줍 후보로 인정
-            if r["vscore"] >= 0.4: 
+            # vscore가 최소 0.5 이상(매우 훌륭한 펀더멘털)이면서 차트가 눌림목인 종목만 줍줍 후보로 인정
+            if r["vscore"] >= 0.5: 
                 picked_set.add(r["ticker"])
                 picked_list.append(r["ticker"])
             if len(picked_list) >= top_n:
                 break
 
-    # 만약 조건을 만족하는 가치주가 부족해서 20개를 못 채우면, 남은 자리는 다시 모멘텀 종목으로 채움
+    # 만약 조건을 만족하는 종목이 부족해서 top_n(12개)을 못 채우면, 남은 자리는 추세 무관 모멘텀 상위로 채움
     if len(picked_list) < top_n:
         for r in rows_mom:
             if r["ticker"] not in picked_set:
