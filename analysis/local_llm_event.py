@@ -6,11 +6,12 @@ from typing import Any, Dict, List, Optional
 from .schema import SCHEMA_TEMPLATE
 from src.utils.ollama_client import ollama_generate
 
+# 🚀 [수정] 직관적이고 명확한 단일 키워드로 이벤트 유형 개편
 ALLOWED_EVENT_TYPES = [
-    "earnings","guidance","contract_partnership","regulation_export",
-    "mna","financing_offering","product_launch","litigation_investigation",
-    "macro_sector","other",
+    "earnings", "guidance", "contract", "M&A", "lawsuit", 
+    "launching", "macro", "war", "clinical", "offering", "other"
 ]
+
 ALLOWED_SENTIMENT = ["bullish","bearish","neutral"]
 ALLOWED_HORIZON = ["intraday","swing_days","swing_weeks","long_term"]
 
@@ -62,14 +63,13 @@ def analyze_news_local_ollama(
     link: str = "",
     published: str = "",
     watchlist: Optional[List[str]] = None,
-    model: str = "qwen2.5:7b-instruct",
+    model: str = "qwen2.5:14b-instruct", # 모델명 14b로 상향 통일
     retries: int = 2,
 ) -> Dict[str, Any]:
 
     watch = ", ".join(watchlist or [])
     schema_text = json.dumps(SCHEMA_TEMPLATE, ensure_ascii=False)
 
-    # 👇 [수정됨] 프롬프트에 한국어 번역 및 고유명사 처리 관련 강력한 규칙(STRICT RULES) 추가
     prompt = f"""
 Return ONLY valid JSON. No markdown. No extra keys. No trailing text.
 
@@ -87,7 +87,6 @@ IMPORTANT RULES:
 - why_it_moves must be a non-empty 1~2 sentence explanation. If you truly cannot explain, set impact=0 and write why_it_moves="Unclear impact / insufficient info".
 - Only set impact != 0 if key_points and why_it_moves justify it.
 - If uncertain, keep impact = 0 and confidence around 0.5.
-- Heuristic: litigation/investigation usually has negative sentiment unless clearly dismissed or a favorable ruling is mentioned.
 - STRICT: Only include tickers if the article is primarily about a watchlist company. If it is primarily about a different company (e.g., TSMC), set tickers=[] even if watchlist companies are mentioned.
 
 [TRANSLATION STRICT RULES for kr_title]
@@ -96,11 +95,24 @@ IMPORTANT RULES:
 3. NEVER translate or transliterate proper nouns strangely. Keep company names (e.g., NVIDIA, Tesla, Apple, AMD) in original English OR use standard Korean market names (e.g., 엔비디아, 테슬라, 애플). 
 4. DO NOT invent phonetic spellings like '나VIDIA' or '엔비디아스'. 
 
+[EVENT TYPE CATEGORIZATION GUIDE]
+- earnings: Quarterly/Annual earnings reports (실적발표)
+- guidance: Future outlook, guidance updates (가이던스)
+- contract: New contracts, partnerships, deals (계약/수주)
+- M&A: Mergers and acquisitions (인수합병)
+- lawsuit: Lawsuits, SEC investigations, regulations (소송/조사)
+- launching: New product or service launches (제품출시)
+- macro: CPI, Fed rates, inflation, broader economic data (거시경제)
+- war: Geopolitical conflicts, wars, missile attacks (전쟁/지정학적 위기)
+- clinical: FDA approvals, clinical trial results (임상/FDA)
+- offering: Stock offerings, capital raises (유상증자)
+- other: Anything else (기타)
+
 Allowed values:
 - event_type: {",".join(ALLOWED_EVENT_TYPES)}
 - sentiment: {",".join(ALLOWED_SENTIMENT)}
 - impact: integer -3..3
-- confidence: 0..1
+- confidence: 0.0..1.0
 - trade_horizon: {",".join(ALLOWED_HORIZON)}
 
 Schema (fill values, keep keys exactly):
@@ -139,7 +151,7 @@ def analyze_news_with_local_llm(
     link: str = "",
     published: str = "",
     watchlist: Optional[List[str]] = None,
-    model: str = "qwen2.5:7b-instruct",
+    model: str = "qwen2.5:14b-instruct",
     retries: int = 2,
 ) -> Dict[str, Any]:
     return analyze_news_local_ollama(

@@ -897,12 +897,14 @@ def main() -> None:
                 try:
                     # 1. KIS 글로벌 전체 속보 수집
                     kis_news_raw = quote_provider.get_breaking_news()
+                    kis_brk_count = 0
                     for kn in kis_news_raw:
                         title = kn.get("hts_pbnt_titl_cntt", "")
                         if title:
                             news_items.insert(0, { "title": title, "summary": "한국투자증권 글로벌 전체 속보", "link": f"kis_brk_{kn.get('cntt_usiq_srno', '')}", "published": f"{kn.get('data_dt', '')}{kn.get('data_tm', '')}" })
                     
                     # 🚀 2. [신규] KIS 종목별 심층 뉴스 (Watchlist 순회 핀포인트 수집)
+                    kis_tck_count = 0
                     for t in current_rss_tickers:
                         t_news = quote_provider.get_ticker_news(t)
                         # API 과부하 방지 및 최신 뉴스 유지를 위해 티커당 상위 2개만 추출
@@ -915,6 +917,11 @@ def main() -> None:
                                     "link": f"kis_tck_{tn.get('news_key', '')}", 
                                     "published": f"{tn.get('data_dt', '')}{tn.get('data_tm', '')}"
                                 })
+
+                    # 💡 [로그 추가 1] 수집된 KIS 뉴스 개수 출력
+                    if kis_brk_count > 0 or kis_tck_count > 0:
+                        print(f"📡 [KIS_API_통신] 글로벌속보: {kis_brk_count}건, 종목별뉴스: {kis_tck_count}건 수집 완료")
+
                 except Exception as e: 
                     print(f"[KIS_NEWS_ERR] {e}")
 
@@ -934,6 +941,10 @@ def main() -> None:
                 # 👇👇👇 [Phase 3: 속보 프리패스(Bypass) 및 Phase 2: 중복 교차검증(CV)] 👇👇👇
                 is_kis_news = ("kis_brk_" in link) or ("kis_tck_" in link)
                 
+                # 💡 [로그 추가 2] KIS 뉴스가 중복을 통과하고 AI에게 가기 직전에 로그 출력
+                if is_kis_news:
+                    print(f"   ▶ [KIS 속보 프리패스 가동] AI에게 전달됨: {title}")
+
                 # KIS 속보는 키워드 검사를 생략하고 무조건 AI에게 통과시킴
                 if not is_kis_news and not _is_high_signal(title, summary):
                     skipped_low_signal += 1; continue

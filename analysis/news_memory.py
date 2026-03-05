@@ -19,13 +19,33 @@ def build_news_memory_summary_local_ollama(ticker: str, events: List[Dict[str, A
     except Exception:
         existing_memory = ""
 
+    # === [수정된 부분] 중요도 기반 메모리 압축 로직 시작 ===
+    valid_events = [e for e in events if isinstance(e, dict)]
+    
+    def get_time(ev):
+        return ev.get('ts_kst') or ev.get('published') or ""
+    valid_events.sort(key=get_time, reverse=True)
+    
+    # 최신 뉴스 5개 + 과거 핵심 뉴스(영향력 큰 순서) 10개를 섞어 총 15개로 압축
+    newest_5 = valid_events[:5]
+    remainder = valid_events[5:]
+    
+    def get_impact(ev):
+        return abs(float(ev.get('event_score', 0.0)))
+    remainder.sort(key=get_impact, reverse=True)
+    high_impact_10 = remainder[:10]
+    
+    selected_events = newest_5 + high_impact_10
+    selected_events.sort(key=get_time) # 과거부터 읽어들이도록 정렬
+
     news_texts = []
-    for e in events[:15]: 
+    for e in selected_events: 
         t = e.get('title', '')
         s = e.get('summary', '')
         d = e.get('published', '')
         if t or s:
             news_texts.append(f"[{d}] {t} - {s}")
+    # === [수정된 부분 끝] ===
 
     prompt = f"""너는 월스트리트 수석 데이터 아키텍트야.
 목표: [{ticker}] 종목의 기존 메모리에 새로운 뉴스의 팩트를 추가하되, 반드시 '호재'와 '악재'를 엄격하게 분리하여 업데이트해.

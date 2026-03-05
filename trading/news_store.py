@@ -108,12 +108,15 @@ class NewsStore:
         n = 0
         raw_sum = 0.0
 
-        # 🚀 [수정] 장기 모멘텀 및 장기 악재(리스크) 키워드 통합
+        # 🚀 장기 모멘텀 및 장기 악재(리스크) 키워드
         long_term_keywords = [
             # 장기 호재성
-            "earning", "guidance", "m_and_a", "fda", "macro", "contract", "merger", "clinical",
-            # 장기 악재성 (추가됨)
-            "lawsuit", "investigation", "fraud", "downgrade", "resign", "bankrupt", "delist", "shortfall", "offering"
+            "earning", "guidance", "m&a", "fda", "macro", "contract", "merger", "clinical", "launching",
+            "실적", "가이던스", "인수", "합병", "승인", "계약", "수주", "임상", "출시",
+            # 장기 악재성 (전쟁, 폭락 포함)
+            "lawsuit", "investigation", "fraud", "downgrade", "resign", "bankrupt", "delist", "shortfall", "offering",
+            "war", "strike", "missile", "attack", "conflict", "crash", "plunge", "panic",
+            "소송", "조사", "파산", "상장폐지", "전쟁", "미사일", "공격", "타격", "충돌", "폭락", "급락", "쇼크"
         ]
 
         for e in evs:

@@ -57,8 +57,30 @@ def ai_gate_check_local_ollama(
         "reason": "",
     }
 
+    # === [수정된 부분] 중요도 기반 RAG 스타일 뉴스 필터링 시작 ===
+    valid_events = [e for e in recent_events if isinstance(e, dict)]
+    
+    # 1. 시간순 정렬 (가장 최신 뉴스가 배열의 앞쪽으로 오게 함)
+    def get_time(ev):
+        return ev.get('ts_kst') or ev.get('published') or ""
+    valid_events.sort(key=get_time, reverse=True)
+    
+    # 2. 시장의 현재 분위기를 알기 위해 '가장 최신 뉴스 4개'는 무조건 확보
+    newest_4 = valid_events[:4]
+    remainder = valid_events[4:]
+    
+    # 3. 남은 뉴스들 중에서 영향력(event_score) 절댓값이 가장 큰 '핵심 뉴스 8개' 추출
+    def get_impact_score(ev):
+        return abs(float(ev.get('event_score', 0.0)))
+    remainder.sort(key=get_impact_score, reverse=True)
+    high_impact_8 = remainder[:8]
+    
+    # 4. 두 그룹을 합친 후, AI가 타임라인 흐름을 읽기 좋게 다시 과거->최신 순으로 정렬
+    selected_events = newest_4 + high_impact_8
+    selected_events.sort(key=get_time)
+
     compact = []
-    for e in recent_events[-12:]:
+    for e in selected_events:
         compact.append(
             {
                 "title": (e.get("title", "") or "")[:160],
@@ -70,6 +92,7 @@ def ai_gate_check_local_ollama(
                 "why": (e.get("why_it_moves", "") or "")[:200],
             }
         )
+    # === [수정된 부분 끝] ===
 
     prompt = f"""
 Return ONLY valid JSON. No markdown. No extra keys.

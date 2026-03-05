@@ -22,6 +22,8 @@ def download_silent(**kwargs: Any):
     return _silent_call(yf.download, **kwargs)
 
 
+# src/utils/yf_silent.py
+
 def safe_download(
     *,
     tickers: str,
@@ -32,15 +34,9 @@ def safe_download(
     auto_adjust: bool = False,
     progress: bool = False,
     threads: bool = True,
+    prepost: bool = False,  # 👈 [1. 추가] 프리마켓 파라미터 허용
 ):
-    """Safe downloader with a single retry without threads.
-
-    Returns dict:
-      - ok: bool
-      - df: pandas DataFrame (when ok)
-      - error: str (when not ok)
-      - retry: optional str
-    """
+    """Safe downloader with a single retry without threads."""
     try:
         df = download_silent(
             tickers=tickers,
@@ -51,6 +47,7 @@ def safe_download(
             auto_adjust=auto_adjust,
             progress=progress,
             threads=threads,
+            prepost=prepost,  # 👈 [2. 추가] yfinance 실제 호출 시 전달
         )
         return {"ok": True, "df": df}
     except Exception as e:
@@ -65,6 +62,7 @@ def safe_download(
                     auto_adjust=auto_adjust,
                     progress=progress,
                     threads=False,
+                    prepost=prepost,  # 👈 [3. 추가] 재시도 로직에도 전달
                 )
                 return {"ok": True, "df": df, "retry": "threads=False"}
             except Exception as e2:

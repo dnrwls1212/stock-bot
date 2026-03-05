@@ -7,5 +7,5 @@ SCHEMA_TEMPLATE = {
     "key_points": [],
     "trade_horizon": "swing_days",  # intraday,swing_days,swing_weeks,long_term
     "why_it_moves": "",
-    "kr_title": ""
+    "kr_title": "주식 종목 티커를 제외한 나머지 내용은 반드시 100% 한국어로만 번역된 제목을 작성할 것 (중국어/한자 절대 포함 금지)"
 }
