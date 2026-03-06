@@ -456,6 +456,37 @@ def _evaluate_portfolio_swap(new_ticker: str, new_score: float, new_reason: str,
     except Exception:
         return {"swap_approved": False}
 
+def _evaluate_crisis_survival(ticker: str, macro_level: int, macro_reason: str, ta_score: float, ta_label: str, news_score: float, val_score: float, model: str) -> dict:
+    prompt = f"""너는 위기 관리 전문 AI 트레이더야. 현재 시장에 거시적 폭락 경보(Risk Level {macro_level})가 발동되었어.
+    
+    [거시 경제 상황]
+    {macro_reason}
+    
+    [보유 종목 상태: {ticker}]
+    - 기술적 분석(TA) 점수: {ta_score:.2f} ({ta_label})
+    - 최근 뉴스 모멘텀 점수: {news_score:.2f} (높을수록 호재)
+    - 펀더멘탈 가치평가 점수: {val_score:.2f} (높을수록 저평가 우량주)
+    
+    [판단 요청]
+    시장 전체가 하락장일 때, 이 종목을 당장 전량 강제 매도(Dump)하여 도망가야 할까, 아니면 종목의 개별 모멘텀과 방어력을 믿고 하락장을 버텨야(Survive) 할까?
+    - 거시적 리스크가 치명적이거나 해당 종목의 차트/뉴스가 무너졌다면 절대 버티지 말고 '매도(survive: false)'해.
+    - 하지만 차트 돌파 수급이 매우 강력하거나(예: 15m VWAP 돌파 등), 초강력 호재 뉴스가 있다면 시장 하락을 이길 수 있으므로 '버티기(survive: true)'를 선택해.
+    
+    반드시 아래 JSON 형식으로만 응답해:
+    {{"survive": true 또는 false, "reason": "결정 이유 1~2문장"}}"""
+    
+    try:
+        from src.utils.ollama_client import ollama_generate, try_parse_json
+        res_text = ollama_generate(prompt=prompt, model=model, temperature=0.1, timeout=60)
+        res = try_parse_json(res_text)
+        if isinstance(res, dict) and "survive" in res:
+            return res
+    except Exception as e:
+        print(f"[CRISIS_EVAL_ERR] {ticker} {e}")
+    
+    # 에러가 나면 계좌 보호를 위해 일단 파는(기계적 손절) 보수적 스탠스
+    return {"survive": False, "reason": "분석 에러 및 보수적 리스크 관리 원칙에 따른 기계적 매도"}
+
 # -----------------------------
 # main
 # -----------------------------
@@ -469,11 +500,12 @@ def main() -> None:
     _maybe_build_universe_and_watchlist_once(notifier)
     WATCHLIST = load_watchlist()
     
-    inverse_env = os.environ.get("INVERSE_TICKERS", "SQQQ,SOXS,PSQ")
-    inverse_tickers = [t.strip().upper() for t in inverse_env.split(",") if t.strip()]
-    for inv_t in inverse_tickers:
-        if inv_t not in WATCHLIST:
-            WATCHLIST.append(inv_t)
+    #inverse_env = os.environ.get("INVERSE_TICKERS", "SQQQ,SOXS,PSQ")
+    #inverse_tickers = [t.strip().upper() for t in inverse_env.split(",") if t.strip()]
+    #for inv_t in inverse_tickers:
+    #    if inv_t not in WATCHLIST:
+    #        WATCHLIST.append(inv_t)
+    inverse_tickers = []
             
     print(f"[WATCHLIST] loaded (with inverse): {WATCHLIST}")
 
@@ -506,6 +538,7 @@ def main() -> None:
     chase_ban_after_spike_pct = _env_float("CHASE_BAN_AFTER_SPIKE_PCT", 0.025)
     chase_ban_spike_window = _env_int("CHASE_BAN_SPIKE_WINDOW", 12)
     _recent_px: Dict[str, deque] = {}
+    crisis_survival_cache: Dict[str, Dict[str, Any]] = {}
 
     cost_gate_enabled = _env_bool("COST_GATE_ENABLED", True)
     cost_fee_bps = _env_float("COST_FEE_BPS", 25.0)
@@ -837,7 +870,20 @@ def main() -> None:
                 next_watchlist_refresh = now_kst + timedelta(minutes=watchlist_refresh_min)
 
             if broker is not None:
-                try: order_mgr.sync_once(broker)
+                try: 
+                    order_mgr.sync_once(broker)
+                    # 👇 [개선 2] 미체결 주문 3분 경과 시 자동 취소
+                    open_orders = pending_store.list_orders()
+                    for o in open_orders:
+                        if o.kis_order_no and o.status in ("SUBMITTED", "PARTIAL"):
+                            elapsed = (now_kst - datetime.fromisoformat(o.ts_kst)).total_seconds()
+                            if elapsed > 180: # 180초(3분) 경과 시
+                                print(f"⏳ [미체결 취소] {o.ticker} 주문({o.kis_order_no}) 3분 경과로 취소 시도...")
+                                res = broker.cancel_order(o.kis_order_no)
+                                if isinstance(res, dict) and str(res.get("rt_cd", "")) == "0":
+                                    o.status = "CANCELED"
+                                    pending_store.upsert(o)
+                                    print(f"✅ [미체결 취소 완료] {o.ticker} - 다음 타점에 재진입 가능해짐")
                 except Exception: pass
                 try: acc_risk.refresh(broker, now_kst)
                 except Exception: pass
@@ -899,9 +945,11 @@ def main() -> None:
                     kis_news_raw = quote_provider.get_breaking_news()
                     kis_brk_count = 0
                     for kn in kis_news_raw:
-                        title = kn.get("hts_pbnt_titl_cntt", "")
+                        # 👇 [개선 3] OpenAPI와 모바일앱의 다양한 뉴스 제목 키값 호환
+                        title = kn.get("hts_pbnt_titl_cntt") or kn.get("title") or kn.get("news_titl") or ""
                         if title:
-                            news_items.insert(0, { "title": title, "summary": "한국투자증권 글로벌 전체 속보", "link": f"kis_brk_{kn.get('cntt_usiq_srno', '')}", "published": f"{kn.get('data_dt', '')}{kn.get('data_tm', '')}" })
+                            news_items.insert(0, { "title": title, "summary": "한국투자증권 글로벌 전체 속보", "link": f"kis_brk_{kn.get('cntt_usiq_srno', kn.get('news_key', ''))}", "published": f"{kn.get('data_dt', '')}{kn.get('data_tm', '')}" })
+                            kis_brk_count += 1
                     
                     # 🚀 2. [신규] KIS 종목별 심층 뉴스 (Watchlist 순회 핀포인트 수집)
                     kis_tck_count = 0
@@ -1317,7 +1365,7 @@ def main() -> None:
                             plan_action, plan_qty, plan_reason = "HOLD", 0, f"risk blocked: {why} | {plan_reason}"
                             if not block_reason: block_reason = "CAN_TRADE_BLOCK"
 
-                if plan_action in ("BUY", "SELL") and plan_qty > 0:
+                if plan_action == "BUY" and plan_qty > 0:
                     plan_qty_eff = int(math.floor(float(plan_qty) * float(size_mult)))
                     if plan_qty_eff <= 0: plan_qty_eff = 1
                     if plan_qty_eff != plan_qty:
@@ -1499,17 +1547,44 @@ def main() -> None:
                         else:
                             exec_price_f = price_f
 
-                        res = broker.buy_market(ticker, int(plan_qty), last_price=exec_price_f) if plan_action == "BUY" else broker.sell_market(ticker, int(plan_qty), last_price=exec_price_f)
-                        ok, dry = bool(res.ok), bool(res.raw.get("dry_run", False))
-                        order_msg = f" order_ok={ok} dry_run={dry} order_no={getattr(res, 'order_no', None)}"
-                        if ok:
-                            log_data = {"ts": loop_ts, "ticker": ticker, "action": plan_action, "qty": int(plan_qty), "dry_run": dry, "price_snapshot": price_f, "total_score": total, "confidence": conf_avg, "ta_label": tlabel, "news_used": news_used, "val_score": vscore, "ta_score": tscore, "reason": plan_reason, "market_open_us_regular": market_open, "raw_signal": {"action": sig.action, "strength": sig.strength, "reason": sig.reason}, "decision_action": decision_action, "decision_conf": decision_conf}
-                            if not dry:
-                                log_data["order_no"] = getattr(res, "order_no", None)
-                                order_mgr.register_submitted(ticker=ticker, side=plan_action, qty=float(plan_qty), kis_response=res.raw, fill_price=price)
-                                limit_store.update_on_order(ticker, now_kst)
-                            trade_logger.log(log_data)
-                            notifier.send(fmt_dry_run(ticker=ticker, side=plan_action, qty=int(plan_qty), price=float(price_f), total=float(total), conf=float(conf_avg), ta_label=str(tlabel), reason=str(plan_reason)) if dry else fmt_order_submitted(ticker=ticker, side=plan_action, qty=int(plan_qty), order_no=str(getattr(res, "order_no", None) or ""), price=float(price_f), total=float(total), conf=float(conf_avg), ta_label=str(tlabel), reason=str(plan_reason)))
+                        # 👇👇 [추가된 핵심 로직] 예수금 한도 초과 방어 및 수량 자동 조절
+                        if plan_action == "BUY":
+                            # 수수료 및 슬리피지를 대비해 0.5% 정도 넉넉하게 필요 자금을 계산합니다.
+                            estimated_cost = float(plan_qty) * exec_price_f * 1.005 
+                            
+                            # 계좌의 현금(cash_usd)보다 사려는 금액이 클 경우
+                            if estimated_cost > cash_usd:
+                                # 가진 돈으로 살 수 있는 최대 수량을 다시 계산합니다.
+                                possible_qty = int(cash_usd / (exec_price_f * 1.005))
+                                
+                                if possible_qty > 0:
+                                    # 살 수 있는 수량이 1주라도 있다면 수량을 줄여서 주문합니다.
+                                    plan_reason = f"[예수금 부족 수량조절] {plan_qty}주 -> {possible_qty}주로 축소 (필요:${estimated_cost:.2f}, 잔고:${cash_usd:.2f}) | {plan_reason}"
+                                    plan_qty = possible_qty
+                                    estimated_cost = float(plan_qty) * exec_price_f * 1.005
+                                    cash_usd -= estimated_cost # 다음 루프 방어를 위해 미리 현금 차감
+                                else:
+                                    # 1주도 살 돈이 없다면 주문을 강제로 취소(HOLD) 합니다.
+                                    plan_action, plan_qty = "HOLD", 0
+                                    plan_reason = f"ACCOUNT_CASH_BLOCK: 주문가능금액 초과 방어 (필요:${estimated_cost:.2f} > 보유잔고:${cash_usd:.2f}) | {plan_reason}"
+                                    block_reason = "INSUFFICIENT_CASH"
+                            else:
+                                # 돈이 충분하다면 이번 매수에 쓸 돈을 장부상에서 미리 뺍니다.
+                                cash_usd -= estimated_cost 
+
+                        # 위 검사를 무사히 통과하여 여전히 BUY나 SELL 상태이고 수량이 0보다 클 때만 KIS로 실제 주문을 쏩니다.
+                        if plan_action in ("BUY", "SELL") and plan_qty > 0:
+                            res = broker.buy_market(ticker, int(plan_qty), last_price=exec_price_f) if plan_action == "BUY" else broker.sell_market(ticker, int(plan_qty), last_price=exec_price_f)
+                            ok, dry = bool(res.ok), bool(res.raw.get("dry_run", False))
+                            order_msg = f" order_ok={ok} dry_run={dry} order_no={getattr(res, 'order_no', None)}"
+                            if ok:
+                                log_data = {"ts": loop_ts, "ticker": ticker, "action": plan_action, "qty": int(plan_qty), "dry_run": dry, "price_snapshot": price_f, "total_score": total, "confidence": conf_avg, "ta_label": tlabel, "news_used": news_used, "val_score": vscore, "ta_score": tscore, "reason": plan_reason, "market_open_us_regular": market_open, "raw_signal": {"action": sig.action, "strength": sig.strength, "reason": sig.reason}, "decision_action": decision_action, "decision_conf": decision_conf}
+                                if not dry:
+                                    log_data["order_no"] = getattr(res, "order_no", None)
+                                    order_mgr.register_submitted(ticker=ticker, side=plan_action, qty=float(plan_qty), kis_response=res.raw, fill_price=price)
+                                    limit_store.update_on_order(ticker, now_kst)
+                                trade_logger.log(log_data)
+                                notifier.send(fmt_dry_run(ticker=ticker, side=plan_action, qty=int(plan_qty), price=float(price_f), total=float(total), conf=float(conf_avg), ta_label=str(tlabel), reason=str(plan_reason)) if dry else fmt_order_submitted(ticker=ticker, side=plan_action, qty=int(plan_qty), order_no=str(getattr(res, "order_no", None) or ""), price=float(price_f), total=float(total), conf=float(conf_avg), ta_label=str(tlabel), reason=str(plan_reason)))
                     except Exception as e:
                         resp_text = getattr(getattr(e, "response", None), "text", None)
                         order_msg = f" order_err={e!r}" + (f" resp={resp_text[:500]}" if resp_text else "")

@@ -168,6 +168,34 @@ class KisUsBroker:
         return 1000.0, 10000.0
     # 👆👆👆 ---------------------------------------------------- 👆👆👆
 
+    # 👇👇👇 [신규 추가] 미체결 주문 취소 로직 👇👇👇
+    def cancel_order(self, org_order_no: str, qty: int = 0) -> Dict[str, Any]:
+        """지정된 주문 번호의 미체결 내역을 스마트 라우팅으로 취소합니다."""
+        tr_id = "VTTT1004U" if self.kis.cfg.paper else "TTTT1004U"
+        exchanges = [self.kis.cfg.exchange or "NASD", "NYSE", "AMEX"]
+        last_resp = {}
+        
+        for excg in exchanges:
+            params = {
+                "CANO": self.kis.cfg.account_no,
+                "ACNT_PRDT_CD": self.kis.cfg.account_prdt,
+                "OVRS_EXCG_CD": excg,
+                "ORGN_ODNO": org_order_no,
+                "RVSE_CNCL_DVSN_CD": "02", # 01: 정정, 02: 취소
+                "ORD_QTY": str(qty),       # 0이면 잔량 전부 취소
+                "OVRS_ORD_UNPR": "0",      # 취소 시 단가는 0
+                "ORD_SVR_DVSN_CD": "0"
+            }
+            try:
+                resp = self.kis.request("POST", "/uapi/overseas-stock/v1/trading/order-rvsecncl", tr_id=tr_id, data=params, need_hashkey=True)
+                last_resp = resp
+                if str(resp.get("rt_cd", "")) == "0":
+                    self._dump_order({"kind": "cancel_response", "tr_id": tr_id, "params": params, "response": resp})
+                    return resp
+            except Exception: 
+                pass
+        return last_resp
+
     # -------------------------
     # Internals
     # -------------------------
