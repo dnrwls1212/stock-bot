@@ -71,6 +71,10 @@ def compute_position_plan(
     # sell tiers
     sell_t1: float, sell_t2: float, sell_t3: float,
     sell_f1: float, sell_f2: float, sell_f3: float,
+    
+    # 👇 [추가된 부분] D-Day 타이트 방어용 오버라이드 인자
+    trail_dd_pct_override: Optional[float] = None,
+    trail_activate_pct_override: Optional[float] = None,
 ) -> PositionPlan:
     a = (raw_action or "HOLD").upper()
     s = _clip01(strength)
@@ -79,18 +83,18 @@ def compute_position_plan(
     qty_now = float(pos.qty)
     avg = float(pos.avg_price) if getattr(pos, "avg_price", 0.0) else 0.0
 
-    # === 🚨 [수정 완료] 완벽한 스윙/데이트레이딩 타겟 (.env 기반) ===
-    # .env 값이 없으면 스윙 기본값(5%)으로 작동합니다. 
     tp1_pct = _env_float("TP1_PCT", float(take_profit_1) if take_profit_1 else 0.05)
-    tp2_pct = _env_float("TP2_PCT", 0.10)   # 2차 익절은 기본 10%
+    tp2_pct = _env_float("TP2_PCT", 0.10)
     tp1_frac = _env_float("TP1_FRAC", float(tp_sell_frac) if tp_sell_frac else 0.50)
     tp2_frac = _env_float("TP2_FRAC", 1.0)  
 
     sl1_frac = _env_float("SL1_FRAC", float(stop_sell_frac) if stop_sell_frac else 0.50)
     
     trail_enabled = _env_bool("TRAIL_ENABLED", True)
-    trail_activate_pct = _env_float("TRAIL_ACTIVATE_PCT", 0.050)
-    trail_dd_pct = _env_float("TRAIL_DD_PCT", 0.030)
+    
+    # 👇 [수정된 부분] 오버라이드 값이 있으면 최우선 적용 (D-Day 방어용)
+    trail_activate_pct = trail_activate_pct_override if trail_activate_pct_override is not None else _env_float("TRAIL_ACTIVATE_PCT", 0.050)
+    trail_dd_pct = trail_dd_pct_override if trail_dd_pct_override is not None else _env_float("TRAIL_DD_PCT", 0.030)
     trail_sell_frac = _env_float("TRAIL_SELL_FRAC", 1.00)
 
     # 포지션이 없으면 과거 상태 초기화

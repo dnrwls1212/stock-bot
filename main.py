@@ -6,6 +6,7 @@ import time
 import json
 import signal
 import math
+import re
 from datetime import datetime, timedelta, time as dtime
 from typing import Any, Dict, List, Optional, Set
 
@@ -216,6 +217,35 @@ def kb_save(kb: Dict[str, Any]) -> None:
         json.dump(kb, f, ensure_ascii=False, indent=2)
     os.replace(tmp, p)
 
+# 👇 [신규 추가] 이벤트 캘린더 로더
+def load_upcoming_events() -> List[Dict[str, str]]:
+    path = "data/upcoming_events.json"
+    if not os.path.exists(path): return []
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return []
+
+def notify_upcoming_events(notifier: Notifier, ny_date_str: str):
+    events = load_upcoming_events()
+    if not events: return
+    
+    try:
+        ny_date = datetime.strptime(ny_date_str, "%Y-%m-%d").date()
+        msg_lines = []
+        for ev in events:
+            ev_date = datetime.strptime(ev["date"], "%Y-%m-%d").date()
+            days_left = (ev_date - ny_date).days
+            if 0 <= days_left <= 7:
+                d_str = "🔥 D-Day (오늘)" if days_left == 0 else f"D-{days_left}"
+                msg_lines.append(f"• [{ev['ticker']}] {ev['desc']} ({d_str})")
+        
+        if msg_lines:
+            notifier.send(f"📅 [주요 이벤트 리마인더]\n\n" + "\n".join(msg_lines) + "\n\n💡 봇이 이벤트 기대감을 반영하여 종목 점수 및 방어막을 자동 조절합니다.")
+    except Exception as e:
+        print(f"[EVENT_NOTIFY_ERR] {e}")
+
 def kb_add_evidence(ticker: str, *, source: str, title: str, summary: str, link: str = "", sentiment: str = "neutral", impact: int = 0, tags: Optional[List[str]] = None, raw: Optional[Dict[str, Any]] = None, max_items: int = 400) -> None:
     kb = kb_load(ticker)
     ev = kb.get("evidence", [])
@@ -231,6 +261,46 @@ def kb_add_decision(ticker: str, *, action: str, confidence: float, rationale: s
     decs.insert(0, {"ts_kst": _now_kst_iso(), "action": action, "confidence": float(confidence), "rationale": rationale, "key_drivers": key_drivers or [], "key_risks": key_risks or [], "valuation_view": valuation_view, "counterfactuals": counterfactuals or [], "next_checks": next_checks or [], "raw": raw or {}})
     kb["decisions"] = decs[:max_items]
     kb_save(kb)
+
+def append_llm_event_to_calendar(ticker: str, event_date: str, event_desc: str):
+    if not event_date or not event_desc or not ticker:
+        return
+
+    # 1. 과거 날짜 필터링 (형식이 YYYY-MM-DD로 파싱될 때만 과거인지 검사)
+    try:
+        now_date = datetime.now(ZoneInfo("Asia/Seoul")).date()
+        parsed_date = datetime.strptime(event_date, "%Y-%m-%d").date()
+        if parsed_date < now_date:
+            return # 명확하게 '과거'로 판명되면 버림
+    except ValueError:
+        # 💡 [핵심] "다음주", "March 20" 등 파싱할 수 없는 문자열이면 무시하지 않고 일단 통과시킴!
+        pass
+
+    path = "data/upcoming_events.json"
+    events = []
+    if os.path.exists(path):
+        try:
+            with open(path, "r", encoding="utf-8") as f:
+                events = json.load(f)
+        except Exception: pass
+
+    # 2. 중복 체크 (동일 종목 & 동일 날짜/텍스트면 패스)
+    for existing in events:
+        if existing.get("ticker") == ticker and existing.get("date") == event_date:
+            return 
+
+    # 3. 새 이벤트 추가
+    print(f"🎯 [AI 미래일정 발견!] {ticker} 이벤트 캘린더 임시 등록 (수동확인 요망): {event_date} ({event_desc})")
+    events.append({
+        "ticker": ticker,
+        "date": event_date,
+        "desc": f"[AI발굴-날짜확인요망] {event_desc}"
+    })
+    
+    # 4. 파일 저장
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(events, f, ensure_ascii=False, indent=2)
 
 # [수정된 함수 1] 과거의 치명적인 이벤트를 인출하는 가벼운 RAG 함수
 def _extract_critical_memory(kb: Dict[str, Any]) -> List[Dict[str, Any]]:
@@ -509,6 +579,14 @@ def main() -> None:
             
     print(f"[WATCHLIST] loaded (with inverse): {WATCHLIST}")
 
+    # 👇👇👇 [여기서부터 신규 추가] 봇 켜질 때 실적발표일 캘린더 자동 업데이트 👇👇👇
+    try:
+        from src.utils.calendar_auto import update_event_calendar_auto
+        update_event_calendar_auto(WATCHLIST)
+    except Exception as e:
+        print(f"[WARN] 캘린더 자동 업데이트 실패: {e}")
+    # 👆👆👆 -------------------------------------------------------------
+
     tick_seconds = _env_int("TICK_SECONDS", 60)
     cooldown_minutes = _env_int("COOLDOWN_MINUTES", 15)
     max_trades_per_day = _env_int("MAX_TRADES_PER_DAY", 15)
@@ -766,6 +844,7 @@ def main() -> None:
             if briefing_enabled:
                 if briefing_pre_et <= ny_hm < trade_start_et and last_pre_brief_date != ny_date:
                     _generate_and_send_briefing(WATCHLIST, news_store, ai_gate_model, notifier, "프리마켓")
+                    notify_upcoming_events(notifier, ny_date) # 👈 [신규 추가] 프리마켓 브리핑 직후 이벤트 브리핑 발송
                     last_pre_brief_date = ny_date
                 
                 if briefing_reg_et <= ny_hm < "09:30" and last_reg_brief_date != ny_date:
@@ -866,6 +945,14 @@ def main() -> None:
                 decision_tick_counter = {t: 0 for t in WATCHLIST}
                 _whipsaw_last_action = {t: "HOLD" for t in WATCHLIST}
                 _whipsaw_last_tick = {t: -10**9 for t in WATCHLIST}
+
+                # 👇 [신규 추가] 워치리스트 종목이 바뀌면 실적발표일도 다시 긁어옴
+                try:
+                    from src.utils.calendar_auto import update_event_calendar_auto
+                    update_event_calendar_auto(WATCHLIST)
+                except Exception: pass
+                # 👆 --------------------------------------------------------
+
                 notifier.send(f"🔄 [watchlist 갱신] {', '.join(WATCHLIST)}")
                 next_watchlist_refresh = now_kst + timedelta(minutes=watchlist_refresh_min)
 
@@ -1071,6 +1158,15 @@ def main() -> None:
                     except Exception: pass
                     try: kb_add_evidence(t, source="news", title=title, summary=str(evt.get("why_it_moves", "") or summary), link=link, sentiment=str(evt.get("sentiment", "neutral")), impact=int(evt.get("impact", 0) or 0), tags=[str(evt.get("event_type", "other"))], raw=evt if isinstance(evt, dict) else {})
                     except Exception: pass
+
+                    # 👇👇👇 [신규 추가] LLM이 찾아낸 미래 일정을 캘린더에 등록
+                    if isinstance(evt, dict):
+                        ev_date = str(evt.get("upcoming_event_date", "")).strip()
+                        ev_desc = str(evt.get("upcoming_event_desc", "")).strip()
+                        if ev_date and ev_desc:
+                            append_llm_event_to_calendar(t, ev_date, ev_desc)
+                    # 👆👆👆 ---------------------------------------------------
+
                 seen.add(link)
                 try: mark_seen(link)
                 except Exception: pass
@@ -1165,6 +1261,9 @@ def main() -> None:
             cash_ratio = cash_usd / max(1.0, total_usd) 
             current_prices = {} 
 
+            # 👇👇👇 [신규 추가] 이벤트 기간 분석 및 기대감 부스팅 👇👇👇
+            upcoming_events = load_upcoming_events()
+
             # ---------- 2) ticker loop ----------
             for ticker in WATCHLIST:
                 pos = get_position(positions, ticker)
@@ -1236,6 +1335,25 @@ def main() -> None:
                             if len(titles) >= 2 and titles[0] == titles[1]: news_used *= float(news_dup_mult)
                         except Exception: pass
 
+                event_info = next((e for e in upcoming_events if e.get("ticker") == ticker), None)
+                days_to_event = None
+                event_desc = ""
+                is_d_day = False
+                is_event_buildup = False
+                
+                if event_info:
+                    try:
+                        ev_date = datetime.strptime(event_info["date"], "%Y-%m-%d").date()
+                        days_to_event = (ev_date - ny_time.date()).days
+                        event_desc = event_info.get("desc", "주요 이벤트")
+                        
+                        if days_to_event == 0:
+                            is_d_day = True
+                        elif 0 < days_to_event <= 7:
+                            is_event_buildup = True
+                    except Exception: pass
+                # 👆👆👆 ----------------------------------------------------
+                
                 is_value_dip = False 
                 if is_inverse:
                     if buy_block and regime is not None:
@@ -1244,6 +1362,12 @@ def main() -> None:
                         total_base = -1.0 
                 else:
                     total_base = _total_score(news_used, vscore, tscore)
+                    
+                    # 👇 [추가] 이벤트가 다가오고, 차트 추세가 살아있다면(tscore >= 0.0) 가산점 부여
+                    if is_event_buildup and tscore >= 0.0:
+                        total_base += 0.20
+                        tlabel = f"EventBuildup({event_desc} D-{days_to_event}) | " + tlabel
+                    
                     if vscore >= 0.60 and tscore <= -0.30:
                         total_base = float(buy_th) + 0.15 
                         tlabel = f"ValueDip({tlabel})"    
@@ -1268,6 +1392,16 @@ def main() -> None:
 
                 dyn_rules_obj = dyn_rules.apply(news_store=news_store, ticker=ticker, now_kst=now_kst, base_buy_th=base_buy_th_eff, base_sell_th=base_sell_th_eff, base_conf_th=conf_th, base_confirm_ticks=confirm_ticks, max_scan=30)
 
+                # 👇 [추가] 이벤트 기대감 반영으로 매수 허들 대폭 낮춤
+                if not is_inverse and is_event_buildup and tscore >= 0.0:
+                    buy_th_eff = max(0.1, float(buy_th_eff) - 0.15)
+                    dyn_rules_obj.reason = f"[이벤트 부스팅] {event_desc} 기대감 | " + dyn_rules_obj.reason
+                    
+                # 👇 [추가] D-Day 재료소멸 방어: 매수 극강 통제
+                if not is_inverse and is_d_day:
+                    buy_th_eff += 0.50 
+                    dyn_rules_obj.reason = f"[D-DAY 관망/익절 모드] {event_desc} 당일 재료소멸 대비 | " + dyn_rules_obj.reason
+
                 # 로그에 이유 추가
                 if macro_penalty_reason:
                     dyn_rules_obj.reason = f"{macro_penalty_reason} | {dyn_rules_obj.reason}"
@@ -1288,6 +1422,12 @@ def main() -> None:
                         sell_th_eff = _clamp(float(sell_th_eff) + float(sell_delta), -0.95, -0.05)
                         force_sell, force_sell_frac, risk_reason = bool(rd.force_sell), float(rd.sell_frac), str(rd.reason)
                     except Exception as e: risk_reason = f"risk_err={e!r}"
+
+                # 👇 [추가] D-Day 당일 보유 물량 강제 절반 익절/손절 (소문에 사서 뉴스에 팔아라)
+                if not is_inverse and is_d_day and float(pos.qty) > 0:
+                    force_sell = True
+                    force_sell_frac = max(float(force_sell_frac), 0.5) # 최소 50%는 당일 무조건 털기
+                    risk_reason = f"D-DAY_RISK_AVOID ({event_desc} 당일 재료소멸 방어적 매도) | " + risk_reason
 
                 sig = decide_signal(total_score=total, confidence=conf_avg, ta_label=tlabel, buy_th=buy_th_eff, sell_th=sell_th_eff, conf_th=conf_th_eff)
 
@@ -1314,9 +1454,31 @@ def main() -> None:
                     risk_reason = "MACRO_RECOVERY_INVERSE_DUMP (매크로 악재 해소로 인한 인버스 즉각 청산)"
 
                 if not is_inverse and float(pos.qty) > 0 and buy_block:
-                    force_sell = True
-                    force_sell_frac = 1.0
-                    risk_reason = "MACRO_CRISIS_DUMP (매크로 위험 및 지수폭락 감지로 인한 일반 주식 전량 대피)"
+                    now_ts = now_kst.timestamp()
+                    cached = crisis_survival_cache.get(ticker, {})
+                    
+                    # 캐시가 없거나, 평가한 지 15분(900초)이 지났거나, 매크로 위험 레벨이 이전보다 더 심각해졌을 경우에만 AI 재평가
+                    if not cached or (now_ts - cached.get("ts", 0)) > 900 or cached.get("macro_level", 0) < macro_risk_level:
+                        print(f"🚨 [AI 옥석 가리기] {ticker} - 하락장 속 개별 종목 생존 가능성 분석 중...")
+                        crisis_eval = _evaluate_crisis_survival(
+                            ticker=ticker, macro_level=macro_risk_level, macro_reason=macro_risk_reason, 
+                            ta_score=tscore, ta_label=tlabel, news_score=news_used, val_score=vscore, model=ai_gate_model
+                        )
+                        crisis_eval["ts"] = now_ts
+                        crisis_eval["macro_level"] = macro_risk_level
+                        crisis_survival_cache[ticker] = crisis_eval
+                    else:
+                        crisis_eval = cached
+
+                    # AI의 최종 판단에 따라 행동 분기
+                    if crisis_eval.get("survive", False):
+                        # AI가 "이 종목은 강하니 버텨라!"라고 판단한 경우 (강제 매도 안 함)
+                        plan_reason = f"[AI 위기 홀딩] {crisis_eval.get('reason', '')} | {plan_reason}"
+                    else:
+                        # AI가 "이건 얄짤없이 같이 무너진다, 도망쳐!"라고 판단한 경우
+                        force_sell = True
+                        force_sell_frac = 1.0
+                        risk_reason = f"AI_CRISIS_DUMP ({crisis_eval.get('reason', '')})"
 
                 pos.update_streak(sig.action)
 
@@ -1348,6 +1510,10 @@ def main() -> None:
                         stop_sell_frac=stop_sell_frac, tp_sell_frac=tp_sell_frac, base_qty=float(base_qty), max_position_qty=float(max_position_qty),
                         buy_t1=buy_t1, buy_t2=buy_t2, buy_t3=buy_t3, buy_m1=buy_m1, buy_m2=buy_m2, buy_m3=buy_m3,
                         sell_t1=sell_t1, sell_t2=sell_t2, sell_t3=sell_t3, sell_f1=sell_f1, sell_f2=sell_f2, sell_f3=sell_f3,
+                        
+                        # 🚨 D-Day에는 +1.5%만 먹어도 바로 추격 가동하고, 고점대비 -1.2% 빠지면 뒤도 안 돌아보고 전량 청산
+                        trail_activate_pct_override=0.015 if is_d_day else None,
+                        trail_dd_pct_override=0.012 if is_d_day else None 
                     )
                     plan_action, plan_qty, plan_reason = plan.action, _to_int_qty(plan.qty), f"{plan.reason} | sig={sig.reason}"
 

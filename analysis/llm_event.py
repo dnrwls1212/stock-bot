@@ -51,6 +51,15 @@ def analyze_news_with_llm(
                 "key_points": {"type": "array", "items": {"type": "string"}, "minItems": 1, "maxItems": 5},
                 "trade_horizon": {"type": "string", "enum": ["intraday", "swing_days", "swing_weeks", "long_term"]},
                 "why_it_moves": {"type": "string"},
+                # 👇👇👇 [신규 추가] 뉴스 속 미래 일정 추출 필드
+                "upcoming_event_date": {
+                    "type": "string", 
+                    "description": "If the news mentions a specific FUTURE event date (e.g., keynote, product launch, FDA approval), extract it in YYYY-MM-DD format. If none, leave as empty string."
+                },
+                "upcoming_event_desc": {
+                    "type": "string",
+                    "description": "Short description of the future event. If none, leave as empty string."
+                }
             },
             "required": [
                 "tickers",
@@ -61,17 +70,21 @@ def analyze_news_with_llm(
                 "key_points",
                 "trade_horizon",
                 "why_it_moves",
+                "upcoming_event_date", # 👈 필수 응답값으로 추가
+                "upcoming_event_desc"  # 👈 필수 응답값으로 추가
             ],
         },
         "strict": True,
     }
 
     tickers_text = ", ".join(tickers_hint or [])
+    # 👇 프롬프트에 "과거의 일은 무시하고 미래의 중요한 일정만 잡아내라"는 지시 추가
     prompt = f"""
 You are an analyst for event-driven stock trading signals.
 Analyze the news item and output ONLY valid JSON following the schema.
 
 If tickers are not explicit, infer cautiously from the content (or return an empty list).
+[CRITICAL] For `upcoming_event_date`, ONLY extract dates for FUTURE major events (like product launches, keynotes, earnings, conferences). Ignore past events. Use "YYYY-MM-DD" format.
 
 Tickers hint (watchlist): {tickers_text}
 

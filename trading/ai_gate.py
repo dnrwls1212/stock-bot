@@ -108,6 +108,7 @@ Guidelines:
 - If market_open is false, allow must be false.
 - If action is BUY but ta_label is bearish/weak_bearish and news_used is near 0, prefer reduce or veto.
 - If action is SELL but position protection logic suggests no urgency, consider reduce.
+- [CRITICAL] If `plan_reason` indicates that the stock is on 'D-DAY' of a major event (e.g., Earnings, Keynote), you must be extremely strict and veto ANY BUY action unless there is an overwhelming positive breakout. "Sell the news" is the priority.
 - confidence should reflect how sure you are about the gate decision.
 
 Inputs:
