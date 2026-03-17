@@ -122,7 +122,7 @@ class RegimeFilter:
                 prompt=prompt, 
                 model=self.model, 
                 temperature=0.2, 
-                timeout=30.0
+                timeout=180.0
             )
             
             parsed = try_parse_json(llm_text) or {}

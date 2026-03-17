@@ -90,7 +90,9 @@ IMPORTANT RULES:
 - STRICT: Only include tickers if the article is primarily about a watchlist company. If it is primarily about a different company (e.g., TSMC), set tickers=[] even if watchlist companies are mentioned.
 
 [EVENT EXTRACTION RULE]
-- If the news mentions ANY FUTURE event date (keynote, product launch, etc.), fill `upcoming_event_date` (Try YYYY-MM-DD. If unknown, use raw text like 'Next Tuesday' or 'March 15') and `upcoming_event_desc` (short summary). If none, leave them as "".
+- If the news mentions ANY FUTURE event date (keynote, product launch, earnings, etc.), fill `upcoming_event_date` and `upcoming_event_desc`.
+- 🚨 CRITICAL: `upcoming_event_date` MUST be formatted EXACTLY as `YYYY-MM-DD`. Calculate the exact date based on the news `published` date if relative terms like 'Next Tuesday' are used.
+- If you cannot determine the exact `YYYY-MM-DD` date, leave `upcoming_event_date` as "". DO NOT use raw text like 'March 15' or 'Next week'.
 
 [TRANSLATION STRICT RULES for kr_title]
 1. kr_title MUST be the exact Korean translation of the original English title.

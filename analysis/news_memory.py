@@ -73,7 +73,7 @@ def build_news_memory_summary_local_ollama(ticker: str, events: List[Dict[str, A
 - 
 """
     try:
-        res = ollama_generate(prompt=prompt, model=model, temperature=0.1, timeout=120)
+        res = ollama_generate(prompt=prompt, model=model, temperature=0.1, timeout=300)
         return res.strip()
     except Exception as e:
         print(f"[MEMORY_ERR] {ticker} memory build failed: {e}")

@@ -69,6 +69,16 @@ from src.trading.universe_builder import build_universe
 # 👇 [신규 추가] AI 자가 학습(Self-Reflection) 모듈
 from src.eval.self_reflection import SelfReflectionEngine
 
+# 👇👇👇 [신규 추가] 비동기 처리를 위한 스레드 모듈 임포트
+from concurrent.futures import ThreadPoolExecutor
+import threading
+
+# 전역 스레드 풀 설정 (최대 3개의 뉴스를 동시에 분석)
+LLM_EXECUTOR = ThreadPoolExecutor(max_workers=3)
+# 파일이 꼬이지 않게 보호하는 데이터 락 (데드락 방지를 위해 반드시 RLock 사용!)
+DATA_LOCK = threading.RLock()
+# 👆👆👆 ------------------------------------------
+
 load_dotenv()
 
 WATCHLIST: List[str] = []
@@ -136,9 +146,10 @@ class Notifier:
         except Exception as e: print(f"[WARN] telegram send failed: {e}")
 
 def _append_jsonl(path: str, obj: Dict[str, Any]) -> None:
-    os.makedirs(os.path.dirname(path), exist_ok=True)
-    with open(path, "a", encoding="utf-8") as f:
-        f.write(json.dumps(obj, ensure_ascii=False) + "\n")
+    with DATA_LOCK: # 👈 락 추가
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        with open(path, "a", encoding="utf-8") as f:
+            f.write(json.dumps(obj, ensure_ascii=False) + "\n")
 
 def _mentions_ticker(ticker: str, title: str, summary: str) -> bool:
     t = (ticker or "").upper().strip()
@@ -196,26 +207,28 @@ def _kb_path(ticker: str) -> str:
     return os.path.join(_kb_dir(), f"{t}.json")
 
 def kb_load(ticker: str) -> Dict[str, Any]:
-    os.makedirs(_kb_dir(), exist_ok=True)
-    p = _kb_path(ticker)
-    default_kb = {"ticker": (ticker or "").upper().strip(), "updated_at": _now_kst_iso(), "thesis": "", "business_summary": "", "moat": "", "key_drivers": [], "key_risks": [], "valuation_method": "simple", "valuation_assumptions": {}, "target_price": None, "fair_value_range": None, "evidence": [], "decisions": [], "tags": []}
-    if not os.path.exists(p): return default_kb
-    try:
-        with open(p, "r", encoding="utf-8") as f: d = json.load(f)
-        if not isinstance(d, dict): raise ValueError("kb not dict")
-        for k, v in default_kb.items(): d.setdefault(k, v)
-        return d
-    except Exception: return default_kb
+    with DATA_LOCK: # 👈 락 추가
+        os.makedirs(_kb_dir(), exist_ok=True)
+        p = _kb_path(ticker)
+        default_kb = {"ticker": (ticker or "").upper().strip(), "updated_at": _now_kst_iso(), "thesis": "", "business_summary": "", "moat": "", "key_drivers": [], "key_risks": [], "valuation_method": "simple", "valuation_assumptions": {}, "target_price": None, "fair_value_range": None, "evidence": [], "decisions": [], "tags": []}
+        if not os.path.exists(p): return default_kb
+        try:
+            with open(p, "r", encoding="utf-8") as f: d = json.load(f)
+            if not isinstance(d, dict): raise ValueError("kb not dict")
+            for k, v in default_kb.items(): d.setdefault(k, v)
+            return d
+        except Exception: return default_kb
 
 def kb_save(kb: Dict[str, Any]) -> None:
-    os.makedirs(_kb_dir(), exist_ok=True)
-    kb["updated_at"] = _now_kst_iso()
-    t = (kb.get("ticker") or "").upper().strip()
-    p = _kb_path(t)
-    tmp = p + ".tmp"
-    with open(tmp, "w", encoding="utf-8") as f:
-        json.dump(kb, f, ensure_ascii=False, indent=2)
-    os.replace(tmp, p)
+    with DATA_LOCK: # 👈 락 추가
+        os.makedirs(_kb_dir(), exist_ok=True)
+        kb["updated_at"] = _now_kst_iso()
+        t = (kb.get("ticker") or "").upper().strip()
+        p = _kb_path(t)
+        tmp = p + ".tmp"
+        with open(tmp, "w", encoding="utf-8") as f:
+            json.dump(kb, f, ensure_ascii=False, indent=2)
+        os.replace(tmp, p)
 
 # 👇 [신규 추가] 이벤트 캘린더 로더
 def load_upcoming_events() -> List[Dict[str, str]]:
@@ -235,11 +248,15 @@ def notify_upcoming_events(notifier: Notifier, ny_date_str: str):
         ny_date = datetime.strptime(ny_date_str, "%Y-%m-%d").date()
         msg_lines = []
         for ev in events:
-            ev_date = datetime.strptime(ev["date"], "%Y-%m-%d").date()
-            days_left = (ev_date - ny_date).days
-            if 0 <= days_left <= 7:
-                d_str = "🔥 D-Day (오늘)" if days_left == 0 else f"D-{days_left}"
-                msg_lines.append(f"• [{ev['ticker']}] {ev['desc']} ({d_str})")
+            # 🚨 [수정됨] 개별 이벤트에서 파싱 에러가 나더라도 전체 알림이 멈추지 않도록 안전망 추가
+            try:
+                ev_date = datetime.strptime(ev["date"], "%Y-%m-%d").date()
+                days_left = (ev_date - ny_date).days
+                if 0 <= days_left <= 7:
+                    d_str = "🔥 D-Day (오늘)" if days_left == 0 else f"D-{days_left}"
+                    msg_lines.append(f"• [{ev['ticker']}] {ev['desc']} ({d_str})")
+            except ValueError:
+                continue # 날짜 형식이 깨진 이벤트는 그냥 건너뜀 (Skip)
         
         if msg_lines:
             notifier.send(f"📅 [주요 이벤트 리마인더]\n\n" + "\n".join(msg_lines) + "\n\n💡 봇이 이벤트 기대감을 반영하여 종목 점수 및 방어막을 자동 조절합니다.")
@@ -266,15 +283,16 @@ def append_llm_event_to_calendar(ticker: str, event_date: str, event_desc: str):
     if not event_date or not event_desc or not ticker:
         return
 
-    # 1. 과거 날짜 필터링 (형식이 YYYY-MM-DD로 파싱될 때만 과거인지 검사)
+    # 1. 🚨 [수정됨] 엄격한 날짜 포맷 검증 (YYYY-MM-DD 형식만 통과시킴)
     try:
         now_date = datetime.now(ZoneInfo("Asia/Seoul")).date()
-        parsed_date = datetime.strptime(event_date, "%Y-%m-%d").date()
+        parsed_date = datetime.strptime(event_date.strip(), "%Y-%m-%d").date()
         if parsed_date < now_date:
             return # 명확하게 '과거'로 판명되면 버림
     except ValueError:
-        # 💡 [핵심] "다음주", "March 20" 등 파싱할 수 없는 문자열이면 무시하지 않고 일단 통과시킴!
-        pass
+        # AI가 YYYY-MM-DD 형식을 지키지 못했다면 시스템 에러를 막기 위해 과감히 버림
+        print(f"⚠️ [AI 날짜 파싱 실패] {ticker} 이벤트 무시됨 (잘못된 포맷: {event_date})")
+        return 
 
     path = "data/upcoming_events.json"
     events = []
@@ -290,11 +308,11 @@ def append_llm_event_to_calendar(ticker: str, event_date: str, event_desc: str):
             return 
 
     # 3. 새 이벤트 추가
-    print(f"🎯 [AI 미래일정 발견!] {ticker} 이벤트 캘린더 임시 등록 (수동확인 요망): {event_date} ({event_desc})")
+    print(f"🎯 [AI 미래일정 발견!] {ticker} 이벤트 캘린더 등록: {event_date} ({event_desc})")
     events.append({
         "ticker": ticker,
         "date": event_date,
-        "desc": f"[AI발굴-날짜확인요망] {event_desc}"
+        "desc": f"[AI발굴] {event_desc}"
     })
     
     # 4. 파일 저장
@@ -441,7 +459,8 @@ def _generate_and_send_briefing(watchlist: List[str], news_store: NewsStore, mod
         f"너는 월스트리트 수석 퀀트 애널리스트야. 곧 {session_name}이 시작돼.\n"
         "우리가 감시 중인 종목들에 대해 수집된 아래의 최신 뉴스를 바탕으로, "
         "오늘 장에서 어떤 종목이 크게 상승할 모멘텀을 가졌는지(매수 추천), "
-        "어떤 종목을 조심해야 할지(리스크 경고) 3~4문단으로 아주 간결하고 명확하게 브리핑해줘.\n\n"
+        "어떤 종목을 조심해야 할지(리스크 경고) 3~4문단으로 아주 간결하고 명확하게 브리핑해줘.\n"
+        "🚨 [절대 규칙]: 절대 중국어(Chinese)를 사용하지 마라. 브리핑 내용은 반드시 100% 자연스러운 한국어(Korean)로만 작성해야 한다.\n\n"
         + "\n".join(lines)
     )
 
@@ -472,15 +491,16 @@ def _evaluate_macro_risk(news_store: NewsStore, model: str) -> tuple[int, str, s
         "1: 악재가 존재하나 협상/휴전/저가매수 등 반등 기대감이 혼재된 상태 (일반적 관망장)\n"
         "2: 뚜렷한 악재 발생 (예: 금리 인상 쇼크, 큰 지정학적 긴장, 무역 분쟁)\n"
         "3: 극도 위험 / 시스템적 위기 (예: 전쟁 발발, 전염병 확산, 대형 금융위기)\n\n"
-        "🚨 주의: 전쟁/위기 관련 뉴스가 있더라도 '휴전, 협상, 선반영, 반등, 회복' 등의 내용이 다수 보인다면, 시장이 안도하고 있는 것이므로 Risk Level을 1 또는 0으로 낮춰서 평가할 것.\n\n"
+        "🚨 주의: 전쟁/위기 관련 뉴스가 있더라도 '휴전, 협상, 선반영, 반등, 회복' 등의 내용이 다수 보인다면, 시장이 안도하고 있는 것이므로 Risk Level을 1 또는 0으로 낮춰서 평가할 것.\n"
+        "🚨 [절대 규칙]: 절대 중국어(Chinese)나 한자를 사용하지 마라. 모든 이유는 반드시 100% 한국어(Korean)로만 작성해라.\n\n"
         f"[최근 뉴스]\n{used_news_text}\n\n"
         "반드시 아래 JSON 형식으로만 응답해 (다른 말은 절대 금지):\n"
-        "{\"risk_level\": 0, \"reason\": \"한국어로 아주 간결한 평가 이유 1문장\"}"
+        "{\"risk_level\": 0, \"reason\": \"반드시 한국어로 작성된 간결한 평가 이유 1문장\"}"
     )
     
     try:
         from src.utils.ollama_client import ollama_generate, try_parse_json
-        res_text = ollama_generate(prompt=prompt, model=model, temperature=0.1, timeout=120)
+        res_text = ollama_generate(prompt=prompt, model=model, temperature=0.1, timeout=180)
         res_json = try_parse_json(res_text)
         
         if isinstance(res_json, dict):
@@ -516,12 +536,13 @@ def _evaluate_portfolio_swap(new_ticker: str, new_score: float, new_reason: str,
         f"[현재 보유 종목 상태]\n" + "\n".join(pos_lines) + "\n\n"
         f"질문: 수수료와 슬리피지(약 {fee_est}%)를 감안하고도, 위 보유 종목 중 하나를 전량 매도(손절 또는 익절)하고 [{new_ticker}]로 교체(Swap)하는 것이 포트폴리오 회전율과 수익 극대화에 유리한가?\n"
         f"모멘텀이 꺾인 종목을 버리고 강한 종목으로 갈아타는 것이 핵심이야. 유리하지 않다면 승인하지 마.\n"
+        f"🚨 [절대 규칙]: 절대 중국어(Chinese)를 사용하지 마라. 이유는 반드시 100% 한국어(Korean)로 작성해라.\n\n"
         f"반드시 아래 JSON 형식으로만 응답해:\n"
-        f"{{\"swap_approved\": true/false, \"sell_ticker\": \"매도할티커(없으면 빈칸)\", \"reason\": \"교체해야 하는 이유 1문장\"}}"
+        f"{{\"swap_approved\": true/false, \"sell_ticker\": \"매도할티커(없으면 빈칸)\", \"reason\": \"반드시 한국어로 작성된 교체 이유 1문장\"}}"
     )
     try:
         from src.utils.ollama_client import ollama_generate, try_parse_json
-        res_text = ollama_generate(prompt=prompt, model=model, temperature=0.1, timeout=120)
+        res_text = ollama_generate(prompt=prompt, model=model, temperature=0.1, timeout=180)
         return try_parse_json(res_text) or {"swap_approved": False}
     except Exception:
         return {"swap_approved": False}
@@ -542,8 +563,10 @@ def _evaluate_crisis_survival(ticker: str, macro_level: int, macro_reason: str, 
     - 거시적 리스크가 치명적이거나 해당 종목의 차트/뉴스가 무너졌다면 절대 버티지 말고 '매도(survive: false)'해.
     - 하지만 차트 돌파 수급이 매우 강력하거나(예: 15m VWAP 돌파 등), 초강력 호재 뉴스가 있다면 시장 하락을 이길 수 있으므로 '버티기(survive: true)'를 선택해.
     
+    🚨 [절대 규칙]: 절대 중국어(Chinese)를 사용하지 마라. 모든 이유는 반드시 100% 한국어(Korean)로만 작성해라.
+    
     반드시 아래 JSON 형식으로만 응답해:
-    {{"survive": true 또는 false, "reason": "결정 이유 1~2문장"}}"""
+    {{"survive": true 또는 false, "reason": "반드시 한국어로 작성된 결정 이유 1~2문장"}}"""
     
     try:
         from src.utils.ollama_client import ollama_generate, try_parse_json
@@ -796,23 +819,24 @@ def main() -> None:
                 news_store.add_event(evt_qqq)
             except Exception: pass
             
-        init_news_text = "\n".join([f"- {t}" for t in init_news_titles[:40]])
+        # 기존 코드 대체
+        init_news_text = "\n".join([f"- {t}" for t in init_news_titles[:20]])
+        # [수정 버전] 지시사항을 맨 뒤로 배치하여 중국어 차단
         prompt = (
-            "너는 월스트리트 수석 매크로 애널리스트야. 내가 방금 트레이딩 봇을 켰어.\n"
-            "아래는 간밤에 발생한 글로벌 뉴스들의 '제목'이야. 비슷한 내용이 여러 번 반복되면 매우 중요한 팩트로 간주해.\n"
-            "이 제목들을 종합적으로 분석해서 현재 시장의 '시스템적 리스크 레벨(0~3)'을 평가해줘.\n"
+            f"아래는 간밤에 발생한 글로벌 뉴스들의 '제목' 리스트다.\n\n"
+            f"[간밤의 속보 리스트]\n{init_news_text}\n\n"
+            "--- 위 데이터를 바탕으로 아래 지시를 수행하라 ---\n\n"
+            "너는 월스트리트 수석 매크로 애널리스트다. 위 뉴스들을 종합 분석해서 시스템적 리스크 레벨(0~3)을 평가하라.\n"
             "[Risk Level 기준]\n"
-            "0: 평온/강세장\n"
-            "1: 악재가 존재하나 협상/휴전/저가매수 등 반등 기대감이 혼재된 상태\n"
-            "2: 뚜렷한 악재/금리쇼크\n"
-            "3: 전쟁/대공황 등 시스템 위기\n\n"
-            "🚨 주의: 전쟁/위기 뉴스가 있더라도 '휴전, 협상, 선반영, 반등' 등의 키워드가 다수 보인다면 시장이 안도하고 있는 것이므로 Risk Level을 1 또는 0으로 낮춰서 평가할 것.\n\n"
-            f"[간밤의 속보 취합]\n{init_news_text}\n\n"
-            "응답은 반드시 아래 JSON 형식으로만 해 (다른 말은 절대 금지):\n"
-            "{\"risk_level\": 0, \"reason\": \"이유\"}"
+            "0: 평온/강세장, 1: 반등 기대감/일반관망, 2: 뚜렷한 악재/금리쇼크, 3: 전쟁/시스템 위기\n\n"
+            "🚨🚨 [초특급 금지 규칙]: 답변에 단 하나의 중국어나 한자도 섞지 마라. 🚨🚨\n"
+            "반드시 100% 자연스러운 한국어(Korean)로만 답변해야 한다.\n\n"
+            "반드시 아래 JSON 형식으로만 응답하라:\n"
+            "{\"risk_level\": 0, \"reason\": \"한국어로 작성된 시황 분석 이유 1~2문장\"}"
         )
         from src.utils.ollama_client import ollama_generate, try_parse_json
-        res_text = ollama_generate(prompt=prompt, model=ai_gate_model, temperature=0.1, timeout=120)
+        # 32B 최초 로딩(콜드 스타트) 시간을 고려하여 300초로 대폭 연장
+        res_text = ollama_generate(prompt=prompt, model=ai_gate_model, temperature=0.1, timeout=300)
         res_json = try_parse_json(res_text)
         
         if isinstance(res_json, dict):
@@ -828,6 +852,12 @@ def main() -> None:
 
     # 🚀 [Phase 2] 중복 뉴스(신뢰도 교차검증용)를 저장할 큐 생성
     _recent_titles_for_cv = deque(maxlen=200)
+    # 👆👆👆 --------------------------------------------------
+
+    # 👇👇👇 [신규 추가] API 과부하 방지 및 잔고 캐싱용 변수 초기화
+    last_known_cash = 1000.0
+    last_known_total = 10000.0
+    _ta_cache = {}  # 기술적 분석 데이터 캐싱 딕셔너리
     # 👆👆👆 --------------------------------------------------
 
     try:
@@ -851,23 +881,22 @@ def main() -> None:
                     _generate_and_send_briefing(WATCHLIST, news_store, ai_gate_model, notifier, "정규장")
                     last_reg_brief_date = ny_date
 
-            # 👇👇👇 [수정] 장 마감 직후 (16:05 ET) AI 자가 학습 및 텔레그램 발송
+            # 👇👇👇 [수정] 장 마감 직후 (16:05 ET) AI 자가 학습 및 텔레그램 발송 (백그라운드 처리)
             reflection_et = "16:05" 
             if ny_hm >= reflection_et and last_reflection_date != ny_date:
-                print("🧘 [SYSTEM] 장 마감! AI가 오늘의 매매 기록과 시황을 바탕으로 자가 학습(Self-Reflection)을 진행합니다...")
+                last_reflection_date = ny_date # 🚨 중복 실행 방지를 위해 날짜부터 즉시 업데이트
                 
-                # AI에게 줄 현재 자산 상태 파악
+                # 1. AI에게 줄 현재 자산 상태 파악 (이건 딜레이가 없으므로 메인 스레드에서 즉시 실행)
                 _cash_usd, _total_usd = 1000.0, 10000.0
                 if broker is not None and not broker.kis.cfg.paper:
                     try:
                         _cash_usd, _total_usd = broker.get_account_summary()
-                    except Exception:
-                        pass
+                    except Exception: pass
                     
                 _cash_ratio = _cash_usd / max(1.0, _total_usd)
                 account_stat = f"총 자산(USD): ${_total_usd:.2f} (현금 잔고: ${_cash_usd:.2f}, 보유 현금 비중: {_cash_ratio*100:.1f}%)"
                 
-                # AI에게 줄 현재 시황 파악
+                # 2. AI에게 줄 현재 시황 파악
                 market_cond = f"최근 매크로 리스크 레벨: {macro_risk_level} ({macro_risk_reason})\n"
                 try:
                     current_regime_label = getattr(regime, 'label', 'unknown') if 'regime' in locals() and regime is not None else "분석 대기중"
@@ -875,63 +904,60 @@ def main() -> None:
                     market_cond += f"오늘의 기술적 추세(QQQ): {current_regime_label} (점수: {current_regime_score:.2f})\n"
                 except Exception:
                     market_cond += "오늘의 기술적 추세(QQQ): 분석 대기중\n"
-                
-                # 학습 엔진 호출
-                ref_res = reflection_engine.run_reflection(market_condition=market_cond, account_status=account_stat)
-                
-                if ref_res.get("status") == "success":
-                    analysis = ref_res["data"].get("reflection_analysis", "")
-                    lessons = ref_res["data"].get("lessons", [])
-                    
-                    # 텔레그램용 텍스트 조립
-                    ai_lessons_text = "\n".join(f"- {l}" for l in lessons)
-                    
-                    msg = f"🧠 [AI 정규장 마감 자가 진화 완료]\n\n"
-                    msg += f"📊 [오늘의 마감 복기]\n{analysis}\n\n"
-                    msg += f"💡 [새로 터득한 교훈]\n{ai_lessons_text}"
-                    notifier.send(msg)
-                    
-                    # 다음 매매에 쓰일 글로벌 변수 업데이트
-                    ai_lessons = ai_lessons_text 
 
-                    print("📚 [SYSTEM] 전체 감시 종목의 Knowledge Base(KB) 자동 정제(Auto-Refinement)를 시작합니다...")
-                    from src.knowledge.kb_agent import refine_ticker_kb
-                    updated_count = 0  # 텔레그램 알림용 카운터
-                    
-                    for t in WATCHLIST:
-                        try:
-                            old_kb = kb_load(t)
-                            # 최근 수집된 뉴스 중 상위 15개를 추출하여 전달
-                            recent_ev = old_kb.get("evidence", [])[:15]
-                            if recent_ev:
-                                # 💡 [추가된 로직] 가장 최근 뉴스의 시간과, 마지막으로 KB를 정제했던 시간을 비교
-                                latest_ev_ts = recent_ev[0].get("ts_kst", "")
-                                last_refined_ts = old_kb.get("last_refined_ev_ts", "")
-                                
-                                if latest_ev_ts == last_refined_ts:
-                                    print(f"   [SKIP] {t} 신규 뉴스가 없어 KB 정제를 생략합니다.")
-                                    continue # 다음 종목으로 넘어감 (AI 호출 안 함)
-                                
-                                # 신규 뉴스가 있으므로 AI 호출하여 정제 진행
-                                new_kb = refine_ticker_kb(t, old_kb, recent_ev, decision_model)
-                                new_kb["last_refined_ev_ts"] = latest_ev_ts # ✅ 정제 완료 마커 기록
-                                kb_save(new_kb)
-                                print(f"   [+] {t} KB Thesis & Risks 업데이트 완료.")
-                                updated_count += 1
-                        except Exception as e:
-                            print(f"   [-] {t} KB 업데이트 에러: {e}")
-                    
-                    if updated_count > 0:
-                        notifier.send(f"📚 [AI 종목 KB 정제 완료]\n총 {updated_count}개 종목의 핵심 투자 포인트(Thesis)와 리스크가 최근 뉴스를 반영하여 새롭게 업데이트되었습니다.")
-                    else:
-                        print("   [*] 모든 종목의 KB가 이미 최신 상태입니다. (텔레그램 알림 생략)")
+                # 3. 🚨 시간이 오래 걸리는 LLM 호출과 파일 저장을 백그라운드 함수로 정의
+                def _bg_run_reflection(market_cond_bg, account_stat_bg):
+                    print("🧘 [SYSTEM] (백그라운드) 장 마감! AI 자가 학습(Self-Reflection)을 진행합니다...")
+                    try:
+                        ref_res = reflection_engine.run_reflection(market_condition=market_cond_bg, account_status=account_stat_bg)
                         
-                elif ref_res.get("status") == "not_enough_data":
-                    notifier.send("🧘 [AI 자가 진화 대기]\n새로운 매매 기록이 없어 기존의 투자 원칙을 유지합니다.")
-                else:
-                    print(f"[SYSTEM] 자가 학습 에러: {ref_res}")
-                
-                last_reflection_date = ny_date
+                        if ref_res.get("status") == "success":
+                            analysis = ref_res["data"].get("reflection_analysis", "")
+                            lessons = ref_res["data"].get("lessons", [])
+                            ai_lessons_text = "\n".join(f"- {l}" for l in lessons)
+                            
+                            msg = f"🧠 [AI 정규장 마감 자가 진화 완료]\n\n📊 [오늘의 마감 복기]\n{analysis}\n\n💡 [새로 터득한 교훈]\n{ai_lessons_text}"
+                            notifier.send(msg)
+                            
+                            # 전역 변수 업데이트 (다음날 매매에 쓰일 교훈)
+                            global ai_lessons
+                            ai_lessons = ai_lessons_text 
+
+                            print("📚 [SYSTEM] 전체 감시 종목의 Knowledge Base(KB) 자동 정제(Auto-Refinement)를 시작합니다...")
+                            from src.knowledge.kb_agent import refine_ticker_kb
+                            updated_count = 0
+                            
+                            for t in WATCHLIST:
+                                try:
+                                    old_kb = kb_load(t)
+                                    recent_ev = old_kb.get("evidence", [])[:15]
+                                    if recent_ev:
+                                        latest_ev_ts = recent_ev[0].get("ts_kst", "")
+                                        # 최신 뉴스가 이미 정제된 뉴스라면 스킵 (불필요한 AI 호출 방지)
+                                        if latest_ev_ts == old_kb.get("last_refined_ev_ts", ""):
+                                            continue 
+                                        
+                                        # 🚨 파일 락(DATA_LOCK)은 kb_save/kb_load 함수 안에 구현되어 있다고 가정
+                                        new_kb = refine_ticker_kb(t, old_kb, recent_ev, decision_model)
+                                        new_kb["last_refined_ev_ts"] = latest_ev_ts
+                                        kb_save(new_kb)
+                                        updated_count += 1
+                                except Exception as e:
+                                    print(f"   [-] {t} KB 업데이트 에러: {e}")
+                            
+                            if updated_count > 0:
+                                notifier.send(f"📚 [AI 종목 KB 정제 완료]\n총 {updated_count}개 종목의 핵심 투자 포인트(Thesis)와 리스크가 업데이트되었습니다.")
+                                
+                        elif ref_res.get("status") == "not_enough_data":
+                            notifier.send("🧘 [AI 자가 진화 대기]\n새로운 매매 기록이 없어 기존의 투자 원칙을 유지합니다.")
+                        else:
+                            print(f"[SYSTEM] 자가 학습 에러: {ref_res}")
+                    except Exception as e:
+                        print(f"[BG_REFLECT_ERR] 학습 에러: {e}")
+
+                # 4. 🚨 함수를 실행하지 않고 스레드 풀(LLM_EXECUTOR)에 던져서 백그라운드로 실행시킴!
+                # (메인 봇은 기다리지 않고 즉시 다음 코드로 넘어감)
+                LLM_EXECUTOR.submit(_bg_run_reflection, market_cond, account_stat)
             # 👆👆👆 -------------------------------------------------------------
 
             is_combat_mode = (trade_start_et <= ny_hm < trade_end_et) and (ny_time.weekday() < 5)
@@ -1013,12 +1039,14 @@ def main() -> None:
                     with open(universe_path, "r", encoding="utf-8") as f:
                         universe_all = [line.strip().upper() for line in f if line.strip()]
                     bg_count, start_idx = 0, bg_idx
-                    while bg_count < 2 and (bg_idx - start_idx) < len(universe_all):
+                    
+                    while bg_count < 3 and (bg_idx - start_idx) < len(universe_all):
                         bg_t = universe_all[bg_idx % len(universe_all)]
                         bg_idx += 1
                         if bg_t not in current_rss_tickers:
                             current_rss_tickers.append(bg_t)
                             bg_count += 1
+                    # 👆👆👆 -----------------------------------------------------------------
             except Exception: pass
 
             loop_rss_urls = build_rss_urls(current_rss_tickers)
@@ -1028,37 +1056,36 @@ def main() -> None:
 
             if quote_provider is not None and not quote_provider.kis.cfg.paper:
                 try:
-                    # 1. KIS 글로벌 전체 속보 수집
+                    # 1. [메인] 글로벌 전체 속보만 빠르게 수집 (병목 없음)
                     kis_news_raw = quote_provider.get_breaking_news()
                     kis_brk_count = 0
                     for kn in kis_news_raw:
-                        # 👇 [개선 3] OpenAPI와 모바일앱의 다양한 뉴스 제목 키값 호환
                         title = kn.get("hts_pbnt_titl_cntt") or kn.get("title") or kn.get("news_titl") or ""
                         if title:
                             news_items.insert(0, { "title": title, "summary": "한국투자증권 글로벌 전체 속보", "link": f"kis_brk_{kn.get('cntt_usiq_srno', kn.get('news_key', ''))}", "published": f"{kn.get('data_dt', '')}{kn.get('data_tm', '')}" })
                             kis_brk_count += 1
-                    
-                    # 🚀 2. [신규] KIS 종목별 심층 뉴스 (Watchlist 순회 핀포인트 수집)
-                    kis_tck_count = 0
-                    for t in current_rss_tickers:
-                        t_news = quote_provider.get_ticker_news(t)
-                        # API 과부하 방지 및 최신 뉴스 유지를 위해 티커당 상위 2개만 추출
-                        for tn in t_news[:2]: 
-                            t_title = tn.get("title", "")
-                            if t_title:
-                                news_items.insert(0, {
-                                    "title": f"[{t}] {t_title}", 
-                                    "summary": f"KIS 종목 심층 뉴스", 
-                                    "link": f"kis_tck_{tn.get('news_key', '')}", 
-                                    "published": f"{tn.get('data_dt', '')}{tn.get('data_tm', '')}"
-                                })
 
-                    # 💡 [로그 추가 1] 수집된 KIS 뉴스 개수 출력
-                    if kis_brk_count > 0 or kis_tck_count > 0:
-                        print(f"📡 [KIS_API_통신] 글로벌속보: {kis_brk_count}건, 종목별뉴스: {kis_tck_count}건 수집 완료")
+                    # 🚀 2. [백그라운드 최적화] 시간이 오래 걸리는 티커별 뉴스는 별도의 스레드로 격리
+                    def _bg_fetch_ticker_news(tickers):
+                        for t in tickers:
+                            try:
+                                t_news = quote_provider.get_ticker_news(t)
+                                time.sleep(0.1) # KIS 서버 보호용 0.1초 대기
+                                for tn in t_news[:2]:
+                                    t_title = tn.get("title", "")
+                                    if t_title:
+                                        # 수집 즉시 AI 분석 스레드로 바로 전달 (메인 루프 거치지 않음)
+                                        LLM_EXECUTOR.submit(_bg_process_news, f"[{t}] {t_title}", "KIS 종목 심층 뉴스", f"kis_tck_{tn.get('news_key', '')}", f"{tn.get('data_dt', '')}{tn.get('data_tm', '')}", [t], _now_kst_iso())
+                            except Exception: continue
+                    
+                    # 메인 봇은 결과를 기다리지 않고 즉시 다음 단계로 넘어갑니다.
+                    LLM_EXECUTOR.submit(_bg_fetch_ticker_news, current_rss_tickers)
+                    
+                    if kis_brk_count > 0:
+                        print(f"📡 [KIS_API] 속보 {kis_brk_count}건 수집 완료 (심층 뉴스는 백그라운드 수집 중...)")
 
                 except Exception as e: 
-                    print(f"[KIS_NEWS_ERR] {e}")
+                    print(f"[KIS_NEWS_ERR] 뉴스 수집 엔진 에러: {e}")
 
             macro_news_added = False 
             macro_news_processed = 0 
@@ -1114,62 +1141,73 @@ def main() -> None:
                 if not candidates:
                     skipped_no_candidate += 1; continue
 
-                try: evt = analyze_news_local_ollama(title=title, summary=summary, link=link, published=published, watchlist=current_rss_tickers)
-                except Exception: llm_fail += 1; continue
+                # 👇👇👇 [최종 수정] 데드락 방지 및 텔레그램 통신 병목 제거 버전
+                def _bg_process_news(bg_title, bg_summary, bg_link, bg_published, bg_candidates, bg_loop_ts):
+                    try:
+                        # 1. AI 뉴스 분석 (이 과정은 시간이 걸리므로 LOCK 밖에서 수행)
+                        evt = analyze_news_local_ollama(title=bg_title, summary=bg_summary, link=bg_link, published=bg_published, watchlist=current_rss_tickers)
+                    except Exception as e: 
+                        print(f"   [BG_LLM_ERR] 뉴스 분석 실패: {e}")
+                        return
 
-                try: escore = float(event_score(evt))
-                except Exception: escore = 0.0
-                try: econf = float(evt.get("confidence", 0.55))
-                except Exception: econf = 0.55
+                    try: escore = float(event_score(evt))
+                    except Exception: escore = 0.0
+                    try: econf = float(evt.get("confidence", 0.55))
+                    except Exception: econf = 0.55
 
-                llm_tickers = evt.get("tickers") if isinstance(evt, dict) else None
-                if isinstance(llm_tickers, list): assigned = [t for t in llm_tickers if str(t).upper() in current_rss_tickers]
-                else: assigned = []
-                if not assigned: assigned = candidates
+                    llm_tickers = evt.get("tickers") if isinstance(evt, dict) else None
+                    if isinstance(llm_tickers, list): assigned = [t for t in llm_tickers if str(t).upper() in current_rss_tickers]
+                    else: assigned = []
+                    if not assigned: assigned = bg_candidates
 
-                for t in assigned:
-                    t_upper = str(t).upper()
+                    # 🚨 2. 파일 저장 및 전역 변수(WATCHLIST) 수정 시에만 최소한으로 LOCK 사용
+                    with DATA_LOCK:
+                        for t in assigned:
+                            t_upper = str(t).upper()
+                            if t_upper not in WATCHLIST and (t_upper in universe_all or t_upper in current_rss_tickers):
+                                is_urgent = (escore >= 0.8) or (int(evt.get("impact", 0)) >= 2)
+                                if is_urgent:
+                                    if len(WATCHLIST) >= 20:
+                                        removable = [wt for wt in WATCHLIST if float(get_position(positions, wt).qty) == 0 and wt not in inverse_tickers]
+                                        if removable: WATCHLIST.remove(removable[0])
+                                    WATCHLIST.append(t_upper)
+                                    if t_upper not in current_rss_tickers: current_rss_tickers.append(t_upper)
+                                    # 🚨 [주의] 스와핑 알림은 신속성을 위해 LOCK 안에서 유지하거나 즉시 처리
+                                    notifier.send(f"🚨 [속보 스와핑 발동!]\n🔥 AI가 {t_upper}의 강력한 호재 감지!\n📊 점수: {escore:.2f} / 파급력: {evt.get('impact', 0)}\n⚔️ 봇 즉각 투입!")
+
+                        # _append_jsonl 내부에도 DATA_LOCK이 있으므로, 
+                        # 상단에서 정의한 DATA_LOCK을 threading.RLock()으로 바꾸지 않을 거라면
+                        # _append_jsonl 호출 시에는 LOCK 밖에 두어야 합니다.
+                        # (아래는 데드락 안전을 위해 LOCK 안에서 호출하지 않는 구조입니다.)
+
+                    # 🚨 3. [핵심] 파일 기록 및 텔레그램 전송은 LOCK 밖으로 뺍니다.
+                    # 락을 해제한 후 처리하여 다른 스레드의 작업을 방해하지 않습니다.
+                    _append_jsonl(EVENT_LOG_PATH, {"ts": bg_loop_ts, "link": bg_link, "title": bg_title, "published": bg_published, "assigned": assigned, "event_type": evt.get("event_type"), "sentiment": evt.get("sentiment"), "impact": evt.get("impact"), "confidence": evt.get("confidence"), "trade_horizon": evt.get("trade_horizon"), "why_it_moves": evt.get("why_it_moves"), "event_score": escore})
                     
-                    if t_upper in ["SPY", "QQQ"]:
-                        macro_news_added = True
+                    for t in assigned:
+                        try: news_store.add_event(NewsEvent(ticker=t, ts_kst=bg_loop_ts, published=bg_published, title=bg_title, summary=bg_summary, link=bg_link, event_score=float(escore), confidence=float(econf), event_type=str(evt.get("event_type", "other")), sentiment=str(evt.get("sentiment", "neutral")), impact=int(evt.get("impact", 0) or 0), why_it_moves=str(evt.get("why_it_moves", "") or ""), raw=evt if isinstance(evt, dict) else {}))
+                        except Exception: pass
+                        try: kb_add_evidence(t, source="news", title=bg_title, summary=str(evt.get("why_it_moves", "") or bg_summary), link=bg_link, sentiment=str(evt.get("sentiment", "neutral")), impact=int(evt.get("impact", 0) or 0), tags=[str(evt.get("event_type", "other"))], raw=evt if isinstance(evt, dict) else {})
+                        except Exception: pass
 
-                    if t_upper not in WATCHLIST and (t_upper in universe_all or t_upper in current_rss_tickers):
-                        is_urgent = (escore >= 0.8) or (int(evt.get("impact", 0)) >= 2)
-                        if is_urgent:
-                            max_wl_size = 20
-                            if len(WATCHLIST) >= max_wl_size:
-                                removable = [wt for wt in WATCHLIST if float(get_position(positions, wt).qty) == 0 and wt not in inverse_tickers]
-                                if removable:
-                                    kicked_out = removable[0] 
-                                    WATCHLIST.remove(kicked_out)
-                                    if kicked_out in current_rss_tickers: current_rss_tickers.remove(kicked_out)
-                            WATCHLIST.append(t_upper)
-                            if t_upper not in current_rss_tickers: current_rss_tickers.append(t_upper)
-                            notifier.send(f"🚨 [속보 스와핑 발동!]\n🔥 AI가 {t_upper}의 강력한 호재 감지!\n📊 점수: {escore:.2f} / 파급력: {evt.get('impact', 0)}\n⚔️ 봇 투입!")
+                        if isinstance(evt, dict):
+                            ev_date = str(evt.get("upcoming_event_date", "")).strip()
+                            ev_desc = str(evt.get("upcoming_event_desc", "")).strip()
+                            if ev_date and ev_desc:
+                                append_llm_event_to_calendar(t, ev_date, ev_desc)
 
+                    # 일반 뉴스 알림 전송 (LOCK 밖이므로 통신 딜레이가 전체 봇에 영향을 주지 않음)
+                    kr_title = str(evt.get("kr_title", "")).strip()
+                    display_title = kr_title if kr_title else bg_title
+                    notifier.send(fmt_news(tickers=",".join(assigned), title=display_title, score=float(escore), event_type=str(evt.get("event_type", "") or ""), sentiment=str(evt.get("sentiment", "") or ""), conf=float(econf), link=bg_link))
+
+                # 스레드 풀에 던지고 메인 루프는 즉시 다음 단계(가격 검사 등)로 진행합니다. (블로킹 해제)
+                LLM_EXECUTOR.submit(_bg_process_news, title, cv_summary, link, published, candidates, loop_ts)
                 analyzed_links += 1
-                _append_jsonl(EVENT_LOG_PATH, {"ts": loop_ts, "link": link, "title": title, "published": published, "assigned": assigned, "event_type": evt.get("event_type"), "sentiment": evt.get("sentiment"), "impact": evt.get("impact"), "confidence": evt.get("confidence"), "trade_horizon": evt.get("trade_horizon"), "why_it_moves": evt.get("why_it_moves"), "event_score": escore})
-                kr_title = str(evt.get("kr_title", "")).strip()
-                display_title = kr_title if kr_title else title
-                notifier.send(fmt_news(tickers=",".join(assigned), title=display_title, score=float(escore), event_type=str(evt.get("event_type", "") or ""), sentiment=str(evt.get("sentiment", "") or ""), conf=float(evt.get("confidence", 0.0) or 0.0), link=link))
-
-                for t in assigned:
-                    try: news_store.add_event(NewsEvent(ticker=t, ts_kst=loop_ts, published=published, title=title, summary=summary, link=link, event_score=float(escore), confidence=float(econf), event_type=str(evt.get("event_type", "other")), sentiment=str(evt.get("sentiment", "neutral")), impact=int(evt.get("impact", 0) or 0), why_it_moves=str(evt.get("why_it_moves", "") or ""), raw=evt if isinstance(evt, dict) else {}))
-                    except Exception: pass
-                    try: kb_add_evidence(t, source="news", title=title, summary=str(evt.get("why_it_moves", "") or summary), link=link, sentiment=str(evt.get("sentiment", "neutral")), impact=int(evt.get("impact", 0) or 0), tags=[str(evt.get("event_type", "other"))], raw=evt if isinstance(evt, dict) else {})
-                    except Exception: pass
-
-                    # 👇👇👇 [신규 추가] LLM이 찾아낸 미래 일정을 캘린더에 등록
-                    if isinstance(evt, dict):
-                        ev_date = str(evt.get("upcoming_event_date", "")).strip()
-                        ev_desc = str(evt.get("upcoming_event_desc", "")).strip()
-                        if ev_date and ev_desc:
-                            append_llm_event_to_calendar(t, ev_date, ev_desc)
-                    # 👆👆👆 ---------------------------------------------------
-
                 seen.add(link)
                 try: mark_seen(link)
                 except Exception: pass
+                # 👆👆👆 ----------------------------------------------------
 
             if last_macro_eval_time is None or macro_news_added:
                 # 👇 [수정] used_news_text도 함께 반환받도록 변경
@@ -1193,15 +1231,25 @@ def main() -> None:
                 macro_risk_reason = new_macro_reason
                 last_macro_eval_time = now_kst
 
-            for t in WATCHLIST:
-                try:
-                    new_n = news_store.pop_new_event_count(t)
-                    if new_n >= news_mem_update_every:
-                        recent = news_store.get_recent_events(t, days=news_window_days, limit=news_mem_max_items)
-                        if recent:
-                            mem = build_news_memory_summary_local_ollama(ticker=t, events=recent, model=news_mem_model)
-                            news_store.save_memory(t, mem)
-                except Exception: pass
+            # 👇👇👇 [성능 최적화] AI 메모리 갱신을 백그라운드로 던져서 봇의 틱 지연을 완벽하게 방지
+            def _bg_update_news_memory(t_list):
+                _updated_count = 0
+                for t in t_list:
+                    if _updated_count >= 2: break # 한 번에 최대 2개 종목만 갱신
+                    try:
+                        new_n = news_store.pop_new_event_count(t)
+                        if new_n >= news_mem_update_every:
+                            recent = news_store.get_recent_events(t, days=news_window_days, limit=news_mem_max_items)
+                            if recent:
+                                print(f"🧠 [MEMORY] {t} 종목 뉴스 메모리 요약 중 (백그라운드)")
+                                mem = build_news_memory_summary_local_ollama(ticker=t, events=recent, model=news_mem_model)
+                                news_store.save_memory(t, mem)
+                                _updated_count += 1
+                    except Exception: continue
+
+            # 메인 봇은 다음 루프(가격 검사)로 즉시 넘어갑니다.
+            LLM_EXECUTOR.submit(_bg_update_news_memory, WATCHLIST)
+            # 👆👆👆 -------------------------------------------------------------
 
             regime = None
             buy_block = False
@@ -1254,12 +1302,21 @@ def main() -> None:
                     notifier.send(f"🤖 [AI 시장 판단]\n상태: {kr_label} ({r_label})\n점수: {r_score:.2f}\n분석: {r_ai_text}\n봇 대응: {inv_status}")
                     last_regime_noti_time = now_kst
 
-            cash_usd, total_usd = 1000.0, 10000.0
+            # 👇👇👇 [수정] 통신 에러 시 예수금 초기화(Phantom Buying) 방지 로직
             if broker is not None and not broker.kis.cfg.paper:
-                cash_usd, total_usd = broker.get_account_summary()
+                try:
+                    # 실제 KIS API에서 잔고를 불러옴
+                    fetched_cash, fetched_total = broker.get_account_summary()
+                    # 통신 성공 시 마지막 잔고 업데이트
+                    last_known_cash, last_known_total = fetched_cash, fetched_total
+                except Exception as e:
+                    print(f"⚠️ [API 잔고조회 실패] 통신 지연 발생! 이전 잔고를 임시 유지합니다: {e}")
+                    # 에러 발생 시 초기화시키지 않고, 기존에 성공했던(마지막) 잔고를 그대로 사용
             
+            cash_usd, total_usd = last_known_cash, last_known_total
             cash_ratio = cash_usd / max(1.0, total_usd) 
             current_prices = {} 
+            # 👆👆👆 ----------------------------------------------------------- 
 
             # 👇👇👇 [신규 추가] 이벤트 기간 분석 및 기대감 부스팅 👇👇👇
             upcoming_events = load_upcoming_events()
@@ -1298,13 +1355,35 @@ def main() -> None:
 
                 tscore, tlabel = 0.0, "unknown"
                 try:
-                    # 1. 일봉 데이터 수집 및 기존 점수 계산
-                    daily = fetch_daily_ta(ticker)
+                    # 👇👇👇 [수정] API 과부하(Rate Limit) 방지를 위한 TA 데이터 캐싱 (TTL 적용)
+                    now_ts = now_kst.timestamp()
+                    if ticker not in _ta_cache:
+                        _ta_cache[ticker] = {"daily": (None, 0), "60m": (None, 0), "15m": (None, 0)}
+
+                    # (1) 일봉 데이터 캐싱 (새로고침 주기: 1시간 = 3600초)
+                    daily_data, daily_ts = _ta_cache[ticker]["daily"]
+                    if daily_data is None or (now_ts - daily_ts) > 3600:
+                        daily_data = fetch_daily_ta(ticker)
+                        _ta_cache[ticker]["daily"] = (daily_data, now_ts)
+                    daily = daily_data
+
+                    # (2) 60분봉 데이터 캐싱 (새로고침 주기: 15분 = 900초)
+                    hourly_data, hourly_ts = _ta_cache[ticker]["60m"]
+                    if hourly_data is None or (now_ts - hourly_ts) > 900:
+                        hourly_data = fetch_intraday_ta(ticker, interval="60m")
+                        _ta_cache[ticker]["60m"] = (hourly_data, now_ts)
+                    hourly_ta = hourly_data
+
+                    # (3) 15분봉 데이터 캐싱 (새로고침 주기: 5분 = 300초)
+                    min15_data, min15_ts = _ta_cache[ticker]["15m"]
+                    if min15_data is None or (now_ts - min15_ts) > 300:
+                        min15_data = fetch_intraday_ta(ticker, interval="15m")
+                        _ta_cache[ticker]["15m"] = (min15_data, now_ts)
+                    min15_ta = min15_data
+                    # 👆👆👆 -------------------------------------------------------------
+
+                    # 1. 기존 점수 계산
                     ta_out = ta_score(daily)
-                    
-                    # 2. [신규] 1시간봉 및 15분봉(VWAP) 데이터 수집
-                    hourly_ta = fetch_intraday_ta(ticker, interval="60m")
-                    min15_ta = fetch_intraday_ta(ticker, interval="15m")
                     
                     # 3. [신규] 다중 시간대(MTF) 종합 평가
                     mtf_result = mtf_score(daily, hourly_ta, min15_ta)
@@ -1368,10 +1447,16 @@ def main() -> None:
                         total_base += 0.20
                         tlabel = f"EventBuildup({event_desc} D-{days_to_event}) | " + tlabel
                     
-                    if vscore >= 0.60 and tscore <= -0.30:
-                        total_base = float(buy_th) + 0.15 
-                        tlabel = f"ValueDip({tlabel})"    
-                        is_value_dip = True               
+                    # 👇👇👇 [수정] 억울한 하락(Value Dip) 판단 로직 강화
+                    if vscore >= 0.60 and tscore <= -0.20:
+                        # 실적(vscore)이 훌륭한데 차트(tscore)가 꺾였다면 낙폭에 비례하여 강력한 매수 가산점 부여
+                        dip_boost = abs(tscore) * 0.5 
+                        total_base = max(total_base, float(buy_th) + 0.15 + dip_boost)
+                        
+                        # AI 문지기에게 '이건 펀더멘탈 우량주의 눌림목이다'라고 수치와 함께 명확히 증명함
+                        tlabel = f"ValueDip_Strong(가치:{vscore:.2f},낙폭:{tscore:.2f}) | {tlabel}"    
+                        is_value_dip = True                
+                    # 👆👆👆 ----------------------------------------------------
 
                 total = float(total_base)
 
@@ -1391,6 +1476,7 @@ def main() -> None:
                         macro_penalty_reason = f"MACRO_LV{macro_risk_level}(매수극강통제)"
 
                 dyn_rules_obj = dyn_rules.apply(news_store=news_store, ticker=ticker, now_kst=now_kst, base_buy_th=base_buy_th_eff, base_sell_th=base_sell_th_eff, base_conf_th=conf_th, base_confirm_ticks=confirm_ticks, max_scan=30)
+                buy_th_eff, sell_th_eff, conf_th_eff, confirm_ticks_eff, strength_boost = dyn_rules_obj.buy_th, dyn_rules_obj.sell_th, dyn_rules_obj.conf_th, dyn_rules_obj.confirm_ticks, dyn_rules_obj.strength_boost
 
                 # 👇 [추가] 이벤트 기대감 반영으로 매수 허들 대폭 낮춤
                 if not is_inverse and is_event_buildup and tscore >= 0.0:
@@ -1405,8 +1491,6 @@ def main() -> None:
                 # 로그에 이유 추가
                 if macro_penalty_reason:
                     dyn_rules_obj.reason = f"{macro_penalty_reason} | {dyn_rules_obj.reason}"
-
-                buy_th_eff, sell_th_eff, conf_th_eff, confirm_ticks_eff, strength_boost = dyn_rules_obj.buy_th, dyn_rules_obj.sell_th, dyn_rules_obj.conf_th, dyn_rules_obj.confirm_ticks, dyn_rules_obj.strength_boost
 
                 reserve_cash_ratio = _env_float("RESERVE_CASH_RATIO", 0.30)
                 reserve_buy_min_score = _env_float("RESERVE_BUY_MIN_SCORE", 0.80)

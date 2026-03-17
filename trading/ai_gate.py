@@ -42,7 +42,7 @@ def ai_gate_check_local_ollama(
     memory_summary: str,
     recent_events: List[Dict[str, Any]],
     model: str = "qwen2.5:7b-instruct",
-    timeout_sec: int = 120,
+    timeout_sec: int = 240,
     min_conf: float = 0.55,
 ) -> AIGateDecision:
     """
@@ -110,6 +110,13 @@ Guidelines:
 - If action is SELL but position protection logic suggests no urgency, consider reduce.
 - [CRITICAL] If `plan_reason` indicates that the stock is on 'D-DAY' of a major event (e.g., Earnings, Keynote), you must be extremely strict and veto ANY BUY action unless there is an overwhelming positive breakout. "Sell the news" is the priority.
 - confidence should reflect how sure you are about the gate decision.
+
+[떨어지는 칼날(개별 악재) vs 억울한 눌림목(섹터 동반 하락) 특별 검증 규칙]
+1. 개별 악재로 인한 폭락 (VETO 필수): 최근 주가 하락 원인이 회사의 본질적 가치 훼손(예: 어닝 미스, 가이던스 하향, CEO 사임, 회계 부정, 임상 실패 등)이라면 절대 매수(BUY)하지 말고 allow=false 로 거절해라.
+2. 억울한 눌림목 (승인 장려): 최근 하락 원인이 거시경제(Macro) 불안, 금리 인상 우려, 또는 '다른 주식의 실적 부진으로 인한 섹터 동반 하락(Sympathy drop)'이고, [{ticker}]의 펀더멘탈에 문제가 없다면 allow=true 로 강력히 승인해라. 이런 경우가 최고의 매수 기회다.
+3. 차트상 과매도(Oversold) 지표만 보고 매수하려 한다면 철저히 의심해라. 하락 이유가 불분명하면 보수적으로 veto(allow=false) 하거나 qty_mult를 0.5 이하로 줄여라.
+
+🚨 [ABSOLUTE RULE] You MUST write the "reason" field entirely in natural Korean (한국어). NEVER use Chinese. (주식 용어나 티커만 영어 허용)
 
 Inputs:
 ticker={ticker}
