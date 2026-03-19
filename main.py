@@ -73,10 +73,12 @@ from src.eval.self_reflection import SelfReflectionEngine
 from concurrent.futures import ThreadPoolExecutor
 import threading
 
-# 전역 스레드 풀 설정 (최대 3개의 뉴스를 동시에 분석)
-LLM_EXECUTOR = ThreadPoolExecutor(max_workers=3)
+# 전역 스레드 풀 설정 (최대 1개의 뉴스를 동시에 분석)
+LLM_EXECUTOR = ThreadPoolExecutor(max_workers=1)
 # 파일이 꼬이지 않게 보호하는 데이터 락 (데드락 방지를 위해 반드시 RLock 사용!)
 DATA_LOCK = threading.RLock()
+# 👇👇👇 [신규 추가] LLM에게 동시에 질문하지 못하도록 막는 신호등(Lock)
+LLM_LOCK = threading.Lock()
 # 👆👆👆 ------------------------------------------
 
 load_dotenv()
@@ -344,24 +346,30 @@ def build_decision_prompt(*, ticker: str, kb: Dict[str, Any], snapshot: Dict[str
         "tags": kb.get("tags", []) or [], "recent_decisions": (kb.get("decisions", []) or [])[:5],
     }
     
-    # RAG 기반의 치명적 과거 기억 인출
     critical_past_memory = _extract_critical_memory(kb)
     
-    schema = {"action": "BUY|SELL|HOLD", "confidence": 0.0, "rationale": "Korean, concise, factual", "key_drivers": ["..."], "key_risks": ["..."], "valuation_view": "what assumption matters / changed", "counterfactuals": ["what would make you wrong next 1-4 weeks"], "next_checks": ["what to check next"], "position_plan": {"prefer_qty": 0, "time_horizon": "swing_days|swing_weeks|long_months"}}
+    # 👇 [수정] 스키마에 stop_loss_pct, take_profit_pct 추가
+    schema = {"action": "BUY|SELL|HOLD", "confidence": 0.0, "rationale": "Korean, concise, factual", "key_drivers": ["..."], "key_risks": ["..."], "valuation_view": "what assumption matters / changed", "counterfactuals": ["what would make you wrong next 1-4 weeks"], "next_checks": ["what to check next"], "position_plan": {"prefer_qty": 0, "time_horizon": "swing_days|swing_weeks", "stop_loss_pct": -0.05, "take_profit_pct": 0.10}}
     
-    return f"""너는 '누적 지식 기반' 및 '스스로 진화하는' 투자 의사결정 에이전트다. 
+    return f"""너는 '누적 지식 기반' 및 '스스로 진화하는' 최고위 퀀트 트레이더다. 
 목표: 단기/스윙 수익을 내되, 유연한 상황 판단을 최우선으로 한다.
 
-[과거 매매를 통해 네가 스스로 깨달은 투자 원칙 (상황에 맞게 유연하게 적용할 것)]
+[과거 매매를 통해 네가 스스로 깨달은 투자 원칙]
 {lessons}
+
+💡 [중요 지시사항: 동적 리스크 관리(Dynamic Risk)]
+제공된 [최신 뉴스]와 [과거 이벤트]를 분석하여 향후 단기 변동성을 예측하라.
+- 🚨 대형 이벤트(실적발표, FDA 승인, 강력한 호재 등)가 임박했다면 세력의 흔들기에 당하지 않도록 손절선을 넓게(-0.06 ~ -0.12), 익절선도 길게(0.10 ~ 0.30) 잡아라.
+- 📉 특별한 호재가 없거나 매크로가 불안하면 기계적이고 타이트한 손절선(-0.02 ~ -0.04)과 짧은 익절선(0.03 ~ 0.06)으로 방어하라.
+- 예측한 변동성을 반드시 출력 JSON의 'position_plan' 안의 'stop_loss_pct'와 'take_profit_pct'에 소수점으로 기록하라.
 
 [TICKER]
 {ticker}
-[현재 KB (스스로 갱신한 핵심 아이디어)]
+[현재 KB (핵심 아이디어)]
 {json.dumps(kb_light, ensure_ascii=False)}
-[CRITICAL_PAST_MEMORY (과거 치명적 이벤트 - RAG 인출됨. 현재 상황과 대조해볼 것!)]
+[CRITICAL_PAST_MEMORY (치명적 이벤트)]
 {json.dumps(critical_past_memory, ensure_ascii=False)}
-[SNAPSHOT (현재 가격 및 보조지표)]
+[SNAPSHOT (현재 가격 및 지표)]
 {json.dumps(snapshot, ensure_ascii=False)}
 [RECENT_NEWS_EVENTS (최신 트리거 뉴스)]
 {json.dumps(recent_news_events[:10], ensure_ascii=False)}
@@ -380,6 +388,22 @@ def parse_decision(text: str) -> Dict[str, Any]:
     d.setdefault("counterfactuals", [])
     d.setdefault("next_checks", [])
     d.setdefault("position_plan", {"prefer_qty": 0, "time_horizon": "swing_days"})
+    
+    # 👇 [추가] 파이썬 가드레일 (LLM의 환각 수치 차단)
+    try:
+        plan = d.get("position_plan", {})
+        if "stop_loss_pct" in plan and plan["stop_loss_pct"] is not None:
+            raw_sl = float(plan["stop_loss_pct"])
+            if raw_sl > 0: raw_sl = -raw_sl # 양수 입력 시 강제 음수 변환
+            plan["stop_loss_pct"] = max(-0.15, min(-0.015, raw_sl)) # 최대 -15%, 최소 -1.5% 제한
+            
+        if "take_profit_pct" in plan and plan["take_profit_pct"] is not None:
+            raw_tp = float(plan["take_profit_pct"])
+            plan["take_profit_pct"] = max(0.02, min(0.50, raw_tp)) # 최대 50%, 최소 2% 제한
+            
+        d["position_plan"] = plan
+    except Exception: pass
+    
     try:
         d["action"] = str(d.get("action", "HOLD")).upper().strip()
         if d["action"] not in ("BUY", "SELL", "HOLD"): d["action"] = "HOLD"
@@ -640,6 +664,7 @@ def main() -> None:
     chase_ban_spike_window = _env_int("CHASE_BAN_SPIKE_WINDOW", 12)
     _recent_px: Dict[str, deque] = {}
     crisis_survival_cache: Dict[str, Dict[str, Any]] = {}
+    _llm_risk_cache: Dict[str, Dict[str, float]] = {}
 
     cost_gate_enabled = _env_bool("COST_GATE_ENABLED", True)
     cost_fee_bps = _env_float("COST_FEE_BPS", 25.0)
@@ -676,6 +701,10 @@ def main() -> None:
     ai_gate_enabled = _env_bool("AI_GATE_ENABLED", True)
     ai_gate_model = os.environ.get("AI_GATE_MODEL", "qwen2.5:14b-instruct")
     ai_gate_min_conf = _env_float("AI_GATE_MIN_CONF", 0.60)
+
+    noti_min_conf = _env_float("NOTI_MIN_CONF", 0.55)
+    noti_min_impact = _env_int("NOTI_MIN_IMPACT", 2)
+    noti_min_score = _env_float("NOTI_MIN_SCORE", 0.40)
 
     decision_enabled = _env_bool("DECISION_AGENT_ENABLED", True)
     decision_model = os.environ.get("DECISION_MODEL", os.environ.get("OLLAMA_MODEL", "qwen2.5:14b-instruct"))
@@ -796,7 +825,9 @@ def main() -> None:
             for kn in init_news_raw:
                 title = kn.get("hts_pbnt_titl_cntt", "")
                 if title: init_news_titles.append(title)
-        except Exception: pass
+            print(f"📡 [KIS_INIT_NEWS] KIS 서버에서 오버나잇 속보 {len(init_news_titles)}건 성공적으로 수집 완료!")
+        except Exception as e:
+            print(f"❌ [KIS_INIT_ERR] KIS 오버나잇 속보 수집 실패: {e}")
 
     # 2. Yahoo 거시경제 RSS (KIS 속보가 비어있을 때를 대비한 안전장치)
     try:
@@ -908,52 +939,54 @@ def main() -> None:
                 # 3. 🚨 시간이 오래 걸리는 LLM 호출과 파일 저장을 백그라운드 함수로 정의
                 def _bg_run_reflection(market_cond_bg, account_stat_bg):
                     print("🧘 [SYSTEM] (백그라운드) 장 마감! AI 자가 학습(Self-Reflection)을 진행합니다...")
-                    try:
-                        ref_res = reflection_engine.run_reflection(market_condition=market_cond_bg, account_status=account_stat_bg)
-                        
-                        if ref_res.get("status") == "success":
-                            analysis = ref_res["data"].get("reflection_analysis", "")
-                            lessons = ref_res["data"].get("lessons", [])
-                            ai_lessons_text = "\n".join(f"- {l}" for l in lessons)
+                    with LLM_LOCK:
+                        print("▶ [SYSTEM] AI 자가 학습(Self-Reflection)을 진행합니다...")
+                        try:
+                            ref_res = reflection_engine.run_reflection(market_condition=market_cond_bg, account_status=account_stat_bg)
                             
-                            msg = f"🧠 [AI 정규장 마감 자가 진화 완료]\n\n📊 [오늘의 마감 복기]\n{analysis}\n\n💡 [새로 터득한 교훈]\n{ai_lessons_text}"
-                            notifier.send(msg)
-                            
-                            # 전역 변수 업데이트 (다음날 매매에 쓰일 교훈)
-                            global ai_lessons
-                            ai_lessons = ai_lessons_text 
-
-                            print("📚 [SYSTEM] 전체 감시 종목의 Knowledge Base(KB) 자동 정제(Auto-Refinement)를 시작합니다...")
-                            from src.knowledge.kb_agent import refine_ticker_kb
-                            updated_count = 0
-                            
-                            for t in WATCHLIST:
-                                try:
-                                    old_kb = kb_load(t)
-                                    recent_ev = old_kb.get("evidence", [])[:15]
-                                    if recent_ev:
-                                        latest_ev_ts = recent_ev[0].get("ts_kst", "")
-                                        # 최신 뉴스가 이미 정제된 뉴스라면 스킵 (불필요한 AI 호출 방지)
-                                        if latest_ev_ts == old_kb.get("last_refined_ev_ts", ""):
-                                            continue 
-                                        
-                                        # 🚨 파일 락(DATA_LOCK)은 kb_save/kb_load 함수 안에 구현되어 있다고 가정
-                                        new_kb = refine_ticker_kb(t, old_kb, recent_ev, decision_model)
-                                        new_kb["last_refined_ev_ts"] = latest_ev_ts
-                                        kb_save(new_kb)
-                                        updated_count += 1
-                                except Exception as e:
-                                    print(f"   [-] {t} KB 업데이트 에러: {e}")
-                            
-                            if updated_count > 0:
-                                notifier.send(f"📚 [AI 종목 KB 정제 완료]\n총 {updated_count}개 종목의 핵심 투자 포인트(Thesis)와 리스크가 업데이트되었습니다.")
+                            if ref_res.get("status") == "success":
+                                analysis = ref_res["data"].get("reflection_analysis", "")
+                                lessons = ref_res["data"].get("lessons", [])
+                                ai_lessons_text = "\n".join(f"- {l}" for l in lessons)
                                 
-                        elif ref_res.get("status") == "not_enough_data":
-                            notifier.send("🧘 [AI 자가 진화 대기]\n새로운 매매 기록이 없어 기존의 투자 원칙을 유지합니다.")
-                        else:
-                            print(f"[SYSTEM] 자가 학습 에러: {ref_res}")
-                    except Exception as e:
-                        print(f"[BG_REFLECT_ERR] 학습 에러: {e}")
+                                msg = f"🧠 [AI 정규장 마감 자가 진화 완료]\n\n📊 [오늘의 마감 복기]\n{analysis}\n\n💡 [새로 터득한 교훈]\n{ai_lessons_text}"
+                                notifier.send(msg)
+                                
+                                # 전역 변수 업데이트 (다음날 매매에 쓰일 교훈)
+                                global ai_lessons
+                                ai_lessons = ai_lessons_text 
+
+                                print("📚 [SYSTEM] 전체 감시 종목의 Knowledge Base(KB) 자동 정제(Auto-Refinement)를 시작합니다...")
+                                from src.knowledge.kb_agent import refine_ticker_kb
+                                updated_count = 0
+                                
+                                for t in WATCHLIST:
+                                    try:
+                                        old_kb = kb_load(t)
+                                        recent_ev = old_kb.get("evidence", [])[:15]
+                                        if recent_ev:
+                                            latest_ev_ts = recent_ev[0].get("ts_kst", "")
+                                            # 최신 뉴스가 이미 정제된 뉴스라면 스킵 (불필요한 AI 호출 방지)
+                                            if latest_ev_ts == old_kb.get("last_refined_ev_ts", ""):
+                                                continue 
+                                            
+                                            # 🚨 파일 락(DATA_LOCK)은 kb_save/kb_load 함수 안에 구현되어 있다고 가정
+                                            new_kb = refine_ticker_kb(t, old_kb, recent_ev, decision_model)
+                                            new_kb["last_refined_ev_ts"] = latest_ev_ts
+                                            kb_save(new_kb)
+                                            updated_count += 1
+                                    except Exception as e:
+                                        print(f"   [-] {t} KB 업데이트 에러: {e}")
+                                
+                                if updated_count > 0:
+                                    notifier.send(f"📚 [AI 종목 KB 정제 완료]\n총 {updated_count}개 종목의 핵심 투자 포인트(Thesis)와 리스크가 업데이트되었습니다.")
+                                    
+                            elif ref_res.get("status") == "not_enough_data":
+                                notifier.send("🧘 [AI 자가 진화 대기]\n새로운 매매 기록이 없어 기존의 투자 원칙을 유지합니다.")
+                            else:
+                                print(f"[SYSTEM] 자가 학습 에러: {ref_res}")
+                        except Exception as e:
+                            print(f"[BG_REFLECT_ERR] 학습 에러: {e}")
 
                 # 4. 🚨 함수를 실행하지 않고 스레드 풀(LLM_EXECUTOR)에 던져서 백그라운드로 실행시킴!
                 # (메인 봇은 기다리지 않고 즉시 다음 코드로 넘어감)
@@ -1040,7 +1073,7 @@ def main() -> None:
                         universe_all = [line.strip().upper() for line in f if line.strip()]
                     bg_count, start_idx = 0, bg_idx
                     
-                    while bg_count < 3 and (bg_idx - start_idx) < len(universe_all):
+                    while bg_count < 10 and (bg_idx - start_idx) < len(universe_all):
                         bg_t = universe_all[bg_idx % len(universe_all)]
                         bg_idx += 1
                         if bg_t not in current_rss_tickers:
@@ -1051,7 +1084,7 @@ def main() -> None:
 
             loop_rss_urls = build_rss_urls(current_rss_tickers)
             loop_rss_urls.append("https://finance.yahoo.com/news/rss")
-            try: news_items = fetch_rss_news(limit=20, rss_urls=loop_rss_urls)
+            try: news_items = fetch_rss_news(limit=50, rss_urls=loop_rss_urls)
             except Exception: news_items = []
 
             if quote_provider is not None and not quote_provider.kis.cfg.paper:
@@ -1070,8 +1103,12 @@ def main() -> None:
                         for t in tickers:
                             try:
                                 t_news = quote_provider.get_ticker_news(t)
+                                # 👇👇👇 [추가] 특정 종목의 뉴스를 KIS에서 가져왔을 때 로그 출력
+                                valid_news_count = len([n for n in t_news if n.get("title")])
+                                if valid_news_count > 0:
+                                    print(f"📰 [KIS_TICKER_NEWS] {t} 개별 종목 뉴스 {valid_news_count}건 수집 -> AI 전달")
                                 time.sleep(0.1) # KIS 서버 보호용 0.1초 대기
-                                for tn in t_news[:2]:
+                                for tn in t_news[:5]:
                                     t_title = tn.get("title", "")
                                     if t_title:
                                         # 수집 즉시 AI 분석 스레드로 바로 전달 (메인 루프 거치지 않음)
@@ -1082,7 +1119,7 @@ def main() -> None:
                     LLM_EXECUTOR.submit(_bg_fetch_ticker_news, current_rss_tickers)
                     
                     if kis_brk_count > 0:
-                        print(f"📡 [KIS_API] 속보 {kis_brk_count}건 수집 완료 (심층 뉴스는 백그라운드 수집 중...)")
+                        print(f"❌ [KIS_NEWS_API_ERR] KIS 서버 통신 장애로 뉴스 수집 실패: {e}")
 
                 except Exception as e: 
                     print(f"[KIS_NEWS_ERR] 뉴스 수집 엔진 에러: {e}")
@@ -1143,12 +1180,19 @@ def main() -> None:
 
                 # 👇👇👇 [최종 수정] 데드락 방지 및 텔레그램 통신 병목 제거 버전
                 def _bg_process_news(bg_title, bg_summary, bg_link, bg_published, bg_candidates, bg_loop_ts):
-                    try:
-                        # 1. AI 뉴스 분석 (이 과정은 시간이 걸리므로 LOCK 밖에서 수행)
-                        evt = analyze_news_local_ollama(title=bg_title, summary=bg_summary, link=bg_link, published=bg_published, watchlist=current_rss_tickers)
-                    except Exception as e: 
-                        print(f"   [BG_LLM_ERR] 뉴스 분석 실패: {e}")
-                        return
+                    print(f"🔄 [BG_NEWS_WAIT] AI 뉴스 분석 큐 대기 중: {bg_title[:30]}...")
+                    with LLM_LOCK:
+                        print(f"▶ [BG_NEWS_PROCESSING] AI 뉴스 분석 시작: {bg_title[:30]}...")
+                        try:
+                            evt = analyze_news_local_ollama(title=bg_title, summary=bg_summary, link=bg_link, published=bg_published, watchlist=current_rss_tickers)
+                            print(f"✅ [BG_NEWS_DONE] AI 뉴스 분석 완료: {bg_title[:30]}...")
+                        except Exception as e: 
+                            print(f"   [BG_LLM_ERR] 뉴스 분석 실패: {e}")
+                            try:
+                                notifier.send(f"⚠️ [AI 분석 지연/에러] 속보가 수집되었으나 AI 분석에 실패했습니다.\n\n제목: {bg_title}\n링크: {bg_link}")
+                            except Exception:
+                                pass
+                            return
 
                     try: escore = float(event_score(evt))
                     except Exception: escore = 0.0
@@ -1196,10 +1240,20 @@ def main() -> None:
                             if ev_date and ev_desc:
                                 append_llm_event_to_calendar(t, ev_date, ev_desc)
 
-                    # 일반 뉴스 알림 전송 (LOCK 밖이므로 통신 딜레이가 전체 봇에 영향을 주지 않음)
-                    kr_title = str(evt.get("kr_title", "")).strip()
-                    display_title = kr_title if kr_title else bg_title
-                    notifier.send(fmt_news(tickers=",".join(assigned), title=display_title, score=float(escore), event_type=str(evt.get("event_type", "") or ""), sentiment=str(evt.get("sentiment", "") or ""), conf=float(econf), link=bg_link))
+                    # 👇👇👇 [수정] 텔레그램 스팸 방지 필터링 (.env 연동 버전)
+                    impact_val = int(evt.get("impact", 0) or 0)
+                    
+                    # .env에서 설정한 기준값을 사용하여 필터링
+                    is_notable_news = (econf >= noti_min_conf) and (impact_val >= noti_min_impact or abs(escore) >= noti_min_score)
+                    
+                    if is_notable_news:
+                        kr_title = str(evt.get("kr_title", "")).strip()
+                        display_title = kr_title if kr_title else bg_title
+                        notifier.send(fmt_news(tickers=",".join(assigned), title=display_title, score=float(escore), event_type=str(evt.get("event_type", "") or ""), sentiment=str(evt.get("sentiment", "") or ""), conf=float(econf), link=bg_link))
+                    else:
+                        # 텔레그램은 안 보내지만, 콘솔 창에는 조용히 저장되었다고 로그만 남김
+                        print(f"   🔕 [알림 스킵] {bg_title[:30]}... (필터링됨 | 점수:{escore:.2f}, 임팩트:{impact_val}, 신뢰도:{econf:.2f})")
+                    # 👆👆👆 ------------------------------------------------------------------------
 
                 # 스레드 풀에 던지고 메인 루프는 즉시 다음 단계(가격 검사 등)로 진행합니다. (블로킹 해제)
                 LLM_EXECUTOR.submit(_bg_process_news, title, cv_summary, link, published, candidates, loop_ts)
@@ -1210,41 +1264,49 @@ def main() -> None:
                 # 👆👆👆 ----------------------------------------------------
 
             if last_macro_eval_time is None or macro_news_added:
-                # 👇 [수정] used_news_text도 함께 반환받도록 변경
-                new_macro_level, new_macro_reason, used_news_text = _evaluate_macro_risk(news_store, ai_gate_model)
-                
-                if last_macro_eval_time is None or new_macro_level != macro_risk_level:
-                    # 텔레그램 스팸 방지를 위해 주요 뉴스 상위 7개까지만 잘라서 보여줌
-                    display_news = "\n".join(used_news_text.split('\n')[:7])
-                    msg_body = f"진단: {new_macro_reason}\n\n📰 [AI가 판단에 참고한 주요 뉴스]\n{display_news}"
-                    
-                    if new_macro_level >= 2:
-                        notifier.send(f"🚨 [매크로 리스크 비상 경보!]\n새로운 주요 뉴스 감지! 위험 단계가 Risk Level {new_macro_level}로 변경되었습니다!\n{msg_body}")
-                    else:
-                        notifier.send(f"🌍 [AI 매크로 리스크 진단]\n위험 단계: Risk Level {new_macro_level}\n{msg_body}")
-                    
-                    # 콘솔 로그에는 참고한 전체 뉴스를 모두 출력
-                    print(f"\n🌍 [MACRO_EVAL] Level: {new_macro_level} | Reason: {new_macro_reason}")
-                    print(f"[AI 판단 근거 뉴스]\n{used_news_text}\n")
-                
-                macro_risk_level = new_macro_level
-                macro_risk_reason = new_macro_reason
-                last_macro_eval_time = now_kst
+                if LLM_LOCK.acquire(blocking=False):
+                    try:
+                        new_macro_level, new_macro_reason, used_news_text = _evaluate_macro_risk(news_store, ai_gate_model)
+                        
+                        if last_macro_eval_time is None or new_macro_level != macro_risk_level:
+                            # 텔레그램 스팸 방지를 위해 주요 뉴스 상위 7개까지만 잘라서 보여줌
+                            display_news = "\n".join(used_news_text.split('\n')[:7])
+                            msg_body = f"진단: {new_macro_reason}\n\n📰 [AI가 판단에 참고한 주요 뉴스]\n{display_news}"
+                            
+                            if new_macro_level >= 2:
+                                notifier.send(f"🚨 [매크로 리스크 비상 경보!]\n새로운 주요 뉴스 감지! 위험 단계가 Risk Level {new_macro_level}로 변경되었습니다!\n{msg_body}")
+                            else:
+                                notifier.send(f"🌍 [AI 매크로 리스크 진단]\n위험 단계: Risk Level {new_macro_level}\n{msg_body}")
+                            
+                            # 콘솔 로그에는 참고한 전체 뉴스를 모두 출력
+                            print(f"\n🌍 [MACRO_EVAL] Level: {new_macro_level} | Reason: {new_macro_reason}")
+                            print(f"[AI 판단 근거 뉴스]\n{used_news_text}\n")
+                        
+                        macro_risk_level = new_macro_level
+                        macro_risk_reason = new_macro_reason
+                        last_macro_eval_time = now_kst
+                    finally:
+                        LLM_LOCK.release()
+                else:
+                    pass
 
             # 👇👇👇 [성능 최적화] AI 메모리 갱신을 백그라운드로 던져서 봇의 틱 지연을 완벽하게 방지
             def _bg_update_news_memory(t_list):
                 _updated_count = 0
                 for t in t_list:
-                    if _updated_count >= 2: break # 한 번에 최대 2개 종목만 갱신
+                    if _updated_count >= 5: break
                     try:
                         new_n = news_store.pop_new_event_count(t)
                         if new_n >= news_mem_update_every:
                             recent = news_store.get_recent_events(t, days=news_window_days, limit=news_mem_max_items)
                             if recent:
-                                print(f"🧠 [MEMORY] {t} 종목 뉴스 메모리 요약 중 (백그라운드)")
-                                mem = build_news_memory_summary_local_ollama(ticker=t, events=recent, model=news_mem_model)
-                                news_store.save_memory(t, mem)
-                                _updated_count += 1
+                                print(f"🧠 [MEMORY_WAIT] {t} 종목 뉴스 메모리 요약 대기 중...")
+                                # 👇 [추가] 신호등 대기
+                                with LLM_LOCK:
+                                    mem = build_news_memory_summary_local_ollama(ticker=t, events=recent, model=news_mem_model)
+                                    news_store.save_memory(t, mem)
+                                    _updated_count += 1
+                                    print(f"✅ [MEMORY_DONE] {t} 종목 뉴스 메모리 갱신 완료")
                     except Exception: continue
 
             # 메인 봇은 다음 루프(가격 검사)로 즉시 넘어갑니다.
@@ -1446,6 +1508,7 @@ def main() -> None:
                     if is_event_buildup and tscore >= 0.0:
                         total_base += 0.20
                         tlabel = f"EventBuildup({event_desc} D-{days_to_event}) | " + tlabel
+                        print(f"✨ [EVENT_BUILDUP] {ticker} - {event_desc} (D-{days_to_event}) 가산점 적용됨")
                     
                     # 👇👇👇 [수정] 억울한 하락(Value Dip) 판단 로직 강화
                     if vscore >= 0.60 and tscore <= -0.20:
@@ -1455,7 +1518,8 @@ def main() -> None:
                         
                         # AI 문지기에게 '이건 펀더멘탈 우량주의 눌림목이다'라고 수치와 함께 명확히 증명함
                         tlabel = f"ValueDip_Strong(가치:{vscore:.2f},낙폭:{tscore:.2f}) | {tlabel}"    
-                        is_value_dip = True                
+                        is_value_dip = True
+                        print(f"📉 [VALUE_DIP] {ticker} - 가치({vscore:.2f}) 우수, 낙폭({tscore:.2f}) 큼. 눌림목 가산점 적용됨")                
                     # 👆👆👆 ----------------------------------------------------
 
                 total = float(total_base)
@@ -1558,13 +1622,18 @@ def main() -> None:
                     if crisis_eval.get("survive", False):
                         # AI가 "이 종목은 강하니 버텨라!"라고 판단한 경우 (강제 매도 안 함)
                         plan_reason = f"[AI 위기 홀딩] {crisis_eval.get('reason', '')} | {plan_reason}"
+                        print(f"🛡️ [CRISIS_SURVIVE] {ticker} 하락장 버티기 결정: {crisis_eval.get('reason', '')}")
                     else:
                         # AI가 "이건 얄짤없이 같이 무너진다, 도망쳐!"라고 판단한 경우
                         force_sell = True
                         force_sell_frac = 1.0
                         risk_reason = f"AI_CRISIS_DUMP ({crisis_eval.get('reason', '')})"
+                        print(f"🚨 [CRISIS_DUMP] {ticker} 하락장 기계적 손절(도망) 결정: {crisis_eval.get('reason', '')}")
 
                 pos.update_streak(sig.action)
+
+                # 👇 [추가] 메시지가 지워지지 않게 담아둘 빈 상자를 만듭니다.
+                ai_risk_msg = "" 
 
                 if is_inverse:
                     eff_sl1 = _env_float("INV_STOP_LOSS_1", -0.020)
@@ -1573,6 +1642,19 @@ def main() -> None:
                 else:
                     eff_sl1, eff_sl2, eff_tp1 = stop_loss_1, stop_loss_2, take_profit_1
                     
+                    if ticker in _llm_risk_cache:
+                        llm_sl = _llm_risk_cache[ticker].get("sl")
+                        llm_tp = _llm_risk_cache[ticker].get("tp")
+                        
+                        if llm_sl is not None:
+                            eff_sl1 = llm_sl
+                            eff_sl2 = llm_sl - 0.02 # 전량 손절(SL2)은 1차 손절보다 2% 더 여유있게
+                        if llm_tp is not None:
+                            eff_tp1 = llm_tp
+                            
+                        # 👇 [수정] plan_reason을 덮어쓰지 않고, 임시 보관함에만 글자를 저장합니다!
+                        ai_risk_msg = f"[AI_RISK SL:{eff_sl1*100:.1f}%, TP:{eff_tp1*100:.1f}%] | "
+
                     # 👇👇 [추가] 매크로 Risk Level에 따른 유동적 칼손절(방어막) 적용
                     if macro_risk_level == 1:
                         # 1단계 불안장: -2.0%에서 절반 손절, -3.5%에서 전량 손절 (기존 -3%/-5%보다 타이트함)
@@ -1584,7 +1666,8 @@ def main() -> None:
                         eff_sl2 = max(eff_sl2, -0.025)
 
                 if not is_combat_mode and sig.action in ("BUY", "SELL"):
-                    plan_action, plan_qty, plan_reason = "HOLD", 0, f"RESEARCH_MODE (Trade window {trade_start_et}-{trade_end_et} ET) | raw={sig.action}"
+                    # 👇 [수정] 리서치 모드일 때도 앞에 ai_risk_msg를 붙여줌
+                    plan_action, plan_qty, plan_reason = "HOLD", 0, f"{ai_risk_msg}RESEARCH_MODE (Trade window {trade_start_et}-{trade_end_et} ET) | raw={sig.action}"
                     if not block_reason: block_reason = "RESEARCH_MODE"
                 else:
                     plan = compute_position_plan(
@@ -1594,12 +1677,11 @@ def main() -> None:
                         stop_sell_frac=stop_sell_frac, tp_sell_frac=tp_sell_frac, base_qty=float(base_qty), max_position_qty=float(max_position_qty),
                         buy_t1=buy_t1, buy_t2=buy_t2, buy_t3=buy_t3, buy_m1=buy_m1, buy_m2=buy_m2, buy_m3=buy_m3,
                         sell_t1=sell_t1, sell_t2=sell_t2, sell_t3=sell_t3, sell_f1=sell_f1, sell_f2=sell_f2, sell_f3=sell_f3,
-                        
-                        # 🚨 D-Day에는 +1.5%만 먹어도 바로 추격 가동하고, 고점대비 -1.2% 빠지면 뒤도 안 돌아보고 전량 청산
                         trail_activate_pct_override=0.015 if is_d_day else None,
                         trail_dd_pct_override=0.012 if is_d_day else None 
                     )
-                    plan_action, plan_qty, plan_reason = plan.action, _to_int_qty(plan.qty), f"{plan.reason} | sig={sig.reason}"
+                    # 👇 [수정] 최종 덮어쓰기를 할 때, 맨 앞에 보관함(ai_risk_msg)의 내용을 합쳐서 저장!
+                    plan_action, plan_qty, plan_reason = plan.action, _to_int_qty(plan.qty), f"{ai_risk_msg}{plan.reason} | sig={sig.reason}"
 
                     if plan_action in ("BUY", "SELL") and plan_qty <= 0:
                         plan_action, plan_reason = "HOLD", f"{plan_reason} | int_qty became 0"
@@ -1632,6 +1714,7 @@ def main() -> None:
                     opposite = (last_a == "BUY" and desired == "SELL") or (last_a == "SELL" and desired == "BUY")
                     if opposite and (_global_tick - last_tick) <= max(1, int(whipsaw_cooldown_ticks)):
                         plan_action, plan_qty, plan_reason = "HOLD", 0, f"WHIPSAW_BLOCK({last_a}->{desired}) | {plan_reason}"
+                        print(f"🛡️ [WHIPSAW_BLOCK] {ticker} 단기간 반대매매(윱소) 감지로 타점 포기")
                     else:
                         _whipsaw_last_action[ticker], _whipsaw_last_tick[ticker] = desired, _global_tick
 
@@ -1669,6 +1752,28 @@ def main() -> None:
                             decision = parse_decision(llm_text)
                             decision_action, decision_conf = str(decision.get("action", "HOLD")).upper(), float(decision.get("confidence", 0.5))
 
+                            try:
+                                p_plan = decision.get("position_plan", {})
+                                dyn_sl = p_plan.get("stop_loss_pct")
+                                dyn_tp = p_plan.get("take_profit_pct")
+                                if dyn_sl is not None or dyn_tp is not None:
+                                    # 👇 1. 기존에 저장되어 있던 타점 값을 먼저 불러옴
+                                    old_risk = _llm_risk_cache.get(ticker, {})
+                                    old_sl, old_tp = old_risk.get("sl"), old_risk.get("tp")
+                                    
+                                    # 👇 2. 새로운 타점 값으로 업데이트
+                                    _llm_risk_cache[ticker] = {"sl": dyn_sl, "tp": dyn_tp}
+                                    
+                                    # 👇 3. 값이 처음 세팅되거나, 기존과 다르게 변동되었을 때만 텔레그램 쏘기!
+                                    if old_sl != dyn_sl or old_tp != dyn_tp:
+                                        msg = f"🎯 [AI 맞춤 타점 갱신] {ticker}\n손절선: {dyn_sl*100:.1f}%\n익절선: {dyn_tp*100:.1f}%"
+                                        print(msg)
+                                        notifier.send(msg)  # 텔레그램 단독 발송
+                                    else:
+                                        # 값이 똑같으면 텔레그램 스팸을 막기 위해 콘솔 로그만 남김
+                                        print(f"🎯 [LLM_RISK_SET] {ticker} 타점 유지 -> 손절: {dyn_sl*100:.1f}% / 익절: {dyn_tp*100:.1f}%")
+                            except Exception: pass
+
                             kb_add_decision(ticker, action=decision_action, confidence=decision_conf, rationale=str(decision.get("rationale", "")), key_drivers=decision.get("key_drivers") or [], key_risks=decision.get("key_risks") or [], valuation_view=str(decision.get("valuation_view", "")), counterfactuals=decision.get("counterfactuals") or [], next_checks=decision.get("next_checks") or [], raw=decision)
                             _append_jsonl(DECISION_LOG_PATH, {"ts": loop_ts, "ticker": ticker, "decision": decision, "snapshot": snapshot})
                             decision_msg = f" decision={decision_action} dconf={decision_conf:.2f}"
@@ -1683,16 +1788,36 @@ def main() -> None:
 
                 ai_msg = ""
                 if ai_gate_enabled and not is_inverse and not is_value_dip and plan_action in ("BUY", "SELL") and plan_qty > 0:
-                    try:
-                        gate = ai_gate_check_local_ollama(ticker=ticker, action=plan_action, qty=int(plan_qty), price=price_f, total=total, news_used=news_used, val_score=vscore, ta_score=tscore, ta_label=tlabel, signal_reason=sig.reason, plan_reason=plan_reason, market_open=market_open, memory_summary=news_store.load_memory(ticker), recent_events=news_store.get_recent_events(ticker, days=news_window_days, limit=20), model=ai_gate_model, min_conf=ai_gate_min_conf)
-                        if not gate.allow or gate.qty_mult <= 0.0:
-                            ai_msg, plan_action, plan_qty, plan_reason = f" ai_gate=VETO conf={gate.confidence:.2f} reason={gate.reason}", "HOLD", 0, f"AI_GATED: {gate.reason} | {plan_reason}"
-                        else:
-                            new_qty = int(math.floor(plan_qty * gate.qty_mult))
-                            if new_qty <= 0: ai_msg, plan_action, plan_qty, plan_reason = f" ai_gate=VETO(qty->0) conf={gate.confidence:.2f} reason={gate.reason}", "HOLD", 0, f"AI_GATED: {gate.reason} | {plan_reason}"
-                            elif new_qty != plan_qty: ai_msg, plan_qty, plan_reason = f" ai_gate=REDUCE x{gate.qty_mult:.2f} conf={gate.confidence:.2f} reason={gate.reason}", new_qty, f"AI_REDUCED: {gate.reason} | {plan_reason}"
-                            else: ai_msg = f" ai_gate=OK conf={gate.confidence:.2f}"
-                    except Exception as e: ai_msg = f" ai_gate_err={e!r}"
+                    # 👇 [핵심 추가] LLM이 바쁜지 확인. 바쁘면 기다리지 않고 스킵 (Non-Blocking)
+                    if LLM_LOCK.acquire(blocking=False):
+                        try:
+                            gate = ai_gate_check_local_ollama(ticker=ticker, action=plan_action, qty=int(plan_qty), price=price_f, total=total, news_used=news_used, val_score=vscore, ta_score=tscore, ta_label=tlabel, signal_reason=sig.reason, plan_reason=plan_reason, market_open=market_open, memory_summary=news_store.load_memory(ticker), recent_events=news_store.get_recent_events(ticker, days=news_window_days, limit=20), model=ai_gate_model, min_conf=ai_gate_min_conf)
+                            if not gate.allow or gate.qty_mult <= 0.0:
+                                ai_msg, plan_action, plan_qty, plan_reason = f" ai_gate=VETO conf={gate.confidence:.2f} reason={gate.reason}", "HOLD", 0, f"AI_GATED: {gate.reason} | {plan_reason}"
+                                print(f"✋ [AI_GATE_VETO] {ticker} 최종 매수 거절 (사유: {gate.reason})")
+                            else:
+                                new_qty = int(math.floor(plan_qty * gate.qty_mult))
+                                if new_qty <= 0: 
+                                    ai_msg, plan_action, plan_qty, plan_reason = f" ai_gate=VETO(qty->0) conf={gate.confidence:.2f} reason={gate.reason}", "HOLD", 0, f"AI_GATED: {gate.reason} | {plan_reason}"
+                                    print(f"✋ [AI_GATE_VETO] {ticker} 위험도 높아 수량 0으로 축소 거절 (사유: {gate.reason})")
+                                elif new_qty != plan_qty: 
+                                    ai_msg, plan_qty, plan_reason = f" ai_gate=REDUCE x{gate.qty_mult:.2f} conf={gate.confidence:.2f} reason={gate.reason}", new_qty, f"AI_REDUCED: {gate.reason} | {plan_reason}"
+                                    print(f"📉 [AI_GATE_REDUCE] {ticker} 수량 {gate.qty_mult*100}% 축소하여 승인 (사유: {gate.reason})")
+                                else: 
+                                    ai_msg = f" ai_gate=OK conf={gate.confidence:.2f}"
+                                    print(f"✅ [AI_GATE_PASS] {ticker} 최종 문지기 승인 통과")
+                        except Exception as e: 
+                            ai_msg = f" ai_gate_err={e!r}"
+                        finally:
+                            # 🚨 판단이 끝나면 반드시 락을 해제
+                            LLM_LOCK.release()
+                    else:
+                        # 🚨 LLM이 다른 작업 중이라 바쁠 때
+                        ai_msg = " ai_gate=BUSY_SKIPPED"
+                        plan_action, plan_qty = "HOLD", 0
+                        plan_reason = f"AI_BUSY: LLM이 뉴스 분석 등 다른 작업 중이어서 1틱 대기 | {plan_reason}"
+                        if not block_reason: block_reason = "LLM_BUSY"
+                        print(f"⏳ [AI_BUSY] {ticker} 매수 신호 떴으나 LLM이 바빠서 다음 틱으로 매수 보류!")
 
                 if broker is not None and plan_action in ("BUY", "SELL") and plan_qty > 0:
                     ok_acc, why_acc = acc_risk.allow_order(ticker=ticker, action=plan_action, qty=int(plan_qty), price=float(price_f))
@@ -1732,6 +1857,7 @@ def main() -> None:
                         if do_hard_block:
                             plan_action, plan_qty, plan_reason = "HOLD", 0, f"CHASE_HARD_BLOCK: {hot_reason} | {plan_reason}"
                             if not block_reason: block_reason = "CHASE_HARD_BLOCK"
+                            print(f"🔥 [CHASE_BLOCK] {ticker} 최근 너무 급등하여 추격매수 전면 금지 ({hot_reason})")
                         else:
                             new_qty = max(int(math.floor(float(plan_qty) * _env_float("CHASE_BAN_QTY_MULT", 0.30))), 1)
                             chase_confirm = _env_int("CHASE_BAN_CONFIRM_TICKS", 2)
@@ -1744,6 +1870,7 @@ def main() -> None:
                     exp_edge_bps = abs(float(total)) * float(edge_per_score) * 10000.0
                     if exp_edge_bps < total_cost_bps * float(edge_min_mult):
                         plan_action, plan_qty, plan_reason = "HOLD", 0, f"COST_BLOCK edge={exp_edge_bps:.2f}bps < cost={total_cost_bps:.2f}bps*{edge_min_mult:.2f} | {plan_reason}"
+                        print(f"⚖️ [COST_BLOCK] {ticker} 예상 기대수익({exp_edge_bps:.1f}bps)이 수수료/슬리피지 비용보다 낮아 매수 포기")
 
                 if is_force_close_time and float(pos.qty) > 0:
                     if sell_all_before_close or is_inverse:
@@ -1767,6 +1894,7 @@ def main() -> None:
                         sell_t = swap_res.get("sell_ticker")
                         p_qty = float(get_position(positions, sell_t).qty)
                         if p_qty > 0:
+                            print(f"🔄 [PORTFOLIO_SWAP] AI 교체매매 발동! {sell_t} 매도 후 {ticker} 매수 시도 (이유: {swap_res.get('reason')})")
                             notifier.send(f"🔄 [AI 기회비용 스왑 발동!]\n📉 매도(버림): {sell_t} ({p_qty}주)\n📈 매수(갈아탐): {ticker}\n💡 사유: {swap_res.get('reason')}")
                             try:
                                 exec_px = current_prices.get(sell_t, price_f) * (1.0 - swap_sell_slippage_pct)
@@ -1810,6 +1938,7 @@ def main() -> None:
                                 if possible_qty > 0:
                                     # 살 수 있는 수량이 1주라도 있다면 수량을 줄여서 주문합니다.
                                     plan_reason = f"[예수금 부족 수량조절] {plan_qty}주 -> {possible_qty}주로 축소 (필요:${estimated_cost:.2f}, 잔고:${cash_usd:.2f}) | {plan_reason}"
+                                    print(f"💰 [CASH_LIMIT] {ticker} 잔고 부족으로 매수 수량 축소: {plan_qty}주 -> {possible_qty}주")
                                     plan_qty = possible_qty
                                     estimated_cost = float(plan_qty) * exec_price_f * 1.005
                                     cash_usd -= estimated_cost # 다음 루프 방어를 위해 미리 현금 차감
@@ -1818,6 +1947,7 @@ def main() -> None:
                                     plan_action, plan_qty = "HOLD", 0
                                     plan_reason = f"ACCOUNT_CASH_BLOCK: 주문가능금액 초과 방어 (필요:${estimated_cost:.2f} > 보유잔고:${cash_usd:.2f}) | {plan_reason}"
                                     block_reason = "INSUFFICIENT_CASH"
+                                    print(f"🛑 [CASH_BLOCK] {ticker} 매수 완전 차단 (필요: ${estimated_cost:.2f}, 잔고: ${cash_usd:.2f})")
                             else:
                                 # 돈이 충분하다면 이번 매수에 쓸 돈을 장부상에서 미리 뺍니다.
                                 cash_usd -= estimated_cost 
@@ -1838,6 +1968,7 @@ def main() -> None:
                     except Exception as e:
                         resp_text = getattr(getattr(e, "response", None), "text", None)
                         order_msg = f" order_err={e!r}" + (f" resp={resp_text[:500]}" if resp_text else "")
+                        print(f"❌ [API_ORDER_ERROR] {ticker} {plan_action} 주문 실패! KIS 서버 응답: {resp_text}")
 
                 reg_msg = f" regime={getattr(regime, 'label', None)}({float(getattr(regime, 'score', 0.0)):.2f})" if regime is not None else ""
                 
