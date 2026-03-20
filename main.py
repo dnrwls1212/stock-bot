@@ -348,20 +348,23 @@ def build_decision_prompt(*, ticker: str, kb: Dict[str, Any], snapshot: Dict[str
     
     critical_past_memory = _extract_critical_memory(kb)
     
-    # 👇 [수정] 스키마에 stop_loss_pct, take_profit_pct 추가
-    schema = {"action": "BUY|SELL|HOLD", "confidence": 0.0, "rationale": "Korean, concise, factual", "key_drivers": ["..."], "key_risks": ["..."], "valuation_view": "what assumption matters / changed", "counterfactuals": ["what would make you wrong next 1-4 weeks"], "next_checks": ["what to check next"], "position_plan": {"prefer_qty": 0, "time_horizon": "swing_days|swing_weeks", "stop_loss_pct": -0.05, "take_profit_pct": 0.10}}
+    # .env 값을 읽어와서 프롬프트에 동적 주입
+    import os
+    env_max_loss = os.environ.get("STOP_LOSS_1", "-0.030")
+    env_max_profit = os.environ.get("TAKE_PROFIT_1", "0.050")
+    
+    schema = {"action": "BUY|SELL|HOLD", "confidence": 0.0, "rationale": "Korean, concise, factual", "key_drivers": ["..."], "key_risks": ["..."], "valuation_view": "what assumption matters / changed", "counterfactuals": ["what would make you wrong next 1-4 weeks"], "next_checks": ["what to check next"], "position_plan": {"prefer_qty": 0, "time_horizon": "day_trade|swing_days", "stop_loss_pct": float(env_max_loss), "take_profit_pct": float(env_max_profit)}}
     
     return f"""너는 '누적 지식 기반' 및 '스스로 진화하는' 최고위 퀀트 트레이더다. 
-목표: 단기/스윙 수익을 내되, 유연한 상황 판단을 최우선으로 한다.
+목표: 타이트한 리스크 관리가 필수적인 단기/스윙 트레이딩이다.
 
 [과거 매매를 통해 네가 스스로 깨달은 투자 원칙]
 {lessons}
 
 💡 [중요 지시사항: 동적 리스크 관리(Dynamic Risk)]
 제공된 [최신 뉴스]와 [과거 이벤트]를 분석하여 향후 단기 변동성을 예측하라.
-- 🚨 대형 이벤트(실적발표, FDA 승인, 강력한 호재 등)가 임박했다면 세력의 흔들기에 당하지 않도록 손절선을 넓게(-0.06 ~ -0.12), 익절선도 길게(0.10 ~ 0.30) 잡아라.
-- 📉 특별한 호재가 없거나 매크로가 불안하면 기계적이고 타이트한 손절선(-0.02 ~ -0.04)과 짧은 익절선(0.03 ~ 0.06)으로 방어하라.
-- 예측한 변동성을 반드시 출력 JSON의 'position_plan' 안의 'stop_loss_pct'와 'take_profit_pct'에 소수점으로 기록하라.
+- 🚨 시스템 최대 허용 손절폭은 {env_max_loss} 이며, 시스템 최대 목표 익절폭은 {env_max_profit} 이다.
+- 현재 장세에 맞춰 반드시 위 범위 내에서(예: 손절 -0.015, 익절 0.03 등) 더 짧고 안전한 값을 'position_plan' 안의 'stop_loss_pct'와 'take_profit_pct'에 소수점으로 기록하라. 절대 시스템 한계치를 초과해선 안 된다.
 
 [TICKER]
 {ticker}
@@ -377,6 +380,7 @@ def build_decision_prompt(*, ticker: str, kb: Dict[str, Any], snapshot: Dict[str
 {json.dumps(schema, ensure_ascii=False)}""".strip()
 
 def parse_decision(text: str) -> Dict[str, Any]:
+    from src.utils.ollama_client import try_parse_json
     d = try_parse_json(text) or {}
     if not isinstance(d, dict): d = {}
     d.setdefault("action", "HOLD")
@@ -389,17 +393,24 @@ def parse_decision(text: str) -> Dict[str, Any]:
     d.setdefault("next_checks", [])
     d.setdefault("position_plan", {"prefer_qty": 0, "time_horizon": "swing_days"})
     
-    # 👇 [추가] 파이썬 가드레일 (LLM의 환각 수치 차단)
+    # 👇 [수정] 파이썬 가드레일: .env 값을 최대 한계치(Limit)로 강제 적용
     try:
+        import os
+        env_max_loss = float(os.environ.get("STOP_LOSS_1", "-0.030"))
+        env_max_profit = float(os.environ.get("TAKE_PROFIT_1", "0.050"))
+        
         plan = d.get("position_plan", {})
+        
         if "stop_loss_pct" in plan and plan["stop_loss_pct"] is not None:
             raw_sl = float(plan["stop_loss_pct"])
             if raw_sl > 0: raw_sl = -raw_sl # 양수 입력 시 강제 음수 변환
-            plan["stop_loss_pct"] = max(-0.15, min(-0.015, raw_sl)) # 최대 -15%, 최소 -1.5% 제한
+            # AI가 -0.05를 부르면 -> max(-0.03, -0.05)가 되어 -0.03으로 컷됨
+            plan["stop_loss_pct"] = min(-0.005, max(env_max_loss, raw_sl)) 
             
         if "take_profit_pct" in plan and plan["take_profit_pct"] is not None:
             raw_tp = float(plan["take_profit_pct"])
-            plan["take_profit_pct"] = max(0.02, min(0.50, raw_tp)) # 최대 50%, 최소 2% 제한
+            # AI가 0.20을 부르면 -> min(0.05, 0.20)이 되어 0.05로 컷됨
+            plan["take_profit_pct"] = max(0.01, min(env_max_profit, raw_tp)) 
             
         d["position_plan"] = plan
     except Exception: pass
@@ -889,6 +900,8 @@ def main() -> None:
     last_known_cash = 1000.0
     last_known_total = 10000.0
     _ta_cache = {}  # 기술적 분석 데이터 캐싱 딕셔너리
+
+    current_prices: Dict[str, float] = {}
     # 👆👆👆 --------------------------------------------------
 
     try:
@@ -1375,16 +1388,31 @@ def main() -> None:
                     print(f"⚠️ [API 잔고조회 실패] 통신 지연 발생! 이전 잔고를 임시 유지합니다: {e}")
                     # 에러 발생 시 초기화시키지 않고, 기존에 성공했던(마지막) 잔고를 그대로 사용
             
+            # ---------- [수정 1: 미체결 주문 예수금 차감 방어 로직] ----------
             cash_usd, total_usd = last_known_cash, last_known_total
-            cash_ratio = cash_usd / max(1.0, total_usd) 
-            current_prices = {} 
-            # 👆👆👆 ----------------------------------------------------------- 
+            
+            # 미체결 매수 주문(Pending Buy)으로 묶인 돈을 계산하여 가용 현금에서 차감
+            pending_buy_cost = 0.0
+            open_orders = pending_store.list_orders()
+            for o in open_orders:
+                if o.side == "BUY" and o.status in ("SUBMITTED", "PARTIAL"):
+                    # 미체결 수량 = 전체 주문수량 - 체결된 수량
+                    rem_qty = float(o.qty) - float(o.filled_qty or 0.0)
+                    # 현재가 또는 100달러(기본값) 기준으로 필요 금액 추정 (수수료/슬리피지 버퍼 0.5% 추가)
+                    est_px = float(o.avg_fill_price or current_prices.get(o.ticker, 100.0))
+                    pending_buy_cost += (rem_qty * est_px * 1.005)
+            
+            # 실제 매수 가능한 진짜 가용 현금 도출
+            cash_usd = max(0.0, cash_usd - pending_buy_cost)
+            cash_ratio = cash_usd / max(1.0, total_usd)
+            # ----------------------------------------------------------- 
 
             # 👇👇👇 [신규 추가] 이벤트 기간 분석 및 기대감 부스팅 👇👇👇
             upcoming_events = load_upcoming_events()
 
             # ---------- 2) ticker loop ----------
-            for ticker in WATCHLIST:
+            # 🚨 [수정 2] 백그라운드 스레드와의 충돌(RuntimeError) 방지를 위해 list() 로 감싸서 복사본을 순회
+            for ticker in list(WATCHLIST):
                 pos = get_position(positions, ticker)
                 pos.reset_if_new_day(now_kst)
                 
@@ -1513,14 +1541,21 @@ def main() -> None:
                     # 👇👇👇 [수정] 억울한 하락(Value Dip) 판단 로직 강화
                     if vscore >= 0.60 and tscore <= -0.20:
                         # 실적(vscore)이 훌륭한데 차트(tscore)가 꺾였다면 낙폭에 비례하여 강력한 매수 가산점 부여
-                        dip_boost = abs(tscore) * 0.5 
-                        total_base = max(total_base, float(buy_th) + 0.15 + dip_boost)
+                        dip_boost = abs(tscore) * 0.25 
+                        total_base = min(0.85, max(total_base, float(buy_th) + 0.10 + dip_boost)) # 만점을 0.85로 제한
                         
                         # AI 문지기에게 '이건 펀더멘탈 우량주의 눌림목이다'라고 수치와 함께 명확히 증명함
                         tlabel = f"ValueDip_Strong(가치:{vscore:.2f},낙폭:{tscore:.2f}) | {tlabel}"    
                         is_value_dip = True
                         print(f"📉 [VALUE_DIP] {ticker} - 가치({vscore:.2f}) 우수, 낙폭({tscore:.2f}) 큼. 눌림목 가산점 적용됨")                
                     # 👆👆👆 ----------------------------------------------------
+
+                    # 👇 [추가] 모멘텀 돌파 가산점 (가는 놈이 더 간다)
+                    if tscore >= 0.60 and "VWAP 돌파" in tlabel:
+                        momentum_boost = 0.20
+                        total_base = min(1.0, total_base + momentum_boost)
+                        tlabel = f"Breakout_Strong(강한수급돌파) | {tlabel}"
+                        print(f"🔥 [MOMENTUM_BREAKOUT] {ticker} - 강한 상승 수급 유입. 돌파매매 가산점 적용됨")
 
                 total = float(total_base)
 
@@ -1651,9 +1686,6 @@ def main() -> None:
                             eff_sl2 = llm_sl - 0.02 # 전량 손절(SL2)은 1차 손절보다 2% 더 여유있게
                         if llm_tp is not None:
                             eff_tp1 = llm_tp
-                            
-                        # 👇 [수정] plan_reason을 덮어쓰지 않고, 임시 보관함에만 글자를 저장합니다!
-                        ai_risk_msg = f"[AI_RISK SL:{eff_sl1*100:.1f}%, TP:{eff_tp1*100:.1f}%] | "
 
                     # 👇👇 [추가] 매크로 Risk Level에 따른 유동적 칼손절(방어막) 적용
                     if macro_risk_level == 1:
@@ -1664,6 +1696,9 @@ def main() -> None:
                         # 2~3단계 위험장: -1.5%에서 절반 도망, -2.5%에서 전량 도망 (떨어지는 칼날 완벽 방어)
                         eff_sl1 = max(eff_sl1, -0.015)
                         eff_sl2 = max(eff_sl2, -0.025)
+
+                # 👇 [수정] plan_reason을 덮어쓰지 않고, 임시 보관함에만 글자를 저장합니다!
+                ai_risk_msg = f"[AI_RISK SL:{eff_sl1*100:.1f}%, TP:{eff_tp1*100:.1f}%] | "
 
                 if not is_combat_mode and sig.action in ("BUY", "SELL"):
                     # 👇 [수정] 리서치 모드일 때도 앞에 ai_risk_msg를 붙여줌
@@ -1737,54 +1772,53 @@ def main() -> None:
 
                 decision_msg, decision_action, decision_conf = "", None, None
                 
+                # [Decision Agent] (AI 스윙 타점 판독)
                 if decision_enabled and not is_inverse:
                     decision_tick_counter[ticker] = decision_tick_counter.get(ticker, 0) + 1
                     if decision_tick_counter[ticker] >= max(1, decision_every_ticks):
-                        decision_tick_counter[ticker] = 0
-                        try:
-                            kb = kb_load(ticker)
-                            recent_events = news_store.get_recent_events(ticker, days=news_window_days, limit=12) or []
-                            recent_light = [{"ts_kst": e.get("ts_kst"), "title": e.get("title"), "summary": e.get("summary"), "event_type": e.get("event_type"), "sentiment": e.get("sentiment"), "impact": e.get("impact"), "why_it_moves": e.get("why_it_moves"), "link": e.get("link"), "event_score": e.get("event_score"), "confidence": e.get("confidence")} for e in recent_events if isinstance(e, dict)]
-                            snapshot = {"ts_kst": loop_ts, "price": price_f, "market_open": market_open, "regime": {"enabled": bool(regime_engine is not None), "score": getattr(regime, "score", None), "label": getattr(regime, "label", None)}, "signal": {"total": total, "raw_action": sig.action, "strength": sig.strength, "reason": sig.reason}, "plan": {"action": plan_action, "qty": int(plan_qty), "reason": plan_reason}, "position": {"qty": float(pos.qty), "avg": float(pos.avg_price)}, "news": {"news_score": news_used, "raw_n": cnt, "raw_sum": raw_news, "conf": conf_avg}, "valuation": {"score": vscore, "fair_value": fair_value, "range": fair_range}, "ta": {"score": tscore, "label": tlabel}}
-                            
-                            prompt = build_decision_prompt(ticker=ticker, kb=kb, snapshot=snapshot, recent_news_events=recent_light, lessons=ai_lessons)
-                            llm_text = ollama_generate(prompt=prompt, model=decision_model, temperature=0.2, timeout=float(os.environ.get("OLLAMA_TIMEOUT", "120") or "120"))
-                            decision = parse_decision(llm_text)
-                            decision_action, decision_conf = str(decision.get("action", "HOLD")).upper(), float(decision.get("confidence", 0.5))
-
+                        # 🚨 [수정 3] 봇이 멈추지 않도록 LLM 락(신호등) 도입 (Non-blocking)
+                        if LLM_LOCK.acquire(blocking=False):
                             try:
+                                decision_tick_counter[ticker] = 0
+                                kb = kb_load(ticker)
+                                prompt = build_decision_prompt(
+                                    ticker=ticker, kb=kb, snapshot=snapshot,
+                                    recent_news_events=recent_light, lessons=ai_lessons
+                                )
+                                llm_text = ollama_generate(
+                                    prompt=prompt, model=decision_model, temperature=0.2,
+                                    timeout=float(os.environ.get("OLLAMA_TIMEOUT", "120") or "120")
+                                )
+                                decision = parse_decision(llm_text)
+                                
+                                # 👇 [신규 추가] AI가 내린 손익비 결정을 메모리(캐시)에 저장하여 실시간 주가 감시에 반영
                                 p_plan = decision.get("position_plan", {})
-                                dyn_sl = p_plan.get("stop_loss_pct")
-                                dyn_tp = p_plan.get("take_profit_pct")
-                                if dyn_sl is not None or dyn_tp is not None:
-                                    # 👇 1. 기존에 저장되어 있던 타점 값을 먼저 불러옴
-                                    old_risk = _llm_risk_cache.get(ticker, {})
-                                    old_sl, old_tp = old_risk.get("sl"), old_risk.get("tp")
-                                    
-                                    # 👇 2. 새로운 타점 값으로 업데이트
-                                    _llm_risk_cache[ticker] = {"sl": dyn_sl, "tp": dyn_tp}
-                                    
-                                    # 👇 3. 값이 처음 세팅되거나, 기존과 다르게 변동되었을 때만 텔레그램 쏘기!
-                                    if old_sl != dyn_sl or old_tp != dyn_tp:
-                                        msg = f"🎯 [AI 맞춤 타점 갱신] {ticker}\n손절선: {dyn_sl*100:.1f}%\n익절선: {dyn_tp*100:.1f}%"
-                                        print(msg)
-                                        notifier.send(msg)  # 텔레그램 단독 발송
-                                    else:
-                                        # 값이 똑같으면 텔레그램 스팸을 막기 위해 콘솔 로그만 남김
-                                        print(f"🎯 [LLM_RISK_SET] {ticker} 타점 유지 -> 손절: {dyn_sl*100:.1f}% / 익절: {dyn_tp*100:.1f}%")
-                            except Exception: pass
+                                if "stop_loss_pct" in p_plan and "take_profit_pct" in p_plan:
+                                    _llm_risk_cache[ticker] = {
+                                        "sl": float(p_plan["stop_loss_pct"]),
+                                        "tp": float(p_plan["take_profit_pct"])
+                                    }
+                                # -------------------------------------------------------------------
 
-                            kb_add_decision(ticker, action=decision_action, confidence=decision_conf, rationale=str(decision.get("rationale", "")), key_drivers=decision.get("key_drivers") or [], key_risks=decision.get("key_risks") or [], valuation_view=str(decision.get("valuation_view", "")), counterfactuals=decision.get("counterfactuals") or [], next_checks=decision.get("next_checks") or [], raw=decision)
-                            _append_jsonl(DECISION_LOG_PATH, {"ts": loop_ts, "ticker": ticker, "decision": decision, "snapshot": snapshot})
-                            decision_msg = f" decision={decision_action} dconf={decision_conf:.2f}"
-
-                            if (not decision_compare_only) and is_combat_mode and decision_conf >= decision_min_conf and decision_action in ("BUY", "SELL", "HOLD"):
-                                if decision_action == "HOLD": plan_action, plan_qty, plan_reason = "HOLD", 0, f"DECISION_OVERRIDE: HOLD | {plan_reason}"
-                                else:
-                                    prefer_qty = int(decision.get("position_plan", {}).get("prefer_qty", 0) or 0)
-                                    if prefer_qty > 0: plan_qty = prefer_qty
-                                    plan_action, plan_reason = decision_action, f"DECISION_OVERRIDE: {decision_action} conf={decision_conf:.2f} | {plan_reason}"
-                        except Exception as e: decision_msg = f" decision_err={e!r}"
+                                # KB 업데이트 및 결정 기록 저장
+                                kb["decisions"] = kb.get("decisions", [])
+                                kb["decisions"].insert(0, decision)
+                                kb["decisions"] = kb["decisions"][:5]
+                                kb_save(ticker, kb)
+                                
+                                record = {"ts": now_kst.isoformat(), "ticker": ticker, "decision": decision}
+                                with open(DECISION_LOG_PATH, "a", encoding="utf-8") as df:
+                                    df.write(json.dumps(record, ensure_ascii=False)+"\n")
+                                    
+                                decision_msg = f" decision={decision.get('action')}"
+                            except Exception as e:
+                                decision_msg = f" decision_err={e!r}"
+                            finally:
+                                LLM_LOCK.release() # 🚨 필수: 작업 끝나면 락 해제
+                        else:
+                            # LLM이 다른 뉴스 분석 등으로 바쁘면 이번 틱의 decision은 건너뜀 (메인 루프 속도 사수)
+                            decision_msg = " decision=SKIPPED_LLM_BUSY"
+                            decision_tick_counter[ticker] -= 1 # 다음 틱에 다시 시도하도록 카운터 복구
 
                 ai_msg = ""
                 if ai_gate_enabled and not is_inverse and not is_value_dip and plan_action in ("BUY", "SELL") and plan_qty > 0:
@@ -1897,9 +1931,35 @@ def main() -> None:
                             print(f"🔄 [PORTFOLIO_SWAP] AI 교체매매 발동! {sell_t} 매도 후 {ticker} 매수 시도 (이유: {swap_res.get('reason')})")
                             notifier.send(f"🔄 [AI 기회비용 스왑 발동!]\n📉 매도(버림): {sell_t} ({p_qty}주)\n📈 매수(갈아탐): {ticker}\n💡 사유: {swap_res.get('reason')}")
                             try:
-                                exec_px = current_prices.get(sell_t, price_f) * (1.0 - swap_sell_slippage_pct)
+                                # 👇 [수정] 팔려는 종목(sell_t)의 실시간 가격을 정확히 가져옴 (엉뚱한 종목 가격 참조 방지)
+                                sell_t_price = current_prices.get(sell_t)
+                                if sell_t_price is None:
+                                    try:
+                                        # KIS 서버에서 직접 실시간 호가 조회
+                                        sell_t_price = float(quote_provider.get_quote(sell_t).price)
+                                    except Exception:
+                                        # 통신 에러 시, Yahoo 딜레이 가격이라도 가져옴
+                                        sell_t_price = float(fetch_snapshot(sell_t).get("price", 100.0))
+                                        
+                                exec_px = sell_t_price * (1.0 - swap_sell_slippage_pct)
                                 broker.sell_market(sell_t, int(p_qty), last_price=exec_px)
                                 cash_ratio += 1.0 
+                                
+                                # 👇 [이전 수정 유지] 매도한 금액만큼 파이썬 가상 지갑(cash_usd)에 즉각 반영
+                                estimated_proceeds = float(p_qty) * exec_px * 0.99
+                                cash_usd += estimated_proceeds
+                                # -------------------------------------------------------------
+                                
+                                plan_reason = f"[스왑 성공] {sell_t} 손절 후 교체 | {plan_reason}"
+                            except Exception as e:
+                                plan_reason = f"[스왑 실패] {e} | {plan_reason}" 
+                                
+                                # 👇 [수정] 매도한 금액만큼 파이썬 가상 지갑(cash_usd)에 즉각 반영!
+                                # (수수료 및 슬리피지를 고려하여 보수적으로 매도 대금의 99%만 즉시 추가)
+                                estimated_proceeds = float(p_qty) * exec_px * 0.99
+                                cash_usd += estimated_proceeds
+                                # -------------------------------------------------------------
+                                
                                 plan_reason = f"[스왑 성공] {sell_t} 손절 후 교체 | {plan_reason}"
                             except Exception as e:
                                 plan_reason = f"[스왑 실패] {e} | {plan_reason}"

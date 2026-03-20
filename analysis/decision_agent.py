@@ -19,20 +19,15 @@ def build_decision_prompt(
     kb: Dict[str, Any],
     snapshot: Dict[str, Any],
     recent_news_events: List[Dict[str, Any]],
+    env_limits: Optional[Dict[str, float]] = None,  # 🚨 [추가] 외부 제한값 파라미터
 ) -> str:
     """
     kb: TickerKB를 dict(asdict) 형태로 넣어도 되고, 필요한 필드만 추려서 넣어도 됨.
-    snapshot 예:
-      {
-        "price": 187.9,
-        "market_open": false,
-        "ta": {"label":"bullish","score":0.6,"key_levels": {...}},
-        "valuation": {"fair_value": 210.0, "score":0.2, "assumptions": {...}},
-        "news": {"news_score": 0.2, "raw_n": 4},
-        "position": {"qty":0,"avg":0.0},
-        "risk": {"can_trade": true, "reason":""}
-      }
     """
+    # 🚨 [추가] 전달받은 값이 없으면 기본 -3% 손절, +5% 익절로 세팅
+    if env_limits is None:
+        env_limits = {"max_loss": -0.030, "max_profit": 0.050}
+
     kb_light = {
         "thesis": kb.get("thesis", ""),
         "business_summary": kb.get("business_summary", ""),
@@ -50,6 +45,7 @@ def build_decision_prompt(
 
     news_light = _clip(recent_news_events, 10)
 
+    # 🚨 [수정] 스키마: take_profit_pct 추가 및 time_horizon 단기로 고정
     schema = {
         "action": "BUY|SELL|HOLD",
         "confidence": 0.0,
@@ -62,18 +58,25 @@ def build_decision_prompt(
         "position_plan": {
             "prefer_qty": 0,
             "max_loss_pct": 0.0,
-            "time_horizon": "swing_days|swing_weeks|long_months"
+            "take_profit_pct": 0.0,
+            "time_horizon": "day_trade|swing_days" 
         }
     }
 
+    # 🚨 [수정] 프롬프트: RISK LIMITS 규칙 명시
     return f"""
 너는 '누적 지식 기반' 투자 의사결정 에이전트다.
-목표: 단기/스윙 수익을 내되, 기업 방향성과 근거 축적을 최우선으로 한다.
+목표: 타이트한 리스크 관리가 필수적인 데이트레이딩 및 짧은 스윙 트레이딩이다.
 규칙:
 - 모르면 모른다고 말하고 next_checks에 확인할 항목을 적는다.
 - 근거는 제공된 데이터에서만. 추측 금지.
 - 출력은 반드시 JSON 하나만. 다른 문장/설명/코드블럭 금지.
 - action은 BUY/SELL/HOLD 중 하나.
+
+[RISK LIMITS]
+- 시스템 최대 허용 손절폭: {env_limits['max_loss']} (절대 이보다 깊은 음수 설정 불가)
+- 시스템 최대 목표 익절폭: {env_limits['max_profit']} (절대 이보다 높은 수치 설정 불가)
+* 지시사항: 현재 차트의 변동성, 뉴스 강도를 분석하여 위 [RISK LIMITS] 범위 내에서 더 짧고 안전한 position_plan.max_loss_pct 와 take_profit_pct 값을 동적으로 제시하라.
 
 [TICKER]
 {ticker}

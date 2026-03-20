@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import re  # 정규표현식 모듈 추가
 from dataclasses import dataclass
 from typing import Optional
 
@@ -91,17 +92,25 @@ def fmt_order_submitted(
     elif total > -0.4: score_eval = "주의 🟠"
     else: score_eval = "위험 🔴"
     
-    # 3. 개발용 암호문 사유(reason)를 사용자 친화적인 한글로 단순화
-    simple_reason = "💡 일반 매매 조건 충족" # 기본값
-    if "FORCE_SELL" in reason: simple_reason = "⏰ 장 마감 전 전량 강제 매도"
-    elif "STOP2 hit" in reason or "SL1 cut" in reason: simple_reason = "🛡️ 손절매(Stop Loss) 안전장치 발동"
-    elif "TP1 hit" in reason or "TP2 hit" in reason: simple_reason = "💰 익절매(Take Profit) 수익 실현"
-    elif "TRAIL" in reason: simple_reason = "🏃 트레일링 스탑 (고점 대비 하락으로 이익 보존)"
-    elif "DECISION_OVERRIDE" in reason: simple_reason = "🤖 AI 에이전트 강제 매매 개입"
-    elif "AI_REDUCED" in reason: simple_reason = "🤖 AI가 위험 감지하여 수량 축소 매매"
-    elif "CHASE_SOFT" in reason: simple_reason = "⚠️ 단기 급등 감지되어 보수적으로 진입"
-    elif "INVERSE" in reason: simple_reason = "📉 하락장 방어용 인버스 매수"
-    elif "COST_BLOCK" in reason: simple_reason = "💸 수수료 대비 수익이 낮아 보류됨"
+    # 3. [신규] 손익비(SL/TP) 추출 및 한글화
+    risk_info = ""
+    risk_match = re.search(r"\[AI_RISK SL:([^,]+),\s*TP:([^\]]+)\]", reason)
+    if risk_match:
+        sl_val = risk_match.group(1).strip()
+        tp_val = risk_match.group(2).strip()
+        risk_info = f"🎯 AI 타점: 익절 {tp_val} / 손절 {sl_val}"
+    
+    # 4. 개발용 암호문 사유(reason)를 사용자 친화적인 한글로 단순화
+    simple_reason = "일반 매매 조건 충족" # 기본값
+    if "FORCE_SELL" in reason: simple_reason = "장 마감 전 전량 강제 매도"
+    elif "STOP2 hit" in reason or "SL1 cut" in reason: simple_reason = "손절매(Stop Loss) 안전장치 발동"
+    elif "TP1 hit" in reason or "TP2 hit" in reason: simple_reason = "익절매(Take Profit) 수익 실현"
+    elif "TRAIL" in reason: simple_reason = "트레일링 스탑 (고점 대비 하락으로 이익 보존)"
+    elif "DECISION_OVERRIDE" in reason: simple_reason = "AI 에이전트 강제 매매 개입"
+    elif "AI_REDUCED" in reason: simple_reason = "AI가 위험 감지하여 수량 축소 매매"
+    elif "CHASE_SOFT" in reason: simple_reason = "단기 급등 감지되어 보수적으로 진입"
+    elif "INVERSE" in reason: simple_reason = "하락장 방어용 인버스 매수"
+    elif "COST_BLOCK" in reason: simple_reason = "수수료 대비 수익이 낮아 보류됨"
 
     s = "🔴 매도" if side.upper() == "SELL" else "🟢 매수"
     
@@ -112,9 +121,17 @@ def fmt_order_submitted(
         f"📝 내역: {qty}주 (예상가 ${price:.2f})",
         f"📊 봇 평가: {score_eval} (점수 {total:.2f} / 확신도 {int(conf * 100)}%)",
         f"📈 차트 추세: {kr_ta}",
-        f"🎯 매매 사유: {simple_reason}",
-        f"🔑 주문 번호: {order_no}"
     ]
+    
+    # 타점 정보가 있을 경우에만 추가
+    if risk_info:
+        lines.append(risk_info)
+        
+    lines.extend([
+        f"💡 매매 사유: {simple_reason}",
+        f"🔑 주문 번호: {order_no}"
+    ])
+    
     return "\n".join(lines)
 
 
@@ -136,10 +153,18 @@ def fmt_dry_run(
     }
     kr_ta = ta_map.get(ta_label.lower(), ta_label)
     
-    simple_reason = "💡 일반 매매 조건 충족"
-    if "FORCE_SELL" in reason: simple_reason = "⏰ 장 마감 강제 매도"
-    elif "STOP" in reason or "SL" in reason: simple_reason = "🛡️ 손절매 발동"
-    elif "TP" in reason or "TRAIL" in reason: simple_reason = "💰 익절매 발동"
+    # [신규] 손익비(SL/TP) 추출 및 한글화
+    risk_info = ""
+    risk_match = re.search(r"\[AI_RISK SL:([^,]+),\s*TP:([^\]]+)\]", reason)
+    if risk_match:
+        sl_val = risk_match.group(1).strip()
+        tp_val = risk_match.group(2).strip()
+        risk_info = f"🎯 AI 타점: 익절 {tp_val} / 손절 {sl_val}"
+    
+    simple_reason = "일반 매매 조건 충족"
+    if "FORCE_SELL" in reason: simple_reason = "장 마감 강제 매도"
+    elif "STOP" in reason or "SL" in reason: simple_reason = "손절매 발동"
+    elif "TP" in reason or "TRAIL" in reason: simple_reason = "익절매 발동"
     
     s = "🔴 매도" if side.upper() == "SELL" else "🟢 매수"
     
@@ -147,9 +172,16 @@ def fmt_dry_run(
         f"🧪 [모의 훈련] {s}: {ticker}",
         f"📝 내역: {qty}주 (예상가 ${price:.2f})",
         f"📊 평가 점수: {total:.2f} / 📈 추세: {kr_ta}",
-        f"🎯 사유 요약: {simple_reason}",
-        f"※ 모의투자이므로 실제 주문은 들어가지 않았습니다."
     ]
+    
+    if risk_info:
+        lines.append(risk_info)
+        
+    lines.extend([
+        f"💡 사유 요약: {simple_reason}",
+        f"※ 모의투자이므로 실제 주문은 들어가지 않았습니다."
+    ])
+    
     return "\n".join(lines)
 
 
