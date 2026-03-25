@@ -90,6 +90,14 @@ PRIO_2_NEWS = 2      # 실시간 뉴스 분석
 PRIO_3_DECISION = 3  # 타점 재설정
 PRIO_4_BACKGROUND = 4 # 기타 복기 및 메모리 작업
 
+# 👇 [신규 추가] 큐 모니터링용 상태 변수
+QUEUE_STATUS = {
+    PRIO_1_AIGATE: 0,
+    PRIO_2_NEWS: 0,
+    PRIO_3_DECISION: 0,
+    PRIO_4_BACKGROUND: 0
+}
+
 AI_GATE_RESULTS = {}     # {ticker: AIGate결과객체}
 PENDING_AI_GATES = set() # AI 심사 대기 중인 티커
 
@@ -616,23 +624,34 @@ def _evaluate_crisis_survival(ticker: str, macro_level: int, macro_reason: str, 
     # 에러가 나면 계좌 보호를 위해 일단 파는(기계적 손절) 보수적 스탠스
     return {"survive": False, "reason": "분석 에러 및 보수적 리스크 관리 원칙에 따른 기계적 매도"}
 
-# 👇👇👇 [이 코드를 main 함수 바로 위에 새로 붙여넣기] 👇👇👇
 def llm_worker_loop():
     """큐에 쌓인 LLM 작업만 순차적으로 꺼내서 처리하는 대뇌 스레드"""
     print("🧠 [SYSTEM] 대뇌(LLM Worker) 스레드가 우선순위 모드로 가동되었습니다.")
     while True:
         try:
-            # 큐에서 작업 인출: (우선순위, 카운터, 작업명, 실행할함수, args, kwargs)
+            # 큐에서 작업 인출
             prio, _, task_name, func, args, kwargs = LLM_QUEUE.get()
+            
+            # 큐에서 꺼냈으므로 대기 카운트 1 감소
+            with DATA_LOCK:
+                if prio in QUEUE_STATUS and QUEUE_STATUS[prio] > 0:
+                    QUEUE_STATUS[prio] -= 1
+                    
+            q_size = LLM_QUEUE.qsize()
+            print(f"⚙️ [LLM_START] '{task_name}' 시작 (우선순위: {prio}) | 대기 중인 잔여 LLM 작업: 총 {q_size}개")
+            
+            start_time = time.time()
             try:
                 func(*args, **kwargs) # 할당된 LLM 작업 실행
             except Exception as e:
-                print(f"[LLM_WORKER_ERR] {task_name} 실행 중 에러: {e}")
+                print(f"❌ [LLM_WORKER_ERR] {task_name} 실행 중 에러: {e}")
             finally:
                 LLM_QUEUE.task_done()
+                elapsed = time.time() - start_time
+                print(f"🏁 [LLM_END] '{task_name}' 완료 (소요시간: {elapsed:.1f}초) | 남은 큐: {LLM_QUEUE.qsize()}개")
+                
         except Exception as e:
-            print(f"[LLM_WORKER_CRITICAL] {e}")
-# 👆👆👆 [여기까지 붙여넣기] 👆👆👆
+            print(f"🚨 [LLM_WORKER_CRITICAL] {e}")
 
 # -----------------------------
 # main
@@ -841,6 +860,10 @@ def main() -> None:
     bg_idx = 0  
     last_regime_noti_time = None
 
+    # 👇 [신규 추가] 봇 시작 시간 기록 (유니버스 폭풍 스캔 지연용)
+    bot_start_time = datetime.now(ZoneInfo("Asia/Seoul"))
+    universe_warmup_minutes = _env_int("UNIVERSE_WARMUP_MIN", 60) # 기본 60분 대기
+
     last_macro_eval_time = None
     macro_risk_level = 1
     macro_risk_reason = "초기화 대기중"
@@ -1024,9 +1047,14 @@ def main() -> None:
 
                 # 4. 🔥 큐에 1순위(PRIO_1_AIGATE)로 투입하여 진행 중이던 다른 뉴스를 제치고 즉시 실행!
                 LLM_QUEUE.put((PRIO_1_AIGATE, next(QUEUE_COUNTER), "REFLECTION_1ST", _bg_run_reflection, (market_cond, account_stat), {}))
-                
-                with DATA_LOCK: all_tickers = list(WATCHLIST)
+                with DATA_LOCK: QUEUE_STATUS[PRIO_1_AIGATE] += 1
+
+                with DATA_LOCK: 
+                    # 👇 [버그 수정] 현재 감시 중인 종목뿐만 아니라, 스왑으로 팔려나갔던 종목의 흔적까지 모두 찾아내서 요약
+                    all_tickers = list(set(WATCHLIST) | set(positions.keys()))
+                    
                 LLM_QUEUE.put((PRIO_1_AIGATE, next(QUEUE_COUNTER), "MEMORY_ALL_1ST", _bg_force_update_news_memory, (all_tickers,), {}))
+                with DATA_LOCK: QUEUE_STATUS[PRIO_1_AIGATE] += 1
             # 👆👆👆 [Block 7 수정 끝] 👆👆👆
             # 👆👆👆 -------------------------------------------------------------
 
@@ -1108,15 +1136,34 @@ def main() -> None:
                 if os.path.exists(universe_path):
                     with open(universe_path, "r", encoding="utf-8") as f:
                         universe_all = [line.strip().upper() for line in f if line.strip()]
+                    
+                    # 👇 [수정] 봇 시작 후 일정 시간(웜업) 동안은 메인 종목에 집중하기 위해 폭풍 스캔 봉인
+                    current_q_size = LLM_QUEUE.qsize()
+                    minutes_since_start = (now_kst - bot_start_time).total_seconds() / 60.0
+                    
+                    if minutes_since_start < universe_warmup_minutes:
+                        target_bg_count = 0 # 🔴 웜업 기간: 무조건 최소 스캔 유지 (메인 종목 분석 최우선)
+                    else:
+                        # 웜업이 끝나면 정상적으로 LLM 큐 상태에 따라 유동 스캔 발동
+                        if current_q_size <= 2:
+                            target_bg_count = 20  # 🟢 한가함: 유니버스 40개 폭풍 스캔
+                        elif current_q_size <= 10:
+                            target_bg_count = 10  # 🟡 보통: 기존처럼 10개 유지
+                        else:
+                            target_bg_count = 2   # 🔴 바쁨: LLM 방해 방지용 최소 스캔
+                        
                     bg_count, start_idx = 0, bg_idx
                     
-                    while bg_count < 10 and (bg_idx - start_idx) < len(universe_all):
+                    while bg_count < target_bg_count and (bg_idx - start_idx) < len(universe_all):
                         bg_t = universe_all[bg_idx % len(universe_all)]
                         bg_idx += 1
                         if bg_t not in current_rss_tickers:
                             current_rss_tickers.append(bg_t)
                             bg_count += 1
-                    # 👆👆👆 -----------------------------------------------------------------
+                            
+                    # 로그로 현재 스캔 모드 살짝 출력해두기 (확인용)
+                    if target_bg_count == 40 and bg_count > 0:
+                        print(f"🕵️ [IDLE_SCAN] LLM 대기 상태! 유니버스 {bg_count}개 종목 폭풍 스캔 발동 중...")
             except Exception: pass
 
             loop_rss_urls = build_rss_urls(current_rss_tickers)
@@ -1135,25 +1182,50 @@ def main() -> None:
                             news_items.insert(0, { "title": title, "summary": "한국투자증권 글로벌 전체 속보", "link": f"kis_brk_{kn.get('cntt_usiq_srno', kn.get('news_key', ''))}", "published": f"{kn.get('data_dt', '')}{kn.get('data_tm', '')}" })
                             kis_brk_count += 1
 
-                    # 🚀 2. [백그라운드 최적화] 시간이 오래 걸리는 티커별 뉴스는 별도의 스레드로 격리
+                    # 🚀 2. [백그라운드 최적화] 시간이 오래 걸리는 티커별 뉴스는 별도의 네트워크 스레드로 격리
                     def _bg_fetch_ticker_news(tickers):
                         for t in tickers:
                             try:
+                                # 👇 [안전장치] KIS 서버의 초당 호출 제한(Rate Limit)을 피하기 위해 먼저 0.2초 대기합니다.
+                                time.sleep(0.2) 
                                 t_news = quote_provider.get_ticker_news(t)
-                                # 👇👇👇 [추가] 특정 종목의 뉴스를 KIS에서 가져왔을 때 로그 출력
-                                valid_news_count = len([n for n in t_news if n.get("title")])
-                                if valid_news_count > 0:
-                                    print(f"📰 [KIS_TICKER_NEWS] {t} 개별 종목 뉴스 {valid_news_count}건 수집 -> AI 전달")
-                                time.sleep(0.1) # KIS 서버 보호용 0.1초 대기
+                                
+                                valid_news = []
                                 for tn in t_news[:5]:
                                     t_title = tn.get("title", "")
-                                    if t_title:
-                                        # 수집 즉시 AI 분석 스레드로 바로 전달 (메인 루프 거치지 않음)
-                                        LLM_EXECUTOR.submit(_bg_process_news, f"[{t}] {t_title}", "KIS 종목 심층 뉴스", f"kis_tck_{tn.get('news_key', '')}", f"{tn.get('data_dt', '')}{tn.get('data_tm', '')}", [t], _now_kst_iso())
-                            except Exception: continue
+                                    news_key = tn.get('news_key', '')
+                                    link = f"kis_tck_{news_key}"
+                                    
+                                    with DATA_LOCK:
+                                        # 👇 [버그 수정] 이미 읽은 과거 뉴스는 큐에 넣지 않고 스킵합니다. (무한 분석 방지)
+                                        if not t_title or link in seen: 
+                                            continue
+                                        
+                                        valid_news.append((t_title, link, tn))
+                                        seen.add(link) # 메모리에 저장하여 중복 방지
+                                        try: mark_seen(link) # 파일에도 저장
+                                        except Exception: pass
+                                
+                                if valid_news:
+                                    print(f"📰 [KIS_TICKER_NEWS] {t} 새로운 개별 뉴스 {len(valid_news)}건 수집 -> AI 큐(2순위) 전달")
+                                    
+                                    for t_title, link, tn in valid_news:
+                                        # 수집 즉시 AI 분석 우선순위 큐(2순위)로 바로 전달
+                                        LLM_QUEUE.put((
+                                            PRIO_2_NEWS, 
+                                            next(QUEUE_COUNTER), 
+                                            "NEWS_ANALYSIS", 
+                                            _bg_process_news, 
+                                            (f"[{t}] {t_title}", "KIS 종목 심층 뉴스", link, f"{tn.get('data_dt', '')}{tn.get('data_tm', '')}", [t], _now_kst_iso()), 
+                                            {}
+                                        ))
+                            except Exception as e:
+                                # 👇 [숨은 에러 찾기] 조용히 넘어가지 않고 터미널에 에러의 원인을 출력합니다.
+                                print(f"⚠️ [KIS_TICKER_ERR] {t} 종목 뉴스 수집 실패: {e}")
+                                continue
                     
-                    # 메인 봇은 결과를 기다리지 않고 즉시 다음 단계로 넘어갑니다.
-                    LLM_EXECUTOR.submit(_bg_fetch_ticker_news, current_rss_tickers)
+                    # 메인 봇은 결과를 기다리지 않고 통신 전용 스레드(NETWORK_EXECUTOR)로 넘깁니다.
+                    NETWORK_EXECUTOR.submit(_bg_fetch_ticker_news, current_rss_tickers)
                     
                     if kis_brk_count > 0:
                         print(f"❌ [KIS_NEWS_API_ERR] KIS 서버 통신 장애로 뉴스 수집 실패: {e}")
@@ -1250,7 +1322,20 @@ def main() -> None:
                                 if is_urgent:
                                     if len(WATCHLIST) >= 20:
                                         removable = [wt for wt in WATCHLIST if float(get_position(positions, wt).qty) == 0 and wt not in inverse_tickers]
-                                        if removable: WATCHLIST.remove(removable[0])
+                                        if removable: 
+                                            kicked_out_t = removable[0]
+                                            # 👇 [버그 수정] 쫓겨나는 종목의 남은 찌꺼기 뉴스를 버리지 않고 요약하도록 4순위 큐에 강제 삽입!
+                                            LLM_QUEUE.put((
+                                                PRIO_4_BACKGROUND, next(QUEUE_COUNTER), 
+                                                f"MEMORY_FLUSH_{kicked_out_t}", 
+                                                _bg_force_update_news_memory, 
+                                                ([kicked_out_t],), {}
+                                            ))
+                                            QUEUE_STATUS[PRIO_4_BACKGROUND] += 1
+                                            
+                                            WATCHLIST.remove(kicked_out_t)
+                                            print(f"🧹 [MEMORY_FLUSH] {kicked_out_t} 종목이 감시에서 제외되며 남은 뉴스를 강제 요약합니다.")
+                                            
                                     WATCHLIST.append(t_upper)
                                     if t_upper not in current_rss_tickers: current_rss_tickers.append(t_upper)
                                     # 🚨 [주의] 스와핑 알림은 신속성을 위해 LOCK 안에서 유지하거나 즉시 처리
@@ -1302,6 +1387,7 @@ def main() -> None:
                     (title, cv_summary, link, published, candidates, loop_ts), # 함수에 들어갈 인자들
                     {}                        # kwargs (없으므로 빈 딕셔너리)
                 ))
+                with DATA_LOCK: QUEUE_STATUS[PRIO_2_NEWS] += 1
                 # 👆👆👆 [Block 6 교체 끝] 👆👆👆
                 analyzed_links += 1
                 seen.add(link)
@@ -1365,6 +1451,7 @@ def main() -> None:
                 (WATCHLIST,),           # 인자 (주의: 리스트 1개만 넣을 때는 뒤에 쉼표(,)가 필수입니다!)
                 {}
             ))
+            with DATA_LOCK: QUEUE_STATUS[PRIO_4_BACKGROUND] += 1
             # 👆👆👆 [Block 7-2 교체 끝] 👆👆👆
             # 👆👆👆 -------------------------------------------------------------
 
@@ -1835,6 +1922,7 @@ def main() -> None:
                             # 👉 3순위 큐에 투입하고 메인 루프는 즉시 다음으로 이동!
                             LLM_QUEUE.put((PRIO_3_DECISION, next(QUEUE_COUNTER), "DECISION", _async_decision_task, (ticker, prompt_kwargs, snapshot), {}))
                             decision_msg = f" decision=QUEUED_3RD_PRIO"
+                            with DATA_LOCK: QUEUE_STATUS[PRIO_3_DECISION] += 1
                         except Exception as e: 
                             decision_msg = f" decision_err={e!r}"
                 # 👆👆👆 [Block 4 교체 끝] 👆👆👆
@@ -1891,7 +1979,8 @@ def main() -> None:
 
                         # 👉 최우선 순위(1순위)로 큐에 투입! 하던 뉴스가 끝나면 즉시 이것부터 함.
                         LLM_QUEUE.put((PRIO_1_AIGATE, next(QUEUE_COUNTER), "AI_GATE", _async_ai_gate_task, (ticker, kwargs), {}))
-                        
+                        with DATA_LOCK: QUEUE_STATUS[PRIO_1_AIGATE] += 1
+
                         ai_msg = " ai_gate=REQUESTED"
                         plan_action, plan_qty = "HOLD", 0
                         plan_reason = f"REQUEST_AI: 매수 신호 포착! 1순위로 AI 승인 대기열에 등록함 | {plan_reason}"
@@ -2052,7 +2141,21 @@ def main() -> None:
 
                 reg_msg = f" regime={getattr(regime, 'label', None)}({float(getattr(regime, 'score', 0.0)):.2f})" if regime is not None else ""
                 
+                # 👇 [신규 추가] 매 틱마다 큐 상태 요약 확인
+                with DATA_LOCK:
+                    ai_gate_wait = QUEUE_STATUS[PRIO_1_AIGATE]
+                    news_wait = QUEUE_STATUS[PRIO_2_NEWS]
+                    dec_wait = QUEUE_STATUS[PRIO_3_DECISION]
+                    bg_wait = QUEUE_STATUS[PRIO_4_BACKGROUND]
+                
+                q_monitor_msg = f"[LLM 큐 대기] 🚨문지기:{ai_gate_wait} | 📰뉴스:{news_wait} | 🎯타점:{dec_wait} | 🧹백그라운드:{bg_wait} | 총:{LLM_QUEUE.qsize()}개"
+                
                 mode_prefix = "[TICK]" if is_combat_mode else "[RESEARCH]"
+                
+                # 큐에 작업이 하나라도 쌓여있으면 TICK 로그 전에 큐 상태 먼저 출력
+                if LLM_QUEUE.qsize() > 0:
+                    print(f"📊 {q_monitor_msg}")
+
                 print(f"{mode_prefix} {ticker} price={price_f} total={total:.2f} conf={conf_avg:.2f} news={news_used:.2f}(raw={raw_news:.2f},n={cnt}) val={vscore:.2f} ta={tscore:.2f}({tlabel}) raw_sig={sig.action} strength={sig.strength:.3f} pos_qty={pos.qty:.0f} pos_avg={pos.avg_price:.2f} plan={plan_action} qty={plan_qty} market_open={market_open}{reg_msg}{decision_msg}{ai_msg}{order_msg}{' block=' + block_reason if block_reason else ''} plan_reason={plan_reason[:120]}")
 
             try: save_state(positions, POS_PATH)

@@ -91,6 +91,8 @@ IMPORTANT RULES:
 
 [EVENT EXTRACTION RULE]
 - If the news mentions ANY FUTURE event date (keynote, product launch, earnings, etc.), fill `upcoming_event_date` and `upcoming_event_desc`.
+- 🚨 CRITICAL: ONLY extract the event IF AND ONLY IF the event is DIRECTLY hosted by or heavily features the MAIN SUBJECT COMPANY (the ticker).
+- DO NOT extract general macroeconomic events (like CPI releases, FOMC meetings) or general industry conferences (like CERAWeek, CES) UNLESS the main company is presenting a major keynote or product there. If the event is irrelevant to the specific company, leave it as "".
 - 🚨 CRITICAL: `upcoming_event_date` MUST be formatted EXACTLY as `YYYY-MM-DD`. Calculate the exact date based on the news `published` date if relative terms like 'Next Tuesday' are used.
 - If you cannot determine the exact `YYYY-MM-DD` date, leave `upcoming_event_date` as "". DO NOT use raw text like 'March 15' or 'Next week'.
 
